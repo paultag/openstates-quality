@@ -14,4 +14,4 @@ def files(d):
 for obj, path in files(sys.argv[1]):
     newobj = openstates.bill(obj['id'])
     with open(path, 'w') as fd:
-        fd.write(json.dumps(newobj))
+        fd.write(json.dumps(newobj, sort_keys=True, indent=4))
