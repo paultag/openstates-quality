@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+
+from sunlight import openstates
+import json
+import sys
+import os
+
+def files(d):
+    for x in os.listdir(d):
+        path = "%s/%s" % (d, x)
+        with open(path, 'r') as foo:
+            yield (json.load(foo), path)
+
+for obj, path in files(sys.argv[1]):
+    newobj = openstates.bill(obj['id'])
+    with open(path, 'w') as fd:
+        fd.write(json.dumps(newobj))
