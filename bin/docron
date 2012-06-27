@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd $DIR/../
+
+while read foo; do
+    ./bin/update-state files/$foo
+done < states
+
+git commit -am "Nightly update" --author="Paul's Server <daemon@pault.ag>"
+git push
