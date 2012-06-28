@@ -1,9 +1,10 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2012-05-17 00:00:00", 
-        "last": null, 
+        "last": "2012-05-22 00:00:00", 
         "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_upper": "2012-05-22 00:00:00", 
         "signed": null
     }, 
     "actions": [
@@ -14,6 +15,22 @@
             "type": [
                 "bill:introduced", 
                 "committee:referred"
+            ]
+        }, 
+        {
+            "action": "REPORTED TO CALENDAR FOR CONSIDERATION", 
+            "actor": "upper", 
+            "date": "2012-05-22 00:00:00", 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "ADOPTED", 
+            "actor": "upper", 
+            "date": "2012-05-22 00:00:00", 
+            "type": [
+                "bill:passed"
             ]
         }
     ], 
@@ -31,7 +48,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1396"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1506"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J4746-2011"
@@ -52,7 +69,7 @@
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-05-22 01:08:44", 
+    "updated_at": "2012-06-27 21:39:40", 
     "versions": [
         {
             "doc_id": "NYD00026585", 
