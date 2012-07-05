@@ -1,7 +1,8 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-01-24 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-05-02 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -40,6 +41,23 @@
             "type": [
                 "committee:referred"
             ]
+        }, 
+        {
+            "action": "AMEND AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+            "actor": "upper", 
+            "date": "2012-05-02 00:00:00", 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "PRINT NUMBER 2499B", 
+            "actor": "upper", 
+            "date": "2012-05-02 00:00:00", 
+            "type": [
+                "other"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -56,7 +74,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=151"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=158"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S2499-2011"
@@ -77,12 +95,22 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-09 06:30:00", 
+    "updated_at": "2012-07-05 02:11:50", 
     "versions": [
         {
-            "doc_id": "NYD00016312", 
+            "doc_id": "NYD00042012", 
             "name": "S2499", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S2499-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/S2499-2011"
+        }, 
+        {
+            "doc_id": "NYD00042013", 
+            "name": "S2499A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2499A-2011"
+        }, 
+        {
+            "doc_id": "NYD00042014", 
+            "name": "S2499B", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2499B-2011"
         }
     ], 
     "votes": []

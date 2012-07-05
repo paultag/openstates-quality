@@ -1,7 +1,8 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-06-10 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-05-31 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -23,6 +24,23 @@
             "type": [
                 "committee:referred"
             ]
+        }, 
+        {
+            "action": "AMEND AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+            "actor": "upper", 
+            "date": "2012-05-31 00:00:00", 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "PRINT NUMBER 5699A", 
+            "actor": "upper", 
+            "date": "2012-05-31 00:00:00", 
+            "type": [
+                "other"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -39,7 +57,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=378"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=388"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S5699-2011"
@@ -60,12 +78,17 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-16 01:07:38", 
+    "updated_at": "2012-07-05 02:11:55", 
     "versions": [
         {
-            "doc_id": "NYD00021010", 
+            "doc_id": "NYD00042223", 
             "name": "S5699", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S5699-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/S5699-2011"
+        }, 
+        {
+            "doc_id": "NYD00042224", 
+            "name": "S5699A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5699A-2011"
         }
     ], 
     "votes": []
