@@ -1,15 +1,15 @@
 {
     "action_dates": {
         "first": "2010-06-14 00:00:00", 
-        "last": "2011-12-15 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
-        "signed": null
+        "last": "2012-01-05 00:00:00", 
+        "passed_lower": "2011-06-23 00:00:00", 
+        "passed_upper": "2011-12-15 00:00:00", 
+        "signed": "2012-01-05 00:00:00"
     }, 
     "actions": [
         {
             "action": "Introduced in the Assembly, Referred to Assembly Human Services Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-06-14 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported and Referred to Assembly Appropriations Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-11-15 00:00:00", 
             "type": [
                 "committee:referred"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Reported out of Assembly Committee with Amendments, 2nd Reading", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
             "type": [
                 "committee:passed"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Passed Assembly (77-0-0)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-06-23 00:00:00", 
             "type": [
                 "bill:passed"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Received in the Senate, Referred to Senate Budget and Appropriations Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-06-23 00:00:00", 
             "type": [
                 "committee:referred"
@@ -50,7 +50,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-09-22 00:00:00", 
             "type": [
                 "committee:passed"
@@ -58,7 +58,7 @@
         }, 
         {
             "action": "Substituted for S2028 (1R)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-12-15 00:00:00", 
             "type": [
                 "other"
@@ -66,10 +66,18 @@
         }, 
         {
             "action": "Passed Senate (Passed Both Houses) (39-0)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-12-15 00:00:00", 
             "type": [
                 "bill:passed"
+            ]
+        }, 
+        {
+            "action": "Approved P.L.2011, c.163.", 
+            "actor": "executive", 
+            "date": "2012-01-05 00:00:00", 
+            "type": [
+                "governor:signed"
             ]
         }
     ], 
@@ -103,6 +111,16 @@
             "doc_id": "NJD00017372", 
             "name": "Statement SBA 9/23/11 1R", 
             "url": "http://www.njleg.state.nj.us/2010/Bills/A3000/2878_S3.HTM"
+        }, 
+        {
+            "doc_id": "NJD00035422", 
+            "name": "Advance Law", 
+            "url": "http://www.njleg.state.nj.us/2010/Bills/AL11/163_.HTM"
+        }, 
+        {
+            "doc_id": "NJD00035423", 
+            "name": "Pamphlet Law", 
+            "url": "http://www.njleg.state.nj.us/2010/Bills/PL11/163_.HTM"
         }
     ], 
     "id": "NJB00002758", 
@@ -170,7 +188,7 @@
             "type": "Co-sponsor"
         }, 
         {
-            "leg_id": "NJL000043", 
+            "leg_id": null, 
             "name": "Greenstein, Linda R.", 
             "type": "Co-sponsor"
         }, 
@@ -188,7 +206,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-05 00:05:35", 
+    "updated_at": "2012-07-06 21:50:16", 
     "versions": [
         {
             "doc_id": "NJD00017366", 
@@ -846,7 +864,7 @@
             "+bill_id": "A2878", 
             "chamber": "upper", 
             "committee": "Senate Budget and Appropriations Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000060", 
             "date": "2011-09-22 00:00:00", 
             "motion": "Reported favorably out of committee", 
             "no_count": 0, 

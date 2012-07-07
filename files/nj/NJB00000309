@@ -2,14 +2,14 @@
     "action_dates": {
         "first": "2010-01-12 00:00:00", 
         "last": "2011-01-05 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_lower": "2010-06-21 00:00:00", 
+        "passed_upper": "2010-11-22 00:00:00", 
         "signed": "2011-01-05 00:00:00"
     }, 
     "actions": [
         {
             "action": "Introduced in the Assembly, Referred to Assembly Financial Institutions and Insurance Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-01-12 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported out of Assembly Committee with Amendments, 2nd Reading", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-06-10 00:00:00", 
             "type": [
                 "committee:passed"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Passed Assembly (80-0-0)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-06-21 00:00:00", 
             "type": [
                 "bill:passed"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Received in the Senate, Referred to Senate Commerce Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-21 00:00:00", 
             "type": [
                 "committee:referred"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-11-08 00:00:00", 
             "type": [
                 "committee:passed"
@@ -50,7 +50,7 @@
         }, 
         {
             "action": "Substituted for S1846 (1R)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-11-22 00:00:00", 
             "type": [
                 "other"
@@ -58,7 +58,7 @@
         }, 
         {
             "action": "Passed Senate (Passed Both Houses) (36-0)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-11-22 00:00:00", 
             "type": [
                 "bill:passed"
@@ -66,7 +66,7 @@
         }, 
         {
             "action": "Approved P.L.2010, c.119.", 
-            "actor": "G", 
+            "actor": "executive", 
             "date": "2011-01-05 00:00:00", 
             "type": [
                 "governor:signed"
@@ -163,7 +163,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2011-12-03 00:55:12", 
+    "updated_at": "2012-07-06 21:49:39", 
     "versions": [
         {
             "doc_id": "NJD00019715", 
@@ -692,7 +692,7 @@
             "+bill_id": "A410", 
             "chamber": "upper", 
             "committee": "Senate Commerce Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000061", 
             "date": "2010-11-08 00:00:00", 
             "motion": "Reported favorably out of committee", 
             "no_count": 0, 

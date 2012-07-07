@@ -2,14 +2,14 @@
     "action_dates": {
         "first": "2010-06-14 00:00:00", 
         "last": "2010-10-07 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_lower": "2010-06-28 00:00:00", 
+        "passed_upper": "2010-06-28 00:00:00", 
         "signed": "2010-10-07 00:00:00"
     }, 
     "actions": [
         {
             "action": "Introduced in the Assembly, Referred to Assembly Human Services Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-06-14 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Transferred to Assembly Budget Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-06-24 00:00:00", 
             "type": [
                 "committee:referred"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Reported out of Assembly Committee, 2nd Reading", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-06-24 00:00:00", 
             "type": [
                 "committee:passed"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Passed Assembly (78-0-0)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-06-28 00:00:00", 
             "type": [
                 "bill:passed"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Received in the Senate without Reference, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-28 00:00:00", 
             "type": [
                 "other"
@@ -50,7 +50,7 @@
         }, 
         {
             "action": "Substituted for S2069", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-28 00:00:00", 
             "type": [
                 "other"
@@ -58,7 +58,7 @@
         }, 
         {
             "action": "Passed Senate (Passed Both Houses) (40-0)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-28 00:00:00", 
             "type": [
                 "bill:passed"
@@ -66,7 +66,7 @@
         }, 
         {
             "action": "Conditional Veto, Received in the Assembly", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-09-13 00:00:00", 
             "type": [
                 "governor:vetoed"
@@ -74,7 +74,7 @@
         }, 
         {
             "action": "First Reading/Governor Recommendations Only", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-09-20 00:00:00", 
             "type": [
                 "other"
@@ -82,7 +82,7 @@
         }, 
         {
             "action": "2nd Reading in the Assembly on Concur. w/Gov's Recommendations", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-09-20 00:00:00", 
             "type": [
                 "other"
@@ -90,7 +90,7 @@
         }, 
         {
             "action": "Passed Assembly (74-0-0)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-09-30 00:00:00", 
             "type": [
                 "bill:passed"
@@ -98,7 +98,7 @@
         }, 
         {
             "action": "Received in the Senate, 2nd Reading - Concur. w/Gov's Recommendations", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-09-30 00:00:00", 
             "type": [
                 "other"
@@ -106,7 +106,7 @@
         }, 
         {
             "action": "Emergency Resolution (38-0) (Codey)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-09-30 00:00:00", 
             "type": [
                 "other"
@@ -114,7 +114,7 @@
         }, 
         {
             "action": "Passed Senate (Passed Both Houses) (37-0)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-09-30 00:00:00", 
             "type": [
                 "bill:passed"
@@ -122,7 +122,7 @@
         }, 
         {
             "action": "Approved P.L.2010, c.81.", 
-            "actor": "G", 
+            "actor": "executive", 
             "date": "2010-10-07 00:00:00", 
             "type": [
                 "governor:signed"
@@ -249,7 +249,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2011-09-27 00:46:00", 
+    "updated_at": "2012-07-06 21:49:45", 
     "versions": [
         {
             "doc_id": "NJD00017334", 

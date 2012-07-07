@@ -2,14 +2,14 @@
     "action_dates": {
         "first": "2010-10-18 00:00:00", 
         "last": "2011-01-28 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_lower": "2011-01-10 00:00:00", 
+        "passed_upper": "2010-11-22 00:00:00", 
         "signed": "2011-01-28 00:00:00"
     }, 
     "actions": [
         {
             "action": "Introduced in the Senate, Referred to Senate Environment and Energy Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-10-18 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee with Amendments, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-11-15 00:00:00", 
             "type": [
                 "committee:passed"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Passed Senate (25-10)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-11-22 00:00:00", 
             "type": [
                 "bill:passed"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Received in the Assembly, Referred to Assembly Telecommunications and Utilities Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-11-22 00:00:00", 
             "type": [
                 "committee:referred"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Reported out of Assembly Committee with Amendments, 2nd Reading", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-12-13 00:00:00", 
             "type": [
                 "committee:passed"
@@ -50,7 +50,7 @@
         }, 
         {
             "action": "Assembly Floor Amendment Passed (Chivukula)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-01-06 00:00:00", 
             "type": [
                 "amendment:passed"
@@ -58,7 +58,7 @@
         }, 
         {
             "action": "Substituted for A3442 (2R)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-01-10 00:00:00", 
             "type": [
                 "other"
@@ -66,7 +66,7 @@
         }, 
         {
             "action": "Assembly Floor Amendment Passed (Chivukula)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-01-10 00:00:00", 
             "type": [
                 "amendment:passed"
@@ -74,7 +74,7 @@
         }, 
         {
             "action": "Emergency Resolution (Chivukula) (70-3-3)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-01-10 00:00:00", 
             "type": [
                 "other"
@@ -82,7 +82,7 @@
         }, 
         {
             "action": "Passed Assembly (57-15-5)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-01-10 00:00:00", 
             "type": [
                 "bill:passed"
@@ -90,7 +90,7 @@
         }, 
         {
             "action": "Received in the Senate, 2nd Reading on Concurrence", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-01-10 00:00:00", 
             "type": [
                 "other"
@@ -98,7 +98,7 @@
         }, 
         {
             "action": "Passed Senate (Passed Both Houses) (21-6)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-01-10 00:00:00", 
             "type": [
                 "bill:passed"
@@ -106,7 +106,7 @@
         }, 
         {
             "action": "Approved P.L.2011, c.9.", 
-            "actor": "G", 
+            "actor": "executive", 
             "date": "2011-01-28 00:00:00", 
             "type": [
                 "governor:signed"
@@ -238,7 +238,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2011-11-11 01:13:07", 
+    "updated_at": "2012-07-06 21:50:11", 
     "versions": [
         {
             "doc_id": "NJD00024405", 
@@ -1351,7 +1351,7 @@
             "+bill_id": "S2381", 
             "chamber": "upper", 
             "committee": "Senate Environment and Energy Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000064", 
             "date": "2010-11-15 00:00:00", 
             "motion": "Reported out of Senate committee with amendments", 
             "no_count": 1, 

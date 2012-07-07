@@ -3,13 +3,13 @@
         "first": "2011-09-26 00:00:00", 
         "last": "2012-01-09 00:00:00", 
         "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_upper": "2012-01-09 00:00:00", 
         "signed": null
     }, 
     "actions": [
         {
             "action": "Introduced in the Senate, Referred to Senate Budget and Appropriations Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-09-26 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee with Amendments, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-11-10 00:00:00", 
             "type": [
                 "committee:passed"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Senate Substitution (21-12) (Gordon)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-12-15 00:00:00", 
             "type": [
                 "other"
@@ -34,10 +34,18 @@
         }, 
         {
             "action": "Passed Senate (24-14)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2012-01-09 00:00:00", 
             "type": [
                 "bill:passed"
+            ]
+        }, 
+        {
+            "action": "Received in the Assembly", 
+            "actor": "lower", 
+            "date": "2012-01-09 00:00:00", 
+            "type": [
+                "other"
             ]
         }
     ], 
@@ -56,6 +64,11 @@
             "doc_id": "NJD00025868", 
             "name": "Legislative Fiscal Estimate 11/21/11; 1R", 
             "url": "http://www.njleg.state.nj.us/2010/Bills/S3500/3077_E2.HTM"
+        }, 
+        {
+            "doc_id": "NJD00035457", 
+            "name": "Legislative Fiscal Estimate 1/10/12; S3100 SCS", 
+            "url": "http://www.njleg.state.nj.us/2010/Bills/S3500/3077_E3.HTM"
         }, 
         {
             "doc_id": "NJD00025869", 
@@ -115,7 +128,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-10 00:24:24", 
+    "updated_at": "2012-07-06 22:04:02", 
     "versions": [
         {
             "doc_id": "NJD00025864", 
@@ -317,7 +330,7 @@
             "+bill_id": "S3077", 
             "chamber": "upper", 
             "committee": "Senate Budget and Appropriations Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000060", 
             "date": "2011-10-13 00:00:00", 
             "motion": "Reported favorably out of committee", 
             "no_count": 1, 

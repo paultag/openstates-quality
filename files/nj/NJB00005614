@@ -3,13 +3,13 @@
         "first": "2010-05-27 00:00:00", 
         "last": "2010-06-28 00:00:00", 
         "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_upper": "2010-06-28 00:00:00", 
         "signed": null
     }, 
     "actions": [
         {
             "action": "Introduced in the Senate, Referred to Senate Environment and Energy Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-05-27 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee with Amendments, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-03 00:00:00", 
             "type": [
                 "committee:passed"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Referred to Senate Budget and Appropriations Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-03 00:00:00", 
             "type": [
                 "committee:referred"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-21 00:00:00", 
             "type": [
                 "committee:passed"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Passed Senate (30-9)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-28 00:00:00", 
             "type": [
                 "bill:passed"
@@ -50,7 +50,7 @@
         }, 
         {
             "action": "Received in the Assembly, Referred to Assembly Appropriations Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-06-28 00:00:00", 
             "type": [
                 "committee:referred"
@@ -132,7 +132,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2011-09-27 00:46:48", 
+    "updated_at": "2012-07-06 21:50:24", 
     "versions": [
         {
             "doc_id": "NJD00023438", 
@@ -329,7 +329,7 @@
             "+bill_id": "S1977", 
             "chamber": "upper", 
             "committee": "Senate Budget and Appropriations Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000060", 
             "date": "2010-06-21 00:00:00", 
             "motion": "Reported favorably out of committee", 
             "no_count": 5, 
@@ -401,7 +401,7 @@
             "+bill_id": "S1977", 
             "chamber": "upper", 
             "committee": "Senate Environment and Energy Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000064", 
             "date": "2010-06-03 00:00:00", 
             "motion": "Reported out of Senate committee with amendments", 
             "no_count": 0, 

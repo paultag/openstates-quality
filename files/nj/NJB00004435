@@ -3,13 +3,13 @@
         "first": "2010-01-12 00:00:00", 
         "last": "2010-10-07 00:00:00", 
         "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_upper": "2010-09-30 00:00:00", 
         "signed": null
     }, 
     "actions": [
         {
             "action": "Introduced in the Senate, Referred to Senate Environment and Energy Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-01-12 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee with Amendments, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-09-23 00:00:00", 
             "type": [
                 "committee:passed"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Passed Senate (34-0)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-09-30 00:00:00", 
             "type": [
                 "bill:passed"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Received in the Assembly, Referred to Assembly State Government Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-10-07 00:00:00", 
             "type": [
                 "committee:referred"
@@ -83,7 +83,7 @@
             "type": "Primary"
         }, 
         {
-            "leg_id": "NJL000043", 
+            "leg_id": null, 
             "name": "Greenstein, Linda R.", 
             "type": "Primary"
         }, 
@@ -101,7 +101,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-05 00:05:31", 
+    "updated_at": "2012-07-06 21:50:10", 
     "versions": [
         {
             "doc_id": "NJD00026905", 
@@ -297,7 +297,7 @@
             "+bill_id": "S793", 
             "chamber": "upper", 
             "committee": "Senate Environment and Energy Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000064", 
             "date": "2010-09-23 00:00:00", 
             "motion": "Reported out of Senate committee with amendments", 
             "no_count": 0, 

@@ -9,7 +9,7 @@
     "actions": [
         {
             "action": "Introduced in the Senate, Referred to Senate Economic Growth Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2012-01-05 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee with Amendments, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2012-01-05 00:00:00", 
             "type": [
                 "committee:passed"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Substituted by A2665 (1R)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2012-01-09 00:00:00", 
             "type": [
                 "other"
@@ -70,7 +70,7 @@
     ], 
     "sponsors": [
         {
-            "leg_id": "NJL000015", 
+            "leg_id": null, 
             "name": "Norcross, Donald", 
             "type": "Primary"
         }, 
@@ -78,6 +78,11 @@
             "leg_id": "NJL000072", 
             "name": "Oroho, Steven V.", 
             "type": "Primary"
+        }, 
+        {
+            "leg_id": "NJL000020", 
+            "name": "Allen, Diane B.", 
+            "type": "Co-sponsor"
         }
     ], 
     "state": "nj", 
@@ -88,7 +93,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-10 00:24:00", 
+    "updated_at": "2012-07-06 21:49:55", 
     "versions": [
         {
             "doc_id": "NJD00026050", 
@@ -101,5 +106,54 @@
             "url": "http://www.njleg.state.nj.us/2010/Bills/S3500/3184_R1.HTM"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+bill_id": "S3184", 
+            "chamber": "upper", 
+            "committee": "Senate Economic Growth Committee", 
+            "committee_id": "NJC000063", 
+            "date": "2012-01-05 00:00:00", 
+            "motion": "Reported out of Senate committee with amendments", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NJL000093", 
+                    "name": "Cunningham, Sandra B."
+                }
+            ], 
+            "passed": true, 
+            "sources": [], 
+            "type": "other", 
+            "vote_id": "NJV00008817", 
+            "yes_count": 6, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000038", 
+                    "name": "Kyrillos, Joseph M."
+                }, 
+                {
+                    "leg_id": "NJL000060", 
+                    "name": "Lesniak, Raymond J."
+                }, 
+                {
+                    "leg_id": "NJL000081", 
+                    "name": "Codey, Richard J."
+                }, 
+                {
+                    "leg_id": "NJL000090", 
+                    "name": "Singer, Robert W."
+                }, 
+                {
+                    "leg_id": "NJL000057", 
+                    "name": "Vitale, Joseph F."
+                }, 
+                {
+                    "leg_id": "NJL000072", 
+                    "name": "Oroho, Steven V."
+                }
+            ]
+        }
+    ]
 }

@@ -3,13 +3,13 @@
         "first": "2010-01-12 00:00:00", 
         "last": "2011-06-13 00:00:00", 
         "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_upper": "2011-06-09 00:00:00", 
         "signed": null
     }, 
     "actions": [
         {
             "action": "Introduced in the Senate, Referred to Senate Community and Urban Affairs Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-01-12 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-05-12 00:00:00", 
             "type": [
                 "committee:passed"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Senate Amendment (32-0) (Vitale)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-05-23 00:00:00", 
             "type": [
                 "amendment:passed"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Passed Senate (22-14)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-06-09 00:00:00", 
             "type": [
                 "bill:passed"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Received in the Assembly, Referred to Assembly Housing and Local Government Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
             "type": [
                 "committee:referred"
@@ -121,7 +121,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2011-09-27 00:46:13", 
+    "updated_at": "2012-07-06 21:49:58", 
     "versions": [
         {
             "doc_id": "NJD00026932", 
@@ -496,7 +496,7 @@
             "+bill_id": "S805", 
             "chamber": "upper", 
             "committee": "Senate Community and Urban Affairs Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000062", 
             "date": "2011-05-12 00:00:00", 
             "motion": "Reported favorably out of committee", 
             "no_count": 2, 

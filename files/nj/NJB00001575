@@ -2,14 +2,14 @@
     "action_dates": {
         "first": "2010-01-12 00:00:00", 
         "last": "2010-09-30 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_lower": "2010-05-20 00:00:00", 
+        "passed_upper": "2010-06-10 00:00:00", 
         "signed": null
     }, 
     "actions": [
         {
             "action": "Introduced in the Assembly, Referred to Assembly Budget Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-01-12 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Transferred to Assembly Appropriations Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-03-04 00:00:00", 
             "type": [
                 "committee:referred"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Reported out of Assembly Committee with Amendments, 2nd Reading", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-05-13 00:00:00", 
             "type": [
                 "committee:passed"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Passed Assembly (67-8-2)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-05-20 00:00:00", 
             "type": [
                 "bill:passed"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Received in the Senate without Reference, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-05-20 00:00:00", 
             "type": [
                 "other"
@@ -50,7 +50,7 @@
         }, 
         {
             "action": "Substituted for S692 (1R)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-10 00:00:00", 
             "type": [
                 "other"
@@ -58,7 +58,7 @@
         }, 
         {
             "action": "Passed Senate (Passed Both Houses) (38-0)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-10 00:00:00", 
             "type": [
                 "bill:passed"
@@ -66,7 +66,7 @@
         }, 
         {
             "action": "Absolute Veto, Received in the Assembly", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-09-13 00:00:00", 
             "type": [
                 "governor:vetoed"
@@ -74,7 +74,7 @@
         }, 
         {
             "action": "Lost in the Assembly AVOR (42-32-1) (Greenwald)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-09-30 00:00:00", 
             "type": [
                 "other"
@@ -194,7 +194,7 @@
             "type": "Co-sponsor"
         }, 
         {
-            "leg_id": "NJL000043", 
+            "leg_id": null, 
             "name": "Greenstein, Linda R.", 
             "type": "Co-sponsor"
         }, 
@@ -259,7 +259,7 @@
             "type": "Co-sponsor"
         }, 
         {
-            "leg_id": "NJL000015", 
+            "leg_id": null, 
             "name": "Norcross, Donald", 
             "type": "Co-sponsor"
         }, 
@@ -328,7 +328,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2011-12-14 01:19:09", 
+    "updated_at": "2012-07-06 21:50:03", 
     "versions": [
         {
             "doc_id": "NJD00015226", 

@@ -2,14 +2,14 @@
     "action_dates": {
         "first": "2011-05-19 00:00:00", 
         "last": "2011-08-17 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_lower": "2011-06-23 00:00:00", 
+        "passed_upper": "2011-06-09 00:00:00", 
         "signed": "2011-08-17 00:00:00"
     }, 
     "actions": [
         {
             "action": "Introduced in the Senate, Referred to Senate Budget and Appropriations Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-05-19 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-06-06 00:00:00", 
             "type": [
                 "committee:passed"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Passed Senate (37-0)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-06-09 00:00:00", 
             "type": [
                 "bill:passed"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Received in the Assembly without Reference, 2nd Reading", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
             "type": [
                 "other"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Substituted for A4061", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-06-23 00:00:00", 
             "type": [
                 "other"
@@ -50,7 +50,7 @@
         }, 
         {
             "action": "Passed Assembly (Passed Both Houses) (78-0-0)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-06-23 00:00:00", 
             "type": [
                 "bill:passed"
@@ -58,7 +58,7 @@
         }, 
         {
             "action": "Approved P.L.2011, c.99.", 
-            "actor": "G", 
+            "actor": "executive", 
             "date": "2011-08-17 00:00:00", 
             "type": [
                 "governor:signed"
@@ -114,7 +114,7 @@
     ], 
     "sponsors": [
         {
-            "leg_id": "NJL000043", 
+            "leg_id": null, 
             "name": "Greenstein, Linda R.", 
             "type": "Primary"
         }, 
@@ -254,7 +254,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2011-09-27 00:46:26", 
+    "updated_at": "2012-07-06 21:50:07", 
     "versions": [
         {
             "doc_id": "NJD00025455", 
@@ -779,7 +779,7 @@
             "+bill_id": "S2895", 
             "chamber": "upper", 
             "committee": "Senate Budget and Appropriations Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000060", 
             "date": "2011-06-06 00:00:00", 
             "motion": "Reported favorably out of committee", 
             "no_count": 0, 

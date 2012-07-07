@@ -2,14 +2,14 @@
     "action_dates": {
         "first": "2010-02-18 00:00:00", 
         "last": "2011-01-05 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_lower": "2010-12-13 00:00:00", 
+        "passed_upper": "2010-12-13 00:00:00", 
         "signed": "2011-01-05 00:00:00"
     }, 
     "actions": [
         {
             "action": "Introduced in the Assembly, Referred to Assembly Environment and Solid Waste Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-02-18 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported out of Assembly Committee with Amendments, 2nd Reading", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-09-13 00:00:00", 
             "type": [
                 "committee:passed"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Assembly Floor Amendment Passed (McKeon)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-11-22 00:00:00", 
             "type": [
                 "amendment:passed"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Passed Assembly (66-7-1)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-12-13 00:00:00", 
             "type": [
                 "bill:passed"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Received in the Senate without Reference, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-12-13 00:00:00", 
             "type": [
                 "other"
@@ -50,7 +50,7 @@
         }, 
         {
             "action": "Senate Amendment (33-2) (Smith)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-12-13 00:00:00", 
             "type": [
                 "amendment:passed"
@@ -58,7 +58,7 @@
         }, 
         {
             "action": "Substituted for S2554", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-12-13 00:00:00", 
             "type": [
                 "other"
@@ -66,7 +66,7 @@
         }, 
         {
             "action": "Passed Senate (36-3)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-12-13 00:00:00", 
             "type": [
                 "bill:passed"
@@ -74,7 +74,7 @@
         }, 
         {
             "action": "Received in the Assembly, 2nd Reading on Concurrence", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-12-13 00:00:00", 
             "type": [
                 "other"
@@ -82,7 +82,7 @@
         }, 
         {
             "action": "Passed Assembly (Passed Both Houses) (67-6-0)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-12-13 00:00:00", 
             "type": [
                 "bill:passed"
@@ -90,7 +90,7 @@
         }, 
         {
             "action": "Approved P.L.2010, c.112.", 
-            "actor": "G", 
+            "actor": "executive", 
             "date": "2011-01-05 00:00:00", 
             "type": [
                 "governor:signed"
@@ -286,7 +286,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2011-12-14 01:19:01", 
+    "updated_at": "2012-07-06 21:49:54", 
     "versions": [
         {
             "doc_id": "NJD00016206", 

@@ -2,14 +2,14 @@
     "action_dates": {
         "first": "2010-06-21 00:00:00", 
         "last": "2010-06-29 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_lower": "2010-06-28 00:00:00", 
+        "passed_upper": "2010-06-28 00:00:00", 
         "signed": "2010-06-29 00:00:00"
     }, 
     "actions": [
         {
             "action": "Introduced in the Senate, Referred to Senate Budget and Appropriations Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-21 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-24 00:00:00", 
             "type": [
                 "committee:passed"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Passed Senate (21-19)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-28 00:00:00", 
             "type": [
                 "bill:passed"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Received in the Assembly without Reference, 2nd Reading", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-06-28 00:00:00", 
             "type": [
                 "other"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Substituted for A3012", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-06-28 00:00:00", 
             "type": [
                 "other"
@@ -50,7 +50,7 @@
         }, 
         {
             "action": "Passed Assembly (Passed Both Houses) (41-37-0)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-06-28 00:00:00", 
             "type": [
                 "bill:passed"
@@ -58,7 +58,7 @@
         }, 
         {
             "action": "Approved P.L.2010, c.34.", 
-            "actor": "G", 
+            "actor": "executive", 
             "date": "2010-06-29 00:00:00", 
             "type": [
                 "governor:signed"
@@ -152,7 +152,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-05 00:05:02", 
+    "updated_at": "2012-07-06 21:49:37", 
     "versions": [
         {
             "doc_id": "NJD00023725", 
@@ -678,7 +678,7 @@
             "+bill_id": "S2089", 
             "chamber": "upper", 
             "committee": "Senate Budget and Appropriations Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000060", 
             "date": "2010-06-23 00:00:00", 
             "motion": "Reported favorably out of committee", 
             "no_count": 4, 

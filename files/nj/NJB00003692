@@ -2,14 +2,14 @@
     "action_dates": {
         "first": "2010-01-19 00:00:00", 
         "last": "2011-02-07 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_lower": "2010-12-13 00:00:00", 
+        "passed_upper": "2010-06-10 00:00:00", 
         "signed": null
     }, 
     "actions": [
         {
             "action": "Introduced in the Senate, Referred to Senate Economic Growth Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-01-19 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported from Senate Committee as a Substitute, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-03-15 00:00:00", 
             "type": [
                 "other"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Senate Amendment (23-2) (Lesniak)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-03-22 00:00:00", 
             "type": [
                 "amendment:passed"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Recommitted to Senate Economic Growth Committee (Voice) (Lesniak)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-05-20 00:00:00", 
             "type": [
                 "committee:referred"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Reported from Senate Committee as a Substitute, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-03 00:00:00", 
             "type": [
                 "other"
@@ -50,7 +50,7 @@
         }, 
         {
             "action": "Passed Senate (28-3)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-10 00:00:00", 
             "type": [
                 "bill:passed"
@@ -58,7 +58,7 @@
         }, 
         {
             "action": "Received in the Assembly, Referred to Assembly Housing and Local Government Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-06-10 00:00:00", 
             "type": [
                 "committee:referred"
@@ -66,7 +66,7 @@
         }, 
         {
             "action": "Reported out of Assembly Committee with Amendments, 2nd Reading", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-11-08 00:00:00", 
             "type": [
                 "committee:passed"
@@ -74,7 +74,7 @@
         }, 
         {
             "action": "Recommitted to Assembly Housing and Local Government Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-12-06 00:00:00", 
             "type": [
                 "committee:referred"
@@ -82,7 +82,7 @@
         }, 
         {
             "action": "Reported out of Assembly Committee with Amendments, 2nd Reading", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-12-09 00:00:00", 
             "type": [
                 "committee:passed"
@@ -90,7 +90,7 @@
         }, 
         {
             "action": "Substituted for A3447 (2R)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-12-13 00:00:00", 
             "type": [
                 "other"
@@ -98,7 +98,7 @@
         }, 
         {
             "action": "Motion To Aa (Polistina)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-12-13 00:00:00", 
             "type": [
                 "other"
@@ -106,7 +106,7 @@
         }, 
         {
             "action": "Motion To Table (Cryan) (43-32-0)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-12-13 00:00:00", 
             "type": [
                 "other"
@@ -114,7 +114,7 @@
         }, 
         {
             "action": "Passed Assembly (43-32-0)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-12-13 00:00:00", 
             "type": [
                 "bill:passed"
@@ -122,15 +122,15 @@
         }, 
         {
             "action": "Received in the Senate, 2nd Reading on Concurrence", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-12-13 00:00:00", 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "CONCUR SA (21-16) (Lesniak)", 
-            "actor": "S", 
+            "action": "Concurred by Senate Amendments (21-16) (Lesniak)", 
+            "actor": "upper", 
             "date": "2011-01-10 00:00:00", 
             "type": [
                 "other"
@@ -138,7 +138,7 @@
         }, 
         {
             "action": "Received in the Assembly, 2nd Reading on Concurrence", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-01-10 00:00:00", 
             "type": [
                 "other"
@@ -146,7 +146,7 @@
         }, 
         {
             "action": "Passed Assembly (Passed Both Houses) (45-32-0)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-01-10 00:00:00", 
             "type": [
                 "bill:passed"
@@ -154,7 +154,7 @@
         }, 
         {
             "action": "Conditional Veto, Received in the Senate", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-01-25 00:00:00", 
             "type": [
                 "governor:vetoed"
@@ -162,7 +162,7 @@
         }, 
         {
             "action": "Withdrawn from Consideration", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-02-07 00:00:00", 
             "type": [
                 "bill:withdrawn"
@@ -299,7 +299,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2011-12-03 00:55:18", 
+    "updated_at": "2012-07-06 21:49:48", 
     "versions": [
         {
             "doc_id": "NJD00021631", 
@@ -1953,7 +1953,7 @@
             "+bill_id": "S1", 
             "chamber": "upper", 
             "committee": "Senate Economic Growth Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000063", 
             "date": "2010-03-15 00:00:00", 
             "motion": "Reported out of Senate committee as a substitute", 
             "no_count": 0, 

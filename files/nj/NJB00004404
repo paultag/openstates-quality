@@ -3,13 +3,13 @@
         "first": "2010-01-12 00:00:00", 
         "last": "2010-03-11 00:00:00", 
         "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_upper": "2010-03-11 00:00:00", 
         "signed": null
     }, 
     "actions": [
         {
             "action": "Introduced in the Senate, Referred to Senate Community and Urban Affairs Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-01-12 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-02-18 00:00:00", 
             "type": [
                 "committee:passed"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Referred to Senate Budget and Appropriations Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-02-18 00:00:00", 
             "type": [
                 "committee:referred"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-03-04 00:00:00", 
             "type": [
                 "committee:passed"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Passed Senate (37-0)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-03-11 00:00:00", 
             "type": [
                 "bill:passed"
@@ -50,7 +50,7 @@
         }, 
         {
             "action": "Received in the Assembly, Referred to Assembly Military and Veterans' Affairs Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-03-11 00:00:00", 
             "type": [
                 "committee:referred"
@@ -132,7 +132,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2011-12-03 00:55:21", 
+    "updated_at": "2012-07-06 21:49:53", 
     "versions": [
         {
             "doc_id": "NJD00026837", 
@@ -319,7 +319,7 @@
             "+bill_id": "S762", 
             "chamber": "upper", 
             "committee": "Senate Budget and Appropriations Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000060", 
             "date": "2010-02-18 00:00:00", 
             "motion": "Reported favorably out of committee", 
             "no_count": 0, 

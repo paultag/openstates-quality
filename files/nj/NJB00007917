@@ -2,14 +2,14 @@
     "action_dates": {
         "first": "2011-09-19 00:00:00", 
         "last": "2012-01-05 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_lower": "2011-12-15 00:00:00", 
+        "passed_upper": "2011-09-26 00:00:00", 
         "signed": "2012-01-05 00:00:00"
     }, 
     "actions": [
         {
             "action": "Introduced in the Senate, Referred to Senate Economic Growth Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-09-19 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee with Amendments, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-09-19 00:00:00", 
             "type": [
                 "committee:passed"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Referred to Senate Budget and Appropriations Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-09-19 00:00:00", 
             "type": [
                 "committee:referred"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee with Amendments, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-09-22 00:00:00", 
             "type": [
                 "committee:passed"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Senate Amendment (37-0) (Lesniak)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-09-26 00:00:00", 
             "type": [
                 "amendment:passed"
@@ -50,7 +50,7 @@
         }, 
         {
             "action": "Emergency Resolution (38-0) (Lesniak)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-09-26 00:00:00", 
             "type": [
                 "other"
@@ -58,7 +58,7 @@
         }, 
         {
             "action": "Passed Senate (38-0)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-09-26 00:00:00", 
             "type": [
                 "bill:passed"
@@ -66,7 +66,7 @@
         }, 
         {
             "action": "Received in the Assembly, Referred to Assembly Commerce and Economic Development Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-11-10 00:00:00", 
             "type": [
                 "committee:referred"
@@ -74,7 +74,7 @@
         }, 
         {
             "action": "Reported out of Assembly Committee with Amendments, 2nd Reading", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-11-21 00:00:00", 
             "type": [
                 "committee:passed"
@@ -82,7 +82,7 @@
         }, 
         {
             "action": "Recommitted to Assembly Appropriations Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-12-01 00:00:00", 
             "type": [
                 "committee:referred"
@@ -90,7 +90,7 @@
         }, 
         {
             "action": "Reported out of Assembly Committee with Amendments, 2nd Reading", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-12-01 00:00:00", 
             "type": [
                 "committee:passed"
@@ -98,7 +98,7 @@
         }, 
         {
             "action": "Substituted for A4306 (2R)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-12-15 00:00:00", 
             "type": [
                 "other"
@@ -106,7 +106,7 @@
         }, 
         {
             "action": "Passed Assembly (61-2-5)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-12-15 00:00:00", 
             "type": [
                 "bill:passed"
@@ -114,7 +114,7 @@
         }, 
         {
             "action": "Received in the Senate without Reference, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-12-15 00:00:00", 
             "type": [
                 "other"
@@ -122,7 +122,7 @@
         }, 
         {
             "action": "Passed Senate (Passed Both Houses) (37-0)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-12-15 00:00:00", 
             "type": [
                 "bill:passed"
@@ -130,7 +130,7 @@
         }, 
         {
             "action": "Approved P.L.2011, c.149.", 
-            "actor": "G", 
+            "actor": "executive", 
             "date": "2012-01-05 00:00:00", 
             "type": [
                 "governor:signed"
@@ -143,6 +143,16 @@
     "country": "us", 
     "created_at": "2011-08-26 00:32:08", 
     "documents": [
+        {
+            "doc_id": "NJD00035428", 
+            "name": "Advance Law", 
+            "url": "http://www.njleg.state.nj.us/2010/Bills/AL11/149_.HTM"
+        }, 
+        {
+            "doc_id": "NJD00035429", 
+            "name": "Pamphlet Law", 
+            "url": "http://www.njleg.state.nj.us/2010/Bills/PL11/149_.HTM"
+        }, 
         {
             "doc_id": "NJD00025767", 
             "name": "Legislative Fiscal Estimate 10/5/11; 2R", 
@@ -270,7 +280,7 @@
             "type": "Co-sponsor"
         }, 
         {
-            "leg_id": "NJL000124", 
+            "leg_id": null, 
             "name": "Addiego, Dawn Marie", 
             "type": "Co-sponsor"
         }, 
@@ -335,7 +345,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-07 00:12:49", 
+    "updated_at": "2012-07-06 21:50:18", 
     "versions": [
         {
             "doc_id": "NJD00025761", 
@@ -1511,7 +1521,7 @@
             "+bill_id": "S3033", 
             "chamber": "upper", 
             "committee": "Senate Budget and Appropriations Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000060", 
             "date": "2011-09-19 00:00:00", 
             "motion": "Reported out of Senate committee with amendments", 
             "no_count": 0, 

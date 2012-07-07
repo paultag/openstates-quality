@@ -1,10 +1,8 @@
 {
-    "+companion_bill_ids": [
-        "S6730"
-    ], 
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2012-04-23 00:00:00", 
-        "last": "2012-04-23 00:00:00", 
+        "last": "2012-05-31 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -16,6 +14,22 @@
             "date": "2012-04-23 00:00:00", 
             "type": [
                 "bill:introduced"
+            ]
+        }, 
+        {
+            "action": "amend (t) and recommit to agriculture", 
+            "actor": "lower", 
+            "date": "2012-05-31 00:00:00", 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "print number 9917a", 
+            "actor": "lower", 
+            "date": "2012-05-31 00:00:00", 
+            "type": [
+                "other"
             ]
         }
     ], 
@@ -33,7 +47,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1080"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1133"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9917-2011"
@@ -44,6 +58,16 @@
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000137", 
+            "name": "Lavine", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000199", 
+            "name": "Sweeney", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -54,12 +78,17 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:47", 
+    "updated_at": "2012-07-07 02:35:53", 
     "versions": [
         {
             "doc_id": "NYD00027229", 
             "name": "A9917", 
             "url": "http://open.nysenate.gov/legislation/bill/A9917-2011"
+        }, 
+        {
+            "doc_id": "NYD00042327", 
+            "name": "A9917A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9917A-2011"
         }
     ], 
     "votes": []

@@ -1,15 +1,15 @@
 {
     "action_dates": {
         "first": "2011-05-09 00:00:00", 
-        "last": "2011-12-15 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
+        "last": "2012-01-09 00:00:00", 
+        "passed_lower": "2011-12-05 00:00:00", 
+        "passed_upper": "2011-12-15 00:00:00", 
         "signed": null
     }, 
     "actions": [
         {
             "action": "Introduced in the Assembly, Referred to Assembly Telecommunications and Utilities Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-05-09 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -17,16 +17,16 @@
             ]
         }, 
         {
-            "action": "REP/ACA REF AHO", 
-            "actor": "A", 
+            "action": "Reported out of Assembly Committee with Amendments and Referred to Assembly Housing and Local Government Committee", 
+            "actor": "lower", 
             "date": "2011-05-19 00:00:00", 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "Reported from Assembly Committee as a Substitute, 2nd Reading", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-11-21 00:00:00", 
             "type": [
                 "other"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Passed Assembly (45-25-5)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-12-05 00:00:00", 
             "type": [
                 "bill:passed"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Received in the Senate without Reference, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-12-08 00:00:00", 
             "type": [
                 "other"
@@ -50,7 +50,7 @@
         }, 
         {
             "action": "Substituted for S2887 (SCS)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-12-15 00:00:00", 
             "type": [
                 "other"
@@ -58,10 +58,26 @@
         }, 
         {
             "action": "Passed Senate (Passed Both Houses) (23-15)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-12-15 00:00:00", 
             "type": [
                 "bill:passed"
+            ]
+        }, 
+        {
+            "action": "Conditional Veto, Received in the Assembly, 1st Reading/Governor Recommendation", 
+            "actor": "lower", 
+            "date": "2012-01-09 00:00:00", 
+            "type": [
+                "governor:vetoed"
+            ]
+        }, 
+        {
+            "action": "2nd Reading in the Assembly on Concur. w/Gov's Recommendations", 
+            "actor": "lower", 
+            "date": "2012-01-09 00:00:00", 
+            "type": [
+                "other"
             ]
         }
     ], 
@@ -80,6 +96,11 @@
             "doc_id": "NJD00019525", 
             "name": "Statement AHO 11/21/11 ACS", 
             "url": "http://www.njleg.state.nj.us/2010/Bills/A4000/3992_S2.HTM"
+        }, 
+        {
+            "doc_id": "NJD00035195", 
+            "name": "Veto Conditional Veto", 
+            "url": "http://www.njleg.state.nj.us/2010/Bills/A4000/3992_V1.HTM"
         }
     ], 
     "id": "NJB00007325", 
@@ -142,7 +163,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-05 00:04:49", 
+    "updated_at": "2012-07-06 22:03:17", 
     "versions": [
         {
             "doc_id": "NJD00019521", 
@@ -153,6 +174,11 @@
             "doc_id": "NJD00019522", 
             "name": "Reprint", 
             "url": "http://www.njleg.state.nj.us/2010/Bills/A4000/3992_R1.HTM"
+        }, 
+        {
+            "doc_id": "NJD00035194", 
+            "name": "Reprint of Substitute Conditional Veto", 
+            "url": "http://www.njleg.state.nj.us/2010/Bills/A4000/3992_R1a.HTM"
         }, 
         {
             "doc_id": "NJD00019523", 

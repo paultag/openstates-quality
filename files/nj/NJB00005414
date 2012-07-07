@@ -2,14 +2,14 @@
     "action_dates": {
         "first": "2010-03-15 00:00:00", 
         "last": "2010-08-18 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_lower": "2010-06-21 00:00:00", 
+        "passed_upper": "2010-06-10 00:00:00", 
         "signed": "2010-08-18 00:00:00"
     }, 
     "actions": [
         {
             "action": "Introduced in the Senate, Referred to Senate Environment and Energy Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-03-15 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee with Amendments, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-03 00:00:00", 
             "type": [
                 "committee:passed"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Passed Senate (35-1)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-06-10 00:00:00", 
             "type": [
                 "bill:passed"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Received in the Assembly, Referred to Assembly Agriculture and Natural Resources Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-06-10 00:00:00", 
             "type": [
                 "committee:referred"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Reported out of Assembly Committee, 2nd Reading", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-06-14 00:00:00", 
             "type": [
                 "committee:passed"
@@ -50,7 +50,7 @@
         }, 
         {
             "action": "Substituted for A2863", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-06-21 00:00:00", 
             "type": [
                 "other"
@@ -58,7 +58,7 @@
         }, 
         {
             "action": "Passed Assembly (Passed Both Houses) (80-0-0)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-06-21 00:00:00", 
             "type": [
                 "bill:passed"
@@ -66,7 +66,7 @@
         }, 
         {
             "action": "Approved P.L.2010, c.54.", 
-            "actor": "G", 
+            "actor": "executive", 
             "date": "2010-08-18 00:00:00", 
             "type": [
                 "governor:signed"
@@ -145,7 +145,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2011-09-27 00:45:48", 
+    "updated_at": "2012-07-06 21:49:36", 
     "versions": [
         {
             "doc_id": "NJD00022957", 
@@ -718,7 +718,7 @@
             "+bill_id": "S1776", 
             "chamber": "upper", 
             "committee": "Senate Environment and Energy Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000064", 
             "date": "2010-06-03 00:00:00", 
             "motion": "Reported out of Senate committee with amendments", 
             "no_count": 0, 

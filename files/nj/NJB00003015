@@ -1,15 +1,15 @@
 {
     "action_dates": {
         "first": "2010-09-16 00:00:00", 
-        "last": "2012-01-09 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
+        "last": "2012-01-17 00:00:00", 
+        "passed_lower": "2010-10-25 00:00:00", 
+        "passed_upper": "2012-01-09 00:00:00", 
         "signed": null
     }, 
     "actions": [
         {
             "action": "Introduced in the Assembly, Referred to Assembly Environment and Solid Waste Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-09-16 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported out of Assembly Committee with Amendments, 2nd Reading", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-10-14 00:00:00", 
             "type": [
                 "committee:passed"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Passed Assembly (78-0-0)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-10-25 00:00:00", 
             "type": [
                 "bill:passed"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Received in the Senate, Referred to Senate Environment and Energy Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-11-08 00:00:00", 
             "type": [
                 "committee:referred"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee with Amendments, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
             "type": [
                 "committee:passed"
@@ -50,7 +50,7 @@
         }, 
         {
             "action": "Referred to Senate Budget and Appropriations Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
             "type": [
                 "committee:referred"
@@ -58,7 +58,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-12-15 00:00:00", 
             "type": [
                 "committee:passed"
@@ -66,18 +66,42 @@
         }, 
         {
             "action": "Substituted for S2278 (1R)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2012-01-09 00:00:00", 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "Passed Senate (38-1)", 
-            "actor": "S", 
+            "action": "Passed Senate (39-0)", 
+            "actor": "upper", 
             "date": "2012-01-09 00:00:00", 
             "type": [
                 "bill:passed"
+            ]
+        }, 
+        {
+            "action": "Received in the Assembly, 2nd Reading on Concurrence", 
+            "actor": "lower", 
+            "date": "2012-01-09 00:00:00", 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "Passed Assembly (Passed Both Houses) (73-0-0)", 
+            "actor": "lower", 
+            "date": "2012-01-09 00:00:00", 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "Pocket Veto - Bill not acted on by Governor-end of Session", 
+            "actor": "executive", 
+            "date": "2012-01-17 00:00:00", 
+            "type": [
+                "governor:vetoed"
             ]
         }
     ], 
@@ -171,6 +195,16 @@
             "leg_id": "NJL000053", 
             "name": "Chivukula, Upendra J.", 
             "type": "Co-sponsor"
+        }, 
+        {
+            "leg_id": "NJL000057", 
+            "name": "Vitale, Joseph F.", 
+            "type": "Co-sponsor"
+        }, 
+        {
+            "leg_id": "NJL000004", 
+            "name": "Whelan, Jim", 
+            "type": "Co-sponsor"
         }
     ], 
     "state": "nj", 
@@ -181,7 +215,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-10 00:23:59", 
+    "updated_at": "2012-07-06 22:03:38", 
     "versions": [
         {
             "doc_id": "NJD00017907", 
@@ -589,7 +623,7 @@
             "+bill_id": "A3167", 
             "chamber": "upper", 
             "committee": "Senate Environment and Energy Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000064", 
             "date": "2011-03-10 00:00:00", 
             "motion": "Reported out of Senate committee with amendments", 
             "no_count": 0, 
@@ -628,7 +662,7 @@
             "+bill_id": "A3167", 
             "chamber": "upper", 
             "committee": "Senate Budget and Appropriations Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000060", 
             "date": "2011-12-15 00:00:00", 
             "motion": "Reported favorably out of committee", 
             "no_count": 0, 

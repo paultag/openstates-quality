@@ -2,14 +2,14 @@
     "action_dates": {
         "first": "2010-01-12 00:00:00", 
         "last": "2010-05-05 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_lower": "2010-02-25 00:00:00", 
+        "passed_upper": "2010-03-11 00:00:00", 
         "signed": "2010-05-05 00:00:00"
     }, 
     "actions": [
         {
             "action": "Introduced in the Assembly, Referred to Assembly Environment and Solid Waste Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-01-12 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported out of Assembly Committee with Amendments, 2nd Reading", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-02-18 00:00:00", 
             "type": [
                 "committee:passed"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Passed Assembly (63-10-3)", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2010-02-25 00:00:00", 
             "type": [
                 "bill:passed"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Received in the Senate without Reference, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-03-04 00:00:00", 
             "type": [
                 "other"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Substituted for S80 (SCS)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-03-11 00:00:00", 
             "type": [
                 "other"
@@ -50,7 +50,7 @@
         }, 
         {
             "action": "Passed Senate (Passed Both Houses) (29-7)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2010-03-11 00:00:00", 
             "type": [
                 "bill:passed"
@@ -58,7 +58,7 @@
         }, 
         {
             "action": "Approved P.L.2010, c.7.", 
-            "actor": "G", 
+            "actor": "executive", 
             "date": "2010-05-05 00:00:00", 
             "type": [
                 "governor:signed"
@@ -160,7 +160,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2011-10-23 00:51:30", 
+    "updated_at": "2012-07-06 21:50:22", 
     "versions": [
         {
             "doc_id": "NJD00020469", 

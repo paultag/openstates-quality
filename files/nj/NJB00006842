@@ -3,13 +3,13 @@
         "first": "2011-01-25 00:00:00", 
         "last": "2011-05-05 00:00:00", 
         "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_upper": "2011-04-28 00:00:00", 
         "signed": null
     }, 
     "actions": [
         {
             "action": "Introduced in the Senate, Referred to Senate Environment and Energy Committee", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-01-25 00:00:00", 
             "type": [
                 "bill:introduced", 
@@ -18,7 +18,7 @@
         }, 
         {
             "action": "Reported out of Senate Committee with Amendments, 2nd Reading", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-02-17 00:00:00", 
             "type": [
                 "committee:passed"
@@ -26,7 +26,7 @@
         }, 
         {
             "action": "Senate Amendment (27-0) (Smith)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-03-21 00:00:00", 
             "type": [
                 "amendment:passed"
@@ -34,7 +34,7 @@
         }, 
         {
             "action": "Passed Senate (22-8)", 
-            "actor": "S", 
+            "actor": "upper", 
             "date": "2011-04-28 00:00:00", 
             "type": [
                 "bill:passed"
@@ -42,7 +42,7 @@
         }, 
         {
             "action": "Received in the Assembly, Referred to Assembly Agriculture and Natural Resources Committee", 
-            "actor": "A", 
+            "actor": "lower", 
             "date": "2011-05-05 00:00:00", 
             "type": [
                 "committee:referred"
@@ -114,7 +114,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2011-09-27 00:46:04", 
+    "updated_at": "2012-07-06 21:49:51", 
     "versions": [
         {
             "doc_id": "NJD00024973", 
@@ -494,7 +494,7 @@
             "+bill_id": "S2649", 
             "chamber": "upper", 
             "committee": "Senate Environment and Energy Committee", 
-            "committee_id": null, 
+            "committee_id": "NJC000064", 
             "date": "2011-02-14 00:00:00", 
             "motion": "Reported out of Senate committee with amendments", 
             "no_count": 0, 
