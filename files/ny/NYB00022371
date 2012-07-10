@@ -1,7 +1,10 @@
 {
+    "+companion_bill_ids": [
+        "S6502"
+    ], 
     "action_dates": {
         "first": "2012-02-16 00:00:00", 
-        "last": "2012-02-16 00:00:00", 
+        "last": "2012-05-30 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -13,6 +16,38 @@
             "date": "2012-02-16 00:00:00", 
             "type": [
                 "bill:introduced"
+            ]
+        }, 
+        {
+            "action": "amend (t) and recommit to judiciary", 
+            "actor": "lower", 
+            "date": "2012-05-07 00:00:00", 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "print number 9319a", 
+            "actor": "lower", 
+            "date": "2012-05-07 00:00:00", 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to judiciary", 
+            "actor": "lower", 
+            "date": "2012-05-30 00:00:00", 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "print number 9319b", 
+            "actor": "lower", 
+            "date": "2012-05-30 00:00:00", 
+            "type": [
+                "other"
             ]
         }
     ], 
@@ -30,7 +65,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=989"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1095"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9319-2011"
@@ -41,6 +76,11 @@
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000157", 
+            "name": "Miller M", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -51,12 +91,22 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-19 01:02:31", 
+    "updated_at": "2012-07-10 02:28:33", 
     "versions": [
         {
-            "doc_id": "NYD00010555", 
+            "doc_id": "NYD00042727", 
             "name": "A9319", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A9319-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A9319-2011"
+        }, 
+        {
+            "doc_id": "NYD00042728", 
+            "name": "A9319A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9319A-2011"
+        }, 
+        {
+            "doc_id": "NYD00042729", 
+            "name": "A9319B", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9319B-2011"
         }
     ], 
     "votes": []

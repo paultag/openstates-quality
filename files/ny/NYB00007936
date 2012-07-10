@@ -1,10 +1,8 @@
 {
-    "+companion_bill_ids": [
-        "S3477A"
-    ], 
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
-        "last": "2012-06-13 00:00:00", 
+        "last": "2012-07-06 00:00:00", 
         "passed_lower": "2012-06-13 00:00:00", 
         "passed_upper": null, 
         "signed": null
@@ -185,6 +183,14 @@
             "type": [
                 "other"
             ]
+        }, 
+        {
+            "action": "delivered to governor", 
+            "actor": "lower", 
+            "date": "2012-07-06 00:00:00", 
+            "type": [
+                "other"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -201,7 +207,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=553"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=564"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A697-2011"
@@ -212,6 +218,61 @@
             "leg_id": "NYL000169", 
             "name": "Paulin", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "type": "multisponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "type": "multisponsor"
+        }, 
+        {
+            "leg_id": "NYL000157", 
+            "name": "Miller M", 
+            "type": "multisponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "type": "multisponsor"
+        }, 
+        {
+            "leg_id": "NYL000149", 
+            "name": "Markey", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000086", 
+            "name": "Castro", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000126", 
+            "name": "Jaffee", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000131", 
+            "name": "Kavanagh", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000203", 
+            "name": "Titone", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000102", 
+            "name": "Englebright", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000186", 
+            "name": "Rosenthal", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -222,7 +283,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-15 01:11:46", 
+    "updated_at": "2012-07-10 02:28:28", 
     "versions": [
         {
             "doc_id": "NYD00039309", 
@@ -363,8 +424,8 @@
                     "name": "Hannon"
                 }, 
                 {
-                    "leg_id": "NYL000023", 
-                    "name": "Hassell-Thompson"
+                    "leg_id": null, 
+                    "name": "Hassell-Thomps"
                 }, 
                 {
                     "leg_id": "NYL000025", 
@@ -495,8 +556,8 @@
                     "name": "Stavisky"
                 }, 
                 {
-                    "leg_id": "NYL000059", 
-                    "name": "Stewart-Cousins"
+                    "leg_id": null, 
+                    "name": "Stewart-Cousin"
                 }, 
                 {
                     "leg_id": "NYL000224", 
@@ -518,17 +579,26 @@
         }, 
         {
             "chamber": "upper", 
-            "date": "2011-06-20 00:00:00", 
+            "date": "2012-06-13 00:00:00", 
             "motion": "Floor Vote", 
             "no_count": 0, 
             "no_votes": [], 
-            "other_count": 0, 
-            "other_votes": [], 
+            "other_count": 2, 
+            "other_votes": [
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }
+            ], 
             "passed": true, 
             "sources": [], 
             "type": "other", 
-            "vote_id": "NYV00001973", 
-            "yes_count": 62, 
+            "vote_id": "NYV00002272", 
+            "yes_count": 60, 
             "yes_votes": [
                 {
                     "leg_id": "NYL000001", 
@@ -619,12 +689,8 @@
                     "name": "Hannon"
                 }, 
                 {
-                    "leg_id": "NYL000023", 
-                    "name": "Hassell-Thompson"
-                }, 
-                {
-                    "leg_id": "NYL000024", 
-                    "name": "Huntley"
+                    "leg_id": null, 
+                    "name": "Hassell-Thomps"
                 }, 
                 {
                     "leg_id": "NYL000025", 
@@ -637,14 +703,6 @@
                 {
                     "leg_id": "NYL000027", 
                     "name": "Klein"
-                }, 
-                {
-                    "leg_id": "NYL000028", 
-                    "name": "Krueger"
-                }, 
-                {
-                    "leg_id": "NYL000029", 
-                    "name": "Kruger"
                 }, 
                 {
                     "leg_id": "NYL000030", 
@@ -763,8 +821,12 @@
                     "name": "Stavisky"
                 }, 
                 {
-                    "leg_id": "NYL000059", 
-                    "name": "Stewart-Cousins"
+                    "leg_id": null, 
+                    "name": "Stewart-Cousin"
+                }, 
+                {
+                    "leg_id": "NYL000224", 
+                    "name": "Storobin"
                 }, 
                 {
                     "leg_id": "NYL000060", 
