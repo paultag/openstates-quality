@@ -3,8 +3,8 @@
     "+synopsis": "This resolution establishes an Animal Welfare Task Force to consider and evaluate the state of animal welfare in Delaware, including the resources devoted to animal welfare services and whether consolidation, collaboration, or reorganization can lead to more effective use of limited resources.\nAuthor:  Senator Blevins", 
     "action_dates": {
         "first": "2012-06-19 00:00:00", 
-        "last": "2012-06-19 00:00:00", 
-        "passed_lower": null, 
+        "last": "2012-06-30 00:00:00", 
+        "passed_lower": "2012-06-30 00:00:00", 
         "passed_upper": "2012-06-19 00:00:00", 
         "signed": null
     }, 
@@ -21,6 +21,14 @@
             "action": "Passed by Senate. Votes: Passed   20 YES     0 NO     0 NOT VOTING     1 ABSENT     0 VACANT", 
             "actor": "upper", 
             "date": "2012-06-19 00:00:00", 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "Passed in House by Voice Vote", 
+            "actor": "lower", 
+            "date": "2012-06-30 00:00:00", 
             "type": [
                 "bill:passed"
             ]
@@ -55,19 +63,19 @@
         }, 
         {
             "chamber": "upper", 
-            "leg_id": "DEL000056", 
+            "leg_id": null, 
             "name": "M. Smith", 
             "type": "other"
         }, 
         {
             "chamber": "upper", 
-            "leg_id": "DEL000034", 
+            "leg_id": null, 
             "name": "Jaques", 
             "type": "other"
         }, 
         {
             "chamber": "upper", 
-            "leg_id": "DEL000061", 
+            "leg_id": null, 
             "name": "Willis", 
             "type": "other"
         }
@@ -77,7 +85,7 @@
     "type": [
         "concurrent resolution"
     ], 
-    "updated_at": "2012-06-21 01:56:54", 
+    "updated_at": "2012-07-10 16:39:19", 
     "versions": [
         {
             "+source": "http://legis.delaware.gov/LIS/lis146.nsf/2bede841c6272c888025698400433a04/42b05beaf7e383c085257a210063806f?OpenDocument", 
@@ -176,7 +184,7 @@
                     "name": "Sokola"
                 }, 
                 {
-                    "leg_id": "DEL000006", 
+                    "leg_id": null, 
                     "name": "Cloutier"
                 }, 
                 {
@@ -200,6 +208,26 @@
                     "name": "Venables"
                 }
             ]
+        }, 
+        {
+            "+vote_type": "Voice", 
+            "chamber": "lower", 
+            "date": "2012-06-30 22:15:23", 
+            "motion": "House  Voice vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "sources": [
+                {
+                    "url": "http://legis.delaware.gov/LIS/lis146.nsf/7712cf7cc0e9227a852568470077336f/94190bca6b6e386585257a2e000c651d?OpenDocument"
+                }
+            ], 
+            "type": "other", 
+            "vote_id": "DEV00001119", 
+            "yes_count": 0, 
+            "yes_votes": []
         }
     ]
 }

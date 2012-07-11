@@ -3,9 +3,9 @@
     "+synopsis": "This Act has the effect of renaming the Delaware Department of Agriculture Main Administration Building at 2320 South DuPont Highway, Dover, Delaware as the \u201cRichard S. Cordrey Building\u201d in honor of the Honorable Richard S. Cordrey of Millsboro, former Delaware State Representative, State Senator, and Secretary of Finance.  This gesture is made because of his exemplary service to the State of Delaware in numerous challenging capacities and because of his lifelong dedication to farming and to Delaware\u2019s agricultural traditions.", 
     "action_dates": {
         "first": "2012-06-13 00:00:00", 
-        "last": "2012-06-20 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
+        "last": "2012-06-28 00:00:00", 
+        "passed_lower": "2012-06-28 00:00:00", 
+        "passed_upper": "2012-06-21 00:00:00", 
         "signed": null
     }, 
     "actions": [
@@ -24,6 +24,55 @@
             "type": [
                 "committee:passed"
             ]
+        }, 
+        {
+            "action": "Amendment SA 1 -   Introduced in Senate", 
+            "actor": "upper", 
+            "date": "2012-06-21 00:00:00", 
+            "type": [
+                "amendment:introduced"
+            ]
+        }, 
+        {
+            "action": "Amendment SA 1 -  Passed by Senate. Votes: Passed   19 YES     0 NO     0 NOT VOTING     2 ABSENT     0 VACANT", 
+            "actor": "upper", 
+            "date": "2012-06-21 00:00:00", 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "Passed by Senate. Votes: Passed   21 YES     0 NO     0 NOT VOTING     0 ABSENT     0 VACANT", 
+            "actor": "upper", 
+            "date": "2012-06-21 00:00:00", 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "Introduced and Assigned to Agriculture Committee in House", 
+            "actor": "lower", 
+            "date": "2012-06-26 00:00:00", 
+            "type": [
+                "bill:introduced", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "Reported Out of Committee (AGRICULTURE) in House with 2 Favorable, 3 On Its Merits", 
+            "actor": "lower", 
+            "date": "2012-06-27 00:00:00", 
+            "type": [
+                "committee:passed"
+            ]
+        }, 
+        {
+            "action": "Passed by House of Representatives. Votes: Passed   38 YES     0 NO     0 NOT VOTING     3 ABSENT     0 VACANT", 
+            "actor": "lower", 
+            "date": "2012-06-28 00:00:00", 
+            "type": [
+                "bill:passed"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -31,7 +80,22 @@
     "chamber": "upper", 
     "country": "us", 
     "created_at": "2012-06-14 01:52:14", 
-    "documents": [], 
+    "documents": [
+        {
+            "+source": "http://legis.delaware.gov/LIS/lis146.nsf/vwlegislation/SA+1+to+SB+249?opendocument", 
+            "doc_id": "DED00003025", 
+            "mimetype": "text/html", 
+            "name": "amendment (SA 1)", 
+            "url": "http://www.legis.delaware.gov/LIS/lis146.nsf/vwLegislation/SA+1+to+SB+249/$file/legis.html?open"
+        }, 
+        {
+            "+source": "http://legis.delaware.gov/LIS/lis146.nsf/vwlegislation/SA+1+to+SB+249?opendocument", 
+            "doc_id": "DED00003026", 
+            "mimetype": "application/msword", 
+            "name": "amendment (SA 1)", 
+            "url": "http://www.legis.delaware.gov/LIS/lis146.nsf/vwLegislation/SA+1+to+SB+249/$file/0781460314.docx?open"
+        }
+    ], 
     "id": "DEB00000798", 
     "level": "state", 
     "session": "146", 
@@ -73,7 +137,7 @@
         }, 
         {
             "chamber": "upper", 
-            "leg_id": "DEL000006", 
+            "leg_id": null, 
             "name": "Cloutier", 
             "type": "cosponsor"
         }, 
@@ -232,6 +296,12 @@
             "leg_id": "DEL000062", 
             "name": "Wilson", 
             "type": "cosponsor"
+        }, 
+        {
+            "chamber": "lower", 
+            "leg_id": "DEL000052", 
+            "name": "Schwartzkopf", 
+            "type": "cosponsor"
         }
     ], 
     "state": "de", 
@@ -239,7 +309,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-21 01:56:44", 
+    "updated_at": "2012-07-10 16:39:13", 
     "versions": [
         {
             "+source": "http://legis.delaware.gov/LIS/lis146.nsf/2bede841c6272c888025698400433a04/245057efbc3ead2085257a150058bda7?OpenDocument", 
@@ -254,7 +324,306 @@
             "mimetype": "application/msword", 
             "name": "introduced", 
             "url": "http://www.legis.delaware.gov/LIS/lis146.nsf/vwLegislation/SB+249/$file/0531460015.docx?open"
+        }, 
+        {
+            "+source": "http://legis.delaware.gov/LIS/lis146.nsf/db0bad0e2af0bf31852568a5005f0f58/28c664f6f2a5428b85257a240070c543?OpenDocument", 
+            "doc_id": "DED00003024", 
+            "mimetype": "application/msword", 
+            "name": "Engrossment", 
+            "url": "http://www.legis.delaware.gov/LIS/lis146.nsf/EngrossmentsforLookup/SB+249/$file/1901460616.docx?open"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+vote_type": "SM", 
+            "chamber": "upper", 
+            "date": "2012-06-21 16:40:43", 
+            "motion": "Senate vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "sources": [
+                {
+                    "url": "http://legis.delaware.gov/LIS/lis146.nsf/7712cf7cc0e9227a852568470077336f/5e438cf1dc58e67485257a2400719726?OpenDocument"
+                }
+            ], 
+            "type": "other", 
+            "vote_id": "DEV00001063", 
+            "yes_count": 21, 
+            "yes_votes": [
+                {
+                    "leg_id": "DEL000001", 
+                    "name": "Blevins"
+                }, 
+                {
+                    "leg_id": "DEL000008", 
+                    "name": "DeLuca"
+                }, 
+                {
+                    "leg_id": "DEL000015", 
+                    "name": "McBride"
+                }, 
+                {
+                    "leg_id": "DEL000002", 
+                    "name": "Bonini"
+                }, 
+                {
+                    "leg_id": "DEL000009", 
+                    "name": "Ennis"
+                }, 
+                {
+                    "leg_id": "DEL000016", 
+                    "name": "McDowell"
+                }, 
+                {
+                    "leg_id": "DEL000003", 
+                    "name": "Booth"
+                }, 
+                {
+                    "leg_id": "DEL000010", 
+                    "name": "Hall-Long"
+                }, 
+                {
+                    "leg_id": "DEL000017", 
+                    "name": "Peterson"
+                }, 
+                {
+                    "leg_id": "DEL000004", 
+                    "name": "Bunting"
+                }, 
+                {
+                    "leg_id": "DEL000011", 
+                    "name": "Henry"
+                }, 
+                {
+                    "leg_id": "DEL000018", 
+                    "name": "Simpson"
+                }, 
+                {
+                    "leg_id": "DEL000005", 
+                    "name": "Bushweller"
+                }, 
+                {
+                    "leg_id": "DEL000012", 
+                    "name": "Katz"
+                }, 
+                {
+                    "leg_id": "DEL000019", 
+                    "name": "Sokola"
+                }, 
+                {
+                    "leg_id": null, 
+                    "name": "Cloutier"
+                }, 
+                {
+                    "leg_id": "DEL000013", 
+                    "name": "Lawson"
+                }, 
+                {
+                    "leg_id": "DEL000020", 
+                    "name": "Sorenson"
+                }, 
+                {
+                    "leg_id": "DEL000007", 
+                    "name": "Connor"
+                }, 
+                {
+                    "leg_id": "DEL000014", 
+                    "name": "Marshall"
+                }, 
+                {
+                    "leg_id": "DEL000021", 
+                    "name": "Venables"
+                }
+            ]
+        }, 
+        {
+            "+vote_type": "SM", 
+            "chamber": "lower", 
+            "date": "2012-06-28 15:56:11", 
+            "motion": "House vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 3, 
+            "other_votes": [
+                {
+                    "leg_id": "DEL000037", 
+                    "name": "Keeley"
+                }, 
+                {
+                    "leg_id": "DEL000042", 
+                    "name": "Longhurst"
+                }, 
+                {
+                    "leg_id": "DEL000043", 
+                    "name": "Manolakos"
+                }
+            ], 
+            "passed": true, 
+            "sources": [
+                {
+                    "url": "http://legis.delaware.gov/LIS/lis146.nsf/7712cf7cc0e9227a852568470077336f/0fe76a4134b100df85257a2b006d8376?OpenDocument"
+                }
+            ], 
+            "type": "other", 
+            "vote_id": "DEV00001064", 
+            "yes_count": 38, 
+            "yes_votes": [
+                {
+                    "leg_id": "DEL000022", 
+                    "name": "Atkins"
+                }, 
+                {
+                    "leg_id": "DEL000051", 
+                    "name": "Schooley"
+                }, 
+                {
+                    "leg_id": "DEL000023", 
+                    "name": "Barbieri"
+                }, 
+                {
+                    "leg_id": "DEL000038", 
+                    "name": "Kenton"
+                }, 
+                {
+                    "leg_id": "DEL000052", 
+                    "name": "Schwartzkopf"
+                }, 
+                {
+                    "leg_id": "DEL000024", 
+                    "name": "Bennett"
+                }, 
+                {
+                    "leg_id": "DEL000039", 
+                    "name": "Kowalko"
+                }, 
+                {
+                    "leg_id": "DEL000053", 
+                    "name": "Scott"
+                }, 
+                {
+                    "leg_id": "DEL000025", 
+                    "name": "Blakey"
+                }, 
+                {
+                    "leg_id": "DEL000040", 
+                    "name": "Lavelle"
+                }, 
+                {
+                    "leg_id": "DEL000054", 
+                    "name": "B. Short"
+                }, 
+                {
+                    "leg_id": "DEL000026", 
+                    "name": "Bolden"
+                }, 
+                {
+                    "leg_id": "DEL000041", 
+                    "name": "Lee"
+                }, 
+                {
+                    "leg_id": "DEL000055", 
+                    "name": "D. Short"
+                }, 
+                {
+                    "leg_id": "DEL000027", 
+                    "name": "Brady"
+                }, 
+                {
+                    "leg_id": "DEL000056", 
+                    "name": "M. Smith"
+                }, 
+                {
+                    "leg_id": "DEL000028", 
+                    "name": "Briggs King"
+                }, 
+                {
+                    "leg_id": "DEL000057", 
+                    "name": "Viola"
+                }, 
+                {
+                    "leg_id": "DEL000029", 
+                    "name": "Carson"
+                }, 
+                {
+                    "leg_id": "DEL000044", 
+                    "name": "Miro"
+                }, 
+                {
+                    "leg_id": "DEL000058", 
+                    "name": "Walker"
+                }, 
+                {
+                    "leg_id": "DEL000031", 
+                    "name": "Heffernan"
+                }, 
+                {
+                    "leg_id": "DEL000045", 
+                    "name": "Mitchell"
+                }, 
+                {
+                    "leg_id": "DEL000059", 
+                    "name": "D.E. Williams"
+                }, 
+                {
+                    "leg_id": "DEL000032", 
+                    "name": "Hocker"
+                }, 
+                {
+                    "leg_id": "DEL000046", 
+                    "name": "Mulrooney"
+                }, 
+                {
+                    "leg_id": "DEL000060", 
+                    "name": "D.P. Williams"
+                }, 
+                {
+                    "leg_id": "DEL000033", 
+                    "name": "Hudson"
+                }, 
+                {
+                    "leg_id": "DEL000047", 
+                    "name": "Osienski"
+                }, 
+                {
+                    "leg_id": "DEL000061", 
+                    "name": "Willis"
+                }, 
+                {
+                    "leg_id": "DEL000034", 
+                    "name": "Jaques"
+                }, 
+                {
+                    "leg_id": "DEL000048", 
+                    "name": "Outten"
+                }, 
+                {
+                    "leg_id": "DEL000062", 
+                    "name": "Wilson"
+                }, 
+                {
+                    "leg_id": "DEL000035", 
+                    "name": "J. Johnson"
+                }, 
+                {
+                    "leg_id": "DEL000049", 
+                    "name": "Peterman"
+                }, 
+                {
+                    "leg_id": "DEL000030", 
+                    "name": "Gilligan"
+                }, 
+                {
+                    "leg_id": "DEL000036", 
+                    "name": "Q. Johnson"
+                }, 
+                {
+                    "leg_id": "DEL000050", 
+                    "name": "Ramone"
+                }
+            ]
+        }
+    ]
 }

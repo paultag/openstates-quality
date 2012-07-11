@@ -3,9 +3,9 @@
     "+synopsis": "This resolution establishes a study group to assess Delaware's civil mental health laws.", 
     "action_dates": {
         "first": "2012-06-12 00:00:00", 
-        "last": "2012-06-20 00:00:00", 
+        "last": "2012-06-27 00:00:00", 
         "passed_lower": "2012-06-20 00:00:00", 
-        "passed_upper": null, 
+        "passed_upper": "2012-06-27 00:00:00", 
         "signed": null
     }, 
     "actions": [
@@ -38,6 +38,22 @@
             "action": "Passed by House of Representatives. Votes: Passed   40 YES     0 NO     0 NOT VOTING     1 ABSENT     0 VACANT", 
             "actor": "lower", 
             "date": "2012-06-20 00:00:00", 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "Necessary rules are suspended in Senate", 
+            "actor": "upper", 
+            "date": "2012-06-27 00:00:00", 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "Passed by Senate. Votes: Passed   20 YES     0 NO     0 NOT VOTING     1 ABSENT     0 VACANT", 
+            "actor": "upper", 
+            "date": "2012-06-27 00:00:00", 
             "type": [
                 "bill:passed"
             ]
@@ -94,7 +110,7 @@
     "type": [
         "joint resolution"
     ], 
-    "updated_at": "2012-06-21 01:57:10", 
+    "updated_at": "2012-07-10 16:39:29", 
     "versions": [
         {
             "+source": "http://legis.delaware.gov/LIS/lis146.nsf/2bede841c6272c888025698400433a04/084323fa6d8b7aec85257a1b00545d36?OpenDocument", 
@@ -295,6 +311,112 @@
                 {
                     "leg_id": "DEL000050", 
                     "name": "Ramone"
+                }
+            ]
+        }, 
+        {
+            "+vote_type": "SM", 
+            "chamber": "upper", 
+            "date": "2012-06-27 17:26:21", 
+            "motion": "Senate vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "DEL000020", 
+                    "name": "Sorenson"
+                }
+            ], 
+            "passed": true, 
+            "sources": [
+                {
+                    "url": "http://legis.delaware.gov/LIS/lis146.nsf/7712cf7cc0e9227a852568470077336f/6f2bdeb81f56c9d485257a2a0075c4a5?OpenDocument"
+                }
+            ], 
+            "type": "other", 
+            "vote_id": "DEV00001241", 
+            "yes_count": 20, 
+            "yes_votes": [
+                {
+                    "leg_id": "DEL000001", 
+                    "name": "Blevins"
+                }, 
+                {
+                    "leg_id": "DEL000008", 
+                    "name": "DeLuca"
+                }, 
+                {
+                    "leg_id": "DEL000015", 
+                    "name": "McBride"
+                }, 
+                {
+                    "leg_id": "DEL000002", 
+                    "name": "Bonini"
+                }, 
+                {
+                    "leg_id": "DEL000009", 
+                    "name": "Ennis"
+                }, 
+                {
+                    "leg_id": "DEL000016", 
+                    "name": "McDowell"
+                }, 
+                {
+                    "leg_id": "DEL000003", 
+                    "name": "Booth"
+                }, 
+                {
+                    "leg_id": "DEL000010", 
+                    "name": "Hall-Long"
+                }, 
+                {
+                    "leg_id": "DEL000017", 
+                    "name": "Peterson"
+                }, 
+                {
+                    "leg_id": "DEL000004", 
+                    "name": "Bunting"
+                }, 
+                {
+                    "leg_id": "DEL000011", 
+                    "name": "Henry"
+                }, 
+                {
+                    "leg_id": "DEL000018", 
+                    "name": "Simpson"
+                }, 
+                {
+                    "leg_id": "DEL000005", 
+                    "name": "Bushweller"
+                }, 
+                {
+                    "leg_id": "DEL000012", 
+                    "name": "Katz"
+                }, 
+                {
+                    "leg_id": "DEL000019", 
+                    "name": "Sokola"
+                }, 
+                {
+                    "leg_id": null, 
+                    "name": "Cloutier"
+                }, 
+                {
+                    "leg_id": "DEL000013", 
+                    "name": "Lawson"
+                }, 
+                {
+                    "leg_id": "DEL000007", 
+                    "name": "Connor"
+                }, 
+                {
+                    "leg_id": "DEL000014", 
+                    "name": "Marshall"
+                }, 
+                {
+                    "leg_id": "DEL000021", 
+                    "name": "Venables"
                 }
             ]
         }
