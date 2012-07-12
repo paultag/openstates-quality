@@ -1,4 +1,5 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-01-21 00:00:00", 
         "last": "2012-01-04 00:00:00", 
@@ -62,7 +63,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=611"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=701"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3042-2011"
@@ -73,6 +74,21 @@
             "leg_id": "NYL000161", 
             "name": "Morelle", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000116", 
+            "name": "Gunther", 
+            "type": "multisponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "type": "multisponsor"
+        }, 
+        {
+            "leg_id": "NYL000193", 
+            "name": "Schroeder", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -83,12 +99,17 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-05 01:33:37", 
+    "updated_at": "2012-07-12 02:22:24", 
     "versions": [
         {
-            "doc_id": "NYD00002527", 
+            "doc_id": "NYD00042941", 
             "name": "A3042", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A3042-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A3042-2011"
+        }, 
+        {
+            "doc_id": "NYD00042942", 
+            "name": "A3042A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A3042A-2011"
         }
     ], 
     "votes": []
