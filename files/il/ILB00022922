@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Michael W. Frerichs", 
             "actor": "upper", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -37,6 +45,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Dan Kotowski", 
             "actor": "upper", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -44,8 +53,14 @@
         {
             "action": "Assigned to Executive", 
             "actor": "upper", 
-            "committee": "ILC000111", 
             "date": "2012-02-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000111", 
+                    "name": "Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -54,6 +69,7 @@
             "action": "To Executive Subcommittee on Education", 
             "actor": "upper", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Added as Co-Sponsor Sen. Heather A. Steans", 
             "actor": "upper", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Rule 2-10 Committee Deadline Established As March 30, 2012", 
             "actor": "upper", 
             "date": "2012-03-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Pat McGuire", 
             "actor": "upper", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,13 @@
             "action": "Rule 3-9(a) / Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 3-9(a) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -136,7 +162,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:31", 
+    "updated_at": "2012-07-13 08:37:07", 
     "versions": [
         {
             "doc_id": "ILD00044763", 

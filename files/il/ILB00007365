@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Jerry L. Mitchell", 
             "actor": "lower", 
             "date": "2011-10-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-10-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-10-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -62,7 +70,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:44:24", 
+    "updated_at": "2012-07-13 08:38:32", 
     "versions": [
         {
             "doc_id": "ILD00051429", 

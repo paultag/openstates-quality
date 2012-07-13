@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Sara Feigenholtz", 
             "actor": "lower", 
             "date": "2011-02-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-02-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-02-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Agriculture & Conservation Committee", 
             "actor": "lower", 
-            "committee": "ILC000003", 
             "date": "2011-02-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000003", 
+                    "name": "Agriculture & Conservation Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. Sara Feigenholtz", 
             "actor": "lower", 
             "date": "2011-03-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -54,6 +69,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-03-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -62,6 +84,7 @@
             "action": "House Committee Amendment No. 1 Tabled Pursuant to Rule 40", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -70,6 +93,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -78,6 +108,7 @@
             "action": "Committee Deadline Extended-Rule 9(b) April 15, 2011", 
             "actor": "lower", 
             "date": "2011-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -85,8 +116,14 @@
         {
             "action": "Assigned to Business & Occupational Licenses Committee", 
             "actor": "lower", 
-            "committee": "ILC000015", 
             "date": "2011-03-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000015", 
+                    "name": "Business & Occupational Licenses Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -95,6 +132,7 @@
             "action": "House Committee Amendment No. 2 Filed with Clerk by Rep. Sara Feigenholtz", 
             "actor": "lower", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -103,6 +141,13 @@
             "action": "House Committee Amendment No. 2 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -111,6 +156,7 @@
             "action": "House Committee Amendment No. 2 Rules Refers to Business & Occupational Licenses Committee", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -119,6 +165,7 @@
             "action": "House Committee Amendment No. 2 Adopted in Business & Occupational Licenses Committee;  by Voice Vote", 
             "actor": "lower", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -127,6 +174,7 @@
             "action": "Do Pass as Amended / Short Debate Business & Occupational Licenses Committee;  006-003-000", 
             "actor": "lower", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -135,6 +183,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -143,6 +192,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -151,6 +201,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -159,6 +210,7 @@
             "action": "Final Action Deadline Extended-9(b) May 6, 2011", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -167,6 +219,7 @@
             "action": "Final Action Deadline Extended-9(b) May 20, 2011", 
             "actor": "lower", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -175,6 +228,7 @@
             "action": "Final Action Deadline Extended-9(b) May 27, 2011", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -183,6 +237,7 @@
             "action": "Final Action Deadline Extended-9(b) May 31, 2011", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -191,6 +246,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -199,6 +261,7 @@
             "action": "Chief Sponsor Changed to Rep. Robert Rita", 
             "actor": "lower", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -207,6 +270,7 @@
             "action": "Approved for Consideration Rules Committee;  003-000-000", 
             "actor": "lower", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -215,6 +279,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -223,6 +288,7 @@
             "action": "House Floor Amendment No. 3 Filed with Clerk by Rep. Robert Rita", 
             "actor": "lower", 
             "date": "2012-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -231,6 +297,13 @@
             "action": "House Floor Amendment No. 3 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-02-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 3  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -239,6 +312,7 @@
             "action": "House Floor Amendment No. 3 Rules Refers to Agriculture & Conservation Committee", 
             "actor": "lower", 
             "date": "2012-02-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -247,6 +321,13 @@
             "action": "House Floor Amendment No. 3 Re-assigned to Business & Occupational Licenses Committee", 
             "actor": "lower", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 3  Business & Occupational Licenses Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -255,6 +336,7 @@
             "action": "House Floor Amendment No. 3 Recommends Be Adopted Business & Occupational Licenses Committee;  007-004-000", 
             "actor": "lower", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -263,6 +345,7 @@
             "action": "Fiscal Note Requested by Rep. David Reis", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -271,6 +354,7 @@
             "action": "State Mandates Fiscal Note Requested by Rep. David Reis", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -279,6 +363,7 @@
             "action": "Balanced Budget Note Requested by Rep. David Reis", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -287,6 +372,7 @@
             "action": "Correctional Note Requested by Rep. David Reis", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -295,6 +381,7 @@
             "action": "Home Rule Note Requested by Rep. David Reis", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -303,6 +390,7 @@
             "action": "Housing Affordability Impact Note Requested by Rep. David Reis", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -311,6 +399,7 @@
             "action": "Judicial Note Requested by Rep. David Reis", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -319,6 +408,7 @@
             "action": "Land Conveyance Appraisal Note Requested by Rep. David Reis", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -327,6 +417,7 @@
             "action": "Pension Note Requested by Rep. David Reis", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -335,6 +426,7 @@
             "action": "State Debt Impact Note Requested by Rep. David Reis", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -343,6 +435,7 @@
             "action": "Correctional Note Filed", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -351,6 +444,7 @@
             "action": "House Committee Amendment No. 2 Correctional Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -359,6 +453,7 @@
             "action": "House Floor Amendment No. 3 Correctional Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -367,6 +462,7 @@
             "action": "Land Conveyance Appraisal Note Filed", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -375,6 +471,7 @@
             "action": "House Committee Amendment No. 2 Land Conveyance Appraisal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -383,6 +480,7 @@
             "action": "House Floor Amendment No. 3 Land Conveyance Appraisal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -391,6 +489,7 @@
             "action": "Fiscal Note Filed", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -399,6 +498,7 @@
             "action": "House Committee Amendment No. 2 Fiscal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -407,6 +507,7 @@
             "action": "House Floor Amendment No. 3 Fiscal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -415,6 +516,7 @@
             "action": "State Debt Impact Note Filed", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -423,6 +525,7 @@
             "action": "House Committee Amendment No. 2 State Debt Impact Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -431,6 +534,7 @@
             "action": "House Floor Amendment No. 3 State Debt Impact Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -439,6 +543,7 @@
             "action": "Pension Note Filed", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -447,6 +552,7 @@
             "action": "House Committee Amendment No. 2 Pension Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -455,6 +561,7 @@
             "action": "House Floor Amendment No. 3 Pension Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -463,6 +570,7 @@
             "action": "Judicial Note Filed", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -471,6 +579,7 @@
             "action": "House Committee Amendment No. 2 Judicial Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -479,6 +588,7 @@
             "action": "House Floor Amendment No. 3 Judicial Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -487,6 +597,7 @@
             "action": "House Committee Amendment No. 2 Balanced Budget Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -495,6 +606,7 @@
             "action": "House Floor Amendment No. 3 Balanced Budget Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -503,6 +615,7 @@
             "action": "Balanced Budget Note Filed", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -511,6 +624,7 @@
             "action": "Home Rule Note Filed", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -519,6 +633,7 @@
             "action": "House Committee Amendment No. 2 Home Rule Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -527,6 +642,7 @@
             "action": "House Floor Amendment No. 3 Home Rule Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -535,6 +651,7 @@
             "action": "State Mandates Fiscal Note Filed", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -543,6 +660,7 @@
             "action": "House Committee Amendment No. 2 State Mandates Fiscal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -551,6 +669,7 @@
             "action": "House Floor Amendment No. 3 State Mandates Fiscal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -559,6 +678,7 @@
             "action": "Housing Affordability Impact Note Filed", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -567,6 +687,7 @@
             "action": "House Committee Amendment No. 2 Housing Affordability Impact Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -575,6 +696,7 @@
             "action": "House Floor Amendment No. 3 Housing Affordability Impact Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -583,6 +705,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -632,7 +761,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-10 08:40:29", 
+    "updated_at": "2012-07-13 08:38:01", 
     "versions": [
         {
             "doc_id": "ILD00048733", 

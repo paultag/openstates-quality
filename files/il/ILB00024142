@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Kelly M. Cassidy", 
             "actor": "lower", 
             "date": "2012-02-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "Added Chief Co-Sponsor Rep. Greg Harris", 
             "actor": "lower", 
             "date": "2012-02-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +30,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-02-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -35,8 +38,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-02-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -44,8 +53,14 @@
         {
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
-            "committee": "ILC000031", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000031", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -54,6 +69,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. Kelly M. Cassidy", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -62,6 +78,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -70,6 +93,7 @@
             "action": "House Committee Amendment No. 1 Rules Refers to Executive Committee", 
             "actor": "lower", 
             "date": "2012-03-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +102,7 @@
             "action": "Motion Filed to Suspend Rule 25 Executive Committee;  Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +111,7 @@
             "action": "Motion to Suspend Rule 25 - Prevailed by Voice Vote", 
             "actor": "lower", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +120,7 @@
             "action": "House Committee Amendment No. 1 Tabled Pursuant to Rule 40", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -102,6 +129,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -146,7 +180,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:44:50", 
+    "updated_at": "2012-07-13 08:38:48", 
     "versions": [
         {
             "doc_id": "ILD00053549", 

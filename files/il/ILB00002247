@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. William Delgado", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Criminal Law", 
             "actor": "upper", 
-            "committee": "ILC000103", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000103", 
+                    "name": "Criminal Law", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass Criminal Law;  009-000-000", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 10, 2011", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 14, 2011", 
             "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Added as Co-Sponsor Sen. Toi W. Hutchinson", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Donne E. Trotter", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +114,7 @@
             "action": "Third Reading - Passed; 053-000-001", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -103,6 +124,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -111,6 +133,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -119,6 +142,7 @@
             "action": "Chief House Sponsor Rep. Cynthia Soto", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -127,6 +151,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -134,8 +159,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -143,8 +174,14 @@
         {
             "action": "Assigned to Judiciary II - Criminal Law Committee", 
             "actor": "lower", 
-            "committee": "ILC000049", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000049", 
+                    "name": "Judiciary II - Criminal Law Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -153,6 +190,7 @@
             "action": "Do Pass / Short Debate Judiciary II - Criminal Law Committee;  007-000-000", 
             "actor": "lower", 
             "date": "2011-04-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -161,6 +199,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -169,6 +208,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -177,6 +217,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -185,6 +226,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Elizabeth Hernandez", 
             "actor": "lower", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -193,6 +235,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Edward J. Acevedo", 
             "actor": "lower", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -201,6 +244,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Karen A. Yarbrough", 
             "actor": "lower", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -209,6 +253,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Maria Antonia Berrios", 
             "actor": "lower", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -217,6 +262,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Sandra M. Pihos", 
             "actor": "lower", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -225,6 +271,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Patricia R. Bellock", 
             "actor": "lower", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -233,6 +280,7 @@
             "action": "Third Reading - Short Debate - Passed 109-003-000", 
             "actor": "lower", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -242,6 +290,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -250,6 +299,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2011-06-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -258,6 +308,7 @@
             "action": "Governor Approved", 
             "actor": "upper", 
             "date": "2011-07-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -266,6 +317,7 @@
             "action": "Effective Date July 22, 2011", 
             "actor": "upper", 
             "date": "2011-07-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -274,6 +326,7 @@
             "action": "Public Act . . . . . . . . . 97-0189", 
             "actor": "upper", 
             "date": "2011-07-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -370,7 +423,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:47:33", 
+    "updated_at": "2012-07-13 08:36:42", 
     "versions": [
         {
             "doc_id": "ILD00043048", 

@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. John J. Cullerton", 
             "actor": "upper", 
             "date": "2012-01-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-01-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-01-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Executive", 
             "actor": "upper", 
-            "committee": "ILC000111", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000111", 
+                    "name": "Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass Executive;  012-000-000", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 21, 2012", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 23, 2012", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As April 26, 2012", 
             "actor": "upper", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -85,8 +104,14 @@
         {
             "action": "Re-referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -119,7 +144,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:20", 
+    "updated_at": "2012-07-13 08:36:57", 
     "versions": [
         {
             "doc_id": "ILD00043948", 

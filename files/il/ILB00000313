@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Jacqueline Y. Collins", 
             "actor": "upper", 
             "date": "2011-01-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-01-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-01-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Financial Institutions", 
             "actor": "upper", 
-            "committee": "ILC000119", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000119", 
+                    "name": "Financial Institutions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Added as Co-Sponsor Sen. Toi W. Hutchinson", 
             "actor": "upper", 
             "date": "2011-02-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Added as Co-Sponsor Sen. Emil Jones, III", 
             "actor": "upper", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Ira I. Silverstein", 
             "actor": "upper", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Martin A. Sandoval", 
             "actor": "upper", 
             "date": "2011-03-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Do Pass Financial Institutions;  010-000-000", 
             "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -86,6 +105,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 14, 2011", 
             "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +114,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Kwame Raoul", 
             "actor": "upper", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +123,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Kimberly A. Lightford", 
             "actor": "upper", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +132,7 @@
             "action": "Added as Co-Sponsor Sen. Mattie Hunter", 
             "actor": "upper", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +141,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -126,6 +150,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 30, 2011", 
             "actor": "upper", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +159,7 @@
             "action": "Third Reading - Passed; 035-017-000", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -143,6 +169,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -151,6 +178,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -159,6 +187,7 @@
             "action": "Chief House Sponsor Rep. Andr\u00e9 M. Thapedi", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -167,6 +196,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -174,8 +204,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -183,8 +219,14 @@
         {
             "action": "Assigned to Housing Committee", 
             "actor": "lower", 
-            "committee": "ILC000038", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000038", 
+                    "name": "Housing Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -193,6 +235,7 @@
             "action": "Alternate Chief Sponsor Changed to Rep. Karen A. Yarbrough", 
             "actor": "lower", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -201,6 +244,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Andr\u00e9 M. Thapedi", 
             "actor": "lower", 
             "date": "2011-04-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -209,6 +253,7 @@
             "action": "Do Pass / Short Debate Housing Committee;  013-000-000", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -217,6 +262,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -225,6 +271,7 @@
             "action": "House Floor Amendment No. 1 Filed with Clerk by Rep. Karen A. Yarbrough", 
             "actor": "lower", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -233,6 +280,13 @@
             "action": "House Floor Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -241,6 +295,7 @@
             "action": "House Floor Amendment No. 1 Rules Refers to Housing Committee", 
             "actor": "lower", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -249,6 +304,7 @@
             "action": "Added as Co-Sponsor Sen. Iris Y. Martinez", 
             "actor": "upper", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -257,6 +313,7 @@
             "action": "Added as Co-Sponsor Sen. Michael Noland", 
             "actor": "upper", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -265,6 +322,7 @@
             "action": "House Floor Amendment No. 2 Filed with Clerk by Rep. Karen A. Yarbrough", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -273,6 +331,13 @@
             "action": "House Floor Amendment No. 2 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -281,6 +346,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -289,6 +355,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -297,6 +364,7 @@
             "action": "Added as Co-Sponsor Sen. Annazette R. Collins", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -305,6 +373,7 @@
             "action": "Added as Co-Sponsor Sen. William Delgado", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -313,6 +382,7 @@
             "action": "Added as Co-Sponsor Sen. James T. Meeks", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -321,6 +391,7 @@
             "action": "Added as Co-Sponsor Sen. Antonio Mu\u00f1oz", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -329,6 +400,7 @@
             "action": "Sponsor Removed Sen. Antonio Mu\u00f1oz", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -337,6 +409,7 @@
             "action": "Final Action Deadline Extended-9(b) May 31, 2011", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -345,6 +418,7 @@
             "action": "House Floor Amendment No. 3 Filed with Clerk by Rep. Karen A. Yarbrough", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -353,6 +427,13 @@
             "action": "House Floor Amendment No. 3 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 3  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -361,6 +442,7 @@
             "action": "House Floor Amendment No. 3 Rules Refers to Housing Committee", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -369,6 +451,7 @@
             "action": "House Floor Amendment No. 3 Fiscal Note Requested as Amended by Rep. Bill Mitchell", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -377,6 +460,7 @@
             "action": "House Floor Amendment No. 3 State Mandates Fiscal Note Requested as Amended by Rep. Bill Mitchell", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -385,6 +469,7 @@
             "action": "House Floor Amendment No. 3 Judicial Note Requested as Amended by Rep. Bill Mitchell", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -393,6 +478,7 @@
             "action": "House Floor Amendment No. 4 Filed with Clerk by Rep. David R. Leitch", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -401,6 +487,13 @@
             "action": "House Floor Amendment No. 4 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 4  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -409,6 +502,7 @@
             "action": "House Floor Amendment No. 5 Filed with Clerk by Rep. Karen A. Yarbrough", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -417,6 +511,13 @@
             "action": "House Floor Amendment No. 5 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 5  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -425,6 +526,7 @@
             "action": "House Floor Amendment No. 3 Fiscal Note Requested as Amended by Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -433,6 +535,7 @@
             "action": "House Floor Amendment No. 3 State Mandates Fiscal Note Requested as Amended by Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -441,6 +544,7 @@
             "action": "House Floor Amendment No. 3 Balanced Budget Note Requested as Amended by Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -449,6 +553,7 @@
             "action": "House Floor Amendment No. 3 Home Rule Note Requested as Amended by Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -457,6 +562,7 @@
             "action": "House Floor Amendment No. 3 Housing Affordability Impact Note Requested as Amended by Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -465,6 +571,7 @@
             "action": "House Floor Amendment No. 3 Judicial Note Requested as Amended by Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -473,6 +580,7 @@
             "action": "House Floor Amendment No. 3 Land Conveyance Appraisal Note Requested as Amended by Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -481,6 +589,7 @@
             "action": "House Floor Amendment No. 3 Pension Note Requested as Amended by Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -489,6 +598,7 @@
             "action": "House Floor Amendment No. 3 State Debt Impact Note Requested as Amended by Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -497,6 +607,7 @@
             "action": "House Floor Amendment No. 3 Land Conveyance Appraisal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -505,6 +616,7 @@
             "action": "House Floor Amendment No. 5 Rules Refers to Housing Committee", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -513,6 +625,7 @@
             "action": "House Floor Amendment No. 3 Recommends Be Adopted Housing Committee;  008-002-000", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -521,6 +634,7 @@
             "action": "House Floor Amendment No. 3 Correctional Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -529,6 +643,7 @@
             "action": "House Floor Amendment No. 5 Correctional Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -537,6 +652,7 @@
             "action": "House Floor Amendment No. 5 Land Conveyance Appraisal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -545,6 +661,7 @@
             "action": "House Floor Amendment No. 3 State Debt Impact Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -553,6 +670,7 @@
             "action": "House Floor Amendment No. 3 Pension Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -561,6 +679,7 @@
             "action": "House Floor Amendment No. 5 Pension Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -569,6 +688,7 @@
             "action": "House Floor Amendment No. 3 State Debt Impact Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -577,6 +697,7 @@
             "action": "House Floor Amendment No. 5 State Debt Impact Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -585,6 +706,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Kenneth Dunkin", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -593,6 +715,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. La Shawn K. Ford", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -601,6 +724,7 @@
             "action": "House Floor Amendment No. 5 Recommends Be Adopted Housing Committee;  008-005-000", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -609,6 +733,7 @@
             "action": "House Floor Amendment No. 3 Housing Affordability Impact Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -617,6 +742,7 @@
             "action": "House Floor Amendment No. 5 Housing Affordability Impact Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -625,6 +751,7 @@
             "action": "House Floor Amendment No. 3 Home Rule Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -633,6 +760,7 @@
             "action": "House Floor Amendment No. 5 Home Rule Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -641,6 +769,7 @@
             "action": "House Floor Amendment No. 3 State Mandates Fiscal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -649,6 +778,7 @@
             "action": "House Floor Amendment No. 5 State Mandates Fiscal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -657,6 +787,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Kelly M. Cassidy", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -665,6 +796,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Deborah Mell", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -673,6 +805,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Kimberly du Buclet", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -681,6 +814,7 @@
             "action": "House Floor Amendment No. 3 Fiscal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -689,6 +823,7 @@
             "action": "House Floor Amendment No. 5 Fiscal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -697,6 +832,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Thaddeus Jones", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -705,6 +841,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Jack McGuire", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -713,6 +850,7 @@
             "action": "House Floor Amendment No. 5 Judicial Note Requested as Amended by Rep. Jack D. Franks", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -721,6 +859,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Elizabeth Hernandez", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -729,6 +868,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Monique D. Davis", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -737,6 +877,7 @@
             "action": "House Floor Amendment No. 3 Judicial Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -745,6 +886,7 @@
             "action": "House Floor Amendment No. 5 Judicial Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -753,6 +895,7 @@
             "action": "Alternate Chief Co-Sponsor Removed Rep. Thaddeus Jones", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -761,6 +904,7 @@
             "action": "Alternate Co-Sponsor Removed Rep. Jack McGuire", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -769,6 +913,7 @@
             "action": "House Floor Amendment No. 3 Balanced Budget Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -777,6 +922,7 @@
             "action": "House Floor Amendment No. 5 Balanced Budget Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -785,6 +931,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -793,6 +946,13 @@
             "action": "House Floor Amendment No. 1 Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 1 Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -801,6 +961,7 @@
             "action": "House Floor Amendment No. 3 Fiscal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-06-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -809,6 +970,7 @@
             "action": "House Floor Amendment No. 5 Fiscal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-06-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -817,6 +979,7 @@
             "action": "Approved for Consideration Rules Committee;  004-000-000", 
             "actor": "lower", 
             "date": "2012-02-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -825,6 +988,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-02-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -833,6 +997,7 @@
             "action": "House Floor Amendment No. 6 Filed with Clerk by Rep. Karen A. Yarbrough", 
             "actor": "lower", 
             "date": "2012-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -841,6 +1006,13 @@
             "action": "House Floor Amendment No. 6 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 6  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -849,6 +1021,7 @@
             "action": "House Floor Amendment No. 6 Rules Refers to Housing Committee", 
             "actor": "lower", 
             "date": "2012-03-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -857,6 +1030,7 @@
             "action": "House Floor Amendment No. 6 Recommends Be Adopted Housing Committee;  008-004-000", 
             "actor": "lower", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -865,6 +1039,7 @@
             "action": "House Floor Amendment No. 7 Filed with Clerk by Rep. Karen A. Yarbrough", 
             "actor": "lower", 
             "date": "2012-03-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -873,6 +1048,13 @@
             "action": "House Floor Amendment No. 7 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 7  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -881,6 +1063,7 @@
             "action": "House Floor Amendment No. 7 Recommends Be Adopted Rules Committee;  003-000-000", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -889,6 +1072,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -897,6 +1081,7 @@
             "action": "House Floor Amendment No. 3 Withdrawn by Rep. Karen A. Yarbrough", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -905,6 +1090,7 @@
             "action": "House Floor Amendment No. 5 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -913,6 +1099,7 @@
             "action": "House Floor Amendment No. 6 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -921,6 +1108,7 @@
             "action": "House Floor Amendment No. 7 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -929,6 +1117,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -937,6 +1126,7 @@
             "action": "House Floor Amendment No. 7 Correctional Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -945,6 +1135,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Cynthia Soto", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -953,6 +1144,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Jerry F. Costello, II", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -961,6 +1153,7 @@
             "action": "House Floor Amendment No. 7 Land Conveyance Appraisal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -969,6 +1162,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Luis Arroyo", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -977,6 +1171,7 @@
             "action": "Alternate Co-Sponsor Removed Rep. Luis Arroyo", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -985,6 +1180,7 @@
             "action": "Alternate Co-Sponsor Removed Rep. Jerry F. Costello, II", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -993,6 +1189,7 @@
             "action": "House Floor Amendment No. 7 State Debt Impact Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1001,6 +1198,7 @@
             "action": "House Floor Amendment No. 7 Pension Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1009,6 +1207,7 @@
             "action": "House Floor Amendment No. 7 Fiscal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1017,6 +1216,7 @@
             "action": "House Floor Amendment No. 7 Housing Affordability Impact Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1025,6 +1225,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Robert Rita", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1033,6 +1234,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Daniel Biss", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1041,6 +1243,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Camille Y. Lilly", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1049,6 +1252,7 @@
             "action": "House Floor Amendment No. 7 Judicial Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1057,6 +1261,7 @@
             "action": "House Floor Amendment No. 7 Balanced Budget Note Filed as Amended", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1065,6 +1270,7 @@
             "action": "Balanced Budget Note Filed", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1073,6 +1279,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Luis Arroyo", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1081,6 +1288,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Thaddeus Jones", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1089,6 +1297,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Al Riley", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1097,6 +1306,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Maria Antonia Berrios", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1105,6 +1315,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Sara Feigenholtz", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1113,6 +1324,7 @@
             "action": "Alternate Co-Sponsor Removed Rep. Thaddeus Jones", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1121,6 +1333,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Edward J. Acevedo", 
             "actor": "lower", 
             "date": "2012-04-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1129,6 +1342,7 @@
             "action": "Final Action Deadline Extended-9(b) May 31, 2012", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1137,6 +1351,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -1389,7 +1610,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:41:12", 
+    "updated_at": "2012-07-13 08:35:57", 
     "versions": [
         {
             "doc_id": "ILD00040577", 

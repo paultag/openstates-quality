@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Brandon W. Phelps", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
-            "committee": "ILC000031", 
             "date": "2011-02-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000031", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Chief Sponsor Changed to Rep. Patrick J. Verschoore", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. Patrick J. Verschoore", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -62,6 +78,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -70,6 +93,7 @@
             "action": "Committee Deadline Extended-Rule 9(b) April 15, 2011", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -77,8 +101,14 @@
         {
             "action": "Re-assigned to Cities & Villages Committee", 
             "actor": "lower", 
-            "committee": "ILC000017", 
             "date": "2011-03-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000017", 
+                    "name": "Cities & Villages Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -87,6 +117,7 @@
             "action": "House Committee Amendment No. 1 Rules Refers to Cities & Villages Committee", 
             "actor": "lower", 
             "date": "2011-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -95,6 +126,7 @@
             "action": "House Committee Amendment No. 1 Adopted in Cities & Villages Committee;  by Voice Vote", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -103,6 +135,7 @@
             "action": "Do Pass as Amended / Short Debate Cities & Villages Committee;  007-000-000", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -111,6 +144,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -119,6 +153,7 @@
             "action": "Added Chief Co-Sponsor Rep. Michael Unes", 
             "actor": "lower", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -127,6 +162,7 @@
             "action": "Added Chief Co-Sponsor Rep. Al Riley", 
             "actor": "lower", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -135,6 +171,7 @@
             "action": "Added Chief Co-Sponsor Rep. Rita Mayfield", 
             "actor": "lower", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -143,6 +180,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -151,6 +189,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -159,6 +198,7 @@
             "action": "Added Chief Co-Sponsor Rep. Joe Sosnowski", 
             "actor": "lower", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -167,6 +207,7 @@
             "action": "Third Reading - Short Debate - Passed 110-000-000", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -176,6 +217,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -184,6 +226,7 @@
             "action": "Placed on Calendar Order of First Reading April 11, 2011", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -192,6 +235,7 @@
             "action": "Chief Senate Sponsor Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -200,6 +244,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -207,8 +252,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -216,8 +267,14 @@
         {
             "action": "Assigned to Commerce", 
             "actor": "upper", 
-            "committee": "ILC000098", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000098", 
+                    "name": "Commerce", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -226,6 +283,7 @@
             "action": "Do Pass Commerce;  006-000-000", 
             "actor": "upper", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -234,6 +292,7 @@
             "action": "Placed on Calendar Order of 2nd Reading May 5, 2011", 
             "actor": "upper", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -242,6 +301,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -250,6 +310,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 6, 2011", 
             "actor": "upper", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -258,6 +319,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. Pamela J. Althoff", 
             "actor": "upper", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -266,6 +328,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. Michael W. Frerichs", 
             "actor": "upper", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -274,6 +337,7 @@
             "action": "Added as Alternate Chief Co-Sponsor Sen. David Koehler", 
             "actor": "upper", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -282,6 +346,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. John O. Jones", 
             "actor": "upper", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -290,6 +355,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. Gary Forby", 
             "actor": "upper", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -298,6 +364,7 @@
             "action": "Senate Floor Amendment No. 1 Filed with Secretary by Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -306,6 +373,13 @@
             "action": "Senate Floor Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -314,6 +388,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. Michael Noland", 
             "actor": "upper", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -322,6 +397,7 @@
             "action": "Senate Floor Amendment No. 1 Assignments Refers to Commerce", 
             "actor": "upper", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -330,6 +406,7 @@
             "action": "Senate Floor Amendment No. 1 Postponed - Commerce", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -338,6 +415,7 @@
             "action": "Senate Floor Amendment No. 1 Recommend Do Adopt Commerce;  007-000-000", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -346,6 +424,7 @@
             "action": "Recalled to Second Reading", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -354,6 +433,7 @@
             "action": "Senate Floor Amendment No. 1 Adopted; Sullivan", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -362,6 +442,7 @@
             "action": "Placed on Calendar Order of 3rd Reading", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -370,6 +451,7 @@
             "action": "Third Reading - Passed; 056-000-000", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -379,6 +461,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -387,6 +470,7 @@
             "action": "Placed on Calendar Order of Concurrence Senate Amendment(s) 1", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -395,6 +479,7 @@
             "action": "Senate Floor Amendment No. 1 Motion Filed Concur Rep. Patrick J. Verschoore", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -403,6 +488,13 @@
             "action": "Senate Floor Amendment No. 1 Motion to Concur Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1 Motion to Concur  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -411,6 +503,13 @@
             "action": "Senate Floor Amendment No. 1 Motion to Concur Referred to Cities & Villages Committee", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1 Motion to Concur  Cities & Villages Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -419,6 +518,7 @@
             "action": "Senate Floor Amendment No. 1 Motion to Concur Recommends Be Adopted Cities & Villages Committee;  010-000-000", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -427,6 +527,7 @@
             "action": "Senate Floor Amendment No. 1 House Concurs 116-000-000", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -435,6 +536,7 @@
             "action": "Passed Both Houses", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -443,6 +545,7 @@
             "action": "Sent to the Governor", 
             "actor": "lower", 
             "date": "2011-06-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -451,6 +554,7 @@
             "action": "Governor Approved", 
             "actor": "lower", 
             "date": "2011-08-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -459,6 +563,7 @@
             "action": "Effective Date August 25, 2011", 
             "actor": "lower", 
             "date": "2011-08-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -467,6 +572,7 @@
             "action": "Public Act . . . . . . . . . 97-0573", 
             "actor": "lower", 
             "date": "2011-08-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -585,7 +691,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:44:15", 
+    "updated_at": "2012-07-13 08:38:25", 
     "versions": [
         {
             "doc_id": "ILD00050908", 

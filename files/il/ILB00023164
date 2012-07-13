@@ -12,6 +12,7 @@
             "action": "Filed with Secretary", 
             "actor": "upper", 
             "date": "2012-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "Co-Sponsor All Senators", 
             "actor": "upper", 
             "date": "2012-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +30,13 @@
             "action": "Referred to Resolutions Consent Calendar", 
             "actor": "upper", 
             "date": "2012-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Resolutions Consent Calendar", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,6 +45,7 @@
             "action": "Resolution Adopted", 
             "actor": "upper", 
             "date": "2012-02-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -68,7 +78,7 @@
     "type": [
         "resolution"
     ], 
-    "updated_at": "2012-06-26 23:22:01", 
+    "updated_at": "2012-07-13 08:35:52", 
     "versions": [
         {
             "doc_id": "ILD00040448", 

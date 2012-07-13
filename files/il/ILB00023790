@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. John J. Millner", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Criminal Law", 
             "actor": "upper", 
-            "committee": "ILC000103", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000103", 
+                    "name": "Criminal Law", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass Criminal Law;  007-000-000", 
             "actor": "upper", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 8, 2012", 
             "actor": "upper", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Added as Co-Sponsor Sen. Kirk W. Dillard", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Sponsor Removed Sen. Kirk W. Dillard", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -86,6 +105,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 28, 2012", 
             "actor": "upper", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +114,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Kirk W. Dillard", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +123,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Ira I. Silverstein", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +132,7 @@
             "action": "Third Reading - Passed; 056-000-000", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -119,6 +142,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -127,6 +151,7 @@
             "action": "Chief House Sponsor Rep. Sidney H. Mathias", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -135,6 +160,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -143,6 +169,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -150,8 +177,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -160,6 +193,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Jacqueline Y. Collins", 
             "actor": "upper", 
             "date": "2012-04-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -168,6 +202,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Fred Crespo", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -176,6 +211,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Lawrence M. Walsh, Jr.", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -184,6 +220,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Daniel V. Beiser", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -192,6 +229,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Jehan A. Gordon", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -200,6 +238,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -208,6 +247,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Carol A. Sente", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -216,6 +256,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Michelle Mussman", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -224,6 +265,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Jerry F. Costello, II", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -331,7 +373,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:38", 
+    "updated_at": "2012-07-13 08:37:12", 
     "versions": [
         {
             "doc_id": "ILD00045207", 

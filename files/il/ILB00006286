@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Angelo Saviano", 
             "actor": "lower", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "Chief Co-Sponsor Rep. Robert Rita", 
             "actor": "lower", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +30,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -35,8 +38,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -44,8 +53,14 @@
         {
             "action": "Assigned to Business & Occupational Licenses Committee", 
             "actor": "lower", 
-            "committee": "ILC000015", 
             "date": "2011-02-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000015", 
+                    "name": "Business & Occupational Licenses Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -54,6 +69,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. Angelo Saviano", 
             "actor": "lower", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -62,6 +78,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -70,6 +93,7 @@
             "action": "House Committee Amendment No. 1 Rules Refers to Business & Occupational Licenses Committee", 
             "actor": "lower", 
             "date": "2011-03-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +102,7 @@
             "action": "House Committee Amendment No. 1 Adopted in Business & Occupational Licenses Committee;  by Voice Vote", 
             "actor": "lower", 
             "date": "2011-03-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -86,6 +111,7 @@
             "action": "Do Pass as Amended / Short Debate Business & Occupational Licenses Committee;  009-000-000", 
             "actor": "lower", 
             "date": "2011-03-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -94,6 +120,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +129,7 @@
             "action": "House Floor Amendment No. 2 Filed with Clerk by Rep. Angelo Saviano", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -110,6 +138,13 @@
             "action": "House Floor Amendment No. 2 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -118,6 +153,7 @@
             "action": "House Floor Amendment No. 2 Recommends Be Adopted Rules Committee;  004-000-000", 
             "actor": "lower", 
             "date": "2011-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -126,6 +162,7 @@
             "action": "House Floor Amendment No. 3 Filed with Clerk by Rep. Angelo Saviano", 
             "actor": "lower", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -134,6 +171,13 @@
             "action": "House Floor Amendment No. 3 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 3  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -142,6 +186,7 @@
             "action": "House Floor Amendment No. 3 Recommends Be Adopted Rules Committee;  004-000-000", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -150,6 +195,7 @@
             "action": "House Floor Amendment No. 4 Filed with Clerk by Rep. Angelo Saviano", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -158,6 +204,13 @@
             "action": "House Floor Amendment No. 4 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 4  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -166,6 +219,7 @@
             "action": "House Floor Amendment No. 4 Rules Refers to Business & Occupational Licenses Committee", 
             "actor": "lower", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -174,6 +228,7 @@
             "action": "House Floor Amendment No. 4 Recommends Be Adopted Business & Occupational Licenses Committee;  006-000-000", 
             "actor": "lower", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -182,6 +237,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -190,6 +246,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -198,6 +255,7 @@
             "action": "House Floor Amendment No. 2 Withdrawn by Rep. Angelo Saviano", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -206,6 +264,7 @@
             "action": "House Floor Amendment No. 3 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -214,6 +273,7 @@
             "action": "House Floor Amendment No. 4 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -222,6 +282,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -230,6 +291,7 @@
             "action": "Third Reading - Short Debate - Passed 083-022-001", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -239,6 +301,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2011-04-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -247,6 +310,7 @@
             "action": "Placed on Calendar Order of First Reading May 3, 2011", 
             "actor": "upper", 
             "date": "2011-04-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -255,6 +319,7 @@
             "action": "Chief Senate Sponsor Sen. Iris Y. Martinez", 
             "actor": "upper", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -263,6 +328,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -270,8 +336,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -279,8 +351,14 @@
         {
             "action": "Assigned to Executive", 
             "actor": "upper", 
-            "committee": "ILC000031", 
             "date": "2011-10-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000111", 
+                    "name": "Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -289,6 +367,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As November 10, 2011", 
             "actor": "upper", 
             "date": "2011-10-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -297,6 +376,7 @@
             "action": "Postponed - Executive", 
             "actor": "upper", 
             "date": "2011-10-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -305,6 +385,7 @@
             "action": "Postponed - Executive", 
             "actor": "upper", 
             "date": "2011-10-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -313,6 +394,7 @@
             "action": "Senate Committee Amendment No. 1 Filed with Secretary by Sen. Iris Y. Martinez", 
             "actor": "upper", 
             "date": "2011-11-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -321,6 +403,13 @@
             "action": "Senate Committee Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-11-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -329,6 +418,7 @@
             "action": "Senate Committee Amendment No. 2 Filed with Secretary by Sen. Iris Y. Martinez", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -337,6 +427,13 @@
             "action": "Senate Committee Amendment No. 2 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 2  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -345,6 +442,7 @@
             "action": "Senate Committee Amendment No. 2 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -353,6 +451,7 @@
             "action": "Senate Committee Amendment No. 2 Adopted", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -361,6 +460,7 @@
             "action": "Do Pass as Amended Executive;  009-002-003", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -369,6 +469,7 @@
             "action": "Placed on Calendar Order of 2nd Reading November 9, 2011", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -377,6 +478,13 @@
             "action": "Pursuant to Senate Rule 3-9(b) / Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-01-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Pursuant to Senate Rule 3-9(b) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -385,6 +493,7 @@
             "action": "Alternate Chief Sponsor Changed to Sen. Don Harmon", 
             "actor": "upper", 
             "date": "2012-05-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -393,6 +502,7 @@
             "action": "Alternate Chief Sponsor Changed to Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -401,6 +511,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. Suzi Schmidt", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -409,6 +520,7 @@
             "action": "Approved for Consideration Assignments", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -417,6 +529,7 @@
             "action": "Placed on Calendar Order of 2nd Reading May 23, 2012", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -425,6 +538,7 @@
             "action": "Senate Floor Amendment No. 3 Filed with Secretary by Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -433,6 +547,13 @@
             "action": "Senate Floor Amendment No. 3 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 3  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -441,6 +562,7 @@
             "action": "Senate Floor Amendment No. 3 Assignments Refers to Local Government", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -449,6 +571,7 @@
             "action": "Senate Floor Amendment No. 3 Recommend Do Adopt Local Government;  006-000-000", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -457,6 +580,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. Pamela J. Althoff", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -465,6 +589,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -473,6 +598,7 @@
             "action": "Senate Floor Amendment No. 3 Adopted; Link", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -481,6 +607,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 24, 2012", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -489,6 +616,7 @@
             "action": "Added as Alternate Chief Co-Sponsor Sen. Susan Garrett", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -497,6 +625,7 @@
             "action": "Third Reading - Passed; 050-005-000", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -506,6 +635,7 @@
             "action": "Senate Committee Amendment No. 1 Tabled Pursuant to Rule 5-4(a)", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -514,6 +644,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -522,6 +653,7 @@
             "action": "Placed on Calendar Order of Concurrence Senate Amendment(s) 2, 3", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -530,6 +662,7 @@
             "action": "Chief Sponsor Changed to Rep. JoAnn D. Osmond", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -538,6 +671,7 @@
             "action": "Senate Committee Amendment No. 2 Motion Filed Concur Rep. JoAnn D. Osmond", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -546,6 +680,7 @@
             "action": "Senate Floor Amendment No. 3 Motion Filed Concur Rep. JoAnn D. Osmond", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -554,6 +689,13 @@
             "action": "Senate Committee Amendment No. 2 Motion to Concur Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 2 Motion to Concur  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -562,6 +704,13 @@
             "action": "Senate Floor Amendment No. 3 Motion to Concur Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 3 Motion to Concur  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -664,7 +813,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-10 08:40:43", 
+    "updated_at": "2012-07-13 08:38:16", 
     "versions": [
         {
             "doc_id": "ILD00050257", 

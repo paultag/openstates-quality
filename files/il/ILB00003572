@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. David R. Leitch", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-01-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-01-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Counties & Townships Committee", 
             "actor": "lower", 
-            "committee": "ILC000021", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000021", 
+                    "name": "Counties & Townships Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Added Co-Sponsor Rep. Michael Unes", 
             "actor": "lower", 
             "date": "2011-02-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. David R. Leitch", 
             "actor": "lower", 
             "date": "2011-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -62,6 +78,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-02-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -70,6 +93,7 @@
             "action": "House Committee Amendment No. 1 Rules Refers to Counties & Townships Committee", 
             "actor": "lower", 
             "date": "2011-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +102,7 @@
             "action": "House Committee Amendment No. 1 Adopted in Counties & Townships Committee;  by Voice Vote", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -86,6 +111,7 @@
             "action": "Do Pass as Amended / Short Debate Counties & Townships Committee;  006-000-000", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -94,6 +120,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +129,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -110,6 +138,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +147,7 @@
             "action": "Third Reading - Short Debate - Passed 113-000-000", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -127,6 +157,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -135,6 +166,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -143,6 +175,7 @@
             "action": "Chief Senate Sponsor Sen. David Koehler", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -151,6 +184,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -158,8 +192,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -167,8 +207,14 @@
         {
             "action": "Assigned to Local Government", 
             "actor": "upper", 
-            "committee": "ILC000138", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000138", 
+                    "name": "Local Government", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -177,6 +223,7 @@
             "action": "Postponed - Local Government", 
             "actor": "upper", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -185,6 +232,7 @@
             "action": "Do Pass Local Government;  008-000-000", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -193,6 +241,7 @@
             "action": "Placed on Calendar Order of 2nd Reading May 16, 2011", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -201,6 +250,7 @@
             "action": "Senate Floor Amendment No. 1 Filed with Secretary by Sen. David Koehler", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -209,6 +259,13 @@
             "action": "Senate Floor Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -217,6 +274,7 @@
             "action": "Senate Floor Amendment No. 1 Assignments Refers to Local Government", 
             "actor": "upper", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -225,6 +283,7 @@
             "action": "Senate Floor Amendment No. 1 Recommend Do Adopt Local Government;  007-000-000", 
             "actor": "upper", 
             "date": "2011-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -233,6 +292,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -241,6 +301,7 @@
             "action": "Senate Floor Amendment No. 1 Adopted; Koehler", 
             "actor": "upper", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -249,6 +310,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 25, 2011", 
             "actor": "upper", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -257,6 +319,7 @@
             "action": "Third Reading - Passed; 057-000-001", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -266,6 +329,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -274,6 +338,7 @@
             "action": "Placed on Calendar Order of Concurrence Senate Amendment(s) 1", 
             "actor": "lower", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -282,6 +347,7 @@
             "action": "Senate Floor Amendment No. 1 Motion Filed Concur Rep. David R. Leitch", 
             "actor": "lower", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -290,6 +356,13 @@
             "action": "Senate Floor Amendment No. 1 Motion to Concur Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1 Motion to Concur  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -298,6 +371,13 @@
             "action": "Senate Floor Amendment No. 1 Motion to Concur Rules Referred to Counties & Townships Committee", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1 Motion to Concur Rules  Counties & Townships Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -306,6 +386,7 @@
             "action": "Senate Floor Amendment No. 1 Motion to Concur Recommends Be Adopted Counties & Townships Committee;  007-000-000", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -314,6 +395,7 @@
             "action": "Removed Co-Sponsor Rep. Michael Unes", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -322,6 +404,7 @@
             "action": "Added Chief Co-Sponsor Rep. Michael Unes", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -330,6 +413,7 @@
             "action": "Added Chief Co-Sponsor Rep. Patrick J. Verschoore", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -338,6 +422,7 @@
             "action": "Added Chief Co-Sponsor Rep. Al Riley", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -346,6 +431,7 @@
             "action": "Added Chief Co-Sponsor Rep. Jerry L. Mitchell", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -354,6 +440,7 @@
             "action": "Senate Floor Amendment No. 1 House Concurs 086-031-000", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -362,6 +449,7 @@
             "action": "Passed Both Houses", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -370,6 +458,7 @@
             "action": "Added Co-Sponsor Rep. Patricia R. Bellock", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -378,6 +467,7 @@
             "action": "Added Co-Sponsor Rep. Donald L. Moffitt", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -386,6 +476,7 @@
             "action": "Sent to the Governor", 
             "actor": "lower", 
             "date": "2011-06-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -394,6 +485,7 @@
             "action": "Sent to the Governor", 
             "actor": "lower", 
             "date": "2011-06-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -402,6 +494,7 @@
             "action": "Governor Approved", 
             "actor": "lower", 
             "date": "2011-08-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -410,6 +503,7 @@
             "action": "Effective Date August 25, 2011", 
             "actor": "lower", 
             "date": "2011-08-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -418,6 +512,7 @@
             "action": "Public Act . . . . . . . . . 97-0549", 
             "actor": "lower", 
             "date": "2011-08-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -512,7 +607,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:48:26", 
+    "updated_at": "2012-07-13 08:37:37", 
     "versions": [
         {
             "doc_id": "ILD00046834", 

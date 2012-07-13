@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Linda Holmes", 
             "actor": "upper", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Executive", 
             "actor": "upper", 
-            "committee": "ILC000111", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000111", 
+                    "name": "Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Christine J. Johnson", 
             "actor": "upper", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Do Pass Executive;  014-000-000", 
             "actor": "upper", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -62,6 +78,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 8, 2011", 
             "actor": "upper", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Added as Chief Co-Sponsor Sen. A. J. Wilhelmi", 
             "actor": "upper", 
             "date": "2011-03-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -86,6 +105,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 10, 2011", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +114,7 @@
             "action": "Third Reading - Passed; 049-002-000", 
             "actor": "upper", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -103,6 +124,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -111,6 +133,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -119,6 +142,7 @@
             "action": "Chief House Sponsor Rep. Robert W. Pritchard", 
             "actor": "lower", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -127,6 +151,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -134,8 +159,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -144,6 +175,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Franco Coladipietro", 
             "actor": "lower", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -152,6 +184,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -160,6 +193,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Cynthia Soto", 
             "actor": "lower", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -167,8 +201,14 @@
         {
             "action": "Assigned to Higher Education Committee", 
             "actor": "lower", 
-            "committee": "ILC000121", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000037", 
+                    "name": "Higher Education Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -177,6 +217,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Marlow H. Colvin", 
             "actor": "lower", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -185,6 +226,7 @@
             "action": "Alternate Chief Co-Sponsor Changed to Rep. Marlow H. Colvin", 
             "actor": "lower", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -193,6 +235,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Joe Sosnowski", 
             "actor": "lower", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -201,6 +244,7 @@
             "action": "Do Pass / Short Debate Higher Education Committee;  007-001-000", 
             "actor": "lower", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -209,6 +253,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -217,6 +262,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -225,6 +271,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -233,6 +280,7 @@
             "action": "Third Reading - Short Debate - Passed 074-039-001", 
             "actor": "lower", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -242,6 +290,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -250,6 +299,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2011-06-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -258,6 +308,7 @@
             "action": "Governor Approved", 
             "actor": "upper", 
             "date": "2011-06-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -266,6 +317,7 @@
             "action": "Effective Date June 28, 2011", 
             "actor": "upper", 
             "date": "2011-06-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -274,6 +326,7 @@
             "action": "Public Act . . . . . . . . . 97-0045", 
             "actor": "upper", 
             "date": "2011-06-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -364,7 +417,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:41:54", 
+    "updated_at": "2012-07-13 08:36:32", 
     "versions": [
         {
             "doc_id": "ILD00042615", 

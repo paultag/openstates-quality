@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Gaming", 
             "actor": "upper", 
-            "committee": "ILC000120", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000120", 
+                    "name": "Gaming", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -45,8 +59,14 @@
         {
             "action": "Re-referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-02-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -54,8 +74,14 @@
         {
             "action": "Re-assigned to Executive", 
             "actor": "upper", 
-            "committee": "ILC000111", 
             "date": "2012-02-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000111", 
+                    "name": "Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -64,6 +90,7 @@
             "action": "Senate Committee Amendment No. 1 Filed with Secretary by Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -72,6 +99,13 @@
             "action": "Senate Committee Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -80,6 +114,7 @@
             "action": "Senate Committee Amendment No. 1 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2012-02-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -88,6 +123,7 @@
             "action": "Senate Committee Amendment No. 1 Postponed - Executive", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -96,6 +132,7 @@
             "action": "Postponed - Executive", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -104,6 +141,7 @@
             "action": "Rule 2-10 Committee Deadline Established As March 30, 2012", 
             "actor": "upper", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -112,6 +150,7 @@
             "action": "Senate Committee Amendment No. 2 Filed with Secretary by Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -120,6 +159,13 @@
             "action": "Senate Committee Amendment No. 2 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 2  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -128,6 +174,7 @@
             "action": "Senate Committee Amendment No. 2 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -136,6 +183,7 @@
             "action": "Senate Committee Amendment No. 1 Postponed - Executive", 
             "actor": "upper", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -144,6 +192,7 @@
             "action": "Senate Committee Amendment No. 2 Postponed - Executive", 
             "actor": "upper", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -152,6 +201,7 @@
             "action": "Postponed - Executive", 
             "actor": "upper", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -160,6 +210,7 @@
             "action": "Rule 2-10 Committee/3rd Reading Deadline Established As April 26, 2012", 
             "actor": "upper", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -168,6 +219,13 @@
             "action": "Rule 3-9(a) / Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 3-9(a) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -176,6 +234,13 @@
             "action": "Senate Committee Amendment No. 1 Rule 3-9(a) / Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1 Rule 3-9(a) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -184,6 +249,13 @@
             "action": "Senate Committee Amendment No. 2 Rule 3-9(a) / Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 2 Rule 3-9(a) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -227,7 +299,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:40", 
+    "updated_at": "2012-07-13 08:37:14", 
     "versions": [
         {
             "doc_id": "ILD00045359", 

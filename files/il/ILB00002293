@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Michael Noland", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Judiciary", 
             "actor": "upper", 
-            "committee": "ILC000128", 
             "date": "2011-03-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000128", 
+                    "name": "Judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Senate Committee Amendment No. 1 Filed with Secretary by Sen. Michael Noland", 
             "actor": "upper", 
             "date": "2011-03-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -54,6 +69,13 @@
             "action": "Senate Committee Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-03-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -62,6 +84,7 @@
             "action": "Senate Committee Amendment No. 1 Assignments Refers to Judiciary", 
             "actor": "upper", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +93,7 @@
             "action": "Senate Committee Amendment No. 1 Held in Judiciary", 
             "actor": "upper", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +102,7 @@
             "action": "Do Pass Judiciary;  009-001-000", 
             "actor": "upper", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -86,6 +111,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 16, 2011", 
             "actor": "upper", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +120,13 @@
             "action": "Senate Committee Amendment No. 1 Rule 3-9(a) / Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2011-03-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1 Rule 3-9(a) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -102,6 +135,7 @@
             "action": "Senate Floor Amendment No. 2 Filed with Secretary by Sen. Michael Noland", 
             "actor": "upper", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -110,6 +144,13 @@
             "action": "Senate Floor Amendment No. 2 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 2  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -118,6 +159,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -126,6 +168,7 @@
             "action": "Placed on Calendar Order of 3rd Reading April 12, 2011", 
             "actor": "upper", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +177,7 @@
             "action": "Senate Floor Amendment No. 2 Assignments Refers to Judiciary", 
             "actor": "upper", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -142,6 +186,7 @@
             "action": "Senate Floor Amendment No. 2 Recommend Do Adopt Judiciary;  010-000-000", 
             "actor": "upper", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -150,6 +195,7 @@
             "action": "Added as Co-Sponsor Sen. Toi W. Hutchinson", 
             "actor": "upper", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -158,6 +204,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Susan Garrett", 
             "actor": "upper", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -166,6 +213,7 @@
             "action": "Added as Chief Co-Sponsor Sen. M. Maggie Crotty", 
             "actor": "upper", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -174,6 +222,7 @@
             "action": "Recalled to Second Reading", 
             "actor": "upper", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -182,6 +231,7 @@
             "action": "Senate Floor Amendment No. 2 Adopted; Noland", 
             "actor": "upper", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -190,6 +240,7 @@
             "action": "Placed on Calendar Order of 3rd Reading", 
             "actor": "upper", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -198,6 +249,7 @@
             "action": "Third Reading - Passed; 048-007-000", 
             "actor": "upper", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -207,6 +259,7 @@
             "action": "Senate Committee Amendment No. 1 Tabled Pursuant to Rule 5-4(a)", 
             "actor": "upper", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -215,6 +268,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -223,6 +277,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -231,6 +286,7 @@
             "action": "Chief House Sponsor Rep. Fred Crespo", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -239,6 +295,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -246,8 +303,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -255,8 +318,14 @@
         {
             "action": "Assigned to Human Services Committee", 
             "actor": "lower", 
-            "committee": "ILC000122", 
             "date": "2011-04-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000039", 
+                    "name": "Human Services Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -265,6 +334,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Elaine Nekritz", 
             "actor": "lower", 
             "date": "2011-04-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -273,6 +343,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2011-04-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -281,6 +352,7 @@
             "action": "Alternate Chief Sponsor Changed to Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -289,6 +361,7 @@
             "action": "Alternate Chief Co-Sponsor Removed Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -297,6 +370,7 @@
             "action": "Added Alternate Co-Sponsor Rep. JoAnn D. Osmond", 
             "actor": "lower", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -305,6 +379,7 @@
             "action": "Do Pass / Short Debate Human Services Committee;  011-000-000", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -313,6 +388,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -321,6 +397,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Timothy L. Schmitz", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -329,6 +406,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Lisa M. Dugan", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -337,6 +415,7 @@
             "action": "Alternate Chief Co-Sponsor Changed to Rep. Lisa M. Dugan", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -345,6 +424,7 @@
             "action": "House Floor Amendment No. 1 Filed with Clerk by Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -353,6 +433,13 @@
             "action": "House Floor Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -361,6 +448,7 @@
             "action": "House Floor Amendment No. 1 Recommends Be Adopted Rules Committee;  005-000-000", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -369,6 +457,7 @@
             "action": "House Floor Amendment No. 2 Filed with Clerk by Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -377,6 +466,13 @@
             "action": "House Floor Amendment No. 2 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -385,6 +481,7 @@
             "action": "House Floor Amendment No. 3 Filed with Clerk by Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -393,6 +490,13 @@
             "action": "House Floor Amendment No. 3 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 3  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -401,6 +505,7 @@
             "action": "House Floor Amendment No. 2 Recommends Be Adopted Rules Committee;  004-000-000", 
             "actor": "lower", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -409,6 +514,7 @@
             "action": "House Floor Amendment No. 3 Recommends Be Adopted Rules Committee;  003-000-000", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -417,6 +523,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -425,6 +532,7 @@
             "action": "House Floor Amendment No. 1 Withdrawn by Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -433,6 +541,7 @@
             "action": "House Floor Amendment No. 2 Withdrawn by Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -441,6 +550,7 @@
             "action": "House Floor Amendment No. 3 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -449,6 +559,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -457,6 +568,7 @@
             "action": "Third Reading - Short Debate - Passed 116-001-000", 
             "actor": "lower", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -466,6 +578,7 @@
             "action": "Secretary's Desk - Concurrence House Amendment(s) 3", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -474,6 +587,7 @@
             "action": "Placed on Calendar Order of Concurrence House Amendment(s) 3 -  May 26, 2011", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -482,6 +596,7 @@
             "action": "House Floor Amendment No. 3 Motion to Concur Filed with Secretary Sen. Michael Noland", 
             "actor": "upper", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -490,6 +605,13 @@
             "action": "House Floor Amendment No. 3 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 3 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -498,6 +620,13 @@
             "action": "House Floor Amendment No. 3 Motion to Concur Assignments Referred to State Government and Veterans Affairs", 
             "actor": "upper", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 3 Motion to Concur Assignments  State Government and Veterans Affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -506,6 +635,7 @@
             "action": "House Floor Amendment No. 3 Motion To Concur Recommended Do Adopt State Government and Veterans Affairs;  006-003-000", 
             "actor": "upper", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -514,6 +644,7 @@
             "action": "House Floor Amendment No. 3 Senate Concurs 035-014-000", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -522,6 +653,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -530,6 +662,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2011-06-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -538,6 +671,7 @@
             "action": "Governor Approved", 
             "actor": "upper", 
             "date": "2011-08-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -546,6 +680,7 @@
             "action": "Effective Date August 23, 2011", 
             "actor": "upper", 
             "date": "2011-08-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -554,6 +689,7 @@
             "action": "Public Act . . . . . . . . . 97-0536", 
             "actor": "upper", 
             "date": "2011-08-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -669,7 +805,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:07", 
+    "updated_at": "2012-07-13 08:36:43", 
     "versions": [
         {
             "doc_id": "ILD00043107", 

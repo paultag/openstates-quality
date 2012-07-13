@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. David Koehler", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Revenue", 
             "actor": "upper", 
-            "committee": "ILC000152", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000152", 
+                    "name": "Revenue", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Postponed - Revenue", 
             "actor": "upper", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Postponed - Revenue", 
             "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Do Pass Revenue;  009-000-000", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 17, 2011", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Dan Kotowski", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -94,6 +114,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 29, 2011", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +123,7 @@
             "action": "Third Reading - Passed; 054-000-000", 
             "actor": "upper", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -111,6 +133,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -119,6 +142,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -127,6 +151,7 @@
             "action": "Chief House Sponsor Rep. Jack D. Franks", 
             "actor": "lower", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -135,6 +160,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -142,8 +168,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -151,8 +183,14 @@
         {
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
-            "committee": "ILC000060", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000060", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -161,6 +199,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. David R. Leitch", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -169,6 +208,7 @@
             "action": "Committee Deadline Extended-Rule 9(b) May 20, 2011", 
             "actor": "lower", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -177,6 +217,7 @@
             "action": "Motion Filed to Suspend Rule 25 Revenue & Finance Committee;  Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -185,6 +226,7 @@
             "action": "Motion to Suspend Rule 25 - Prevailed by Voice Vote", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -193,6 +235,7 @@
             "action": "Final Action Deadline Extended-9(b) May 27, 2011", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -201,6 +244,7 @@
             "action": "Final Action Deadline Extended-9(b) May 31, 2011", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -209,6 +253,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -217,6 +268,7 @@
             "action": "Final Action Deadline Extended-9(b) November 10, 2011", 
             "actor": "lower", 
             "date": "2011-10-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -224,8 +276,14 @@
         {
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
-            "committee": "ILC000060", 
             "date": "2011-10-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000060", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -234,6 +292,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. Greg Harris", 
             "actor": "lower", 
             "date": "2011-10-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -242,6 +301,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-10-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -250,6 +316,7 @@
             "action": "Alternate Chief Sponsor Changed to Rep. Greg Harris", 
             "actor": "lower", 
             "date": "2011-10-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -258,6 +325,7 @@
             "action": "House Committee Amendment No. 2 Filed with Clerk by Rep. Greg Harris", 
             "actor": "lower", 
             "date": "2011-10-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -266,6 +334,13 @@
             "action": "House Committee Amendment No. 2 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-10-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -274,6 +349,7 @@
             "action": "House Committee Amendment No. 2 Rules Refers to Revenue & Finance Committee", 
             "actor": "lower", 
             "date": "2011-10-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -282,6 +358,7 @@
             "action": "Chief Sponsor Changed to Sen. Heather A. Steans", 
             "actor": "upper", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -290,6 +367,7 @@
             "action": "House Committee Amendment No. 2 Adopted in Revenue & Finance Committee;  by Voice Vote", 
             "actor": "lower", 
             "date": "2011-11-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -298,6 +376,7 @@
             "action": "Do Pass as Amended / Short Debate Revenue & Finance Committee;  008-000-000", 
             "actor": "lower", 
             "date": "2011-11-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -306,6 +385,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-11-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -314,6 +394,7 @@
             "action": "House Committee Amendment No. 1 Tabled Pursuant to Rule 40", 
             "actor": "lower", 
             "date": "2011-11-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -322,6 +403,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-11-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -330,6 +412,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-11-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -338,6 +421,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -346,6 +430,7 @@
             "action": "3/5 Vote Required", 
             "actor": "lower", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -354,6 +439,7 @@
             "action": "Third Reading - Short Debate - Passed 111-000-001", 
             "actor": "lower", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -363,6 +449,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Fred Crespo", 
             "actor": "lower", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -371,6 +458,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Mary E. Flowers", 
             "actor": "lower", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -379,6 +467,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Kelly M. Cassidy", 
             "actor": "lower", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -387,6 +476,7 @@
             "action": "Secretary's Desk - Concurrence House Amendment(s) 2", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -395,6 +485,7 @@
             "action": "Placed on Calendar Order of Concurrence House Amendment(s) 2 -  November 9, 2011", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -403,6 +494,7 @@
             "action": "House Committee Amendment No. 2 Motion to Concur Filed with Secretary Sen. Heather A. Steans", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -411,6 +503,13 @@
             "action": "House Committee Amendment No. 2 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 2 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -419,6 +518,13 @@
             "action": "House Committee Amendment No. 2 Motion to Concur Assignments Referred to Revenue", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 2 Motion to Concur Assignments  Revenue", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -427,6 +533,7 @@
             "action": "House Committee Amendment No. 2 Motion To Concur Recommended Do Adopt Revenue;  008-000-000", 
             "actor": "upper", 
             "date": "2011-11-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -435,6 +542,7 @@
             "action": "3/5 Vote Required", 
             "actor": "upper", 
             "date": "2011-11-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -443,6 +551,7 @@
             "action": "House Committee Amendment No. 2 Senate Concurs 057-000-000", 
             "actor": "upper", 
             "date": "2011-11-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -451,6 +560,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2011-11-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -459,6 +569,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2011-12-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -467,6 +578,7 @@
             "action": "Governor Approved", 
             "actor": "upper", 
             "date": "2011-12-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -475,6 +587,7 @@
             "action": "Effective Date December 16, 2011", 
             "actor": "upper", 
             "date": "2011-12-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -483,6 +596,7 @@
             "action": "Public Act . . . . . . . . . 97-0637", 
             "actor": "upper", 
             "date": "2011-12-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -571,7 +685,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:41:47", 
+    "updated_at": "2012-07-13 08:36:26", 
     "versions": [
         {
             "doc_id": "ILD00042156", 

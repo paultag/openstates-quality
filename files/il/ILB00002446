@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -37,6 +45,7 @@
             "action": "Chief Sponsor Changed to Sen. Dan Kotowski", 
             "actor": "upper", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -45,6 +54,7 @@
             "action": "Chief Sponsor Changed to Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -52,8 +62,14 @@
         {
             "action": "Assigned to Executive", 
             "actor": "upper", 
-            "committee": "ILC000111", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000111", 
+                    "name": "Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -62,6 +78,7 @@
             "action": "Postponed - Executive", 
             "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Senate Committee Amendment No. 1 Filed with Secretary by Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -78,6 +96,13 @@
             "action": "Senate Committee Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -86,6 +111,7 @@
             "action": "Senate Committee Amendment No. 1 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +120,7 @@
             "action": "Senate Committee Amendment No. 1 Adopted", 
             "actor": "upper", 
             "date": "2011-03-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -102,6 +129,7 @@
             "action": "Do Pass as Amended Executive;  012-003-000", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -110,6 +138,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 17, 2011", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +147,7 @@
             "action": "Senate Floor Amendment No. 2 Filed with Secretary by Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -126,6 +156,13 @@
             "action": "Senate Floor Amendment No. 2 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 2  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -134,6 +171,7 @@
             "action": "Senate Floor Amendment No. 2 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -142,6 +180,7 @@
             "action": "Senate Floor Amendment No. 2 Recommend Do Adopt Executive;  015-000-000", 
             "actor": "upper", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -150,6 +189,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -158,6 +198,7 @@
             "action": "Senate Floor Amendment No. 2 Adopted; Sullivan", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -166,6 +207,7 @@
             "action": "Placed on Calendar Order of 3rd Reading April 11, 2011", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -174,6 +216,7 @@
             "action": "Senate Floor Amendment No. 3 Filed with Secretary by Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -182,6 +225,13 @@
             "action": "Senate Floor Amendment No. 3 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 3  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -190,6 +240,7 @@
             "action": "Senate Floor Amendment No. 3 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -198,6 +249,7 @@
             "action": "Senate Floor Amendment No. 3 Recommend Do Adopt Executive;  012-000-000", 
             "actor": "upper", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -206,6 +258,7 @@
             "action": "Recalled to Second Reading", 
             "actor": "upper", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -214,6 +267,7 @@
             "action": "Senate Floor Amendment No. 3 Adopted; Sullivan", 
             "actor": "upper", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -222,6 +276,7 @@
             "action": "Placed on Calendar Order of 3rd Reading", 
             "actor": "upper", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -230,6 +285,7 @@
             "action": "Third Reading - Passed; 036-019-001", 
             "actor": "upper", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -239,6 +295,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -247,6 +304,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -255,6 +313,7 @@
             "action": "Chief House Sponsor Rep. Roger L. Eddy", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -263,6 +322,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -270,8 +330,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -279,8 +345,14 @@
         {
             "action": "Assigned to Elementary & Secondary Education Committee", 
             "actor": "lower", 
-            "committee": "ILC000026", 
             "date": "2011-04-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000026", 
+                    "name": "Elementary & Secondary Education Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -289,6 +361,7 @@
             "action": "Do Pass / Short Debate Elementary & Secondary Education Committee;  016-006-000", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -297,6 +370,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -305,6 +379,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -313,6 +388,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -321,6 +397,7 @@
             "action": "Third Reading - Short Debate - Passed 072-039-000", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -330,6 +407,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -338,6 +416,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -346,6 +425,7 @@
             "action": "Governor Approved", 
             "actor": "upper", 
             "date": "2011-08-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -354,6 +434,7 @@
             "action": "Effective Date August 16, 2011", 
             "actor": "upper", 
             "date": "2011-08-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -362,6 +443,7 @@
             "action": "Public Act . . . . . . . . . 97-0429", 
             "actor": "upper", 
             "date": "2011-08-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -425,7 +507,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:47:37", 
+    "updated_at": "2012-07-13 08:36:46", 
     "versions": [
         {
             "doc_id": "ILD00043323", 

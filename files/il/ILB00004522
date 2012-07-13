@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Lou Lang", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Agriculture & Conservation Committee", 
             "actor": "lower", 
-            "committee": "ILC000003", 
             "date": "2011-02-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000003", 
+                    "name": "Agriculture & Conservation Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass / Short Debate Agriculture & Conservation Committee;  013-000-000", 
             "actor": "lower", 
             "date": "2011-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Added Co-Sponsor Rep. Jim Sacia", 
             "actor": "lower", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -78,6 +96,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Third Reading - Short Debate - Passed 080-032-000", 
             "actor": "lower", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -95,6 +115,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -103,6 +124,7 @@
             "action": "Placed on Calendar Order of First Reading March 3, 2011", 
             "actor": "upper", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -111,6 +133,7 @@
             "action": "Chief Senate Sponsor Sen. Antonio Mu\u00f1oz", 
             "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -119,6 +142,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-03-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -126,8 +150,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-03-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -135,8 +165,14 @@
         {
             "action": "Assigned to Executive", 
             "actor": "upper", 
-            "committee": "ILC000031", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000111", 
+                    "name": "Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -145,6 +181,7 @@
             "action": "Do Pass Executive;  010-001-002", 
             "actor": "upper", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -153,6 +190,7 @@
             "action": "Placed on Calendar Order of 2nd Reading May 6, 2011", 
             "actor": "upper", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -161,6 +199,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -169,6 +208,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 13, 2011", 
             "actor": "upper", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -177,6 +217,7 @@
             "action": "Third Reading - Passed; 035-008-000", 
             "actor": "upper", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -186,6 +227,7 @@
             "action": "Passed Both Houses", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -194,6 +236,7 @@
             "action": "Sent to the Governor", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -202,6 +245,7 @@
             "action": "Governor Approved", 
             "actor": "lower", 
             "date": "2011-07-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -210,6 +254,7 @@
             "action": "Effective Date July 22, 2011", 
             "actor": "lower", 
             "date": "2011-07-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -218,6 +263,7 @@
             "action": "Public Act . . . . . . . . . 97-0167", 
             "actor": "lower", 
             "date": "2011-07-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -272,7 +318,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:48:37", 
+    "updated_at": "2012-07-13 08:37:48", 
     "versions": [
         {
             "doc_id": "ILD00047947", 

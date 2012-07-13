@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. James F. Clayborne, Jr.", 
             "actor": "upper", 
             "date": "2012-02-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-02-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -37,6 +45,7 @@
             "action": "Added as Chief Co-Sponsor Sen. David Koehler", 
             "actor": "upper", 
             "date": "2012-02-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -45,6 +54,7 @@
             "action": "Sponsor Removed Sen. David Koehler", 
             "actor": "upper", 
             "date": "2012-02-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -52,8 +62,14 @@
         {
             "action": "Assigned to Judiciary", 
             "actor": "upper", 
-            "committee": "ILC000128", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000128", 
+                    "name": "Judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -62,6 +78,7 @@
             "action": "Do Pass Judiciary;  008-001-001", 
             "actor": "upper", 
             "date": "2012-02-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 2nd Reading February 24, 2012", 
             "actor": "upper", 
             "date": "2012-02-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Chief Sponsor Changed to Sen. David Koehler", 
             "actor": "upper", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -94,6 +114,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 28, 2012", 
             "actor": "upper", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +123,7 @@
             "action": "Verified", 
             "actor": "upper", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +132,7 @@
             "action": "Third Reading - Consideration Postponed", 
             "actor": "upper", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -118,6 +141,7 @@
             "action": "Placed on Calendar - Consideration Postponed March 29, 2012", 
             "actor": "upper", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -126,6 +150,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As April 26, 2012", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -134,6 +159,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As May 11, 2012", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -142,6 +168,7 @@
             "action": "Senate Floor Amendment No. 1 Filed with Secretary by Sen. David Koehler", 
             "actor": "upper", 
             "date": "2012-05-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -150,6 +177,13 @@
             "action": "Senate Floor Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -158,6 +192,7 @@
             "action": "Senate Floor Amendment No. 1 Assignments Refers to Judiciary", 
             "actor": "upper", 
             "date": "2012-05-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -166,6 +201,7 @@
             "action": "Senate Floor Amendment No. 1 Recommend Do Adopt Judiciary;  006-002-000", 
             "actor": "upper", 
             "date": "2012-05-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -174,6 +210,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As May 25, 2012", 
             "actor": "upper", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -182,6 +219,7 @@
             "action": "Recalled to Second Reading", 
             "actor": "upper", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -190,6 +228,7 @@
             "action": "Senate Floor Amendment No. 1 Adopted; Koehler", 
             "actor": "upper", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -198,6 +237,7 @@
             "action": "Placed on Calendar Order of 3rd Reading", 
             "actor": "upper", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -206,6 +246,7 @@
             "action": "Third Reading - Passed; 039-014-001", 
             "actor": "upper", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -215,6 +256,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -223,6 +265,7 @@
             "action": "Chief House Sponsor Rep. Jehan A. Gordon", 
             "actor": "lower", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -231,6 +274,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -239,6 +283,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -246,8 +291,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -295,7 +346,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:28", 
+    "updated_at": "2012-07-13 08:37:04", 
     "versions": [
         {
             "doc_id": "ILD00044559", 

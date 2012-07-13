@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Donald L. Moffitt", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
-            "committee": "ILC000060", 
             "date": "2011-02-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000060", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Chief Sponsor Changed to Rep. Patrick J. Verschoore", 
             "actor": "lower", 
             "date": "2011-02-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Do Pass / Short Debate Revenue & Finance Committee;  009-000-000", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -62,6 +78,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -78,6 +96,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Third Reading - Short Debate - Passed 114-000-000", 
             "actor": "lower", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -95,6 +115,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -103,6 +124,7 @@
             "action": "Placed on Calendar Order of First Reading April 13, 2011", 
             "actor": "upper", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -111,6 +133,7 @@
             "action": "Chief Senate Sponsor Sen. Michael Noland", 
             "actor": "upper", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -119,6 +142,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -126,8 +150,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -136,6 +166,7 @@
             "action": "Rule 2-10 Committee Deadline Established As May 31, 2011", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -143,8 +174,14 @@
         {
             "action": "Assigned to Revenue", 
             "actor": "upper", 
-            "committee": "ILC000152", 
             "date": "2012-04-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000152", 
+                    "name": "Revenue", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -153,6 +190,7 @@
             "action": "Postponed - Revenue", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -161,6 +199,7 @@
             "action": "Do Pass Revenue;  009-000-000", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -169,6 +208,7 @@
             "action": "Placed on Calendar Order of 2nd Reading May 3, 2012", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -177,6 +217,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -185,6 +226,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 8, 2012", 
             "actor": "upper", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -193,6 +235,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As May 31, 2012", 
             "actor": "upper", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -201,6 +244,13 @@
             "action": "Pursuant to Senate Rule 3-9(b) / Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-07-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Pursuant to Senate Rule 3-9(b) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -243,7 +293,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:48:42", 
+    "updated_at": "2012-07-13 08:37:51", 
     "versions": [
         {
             "doc_id": "ILD00048132", 

@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. John J. Cullerton", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Executive", 
             "actor": "upper", 
-            "committee": "ILC000111", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000111", 
+                    "name": "Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass Executive;  015-000-000", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 17, 2011", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 29, 2011", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As May 4, 2011", 
             "actor": "upper", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -86,6 +105,7 @@
             "action": "Senate Floor Amendment No. 1 Filed with Secretary by Sen. Michael W. Frerichs", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -94,6 +114,13 @@
             "action": "Senate Floor Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -102,6 +129,7 @@
             "action": "Senate Floor Amendment No. 1 Assignments Refers to State Government and Veterans Affairs", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +138,7 @@
             "action": "Chief Sponsor Changed to Sen. Michael W. Frerichs", 
             "actor": "upper", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +147,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Dale A. Righter", 
             "actor": "upper", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -126,6 +156,7 @@
             "action": "Senate Floor Amendment No. 1 Recommend Do Adopt State Government and Veterans Affairs;  009-000-000", 
             "actor": "upper", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +165,7 @@
             "action": "Added as Co-Sponsor Sen. Shane Cultra", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -142,6 +174,7 @@
             "action": "Added as Co-Sponsor Sen. Larry K. Bomke", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -150,6 +183,7 @@
             "action": "Added as Co-Sponsor Sen. William E. Brady", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -158,6 +192,7 @@
             "action": "Senate Floor Amendment No. 1   Senator Koehler - Added as Chief Co-Sponsor", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -166,6 +201,7 @@
             "action": "Recalled to Second Reading", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -174,6 +210,7 @@
             "action": "Senate Floor Amendment No. 1 Adopted; Frerichs", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -182,6 +219,7 @@
             "action": "Placed on Calendar Order of 3rd Reading", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -190,6 +228,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As May 31, 2011", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -198,6 +237,7 @@
             "action": "Added as Co-Sponsor Sen. Wm. Sam McCann", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -206,6 +246,7 @@
             "action": "Added as Co-Sponsor Sen. John O. Jones", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -214,6 +255,7 @@
             "action": "Added as Co-Sponsor Sen. David S. Luechtefeld", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -222,6 +264,7 @@
             "action": "Third Reading - Passed; 037-012-000", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -231,6 +274,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -239,6 +283,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -247,6 +292,7 @@
             "action": "Chief House Sponsor Rep. Elaine Nekritz", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -255,6 +301,7 @@
             "action": "Alternate Chief Sponsor Changed to Rep. Naomi D. Jakobsson", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -263,6 +310,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Chapin Rose", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -271,6 +319,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Chad Hays", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -279,6 +328,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Brandon W. Phelps", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -287,6 +337,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Thomas Holbrook", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -295,6 +346,7 @@
             "action": "Added Alternate Co-Sponsor Rep. John D. Cavaletto", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -303,6 +355,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Jerry L. Mitchell", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -311,6 +364,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Bill Mitchell", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -319,6 +373,7 @@
             "action": "Added Alternate Co-Sponsor Rep. David R. Leitch", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -327,6 +382,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Mike Bost", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -335,6 +391,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Lisa M. Dugan", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -343,6 +400,7 @@
             "action": "Added Alternate Co-Sponsor Rep. John E. Bradley", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -351,6 +409,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Roger L. Eddy", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -359,6 +418,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Jason Barickman", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -367,6 +427,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Dan Reitz", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -375,6 +436,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Dwight Kay", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -383,6 +445,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Norine Hammond", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -391,6 +454,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Dan Brady", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -399,6 +463,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Robert W. Pritchard", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -407,6 +472,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Michael Unes", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -415,6 +481,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Al Riley", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -423,6 +490,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Jack D. Franks", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -431,6 +499,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Raymond Poe", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -439,6 +508,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Rich Brauer", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -447,6 +517,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Arthur Turner", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -455,6 +526,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -463,6 +535,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Mary E. Flowers", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -471,6 +544,7 @@
             "action": "Added Alternate Co-Sponsor Rep. La Shawn K. Ford", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -479,6 +553,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Rita Mayfield", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -487,6 +562,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Esther Golar", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -495,6 +571,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Jehan A. Gordon", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -503,6 +580,7 @@
             "action": "Added Alternate Co-Sponsor Rep. David Reis", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -511,6 +589,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Jim Watson", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -519,6 +598,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Dave Winters", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -527,6 +607,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Daniel V. Beiser", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -535,6 +616,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Randy Ramey, Jr.", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -543,6 +625,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Wayne Rosenthal", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -551,6 +634,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Cynthia Soto", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -559,6 +643,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Chris Nybo", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -567,6 +652,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -574,8 +660,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -583,8 +675,14 @@
         {
             "action": "Assigned to State Government Administration Committee", 
             "actor": "lower", 
-            "committee": "ILC000068", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000068", 
+                    "name": "State Government Administration Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -593,6 +691,7 @@
             "action": "Final Action Deadline Extended-9(b) May 31, 2011", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -601,6 +700,7 @@
             "action": "Motion Filed to Suspend Rule 25 State Government Administration Committee;  Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -609,6 +709,7 @@
             "action": "Motion to Suspend Rule 25 - Prevailed ", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -617,6 +718,7 @@
             "action": "Alternate Co-Sponsor Removed Rep. Jack D. Franks", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -625,6 +727,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Frank J. Mautino", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -633,6 +736,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Charles E. Jefferson", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -641,6 +745,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Donald L. Moffitt", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -649,6 +754,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Ron Stephens", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -657,6 +763,7 @@
             "action": "Do Pass / Short Debate State Government Administration Committee;  014-003-000", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -665,6 +772,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -673,6 +781,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -681,6 +790,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -689,6 +799,7 @@
             "action": "Senate Floor Amendment No. 1 Fiscal Note Requested as Amended by Rep. Elaine Nekritz", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -697,6 +808,7 @@
             "action": "Senate Floor Amendment No. 1 Balanced Budget Note Requested as Amended by Rep. Elaine Nekritz", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -705,6 +817,7 @@
             "action": "House Floor Amendment No. 1 Filed with Clerk by Rep. Daniel J. Burke", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -713,6 +826,13 @@
             "action": "House Floor Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -721,6 +841,7 @@
             "action": "Fiscal Note Request is Inapplicable ; 096-018-001", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -729,6 +850,7 @@
             "action": "Balanced Budget Note Request is Inapplicable ; 096-018-001", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -737,6 +859,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -745,6 +868,7 @@
             "action": "Removed from Short Debate Status", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -753,6 +877,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Standard Debate", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -761,6 +886,7 @@
             "action": "Alternate Co-Sponsor Removed Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -769,6 +895,7 @@
             "action": "Third Reading - Standard Debate - Passed 098-015-003", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -778,6 +905,7 @@
             "action": "House Floor Amendment No. 1 Tabled Pursuant to Rule 40", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -786,6 +914,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -794,6 +923,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2011-06-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -802,6 +932,7 @@
             "action": "Governor Vetoed", 
             "actor": "upper", 
             "date": "2011-07-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:vetoed"
             ]
@@ -810,6 +941,7 @@
             "action": "Placed Calendar Total Veto October 25, 2011", 
             "actor": "upper", 
             "date": "2011-10-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -818,6 +950,7 @@
             "action": "Motion Filed Override Governor Veto Sen. Michael W. Frerichs", 
             "actor": "upper", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -826,6 +959,7 @@
             "action": "3/5 Vote Required", 
             "actor": "upper", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -834,6 +968,7 @@
             "action": "Override Governor Veto - Senate Lost 028-028-001", 
             "actor": "upper", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -842,6 +977,7 @@
             "action": "Total Veto Stands", 
             "actor": "upper", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -1182,7 +1318,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:41:24", 
+    "updated_at": "2012-07-13 08:36:05", 
     "versions": [
         {
             "doc_id": "ILD00040817", 

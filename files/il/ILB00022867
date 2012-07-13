@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Don Harmon", 
             "actor": "upper", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Revenue", 
             "actor": "upper", 
-            "committee": "ILC000152", 
             "date": "2012-02-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000152", 
+                    "name": "Revenue", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass Revenue;  010-000-000", 
             "actor": "upper", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar Order of 2nd Reading February 27, 2012", 
             "actor": "upper", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-02-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 3rd Reading February 28, 2012", 
             "actor": "upper", 
             "date": "2012-02-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Senate Floor Amendment No. 1 Filed with Secretary by Sen. Don Harmon", 
             "actor": "upper", 
             "date": "2012-03-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -86,6 +105,13 @@
             "action": "Senate Floor Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-03-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -94,6 +120,7 @@
             "action": "Senate Floor Amendment No. 1 Assignments Refers to Revenue", 
             "actor": "upper", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +129,7 @@
             "action": "Senate Floor Amendment No. 1 Recommend Do Adopt Revenue;  010-000-000", 
             "actor": "upper", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +138,7 @@
             "action": "Recalled to Second Reading", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -118,6 +147,7 @@
             "action": "Senate Floor Amendment No. 1 Adopted; Harmon", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -126,6 +156,7 @@
             "action": "Placed on Calendar Order of 3rd Reading", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +165,7 @@
             "action": "Third Reading - Passed; 057-000-000", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -143,6 +175,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -151,6 +184,7 @@
             "action": "Chief House Sponsor Rep. Michael J. Zalewski", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -159,6 +193,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -167,6 +202,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -174,8 +210,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -183,8 +225,14 @@
         {
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
-            "committee": "ILC000060", 
             "date": "2012-04-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000060", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -193,6 +241,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Carol A. Sente", 
             "actor": "lower", 
             "date": "2012-04-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -201,6 +250,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Fred Crespo", 
             "actor": "lower", 
             "date": "2012-04-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -209,6 +259,7 @@
             "action": "Recommends Do Pass Subcommittee/ Revenue & Finance Committee;  003-000-000", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -217,6 +268,7 @@
             "action": "Remains in Revenue & Finance Committee", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -225,6 +277,7 @@
             "action": "Do Pass / Short Debate Revenue & Finance Committee;  009-000-000", 
             "actor": "lower", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -233,6 +286,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -241,6 +295,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Elaine Nekritz", 
             "actor": "lower", 
             "date": "2012-05-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -249,6 +304,7 @@
             "action": "House Floor Amendment No. 1 Filed with Clerk by Rep. Michael J. Zalewski", 
             "actor": "lower", 
             "date": "2012-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -257,6 +313,13 @@
             "action": "House Floor Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -265,6 +328,7 @@
             "action": "House Floor Amendment No. 1 Recommends Be Adopted Rules Committee;  003-000-000", 
             "actor": "lower", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -273,6 +337,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Lawrence M. Walsh, Jr.", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -281,6 +346,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -289,6 +355,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Michelle Mussman", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -297,6 +364,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -305,6 +373,7 @@
             "action": "House Floor Amendment No. 1 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -313,6 +382,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -321,6 +391,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Sidney H. Mathias", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -329,6 +400,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. John D'Amico", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -337,6 +409,7 @@
             "action": "Third Reading - Short Debate - Passed 118-000-000", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -346,6 +419,7 @@
             "action": "Secretary's Desk - Concurrence House Amendment(s) 1", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -354,6 +428,7 @@
             "action": "Placed on Calendar Order of Concurrence House Amendment(s) 1 -  May 24, 2012", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -362,6 +437,7 @@
             "action": "House Floor Amendment No. 1 Motion to Concur Filed with Secretary Sen. Don Harmon", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -370,6 +446,13 @@
             "action": "House Floor Amendment No. 1 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 1 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -378,6 +461,13 @@
             "action": "House Floor Amendment No. 1 Motion to Concur Assignments Referred to Revenue", 
             "actor": "upper", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 1 Motion to Concur Assignments  Revenue", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -386,6 +476,7 @@
             "action": "House Floor Amendment No. 1 Motion To Concur Recommended Do Adopt Revenue;  006-000-000", 
             "actor": "upper", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -394,6 +485,7 @@
             "action": "House Floor Amendment No. 1 Senate Concurs 055-000-000", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -402,6 +494,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -410,6 +503,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2012-06-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -510,7 +604,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:30", 
+    "updated_at": "2012-07-13 08:37:06", 
     "versions": [
         {
             "doc_id": "ILD00044691", 

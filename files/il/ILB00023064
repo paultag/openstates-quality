@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Marlow H. Colvin", 
             "actor": "lower", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Human Services Committee", 
             "actor": "lower", 
-            "committee": "ILC000039", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000039", 
+                    "name": "Human Services Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. Marlow H. Colvin", 
             "actor": "lower", 
             "date": "2012-02-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -54,6 +69,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-02-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -62,6 +84,7 @@
             "action": "House Committee Amendment No. 1 Rules Refers to Human Services Committee", 
             "actor": "lower", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +93,7 @@
             "action": "Added Chief Co-Sponsor Rep. Mary E. Flowers", 
             "actor": "lower", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +102,7 @@
             "action": "House Committee Amendment No. 1 Adopted in Human Services Committee;  by Voice Vote", 
             "actor": "lower", 
             "date": "2012-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -86,6 +111,7 @@
             "action": "Do Pass as Amended / Short Debate Human Services Committee;  010-000-000", 
             "actor": "lower", 
             "date": "2012-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -94,6 +120,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +129,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -110,6 +138,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +147,7 @@
             "action": "Added Chief Co-Sponsor Rep. Al Riley", 
             "actor": "lower", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -126,6 +156,7 @@
             "action": "Added Chief Co-Sponsor Rep. Rita Mayfield", 
             "actor": "lower", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +165,7 @@
             "action": "Third Reading - Short Debate - Passed 113-000-000", 
             "actor": "lower", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -143,6 +175,7 @@
             "action": "Added Co-Sponsor Rep. Esther Golar", 
             "actor": "lower", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -151,6 +184,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -159,6 +193,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "upper", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -167,6 +202,7 @@
             "action": "Chief Senate Sponsor Sen. Kwame Raoul", 
             "actor": "upper", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -175,6 +211,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -182,8 +219,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -191,8 +234,14 @@
         {
             "action": "Assigned to Human Services", 
             "actor": "upper", 
-            "committee": "ILC000039", 
             "date": "2012-04-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000122", 
+                    "name": "Human Services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -201,6 +250,7 @@
             "action": "Do Pass Human Services;  006-000-000", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -209,6 +259,7 @@
             "action": "Placed on Calendar Order of 2nd Reading April 26, 2012", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -217,6 +268,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -225,6 +277,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 3, 2012", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -233,6 +286,7 @@
             "action": "Senate Floor Amendment No. 1 Filed with Secretary by Sen. John J. Cullerton", 
             "actor": "upper", 
             "date": "2012-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -241,6 +295,13 @@
             "action": "Senate Floor Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -249,6 +310,7 @@
             "action": "Added as Alternate Chief Co-Sponsor Sen. Pamela J. Althoff", 
             "actor": "upper", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -257,6 +319,7 @@
             "action": "Senate Floor Amendment No. 2 Filed with Secretary by Sen. Kwame Raoul", 
             "actor": "upper", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -265,6 +328,13 @@
             "action": "Senate Floor Amendment No. 2 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 2  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -273,6 +343,7 @@
             "action": "Sponsor Removed Sen. Pamela J. Althoff", 
             "actor": "upper", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -281,6 +352,7 @@
             "action": "Senate Floor Amendment No. 2 Assignments Refers to Appropriations II", 
             "actor": "upper", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -289,6 +361,7 @@
             "action": "Added as Alternate Chief Co-Sponsor Sen. Jeffrey M. Schoenberg", 
             "actor": "upper", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -297,6 +370,7 @@
             "action": "Senate Floor Amendment No. 2 Recommend Do Adopt Appropriations II;  007-004-000", 
             "actor": "upper", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -305,6 +379,7 @@
             "action": "Added as Alternate Chief Co-Sponsor Sen. Donne E. Trotter", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -313,6 +388,7 @@
             "action": "Senate Floor Amendment No. 3 Filed with Secretary by Sen. Kwame Raoul", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -321,6 +397,13 @@
             "action": "Senate Floor Amendment No. 3 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 3  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -329,6 +412,7 @@
             "action": "Senate Floor Amendment No. 3 Assignments Refers to Human Services", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -337,6 +421,7 @@
             "action": "Senate Floor Amendment No. 3 Recommend Do Adopt Human Services;  005-004-000", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -345,6 +430,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. William Delgado", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -353,6 +439,7 @@
             "action": "Senate Floor Amendment No. 4 Filed with Secretary by Sen. Kwame Raoul", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -361,6 +448,13 @@
             "action": "Senate Floor Amendment No. 4 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 4  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -369,6 +463,7 @@
             "action": "Senate Floor Amendment No. 5 Filed with Secretary by Sen. Kwame Raoul", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -377,6 +472,13 @@
             "action": "Senate Floor Amendment No. 5 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 5  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -385,6 +487,7 @@
             "action": "Senate Floor Amendment No. 6 Filed with Secretary by Sen. Kwame Raoul", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -393,6 +496,13 @@
             "action": "Senate Floor Amendment No. 6 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 6  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -401,6 +511,7 @@
             "action": "Senate Floor Amendment No. 5 Be Approved for Consideration Assignments", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -409,6 +520,7 @@
             "action": "Senate Floor Amendment No. 6 Be Approved for Consideration Assignments", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -417,6 +529,7 @@
             "action": "Recalled to Second Reading", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -425,6 +538,7 @@
             "action": "Senate Floor Amendment No. 2 Withdrawn by Sen. Kwame Raoul", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -433,6 +547,7 @@
             "action": "Senate Floor Amendment No. 3 Withdrawn by Sen. Kwame Raoul", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -441,6 +556,7 @@
             "action": "Senate Floor Amendment No. 5 Adopted; Raoul", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -449,6 +565,7 @@
             "action": "Senate Floor Amendment No. 6 Adopted; Raoul", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -457,6 +574,7 @@
             "action": "Placed on Calendar Order of 3rd Reading", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -465,6 +583,7 @@
             "action": "Third Reading - Passed; 035-022-000", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -474,6 +593,7 @@
             "action": "Senate Floor Amendment No. 1 Tabled Pursuant to Rule 5-4(a)", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -482,6 +602,7 @@
             "action": "Senate Floor Amendment No. 4 Tabled Pursuant to Rule 5-4(a)", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -490,6 +611,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -498,6 +620,7 @@
             "action": "Placed on Calendar Order of Concurrence Senate Amendment(s) 5, 6", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -506,6 +629,7 @@
             "action": "Chief Sponsor Changed to Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -514,6 +638,7 @@
             "action": "Senate Floor Amendment No. 5 Motion Filed Concur Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -522,6 +647,7 @@
             "action": "Senate Floor Amendment No. 6 Motion Filed Concur Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -530,6 +656,13 @@
             "action": "Senate Floor Amendment No. 5 Motion to Concur Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 5 Motion to Concur  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -538,6 +671,13 @@
             "action": "Senate Floor Amendment No. 6 Motion to Concur Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 6 Motion to Concur  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -546,6 +686,7 @@
             "action": "Added Chief Co-Sponsor Rep. William Davis", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -554,6 +695,13 @@
             "action": "Senate Floor Amendment No. 5 Motion to Concur Rules Referred to Human Services Committee", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 5 Motion to Concur Rules  Human Services Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -562,6 +710,13 @@
             "action": "Senate Floor Amendment No. 6 Motion to Concur Rules Referred to Human Services Committee", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 6 Motion to Concur Rules  Human Services Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -570,6 +725,7 @@
             "action": "Senate Floor Amendment No. 5 Motion to Concur Recommends Be Adopted Human Services Committee;  007-004-000", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -578,6 +734,7 @@
             "action": "Senate Floor Amendment No. 6 Motion to Concur Recommends Be Adopted Human Services Committee;  007-004-000", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -586,6 +743,7 @@
             "action": "Senate Floor Amendment No. 5 House Concurs 062-055-000", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -594,6 +752,7 @@
             "action": "Senate Floor Amendment No. 6 House Concurs 062-055-000", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -602,6 +761,7 @@
             "action": "Passed Both Houses", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -610,6 +770,7 @@
             "action": "Added Co-Sponsor Rep. Kenneth Dunkin", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -618,6 +779,7 @@
             "action": "Added Co-Sponsor Rep. La Shawn K. Ford", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -626,6 +788,7 @@
             "action": "Added Co-Sponsor Rep. Kimberly du Buclet", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -634,6 +797,7 @@
             "action": "Added Co-Sponsor Rep. Kelly M. Cassidy", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -642,6 +806,7 @@
             "action": "Added Co-Sponsor Rep. Marcus C. Evans, Jr.", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -650,6 +815,7 @@
             "action": "Sent to the Governor", 
             "actor": "lower", 
             "date": "2012-06-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -658,6 +824,7 @@
             "action": "Governor Approved", 
             "actor": "lower", 
             "date": "2012-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -666,6 +833,7 @@
             "action": "Effective Date June 14, 2012", 
             "actor": "lower", 
             "date": "2012-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -674,6 +842,7 @@
             "action": "Public Act . . . . . . . . . 97-0687", 
             "actor": "lower", 
             "date": "2012-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -834,7 +1003,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:49:43", 
+    "updated_at": "2012-07-13 08:38:42", 
     "versions": [
         {
             "doc_id": "ILD00052757", 

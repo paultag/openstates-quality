@@ -11,6 +11,7 @@
             "action": "Introduced in the Senate.  Read by title and placed on the Calendar for a second reading.", 
             "actor": "upper", 
             "date": "2012-05-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +20,7 @@
             "action": "Read by title and adopted by a vote of 32 yeas and 0 nays.  Ordered sent to the House.", 
             "actor": "upper", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -27,6 +29,7 @@
             "action": "Received in the House from the Senate.", 
             "actor": "lower", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -34,8 +37,14 @@
         {
             "action": "Read by title, under the rules, referred to the Committee on Natural Resources and Environment.", 
             "actor": "lower", 
-            "committee": "LAC000034", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000034", 
+                    "name": "Committee on Natural Resources and Environment", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -80,7 +89,7 @@
     "type": [
         "concurrent resolution"
     ], 
-    "updated_at": "2012-07-10 04:28:50", 
+    "updated_at": "2012-07-13 04:26:50", 
     "versions": [
         {
             "doc_id": "LAD00020288", 

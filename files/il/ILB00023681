@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Chris Lauzen", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Revenue", 
             "actor": "upper", 
-            "committee": "ILC000152", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000152", 
+                    "name": "Revenue", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "To Revenue Subcommittee on Property Taxes", 
             "actor": "upper", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Rule 2-10 Committee Deadline Established As March 30, 2012", 
             "actor": "upper", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,13 @@
             "action": "Rule 3-9(a) / Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 3-9(a) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -69,8 +92,14 @@
         {
             "action": "Re-assigned to Revenue", 
             "actor": "upper", 
-            "committee": "ILC000152", 
             "date": "2012-05-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000152", 
+                    "name": "Revenue", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -79,6 +108,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Steven M. Landek", 
             "actor": "upper", 
             "date": "2012-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -87,6 +117,7 @@
             "action": "Rule 2-10 Committee/3rd Reading Deadline Established As May 25, 2012", 
             "actor": "upper", 
             "date": "2012-05-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -95,6 +126,7 @@
             "action": "Do Pass Revenue;  009-000-000", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -103,6 +135,7 @@
             "action": "Placed on Calendar Order of 2nd Reading May 17, 2012", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -111,6 +144,7 @@
             "action": "Senate Floor Amendment No. 1 Filed with Secretary by Sen. Chris Lauzen", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -119,6 +153,13 @@
             "action": "Senate Floor Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -127,6 +168,7 @@
             "action": "Senate Floor Amendment No. 1 Assignments Refers to Revenue", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -135,6 +177,7 @@
             "action": "Senate Floor Amendment No. 1 Postponed - Revenue", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -143,6 +186,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As May 31, 2012", 
             "actor": "upper", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -151,6 +195,13 @@
             "action": "Pursuant to Senate Rule 3-9(b) / Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-07-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Pursuant to Senate Rule 3-9(b) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -159,6 +210,13 @@
             "action": "Senate Floor Amendment No. 1 Re-referred to Assignments;  Pursuant to Senate Rule 3-9(b).", 
             "actor": "upper", 
             "date": "2012-07-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1  Assignments;  Pursuant to Senate Rule 3-9(b).", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -203,7 +261,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:36", 
+    "updated_at": "2012-07-13 08:37:11", 
     "versions": [
         {
             "doc_id": "ILD00045061", 

@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. James F. Clayborne, Jr.", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Human Services", 
             "actor": "upper", 
-            "committee": "ILC000122", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000122", 
+                    "name": "Human Services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass Human Services;  006-000-000", 
             "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 14, 2011", 
             "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-03-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 15, 2011", 
             "actor": "upper", 
             "date": "2011-03-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Third Reading - Passed; 059-000-000", 
             "actor": "upper", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -87,6 +106,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -95,6 +115,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -103,6 +124,7 @@
             "action": "Chief House Sponsor Rep. Eddie Lee Jackson, Sr.", 
             "actor": "lower", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -111,6 +133,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-04-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -118,8 +141,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-04-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -127,8 +156,14 @@
         {
             "action": "Assigned to Aging Committee", 
             "actor": "lower", 
-            "committee": "ILC000002", 
             "date": "2011-05-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000002", 
+                    "name": "Aging Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -137,6 +172,7 @@
             "action": "Do Pass / Short Debate Aging Committee;  019-000-000", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -145,6 +181,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -153,6 +190,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Daniel V. Beiser", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -161,6 +199,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Derrick Smith", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -169,6 +208,7 @@
             "action": "Alternate Chief Co-Sponsor Changed to Rep. Derrick Smith", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -177,6 +217,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -185,6 +226,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -193,6 +235,7 @@
             "action": "House Floor Amendment No. 1 Filed with Clerk by Rep. Eddie Lee Jackson, Sr.", 
             "actor": "lower", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -201,6 +244,13 @@
             "action": "House Floor Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -209,6 +259,7 @@
             "action": "House Floor Amendment No. 1 Rules Refers to Aging Committee", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -217,6 +268,7 @@
             "action": "House Floor Amendment No. 1 Recommends Be Adopted - Lost Aging Committee;  009-004-000", 
             "actor": "lower", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -225,6 +277,7 @@
             "action": "House Floor Amendment No. 2 Filed with Clerk by Rep. Eddie Lee Jackson, Sr.", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -233,6 +286,13 @@
             "action": "House Floor Amendment No. 2 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -241,6 +301,7 @@
             "action": "House Floor Amendment No. 2 Rules Refers to Aging Committee", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -249,6 +310,7 @@
             "action": "House Floor Amendment No. 2 Recommends Be Adopted Aging Committee;  018-002-000", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -257,6 +319,7 @@
             "action": "Final Action Deadline Extended-9(b) May 31, 2011", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -265,6 +328,7 @@
             "action": "Recalled to Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -273,6 +337,7 @@
             "action": "House Floor Amendment No. 2 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -281,6 +346,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -289,6 +355,7 @@
             "action": "House Floor Amendment No. 3 Filed with Clerk by Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -297,6 +364,13 @@
             "action": "House Floor Amendment No. 3 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 3  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -305,6 +379,7 @@
             "action": "Alternate Chief Sponsor Changed to Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -313,6 +388,7 @@
             "action": "House Floor Amendment No. 3 Recommends Be Adopted Rules Committee;  003-000-000", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -321,6 +397,7 @@
             "action": "House Floor Amendment No. 3  Moved to Suspend Rule 15(d) Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -329,6 +406,7 @@
             "action": "Motion Prevailed by Voice Vote", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -337,6 +415,7 @@
             "action": "House Floor Amendment No. 3 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -345,6 +424,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -353,6 +433,7 @@
             "action": "Third Reading - Short Debate - Passed 115-000-000", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -362,6 +443,7 @@
             "action": "Secretary's Desk - Concurrence House Amendment(s) 2, 3", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -370,6 +452,7 @@
             "action": "Placed on Calendar Order of Concurrence House Amendment(s) 2, 3 -  May 31, 2011", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -378,6 +461,7 @@
             "action": "House Floor Amendment No. 2 Motion to Concur Filed with Secretary Sen. James F. Clayborne, Jr.", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -386,6 +470,13 @@
             "action": "House Floor Amendment No. 2 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -394,6 +485,7 @@
             "action": "House Floor Amendment No. 3 Motion to Concur Filed with Secretary Sen. James F. Clayborne, Jr.", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -402,6 +494,13 @@
             "action": "House Floor Amendment No. 3 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 3 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -410,6 +509,7 @@
             "action": "House Floor Amendment No. 2 Motion to Concur Be Approved for Consideration Assignments;", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -418,6 +518,7 @@
             "action": "House Floor Amendment No. 3 Motion to Concur Be Approved for Consideration Assignments;", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -426,6 +527,7 @@
             "action": "House Floor Amendment No. 2 Senate Concurs 034-022-000", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -434,6 +536,7 @@
             "action": "House Floor Amendment No. 3 Senate Concurs 034-022-000", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -442,6 +545,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -450,6 +554,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2011-06-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -458,6 +563,7 @@
             "action": "Governor Approved", 
             "actor": "upper", 
             "date": "2011-08-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -466,6 +572,7 @@
             "action": "Effective Date January 1, 2012", 
             "actor": "upper", 
             "date": "2011-08-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -474,6 +581,7 @@
             "action": "Public Act . . . . . . . . . 97-0613", 
             "actor": "upper", 
             "date": "2011-08-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -549,7 +657,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:06", 
+    "updated_at": "2012-07-13 08:36:42", 
     "versions": [
         {
             "doc_id": "ILD00043072", 

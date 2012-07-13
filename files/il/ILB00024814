@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Greg Harris", 
             "actor": "lower", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "Motion Filed - Table Bill/Resolution Pursuant to Rule 60(b), Rep. Greg Harris", 
             "actor": "lower", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -37,6 +45,7 @@
             "action": "Motion Prevailed by Voice Vote", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -45,6 +54,7 @@
             "action": "Tabled By Sponsor Rep. Greg Harris", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:withdrawn"
             ]
@@ -77,7 +87,7 @@
     "type": [
         "resolution"
     ], 
-    "updated_at": "2012-07-04 08:42:55", 
+    "updated_at": "2012-07-13 08:37:27", 
     "versions": [
         {
             "doc_id": "ILD00046412", 

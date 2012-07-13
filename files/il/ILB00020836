@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Adam Brown", 
             "actor": "lower", 
             "date": "2011-12-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -19,8 +20,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -29,6 +36,7 @@
             "action": "Added Chief Co-Sponsor Rep. Paul Evans", 
             "actor": "lower", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Labor Committee", 
             "actor": "lower", 
-            "committee": "ILC000053", 
             "date": "2012-02-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000053", 
+                    "name": "Labor Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Added Chief Co-Sponsor Rep. Robert W. Pritchard", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Recommends Be Adopted Labor Committee;  015-000-000", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -62,6 +78,7 @@
             "action": "Placed on Calendar Order of Resolutions", 
             "actor": "lower", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -106,7 +123,7 @@
     "type": [
         "resolution"
     ], 
-    "updated_at": "2012-07-06 08:48:13", 
+    "updated_at": "2012-07-13 08:37:26", 
     "versions": [
         {
             "doc_id": "ILD00046233", 

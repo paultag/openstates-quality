@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Roger L. Eddy", 
             "actor": "lower", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -37,6 +45,7 @@
             "action": "Chief Sponsor Changed to Rep. Mike Bost", 
             "actor": "lower", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -44,8 +53,14 @@
         {
             "action": "Assigned to Agriculture & Conservation Committee", 
             "actor": "lower", 
-            "committee": "ILC000003", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000003", 
+                    "name": "Agriculture & Conservation Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -54,6 +69,7 @@
             "action": "Do Pass / Short Debate Agriculture & Conservation Committee;  013-001-000", 
             "actor": "lower", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -62,6 +78,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -78,6 +96,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -118,7 +144,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:49:54", 
+    "updated_at": "2012-07-13 08:38:48", 
     "versions": [
         {
             "doc_id": "ILD00053525", 

@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "Chief Co-Sponsor Sen. Heather A. Steans", 
             "actor": "upper", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +30,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -35,8 +38,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -45,6 +54,7 @@
             "action": "Chief Sponsor Changed to Sen. Dan Kotowski", 
             "actor": "upper", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -52,8 +62,14 @@
         {
             "action": "Assigned to Appropriations II", 
             "actor": "upper", 
-            "committee": "ILC000096", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000096", 
+                    "name": "Appropriations II", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -61,8 +77,14 @@
         {
             "action": "Re-referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -71,6 +93,7 @@
             "action": "Approved for Consideration Assignments", 
             "actor": "upper", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -79,6 +102,7 @@
             "action": "Placed on Calendar Order of 2nd Reading April 8, 2011", 
             "actor": "upper", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -87,6 +111,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -95,6 +120,7 @@
             "action": "Placed on Calendar Order of 3rd Reading April 11, 2011", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -103,6 +129,7 @@
             "action": "Senate Floor Amendment No. 1 Filed with Secretary by Sen. Dan Kotowski", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -111,6 +138,13 @@
             "action": "Senate Floor Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -119,6 +153,7 @@
             "action": "Senate Floor Amendment No. 2 Filed with Secretary by Sen. Dan Kotowski", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -127,6 +162,13 @@
             "action": "Senate Floor Amendment No. 2 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 2  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -135,6 +177,7 @@
             "action": "Senate Floor Amendment No. 3 Filed with Secretary by Sen. Dan Kotowski", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -143,6 +186,13 @@
             "action": "Senate Floor Amendment No. 3 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 3  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -151,6 +201,7 @@
             "action": "Senate Floor Amendment No. 1 Assignments Refers to Appropriations II", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -159,6 +210,7 @@
             "action": "Senate Floor Amendment No. 2 Assignments Refers to Appropriations II", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -167,6 +219,7 @@
             "action": "Senate Floor Amendment No. 3 Assignments Refers to Appropriations II", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -175,6 +228,7 @@
             "action": "Senate Floor Amendment No. 1 Held in Appropriations II", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -183,6 +237,7 @@
             "action": "Senate Floor Amendment No. 2 Held in Appropriations II", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -191,6 +246,7 @@
             "action": "Senate Floor Amendment No. 3 Held in Appropriations II", 
             "actor": "upper", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -199,6 +255,7 @@
             "action": "Senate Floor Amendment No. 4 Filed with Secretary by Sen. Dan Kotowski", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -207,6 +264,13 @@
             "action": "Senate Floor Amendment No. 4 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 4  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -215,6 +279,7 @@
             "action": "Senate Floor Amendment No. 4 Be Approved for Consideration Assignments", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -223,6 +288,7 @@
             "action": "Recalled to Second Reading", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -231,6 +297,7 @@
             "action": "Senate Floor Amendment No. 4 Adopted; Kotowski", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -239,6 +306,7 @@
             "action": "Placed on Calendar Order of 3rd Reading", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -247,6 +315,7 @@
             "action": "Third Reading - Passed; 033-024-000", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -256,6 +325,7 @@
             "action": "Senate Floor Amendment No. 1 Tabled Pursuant to Rule 5-4(a)", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -264,6 +334,7 @@
             "action": "Senate Floor Amendment No. 2 Tabled Pursuant to Rule 5-4(a)", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -272,6 +343,7 @@
             "action": "Senate Floor Amendment No. 3 Tabled Pursuant to Rule 5-4(a)", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -280,6 +352,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -288,6 +361,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -296,6 +370,7 @@
             "action": "Chief House Sponsor Rep. Michael J. Madigan", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -304,6 +379,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -311,8 +387,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -321,6 +403,13 @@
             "action": "Assigned to Appropriations-General Services Committee", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Appropriations-General Services Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -329,6 +418,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. Fred Crespo", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -337,6 +427,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -345,6 +442,7 @@
             "action": "House Committee Amendment No. 1 Rules Refers to Appropriations-General Services Committee", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -353,6 +451,7 @@
             "action": "House Committee Amendment No. 1 Adopted in Appropriations-General Services Committee;  by Voice Vote", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -361,6 +460,7 @@
             "action": "Do Pass as Amended / Short Debate Appropriations-General Services Committee;  011-000-000", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -369,6 +469,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -377,6 +478,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -385,6 +487,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -393,6 +496,7 @@
             "action": "House Floor Amendment No. 2 Filed with Clerk by Rep. Frank J. Mautino", 
             "actor": "lower", 
             "date": "2011-11-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -401,6 +505,13 @@
             "action": "House Floor Amendment No. 2 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-11-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -409,6 +520,7 @@
             "action": "House Floor Amendment No. 2 Recommends Be Adopted Rules Committee;  004-000-000", 
             "actor": "lower", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -417,6 +529,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Frank J. Mautino", 
             "actor": "lower", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -425,6 +538,7 @@
             "action": "House Floor Amendment No. 2 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -433,6 +547,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -441,6 +556,7 @@
             "action": "3/5 Vote Required", 
             "actor": "lower", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -449,6 +565,7 @@
             "action": "Third Reading - Short Debate - Passed 113-000-000", 
             "actor": "lower", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -458,6 +575,7 @@
             "action": "Secretary's Desk - Concurrence House Amendment(s) 1, 2", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -466,6 +584,7 @@
             "action": "Placed on Calendar Order of Concurrence House Amendment(s) 1, 2 -  November 9, 2011", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -474,6 +593,7 @@
             "action": "House Committee Amendment No. 1 Motion to Concur Filed with Secretary Sen. Dan Kotowski", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -482,6 +602,13 @@
             "action": "House Committee Amendment No. 1 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -490,6 +617,7 @@
             "action": "House Floor Amendment No. 2 Motion to Concur Filed with Secretary Sen. Dan Kotowski", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -498,6 +626,13 @@
             "action": "House Floor Amendment No. 2 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -506,6 +641,13 @@
             "action": "House Committee Amendment No. 1 Motion to Concur Assignments Referred to Appropriations II", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1 Motion to Concur Assignments  Appropriations II", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -514,6 +656,13 @@
             "action": "House Floor Amendment No. 2 Motion to Concur Assignments Referred to Appropriations II", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2 Motion to Concur Assignments  Appropriations II", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -522,6 +671,13 @@
             "action": "Pursuant to Senate Rule 3-9(b) / Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-01-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Pursuant to Senate Rule 3-9(b) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -530,6 +686,13 @@
             "action": "House Committee Amendment No. 1 Motion to Concur Referred to Assignments;  Pursuant to Senate Rule 3-9(b).", 
             "actor": "upper", 
             "date": "2012-01-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1 Motion to Concur  Assignments;  Pursuant to Senate Rule 3-9(b).", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -538,6 +701,13 @@
             "action": "House Floor Amendment No. 2 Motion to Concur Referred to Assignments;  Pursuant to Senate Rule 3-9(b).", 
             "actor": "upper", 
             "date": "2012-01-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2 Motion to Concur  Assignments;  Pursuant to Senate Rule 3-9(b).", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -623,7 +793,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:14", 
+    "updated_at": "2012-07-13 08:36:51", 
     "versions": [
         {
             "doc_id": "ILD00043637", 

@@ -11,6 +11,7 @@
             "action": "Substitute for Senate Bill No. 328. Read by title and placed on the Calendar for a second reading.", 
             "actor": "upper", 
             "date": "2012-04-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +20,7 @@
             "action": "Read by title.  Ordered engrossed and passed to third reading and final passage.", 
             "actor": "upper", 
             "date": "2012-04-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -27,6 +29,7 @@
             "action": "Read by title, passed by a vote of 32 yeas and 2 nays, and sent to the House.  Motion to reconsider tabled.", 
             "actor": "upper", 
             "date": "2012-04-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -35,6 +38,7 @@
             "action": "Received in the House from the Senate, read by title, lies over under the rules", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -42,8 +46,14 @@
         {
             "action": "Read by title, under the rules, referred to the Committee on House and Governmental Affairs.", 
             "actor": "lower", 
-            "committee": "LAC000016", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000024", 
+                    "name": "Committee on House and Governmental Affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -53,6 +63,7 @@
             "action": "Reported favorably (7-0) (Regular). Referred to the Legislative Bureau.", 
             "actor": "lower", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -61,6 +72,7 @@
             "action": "Reported with Legislative Bureau amendments.", 
             "actor": "lower", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -69,6 +81,7 @@
             "action": "Read by title, amended, passed to 3rd reading - regular calendar.", 
             "actor": "lower", 
             "date": "2012-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -77,6 +90,7 @@
             "action": "Scheduled for floor debate on 5/29/2012.", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -85,6 +99,7 @@
             "action": "Scheduled for floor debate on 5/29/2012.", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -93,6 +108,7 @@
             "action": "Read third time by title, roll called on final passage, yeas 92, nays 6. Finally passed, ordered to the Senate.", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -102,6 +118,7 @@
             "action": "Received from the House with amendments.", 
             "actor": "upper", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +127,7 @@
             "action": "Amendments proposed by the House read and concurred in by a vote of 38 yeas and 1 nays.", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -118,6 +136,7 @@
             "action": "Enrolled.  Signed by the President of the Senate.", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -126,6 +145,7 @@
             "action": "Signed by the Speaker of the House.", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +154,7 @@
             "action": "Sent to the Governor by the Secretary of the Senate.", 
             "actor": "upper", 
             "date": "2012-06-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -142,6 +163,7 @@
             "action": "Signed by the Governor. Becomes Act No. 854.", 
             "actor": "upper", 
             "date": "2012-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -150,6 +172,7 @@
             "action": "Effective date 1/1/13.", 
             "actor": "upper", 
             "date": "2012-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -289,7 +312,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-10 04:28:44", 
+    "updated_at": "2012-07-13 04:26:44", 
     "versions": [
         {
             "doc_id": "LAD00019258", 

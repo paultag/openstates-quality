@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Ira I. Silverstein", 
             "actor": "upper", 
             "date": "2011-01-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-01-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-01-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Labor", 
             "actor": "upper", 
-            "committee": "ILC000132", 
             "date": "2011-01-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000132", 
+                    "name": "Labor", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Held in Labor", 
             "actor": "upper", 
             "date": "2011-02-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Added as Co-Sponsor Sen. Emil Jones, III", 
             "actor": "upper", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Held in Labor", 
             "actor": "upper", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Postponed - Labor", 
             "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Do Pass Labor;  006-004-000", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -86,6 +105,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 17, 2011", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +114,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -102,6 +123,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 29, 2011", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +132,7 @@
             "action": "Third Reading - Lost; 019-035-001", 
             "actor": "upper", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:failed"
@@ -153,7 +176,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:41:16", 
+    "updated_at": "2012-07-13 08:36:00", 
     "versions": [
         {
             "doc_id": "ILD00040649", 

@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Michael J. Madigan", 
             "actor": "lower", 
             "date": "2012-02-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-02-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-02-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to State Government Administration Committee", 
             "actor": "lower", 
-            "committee": "ILC000068", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000068", 
+                    "name": "State Government Administration Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Added Chief Co-Sponsor Rep. Dwight Kay", 
             "actor": "lower", 
             "date": "2012-03-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -62,6 +84,7 @@
             "action": "Committee Deadline Extended-Rule 9(b) March 30, 2012", 
             "actor": "lower", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -69,8 +92,14 @@
         {
             "action": "Assigned to State Government Administration Committee", 
             "actor": "lower", 
-            "committee": "ILC000068", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000068", 
+                    "name": "State Government Administration Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -79,6 +108,7 @@
             "action": "Added Chief Co-Sponsor Rep. Dave Winters", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -87,6 +117,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -95,6 +132,7 @@
             "action": "Final Action Deadline Extended-9(b) May 31, 2012", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,8 +140,14 @@
         {
             "action": "Assigned to State Government Administration Committee", 
             "actor": "lower", 
-            "committee": "ILC000068", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000068", 
+                    "name": "State Government Administration Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -112,6 +156,7 @@
             "action": "Do Pass / Short Debate State Government Administration Committee;  014-000-000", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -120,6 +165,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -128,6 +174,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -136,6 +183,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -144,6 +192,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -188,7 +243,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:44:52", 
+    "updated_at": "2012-07-13 08:38:50", 
     "versions": [
         {
             "doc_id": "ILD00053835", 

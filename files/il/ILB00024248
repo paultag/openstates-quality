@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Robert Rita", 
             "actor": "lower", 
             "date": "2012-02-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-02-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-02-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
-            "committee": "ILC000060", 
             "date": "2012-02-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000060", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Recommends Do Pass Subcommittee/ Revenue & Finance Committee;  003-000-000", 
             "actor": "lower", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Remains in Revenue & Finance Committee", 
             "actor": "lower", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Do Pass / Short Debate Revenue & Finance Committee;  005-004-000", 
             "actor": "lower", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -86,6 +105,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -94,6 +114,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -126,7 +153,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:44:50", 
+    "updated_at": "2012-07-13 08:38:49", 
     "versions": [
         {
             "doc_id": "ILD00053664", 

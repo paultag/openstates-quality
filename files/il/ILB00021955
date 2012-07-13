@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Heather A. Steans", 
             "actor": "upper", 
             "date": "2012-02-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-02-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Human Services", 
             "actor": "upper", 
-            "committee": "ILC000122", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000122", 
+                    "name": "Human Services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Postponed - Human Services", 
             "actor": "upper", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Senate Committee Amendment No. 1 Filed with Secretary by Sen. Heather A. Steans", 
             "actor": "upper", 
             "date": "2012-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -62,6 +78,13 @@
             "action": "Senate Committee Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -70,6 +93,7 @@
             "action": "Senate Committee Amendment No. 1 Assignments Refers to Human Services", 
             "actor": "upper", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +102,7 @@
             "action": "Senate Committee Amendment No. 1 Adopted", 
             "actor": "upper", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -86,6 +111,7 @@
             "action": "Do Pass as Amended Human Services;  006-000-000", 
             "actor": "upper", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -94,6 +120,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 8, 2012", 
             "actor": "upper", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +129,7 @@
             "action": "Added as Co-Sponsor Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +138,7 @@
             "action": "Added as Co-Sponsor Sen. Annazette R. Collins", 
             "actor": "upper", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +147,7 @@
             "action": "Added as Co-Sponsor Sen. William Delgado", 
             "actor": "upper", 
             "date": "2012-03-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -125,8 +155,14 @@
         {
             "action": "Re-referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -183,7 +219,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:23", 
+    "updated_at": "2012-07-13 08:37:01", 
     "versions": [
         {
             "doc_id": "ILD00044193", 

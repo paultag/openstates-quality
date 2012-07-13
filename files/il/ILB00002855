@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Chad Hays", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -19,8 +20,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,8 +35,14 @@
         {
             "action": "Assigned to Agriculture & Conservation Committee", 
             "actor": "lower", 
-            "committee": "ILC000003", 
             "date": "2011-02-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000003", 
+                    "name": "Agriculture & Conservation Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -38,6 +51,13 @@
             "action": "Rule 19(b) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-07-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(b) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -71,7 +91,7 @@
     "type": [
         "resolution"
     ], 
-    "updated_at": "2012-07-06 08:48:08", 
+    "updated_at": "2012-07-13 08:37:18", 
     "versions": [
         {
             "doc_id": "ILD00045568", 

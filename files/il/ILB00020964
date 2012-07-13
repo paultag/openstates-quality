@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Norine Hammond", 
             "actor": "lower", 
             "date": "2012-01-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -19,8 +20,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -29,6 +36,13 @@
             "action": "Assigned to Transportation: Regulation, Roads & Bridges Committee", 
             "actor": "lower", 
             "date": "2012-02-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Transportation: Regulation, Roads & Bridges Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -61,7 +75,7 @@
     "type": [
         "joint resolution"
     ], 
-    "updated_at": "2012-07-04 08:44:54", 
+    "updated_at": "2012-07-13 08:38:52", 
     "versions": [
         {
             "doc_id": "ILD00054122", 

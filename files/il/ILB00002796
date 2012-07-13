@@ -12,6 +12,7 @@
             "action": "Filed with Secretary", 
             "actor": "upper", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -19,8 +20,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,8 +35,14 @@
         {
             "action": "Assigned to State Government and Veterans Affairs", 
             "actor": "upper", 
-            "committee": "ILC000157", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000157", 
+                    "name": "State Government and Veterans Affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -38,6 +51,7 @@
             "action": "Held in State Government and Veterans Affairs", 
             "actor": "upper", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -46,6 +60,7 @@
             "action": "Postponed - State Government and Veterans Affairs", 
             "actor": "upper", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Added as Co-Sponsor Sen. Thomas Johnson", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Senate Committee Amendment No. 1 Filed with Secretary by Sen. Iris Y. Martinez", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -70,6 +87,13 @@
             "action": "Senate Committee Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -78,6 +102,7 @@
             "action": "Postponed - State Government and Veterans Affairs", 
             "actor": "upper", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +111,7 @@
             "action": "Senate Committee Amendment No. 2 Filed with Secretary by Sen. Iris Y. Martinez", 
             "actor": "upper", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -94,6 +120,13 @@
             "action": "Senate Committee Amendment No. 2 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 2  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -102,6 +135,7 @@
             "action": "Senate Committee Amendment No. 1 Assignments Refers to State Government and Veterans Affairs", 
             "actor": "upper", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +144,7 @@
             "action": "Senate Committee Amendment No. 2 Assignments Refers to State Government and Veterans Affairs", 
             "actor": "upper", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +153,7 @@
             "action": "Senate Committee Amendment No. 1 Adopted", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -126,6 +162,7 @@
             "action": "Senate Committee Amendment No. 2 Adopted", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -134,6 +171,7 @@
             "action": "Be Adopted as Amended State Government and Veterans Affairs;  007-000-000", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -142,6 +180,7 @@
             "action": "Placed on Calendar Order of Secretary's Desk Resolutions May 25, 2011", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -150,6 +189,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Jacqueline Y. Collins", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -158,6 +198,7 @@
             "action": "Resolution Adopted as Amended 056-001-001", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -166,6 +207,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -174,6 +216,7 @@
             "action": "Chief House Sponsor Rep. Karen A. Yarbrough", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -181,8 +224,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -190,8 +239,14 @@
         {
             "action": "Assigned to Housing Committee", 
             "actor": "lower", 
-            "committee": "ILC000038", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000038", 
+                    "name": "Housing Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -200,6 +255,7 @@
             "action": "Motion Filed to Suspend Rule 25 Housing Committee;  Rep. Lou Lang", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -208,6 +264,7 @@
             "action": "Motion to Suspend Rule 25 - Prevailed ", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -216,6 +273,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Marlow H. Colvin", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -224,6 +282,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Derrick Smith", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -232,6 +291,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Deborah Mell", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -240,6 +300,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Camille Y. Lilly", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -248,6 +309,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Kelly M. Cassidy", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -256,6 +318,7 @@
             "action": "Added Alternate Co-Sponsor Rep. La Shawn K. Ford", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -264,6 +327,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Rita Mayfield", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -272,6 +336,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Cynthia Soto", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -280,6 +345,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Ann Williams", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -288,6 +354,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Elizabeth Hernandez", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -296,6 +363,7 @@
             "action": "Recommends Be Adopted Housing Committee;  013-000-000", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -304,6 +372,7 @@
             "action": "Placed on Calendar Order of Resolutions", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -312,6 +381,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Arthur Turner", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -320,6 +390,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Jehan A. Gordon", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -328,6 +399,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Kimberly du Buclet", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -336,6 +408,7 @@
             "action": "Resolution Adopted 115-000-000", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -344,6 +417,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Jack D. Franks", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -352,6 +426,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -360,6 +435,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Carol A. Sente", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -368,6 +444,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -376,6 +453,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Lisa M. Dugan", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -384,6 +462,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Thomas Holbrook", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -392,6 +471,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Joseph M. Lyons", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -400,6 +480,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Karen May", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -408,6 +489,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Naomi D. Jakobsson", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -416,6 +498,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Elaine Nekritz", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -424,6 +507,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Daniel Biss", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -432,6 +516,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Andr\u00e9 M. Thapedi", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -440,6 +525,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Emily McAsey", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -448,6 +534,7 @@
             "action": "Adopted Both Houses", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -669,7 +756,7 @@
     "type": [
         "joint resolution"
     ], 
-    "updated_at": "2012-07-04 08:42:41", 
+    "updated_at": "2012-07-13 08:37:15", 
     "versions": [
         {
             "doc_id": "ILD00045464", 

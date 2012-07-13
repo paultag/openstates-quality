@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Michelle Mussman", 
             "actor": "lower", 
             "date": "2012-02-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "Added Chief Co-Sponsor Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +30,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -35,8 +38,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -44,8 +53,14 @@
         {
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
-            "committee": "ILC000060", 
             "date": "2012-02-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000060", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -54,6 +69,7 @@
             "action": "Recommends Do Pass Subcommittee/ Revenue & Finance Committee;  003-000-000", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -62,6 +78,7 @@
             "action": "Remains in Revenue & Finance Committee", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Do Pass / Short Debate Revenue & Finance Committee;  009-000-000", 
             "actor": "lower", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -78,6 +96,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -94,6 +114,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +123,7 @@
             "action": "Third Reading - Short Debate - Passed 110-000-000", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -111,6 +133,7 @@
             "action": "Added Co-Sponsor Rep. Jack D. Franks", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -119,6 +142,7 @@
             "action": "Added Co-Sponsor Rep. Carol A. Sente", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -127,6 +151,7 @@
             "action": "Added Co-Sponsor Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -135,6 +160,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -143,6 +169,7 @@
             "action": "Placed on Calendar Order of First Reading March 23, 2012", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -151,6 +178,7 @@
             "action": "Removed Co-Sponsor Rep. Jack D. Franks", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -159,6 +187,7 @@
             "action": "Chief Senate Sponsor Sen. Don Harmon", 
             "actor": "upper", 
             "date": "2012-03-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -167,6 +196,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -174,8 +204,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -183,8 +219,14 @@
         {
             "action": "Assigned to Revenue", 
             "actor": "upper", 
-            "committee": "ILC000152", 
             "date": "2012-04-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000152", 
+                    "name": "Revenue", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -193,6 +235,7 @@
             "action": "Postponed - Revenue", 
             "actor": "upper", 
             "date": "2012-04-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -201,6 +244,7 @@
             "action": "Do Pass Revenue;  006-004-000", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -209,6 +253,7 @@
             "action": "Placed on Calendar Order of 2nd Reading May 1, 2012", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -217,6 +262,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -225,6 +271,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 3, 2012", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -233,6 +280,7 @@
             "action": "Alternate Chief Sponsor Changed to Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -241,6 +289,7 @@
             "action": "Senate Floor Amendment No. 1 Filed with Secretary by Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -249,6 +298,13 @@
             "action": "Senate Floor Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -257,6 +313,7 @@
             "action": "Senate Floor Amendment No. 1 Be Approved for Consideration Assignments", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -265,6 +322,7 @@
             "action": "Senate Floor Amendment No. 1 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -273,6 +331,7 @@
             "action": "Senate Floor Amendment No. 1 Recommend Do Adopt Executive;  010-004-000", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -281,6 +340,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As May 31, 2012", 
             "actor": "upper", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -289,6 +349,7 @@
             "action": "Alternate Chief Sponsor Changed to Sen. John J. Cullerton", 
             "actor": "upper", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -297,6 +358,7 @@
             "action": "Senate Floor Amendment No. 2 Filed with Secretary by Sen. John J. Cullerton", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -305,6 +367,13 @@
             "action": "Senate Floor Amendment No. 2 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 2  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -313,6 +382,7 @@
             "action": "Senate Floor Amendment No. 2 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -321,6 +391,7 @@
             "action": "Senate Floor Amendment No. 2 Recommend Do Adopt Executive;  011-004-000", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -329,6 +400,7 @@
             "action": "Recalled to Second Reading", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -337,6 +409,7 @@
             "action": "Senate Floor Amendment No. 1 Withdrawn by Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -345,6 +418,7 @@
             "action": "Senate Floor Amendment No. 2 Adopted; Cullerton", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -353,6 +427,7 @@
             "action": "Placed on Calendar Order of 3rd Reading", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -361,6 +436,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. Donne E. Trotter", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -369,6 +445,7 @@
             "action": "Third Reading - Passed; 030-027-000", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -378,6 +455,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -386,6 +464,7 @@
             "action": "Placed on Calendar Order of Concurrence Senate Amendment(s) 2", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -394,6 +473,7 @@
             "action": "Chief Sponsor Changed to Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -402,6 +482,7 @@
             "action": "Senate Floor Amendment No. 2 Motion Filed Concur Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -410,6 +491,13 @@
             "action": "Senate Floor Amendment No. 2 Motion to Concur Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 2 Motion to Concur  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -418,6 +506,7 @@
             "action": "Added Chief Co-Sponsor Rep. Elizabeth Hernandez", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -500,7 +589,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:49:51", 
+    "updated_at": "2012-07-13 08:38:46", 
     "versions": [
         {
             "doc_id": "ILD00053275", 

@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Michael G. Connelly", 
             "actor": "lower", 
             "date": "2011-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-02-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-02-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -37,6 +45,7 @@
             "action": "Added Co-Sponsor Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -45,6 +54,7 @@
             "action": "Added Co-Sponsor Rep. Fred Crespo", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -53,6 +63,7 @@
             "action": "Added Co-Sponsor Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -61,6 +72,7 @@
             "action": "Added Co-Sponsor Rep. Franco Coladipietro", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -68,8 +80,14 @@
         {
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
-            "committee": "ILC000060", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000060", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -78,6 +96,7 @@
             "action": "Added Chief Co-Sponsor Rep. Emily McAsey", 
             "actor": "lower", 
             "date": "2011-02-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Added Co-Sponsor Rep. Karen May", 
             "actor": "lower", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +114,7 @@
             "action": "Added Co-Sponsor Rep. Carol A. Sente", 
             "actor": "lower", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +123,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -109,8 +137,14 @@
         {
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
-            "committee": "ILC000060", 
             "date": "2012-02-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000060", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -119,6 +153,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -194,7 +235,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:43:25", 
+    "updated_at": "2012-07-13 08:37:46", 
     "versions": [
         {
             "doc_id": "ILD00047761", 

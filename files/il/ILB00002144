@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Terry Link", 
             "actor": "upper", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Financial Institutions", 
             "actor": "upper", 
-            "committee": "ILC000119", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000119", 
+                    "name": "Financial Institutions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Postponed - Financial Institutions", 
             "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Do Pass Financial Institutions;  012-000-000", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -62,6 +78,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 29, 2011", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -78,6 +96,7 @@
             "action": "Placed on Calendar Order of 3rd Reading April 11, 2011", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As May 4, 2011", 
             "actor": "upper", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -94,6 +114,13 @@
             "action": "Pursuant to Senate Rule 3-9(b) / Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-07-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Pursuant to Senate Rule 3-9(b) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -127,7 +154,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:03", 
+    "updated_at": "2012-07-13 08:36:38", 
     "versions": [
         {
             "doc_id": "ILD00042903", 

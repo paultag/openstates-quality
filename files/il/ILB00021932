@@ -12,6 +12,7 @@
             "action": "Filed with Secretary", 
             "actor": "upper", 
             "date": "2012-02-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -19,8 +20,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,8 +35,14 @@
         {
             "action": "Assigned to State Government and Veterans Affairs", 
             "actor": "upper", 
-            "committee": "ILC000157", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000157", 
+                    "name": "State Government and Veterans Affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -38,6 +51,7 @@
             "action": "Postponed - State Government and Veterans Affairs", 
             "actor": "upper", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -46,6 +60,7 @@
             "action": "Be Adopted State Government and Veterans Affairs;  007-002-000", 
             "actor": "upper", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar Order of Secretary's Desk Resolutions March 6, 2012", 
             "actor": "upper", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Resolution Adopted", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -94,7 +111,7 @@
     "type": [
         "resolution"
     ], 
-    "updated_at": "2012-07-04 08:41:07", 
+    "updated_at": "2012-07-13 08:35:52", 
     "versions": [
         {
             "doc_id": "ILD00040417", 

@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Procurement", 
             "actor": "upper", 
-            "committee": "ILC000146", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000146", 
+                    "name": "Procurement", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Senate Committee Amendment No. 1 Filed with Secretary by Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -54,6 +69,13 @@
             "action": "Senate Committee Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -62,6 +84,7 @@
             "action": "Senate Committee Amendment No. 1 Assignments Refers to Procurement", 
             "actor": "upper", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +93,7 @@
             "action": "Senate Committee Amendment No. 1 Adopted", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -78,6 +102,7 @@
             "action": "Do Pass as Amended Procurement;  009-000-000", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -86,6 +111,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 21, 2012", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +120,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -102,6 +129,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 22, 2012", 
             "actor": "upper", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +138,7 @@
             "action": "Senate Floor Amendment No. 2 Filed with Secretary by Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -118,6 +147,13 @@
             "action": "Senate Floor Amendment No. 2 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 2  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -126,6 +162,7 @@
             "action": "Senate Floor Amendment No. 2 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +171,7 @@
             "action": "Senate Floor Amendment No. 2 Postponed - Executive", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -142,6 +180,7 @@
             "action": "Third Reading - Passed; 031-024-000", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -151,6 +190,7 @@
             "action": "Senate Floor Amendment No. 2 Tabled Pursuant to Rule 5-4(a)", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -159,6 +199,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -167,6 +208,7 @@
             "action": "Chief House Sponsor Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -175,6 +217,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -183,6 +226,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -190,8 +234,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -200,6 +250,7 @@
             "action": "Alternate Chief Sponsor Changed to Rep. Carol A. Sente", 
             "actor": "lower", 
             "date": "2012-04-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -208,6 +259,7 @@
             "action": "Final Action Deadline Extended-9(b) May 29, 2012", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -215,8 +267,14 @@
         {
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
-            "committee": "ILC000111", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000031", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -225,6 +283,7 @@
             "action": "Motion Filed to Suspend Rule 25 Executive Committee;  Rep. Dena M. Carli; Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -233,6 +292,7 @@
             "action": "Motion to Suspend Rule 25 - Prevailed by Voice Vote", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -241,6 +301,7 @@
             "action": "Alternate Chief Sponsor Changed to Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -249,6 +310,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. Michael J. Madigan", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -257,6 +319,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -265,6 +334,7 @@
             "action": "House Committee Amendment No. 1 Rules Refers to Executive Committee", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -273,6 +343,7 @@
             "action": "House Committee Amendment No. 1 Adopted in Executive Committee;  by Voice Vote", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -281,6 +352,7 @@
             "action": "Do Pass as Amended / Short Debate Executive Committee;  011-000-000", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -289,6 +361,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -297,6 +370,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -305,6 +379,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -313,6 +388,7 @@
             "action": "House Floor Amendment No. 2 Filed with Clerk by Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -321,6 +397,13 @@
             "action": "House Floor Amendment No. 2 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -329,6 +412,7 @@
             "action": "House Floor Amendment No. 2 Recommends Be Adopted Rules Committee;  004-000-000", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -337,6 +421,7 @@
             "action": "Final Action Deadline Extended-9(b) May 31, 2012", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -345,6 +430,7 @@
             "action": "House Floor Amendment No. 3 Filed with Clerk by Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -353,6 +439,13 @@
             "action": "House Floor Amendment No. 3 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 3  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -361,6 +454,7 @@
             "action": "House Floor Amendment No. 4 Filed with Clerk by Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -369,6 +463,13 @@
             "action": "House Floor Amendment No. 4 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 4  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -377,6 +478,7 @@
             "action": "House Floor Amendment No. 3 Rules Refers to Executive Committee", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -385,6 +487,7 @@
             "action": "House Floor Amendment No. 4 Rules Refers to Executive Committee", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -393,6 +496,7 @@
             "action": "House Floor Amendment No. 3 Recommends Be Adopted Executive Committee;  011-000-000", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -401,6 +505,7 @@
             "action": "House Floor Amendment No. 4 Recommends Be Adopted Executive Committee;  011-000-000", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -409,6 +514,7 @@
             "action": "House Floor Amendment No. 5 Filed with Clerk by Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -417,6 +523,13 @@
             "action": "House Floor Amendment No. 5 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 5  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -425,6 +538,7 @@
             "action": "House Floor Amendment No. 5 Recommends Be Adopted Rules Committee;  003-002-000", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -433,6 +547,7 @@
             "action": "House Floor Amendment No. 6 Filed with Clerk by Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -441,6 +556,13 @@
             "action": "House Floor Amendment No. 6 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 6  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -449,6 +571,7 @@
             "action": "House Floor Amendment No. 6 Recommends Be Adopted Rules Committee;  005-000-000", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -457,6 +580,7 @@
             "action": "House Floor Amendment No. 2 Withdrawn by Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -465,6 +589,7 @@
             "action": "House Floor Amendment No. 3 Withdrawn by Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -473,6 +598,7 @@
             "action": "House Floor Amendment No. 4 Withdrawn by Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -481,6 +607,7 @@
             "action": "House Floor Amendment No. 5 Withdrawn by Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -489,6 +616,7 @@
             "action": "House Floor Amendment No. 6 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -497,6 +625,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -505,6 +634,7 @@
             "action": "Third Reading - Short Debate - Passed 068-050-000", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -514,6 +644,7 @@
             "action": "Secretary's Desk - Concurrence House Amendment(s) 1, 6", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -522,6 +653,7 @@
             "action": "Placed on Calendar Order of Concurrence House Amendment(s) 1, 6 -  May 31, 2012", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -530,6 +662,7 @@
             "action": "Chief Sponsor Changed to Sen. Heather A. Steans", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -538,6 +671,7 @@
             "action": "House Committee Amendment No. 1 Motion to Concur Filed with Secretary Sen. Heather A. Steans", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -546,6 +680,13 @@
             "action": "House Committee Amendment No. 1 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -554,6 +695,7 @@
             "action": "House Floor Amendment No. 6 Motion to Concur Filed with Secretary Sen. Heather A. Steans", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -562,6 +704,13 @@
             "action": "House Floor Amendment No. 6 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 6 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -570,6 +719,13 @@
             "action": "House Committee Amendment No. 1 Motion to Concur Assignments Referred to Executive", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1 Motion to Concur Assignments  Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -578,6 +734,13 @@
             "action": "House Floor Amendment No. 6 Motion to Concur Assignments Referred to Executive", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 6 Motion to Concur Assignments  Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -586,6 +749,7 @@
             "action": "House Committee Amendment No. 1 Motion To Concur Recommended Do Adopt Executive;  008-006-000", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -594,6 +758,7 @@
             "action": "House Floor Amendment No. 6 Motion To Concur Recommended Do Adopt Executive;  008-006-000", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -602,6 +767,7 @@
             "action": "House Committee Amendment No. 1 Senate Concurs 032-025-000", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -610,6 +776,7 @@
             "action": "House Floor Amendment No. 6 Senate Concurs 032-025-000", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -618,6 +785,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -626,6 +794,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2012-06-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -634,6 +803,7 @@
             "action": "Governor Approved", 
             "actor": "upper", 
             "date": "2012-06-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -642,6 +812,7 @@
             "action": "Effective Date June 30, 2012", 
             "actor": "upper", 
             "date": "2012-06-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -650,6 +821,7 @@
             "action": "Public Act . . . . . . . . . 97-0732", 
             "actor": "upper", 
             "date": "2012-06-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -737,7 +909,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:48:02", 
+    "updated_at": "2012-07-13 08:37:14", 
     "versions": [
         {
             "doc_id": "ILD00045327", 

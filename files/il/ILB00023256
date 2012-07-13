@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Mary E. Flowers", 
             "actor": "lower", 
             "date": "2012-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "Added Chief Co-Sponsor Rep. Eddie Lee Jackson, Sr.", 
             "actor": "lower", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to State Government Administration Committee", 
             "actor": "lower", 
-            "committee": "ILC000068", 
             "date": "2012-02-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000068", 
+                    "name": "State Government Administration Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Recommends Be Adopted State Government Administration Committee;  018-000-000", 
             "actor": "lower", 
             "date": "2012-02-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar Order of Resolutions", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Added Chief Co-Sponsor Rep. Jim Sacia", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Resolution Adopted", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -114,7 +132,7 @@
     "type": [
         "resolution"
     ], 
-    "updated_at": "2012-07-04 08:42:55", 
+    "updated_at": "2012-07-13 08:37:26", 
     "versions": [
         {
             "doc_id": "ILD00046325", 

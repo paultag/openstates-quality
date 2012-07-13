@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Michael J. Madigan", 
             "actor": "lower", 
             "date": "2011-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-01-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
-            "committee": "ILC000031", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000031", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass / Short Debate Executive Committee;  011-000-000", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate **", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -70,6 +93,7 @@
             "action": "Final Action Deadline Extended-9(b) November 10, 2011", 
             "actor": "lower", 
             "date": "2011-10-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +102,7 @@
             "action": "Approved for Consideration Rules Committee;  003-000-000", 
             "actor": "lower", 
             "date": "2011-10-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +111,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-10-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +120,7 @@
             "action": "House Floor Amendment No. 1 Filed with Clerk by Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2011-10-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -102,6 +129,13 @@
             "action": "House Floor Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-10-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -110,6 +144,7 @@
             "action": "Chief Sponsor Changed to Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2011-10-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +153,7 @@
             "action": "House Floor Amendment No. 1 Rules Refers to Revenue & Finance Committee", 
             "actor": "lower", 
             "date": "2011-10-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -126,6 +162,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-10-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -134,6 +171,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-10-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -142,6 +180,7 @@
             "action": "Added Chief Co-Sponsor Rep. Michael J. Zalewski", 
             "actor": "lower", 
             "date": "2011-10-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -150,6 +189,7 @@
             "action": "Added Co-Sponsor Rep. Maria Antonia Berrios", 
             "actor": "lower", 
             "date": "2011-10-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -158,6 +198,7 @@
             "action": "House Floor Amendment No. 1 Recommends Be Adopted Revenue & Finance Committee;  005-000-003", 
             "actor": "lower", 
             "date": "2011-10-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -166,6 +207,7 @@
             "action": "Added Chief Co-Sponsor Rep. Kelly M. Cassidy", 
             "actor": "lower", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -174,6 +216,7 @@
             "action": "House Floor Amendment No. 1 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -182,6 +225,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -190,6 +234,7 @@
             "action": "3/5 Vote Required", 
             "actor": "lower", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -198,6 +243,7 @@
             "action": "Third Reading - Consideration Postponed", 
             "actor": "lower", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -206,6 +252,7 @@
             "action": "Placed on Calendar - Consideration Postponed", 
             "actor": "lower", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -214,6 +261,7 @@
             "action": "House Floor Amendment No. 2 Filed with Clerk by Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -222,6 +270,13 @@
             "action": "House Floor Amendment No. 2 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -230,6 +285,7 @@
             "action": "House Floor Amendment No. 2 Recommends Be Adopted Rules Committee;  004-000-000", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -238,6 +294,7 @@
             "action": "House Floor Amendment No. 1 Fiscal Note Requested as Amended by Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -246,6 +303,7 @@
             "action": "House Floor Amendment No. 2 Fiscal Note Requested as Amended by Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -254,6 +312,7 @@
             "action": "House Floor Amendment No. 1 State Mandates Fiscal Note Requested as Amended by Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -262,6 +321,7 @@
             "action": "House Floor Amendment No. 2 State Mandates Fiscal Note Requested as Amended by Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -270,6 +330,7 @@
             "action": "House Floor Amendment No. 1 Housing Affordability Impact Note Requested as Amended by Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -278,6 +339,7 @@
             "action": "House Floor Amendment No. 2 Housing Affordability Impact Note Requested as Amended by Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -286,6 +348,7 @@
             "action": "Recalled to Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -294,6 +357,7 @@
             "action": "House Floor Amendment No. 2 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -302,6 +366,7 @@
             "action": "House Floor Amendment No. 1 Fiscal Note Requested as Amended - Withdrawn by Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -310,6 +375,7 @@
             "action": "House Floor Amendment No. 2 Fiscal Note Requested as Amended - Withdrawn by Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -318,6 +384,7 @@
             "action": "House Floor Amendment No. 1 State Mandates Fiscal Note Requested as Amended - Withdrawn by Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -326,6 +393,7 @@
             "action": "House Floor Amendment No. 2 State Mandates Fiscal Note Requested as Amended - Withdrawn by Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -334,6 +402,7 @@
             "action": "House Floor Amendment No. 1 Housing Affordability Impact Note Requested as Amended - Withdrawn by Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -342,6 +411,7 @@
             "action": "House Floor Amendment No. 2 Housing Affordability Impact Note Requested as Amended - Withdrawn by Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -350,6 +420,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -358,6 +429,7 @@
             "action": "Third Reading - Consideration Postponed", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -366,6 +438,7 @@
             "action": "Placed on Calendar - Consideration Postponed", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -374,6 +447,7 @@
             "action": "Third Reading - Short Debate - Passed 067-044-002", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -383,6 +457,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2011-11-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -391,6 +466,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "upper", 
             "date": "2011-11-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -399,6 +475,7 @@
             "action": "Chief Senate Sponsor Sen. Antonio Mu\u00f1oz", 
             "actor": "upper", 
             "date": "2011-11-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -407,6 +484,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-11-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -414,8 +492,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-11-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -423,8 +507,14 @@
         {
             "action": "Assigned to Revenue", 
             "actor": "upper", 
-            "committee": "ILC000152", 
             "date": "2011-11-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000152", 
+                    "name": "Revenue", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -433,6 +523,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As November 10, 2011", 
             "actor": "upper", 
             "date": "2011-11-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -440,8 +531,14 @@
         {
             "action": "Re-referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -450,6 +547,7 @@
             "action": "Assignments Re-refers to Executive", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -458,6 +556,7 @@
             "action": "Added as Alternate Chief Co-Sponsor Sen. M. Maggie Crotty", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -466,6 +565,7 @@
             "action": "Waive Posting Notice", 
             "actor": "upper", 
             "date": "2011-11-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -474,6 +574,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. John G. Mulroe", 
             "actor": "upper", 
             "date": "2011-11-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -482,6 +583,7 @@
             "action": "Do Pass Executive;  008-006-000", 
             "actor": "upper", 
             "date": "2011-11-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -490,6 +592,7 @@
             "action": "Placed on Calendar Order of 2nd Reading November 9, 2011", 
             "actor": "upper", 
             "date": "2011-11-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -498,6 +601,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-11-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -506,6 +610,7 @@
             "action": "Placed on Calendar Order of 3rd Reading November 10, 2011", 
             "actor": "upper", 
             "date": "2011-11-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -514,6 +619,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As December 31, 2011", 
             "actor": "upper", 
             "date": "2011-11-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -522,6 +628,7 @@
             "action": "Senate Floor Amendment No. 1 Filed with Secretary by Sen. Dale A. Righter", 
             "actor": "upper", 
             "date": "2011-11-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -530,6 +637,13 @@
             "action": "Senate Floor Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-11-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -538,6 +652,13 @@
             "action": "Pursuant to Senate Rule 3-9(b) / Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-01-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Pursuant to Senate Rule 3-9(b) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -546,6 +667,7 @@
             "action": "Approved for Consideration Assignments", 
             "actor": "upper", 
             "date": "2012-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -554,6 +676,7 @@
             "action": "Placed on Calendar Order of 3rd Reading January 31, 2012", 
             "actor": "upper", 
             "date": "2012-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -562,6 +685,7 @@
             "action": "Senate Floor Amendment No. 2 Filed with Secretary by Sen. Antonio Mu\u00f1oz", 
             "actor": "upper", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -570,6 +694,13 @@
             "action": "Senate Floor Amendment No. 2 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 2  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -578,6 +709,7 @@
             "action": "Senate Floor Amendment No. 2 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -586,6 +718,7 @@
             "action": "Senate Floor Amendment No. 2 Postponed - Executive", 
             "actor": "upper", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -594,6 +727,7 @@
             "action": "Senate Floor Amendment No. 3 Filed with Secretary by Sen. Antonio Mu\u00f1oz", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -602,6 +736,13 @@
             "action": "Senate Floor Amendment No. 3 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 3  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -610,6 +751,7 @@
             "action": "Senate Floor Amendment No. 3 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -618,6 +760,7 @@
             "action": "Senate Floor Amendment No. 3 Recommend Do Adopt Executive;  009-005-000", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -626,6 +769,7 @@
             "action": "Recalled to Second Reading", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -634,6 +778,7 @@
             "action": "Senate Floor Amendment No. 3 Adopted; Mu\u00f1oz", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -642,6 +787,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 23, 2012", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -650,6 +796,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As May 31, 2012", 
             "actor": "upper", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -658,6 +805,13 @@
             "action": "Pursuant to Senate Rule 3-9(b) / Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-07-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Pursuant to Senate Rule 3-9(b) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -666,6 +820,13 @@
             "action": "Senate Floor Amendment No. 2 Re-referred to Assignments;  Pursuant to Senate Rule 3-9(b).", 
             "actor": "upper", 
             "date": "2012-07-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 2  Assignments;  Pursuant to Senate Rule 3-9(b).", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -764,7 +925,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:48:31", 
+    "updated_at": "2012-07-13 08:37:41", 
     "versions": [
         {
             "doc_id": "ILD00047164", 

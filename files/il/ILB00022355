@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Al Riley", 
             "actor": "lower", 
             "date": "2012-02-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-02-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Human Services Committee", 
             "actor": "lower", 
-            "committee": "ILC000039", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000039", 
+                    "name": "Human Services Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. Al Riley", 
             "actor": "lower", 
             "date": "2012-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -54,6 +69,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -62,6 +84,7 @@
             "action": "House Committee Amendment No. 1 Rules Refers to Human Services Committee", 
             "actor": "lower", 
             "date": "2012-03-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +93,7 @@
             "action": "Chief Sponsor Changed to Rep. Constance A. Howard", 
             "actor": "lower", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +102,7 @@
             "action": "House Committee Amendment No. 1 Adopted in Human Services Committee;  by Voice Vote", 
             "actor": "lower", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -86,6 +111,7 @@
             "action": "Do Pass as Amended / Short Debate Human Services Committee;  009-001-000", 
             "actor": "lower", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -94,6 +120,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +129,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -110,6 +138,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +147,7 @@
             "action": "Third Reading - Short Debate - Passed 107-000-000", 
             "actor": "lower", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -127,6 +157,7 @@
             "action": "Added Chief Co-Sponsor Rep. Monique D. Davis", 
             "actor": "lower", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -135,6 +166,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -143,6 +175,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -151,6 +184,7 @@
             "action": "Chief Senate Sponsor Sen. Heather A. Steans", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -159,6 +193,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -166,8 +201,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -176,6 +217,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -184,6 +226,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. Annazette R. Collins", 
             "actor": "upper", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -191,8 +234,14 @@
         {
             "action": "Assigned to Human Services", 
             "actor": "upper", 
-            "committee": "ILC000039", 
             "date": "2012-04-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000122", 
+                    "name": "Human Services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -201,6 +250,7 @@
             "action": "Do Pass Human Services;  007-000-000", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -209,6 +259,7 @@
             "action": "Placed on Calendar Order of 2nd Reading April 26, 2012", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -217,6 +268,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -225,6 +277,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 8, 2012", 
             "actor": "upper", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -233,6 +286,7 @@
             "action": "Third Reading - Passed; 057-000-000", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -242,6 +296,7 @@
             "action": "Passed Both Houses", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -250,6 +305,7 @@
             "action": "Sent to the Governor", 
             "actor": "lower", 
             "date": "2012-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -315,7 +371,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:49:36", 
+    "updated_at": "2012-07-13 08:38:37", 
     "versions": [
         {
             "doc_id": "ILD00052240", 

@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. John O. Jones", 
             "actor": "upper", 
             "date": "2012-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Agriculture and Conservation", 
             "actor": "upper", 
-            "committee": "ILC000094", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000094", 
+                    "name": "Agriculture and Conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass Agriculture and Conservation;  009-000-000", 
             "actor": "upper", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 8, 2012", 
             "actor": "upper", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 21, 2012", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Third Reading - Passed; 054-000-000", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -87,6 +106,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -95,6 +115,7 @@
             "action": "Chief House Sponsor Rep. Wayne Rosenthal", 
             "actor": "lower", 
             "date": "2012-03-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -103,6 +124,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2012-03-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -111,6 +133,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-03-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -118,8 +141,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-03-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -127,8 +156,14 @@
         {
             "action": "Assigned to Agriculture & Conservation Committee", 
             "actor": "lower", 
-            "committee": "ILC000094", 
             "date": "2012-04-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000003", 
+                    "name": "Agriculture & Conservation Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -137,6 +172,7 @@
             "action": "Do Pass / Short Debate Agriculture & Conservation Committee;  010-001-000", 
             "actor": "lower", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -145,6 +181,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -153,6 +190,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Jerry F. Costello, II", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -161,6 +199,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Patrick J. Verschoore", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -169,6 +208,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -177,6 +217,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -185,6 +226,7 @@
             "action": "Third Reading - Short Debate - Passed 090-023-000", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -194,6 +236,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -202,6 +245,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Chad Hays", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -210,6 +254,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Kay Hatcher", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -218,6 +263,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. David Reis", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -226,6 +272,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Mike Bost", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -234,6 +281,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Jim Watson", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -242,6 +290,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Adam Brown", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -250,6 +299,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Chapin Rose", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -258,6 +308,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Brad E. Halbrook", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -266,6 +317,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2012-06-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -367,7 +419,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:36", 
+    "updated_at": "2012-07-13 08:37:10", 
     "versions": [
         {
             "doc_id": "ILD00044982", 

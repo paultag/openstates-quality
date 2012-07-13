@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Pamela J. Althoff", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Licensed Activities", 
             "actor": "upper", 
-            "committee": "ILC000135", 
             "date": "2012-02-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000135", 
+                    "name": "Licensed Activities", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Postponed - Licensed Activities", 
             "actor": "upper", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Postponed - Licensed Activities", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,13 @@
             "action": "Rule 3-9(a) / Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 3-9(a) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -94,7 +117,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:38", 
+    "updated_at": "2012-07-13 08:37:12", 
     "versions": [
         {
             "doc_id": "ILD00045178", 

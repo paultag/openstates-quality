@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. John J. Cullerton", 
             "actor": "upper", 
             "date": "2012-01-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-01-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-01-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Executive", 
             "actor": "upper", 
-            "committee": "ILC000111", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000111", 
+                    "name": "Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass Executive;  012-000-000", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 21, 2012", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 23, 2012", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As April 26, 2012", 
             "actor": "upper", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -86,6 +105,7 @@
             "action": "Chief Sponsor Changed to Sen. James F. Clayborne, Jr.", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +114,7 @@
             "action": "Senate Floor Amendment No. 1 Filed with Secretary by Sen. James F. Clayborne, Jr.", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -102,6 +123,13 @@
             "action": "Senate Floor Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -110,6 +138,7 @@
             "action": "Senate Floor Amendment No. 1 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +147,7 @@
             "action": "Added as Chief Co-Sponsor Sen. David S. Luechtefeld", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -126,6 +156,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +165,7 @@
             "action": "Senate Floor Amendment No. 1 Recommend Do Adopt Executive;  011-000-000", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -142,6 +174,7 @@
             "action": "Recalled to Second Reading", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -150,6 +183,7 @@
             "action": "Senate Floor Amendment No. 1 Adopted; Clayborne", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -158,6 +192,7 @@
             "action": "Placed on Calendar Order of 3rd Reading", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -166,6 +201,7 @@
             "action": "Added as Co-Sponsor Sen. Kyle McCarter", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -174,6 +210,7 @@
             "action": "Third Reading - Passed; 054-000-000", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -183,6 +220,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -191,6 +229,7 @@
             "action": "Chief House Sponsor Rep. Eddie Lee Jackson, Sr.", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -199,6 +238,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -207,6 +247,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -214,8 +255,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -224,6 +271,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Marcus C. Evans, Jr.", 
             "actor": "lower", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -232,6 +280,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Paul Evans", 
             "actor": "lower", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -240,6 +289,7 @@
             "action": "Alternate Co-Sponsor Removed Rep. Marcus C. Evans, Jr.", 
             "actor": "lower", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -248,6 +298,7 @@
             "action": "Committee Deadline Extended-Rule 9(b) May 18, 2012", 
             "actor": "lower", 
             "date": "2012-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -255,8 +306,14 @@
         {
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
-            "committee": "ILC000060", 
             "date": "2012-05-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000060", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -265,6 +322,7 @@
             "action": "Do Pass / Short Debate Revenue & Finance Committee;  007-002-000", 
             "actor": "lower", 
             "date": "2012-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -273,6 +331,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -281,6 +340,7 @@
             "action": "Fiscal Note Requested by Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -289,6 +349,7 @@
             "action": "State Mandates Fiscal Note Requested by Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -297,6 +358,7 @@
             "action": "Home Rule Note Requested by Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -305,6 +367,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -313,6 +376,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -321,6 +385,7 @@
             "action": "Land Conveyance Appraisal Note Filed", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -329,6 +394,7 @@
             "action": "Correctional Note Filed", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -337,6 +403,7 @@
             "action": "Judicial Note Filed", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -345,6 +412,7 @@
             "action": "State Debt Impact Note Filed", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -353,6 +421,7 @@
             "action": "Pension Note Filed", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -361,6 +430,7 @@
             "action": "Balanced Budget Note Filed", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -369,6 +439,7 @@
             "action": "Housing Affordability Impact Note Filed", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -377,6 +448,7 @@
             "action": "Housing Affordability Impact Note Filed ; Revised", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -385,6 +457,7 @@
             "action": "Home Rule Note Filed", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -393,6 +466,7 @@
             "action": "State Mandates Fiscal Note Filed", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -401,6 +475,7 @@
             "action": "Fiscal Note Requested - Withdrawn by Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -409,6 +484,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Karen May", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -417,6 +493,7 @@
             "action": "Final Action Deadline Extended-9(b) May 31, 2012", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -425,6 +502,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -433,6 +511,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Scott E. Penny", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -441,6 +520,7 @@
             "action": "Third Reading - Short Debate - Passed 067-049-002", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -450,6 +530,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -458,6 +539,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -541,7 +623,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:20", 
+    "updated_at": "2012-07-13 08:36:58", 
     "versions": [
         {
             "doc_id": "ILD00044042", 

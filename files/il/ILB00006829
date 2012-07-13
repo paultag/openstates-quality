@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. David Harris", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Agriculture & Conservation Committee", 
             "actor": "lower", 
-            "committee": "ILC000003", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000003", 
+                    "name": "Agriculture & Conservation Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass / Short Debate Agriculture & Conservation Committee;  014-000-000", 
             "actor": "lower", 
             "date": "2011-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Added Chief Co-Sponsor Rep. Dwight Kay", 
             "actor": "lower", 
             "date": "2011-03-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Added Chief Co-Sponsor Rep. Roger L. Eddy", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +114,7 @@
             "action": "Added Chief Co-Sponsor Rep. David Reis", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +123,7 @@
             "action": "House Floor Amendment No. 1 Filed with Clerk by Rep. David Harris", 
             "actor": "lower", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -110,6 +132,13 @@
             "action": "House Floor Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -118,6 +147,7 @@
             "action": "Recalled to Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -126,6 +156,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -134,6 +165,7 @@
             "action": "House Floor Amendment No. 1 Rules Refers to Agriculture & Conservation Committee", 
             "actor": "lower", 
             "date": "2011-04-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -142,6 +174,7 @@
             "action": "House Floor Amendment No. 1 Recommends Be Adopted Agriculture & Conservation Committee;  010-000-000", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -150,6 +183,7 @@
             "action": "House Floor Amendment No. 1 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -158,6 +192,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -166,6 +201,7 @@
             "action": "Removed from Short Debate Status", 
             "actor": "lower", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -174,6 +210,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Standard Debate", 
             "actor": "lower", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -182,6 +219,7 @@
             "action": "Third Reading - Standard Debate - Passed 078-034-001", 
             "actor": "lower", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -191,6 +229,7 @@
             "action": "Added Chief Co-Sponsor Rep. John D. Cavaletto", 
             "actor": "lower", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -199,6 +238,7 @@
             "action": "Added Co-Sponsor Rep. Richard Morthland", 
             "actor": "lower", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -207,6 +247,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -215,6 +256,7 @@
             "action": "Placed on Calendar Order of First Reading April 13, 2011", 
             "actor": "upper", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -223,6 +265,7 @@
             "action": "Chief Senate Sponsor Sen. William R. Haine", 
             "actor": "upper", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -231,6 +274,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-04-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -238,8 +282,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-04-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -247,8 +297,14 @@
         {
             "action": "Assigned to Public Health", 
             "actor": "upper", 
-            "committee": "ILC000147", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000147", 
+                    "name": "Public Health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -257,6 +313,13 @@
             "action": "Rule 3-9(a) / Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 3-9(a) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -264,8 +327,14 @@
         {
             "action": "Re-assigned to Criminal Law", 
             "actor": "upper", 
-            "committee": "ILC000103", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000103", 
+                    "name": "Criminal Law", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -274,6 +343,7 @@
             "action": "Senate Committee Amendment No. 1 Filed with Secretary by Sen. William R. Haine", 
             "actor": "upper", 
             "date": "2012-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -282,6 +352,13 @@
             "action": "Senate Committee Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -290,6 +367,7 @@
             "action": "Senate Committee Amendment No. 1   Senator McCarter added as Chief Co-Sponsor", 
             "actor": "upper", 
             "date": "2012-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -298,6 +376,7 @@
             "action": "Senate Committee Amendment No. 1 Assignments Refers to Criminal Law", 
             "actor": "upper", 
             "date": "2012-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -306,6 +385,7 @@
             "action": "Rule 2-10 Committee/3rd Reading Deadline Established As May 31, 2012", 
             "actor": "upper", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -314,6 +394,7 @@
             "action": "Senate Committee Amendment No. 1 Adopted", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -322,6 +403,7 @@
             "action": "Do Pass as Amended Criminal Law;  008-000-000", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -330,6 +412,7 @@
             "action": "Placed on Calendar Order of 2nd Reading May 24, 2012", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -338,6 +421,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -346,6 +430,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 25, 2012", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -354,6 +439,7 @@
             "action": "Senate Committee Amendment No. 1   Senator McGuire added as Chief Co-Sponsor", 
             "actor": "upper", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -362,6 +448,7 @@
             "action": "Third Reading - Passed; 050-000-000", 
             "actor": "upper", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -371,6 +458,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -379,6 +467,7 @@
             "action": "Placed on Calendar Order of Concurrence Senate Amendment(s) 1", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -387,6 +476,7 @@
             "action": "Chief Sponsor Changed to Rep. Daniel V. Beiser", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -395,6 +485,7 @@
             "action": "Senate Committee Amendment No. 1 Motion Filed Concur Rep. Daniel V. Beiser", 
             "actor": "lower", 
             "date": "2012-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -403,6 +494,13 @@
             "action": "Senate Committee Amendment No. 1 Motion to Concur Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1 Motion to Concur  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -411,6 +509,13 @@
             "action": "Senate Committee Amendment No. 1 Motion to Concur Rules Referred to Judiciary II - Criminal Law Committee", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1 Motion to Concur Rules  Judiciary II - Criminal Law Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -494,7 +599,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:49:17", 
+    "updated_at": "2012-07-13 08:38:26", 
     "versions": [
         {
             "doc_id": "ILD00051029", 

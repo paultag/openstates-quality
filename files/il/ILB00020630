@@ -12,6 +12,7 @@
             "action": "Filed with Secretary", 
             "actor": "upper", 
             "date": "2011-11-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -19,8 +20,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-11-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,8 +35,14 @@
         {
             "action": "Assigned to Higher Education", 
             "actor": "upper", 
-            "committee": "ILC000121", 
             "date": "2011-11-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000121", 
+                    "name": "Higher Education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -38,6 +51,13 @@
             "action": "Pursuant to Senate Rule 3-9(b) / Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-01-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Pursuant to Senate Rule 3-9(b) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -45,8 +65,14 @@
         {
             "action": "Re-assigned to Higher Education", 
             "actor": "upper", 
-            "committee": "ILC000121", 
             "date": "2012-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000121", 
+                    "name": "Higher Education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -55,6 +81,13 @@
             "action": "Pursuant to Senate Rule 3-9(b) / Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-07-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Pursuant to Senate Rule 3-9(b) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -88,7 +121,7 @@
     "type": [
         "resolution"
     ], 
-    "updated_at": "2012-07-03 08:36:30", 
+    "updated_at": "2012-07-13 08:35:51", 
     "versions": [
         {
             "doc_id": "ILD00040292", 

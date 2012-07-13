@@ -12,6 +12,7 @@
             "action": "Filed with Secretary", 
             "actor": "upper", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -19,8 +20,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,8 +35,14 @@
         {
             "action": "Assigned to Agriculture and Conservation", 
             "actor": "upper", 
-            "committee": "ILC000094", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000094", 
+                    "name": "Agriculture and Conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -38,6 +51,7 @@
             "action": "Be Adopted Agriculture and Conservation;  008-000-000", 
             "actor": "upper", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -46,6 +60,7 @@
             "action": "Placed on Calendar Order of Secretary's Desk Resolutions February 8, 2012", 
             "actor": "upper", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Resolution Adopted", 
             "actor": "upper", 
             "date": "2012-02-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -86,7 +102,7 @@
     "type": [
         "resolution"
     ], 
-    "updated_at": "2012-07-02 08:37:00", 
+    "updated_at": "2012-07-13 08:35:52", 
     "versions": [
         {
             "doc_id": "ILD00040416", 

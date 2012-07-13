@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. La Shawn K. Ford", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to State Government Administration Committee", 
             "actor": "lower", 
-            "committee": "ILC000068", 
             "date": "2012-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000068", 
+                    "name": "State Government Administration Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass / Short Debate State Government Administration Committee;  018-000-000", 
             "actor": "lower", 
             "date": "2012-02-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "House Floor Amendment No. 1 Filed with Clerk by Rep. La Shawn K. Ford", 
             "actor": "lower", 
             "date": "2012-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -70,6 +87,13 @@
             "action": "House Floor Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -78,6 +102,7 @@
             "action": "House Floor Amendment No. 1 Recommends Be Adopted Rules Committee;  004-000-000", 
             "actor": "lower", 
             "date": "2012-03-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -86,6 +111,7 @@
             "action": "Added Chief Co-Sponsor Rep. Mary E. Flowers", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +120,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -102,6 +129,7 @@
             "action": "House Floor Amendment No. 1 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -110,6 +138,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +147,7 @@
             "action": "Third Reading - Short Debate - Passed 098-016-000", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -127,6 +157,7 @@
             "action": "Added Chief Co-Sponsor Rep. Constance A. Howard", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -135,6 +166,7 @@
             "action": "Added Chief Co-Sponsor Rep. Rita Mayfield", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -143,6 +175,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -151,6 +184,7 @@
             "action": "Placed on Calendar Order of First Reading March 30, 2012", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -159,6 +193,7 @@
             "action": "Chief Senate Sponsor Sen. James F. Clayborne, Jr.", 
             "actor": "upper", 
             "date": "2012-04-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -167,6 +202,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-04-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -174,8 +210,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-04-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -183,8 +225,14 @@
         {
             "action": "Assigned to Executive", 
             "actor": "upper", 
-            "committee": "ILC000031", 
             "date": "2012-04-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000111", 
+                    "name": "Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -193,6 +241,7 @@
             "action": "Senate Committee Amendment No. 1 Filed with Secretary by Sen. James F. Clayborne, Jr.", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -201,6 +250,13 @@
             "action": "Senate Committee Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -209,6 +265,7 @@
             "action": "Senate Committee Amendment No. 1 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -217,6 +274,7 @@
             "action": "Senate Committee Amendment No. 1 Postponed - Executive", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -225,6 +283,7 @@
             "action": "Postponed - Executive", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -233,6 +292,7 @@
             "action": "Senate Committee Amendment No. 2 Filed with Secretary by Sen. John J. Cullerton", 
             "actor": "upper", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -241,6 +301,13 @@
             "action": "Senate Committee Amendment No. 2 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 2  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -249,6 +316,7 @@
             "action": "Senate Committee Amendment No. 2 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -257,6 +325,7 @@
             "action": "Alternate Chief Sponsor Changed to Sen. John J. Cullerton", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -265,6 +334,7 @@
             "action": "Senate Committee Amendment No. 1 Postponed - Executive", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -273,6 +343,7 @@
             "action": "Senate Committee Amendment No. 2 Adopted", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -281,6 +352,7 @@
             "action": "Do Pass as Amended Executive;  009-002-002", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -289,6 +361,7 @@
             "action": "Placed on Calendar Order of 2nd Reading May 3, 2012", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -297,6 +370,13 @@
             "action": "Senate Committee Amendment No. 1 Rule 3-9(a) / Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1 Rule 3-9(a) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -305,6 +385,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -313,6 +394,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 21, 2012", 
             "actor": "upper", 
             "date": "2012-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -321,6 +403,7 @@
             "action": "Alternate Chief Sponsor Changed to Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -329,6 +412,7 @@
             "action": "Senate Floor Amendment No. 3 Filed with Secretary by Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -337,6 +421,13 @@
             "action": "Senate Floor Amendment No. 3 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 3  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -345,6 +436,7 @@
             "action": "Senate Floor Amendment No. 4 Filed with Secretary by Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -353,6 +445,13 @@
             "action": "Senate Floor Amendment No. 4 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 4  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -361,6 +460,7 @@
             "action": "Senate Floor Amendment No. 5 Filed with Secretary by Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -369,6 +469,13 @@
             "action": "Senate Floor Amendment No. 5 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 5  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -377,6 +484,7 @@
             "action": "Senate Floor Amendment No. 5 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -385,6 +493,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As May 31, 2012", 
             "actor": "upper", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -393,6 +502,7 @@
             "action": "Senate Floor Amendment No. 6 Filed with Secretary by Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -401,6 +511,13 @@
             "action": "Senate Floor Amendment No. 6 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 6  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -409,6 +526,7 @@
             "action": "Senate Floor Amendment No. 6 Assignments Refers to Gaming", 
             "actor": "upper", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -417,6 +535,13 @@
             "action": "Senate Floor Amendment No. 5 Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 5  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -425,6 +550,7 @@
             "action": "Senate Floor Amendment No. 5 Assignments Refers to Gaming", 
             "actor": "upper", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -433,6 +559,13 @@
             "action": "Senate Floor Amendment No. 3 Pursuant to Senate Rule 3-8(b-1) - Referred to Executive", 
             "actor": "upper", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 3 Pursuant to Senate Rule 3-8(b-1) -  Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -441,6 +574,7 @@
             "action": "Senate Floor Amendment No. 5 Recommend Do Adopt Gaming;  010-000-000", 
             "actor": "upper", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -449,6 +583,7 @@
             "action": "Senate Floor Amendment No. 6 Recommend Do Adopt Gaming;  010-000-000", 
             "actor": "upper", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -457,6 +592,7 @@
             "action": "Recalled to Second Reading", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -465,6 +601,7 @@
             "action": "Senate Floor Amendment No. 5 Adopted; Link", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -473,6 +610,7 @@
             "action": "Senate Floor Amendment No. 6 Adopted; Link", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -481,6 +619,7 @@
             "action": "Placed on Calendar Order of 3rd Reading", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -489,6 +628,7 @@
             "action": "Third Reading - Passed; 040-015-000", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -498,6 +638,7 @@
             "action": "Senate Committee Amendment No. 1 Tabled Pursuant to Rule 5-4(a)", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -506,6 +647,7 @@
             "action": "Senate Floor Amendment No. 3 Tabled Pursuant to Rule 5-4(a)", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -514,6 +656,7 @@
             "action": "Senate Floor Amendment No. 4 Tabled Pursuant to Rule 5-4(a)", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -522,6 +665,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -530,6 +674,7 @@
             "action": "Placed on Calendar Order of Concurrence Senate Amendment(s) 2, 5, 6", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -538,6 +683,7 @@
             "action": "Chief Sponsor Changed to Rep. Lou Lang", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -546,6 +692,7 @@
             "action": "Senate Committee Amendment No. 2 Motion Filed Concur Rep. Lou Lang", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -554,6 +701,7 @@
             "action": "Senate Floor Amendment No. 5 Motion Filed Concur Rep. Lou Lang", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -562,6 +710,7 @@
             "action": "Senate Floor Amendment No. 6 Motion Filed Concur Rep. Lou Lang", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -570,6 +719,13 @@
             "action": "Senate Committee Amendment No. 2 Motion to Concur Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 2 Motion to Concur  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -578,6 +734,13 @@
             "action": "Senate Floor Amendment No. 5 Motion to Concur Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 5 Motion to Concur  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -586,6 +749,13 @@
             "action": "Senate Floor Amendment No. 6 Motion to Concur Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 6 Motion to Concur  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -594,6 +764,13 @@
             "action": "Senate Committee Amendment No. 2 Motion to Concur Rules Referred to Executive Committee", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 2 Motion to Concur Rules  Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -602,6 +779,13 @@
             "action": "Senate Floor Amendment No. 5 Motion to Concur Rules Referred to Executive Committee", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 5 Motion to Concur Rules  Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -610,6 +794,13 @@
             "action": "Senate Floor Amendment No. 6 Motion to Concur Rules Referred to Executive Committee", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 6 Motion to Concur Rules  Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -618,6 +809,7 @@
             "action": "Senate Committee Amendment No. 2 Motion to Concur Recommends Be Adopted Executive Committee;  011-000-000", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -626,6 +818,7 @@
             "action": "Senate Floor Amendment No. 5 Motion to Concur Recommends Be Adopted Executive Committee;  011-000-000", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -634,6 +827,7 @@
             "action": "Senate Floor Amendment No. 6 Motion to Concur Recommends Be Adopted Executive Committee;  011-000-000", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -642,6 +836,7 @@
             "action": "Senate Committee Amendment No. 2 House Concurs 106-010-000", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -650,6 +845,7 @@
             "action": "Senate Floor Amendment No. 5 House Concurs 106-010-000", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -658,6 +854,7 @@
             "action": "Senate Floor Amendment No. 6 House Concurs 106-010-000", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -666,6 +863,7 @@
             "action": "Passed Both Houses", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -674,6 +872,7 @@
             "action": "Sent to the Governor", 
             "actor": "lower", 
             "date": "2012-06-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -770,7 +969,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:44:20", 
+    "updated_at": "2012-07-13 08:38:29", 
     "versions": [
         {
             "doc_id": "ILD00051341", 

@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Toi W. Hutchinson", 
             "actor": "upper", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Revenue", 
             "actor": "upper", 
-            "committee": "ILC000152", 
             "date": "2012-02-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000152", 
+                    "name": "Revenue", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Postponed - Revenue", 
             "actor": "upper", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Postponed - Revenue", 
             "actor": "upper", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Do Pass Revenue;  007-000-000", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 21, 2012", 
             "actor": "upper", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -86,6 +105,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 29, 2012", 
             "actor": "upper", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +114,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As April 26, 2012", 
             "actor": "upper", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -102,6 +123,7 @@
             "action": "Third Reading - Passed; 055-000-000", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -111,6 +133,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -119,6 +142,7 @@
             "action": "Chief House Sponsor Rep. Thaddeus Jones", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -127,6 +151,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -135,6 +160,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -142,8 +168,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -152,6 +184,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Anthony DeLuca", 
             "actor": "lower", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -160,6 +193,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Marcus C. Evans, Jr.", 
             "actor": "lower", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -168,6 +202,7 @@
             "action": "Committee Deadline Extended-Rule 9(b) May 18, 2012", 
             "actor": "lower", 
             "date": "2012-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -175,8 +210,14 @@
         {
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
-            "committee": "ILC000060", 
             "date": "2012-05-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000060", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -185,6 +226,7 @@
             "action": "Final Action Deadline Extended-9(b) May 29, 2012", 
             "actor": "lower", 
             "date": "2012-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -193,6 +235,7 @@
             "action": "Do Pass / Short Debate Revenue & Finance Committee;  008-001-000", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -201,6 +244,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -209,6 +253,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -217,6 +262,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -225,6 +271,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -233,6 +280,7 @@
             "action": "Third Reading - Short Debate - Passed 113-003-001", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -242,6 +290,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -250,6 +299,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2012-06-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -303,7 +353,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:29", 
+    "updated_at": "2012-07-13 08:37:06", 
     "versions": [
         {
             "doc_id": "ILD00044646", 

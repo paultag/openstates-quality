@@ -11,6 +11,7 @@
             "action": "Rules suspended.  Introduced in the Senate.  Read by title and placed on the Calendar for a second reading.", 
             "actor": "upper", 
             "date": "2012-04-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -18,8 +19,14 @@
         {
             "action": "Read second time by title and referred to the Committee on Local and Municipal Affairs.", 
             "actor": "upper", 
-            "committee": "LAC000012", 
             "date": "2012-04-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000012", 
+                    "name": "Committee on Local and Municipal Affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -63,7 +70,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-10 04:28:41", 
+    "updated_at": "2012-07-13 04:26:43", 
     "versions": [
         {
             "doc_id": "LAD00018213", 

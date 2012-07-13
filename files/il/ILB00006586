@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Donald L. Moffitt", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Transportation: Vehicles & Safety Committee", 
             "actor": "lower", 
-            "committee": "ILC000079", 
             "date": "2011-02-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000079", 
+                    "name": "Transportation: Vehicles & Safety Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass / Short Debate Transportation: Vehicles & Safety Committee;  007-000-000", 
             "actor": "lower", 
             "date": "2011-03-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Third Reading - Short Debate - Passed 116-000-000", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -87,6 +106,7 @@
             "action": "Added Chief Co-Sponsor Rep. Thomas Holbrook", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -95,6 +115,7 @@
             "action": "Added Chief Co-Sponsor Rep. Kay Hatcher", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -103,6 +124,7 @@
             "action": "Added Chief Co-Sponsor Rep. David Harris", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -111,6 +133,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -119,6 +142,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "upper", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -127,6 +151,7 @@
             "action": "Chief Senate Sponsor Sen. Darin M. LaHood", 
             "actor": "upper", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -135,6 +160,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -142,8 +168,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -151,8 +183,14 @@
         {
             "action": "Assigned to Transportation", 
             "actor": "upper", 
-            "committee": "ILC000159", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000159", 
+                    "name": "Transportation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -161,6 +199,7 @@
             "action": "Do Pass Transportation;  008-000-000", 
             "actor": "upper", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -169,6 +208,7 @@
             "action": "Placed on Calendar Order of 2nd Reading May 11, 2011", 
             "actor": "upper", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -177,6 +217,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. Michael Noland", 
             "actor": "upper", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -185,6 +226,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -193,6 +235,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 19, 2011", 
             "actor": "upper", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -201,6 +244,7 @@
             "action": "Third Reading - Passed; 047-000-000", 
             "actor": "upper", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -210,6 +254,7 @@
             "action": "Passed Both Houses", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -218,6 +263,7 @@
             "action": "Sent to the Governor", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -226,6 +272,7 @@
             "action": "Governor Approved", 
             "actor": "lower", 
             "date": "2011-08-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -234,6 +281,7 @@
             "action": "Effective Date January 1, 2012", 
             "actor": "lower", 
             "date": "2011-08-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -242,6 +290,7 @@
             "action": "Public Act . . . . . . . . . 97-0412", 
             "actor": "lower", 
             "date": "2011-08-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -314,7 +363,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:49:11", 
+    "updated_at": "2012-07-13 08:38:23", 
     "versions": [
         {
             "doc_id": "ILD00050673", 

@@ -10,8 +10,14 @@
         {
             "action": "Prefiled and under the rules provisionally referred to the Committee on Finance.", 
             "actor": "upper", 
-            "committee": "LAC000005", 
             "date": "2012-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000005", 
+                    "name": "Committee on Finance", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -19,8 +25,14 @@
         {
             "action": "Introduced in the Senate; read by title.  Rules suspended.  Read second time and referred to the Committee on Finance.", 
             "actor": "upper", 
-            "committee": "LAC000005", 
             "date": "2012-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000005", 
+                    "name": "Committee on Finance", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -66,7 +78,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-10 04:28:35", 
+    "updated_at": "2012-07-13 04:26:40", 
     "versions": [
         {
             "doc_id": "LAD00016974", 

@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Lisa M. Dugan", 
             "actor": "lower", 
             "date": "2012-02-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Agriculture & Conservation Committee", 
             "actor": "lower", 
-            "committee": "ILC000003", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000003", 
+                    "name": "Agriculture & Conservation Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass / Short Debate Agriculture & Conservation Committee;  013-001-000", 
             "actor": "lower", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-02-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Added Chief Co-Sponsor Rep. Daniel Biss", 
             "actor": "lower", 
             "date": "2012-02-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Added Chief Co-Sponsor Rep. Patrick J. Verschoore", 
             "actor": "lower", 
             "date": "2012-02-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Added Chief Co-Sponsor Rep. Jim Sacia", 
             "actor": "lower", 
             "date": "2012-02-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Added Chief Co-Sponsor Rep. Wayne Rosenthal", 
             "actor": "lower", 
             "date": "2012-02-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +114,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -102,6 +123,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +132,7 @@
             "action": "Added Co-Sponsor Rep. Anthony DeLuca", 
             "actor": "lower", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +141,7 @@
             "action": "Third Reading - Short Debate - Passed 084-022-000", 
             "actor": "lower", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -127,6 +151,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -135,6 +160,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "upper", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -143,6 +169,7 @@
             "action": "Chief Senate Sponsor Sen. Michael W. Frerichs", 
             "actor": "upper", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -151,6 +178,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -158,8 +186,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -167,8 +201,14 @@
         {
             "action": "Assigned to Agriculture and Conservation", 
             "actor": "upper", 
-            "committee": "ILC000003", 
             "date": "2012-04-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000094", 
+                    "name": "Agriculture and Conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -177,6 +217,7 @@
             "action": "Do Pass Agriculture and Conservation;  007-000-000", 
             "actor": "upper", 
             "date": "2012-04-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -185,6 +226,7 @@
             "action": "Placed on Calendar Order of 2nd Reading April 19, 2012", 
             "actor": "upper", 
             "date": "2012-04-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -193,6 +235,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -201,6 +244,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 3, 2012", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -209,6 +253,7 @@
             "action": "Third Reading - Passed; 050-006-000", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -218,6 +263,7 @@
             "action": "Passed Both Houses", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -226,6 +272,7 @@
             "action": "Sent to the Governor", 
             "actor": "lower", 
             "date": "2012-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -297,7 +344,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:49:52", 
+    "updated_at": "2012-07-13 08:38:47", 
     "versions": [
         {
             "doc_id": "ILD00053395", 

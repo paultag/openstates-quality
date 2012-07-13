@@ -12,6 +12,7 @@
             "action": "Bill Filed.", 
             "actor": "lower", 
             "date": "2011-01-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,13 @@
             "action": "Referred to Joint Committee on Revenue.", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Referred to Joint Committee on Revenue.", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,6 +36,7 @@
             "action": "Senate concurred.", 
             "actor": "upper", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,6 +45,7 @@
             "action": "Hearing scheduled for 10/06/2011 from 11:00 AM-03:00 PM in A-2", 
             "actor": "joint", 
             "date": "2011-09-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -73,7 +83,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-21 04:08:22", 
+    "updated_at": "2012-07-13 04:06:54", 
     "versions": [
         {
             "doc_id": "MAD00002209", 

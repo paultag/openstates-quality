@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. William Delgado", 
             "actor": "upper", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Executive", 
             "actor": "upper", 
-            "committee": "ILC000111", 
             "date": "2012-02-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000111", 
+                    "name": "Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass Executive;  014-000-000", 
             "actor": "upper", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar Order of 2nd Reading February 27, 2012", 
             "actor": "upper", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 6, 2012", 
             "actor": "upper", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Added as Co-Sponsor Sen. Mike Jacobs", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Added as Co-Sponsor Sen. Darin M. LaHood", 
             "actor": "upper", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +114,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Donne E. Trotter", 
             "actor": "upper", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +123,7 @@
             "action": "Third Reading - Passed; 054-000-000", 
             "actor": "upper", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -111,6 +133,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -119,6 +142,7 @@
             "action": "Chief House Sponsor Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -127,6 +151,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -135,6 +160,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -142,8 +168,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -151,8 +183,14 @@
         {
             "action": "Assigned to Human Services Committee", 
             "actor": "lower", 
-            "committee": "ILC000122", 
             "date": "2012-04-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000039", 
+                    "name": "Human Services Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -161,6 +199,7 @@
             "action": "Alternate Chief Sponsor Changed to Rep. Marcus C. Evans, Jr.", 
             "actor": "lower", 
             "date": "2012-04-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -169,6 +208,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2012-04-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -177,6 +217,7 @@
             "action": "Do Pass / Short Debate Human Services Committee;  011-000-000", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -185,6 +226,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -193,6 +235,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. La Shawn K. Ford", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -201,6 +244,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Rita Mayfield", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -209,6 +253,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Constance A. Howard", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -217,6 +262,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Elizabeth Hernandez", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -225,6 +271,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Cynthia Soto", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -233,6 +280,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Fred Crespo", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -241,6 +289,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Dena M. Carli", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -249,6 +298,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Maria Antonia Berrios", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -257,6 +307,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Mary E. Flowers", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -265,6 +316,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Lou Lang", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -273,6 +325,7 @@
             "action": "Added Alternate Co-Sponsor Rep. Daniel J. Burke", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -281,6 +334,7 @@
             "action": "Alternate Co-Sponsor Removed Rep. Fred Crespo", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -289,6 +343,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -297,6 +352,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -305,6 +361,7 @@
             "action": "Third Reading - Short Debate - Passed 105-011-000", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -314,6 +371,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -322,6 +380,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2012-06-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -447,7 +506,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:32", 
+    "updated_at": "2012-07-13 08:37:09", 
     "versions": [
         {
             "doc_id": "ILD00044913", 

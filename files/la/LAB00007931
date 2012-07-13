@@ -18,6 +18,7 @@
             "action": "Read by title.", 
             "actor": "lower", 
             "date": "2012-03-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -25,8 +26,14 @@
         {
             "action": "Read by title, under the rules, referred to the Committee on Ways and Means.", 
             "actor": "lower", 
-            "committee": "LAC000038", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000038", 
+                    "name": "Committee on Ways and Means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -36,6 +43,7 @@
             "action": "Reported with amendments (18-0) (Regular). To be recommitted to the Committee on Appropriations.", 
             "actor": "lower", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -44,6 +52,7 @@
             "action": "Rules suspended. Read by title, recommitted to the Committee on Appropriations.", 
             "actor": "lower", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -52,6 +61,7 @@
             "action": "Reported with amendments (15-0) (Regular).", 
             "actor": "lower", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -60,6 +70,7 @@
             "action": "Rules suspended. Read by title, amended, ordered engrossed, passed to 3rd reading - regular calendar.", 
             "actor": "lower", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -68,6 +79,7 @@
             "action": "Made Special Order of the Day No. 1 for 5/17/2012.", 
             "actor": "lower", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -76,6 +88,7 @@
             "action": "Read third time by title, amended, roll called on final passage, yeas 84, nays 15. Finally passed, title adopted, ordered to the Senate.", 
             "actor": "lower", 
             "date": "2012-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -84,8 +97,14 @@
         {
             "action": "Received in the Senate; read by title  Rules suspended.  Read second time by title and referred to the Committee on Revenue and Fiscal Affairs.", 
             "actor": "upper", 
-            "committee": "LAC000015", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000015", 
+                    "name": "Committee on Revenue and Fiscal Affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -95,6 +114,7 @@
             "action": "Rules suspended.  Recalled from Committee.", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -103,6 +123,7 @@
             "action": "Read by title.  Recommitted to the  Committee on Revenue and Fiscal Affairs.", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -111,6 +132,7 @@
             "action": "Rules suspended.  Reported with amendments. Rules suspended.  Committee amendments read and adopted. Read by title and recommitted to the Committee on Finance.", 
             "actor": "upper", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -119,6 +141,7 @@
             "action": "Rules suspended.  Reported with amendments.  Rules suspended.  Committee amendments read and adopted.  Read by title and referred to the Legislative Bureau.", 
             "actor": "upper", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -127,6 +150,7 @@
             "action": "Reported without Legislative Bureau amendments.  Read by title and passed to third reading and final passage.", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -135,6 +159,7 @@
             "action": "Rules suspended", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -143,6 +168,7 @@
             "action": "Read by title; made Special Order of the Day No. 8 for 05/31.", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -151,6 +177,7 @@
             "action": "Read by title.", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -159,6 +186,7 @@
             "action": "Senate floor amendments read and adopted.", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -167,6 +195,7 @@
             "action": "Senate floor amendments read and adopted.  Read by title, passed by a vote of 36 yeas and 0 nays, and ordered returned to the House.  Motion to reconsider tabled.", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -175,6 +204,7 @@
             "action": "Received from the Senate with amendments.", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -183,6 +213,7 @@
             "action": "Scheduled for concurrence on 6/1/2012.", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -191,6 +222,7 @@
             "action": "Read by title, returned to the calendar.", 
             "actor": "lower", 
             "date": "2012-06-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -199,6 +231,7 @@
             "action": "Notice given.", 
             "actor": "lower", 
             "date": "2012-06-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -207,6 +240,7 @@
             "action": "Scheduled for concurrence on 6/3/2012.", 
             "actor": "lower", 
             "date": "2012-06-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -215,6 +249,7 @@
             "action": "Read by title, roll called, yeas 94, nays 6, Senate amendments rejected, conference committee appointment pending.", 
             "actor": "lower", 
             "date": "2012-06-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -223,6 +258,7 @@
             "action": "Notice House rejected the Senate amendments.", 
             "actor": "upper", 
             "date": "2012-06-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -231,6 +267,7 @@
             "action": "House conferees appointed: Robideaux, Kleckley, and Patrick Williams.", 
             "actor": "lower", 
             "date": "2012-06-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -239,6 +276,7 @@
             "action": "Notice House Conference Committee members appointed.", 
             "actor": "upper", 
             "date": "2012-06-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -247,6 +285,7 @@
             "action": "Senate conference committee members appointed: Riser, Alario, and Adley.", 
             "actor": "upper", 
             "date": "2012-06-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -255,6 +294,7 @@
             "action": "Notice of Senate conferees appointed.", 
             "actor": "lower", 
             "date": "2012-06-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -263,6 +303,7 @@
             "action": "Conference Committee report received.", 
             "actor": "lower", 
             "date": "2012-06-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -271,6 +312,7 @@
             "action": "Conference Committee Report read; adopted by a vote of 37 yeas and 0 nays.", 
             "actor": "upper", 
             "date": "2012-06-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -279,6 +321,7 @@
             "action": "Conference Committee Report read, roll called, yeas 82, nays 17. Having received two-thirds vote of the elected members, the Conference Committee Report was adopted.", 
             "actor": "lower", 
             "date": "2012-06-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -287,6 +330,7 @@
             "action": "Notice House adopted the Conference Committee Report.", 
             "actor": "upper", 
             "date": "2012-06-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -295,6 +339,7 @@
             "action": "Notice of Senate adoption of Conference Committee Report.", 
             "actor": "lower", 
             "date": "2012-06-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -303,6 +348,7 @@
             "action": "Enrolled and signed by the Speaker of the House.", 
             "actor": "lower", 
             "date": "2012-06-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -311,6 +357,7 @@
             "action": "Signed by the President of the Senate on 06/05.", 
             "actor": "upper", 
             "date": "2012-06-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -319,6 +366,7 @@
             "action": "Sent to the Governor for executive approval.", 
             "actor": "lower", 
             "date": "2012-06-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -327,6 +375,7 @@
             "action": "Signed by the Governor. Becomes Act No. 23.", 
             "actor": "lower", 
             "date": "2012-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -335,6 +384,7 @@
             "action": "Effective date: June 13, 2012.", 
             "actor": "lower", 
             "date": "2012-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -381,7 +431,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-10 04:28:51", 
+    "updated_at": "2012-07-13 04:26:50", 
     "versions": [
         {
             "doc_id": "LAD00017526", 

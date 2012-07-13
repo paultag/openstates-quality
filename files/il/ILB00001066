@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. John J. Cullerton", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Human Services", 
             "actor": "upper", 
-            "committee": "ILC000122", 
             "date": "2011-03-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000122", 
+                    "name": "Human Services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Chief Sponsor Changed to Sen. Susan Garrett", 
             "actor": "upper", 
             "date": "2011-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Heather A. Steans", 
             "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Senate Committee Amendment No. 1 Filed with Secretary by Sen. Susan Garrett", 
             "actor": "upper", 
             "date": "2011-03-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -70,6 +87,13 @@
             "action": "Senate Committee Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-03-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -78,6 +102,7 @@
             "action": "Senate Committee Amendment No. 1 Assignments Refers to Human Services", 
             "actor": "upper", 
             "date": "2011-03-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +111,7 @@
             "action": "Senate Committee Amendment No. 1 Adopted", 
             "actor": "upper", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -94,6 +120,7 @@
             "action": "Do Pass as Amended Human Services;  009-000-000", 
             "actor": "upper", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -102,6 +129,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 16, 2011", 
             "actor": "upper", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +138,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Pamela J. Althoff", 
             "actor": "upper", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +147,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -126,6 +156,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 30, 2011", 
             "actor": "upper", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +165,7 @@
             "action": "Added as Chief Co-Sponsor Sen. M. Maggie Crotty", 
             "actor": "upper", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -142,6 +174,7 @@
             "action": "Added as Chief Co-Sponsor Sen. David Koehler", 
             "actor": "upper", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -150,6 +183,7 @@
             "action": "Added as Co-Sponsor Sen. John J. Millner", 
             "actor": "upper", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -158,6 +192,7 @@
             "action": "Added as Co-Sponsor Sen. Jacqueline Y. Collins", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -166,6 +201,7 @@
             "action": "Third Reading - Passed; 051-000-000", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -175,6 +211,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -183,6 +220,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -191,6 +229,7 @@
             "action": "Chief House Sponsor Rep. Robert Rita", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -199,6 +238,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -206,8 +246,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -215,8 +261,14 @@
         {
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
-            "committee": "ILC000111", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000031", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -225,6 +277,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. Lou Lang", 
             "actor": "lower", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -233,6 +286,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -241,6 +301,7 @@
             "action": "House Committee Amendment No. 1 Rules Refers to Executive Committee", 
             "actor": "lower", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -249,6 +310,7 @@
             "action": "Alternate Chief Sponsor Changed to Rep. Lou Lang", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -257,6 +319,7 @@
             "action": "House Committee Amendment No. 1 Adopted in Executive Committee;  by Voice Vote", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -265,6 +328,7 @@
             "action": "Do Pass as Amended / Short Debate Executive Committee;  007-004-000", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -273,6 +337,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -281,6 +346,7 @@
             "action": "House Committee Amendment No. 1 Fiscal Note Requested as Amended by Rep. Roger L. Eddy", 
             "actor": "lower", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -289,6 +355,7 @@
             "action": "House Committee Amendment No. 1 Fiscal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -297,6 +364,7 @@
             "action": "House Committee Amendment No. 1 Fiscal Note Filed as Amended", 
             "actor": "lower", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -305,6 +373,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -313,6 +382,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -321,6 +391,7 @@
             "action": "Final Action Deadline Extended-9(b) May 31, 2011", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -329,6 +400,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -337,6 +415,7 @@
             "action": "Final Action Deadline Extended-9(b) November 10, 2011", 
             "actor": "lower", 
             "date": "2011-10-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -345,6 +424,7 @@
             "action": "Approved for Consideration Rules Committee;  004-000-000", 
             "actor": "lower", 
             "date": "2011-10-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -353,6 +433,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-10-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -361,6 +442,7 @@
             "action": "House Floor Amendment No. 2 Filed with Clerk by Rep. Lou Lang", 
             "actor": "lower", 
             "date": "2011-10-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -369,6 +451,13 @@
             "action": "House Floor Amendment No. 2 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-10-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -377,6 +466,7 @@
             "action": "House Floor Amendment No. 2 Rules Refers to Human Services Committee", 
             "actor": "lower", 
             "date": "2011-10-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -385,6 +475,7 @@
             "action": "House Floor Amendment No. 3 Filed with Clerk by Rep. Lou Lang", 
             "actor": "lower", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -393,6 +484,13 @@
             "action": "House Floor Amendment No. 3 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 3  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -401,6 +499,7 @@
             "action": "House Floor Amendment No. 3 Rules Refers to Human Services Committee", 
             "actor": "lower", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -409,6 +508,7 @@
             "action": "House Floor Amendment No. 3 Recommends Be Adopted Human Services Committee;  007-001-000", 
             "actor": "lower", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -417,6 +517,7 @@
             "action": "House Floor Amendment No. 3 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -425,6 +526,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -433,6 +535,7 @@
             "action": "3/5 Vote Required", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -441,6 +544,7 @@
             "action": "Third Reading - Short Debate - Lost 018-096-001", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:failed"
@@ -450,6 +554,7 @@
             "action": "House Floor Amendment No. 2 Tabled Pursuant to Rule 40", 
             "actor": "lower", 
             "date": "2011-10-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -549,7 +654,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:47:10", 
+    "updated_at": "2012-07-13 08:36:15", 
     "versions": [
         {
             "doc_id": "ILD00041483", 

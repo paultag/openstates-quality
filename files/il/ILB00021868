@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Deborah Mell", 
             "actor": "lower", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -37,6 +45,7 @@
             "action": "Added Co-Sponsor Rep. Kelly M. Cassidy", 
             "actor": "lower", 
             "date": "2012-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -45,6 +54,7 @@
             "action": "Added Co-Sponsor Rep. Michael J. Zalewski", 
             "actor": "lower", 
             "date": "2012-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -53,6 +63,7 @@
             "action": "Added Co-Sponsor Rep. William Cunningham", 
             "actor": "lower", 
             "date": "2012-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -60,8 +71,14 @@
         {
             "action": "Assigned to Judiciary II - Criminal Law Committee", 
             "actor": "lower", 
-            "committee": "ILC000049", 
             "date": "2012-02-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000049", 
+                    "name": "Judiciary II - Criminal Law Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -70,6 +87,7 @@
             "action": "Do Pass / Standard Debate Judiciary II - Criminal Law Committee;  005-004-000", 
             "actor": "lower", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -78,6 +96,7 @@
             "action": "Placed on Calendar 2nd Reading - Standard Debate", 
             "actor": "lower", 
             "date": "2012-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Second Reading - Standard Debate", 
             "actor": "lower", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -94,6 +114,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Standard Debate", 
             "actor": "lower", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +123,7 @@
             "action": "Added Chief Co-Sponsor Rep. Monique D. Davis", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +132,7 @@
             "action": "Chief Co-Sponsor Changed to Rep. Monique D. Davis", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +141,7 @@
             "action": "Added Chief Co-Sponsor Rep. Ann Williams", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -126,6 +150,7 @@
             "action": "Third Reading - Standard Debate - Lost 042-060-004", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:failed"
@@ -192,7 +217,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:49:35", 
+    "updated_at": "2012-07-13 08:38:37", 
     "versions": [
         {
             "doc_id": "ILD00052159", 

@@ -11,6 +11,7 @@
             "action": "Read by title.", 
             "actor": "lower", 
             "date": "2012-04-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -18,8 +19,14 @@
         {
             "action": "Read by title, under the rules, referred to the Committee on Administration of Criminal Justice.", 
             "actor": "lower", 
-            "committee": "LAC000018", 
             "date": "2012-04-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000018", 
+                    "name": "Committee on Administration of Criminal Justice", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -64,7 +71,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-10 04:29:26", 
+    "updated_at": "2012-07-13 04:27:18", 
     "versions": [
         {
             "doc_id": "LAD00018453", 

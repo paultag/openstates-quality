@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Dan Duffy", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "Chief Co-Sponsor Sen. Chris Lauzen", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +30,7 @@
             "action": "Chief Co-Sponsor Sen. Kirk W. Dillard", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,6 +39,7 @@
             "action": "Chief Co-Sponsor Sen. Sue Rezin", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -44,6 +48,7 @@
             "action": "Chief Co-Sponsor Sen. Pamela J. Althoff", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -52,6 +57,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -59,8 +65,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -118,7 +130,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:07", 
+    "updated_at": "2012-07-13 08:36:43", 
     "versions": [
         {
             "doc_id": "ILD00043158", 

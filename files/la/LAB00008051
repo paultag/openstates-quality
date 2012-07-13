@@ -11,6 +11,7 @@
             "action": "Read by title, substitute title adopted, lies over in the same order of business, substitute for HB No. 798 reported by the Committee on Commerce (16-0).", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +20,7 @@
             "action": "Read by title, ordered engrossed, passed to 3rd reading - regular calendar.", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -27,6 +29,7 @@
             "action": "Scheduled for floor debate on 4/4/2012.", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,6 +38,7 @@
             "action": "Read third time by title, amended, roll called on final passage, yeas 91, nays 1. Finally passed, title adopted, ordered to the Senate.", 
             "actor": "lower", 
             "date": "2012-04-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -44,6 +48,7 @@
             "action": "Received in the Senate.  Read first time by title and placed on the Calendar for a second reading.", 
             "actor": "upper", 
             "date": "2012-04-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -51,8 +56,14 @@
         {
             "action": "Read second time by title and referred to the Committee on Commerce, Consumer Protection and International Affairs.", 
             "actor": "upper", 
-            "committee": "LAC000002", 
             "date": "2012-04-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000002", 
+                    "name": "Committee on Commerce, Consumer Protection and International Affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -61,6 +72,7 @@
             "action": "Reported favorably.", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -69,6 +81,7 @@
             "action": "Read by title and referred to the Legislative Bureau.", 
             "actor": "upper", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -77,6 +90,7 @@
             "action": "Reported without Legislative Bureau amendments.  Read by title and passed to third reading and final passage.", 
             "actor": "upper", 
             "date": "2012-04-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -85,6 +99,7 @@
             "action": "Rules suspended. Read by title, passed by a vote of 36 yeas and 0 nays, and ordered returned to the House.  Motion to reconsider tabled.", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -93,6 +108,7 @@
             "action": "Received from the Senate without amendments.", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -101,6 +117,7 @@
             "action": "Enrolled and signed by the Speaker of the House.", 
             "actor": "lower", 
             "date": "2012-05-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -109,6 +126,7 @@
             "action": "Signed by the President of the Senate.", 
             "actor": "upper", 
             "date": "2012-05-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -117,6 +135,7 @@
             "action": "Sent to the Governor for executive approval.", 
             "actor": "lower", 
             "date": "2012-05-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -125,6 +144,7 @@
             "action": "Signed by the Governor. Becomes Act No. 112.", 
             "actor": "lower", 
             "date": "2012-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -133,6 +153,7 @@
             "action": "Effective date: August 1, 2012.", 
             "actor": "lower", 
             "date": "2012-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -179,7 +200,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-10 04:29:24", 
+    "updated_at": "2012-07-13 04:27:17", 
     "versions": [
         {
             "doc_id": "LAD00018036", 

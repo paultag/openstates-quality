@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Local Government", 
             "actor": "upper", 
-            "committee": "ILC000138", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000138", 
+                    "name": "Local Government", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Chief Sponsor Changed to Sen. Dan Kotowski", 
             "actor": "upper", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Chief Sponsor Changed to Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Postponed - Local Government", 
             "actor": "upper", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Postponed - Local Government", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Do Pass Local Government;  008-000-000", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -86,6 +105,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 29, 2011", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +114,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -102,6 +123,7 @@
             "action": "Placed on Calendar Order of 3rd Reading April 12, 2011", 
             "actor": "upper", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +132,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As May 4, 2011", 
             "actor": "upper", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -118,6 +141,7 @@
             "action": "Third Reading - Passed; 050-003-000", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -127,6 +151,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -135,6 +160,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -143,6 +169,7 @@
             "action": "Chief House Sponsor Rep. Jil Tracy", 
             "actor": "lower", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -151,6 +178,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -158,8 +186,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -167,8 +201,14 @@
         {
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
-            "committee": "ILC000111", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000031", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -177,6 +217,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. Jil Tracy", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -185,6 +226,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -193,6 +241,7 @@
             "action": "Committee Deadline Extended-Rule 9(b) May 20, 2011", 
             "actor": "lower", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -200,8 +249,14 @@
         {
             "action": "Re-assigned to Counties & Townships Committee", 
             "actor": "lower", 
-            "committee": "ILC000021", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000021", 
+                    "name": "Counties & Townships Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -210,6 +265,7 @@
             "action": "House Committee Amendment No. 1 Rules Refers to Counties & Townships Committee", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -218,6 +274,7 @@
             "action": "Motion Filed to Suspend Rule 25 Counties & Townships Committee;  Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -226,6 +283,7 @@
             "action": "Motion to Suspend Rule 25 - Prevailed by Voice Vote", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -234,6 +292,7 @@
             "action": "House Committee Amendment No. 1 Adopted in Counties & Townships Committee;  by Voice Vote", 
             "actor": "lower", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -242,6 +301,7 @@
             "action": "Do Pass as Amended / Short Debate Counties & Townships Committee;  005-002-000", 
             "actor": "lower", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -250,6 +310,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -258,6 +319,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -266,6 +328,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -274,6 +337,7 @@
             "action": "House Floor Amendment No. 2 Filed with Clerk by Rep. Jil Tracy", 
             "actor": "lower", 
             "date": "2011-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -282,6 +346,13 @@
             "action": "House Floor Amendment No. 2 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -290,6 +361,7 @@
             "action": "Recalled to Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -298,6 +370,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -306,6 +379,7 @@
             "action": "House Floor Amendment No. 2 Recommends Be Adopted Rules Committee;  004-000-000", 
             "actor": "lower", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -314,6 +388,7 @@
             "action": "House Floor Amendment No. 2 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -322,6 +397,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -330,6 +406,7 @@
             "action": "Third Reading - Short Debate - Passed 073-041-001", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -339,6 +416,7 @@
             "action": "Secretary's Desk - Concurrence House Amendment(s) 1, 2", 
             "actor": "upper", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -347,6 +425,7 @@
             "action": "Placed on Calendar Order of Concurrence House Amendment(s) 1, 2 -  May 26, 2011", 
             "actor": "upper", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -355,6 +434,7 @@
             "action": "House Committee Amendment No. 1 Motion to Concur Filed with Secretary Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -363,6 +443,13 @@
             "action": "House Committee Amendment No. 1 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -371,6 +458,7 @@
             "action": "House Floor Amendment No. 2 Motion to Concur Filed with Secretary Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -379,6 +467,13 @@
             "action": "House Floor Amendment No. 2 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -387,6 +482,13 @@
             "action": "House Committee Amendment No. 1 Motion to Concur Assignments Referred to Local Government", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1 Motion to Concur Assignments  Local Government", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -395,6 +497,13 @@
             "action": "House Floor Amendment No. 2 Motion to Concur Assignments Referred to Local Government", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2 Motion to Concur Assignments  Local Government", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -403,6 +512,7 @@
             "action": "House Committee Amendment No. 1 Motion To Concur Recommended Do Adopt Local Government;  008-000-000", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -411,6 +521,7 @@
             "action": "House Floor Amendment No. 2 Motion To Concur Recommended Do Adopt Local Government;  008-000-000", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -419,6 +530,7 @@
             "action": "House Committee Amendment No. 1 Senate Concurs 046-008-000", 
             "actor": "upper", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -427,6 +539,7 @@
             "action": "House Floor Amendment No. 2 Senate Concurs 046-008-000", 
             "actor": "upper", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -435,6 +548,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2011-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -443,6 +557,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2011-06-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -451,6 +566,7 @@
             "action": "Governor Approved", 
             "actor": "upper", 
             "date": "2011-08-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -459,6 +575,7 @@
             "action": "Effective Date August 11, 2011", 
             "actor": "upper", 
             "date": "2011-08-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -467,6 +584,7 @@
             "action": "Public Act . . . . . . . . . 97-0309", 
             "actor": "upper", 
             "date": "2011-08-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -525,7 +643,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:47:27", 
+    "updated_at": "2012-07-13 08:36:33", 
     "versions": [
         {
             "doc_id": "ILD00042650", 

@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Kelly Burke", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Judiciary I - Civil Law Committee", 
             "actor": "lower", 
-            "committee": "ILC000044", 
             "date": "2011-02-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000044", 
+                    "name": "Judiciary I - Civil Law Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass / Standard Debate Judiciary I - Civil Law Committee;  006-005-000", 
             "actor": "lower", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar 2nd Reading - Standard Debate", 
             "actor": "lower", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Second Reading - Standard Debate", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Standard Debate", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "House Floor Amendment No. 1 Filed with Clerk by Rep. Kelly Burke", 
             "actor": "lower", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -86,6 +105,13 @@
             "action": "House Floor Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -94,6 +120,7 @@
             "action": "House Floor Amendment No. 1 Recommends Be Adopted Rules Committee;  003-000-000", 
             "actor": "lower", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -102,6 +129,7 @@
             "action": "Recalled to Second Reading - Standard Debate", 
             "actor": "lower", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -110,6 +138,7 @@
             "action": "House Floor Amendment No. 1 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -118,6 +147,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Standard Debate", 
             "actor": "lower", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -126,6 +156,7 @@
             "action": "Third Reading - Standard Debate - Passed 108-001-000", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -135,6 +166,7 @@
             "action": "Added Chief Co-Sponsor Rep. Patricia R. Bellock", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -143,6 +175,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -151,6 +184,7 @@
             "action": "Placed on Calendar Order of First Reading April 11, 2011", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -159,6 +193,7 @@
             "action": "Chief Senate Sponsor Sen. Iris Y. Martinez", 
             "actor": "upper", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -167,6 +202,7 @@
             "action": "Added as Alternate Chief Co-Sponsor Sen. Jacqueline Y. Collins", 
             "actor": "upper", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -175,6 +211,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-04-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -182,8 +219,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-04-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -191,8 +234,14 @@
         {
             "action": "Assigned to Criminal Law", 
             "actor": "upper", 
-            "committee": "ILC000103", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000103", 
+                    "name": "Criminal Law", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -201,6 +250,7 @@
             "action": "Do Pass Criminal Law;  007-000-000", 
             "actor": "upper", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -209,6 +259,7 @@
             "action": "Placed on Calendar Order of 2nd Reading May 12, 2011", 
             "actor": "upper", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -217,6 +268,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -225,6 +277,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 13, 2011", 
             "actor": "upper", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -233,6 +286,7 @@
             "action": "Third Reading - Passed; 055-001-000", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -242,6 +296,7 @@
             "action": "Passed Both Houses", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -250,6 +305,7 @@
             "action": "Sent to the Governor", 
             "actor": "lower", 
             "date": "2011-06-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -258,6 +314,7 @@
             "action": "Governor Approved", 
             "actor": "lower", 
             "date": "2011-07-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -266,6 +323,7 @@
             "action": "Effective Date January 1, 2012", 
             "actor": "lower", 
             "date": "2011-07-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -274,6 +332,7 @@
             "action": "Public Act . . . . . . . . . 97-0158", 
             "actor": "lower", 
             "date": "2011-07-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -339,7 +398,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:49:14", 
+    "updated_at": "2012-07-13 08:38:24", 
     "versions": [
         {
             "doc_id": "ILD00050834", 

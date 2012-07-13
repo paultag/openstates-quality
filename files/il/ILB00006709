@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Chapin Rose", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -37,6 +45,13 @@
             "action": "Assigned to Appropriations-General Services Committee", 
             "actor": "lower", 
             "date": "2011-02-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Appropriations-General Services Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -45,6 +60,13 @@
             "action": "Rule 19(b) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-07-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(b) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -78,7 +100,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:44:14", 
+    "updated_at": "2012-07-13 08:38:25", 
     "versions": [
         {
             "doc_id": "ILD00050859", 

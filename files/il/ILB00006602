@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. JoAnn D. Osmond", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "Chief Co-Sponsor Rep. Dwight Kay", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +30,7 @@
             "action": "Chief Co-Sponsor Rep. Sandra M. Pihos", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,6 +39,7 @@
             "action": "Chief Co-Sponsor Rep. Patricia R. Bellock", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -44,6 +48,7 @@
             "action": "Chief Co-Sponsor Rep. John D. Cavaletto", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -52,6 +57,7 @@
             "action": "Co-Sponsor Rep. Richard Morthland", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -60,6 +66,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -67,8 +74,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -76,8 +89,14 @@
         {
             "action": "Assigned to Veterans' Affairs Committee", 
             "actor": "lower", 
-            "committee": "ILC000081", 
             "date": "2011-02-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000081", 
+                    "name": "Veterans' Affairs Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -86,6 +105,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -94,6 +120,7 @@
             "action": "Added Co-Sponsor Rep. Jack D. Franks", 
             "actor": "lower", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +129,7 @@
             "action": "Added Co-Sponsor Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +138,7 @@
             "action": "Added Co-Sponsor Rep. Carol A. Sente", 
             "actor": "lower", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +147,7 @@
             "action": "Added Co-Sponsor Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -205,7 +235,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:44:11", 
+    "updated_at": "2012-07-13 08:38:23", 
     "versions": [
         {
             "doc_id": "ILD00050695", 

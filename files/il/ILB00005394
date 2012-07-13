@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Mary E. Flowers", 
             "actor": "lower", 
             "date": "2011-02-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-02-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Financial Institutions Committee", 
             "actor": "lower", 
-            "committee": "ILC000032", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000032", 
+                    "name": "Financial Institutions Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -53,8 +74,14 @@
         {
             "action": "Assigned to Financial Institutions Committee", 
             "actor": "lower", 
-            "committee": "ILC000032", 
             "date": "2012-01-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000032", 
+                    "name": "Financial Institutions Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -63,6 +90,7 @@
             "action": "Motion Do Pass - Lost Financial Institutions Committee;  004-013-002", 
             "actor": "lower", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -71,6 +99,7 @@
             "action": "Remains in Financial Institutions Committee", 
             "actor": "lower", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -79,6 +108,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. Mary E. Flowers", 
             "actor": "lower", 
             "date": "2012-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -87,6 +117,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -95,6 +132,7 @@
             "action": "House Committee Amendment No. 1 Rules Refers to Financial Institutions Committee", 
             "actor": "lower", 
             "date": "2012-03-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -103,6 +141,7 @@
             "action": "House Committee Amendment No. 1 Tabled Pursuant to Rule 40", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -111,6 +150,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -150,7 +196,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:43:54", 
+    "updated_at": "2012-07-13 08:38:07", 
     "versions": [
         {
             "doc_id": "ILD00049235", 

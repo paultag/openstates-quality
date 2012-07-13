@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. John E. Bradley", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -19,8 +20,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-05-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -29,6 +36,7 @@
             "action": "Added Co-Sponsor Rep. Dan Reitz", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -37,6 +45,7 @@
             "action": "Added Co-Sponsor Rep. Brandon W. Phelps", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -45,6 +54,7 @@
             "action": "Added Co-Sponsor Rep. Thomas Holbrook", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -53,6 +63,7 @@
             "action": "Added Co-Sponsor Rep. Daniel V. Beiser", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -61,6 +72,7 @@
             "action": "Added Co-Sponsor Rep. Ann Williams", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -69,6 +81,7 @@
             "action": "Added Co-Sponsor Rep. Patrick J. Verschoore", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -76,8 +89,14 @@
         {
             "action": "Assigned to State Government Administration Committee", 
             "actor": "lower", 
-            "committee": "ILC000068", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000068", 
+                    "name": "State Government Administration Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -86,6 +105,7 @@
             "action": "Motion Filed to Suspend Rule 25 State Government Administration Committee;  Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +114,7 @@
             "action": "Motion to Suspend Rule 25 - Prevailed ", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +123,13 @@
             "action": "Rule 19(b) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-07-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(b) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -174,7 +202,7 @@
     "type": [
         "resolution"
     ], 
-    "updated_at": "2012-07-04 08:42:51", 
+    "updated_at": "2012-07-13 08:37:23", 
     "versions": [
         {
             "doc_id": "ILD00045948", 

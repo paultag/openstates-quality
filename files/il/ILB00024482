@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Heather A. Steans", 
             "actor": "upper", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "Chief Co-Sponsor Sen. Dan Kotowski", 
             "actor": "upper", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +30,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -35,8 +38,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -44,8 +53,14 @@
         {
             "action": "Assigned to Appropriations II", 
             "actor": "upper", 
-            "committee": "ILC000096", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000096", 
+                    "name": "Appropriations II", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -54,6 +69,13 @@
             "action": "Pursuant to Senate Rule 3-9(b) / Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-07-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Pursuant to Senate Rule 3-9(b) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -92,7 +114,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:41", 
+    "updated_at": "2012-07-13 08:37:14", 
     "versions": [
         {
             "doc_id": "ILD00045382", 

@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Raymond Poe", 
             "actor": "lower", 
             "date": "2011-01-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-01-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-01-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
-            "committee": "ILC000060", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000060", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Added Chief Co-Sponsor Rep. Lisa M. Dugan", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Added Co-Sponsor Rep. Eddie Lee Jackson, Sr.", 
             "actor": "lower", 
             "date": "2011-02-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Added Co-Sponsor Rep. Michael W. Tryon", 
             "actor": "lower", 
             "date": "2011-02-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Added Co-Sponsor Rep. Thaddeus Jones", 
             "actor": "lower", 
             "date": "2011-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Added Chief Co-Sponsor Rep. Ann Williams", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Added Chief Co-Sponsor Rep. Carol A. Sente", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +114,7 @@
             "action": "Added Chief Co-Sponsor Rep. Deborah Mell", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +123,7 @@
             "action": "Chief Co-Sponsor Changed to Rep. Ann Williams", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +132,7 @@
             "action": "Chief Co-Sponsor Changed to Rep. Carol A. Sente", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +141,7 @@
             "action": "Chief Co-Sponsor Changed to Rep. Deborah Mell", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -126,6 +150,7 @@
             "action": "Added Co-Sponsor Rep. Jack McGuire", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +159,7 @@
             "action": "Added Co-Sponsor Rep. Michelle Mussman", 
             "actor": "lower", 
             "date": "2011-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -142,6 +168,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -150,6 +183,7 @@
             "action": "Added Co-Sponsor Rep. Charles E. Jefferson", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -243,7 +277,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:43:11", 
+    "updated_at": "2012-07-13 08:37:37", 
     "versions": [
         {
             "doc_id": "ILD00046875", 

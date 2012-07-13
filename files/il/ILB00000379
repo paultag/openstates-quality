@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Gary Forby", 
             "actor": "upper", 
             "date": "2011-01-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-01-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-01-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -37,6 +45,7 @@
             "action": "Added as Chief Co-Sponsor Sen. David Koehler", 
             "actor": "upper", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -44,8 +53,14 @@
         {
             "action": "Assigned to Public Health", 
             "actor": "upper", 
-            "committee": "ILC000147", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000147", 
+                    "name": "Public Health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -54,6 +69,7 @@
             "action": "Added as Co-Sponsor Sen. Kyle McCarter", 
             "actor": "upper", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Added as Co-Sponsor Sen. John O. Jones", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Added as Co-Sponsor Sen. Shane Cultra", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Added as Co-Sponsor Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2011-02-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Michael W. Frerichs", 
             "actor": "upper", 
             "date": "2011-02-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +114,7 @@
             "action": "Added as Co-Sponsor Sen. Dale A. Righter", 
             "actor": "upper", 
             "date": "2011-02-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +123,7 @@
             "action": "Added as Co-Sponsor Sen. Suzi Schmidt", 
             "actor": "upper", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +132,7 @@
             "action": "Added as Co-Sponsor Sen. Pamela J. Althoff", 
             "actor": "upper", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +141,7 @@
             "action": "Added as Co-Sponsor Sen. William R. Haine", 
             "actor": "upper", 
             "date": "2011-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -126,6 +150,7 @@
             "action": "To Public Health Subcommittee on Special Issues", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +159,7 @@
             "action": "Added as Co-Sponsor Sen. Darin M. LaHood", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -142,6 +168,7 @@
             "action": "Rule 2-10 Committee Deadline Established As April 8, 2011", 
             "actor": "upper", 
             "date": "2011-03-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -150,6 +177,13 @@
             "action": "Rule 3-9(a) / Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 3-9(a) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -249,7 +283,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:41:17", 
+    "updated_at": "2012-07-13 08:36:01", 
     "versions": [
         {
             "doc_id": "ILD00040671", 

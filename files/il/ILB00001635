@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Kirk W. Dillard", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Criminal Law", 
             "actor": "upper", 
-            "committee": "ILC000103", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000103", 
+                    "name": "Criminal Law", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Postponed - Criminal Law", 
             "actor": "upper", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Do Pass Criminal Law;  007-000-000", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -62,6 +78,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 10, 2011", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -78,6 +96,7 @@
             "action": "Placed on Calendar Order of 3rd Reading April 11, 2011", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Senate Floor Amendment No. 1 Filed with Secretary by Sen. Kirk W. Dillard", 
             "actor": "upper", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -94,6 +114,13 @@
             "action": "Senate Floor Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -102,6 +129,7 @@
             "action": "Senate Floor Amendment No. 1 Assignments Refers to Criminal Law", 
             "actor": "upper", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +138,7 @@
             "action": "Senate Floor Amendment No. 1 Recommend Do Adopt Criminal Law;  008-000-000", 
             "actor": "upper", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +147,7 @@
             "action": "Recalled to Second Reading", 
             "actor": "upper", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -126,6 +156,7 @@
             "action": "Senate Floor Amendment No. 1 Adopted; Dillard", 
             "actor": "upper", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -134,6 +165,7 @@
             "action": "Placed on Calendar Order of 3rd Reading", 
             "actor": "upper", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -142,6 +174,7 @@
             "action": "Third Reading - Passed; 057-000-000", 
             "actor": "upper", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -151,6 +184,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -159,6 +193,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -167,6 +202,7 @@
             "action": "Chief House Sponsor Rep. William D. Burns", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -175,6 +211,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -182,8 +219,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -191,8 +234,14 @@
         {
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
-            "committee": "ILC000111", 
             "date": "2011-04-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000031", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -201,6 +250,7 @@
             "action": "Committee Deadline Extended-Rule 9(b) May 20, 2011", 
             "actor": "lower", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -209,6 +259,7 @@
             "action": "Final Action Deadline Extended-9(b) May 27, 2011", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -217,6 +268,7 @@
             "action": "Alternate Chief Sponsor Changed to Rep. Rita Mayfield", 
             "actor": "lower", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -225,6 +277,7 @@
             "action": "Final Action Deadline Extended-9(b) May 31, 2011", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -233,6 +286,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -241,6 +295,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -249,6 +310,7 @@
             "action": "House Committee Amendment No. 1  In line by 3PM.  Timely filed in accordance with House Rule 18(e)", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -257,6 +319,7 @@
             "action": "House Committee Amendment No. 1 Rules Refers to Executive Committee", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -265,6 +328,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -273,6 +343,7 @@
             "action": "House Committee Amendment No. 1 Tabled Pursuant to Rule 40", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -281,6 +352,7 @@
             "action": "Final Action Deadline Extended-9(b) November 10, 2011", 
             "actor": "lower", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -288,8 +360,14 @@
         {
             "action": "Assigned to Judiciary II - Criminal Law Committee", 
             "actor": "lower", 
-            "committee": "ILC000049", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000049", 
+                    "name": "Judiciary II - Criminal Law Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -298,6 +376,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-11-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -306,6 +391,7 @@
             "action": "Final Action Deadline Extended-9(b) May 29, 2012", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -313,8 +399,14 @@
         {
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
-            "committee": "ILC000111", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000031", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -323,6 +415,7 @@
             "action": "Motion Filed to Suspend Rule 25 Executive Committee;  Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -331,6 +424,7 @@
             "action": "Motion to Suspend Rule 25 - Prevailed by Voice Vote", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -339,6 +433,7 @@
             "action": "House Committee Amendment No. 2 Filed with Clerk by Rep. Constance A. Howard", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -347,6 +442,13 @@
             "action": "House Committee Amendment No. 2 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -355,6 +457,7 @@
             "action": "House Committee Amendment No. 3 Filed with Clerk by Rep. Michael J. Madigan", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -363,6 +466,13 @@
             "action": "House Committee Amendment No. 3 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 3  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -371,6 +481,7 @@
             "action": "House Committee Amendment No. 3 Rules Refers to Executive Committee", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -379,6 +490,7 @@
             "action": "House Committee Amendment No. 3 Adopted in Executive Committee;  by Voice Vote", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -387,6 +499,7 @@
             "action": "Do Pass as Amended / Short Debate Executive Committee;  011-000-000", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -395,6 +508,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -403,6 +517,7 @@
             "action": "House Committee Amendment No. 2 Tabled Pursuant to Rule 40", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -411,6 +526,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -419,6 +535,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -427,6 +544,7 @@
             "action": "House Floor Amendment No. 4 Filed with Clerk by Rep. Constance A. Howard", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -435,6 +553,13 @@
             "action": "House Floor Amendment No. 4 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 4  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -443,6 +568,7 @@
             "action": "Alternate Chief Sponsor Changed to Rep. Constance A. Howard", 
             "actor": "lower", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -451,6 +577,7 @@
             "action": "House Floor Amendment No. 4 Recommends Be Adopted Rules Committee;  004-000-000", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -459,6 +586,7 @@
             "action": "House Floor Amendment No. 4 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -467,6 +595,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -475,6 +604,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Mary E. Flowers", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -483,6 +613,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. La Shawn K. Ford", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -491,6 +622,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Rita Mayfield", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -499,6 +631,7 @@
             "action": "Third Reading - Short Debate - Passed 116-000-000", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -508,6 +641,7 @@
             "action": "Secretary's Desk - Concurrence House Amendment(s) 3, 4", 
             "actor": "upper", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -516,6 +650,7 @@
             "action": "Placed on Calendar Order of Concurrence House Amendment(s) 3, 4 -  May 30, 2012", 
             "actor": "upper", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -524,6 +659,7 @@
             "action": "House Committee Amendment No. 3 Motion to Concur Filed with Secretary Sen. Kirk W. Dillard", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -532,6 +668,13 @@
             "action": "House Committee Amendment No. 3 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 3 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -540,6 +683,7 @@
             "action": "House Floor Amendment No. 4 Motion to Concur Filed with Secretary Sen. Kirk W. Dillard", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -548,6 +692,13 @@
             "action": "House Floor Amendment No. 4 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 4 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -556,6 +707,13 @@
             "action": "House Committee Amendment No. 3 Motion to Concur Assignments Referred to Criminal Law", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 3 Motion to Concur Assignments  Criminal Law", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -564,6 +722,13 @@
             "action": "House Floor Amendment No. 4 Motion to Concur Assignments Referred to Criminal Law", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 4 Motion to Concur Assignments  Criminal Law", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -572,6 +737,7 @@
             "action": "House Committee Amendment No. 3 Motion To Concur Recommended Do Adopt Criminal Law;  007-000-000", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -580,6 +746,7 @@
             "action": "House Floor Amendment No. 4 Motion To Concur Recommended Do Adopt Criminal Law;  007-000-000", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -588,6 +755,7 @@
             "action": "House Committee Amendment No. 3 Senate Concurs 056-000-000", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -596,6 +764,7 @@
             "action": "House Floor Amendment No. 4 Senate Concurs 056-000-000", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -604,6 +773,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -612,6 +782,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2012-06-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -698,7 +869,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:47:20", 
+    "updated_at": "2012-07-13 08:36:26", 
     "versions": [
         {
             "doc_id": "ILD00042164", 

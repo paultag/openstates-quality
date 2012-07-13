@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Terry Link", 
             "actor": "upper", 
             "date": "2012-01-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-01-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-01-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Criminal Law", 
             "actor": "upper", 
-            "committee": "ILC000103", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000103", 
+                    "name": "Criminal Law", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass Criminal Law;  008-000-000", 
             "actor": "upper", 
             "date": "2012-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar Order of 2nd Reading February 9, 2012", 
             "actor": "upper", 
             "date": "2012-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-02-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 3rd Reading February 28, 2012", 
             "actor": "upper", 
             "date": "2012-02-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Third Reading - Passed; 055-000-000", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -87,6 +106,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -95,6 +115,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -103,6 +124,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -110,8 +132,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -119,8 +147,14 @@
         {
             "action": "Assigned to Judiciary II - Criminal Law Committee", 
             "actor": "lower", 
-            "committee": "ILC000049", 
             "date": "2012-04-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000049", 
+                    "name": "Judiciary II - Criminal Law Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -129,6 +163,7 @@
             "action": "Do Pass / Short Debate Judiciary II - Criminal Law Committee;  006-001-000", 
             "actor": "lower", 
             "date": "2012-04-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -137,6 +172,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-04-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -145,6 +181,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-04-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -153,6 +190,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-04-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -161,6 +199,7 @@
             "action": "Third Reading - Short Debate - Passed 099-016-000", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -170,6 +209,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -178,6 +218,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -219,7 +260,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:47:48", 
+    "updated_at": "2012-07-13 08:36:59", 
     "versions": [
         {
             "doc_id": "ILD00044102", 

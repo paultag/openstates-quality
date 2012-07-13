@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Pamela J. Althoff", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Judiciary", 
             "actor": "upper", 
-            "committee": "ILC000128", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000128", 
+                    "name": "Judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass Judiciary;  006-000-000", 
             "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 14, 2011", 
             "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 16, 2011", 
             "actor": "upper", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Senate Floor Amendment No. 1 Filed with Secretary by Sen. Pamela J. Althoff", 
             "actor": "upper", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -86,6 +105,13 @@
             "action": "Senate Floor Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -94,6 +120,7 @@
             "action": "Senate Floor Amendment No. 1 Assignments Refers to Judiciary", 
             "actor": "upper", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +129,7 @@
             "action": "Senate Floor Amendment No. 1 Recommend Do Adopt Judiciary;  010-000-000", 
             "actor": "upper", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +138,7 @@
             "action": "Recalled to Second Reading", 
             "actor": "upper", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -118,6 +147,7 @@
             "action": "Senate Floor Amendment No. 1 Adopted; Althoff", 
             "actor": "upper", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -126,6 +156,7 @@
             "action": "Placed on Calendar Order of 3rd Reading", 
             "actor": "upper", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +165,7 @@
             "action": "Third Reading - Passed; 059-000-000", 
             "actor": "upper", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -143,6 +175,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -151,6 +184,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -159,6 +193,7 @@
             "action": "Chief House Sponsor Rep. Michael W. Tryon", 
             "actor": "lower", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -167,6 +202,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-04-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -174,8 +210,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-04-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -183,8 +225,14 @@
         {
             "action": "Assigned to Judiciary I - Civil Law Committee", 
             "actor": "lower", 
-            "committee": "ILC000044", 
             "date": "2011-05-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000044", 
+                    "name": "Judiciary I - Civil Law Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -193,6 +241,7 @@
             "action": "Do Pass / Short Debate Judiciary I - Civil Law Committee;  009-000-000", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -201,6 +250,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -209,6 +259,7 @@
             "action": "House Floor Amendment No. 1 Filed with Clerk by Rep. Michael W. Tryon", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -217,6 +268,13 @@
             "action": "House Floor Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -225,6 +283,7 @@
             "action": "House Floor Amendment No. 1 Recommends Be Adopted Rules Committee;  004-000-000", 
             "actor": "lower", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -233,6 +292,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -241,6 +301,7 @@
             "action": "House Floor Amendment No. 1 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -249,6 +310,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -257,6 +319,7 @@
             "action": "Third Reading - Short Debate - Passed 116-000-000", 
             "actor": "lower", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -266,6 +329,7 @@
             "action": "Secretary's Desk - Concurrence House Amendment(s) 1", 
             "actor": "upper", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -274,6 +338,7 @@
             "action": "Placed on Calendar Order of Concurrence House Amendment(s) 1 -  May 20, 2011", 
             "actor": "upper", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -282,6 +347,7 @@
             "action": "House Floor Amendment No. 1 Motion to Concur Filed with Secretary Sen. Pamela J. Althoff", 
             "actor": "upper", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -290,6 +356,13 @@
             "action": "House Floor Amendment No. 1 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 1 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -298,6 +371,13 @@
             "action": "House Floor Amendment No. 1 Motion to Concur Assignments Referred to Executive", 
             "actor": "upper", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 1 Motion to Concur Assignments  Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -306,6 +386,7 @@
             "action": "House Floor Amendment No. 1 Motion To Concur Recommended Do Adopt Executive;  012-000-000", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -314,6 +395,7 @@
             "action": "House Floor Amendment No. 1 Senate Concurs 057-000-000", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -322,6 +404,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -330,6 +413,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2011-06-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -338,6 +422,7 @@
             "action": "Governor Approved", 
             "actor": "upper", 
             "date": "2011-08-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -346,6 +431,7 @@
             "action": "Effective Date January 1, 2012", 
             "actor": "upper", 
             "date": "2011-08-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -354,6 +440,7 @@
             "action": "Public Act . . . . . . . . . 97-0535", 
             "actor": "upper", 
             "date": "2011-08-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -412,7 +499,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:47:34", 
+    "updated_at": "2012-07-13 08:36:42", 
     "versions": [
         {
             "doc_id": "ILD00043079", 

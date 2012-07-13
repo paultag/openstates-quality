@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Lisa M. Dugan", 
             "actor": "lower", 
             "date": "2011-02-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-02-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-02-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Labor Committee", 
             "actor": "lower", 
-            "committee": "ILC000053", 
             "date": "2011-02-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000053", 
+                    "name": "Labor Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. Lisa M. Dugan", 
             "actor": "lower", 
             "date": "2011-03-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -54,6 +69,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-03-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -62,6 +84,7 @@
             "action": "House Committee Amendment No. 1 Rules Refers to Labor Committee", 
             "actor": "lower", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +93,7 @@
             "action": "House Committee Amendment No. 1 Adopted in Labor Committee;  by Voice Vote", 
             "actor": "lower", 
             "date": "2011-03-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -78,6 +102,7 @@
             "action": "Do Pass as Amended / Short Debate Labor Committee;  013-000-000", 
             "actor": "lower", 
             "date": "2011-03-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -86,6 +111,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +120,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -102,6 +129,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +138,7 @@
             "action": "Third Reading - Short Debate - Passed 110-000-000", 
             "actor": "lower", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -119,6 +148,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -127,6 +157,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "upper", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -135,6 +166,7 @@
             "action": "Chief Senate Sponsor Sen. Linda Holmes", 
             "actor": "upper", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -143,6 +175,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -150,8 +183,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -159,8 +198,14 @@
         {
             "action": "Assigned to Local Government", 
             "actor": "upper", 
-            "committee": "ILC000138", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000138", 
+                    "name": "Local Government", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -169,6 +214,7 @@
             "action": "Do Pass Local Government;  009-000-000", 
             "actor": "upper", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -177,6 +223,7 @@
             "action": "Placed on Calendar Order of 2nd Reading May 10, 2011", 
             "actor": "upper", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -185,6 +232,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -193,6 +241,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 13, 2011", 
             "actor": "upper", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -201,6 +250,7 @@
             "action": "Third Reading - Passed; 058-000-000", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -210,6 +260,7 @@
             "action": "Passed Both Houses", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -218,6 +269,7 @@
             "action": "Sent to the Governor", 
             "actor": "lower", 
             "date": "2011-06-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -226,6 +278,7 @@
             "action": "Governor Approved", 
             "actor": "lower", 
             "date": "2011-07-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -234,6 +287,7 @@
             "action": "Effective Date January 1, 2012", 
             "actor": "lower", 
             "date": "2011-07-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -242,6 +296,7 @@
             "action": "Public Act . . . . . . . . . 97-0120", 
             "actor": "lower", 
             "date": "2011-07-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -295,7 +350,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:48:45", 
+    "updated_at": "2012-07-13 08:37:57", 
     "versions": [
         {
             "doc_id": "ILD00048452", 

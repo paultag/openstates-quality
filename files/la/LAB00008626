@@ -11,6 +11,7 @@
             "action": "Read by title.  Lies over under the rules.", 
             "actor": "lower", 
             "date": "2012-05-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -18,8 +19,14 @@
         {
             "action": "Read by title, under the rules, referred to the Committee on Natural Resources and Environment.", 
             "actor": "lower", 
-            "committee": "LAC000034", 
             "date": "2012-05-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000034", 
+                    "name": "Committee on Natural Resources and Environment", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -29,6 +36,7 @@
             "action": "Discharged from the Committee on Natural Resources and Environment.", 
             "actor": "lower", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -37,6 +45,7 @@
             "action": "Rules suspended. Read by title, passed to 3rd reading.", 
             "actor": "lower", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -45,6 +54,7 @@
             "action": "Scheduled for floor debate on 5/14/2012.", 
             "actor": "lower", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -53,6 +63,7 @@
             "action": "Read by title, returned to the calendar.", 
             "actor": "lower", 
             "date": "2012-05-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -61,6 +72,7 @@
             "action": "Called from the calendar.", 
             "actor": "lower", 
             "date": "2012-05-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -69,6 +81,7 @@
             "action": "Read by title, amended, roll called on final consideration, yeas 96, nays 0. The resolution was adopted and ordered to the Senate.", 
             "actor": "lower", 
             "date": "2012-05-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -77,6 +90,7 @@
             "action": "Received in the Senate.  Read first time by title and placed on the Calendar for a second reading.", 
             "actor": "upper", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -84,8 +98,14 @@
         {
             "action": "Read second time by title and referred to the Committee on Natural Resources.", 
             "actor": "upper", 
-            "committee": "LAC000013", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000013", 
+                    "name": "Committee on Natural Resources", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -94,6 +114,7 @@
             "action": "Rules suspended.  Recalled from Committee.", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +123,7 @@
             "action": "Read by title and concurred in by a vote of 34 yeas and 0 nays. Ordered returned to the House.", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -110,6 +132,7 @@
             "action": "Received from the Senate without amendments.", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +141,7 @@
             "action": "Enrolled and signed by the Speaker of the House.", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -126,6 +150,7 @@
             "action": "Signed by the President of the Senate.", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +159,7 @@
             "action": "Taken by the Clerk of the House and presented to the Secretary of State in accordance with the Rules of the House.", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -180,7 +206,7 @@
     "type": [
         "concurrent resolution"
     ], 
-    "updated_at": "2012-07-10 04:29:33", 
+    "updated_at": "2012-07-13 04:27:22", 
     "versions": [
         {
             "doc_id": "LAD00020027", 

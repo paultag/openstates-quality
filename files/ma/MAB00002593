@@ -12,6 +12,7 @@
             "action": "Bill Filed.", 
             "actor": "lower", 
             "date": "2011-01-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,13 @@
             "action": "Referred to Joint Committee on Public Safety and Homeland Security.", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Referred to Joint Committee on Public Safety and Homeland Security.", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,6 +36,7 @@
             "action": "Senate concurred.", 
             "actor": "upper", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,6 +45,7 @@
             "action": "Hearing scheduled for 04/05/2011 from 01:00 PM-05:00 PM in B-1", 
             "actor": "joint", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -68,7 +78,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-21 04:07:47", 
+    "updated_at": "2012-07-13 04:06:36", 
     "versions": [
         {
             "doc_id": "MAD00003556", 

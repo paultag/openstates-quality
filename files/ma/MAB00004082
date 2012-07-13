@@ -12,6 +12,7 @@
             "action": "Bill Filed.", 
             "actor": "lower", 
             "date": "2011-01-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,13 @@
             "action": "Referred to Joint Committee on Housing.", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Referred to Joint Committee on Housing.", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,6 +36,7 @@
             "action": "Senate concurred.", 
             "actor": "upper", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,6 +45,7 @@
             "action": "Hearing scheduled for 05/03/2011 from 10:00 AM-01:00 PM in B-1", 
             "actor": "joint", 
             "date": "2011-10-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -68,7 +78,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-21 04:08:09", 
+    "updated_at": "2012-07-13 04:06:49", 
     "versions": [
         {
             "doc_id": "MAD00001259", 

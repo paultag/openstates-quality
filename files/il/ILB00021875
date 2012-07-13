@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. JoAnn D. Osmond", 
             "actor": "lower", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Counties & Townships Committee", 
             "actor": "lower", 
-            "committee": "ILC000021", 
             "date": "2012-02-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000021", 
+                    "name": "Counties & Townships Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Motion Do Pass - Lost Counties & Townships Committee;  003-003-000", 
             "actor": "lower", 
             "date": "2012-02-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Remains in Counties & Townships Committee", 
             "actor": "lower", 
             "date": "2012-02-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -70,6 +93,7 @@
             "action": "Added Co-Sponsor Rep. Rita Mayfield", 
             "actor": "lower", 
             "date": "2012-04-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -108,7 +132,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:49:35", 
+    "updated_at": "2012-07-13 08:38:37", 
     "versions": [
         {
             "doc_id": "ILD00052168", 

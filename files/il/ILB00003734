@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Michael J. Madigan", 
             "actor": "lower", 
             "date": "2011-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-01-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
-            "committee": "ILC000031", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000031", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass / Short Debate Executive Committee;  011-000-000", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate **", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -70,6 +93,7 @@
             "action": "Approved for Consideration Rules Committee;  004-000-000", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +102,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +111,7 @@
             "action": "House Floor Amendment No. 1 Filed with Clerk by Rep. Frank J. Mautino", 
             "actor": "lower", 
             "date": "2012-03-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -94,6 +120,13 @@
             "action": "House Floor Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -102,6 +135,7 @@
             "action": "House Floor Amendment No. 1 Rules Refers to Agriculture & Conservation Committee", 
             "actor": "lower", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +144,7 @@
             "action": "House Floor Amendment No. 2 Filed with Clerk by Rep. Frank J. Mautino", 
             "actor": "lower", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -118,6 +153,13 @@
             "action": "House Floor Amendment No. 2 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -126,6 +168,7 @@
             "action": "House Floor Amendment No. 2 Rules Refers to Agriculture & Conservation Committee", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +177,7 @@
             "action": "Chief Sponsor Changed to Rep. Frank J. Mautino", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -142,6 +186,7 @@
             "action": "House Floor Amendment No. 2 Recommends Be Adopted Agriculture & Conservation Committee;  014-000-000", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -150,6 +195,7 @@
             "action": "Added Chief Co-Sponsor Rep. JoAnn D. Osmond", 
             "actor": "lower", 
             "date": "2012-03-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -158,6 +204,7 @@
             "action": "Added Chief Co-Sponsor Rep. Jack D. Franks", 
             "actor": "lower", 
             "date": "2012-03-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -166,6 +213,7 @@
             "action": "Added Chief Co-Sponsor Rep. Jim Sacia", 
             "actor": "lower", 
             "date": "2012-03-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -174,6 +222,7 @@
             "action": "House Floor Amendment No. 3 Filed with Clerk by Rep. Frank J. Mautino", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -182,6 +231,13 @@
             "action": "House Floor Amendment No. 3 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 3  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -190,6 +246,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -198,6 +255,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -206,6 +264,7 @@
             "action": "House Floor Amendment No. 1 Recommends Be Adopted Agriculture & Conservation Committee;  010-000-000", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -214,6 +273,7 @@
             "action": "House Floor Amendment No. 1 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -222,6 +282,7 @@
             "action": "House Floor Amendment No. 2 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -230,6 +291,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -238,6 +300,7 @@
             "action": "Third Reading - Short Debate - Passed 114-000-000", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -247,6 +310,7 @@
             "action": "House Floor Amendment No. 3 Tabled Pursuant to Rule 40", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -255,6 +319,7 @@
             "action": "Added Co-Sponsor Rep. Lisa M. Dugan", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -263,6 +328,7 @@
             "action": "Added Co-Sponsor Rep. Daniel V. Beiser", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -271,6 +337,7 @@
             "action": "Added Co-Sponsor Rep. Jerry F. Costello, II", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -279,6 +346,7 @@
             "action": "Added Co-Sponsor Rep. Patrick J. Verschoore", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -287,6 +355,7 @@
             "action": "Added Co-Sponsor Rep. Brandon W. Phelps", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -295,6 +364,7 @@
             "action": "Added Co-Sponsor Rep. Kay Hatcher", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -303,6 +373,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -311,6 +382,7 @@
             "action": "Placed on Calendar Order of First Reading March 30, 2012", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -319,6 +391,7 @@
             "action": "Chief Senate Sponsor Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -327,6 +400,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -334,8 +408,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-04-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -343,8 +423,14 @@
         {
             "action": "Assigned to Agriculture and Conservation", 
             "actor": "upper", 
-            "committee": "ILC000003", 
             "date": "2012-04-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000094", 
+                    "name": "Agriculture and Conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -353,6 +439,7 @@
             "action": "Senate Committee Amendment No. 1 Filed with Secretary by Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2012-04-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -361,6 +448,13 @@
             "action": "Senate Committee Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-04-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -369,6 +463,7 @@
             "action": "Senate Committee Amendment No. 1 Assignments Refers to Agriculture and Conservation", 
             "actor": "upper", 
             "date": "2012-04-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -377,6 +472,7 @@
             "action": "Senate Committee Amendment No. 1 Adopted", 
             "actor": "upper", 
             "date": "2012-04-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -385,6 +481,7 @@
             "action": "Do Pass as Amended Agriculture and Conservation;  007-000-000", 
             "actor": "upper", 
             "date": "2012-04-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -393,6 +490,7 @@
             "action": "Placed on Calendar Order of 2nd Reading April 19, 2012", 
             "actor": "upper", 
             "date": "2012-04-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -401,6 +499,7 @@
             "action": "Senate Floor Amendment No. 2 Filed with Secretary by Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2012-04-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -409,6 +508,13 @@
             "action": "Senate Floor Amendment No. 2 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-04-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 2  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -417,6 +523,7 @@
             "action": "Senate Floor Amendment No. 3 Filed with Secretary by Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2012-04-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -425,6 +532,13 @@
             "action": "Senate Floor Amendment No. 3 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-04-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 3  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -433,6 +547,7 @@
             "action": "Senate Floor Amendment No. 4 Filed with Secretary by Sen. John M. Sullivan", 
             "actor": "upper", 
             "date": "2012-04-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -441,6 +556,13 @@
             "action": "Senate Floor Amendment No. 4 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-04-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 4  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -449,6 +571,7 @@
             "action": "Senate Floor Amendment No. 2 Assignments Refers to Agriculture and Conservation", 
             "actor": "upper", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -457,6 +580,7 @@
             "action": "Senate Floor Amendment No. 3 Assignments Refers to Agriculture and Conservation", 
             "actor": "upper", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -465,6 +589,7 @@
             "action": "Senate Floor Amendment No. 4 Assignments Refers to Agriculture and Conservation", 
             "actor": "upper", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -473,6 +598,7 @@
             "action": "Senate Floor Amendment No. 2 Postponed - Agriculture and Conservation", 
             "actor": "upper", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -481,6 +607,7 @@
             "action": "Senate Floor Amendment No. 3 Postponed - Agriculture and Conservation", 
             "actor": "upper", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -489,6 +616,7 @@
             "action": "Senate Floor Amendment No. 4 Recommend Do Adopt Agriculture and Conservation;  009-000-000", 
             "actor": "upper", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -497,6 +625,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -505,6 +634,7 @@
             "action": "Senate Floor Amendment No. 4 Adopted; Sullivan", 
             "actor": "upper", 
             "date": "2012-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -513,6 +643,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 15, 2012", 
             "actor": "upper", 
             "date": "2012-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -521,6 +652,7 @@
             "action": "Third Reading - Passed; 054-000-000", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -530,6 +662,7 @@
             "action": "Senate Floor Amendment No. 2 Tabled Pursuant to Rule 5-4(a)", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -538,6 +671,7 @@
             "action": "Senate Floor Amendment No. 3 Tabled Pursuant to Rule 5-4(a)", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -546,6 +680,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -554,6 +689,7 @@
             "action": "Placed on Calendar Order of Concurrence Senate Amendment(s) 1, 4", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -562,6 +698,7 @@
             "action": "Senate Committee Amendment No. 1 Motion Filed Concur Rep. Frank J. Mautino", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -570,6 +707,7 @@
             "action": "Senate Floor Amendment No. 4 Motion Filed Concur Rep. Frank J. Mautino", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -578,6 +716,13 @@
             "action": "Senate Committee Amendment No. 1 Motion to Concur Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1 Motion to Concur  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -586,6 +731,13 @@
             "action": "Senate Floor Amendment No. 4 Motion to Concur Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 4 Motion to Concur  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -594,6 +746,7 @@
             "action": "Senate Committee Amendment No. 1 Motion to Concur Recommends Be Adopted Rules Committee;  004-000-000", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -602,6 +755,7 @@
             "action": "Senate Floor Amendment No. 4 Motion to Concur Recommends Be Adopted Rules Committee;  004-000-000", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -610,6 +764,7 @@
             "action": "Senate Committee Amendment No. 1 House Concurs 113-000-000", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -618,6 +773,7 @@
             "action": "Senate Floor Amendment No. 4 House Concurs 113-000-000", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -626,6 +782,7 @@
             "action": "Passed Both Houses", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -634,6 +791,7 @@
             "action": "Sent to the Governor", 
             "actor": "lower", 
             "date": "2012-06-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -766,7 +924,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:48:30", 
+    "updated_at": "2012-07-13 08:37:40", 
     "versions": [
         {
             "doc_id": "ILD00047050", 

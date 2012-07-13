@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Kwame Raoul", 
             "actor": "upper", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Criminal Law", 
             "actor": "upper", 
-            "committee": "ILC000103", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000103", 
+                    "name": "Criminal Law", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Postponed - Criminal Law", 
             "actor": "upper", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Do Pass Criminal Law;  008-000-000", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -62,6 +78,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 10, 2011", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -78,6 +96,7 @@
             "action": "Placed on Calendar Order of 3rd Reading April 11, 2011", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Third Reading - Passed; 058-000-000", 
             "actor": "upper", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -95,6 +115,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -103,6 +124,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -111,6 +133,7 @@
             "action": "Chief House Sponsor Rep. William Cunningham", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -119,6 +142,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -126,8 +150,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -135,8 +165,14 @@
         {
             "action": "Assigned to Judiciary II - Criminal Law Committee", 
             "actor": "lower", 
-            "committee": "ILC000049", 
             "date": "2011-04-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000049", 
+                    "name": "Judiciary II - Criminal Law Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -145,6 +181,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. William Cunningham", 
             "actor": "lower", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -153,6 +190,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -161,6 +205,7 @@
             "action": "House Committee Amendment No. 1 Rules Refers to Judiciary II - Criminal Law Committee", 
             "actor": "lower", 
             "date": "2011-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -169,6 +214,7 @@
             "action": "Recommends Do Pass Subcommittee/ Judiciary II - Criminal Law Committee;  003-000-000", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -177,6 +223,7 @@
             "action": "Remains in Judiciary II - Criminal Law Committee", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -185,6 +232,7 @@
             "action": "House Committee Amendment No. 1 Adopted in Judiciary II - Criminal Law Committee;  by Voice Vote", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -193,6 +241,7 @@
             "action": "Do Pass as Amended / Short Debate Judiciary II - Criminal Law Committee;  007-000-000", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -201,6 +250,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -209,6 +259,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -217,6 +268,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -225,6 +277,7 @@
             "action": "Third Reading - Short Debate - Passed 113-000-000", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -234,6 +287,7 @@
             "action": "Secretary's Desk - Concurrence House Amendment(s) 1", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -242,6 +296,7 @@
             "action": "Placed on Calendar Order of Concurrence House Amendment(s) 1 -  May 18, 2011", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -250,6 +305,7 @@
             "action": "House Committee Amendment No. 1 Motion to Concur Filed with Secretary Sen. Kwame Raoul", 
             "actor": "upper", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -258,6 +314,13 @@
             "action": "House Committee Amendment No. 1 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -266,6 +329,13 @@
             "action": "House Committee Amendment No. 1 Motion to Concur Assignments Referred to Executive", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1 Motion to Concur Assignments  Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -274,6 +344,7 @@
             "action": "House Committee Amendment No. 1 Motion To Concur Recommended Do Adopt Executive;  015-000-000", 
             "actor": "upper", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -282,6 +353,7 @@
             "action": "Added as Chief Co-Sponsor Sen. Kimberly A. Lightford", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -290,6 +362,7 @@
             "action": "House Committee Amendment No. 1 Senate Concurs 059-000-000", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -298,6 +371,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -306,6 +380,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2011-06-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -314,6 +389,7 @@
             "action": "Governor Approved", 
             "actor": "upper", 
             "date": "2011-08-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -322,6 +398,7 @@
             "action": "Effective Date January 1, 2012", 
             "actor": "upper", 
             "date": "2011-08-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -330,6 +407,7 @@
             "action": "Public Act . . . . . . . . . 97-0531", 
             "actor": "upper", 
             "date": "2011-08-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -389,7 +467,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:47:28", 
+    "updated_at": "2012-07-13 08:36:34", 
     "versions": [
         {
             "doc_id": "ILD00042729", 

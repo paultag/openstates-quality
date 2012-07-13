@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. John E. Bradley", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "Added Chief Co-Sponsor Rep. Sidney H. Mathias", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +30,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -35,8 +38,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -44,8 +53,14 @@
         {
             "action": "Assigned to Judiciary I - Civil Law Committee", 
             "actor": "lower", 
-            "committee": "ILC000044", 
             "date": "2011-02-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000044", 
+                    "name": "Judiciary I - Civil Law Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -54,6 +69,7 @@
             "action": "Added Chief Co-Sponsor Rep. Patricia R. Bellock", 
             "actor": "lower", 
             "date": "2011-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Do Pass / Short Debate Judiciary I - Civil Law Committee;  011-000-000", 
             "actor": "lower", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -86,6 +105,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +114,7 @@
             "action": "Third Reading - Short Debate - Passed 099-005-000", 
             "actor": "lower", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -103,6 +124,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2011-04-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -111,6 +133,7 @@
             "action": "Placed on Calendar Order of First Reading May 3, 2011", 
             "actor": "upper", 
             "date": "2011-04-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -119,6 +142,7 @@
             "action": "Chief Senate Sponsor Sen. A. J. Wilhelmi", 
             "actor": "upper", 
             "date": "2011-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -127,6 +151,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -134,8 +159,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -143,8 +174,14 @@
         {
             "action": "Assigned to Judiciary", 
             "actor": "upper", 
-            "committee": "ILC000128", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000128", 
+                    "name": "Judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -153,6 +190,7 @@
             "action": "Senate Committee Amendment No. 1 Filed with Secretary by Sen. A. J. Wilhelmi", 
             "actor": "upper", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -161,6 +199,13 @@
             "action": "Senate Committee Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -169,6 +214,7 @@
             "action": "Senate Committee Amendment No. 1 Assignments Refers to Judiciary", 
             "actor": "upper", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -177,6 +223,7 @@
             "action": "Senate Committee Amendment No. 1 Adopted", 
             "actor": "upper", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -185,6 +232,7 @@
             "action": "Do Pass as Amended Judiciary;  008-000-000", 
             "actor": "upper", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -193,6 +241,7 @@
             "action": "Placed on Calendar Order of 2nd Reading May 11, 2011", 
             "actor": "upper", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -201,6 +250,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -209,6 +259,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 13, 2011", 
             "actor": "upper", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -217,6 +268,7 @@
             "action": "Third Reading - Passed; 055-000-002", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -226,6 +278,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -234,6 +287,7 @@
             "action": "Placed on Calendar Order of Concurrence Senate Amendment(s) 1", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -242,6 +296,7 @@
             "action": "Senate Committee Amendment No. 1 Motion Filed Concur Rep. John E. Bradley", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -250,6 +305,13 @@
             "action": "Senate Committee Amendment No. 1 Motion to Concur Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1 Motion to Concur  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -258,6 +320,13 @@
             "action": "Senate Committee Amendment No. 1 Motion to Concur Rules Referred to Judiciary I - Civil Law Committee", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1 Motion to Concur Rules  Judiciary I - Civil Law Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -266,6 +335,7 @@
             "action": "Senate Committee Amendment No. 1 Motion to Concur Recommends Be Adopted Judiciary I - Civil Law Committee;  011-000-000", 
             "actor": "lower", 
             "date": "2011-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -274,6 +344,7 @@
             "action": "Senate Committee Amendment No. 1 House Concurs 100-016-000", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -282,6 +353,7 @@
             "action": "Passed Both Houses", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -290,6 +362,7 @@
             "action": "Sent to the Governor", 
             "actor": "lower", 
             "date": "2011-06-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -298,6 +371,7 @@
             "action": "Governor Approved", 
             "actor": "lower", 
             "date": "2011-08-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -306,6 +380,7 @@
             "action": "Effective Date January 1, 2012", 
             "actor": "lower", 
             "date": "2011-08-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -314,6 +389,7 @@
             "action": "Public Act . . . . . . . . . 97-0555", 
             "actor": "lower", 
             "date": "2011-08-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -379,7 +455,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:48:37", 
+    "updated_at": "2012-07-13 08:37:48", 
     "versions": [
         {
             "doc_id": "ILD00047897", 

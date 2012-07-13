@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Mike Jacobs", 
             "actor": "upper", 
             "date": "2012-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Transportation", 
             "actor": "upper", 
-            "committee": "ILC000159", 
             "date": "2012-02-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000159", 
+                    "name": "Transportation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Added as Chief Co-Sponsor Sen. David Koehler", 
             "actor": "upper", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +69,7 @@
             "action": "Senate Committee Amendment No. 1 Filed with Secretary by Sen. Mike Jacobs", 
             "actor": "upper", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -62,6 +78,13 @@
             "action": "Senate Committee Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -70,6 +93,7 @@
             "action": "Postponed - Transportation", 
             "actor": "upper", 
             "date": "2012-02-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +102,7 @@
             "action": "Senate Committee Amendment No. 1 Assignments Refers to Transportation", 
             "actor": "upper", 
             "date": "2012-02-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +111,7 @@
             "action": "Senate Committee Amendment No. 2 Filed with Secretary by Sen. Mike Jacobs", 
             "actor": "upper", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -94,6 +120,13 @@
             "action": "Senate Committee Amendment No. 2 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 2  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -102,6 +135,7 @@
             "action": "Senate Committee Amendment No. 2 Assignments Refers to Transportation", 
             "actor": "upper", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +144,7 @@
             "action": "Senate Committee Amendment No. 1 Adopted", 
             "actor": "upper", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -118,6 +153,7 @@
             "action": "Senate Committee Amendment No. 2 Adopted", 
             "actor": "upper", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -126,6 +162,7 @@
             "action": "Do Pass as Amended Transportation;  011-000-000", 
             "actor": "upper", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -134,6 +171,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 8, 2012", 
             "actor": "upper", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -142,6 +180,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-03-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -150,6 +189,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 26, 2012", 
             "actor": "upper", 
             "date": "2012-03-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -158,6 +198,7 @@
             "action": "Third Reading - Passed; 054-000-000", 
             "actor": "upper", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -167,6 +208,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -175,6 +217,7 @@
             "action": "Chief House Sponsor Rep. Dave Winters", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -183,6 +226,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -191,6 +235,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -198,8 +243,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -208,6 +259,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. David Harris", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -216,6 +268,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Jim Sacia", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -224,6 +277,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Al Riley", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -232,6 +286,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Charles E. Jefferson", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -239,8 +294,14 @@
         {
             "action": "Assigned to State Government Administration Committee", 
             "actor": "lower", 
-            "committee": "ILC000068", 
             "date": "2012-04-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000068", 
+                    "name": "State Government Administration Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -249,6 +310,7 @@
             "action": "Do Pass / Short Debate State Government Administration Committee;  018-000-000", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -257,6 +319,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -265,6 +328,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -273,6 +337,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -281,6 +346,7 @@
             "action": "Third Reading - Short Debate - Passed 112-000-001", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -290,6 +356,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -298,6 +365,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2012-06-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -380,7 +448,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:42:36", 
+    "updated_at": "2012-07-13 08:37:10", 
     "versions": [
         {
             "doc_id": "ILD00044978", 

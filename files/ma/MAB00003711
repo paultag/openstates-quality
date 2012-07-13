@@ -12,6 +12,7 @@
             "action": "Bill Filed.", 
             "actor": "lower", 
             "date": "2011-01-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,13 @@
             "action": "Referred to Joint Committee on Telecommunications, Utilities and Energy.", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Referred to Joint Committee on Telecommunications, Utilities and Energy.", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,6 +36,7 @@
             "action": "Senate concurred.", 
             "actor": "upper", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,6 +45,7 @@
             "action": "Hearing scheduled for 09/07/2011 from 10:00 AM-04:00 PM in JJ's Lodge, Jiminy Peak Mountain Resort", 
             "actor": "joint", 
             "date": "2011-09-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -44,6 +54,7 @@
             "action": "Hearing scheduled for 09/26/2011 from 10:00 AM-04:00 PM in Tilden Arts Center, Cape Cod Community College", 
             "actor": "joint", 
             "date": "2011-08-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -52,6 +63,7 @@
             "action": "Hearing scheduled for 10/20/2011 from 10:00 AM-04:00 PM in Barnstable High School, Knight Auditorium", 
             "actor": "joint", 
             "date": "2011-10-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -84,7 +96,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-21 04:08:04", 
+    "updated_at": "2012-07-13 04:06:45", 
     "versions": [
         {
             "doc_id": "MAD00000845", 

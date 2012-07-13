@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. David Reis", 
             "actor": "lower", 
             "date": "2012-01-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-01-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-01-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to State Government Administration Committee", 
             "actor": "lower", 
-            "committee": "ILC000068", 
             "date": "2012-02-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000068", 
+                    "name": "State Government Administration Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Motion Do Pass - Lost State Government Administration Committee;  009-005-000", 
             "actor": "lower", 
             "date": "2012-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Remains in State Government Administration Committee", 
             "actor": "lower", 
             "date": "2012-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. David Reis", 
             "actor": "lower", 
             "date": "2012-02-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -70,6 +87,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-02-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -78,6 +102,7 @@
             "action": "House Committee Amendment No. 1 Rules Refers to State Government Administration Committee", 
             "actor": "lower", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +111,7 @@
             "action": "House Committee Amendment No. 1 Adopted in State Government Administration Committee;  by Voice Vote", 
             "actor": "lower", 
             "date": "2012-02-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -94,6 +120,7 @@
             "action": "Do Pass as Amended / Short Debate State Government Administration Committee;  018-000-000", 
             "actor": "lower", 
             "date": "2012-02-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -102,6 +129,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +138,7 @@
             "action": "Added Chief Co-Sponsor Rep. Roger L. Eddy", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +147,7 @@
             "action": "Added Chief Co-Sponsor Rep. John D. Cavaletto", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -126,6 +156,7 @@
             "action": "Added Chief Co-Sponsor Rep. Mike Bost", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +165,7 @@
             "action": "Added Chief Co-Sponsor Rep. Paul Evans", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -142,6 +174,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -150,6 +183,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -158,6 +192,7 @@
             "action": "Third Reading - Short Debate - Passed 106-000-000", 
             "actor": "lower", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -167,6 +202,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -175,6 +211,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -183,6 +220,7 @@
             "action": "Chief Senate Sponsor Sen. Dale A. Righter", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -191,6 +229,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -198,8 +237,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -207,8 +252,14 @@
         {
             "action": "Assigned to Executive", 
             "actor": "upper", 
-            "committee": "ILC000031", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000111", 
+                    "name": "Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -217,6 +268,7 @@
             "action": "Rule 2-10 Committee Deadline Established As May 25, 2012", 
             "actor": "upper", 
             "date": "2012-05-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -225,6 +277,7 @@
             "action": "Do Pass Executive;  010-000-000", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -233,6 +286,7 @@
             "action": "Placed on Calendar Order of 2nd Reading May 17, 2012", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -241,6 +295,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -249,6 +304,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 21, 2012", 
             "actor": "upper", 
             "date": "2012-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -257,6 +313,7 @@
             "action": "Third Reading - Passed; 057-001-000", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -266,6 +323,7 @@
             "action": "Passed Both Houses", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -274,6 +332,7 @@
             "action": "Sent to the Governor", 
             "actor": "lower", 
             "date": "2012-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -282,6 +341,7 @@
             "action": "Governor Approved", 
             "actor": "lower", 
             "date": "2012-06-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -290,6 +350,7 @@
             "action": "Effective Date June 29, 2012", 
             "actor": "lower", 
             "date": "2012-06-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -298,6 +359,7 @@
             "action": "Public Act . . . . . . . . . 97-0717", 
             "actor": "lower", 
             "date": "2012-06-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -374,7 +436,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:44:30", 
+    "updated_at": "2012-07-13 08:38:36", 
     "versions": [
         {
             "doc_id": "ILD00052095", 

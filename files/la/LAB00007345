@@ -11,6 +11,7 @@
             "action": "Prefiled. To be introduced at a later date.", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -19,6 +20,7 @@
             "action": "First appeared in the Interim Calendar on 3/2/2012.", 
             "actor": "lower", 
             "date": "2012-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,6 +29,7 @@
             "action": "Read by title.", 
             "actor": "lower", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -34,8 +37,14 @@
         {
             "action": "Read by title, under the rules, referred to the Committee on Municipal, Parochial and Cultural Affairs.", 
             "actor": "lower", 
-            "committee": "LAC000039", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000039", 
+                    "name": "Committee on Municipal, Parochial and Cultural Affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -45,6 +54,7 @@
             "action": "Reported with amendments (16-0-1) (Regular).", 
             "actor": "lower", 
             "date": "2012-04-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -53,6 +63,7 @@
             "action": "Read by title, amended, ordered engrossed, passed to 3rd reading - regular calendar.", 
             "actor": "lower", 
             "date": "2012-04-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -61,6 +72,7 @@
             "action": "Scheduled for floor debate on 4/24/2012.", 
             "actor": "lower", 
             "date": "2012-04-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -69,6 +81,7 @@
             "action": "Read third time by title, roll called on final passage, yeas 98, nays 0. Finally passed, title adopted, ordered to the Senate.", 
             "actor": "lower", 
             "date": "2012-04-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -78,6 +91,7 @@
             "action": "Received in the Senate.  Rules suspended.  Read first time by title and placed on the Calendar for a second reading.", 
             "actor": "upper", 
             "date": "2012-04-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -85,8 +99,14 @@
         {
             "action": "Read second time by title and referred to the Committee on Local and Municipal Affairs.", 
             "actor": "upper", 
-            "committee": "LAC000012", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000012", 
+                    "name": "Committee on Local and Municipal Affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -95,6 +115,7 @@
             "action": "Reported favorably.  Rules suspended. Read by title and referred to the Legislative Bureau.", 
             "actor": "upper", 
             "date": "2012-05-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -103,6 +124,7 @@
             "action": "Reported without Legislative Bureau amendments.  Read by title and passed to third reading and final passage.", 
             "actor": "upper", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -111,6 +133,7 @@
             "action": "Read by title, passed by a vote of 37 yeas and 0 nays, and ordered returned to the House.  Motion to reconsider tabled.", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -119,6 +142,7 @@
             "action": "Received from the Senate without amendments.", 
             "actor": "lower", 
             "date": "2012-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -127,6 +151,7 @@
             "action": "Enrolled and signed by the Speaker of the House.", 
             "actor": "lower", 
             "date": "2012-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -135,6 +160,7 @@
             "action": "Signed by the President of the Senate.", 
             "actor": "upper", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -143,6 +169,7 @@
             "action": "Sent to the Governor for executive approval.", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -151,6 +178,7 @@
             "action": "Signed by the Governor. Becomes Act No. 273.", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -159,6 +187,7 @@
             "action": "Effective date: May 25, 2012.", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -205,7 +234,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-10 04:29:15", 
+    "updated_at": "2012-07-13 04:27:10", 
     "versions": [
         {
             "doc_id": "LAD00016903", 

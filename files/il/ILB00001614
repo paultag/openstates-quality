@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. Christine Radogno", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "Chief Co-Sponsor Sen. Kyle McCarter", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +30,7 @@
             "action": "Chief Co-Sponsor Sen. Sue Rezin", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,6 +39,7 @@
             "action": "Chief Co-Sponsor Sen. Suzi Schmidt", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -44,6 +48,7 @@
             "action": "Chief Co-Sponsor Sen. Wm. Sam McCann", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -52,6 +57,7 @@
             "action": "Co-Sponsor Sen. John O. Jones", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -60,6 +66,7 @@
             "action": "Co-Sponsor Sen. David S. Luechtefeld", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -68,6 +75,7 @@
             "action": "Co-Sponsor Sen. Larry K. Bomke", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -76,6 +84,7 @@
             "action": "Co-Sponsor Sen. Chris Lauzen", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -84,6 +93,7 @@
             "action": "Co-Sponsor Sen. Dan Duffy", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -92,6 +102,7 @@
             "action": "Co-Sponsor Sen. Shane Cultra", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -100,6 +111,7 @@
             "action": "Co-Sponsor Sen. Dale A. Righter", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -108,6 +120,7 @@
             "action": "Co-Sponsor Sen. Kirk W. Dillard", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -116,6 +129,7 @@
             "action": "Co-Sponsor Sen. Ron Sandack", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -124,6 +138,7 @@
             "action": "Co-Sponsor Sen. Dale E. Risinger", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -132,6 +147,7 @@
             "action": "Co-Sponsor Sen. William E. Brady", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -140,6 +156,7 @@
             "action": "Co-Sponsor Sen. Pamela J. Althoff", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -148,6 +165,7 @@
             "action": "Co-Sponsor Sen. Tim Bivins", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -156,6 +174,7 @@
             "action": "Co-Sponsor Sen. Thomas Johnson", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -164,6 +183,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -171,8 +191,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -180,8 +206,14 @@
         {
             "action": "Assigned to Executive", 
             "actor": "upper", 
-            "committee": "ILC000111", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000111", 
+                    "name": "Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -190,6 +222,7 @@
             "action": "Added as Co-Sponsor Sen. Christine J. Johnson", 
             "actor": "upper", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -198,6 +231,7 @@
             "action": "Senate Committee Amendment No. 1 Filed with Secretary by Sen. Christine Radogno", 
             "actor": "upper", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -206,6 +240,13 @@
             "action": "Senate Committee Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -214,6 +255,7 @@
             "action": "Senate Committee Amendment No. 1 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -222,6 +264,7 @@
             "action": "To Executive Subcommittee on Education", 
             "actor": "upper", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -230,6 +273,7 @@
             "action": "Senate Committee Amendment No. 1 Postponed - Executive", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -238,6 +282,7 @@
             "action": "Postponed - Executive", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -246,6 +291,13 @@
             "action": "Rule 3-9(a) / Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2011-03-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 3-9(a) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -254,6 +306,13 @@
             "action": "Senate Committee Amendment No. 1 Rule 3-9(a) / Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2011-03-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1 Rule 3-9(a) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -262,6 +321,7 @@
             "action": "Added as Co-Sponsor Sen. Darin M. LaHood", 
             "actor": "upper", 
             "date": "2011-06-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -270,6 +330,7 @@
             "action": "Added as Co-Sponsor Sen. Dave Syverson", 
             "actor": "upper", 
             "date": "2011-10-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -435,7 +496,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:41:47", 
+    "updated_at": "2012-07-13 08:36:25", 
     "versions": [
         {
             "doc_id": "ILD00042135", 

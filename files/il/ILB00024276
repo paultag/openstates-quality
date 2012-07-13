@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Paul Evans", 
             "actor": "lower", 
             "date": "2012-02-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-02-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-02-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -37,6 +45,7 @@
             "action": "Added Chief Co-Sponsor Rep. Thomas Morrison", 
             "actor": "lower", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -45,6 +54,7 @@
             "action": "Added Chief Co-Sponsor Rep. Jil Tracy", 
             "actor": "lower", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -53,6 +63,7 @@
             "action": "Added Chief Co-Sponsor Rep. John D. Cavaletto", 
             "actor": "lower", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -61,6 +72,7 @@
             "action": "Added Chief Co-Sponsor Rep. Mike Bost", 
             "actor": "lower", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -117,7 +129,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:44:51", 
+    "updated_at": "2012-07-13 08:38:49", 
     "versions": [
         {
             "doc_id": "ILD00053695", 

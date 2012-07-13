@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Sidney H. Mathias", 
             "actor": "lower", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -37,6 +45,7 @@
             "action": "Added Co-Sponsor Rep. Sandy Cole", 
             "actor": "lower", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -45,6 +54,7 @@
             "action": "Added Co-Sponsor Rep. Darlene J. Senger", 
             "actor": "lower", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -53,6 +63,7 @@
             "action": "Added Chief Co-Sponsor Rep. Mike Fortner", 
             "actor": "lower", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -61,6 +72,7 @@
             "action": "Added Co-Sponsor Rep. JoAnn D. Osmond", 
             "actor": "lower", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -69,6 +81,7 @@
             "action": "Added Co-Sponsor Rep. Jil Tracy", 
             "actor": "lower", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -77,6 +90,7 @@
             "action": "Added Co-Sponsor Rep. Raymond Poe", 
             "actor": "lower", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -85,6 +99,7 @@
             "action": "Added Co-Sponsor Rep. Norine Hammond", 
             "actor": "lower", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -93,6 +108,7 @@
             "action": "Added Chief Co-Sponsor Rep. David Harris", 
             "actor": "lower", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -101,6 +117,7 @@
             "action": "Added Chief Co-Sponsor Rep. Dennis M. Reboletti", 
             "actor": "lower", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -109,6 +126,7 @@
             "action": "Added Chief Co-Sponsor Rep. Tom Cross", 
             "actor": "lower", 
             "date": "2012-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -116,8 +134,14 @@
         {
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
-            "committee": "ILC000060", 
             "date": "2012-02-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000060", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -126,6 +150,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -218,7 +249,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:44:42", 
+    "updated_at": "2012-07-13 08:38:43", 
     "versions": [
         {
             "doc_id": "ILD00052854", 

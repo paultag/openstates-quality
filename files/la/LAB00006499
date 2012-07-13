@@ -11,6 +11,7 @@
             "action": "Prefiled.", 
             "actor": "lower", 
             "date": "2012-02-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -18,8 +19,14 @@
         {
             "action": "Under the rules, provisionally referred to the Committee on Agriculture, Forestry, Aquaculture, and Rural Development.", 
             "actor": "lower", 
-            "committee": "LAC000001", 
             "date": "2012-02-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000001", 
+                    "name": "Committee on Agriculture, Forestry, Aquaculture, and Rural Development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,6 +35,7 @@
             "action": "First appeared in the Interim Calendar on 2/24/2012.", 
             "actor": "lower", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,8 +43,14 @@
         {
             "action": "Read by title, under the rules, referred to the Committee on Agriculture, Forestry, Aquaculture, and Rural Development.", 
             "actor": "lower", 
-            "committee": "LAC000001", 
             "date": "2012-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000001", 
+                    "name": "Committee on Agriculture, Forestry, Aquaculture, and Rural Development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -81,7 +95,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-10 04:29:00", 
+    "updated_at": "2012-07-13 04:26:57", 
     "versions": [
         {
             "doc_id": "LAD00015874", 

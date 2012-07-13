@@ -11,6 +11,7 @@
             "action": "Prefiled.", 
             "actor": "lower", 
             "date": "2012-02-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -18,8 +19,14 @@
         {
             "action": "Under the rules, provisionally referred to the Committee on Civil Law and Procedure.", 
             "actor": "lower", 
-            "committee": "LAC000019", 
             "date": "2012-02-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000019", 
+                    "name": "Committee on Civil Law and Procedure", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,6 +35,7 @@
             "action": "First appeared in the Interim Calendar on 3/2/2012.", 
             "actor": "lower", 
             "date": "2012-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,8 +43,14 @@
         {
             "action": "Read by title, under the rules, referred to the Committee on Civil Law and Procedure.", 
             "actor": "lower", 
-            "committee": "LAC000019", 
             "date": "2012-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000019", 
+                    "name": "Committee on Civil Law and Procedure", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -81,7 +95,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-10 04:29:09", 
+    "updated_at": "2012-07-13 04:27:05", 
     "versions": [
         {
             "doc_id": "LAD00016508", 

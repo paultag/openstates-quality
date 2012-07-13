@@ -12,6 +12,7 @@
             "action": "Filed with Secretary by Sen. John J. Cullerton", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Executive", 
             "actor": "upper", 
-            "committee": "ILC000111", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000111", 
+                    "name": "Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass Executive;  015-000-000", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar Order of 2nd Reading March 17, 2011", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -70,6 +87,7 @@
             "action": "Placed on Calendar Order of 3rd Reading March 29, 2011", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As May 4, 2011", 
             "actor": "upper", 
             "date": "2011-04-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -86,6 +105,7 @@
             "action": "Senate Floor Amendment No. 1 Filed with Secretary by Sen. John J. Cullerton", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -94,6 +114,13 @@
             "action": "Senate Floor Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -102,6 +129,7 @@
             "action": "Senate Floor Amendment No. 1 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +138,7 @@
             "action": "Senate Floor Amendment No. 1 Recommend Do Adopt Executive;  014-000-000", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +147,7 @@
             "action": "Senate Floor Amendment No. 2 Filed with Secretary by Sen. John J. Cullerton", 
             "actor": "upper", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -126,6 +156,13 @@
             "action": "Senate Floor Amendment No. 2 Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 2  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -134,6 +171,7 @@
             "action": "Senate Floor Amendment No. 2 Assignments Refers to Executive", 
             "actor": "upper", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -142,6 +180,7 @@
             "action": "Recalled to Second Reading", 
             "actor": "upper", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -150,6 +189,7 @@
             "action": "Senate Floor Amendment No. 1 Adopted; Cullerton", 
             "actor": "upper", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -158,6 +198,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 5, 2011", 
             "actor": "upper", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -166,6 +207,13 @@
             "action": "Senate Floor Amendment No. 2 Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 2  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -174,6 +222,7 @@
             "action": "Senate Floor Amendment No. 2 Be Approved for Consideration Assignments", 
             "actor": "upper", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -182,6 +231,7 @@
             "action": "Rule 2-10 Third Reading Deadline Established As May 31, 2011", 
             "actor": "upper", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3"
             ]
@@ -190,6 +240,7 @@
             "action": "Recalled to Second Reading", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -198,6 +249,7 @@
             "action": "Senate Floor Amendment No. 2 Adopted", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -206,6 +258,7 @@
             "action": "Placed on Calendar Order of 3rd Reading", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -214,6 +267,7 @@
             "action": "Third Reading - Passed; 043-012-000", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -223,6 +277,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -231,6 +286,7 @@
             "action": "Placed on Calendar Order of First Reading", 
             "actor": "lower", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -239,6 +295,7 @@
             "action": "Chief House Sponsor Rep. John E. Bradley", 
             "actor": "lower", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -247,6 +304,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -254,8 +312,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -264,6 +328,7 @@
             "action": "Final Action Deadline Extended-9(b) May 27, 2011", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -271,8 +336,14 @@
         {
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
-            "committee": "ILC000060", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000060", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -281,6 +352,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. John E. Bradley", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -289,6 +361,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -297,6 +376,7 @@
             "action": "House Committee Amendment No. 2 Filed with Clerk by Rep. John E. Bradley", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -305,6 +385,13 @@
             "action": "House Committee Amendment No. 2 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -312,8 +399,14 @@
         {
             "action": "Re-assigned to Executive Committee", 
             "actor": "lower", 
-            "committee": "ILC000111", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000031", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -322,6 +415,7 @@
             "action": "House Committee Amendment No. 2 Rules Refers to Executive Committee", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -330,6 +424,7 @@
             "action": "Motion Filed to Suspend Rule 25 Executive Committee;  Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -338,6 +433,7 @@
             "action": "Alternate Chief Sponsor Changed to Rep. Michael J. Madigan", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -346,6 +442,7 @@
             "action": "Added Alternate Chief Co-Sponsor Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -354,6 +451,7 @@
             "action": "Motion to Suspend Rule 25 - Prevailed 064-052-000", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -362,6 +460,7 @@
             "action": "House Committee Amendment No. 2 Adopted in Executive Committee;  by Voice Vote", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -370,6 +469,7 @@
             "action": "Do Pass as Amended / Short Debate Executive Committee;  009-002-000", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -378,6 +478,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -386,6 +487,7 @@
             "action": "House Committee Amendment No. 1 Tabled Pursuant to Rule 40", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -394,6 +496,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -402,6 +505,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -410,6 +514,7 @@
             "action": "Final Action Deadline Extended-9(b) May 31, 2011", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -418,6 +523,7 @@
             "action": "House Floor Amendment No. 3 Filed with Clerk by Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -426,6 +532,13 @@
             "action": "House Floor Amendment No. 3 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 3  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -434,6 +547,7 @@
             "action": "House Floor Amendment No. 3 Recommends Be Adopted Rules Committee;  003-000-000", 
             "actor": "lower", 
             "date": "2011-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -442,6 +556,7 @@
             "action": "House Floor Amendment No. 3 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -450,6 +565,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -458,6 +574,7 @@
             "action": "Third Reading - Short Debate - Passed 070-045-001", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -467,6 +584,7 @@
             "action": "Secretary's Desk - Concurrence House Amendment(s) 2, 3", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -475,6 +593,7 @@
             "action": "Placed on Calendar Order of Concurrence House Amendment(s) 2, 3 -  May 31, 2011", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -483,6 +602,7 @@
             "action": "House Committee Amendment No. 2 Motion to Concur Filed with Secretary Sen. John J. Cullerton", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -491,6 +611,13 @@
             "action": "House Committee Amendment No. 2 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 2 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -499,6 +626,7 @@
             "action": "House Floor Amendment No. 3 Motion to Concur Filed with Secretary Sen. John J. Cullerton", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -507,6 +635,13 @@
             "action": "House Floor Amendment No. 3 Motion to Concur Referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 3 Motion to Concur  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -515,6 +650,13 @@
             "action": "House Committee Amendment No. 2 Motion to Concur Assignments Referred to Executive", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 2 Motion to Concur Assignments  Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -523,6 +665,13 @@
             "action": "House Floor Amendment No. 3 Motion to Concur Assignments Referred to Executive", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 3 Motion to Concur Assignments  Executive", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -531,6 +680,7 @@
             "action": "House Committee Amendment No. 2 Motion To Concur Recommended Do Adopt Executive;  012-001-000", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -539,6 +689,7 @@
             "action": "House Floor Amendment No. 3 Motion To Concur Recommended Do Adopt Executive;  012-001-000", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -547,6 +698,7 @@
             "action": "House Committee Amendment No. 2 Senate Concurs 045-009-000", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -555,6 +707,7 @@
             "action": "House Floor Amendment No. 3 Senate Concurs 045-009-000", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -563,6 +716,7 @@
             "action": "Passed Both Houses", 
             "actor": "upper", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -571,6 +725,7 @@
             "action": "Sent to the Governor", 
             "actor": "upper", 
             "date": "2011-06-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -579,6 +734,7 @@
             "action": "Governor Approved", 
             "actor": "upper", 
             "date": "2011-08-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -587,6 +743,7 @@
             "action": "Effective Date October 15, 2011;  Generally effective", 
             "actor": "upper", 
             "date": "2011-08-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -595,6 +752,7 @@
             "action": "Effective Date August 19, 2011;  Some parts effective", 
             "actor": "upper", 
             "date": "2011-08-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -603,6 +761,7 @@
             "action": "Public Act . . . . . . . . . 97-0464", 
             "actor": "upper", 
             "date": "2011-08-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -682,7 +841,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:47:02", 
+    "updated_at": "2012-07-13 08:36:07", 
     "versions": [
         {
             "doc_id": "ILD00040921", 

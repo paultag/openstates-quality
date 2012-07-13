@@ -10,8 +10,14 @@
         {
             "action": "Prefiled and under the rules provisionally referred to the Committee on Senate and Governmental Affairs.", 
             "actor": "upper", 
-            "committee": "LAC000016", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000016", 
+                    "name": "Committee on Senate and Governmental Affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -19,8 +25,14 @@
         {
             "action": "Introduced in the Senate; read by title.  Rules suspended.  Read second time and referred to the Committee on Senate and Governmental Affairs.", 
             "actor": "upper", 
-            "committee": "LAC000016", 
             "date": "2012-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "LAC000016", 
+                    "name": "Committee on Senate and Governmental Affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -30,6 +42,7 @@
             "action": "Reported by substitute.", 
             "actor": "upper", 
             "date": "2012-04-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -38,6 +51,7 @@
             "action": "Title of substitute read and adopted; becomes Senate Bill No. 750.", 
             "actor": "upper", 
             "date": "2012-04-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -116,7 +130,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-10 04:28:31", 
+    "updated_at": "2012-07-13 04:26:37", 
     "versions": [
         {
             "doc_id": "LAD00016666", 

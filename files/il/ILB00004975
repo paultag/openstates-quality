@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Kay Hatcher", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
-            "committee": "ILC000060", 
             "date": "2011-02-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000060", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "Do Pass / Short Debate Revenue & Finance Committee;  009-000-000", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -54,6 +69,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Added Chief Co-Sponsor Rep. Mark H. Beaubien, Jr.", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Added Chief Co-Sponsor Rep. Sandy Cole", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Remove Chief Co-Sponsor Rep. Mark H. Beaubien, Jr.", 
             "actor": "lower", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -94,6 +114,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2011-04-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +123,7 @@
             "action": "Added Co-Sponsor Rep. Jack D. Franks", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +132,7 @@
             "action": "Added Co-Sponsor Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +141,7 @@
             "action": "Added Co-Sponsor Rep. Carol A. Sente", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -126,6 +150,7 @@
             "action": "Added Co-Sponsor Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +159,7 @@
             "action": "Third Reading - Short Debate - Passed 102-000-000", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -143,6 +169,7 @@
             "action": "Removed Co-Sponsor Rep. Carol A. Sente", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -151,6 +178,7 @@
             "action": "Removed Co-Sponsor Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -159,6 +187,7 @@
             "action": "Removed Co-Sponsor Rep. Jack D. Franks", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -167,6 +196,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -175,6 +205,7 @@
             "action": "Placed on Calendar Order of First Reading April 7, 2011", 
             "actor": "upper", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -183,6 +214,7 @@
             "action": "Chief Senate Sponsor Sen. Linda Holmes", 
             "actor": "upper", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -191,6 +223,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -198,8 +231,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2011-04-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -208,6 +247,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. Matt Murphy", 
             "actor": "upper", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -215,8 +255,14 @@
         {
             "action": "Assigned to Revenue", 
             "actor": "upper", 
-            "committee": "ILC000152", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000152", 
+                    "name": "Revenue", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -225,6 +271,7 @@
             "action": "Postponed - Revenue", 
             "actor": "upper", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -233,6 +280,7 @@
             "action": "Postponed - Revenue", 
             "actor": "upper", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -241,6 +289,13 @@
             "action": "Rule 3-9(a) / Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 3-9(a) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -249,6 +304,7 @@
             "action": "Alternate Chief Sponsor Changed to Sen. Michael W. Frerichs", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -257,6 +313,7 @@
             "action": "Added as Alternate Chief Co-Sponsor Sen. Linda Holmes", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -264,8 +321,14 @@
         {
             "action": "Re-assigned to Revenue", 
             "actor": "upper", 
-            "committee": "ILC000152", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000152", 
+                    "name": "Revenue", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -274,6 +337,7 @@
             "action": "Alternate Chief Sponsor Changed to Sen. Toi W. Hutchinson", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -282,6 +346,7 @@
             "action": "Rule 2-10 Committee Deadline Established As May 25, 2012", 
             "actor": "upper", 
             "date": "2012-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -290,6 +355,7 @@
             "action": "Senate Committee Amendment No. 1 Filed with Secretary by Sen. Toi W. Hutchinson", 
             "actor": "upper", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -298,6 +364,13 @@
             "action": "Senate Committee Amendment No. 1 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -306,6 +379,7 @@
             "action": "Senate Committee Amendment No. 2 Filed with Secretary by Sen. Toi W. Hutchinson", 
             "actor": "upper", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -314,6 +388,13 @@
             "action": "Senate Committee Amendment No. 2 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 2  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -322,6 +403,7 @@
             "action": "Senate Committee Amendment No. 1 Assignments Refers to Revenue", 
             "actor": "upper", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -330,6 +412,7 @@
             "action": "Senate Committee Amendment No. 2 Assignments Refers to Revenue", 
             "actor": "upper", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -338,6 +421,7 @@
             "action": "Senate Committee Amendment No. 1 Postponed - Revenue", 
             "actor": "upper", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -346,6 +430,7 @@
             "action": "Senate Committee Amendment No. 2 Adopted", 
             "actor": "upper", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -354,6 +439,7 @@
             "action": "Do Pass as Amended Revenue;  007-001-000", 
             "actor": "upper", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -362,6 +448,7 @@
             "action": "Placed on Calendar Order of 2nd Reading May 10, 2012", 
             "actor": "upper", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -370,6 +457,7 @@
             "action": "Added as Alternate Chief Co-Sponsor Sen. M. Maggie Crotty", 
             "actor": "upper", 
             "date": "2012-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -378,6 +466,7 @@
             "action": "Added as Alternate Chief Co-Sponsor Sen. Jacqueline Y. Collins", 
             "actor": "upper", 
             "date": "2012-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -386,6 +475,13 @@
             "action": "Senate Committee Amendment No. 1 Rule 3-9(a) / Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 1 Rule 3-9(a) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -394,6 +490,7 @@
             "action": "Senate Floor Amendment No. 3 Filed with Secretary by Sen. Toi W. Hutchinson", 
             "actor": "upper", 
             "date": "2012-05-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -402,6 +499,13 @@
             "action": "Senate Floor Amendment No. 3 Referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 3  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -410,6 +514,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. Mattie Hunter", 
             "actor": "upper", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -418,6 +523,7 @@
             "action": "Senate Floor Amendment No. 3 Assignments Refers to Public Health", 
             "actor": "upper", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -426,6 +532,7 @@
             "action": "Senate Floor Amendment No. 3   Added as Chief Co-Sponsors-Millner-Hunter-Crotty-Althoff", 
             "actor": "upper", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -434,6 +541,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. Kirk W. Dillard", 
             "actor": "upper", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -442,6 +550,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. Emil Jones, III", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -450,6 +559,7 @@
             "action": "Senate Floor Amendment No. 3 Recommend Do Adopt Public Health;  008-000-000", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -458,6 +568,7 @@
             "action": "Second Reading", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -466,6 +577,7 @@
             "action": "Senate Floor Amendment No. 3 Adopted; Hutchinson", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -474,6 +586,7 @@
             "action": "Placed on Calendar Order of 3rd Reading May 24, 2012", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -482,6 +595,7 @@
             "action": "Sponsor Removed Sen. Linda Holmes", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -490,6 +604,7 @@
             "action": "Added as Alternate Co-Sponsor Sen. John J. Millner", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -498,6 +613,7 @@
             "action": "Third Reading - Passed; 053-000-000", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -507,6 +623,7 @@
             "action": "Senate Committee Amendment No. 1 Tabled Pursuant to Rule 5-4(a)", 
             "actor": "upper", 
             "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -515,6 +632,7 @@
             "action": "Arrived in House", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -523,6 +641,7 @@
             "action": "Placed on Calendar Order of Concurrence Senate Amendment(s) 2, 3", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -531,6 +650,7 @@
             "action": "Chief Sponsor Changed to Rep. Sara Feigenholtz", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -539,6 +659,7 @@
             "action": "Added Chief Co-Sponsor Rep. Lisa M. Dugan", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -547,6 +668,7 @@
             "action": "Added Chief Co-Sponsor Rep. Edward J. Acevedo", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -555,6 +677,7 @@
             "action": "Added Chief Co-Sponsor Rep. Elizabeth Hernandez", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -563,6 +686,7 @@
             "action": "Added Co-Sponsor Rep. Karen A. Yarbrough", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -571,6 +695,7 @@
             "action": "Added Co-Sponsor Rep. Naomi D. Jakobsson", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -579,6 +704,7 @@
             "action": "Added Co-Sponsor Rep. Camille Y. Lilly", 
             "actor": "lower", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -587,6 +713,7 @@
             "action": "Senate Committee Amendment No. 2 Motion Filed Concur Rep. Sara Feigenholtz", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -595,6 +722,7 @@
             "action": "Senate Floor Amendment No. 3 Motion Filed Concur Rep. Sara Feigenholtz", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -603,6 +731,13 @@
             "action": "Senate Committee Amendment No. 2 Motion to Concur Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 2 Motion to Concur  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -611,6 +746,13 @@
             "action": "Senate Floor Amendment No. 3 Motion to Concur Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 3 Motion to Concur  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -619,6 +761,13 @@
             "action": "Senate Committee Amendment No. 2 Motion to Concur Rules Referred to Revenue & Finance Committee", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Committee Amendment No. 2 Motion to Concur Rules  Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -627,6 +776,13 @@
             "action": "Senate Floor Amendment No. 3 Motion to Concur Rules Referred to Revenue & Finance Committee", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Senate Floor Amendment No. 3 Motion to Concur Rules  Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -635,6 +791,7 @@
             "action": "Senate Committee Amendment No. 2 Motion to Concur Recommends Be Adopted Revenue & Finance Committee;  009-000-000", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -643,6 +800,7 @@
             "action": "Senate Floor Amendment No. 3 Motion to Concur Recommends Be Adopted Revenue & Finance Committee;  009-000-000", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -651,6 +809,7 @@
             "action": "Added Co-Sponsor Rep. Michael J. Zalewski", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -659,6 +818,7 @@
             "action": "Added Co-Sponsor Rep. Marcus C. Evans, Jr.", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -667,6 +827,7 @@
             "action": "Added Co-Sponsor Rep. William Davis", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -675,6 +836,7 @@
             "action": "Added Co-Sponsor Rep. Greg Harris", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -683,6 +845,7 @@
             "action": "Senate Committee Amendment No. 2 House Concurs 092-023-003", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -691,6 +854,7 @@
             "action": "Senate Floor Amendment No. 3 House Concurs 092-023-003", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -699,6 +863,7 @@
             "action": "Passed Both Houses", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -707,6 +872,7 @@
             "action": "Added Co-Sponsor Rep. Robyn Gabel", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -715,6 +881,7 @@
             "action": "Added Co-Sponsor Rep. Rosemary Mulligan", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -723,6 +890,7 @@
             "action": "Added Co-Sponsor Rep. Kelly M. Cassidy", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -731,6 +899,7 @@
             "action": "Added Co-Sponsor Rep. Kimberly du Buclet", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -739,6 +908,7 @@
             "action": "Added Co-Sponsor Rep. Karen May", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -747,6 +917,7 @@
             "action": "Sent to the Governor", 
             "actor": "lower", 
             "date": "2012-06-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:received"
             ]
@@ -949,7 +1120,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:48:49", 
+    "updated_at": "2012-07-13 08:38:00", 
     "versions": [
         {
             "doc_id": "ILD00048655", 

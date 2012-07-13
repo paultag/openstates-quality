@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Chapin Rose", 
             "actor": "lower", 
             "date": "2012-04-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-04-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-04-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -37,6 +45,7 @@
             "action": "Final Action Deadline Extended-9(b) May 31, 2012", 
             "actor": "lower", 
             "date": "2012-04-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -44,8 +53,14 @@
         {
             "action": "Assigned to Environment & Energy Committee", 
             "actor": "lower", 
-            "committee": "ILC000029", 
             "date": "2012-04-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000029", 
+                    "name": "Environment & Energy Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -54,6 +69,7 @@
             "action": "Added Chief Co-Sponsor Rep. Naomi D. Jakobsson", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +78,7 @@
             "action": "Remove Chief Co-Sponsor Rep. Naomi D. Jakobsson", 
             "actor": "lower", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +87,7 @@
             "action": "Chief Sponsor Changed to Rep. Naomi D. Jakobsson", 
             "actor": "lower", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +96,7 @@
             "action": "Added Chief Co-Sponsor Rep. Chapin Rose", 
             "actor": "lower", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +105,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. Naomi D. Jakobsson", 
             "actor": "lower", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -94,6 +114,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -101,8 +128,14 @@
         {
             "action": "Re-assigned to Executive Committee", 
             "actor": "lower", 
-            "committee": "ILC000031", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000031", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -111,6 +144,7 @@
             "action": "House Committee Amendment No. 1 Rules Refers to Executive Committee", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -119,6 +153,7 @@
             "action": "Added Co-Sponsor Rep. Rich Brauer", 
             "actor": "lower", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -127,6 +162,7 @@
             "action": "Added Co-Sponsor Rep. Chad Hays", 
             "actor": "lower", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -135,6 +171,7 @@
             "action": "Added Co-Sponsor Rep. Dan Brady", 
             "actor": "lower", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -143,6 +180,7 @@
             "action": "Added Co-Sponsor Rep. Norine Hammond", 
             "actor": "lower", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -151,6 +189,7 @@
             "action": "Added Co-Sponsor Rep. Jil Tracy", 
             "actor": "lower", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -159,6 +198,7 @@
             "action": "Added Co-Sponsor Rep. Lou Lang", 
             "actor": "lower", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -167,6 +207,7 @@
             "action": "Removed Co-Sponsor Rep. Norine Hammond", 
             "actor": "lower", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -175,6 +216,7 @@
             "action": "Removed Co-Sponsor Rep. Jil Tracy", 
             "actor": "lower", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -183,6 +225,7 @@
             "action": "House Committee Amendment No. 2 Filed with Clerk by Rep. Naomi D. Jakobsson", 
             "actor": "lower", 
             "date": "2012-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -191,6 +234,13 @@
             "action": "House Committee Amendment No. 2 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -199,6 +249,7 @@
             "action": "House Committee Amendment No. 2 Rules Refers to Executive Committee", 
             "actor": "lower", 
             "date": "2012-05-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -207,6 +258,7 @@
             "action": "House Committee Amendment No. 3 Filed with Clerk by Rep. Naomi D. Jakobsson", 
             "actor": "lower", 
             "date": "2012-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -215,6 +267,13 @@
             "action": "House Committee Amendment No. 3 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 3  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -223,6 +282,7 @@
             "action": "Final Action Deadline Extended-9(b) May 29, 2012", 
             "actor": "lower", 
             "date": "2012-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -231,6 +291,7 @@
             "action": "House Committee Amendment No. 3 Rules Refers to Executive Committee", 
             "actor": "lower", 
             "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -239,6 +300,7 @@
             "action": "Final Action Deadline Extended-9(b) May 31, 2012", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -246,8 +308,14 @@
         {
             "action": "Re-assigned to Environmental Health Committee", 
             "actor": "lower", 
-            "committee": "ILC000030", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000030", 
+                    "name": "Environmental Health Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -256,6 +324,7 @@
             "action": "Motion Filed to Suspend Rule 25 Environmental Health Committee;  Rep. Barbara Flynn Currie", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -264,6 +333,7 @@
             "action": "Motion to Suspend Rule 25 - Prevailed by Voice Vote", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -272,6 +342,7 @@
             "action": "House Committee Amendment No. 4 Filed with Clerk by Rep. Naomi D. Jakobsson", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -280,6 +351,13 @@
             "action": "House Committee Amendment No. 4 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 4  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -288,6 +366,7 @@
             "action": "Do Pass / Short Debate Environmental Health Committee;  014-001-000", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -296,6 +375,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -304,6 +384,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -312,6 +393,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -320,6 +402,7 @@
             "action": "Added Co-Sponsor Rep. Bill Mitchell", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -328,6 +411,13 @@
             "action": "Rule 19(a) / Re-referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -336,6 +426,7 @@
             "action": "House Committee Amendment No. 4 Tabled Pursuant to Rule 40", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -425,7 +516,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:49:57", 
+    "updated_at": "2012-07-13 08:38:51", 
     "versions": [
         {
             "doc_id": "ILD00054224", 

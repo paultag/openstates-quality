@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Bill Mitchell", 
             "actor": "lower", 
             "date": "2011-06-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "Chief Co-Sponsor Rep. Adam Brown", 
             "actor": "lower", 
             "date": "2011-06-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +30,7 @@
             "action": "Chief Co-Sponsor Rep. Chapin Rose", 
             "actor": "lower", 
             "date": "2011-06-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,6 +39,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2011-10-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -43,8 +47,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2011-10-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -90,7 +100,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-04 08:44:20", 
+    "updated_at": "2012-07-13 08:38:30", 
     "versions": [
         {
             "doc_id": "ILD00051361", 

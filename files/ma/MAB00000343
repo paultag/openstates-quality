@@ -12,6 +12,7 @@
             "action": "Bill Filed.", 
             "actor": "upper", 
             "date": "2011-01-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,13 @@
             "action": "Referred to Joint Committee on Environment, Natural Resources and Agriculture.", 
             "actor": "upper", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Referred to Joint Committee on Environment, Natural Resources and Agriculture.", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,6 +36,7 @@
             "action": "House concurred.", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,6 +45,7 @@
             "action": "Hearing scheduled for 04/05/2011 from 10:30 AM-12:50 PM in B-1", 
             "actor": "joint", 
             "date": "2011-04-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -44,6 +54,7 @@
             "action": "Bill reported favorably by committee and referred to Senate Committee on Ways and Means", 
             "actor": "upper", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -52,6 +63,7 @@
             "action": "Committee recommended ought to pass with an amendment, substituting therefor a new draft, see", 
             "actor": "upper", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -60,6 +72,7 @@
             "action": "Rules suspended", 
             "actor": "upper", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -68,6 +81,7 @@
             "action": "Read second", 
             "actor": "upper", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -76,6 +90,7 @@
             "action": "New draft substituted, see", 
             "actor": "upper", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -108,7 +123,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-21 04:06:49", 
+    "updated_at": "2012-07-13 04:06:08", 
     "versions": [
         {
             "doc_id": "MAD00005365", 

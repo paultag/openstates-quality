@@ -12,6 +12,7 @@
             "action": "Filed with the Clerk by Rep. Patricia R. Bellock", 
             "actor": "lower", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:filed"
             ]
@@ -20,6 +21,7 @@
             "action": "First Reading", 
             "actor": "lower", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -27,8 +29,14 @@
         {
             "action": "Referred to Rules Committee", 
             "actor": "lower", 
-            "committee": "ILC000066", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000066", 
+                    "name": "Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,8 +44,14 @@
         {
             "action": "Assigned to Human Services Committee", 
             "actor": "lower", 
-            "committee": "ILC000039", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000039", 
+                    "name": "Human Services Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -46,6 +60,7 @@
             "action": "House Committee Amendment No. 1 Filed with Clerk by Rep. Patricia R. Bellock", 
             "actor": "lower", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -54,6 +69,13 @@
             "action": "House Committee Amendment No. 1 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 1  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -62,6 +84,7 @@
             "action": "Do Pass / Short Debate Human Services Committee;  011-000-000", 
             "actor": "lower", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -70,6 +93,7 @@
             "action": "Placed on Calendar 2nd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +102,7 @@
             "action": "House Committee Amendment No. 1 Tabled Pursuant to Rule 40", 
             "actor": "lower", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:failed"
             ]
@@ -86,6 +111,7 @@
             "action": "House Floor Amendment No. 2 Filed with Clerk by Rep. Patricia R. Bellock", 
             "actor": "lower", 
             "date": "2012-03-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:introduced"
             ]
@@ -94,6 +120,13 @@
             "action": "House Floor Amendment No. 2 Referred to Rules Committee", 
             "actor": "lower", 
             "date": "2012-03-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -102,6 +135,7 @@
             "action": "Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -110,6 +144,7 @@
             "action": "Held on Calendar Order of Second Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:2"
             ]
@@ -118,6 +153,7 @@
             "action": "House Floor Amendment No. 2 Recommends Be Adopted Rules Committee;  004-000-000", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed:favorable"
             ]
@@ -126,6 +162,7 @@
             "action": "Added Chief Co-Sponsor Rep. Michael W. Tryon", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +171,7 @@
             "action": "Added Chief Co-Sponsor Rep. Greg Harris", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -142,6 +180,7 @@
             "action": "Added Chief Co-Sponsor Rep. Rich Brauer", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -150,6 +189,7 @@
             "action": "Added Chief Co-Sponsor Rep. Chad Hays", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -158,6 +198,7 @@
             "action": "Added Co-Sponsor Rep. Lisa M. Dugan", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -166,6 +207,7 @@
             "action": "Added Co-Sponsor Rep. Jerry F. Costello, II", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -174,6 +216,7 @@
             "action": "Added Co-Sponsor Rep. Daniel V. Beiser", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -182,6 +225,7 @@
             "action": "Added Co-Sponsor Rep. Patrick J. Verschoore", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -190,6 +234,7 @@
             "action": "Added Co-Sponsor Rep. Brandon W. Phelps", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -198,6 +243,7 @@
             "action": "Added Co-Sponsor Rep. Jack D. Franks", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -206,6 +252,7 @@
             "action": "Added Co-Sponsor Rep. Keith Farnham", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -214,6 +261,7 @@
             "action": "Added Co-Sponsor Rep. Carol A. Sente", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -222,6 +270,7 @@
             "action": "Added Co-Sponsor Rep. Linda Chapa LaVia", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -230,6 +279,7 @@
             "action": "Added Co-Sponsor Rep. Michael G. Connelly", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -238,6 +288,7 @@
             "action": "Added Co-Sponsor Rep. Michael Unes", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -246,6 +297,7 @@
             "action": "Added Co-Sponsor Rep. Chapin Rose", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -254,6 +306,7 @@
             "action": "Added Co-Sponsor Rep. Rosemary Mulligan", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -262,6 +315,7 @@
             "action": "Added Co-Sponsor Rep. William Davis", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -270,6 +324,7 @@
             "action": "Added Co-Sponsor Rep. Donald L. Moffitt", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -278,6 +333,7 @@
             "action": "Added Co-Sponsor Rep. David R. Leitch", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -286,6 +342,7 @@
             "action": "Added Co-Sponsor Rep. Darlene J. Senger", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -294,6 +351,7 @@
             "action": "House Floor Amendment No. 2 Adopted by Voice Vote", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -302,6 +360,7 @@
             "action": "Placed on Calendar Order of 3rd Reading - Short Debate", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -310,6 +369,7 @@
             "action": "Third Reading - Short Debate - Passed 111-000-000", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:3", 
                 "bill:passed"
@@ -319,6 +379,7 @@
             "action": "Added Co-Sponsor Rep. Adam Brown", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -327,6 +388,7 @@
             "action": "Added Co-Sponsor Rep. Jim Watson", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -335,6 +397,7 @@
             "action": "Added Co-Sponsor Rep. Wayne Rosenthal", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -343,6 +406,7 @@
             "action": "Added Co-Sponsor Rep. Paul Evans", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -351,6 +415,7 @@
             "action": "Added Co-Sponsor Rep. David Reis", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -359,6 +424,7 @@
             "action": "Added Co-Sponsor Rep. Bill Mitchell", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -367,6 +433,7 @@
             "action": "Added Co-Sponsor Rep. Dennis M. Reboletti", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -375,6 +442,7 @@
             "action": "Added Co-Sponsor Rep. Pam Roth", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -383,6 +451,7 @@
             "action": "Added Co-Sponsor Rep. Kay Hatcher", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -391,6 +460,7 @@
             "action": "Added Co-Sponsor Rep. Thomas Morrison", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -399,6 +469,7 @@
             "action": "Added Co-Sponsor Rep. Richard Morthland", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -407,6 +478,7 @@
             "action": "Added Co-Sponsor Rep. Chris Nybo", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -415,6 +487,7 @@
             "action": "Added Co-Sponsor Rep. John D. Cavaletto", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -423,6 +496,7 @@
             "action": "Added Co-Sponsor Rep. Dwight Kay", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -431,6 +505,7 @@
             "action": "Added Co-Sponsor Rep. Jason Barickman", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -439,6 +514,7 @@
             "action": "Added Co-Sponsor Rep. Sidney H. Mathias", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -447,6 +523,7 @@
             "action": "Added Co-Sponsor Rep. Jil Tracy", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -455,6 +532,7 @@
             "action": "Added Co-Sponsor Rep. Sandy Cole", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -463,6 +541,7 @@
             "action": "Added Co-Sponsor Rep. JoAnn D. Osmond", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -471,6 +550,7 @@
             "action": "Added Co-Sponsor Rep. Ren\u00e9e Kosel", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -479,6 +559,7 @@
             "action": "Added Co-Sponsor Rep. Joe Sosnowski", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -487,6 +568,7 @@
             "action": "Added Co-Sponsor Rep. Sandra M. Pihos", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -495,6 +577,7 @@
             "action": "Added Co-Sponsor Rep. Mike Bost", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -503,6 +586,7 @@
             "action": "Added Co-Sponsor Rep. Mike Fortner", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -511,6 +595,7 @@
             "action": "Added Co-Sponsor Rep. Timothy L. Schmitz", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -519,6 +604,7 @@
             "action": "Added Co-Sponsor Rep. Ed Sullivan, Jr.", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -527,6 +613,7 @@
             "action": "Added Co-Sponsor Rep. Donald L. Moffitt", 
             "actor": "lower", 
             "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -535,6 +622,7 @@
             "action": "Arrive in Senate", 
             "actor": "upper", 
             "date": "2012-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -543,6 +631,7 @@
             "action": "Placed on Calendar Order of First Reading April 17, 2012", 
             "actor": "upper", 
             "date": "2012-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -551,6 +640,7 @@
             "action": "Chief Senate Sponsor Sen. Dale A. Righter", 
             "actor": "upper", 
             "date": "2012-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -559,6 +649,7 @@
             "action": "Added as Alternate Chief Co-Sponsor Sen. Pamela J. Althoff", 
             "actor": "upper", 
             "date": "2012-04-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -567,6 +658,7 @@
             "action": "First Reading", 
             "actor": "upper", 
             "date": "2012-04-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:reading:1"
             ]
@@ -574,8 +666,14 @@
         {
             "action": "Referred to Assignments", 
             "actor": "upper", 
-            "committee": "ILC000097", 
             "date": "2012-04-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000097", 
+                    "name": "Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -583,8 +681,14 @@
         {
             "action": "Assigned to Human Services", 
             "actor": "upper", 
-            "committee": "ILC000039", 
             "date": "2012-04-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000122", 
+                    "name": "Human Services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -593,6 +697,7 @@
             "action": "Postponed - Human Services", 
             "actor": "upper", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -601,6 +706,7 @@
             "action": "Rule 2-10 Committee Deadline Established As May 25, 2012", 
             "actor": "upper", 
             "date": "2012-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -609,6 +715,13 @@
             "action": "Rule 3-9(a) / Re-referred to Assignments", 
             "actor": "upper", 
             "date": "2012-05-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 3-9(a) /  Assignments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -955,7 +1068,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 08:49:54", 
+    "updated_at": "2012-07-13 08:38:48", 
     "versions": [
         {
             "doc_id": "ILD00053515", 
