@@ -2,10 +2,10 @@
     "+synopsis": "Amends the Illinois Pension Code. Makes a technical change in a Section concerning definitions.", 
     "action_dates": {
         "first": "2011-02-24 00:00:00", 
-        "last": "2012-06-13 00:00:00", 
+        "last": "2012-07-26 00:00:00", 
         "passed_lower": "2011-04-15 00:00:00", 
         "passed_upper": "2012-02-29 00:00:00", 
-        "signed": null
+        "signed": "2012-07-26 00:00:00"
     }, 
     "actions": [
         {
@@ -903,6 +903,24 @@
             "type": [
                 "governor:received"
             ]
+        }, 
+        {
+            "action": "Governor Approved", 
+            "actor": "lower", 
+            "date": "2012-07-26 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:signed"
+            ]
+        }, 
+        {
+            "action": "Public Act . . . . . . . . . 97-0854", 
+            "actor": "lower", 
+            "date": "2012-07-26 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -945,6 +963,11 @@
             "doc_id": "ILD00036999", 
             "name": "Senate Amendment 001", 
             "url": "http://ilga.gov/legislation/fulltext.asp?DocName=09700HB3474sam001&GA=97&SessionId=84&DocTypeId=HB&LegID=60860&DocNum=3474&GAID=11&Session="
+        }, 
+        {
+            "doc_id": "ILD00055969", 
+            "name": "Public Act", 
+            "url": "http://ilga.gov/legislation/publicacts/fulltext.asp?name=097-0854&GA=97&SessionId=84&DocTypeId=HB&DocNum=3474&GAID=11&Session="
         }
     ], 
     "id": "ILB00006804", 
@@ -963,115 +986,134 @@
             "chamber": "lower", 
             "leg_id": "ILL000146", 
             "name": "Sandra M. Pihos", 
-            "type": "chief"
+            "official_type": "chief", 
+            "type": "primary"
         }, 
         {
             "chamber": "lower", 
             "leg_id": "ILL000142", 
             "name": "Elaine Nekritz", 
-            "type": "chief-cosponsor"
+            "official_type": "Chief Co-Sponsor", 
+            "type": "cosponsor"
         }, 
         {
             "chamber": "lower", 
             "leg_id": "ILL000066", 
             "name": "Daniel Biss", 
-            "type": "chief-cosponsor"
+            "official_type": "Chief Co-Sponsor", 
+            "type": "cosponsor"
         }, 
         {
             "chamber": "lower", 
             "leg_id": "ILL000108", 
             "name": "David Harris", 
-            "type": "chief-cosponsor"
+            "official_type": "Chief Co-Sponsor", 
+            "type": "cosponsor"
         }, 
         {
             "chamber": "lower", 
             "leg_id": null, 
             "name": "Camille Y. Lilly", 
-            "type": "chief-cosponsor"
+            "official_type": "Chief Co-Sponsor", 
+            "type": "cosponsor"
         }, 
         {
             "chamber": "lower", 
             "leg_id": "ILL000090", 
             "name": "Anthony DeLuca", 
+            "official_type": "Co-Sponsor", 
             "type": "cosponsor"
         }, 
         {
             "chamber": "lower", 
             "leg_id": "ILL000086", 
             "name": "Barbara Flynn Currie", 
+            "official_type": "Co-Sponsor", 
             "type": "cosponsor"
         }, 
         {
             "chamber": "lower", 
             "leg_id": "ILL000103", 
             "name": "Robyn Gabel", 
+            "official_type": "Co-Sponsor", 
             "type": "cosponsor"
         }, 
         {
             "chamber": "lower", 
             "leg_id": "ILL000175", 
             "name": "Dave Winters", 
+            "official_type": "Co-Sponsor", 
             "type": "cosponsor"
         }, 
         {
             "chamber": "lower", 
             "leg_id": "ILL000138", 
             "name": "Thomas Morrison", 
+            "official_type": "Co-Sponsor", 
             "type": "cosponsor"
         }, 
         {
             "chamber": "lower", 
             "leg_id": "ILL000092", 
             "name": "Lisa M. Dugan", 
+            "official_type": "Co-Sponsor", 
             "type": "cosponsor"
         }, 
         {
             "chamber": "lower", 
             "leg_id": "ILL000105", 
             "name": "Esther Golar", 
+            "official_type": "Co-Sponsor", 
             "type": "cosponsor"
         }, 
         {
             "chamber": "lower", 
             "leg_id": "ILL000126", 
             "name": "Sidney H. Mathias", 
+            "official_type": "Co-Sponsor", 
             "type": "cosponsor"
         }, 
         {
             "chamber": "lower", 
             "leg_id": "ILL000143", 
             "name": "Chris Nybo", 
+            "official_type": "Co-Sponsor", 
             "type": "cosponsor"
         }, 
         {
             "chamber": "lower", 
             "leg_id": "ILL000073", 
             "name": "Kelly Burke", 
+            "official_type": "Co-Sponsor", 
             "type": "cosponsor"
         }, 
         {
             "chamber": "lower", 
             "leg_id": "ILL000137", 
             "name": "Donald L. Moffitt", 
+            "official_type": "Co-Sponsor", 
             "type": "cosponsor"
         }, 
         {
             "chamber": "lower", 
             "leg_id": "ILL000064", 
             "name": "Patricia R. Bellock", 
+            "official_type": "Co-Sponsor", 
             "type": "cosponsor"
         }, 
         {
             "chamber": "lower", 
             "leg_id": "ILL000165", 
             "name": "Cynthia Soto", 
+            "official_type": "Co-Sponsor", 
             "type": "cosponsor"
         }, 
         {
             "chamber": "upper", 
             "leg_id": "ILL000018", 
             "name": "Don Harmon", 
-            "type": "chief"
+            "official_type": "chief", 
+            "type": "primary"
         }
     ], 
     "state": "il", 
@@ -1080,7 +1122,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 08:38:26", 
+    "updated_at": "2012-07-27 08:44:41", 
     "versions": [
         {
             "doc_id": "ILD00050998", 
