@@ -1,4 +1,5 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-01-14 00:00:00", 
         "last": "2012-01-04 00:00:00", 
@@ -11,6 +12,7 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +21,7 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -38,7 +41,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=607"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=654"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2212-2011"
@@ -48,7 +51,14 @@
         {
             "leg_id": "NYL000210", 
             "name": "Zebrowski", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000082", 
+            "name": "Calhoun", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -59,12 +69,12 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-20 01:01:21", 
+    "updated_at": "2012-07-28 02:49:59", 
     "versions": [
         {
-            "doc_id": "NYD00001503", 
+            "doc_id": "NYD00043569", 
             "name": "A2212", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A2212-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A2212-2011"
         }
     ], 
     "votes": []

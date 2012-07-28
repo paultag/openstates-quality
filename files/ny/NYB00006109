@@ -14,6 +14,7 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-02-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -23,6 +24,7 @@
             "action": "REPORTED TO CALENDAR FOR CONSIDERATION", 
             "actor": "upper", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -31,6 +33,7 @@
             "action": "ADOPTED", 
             "actor": "upper", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -50,7 +53,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1149"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1241"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J535-2011"
@@ -60,7 +63,20 @@
         {
             "leg_id": "NYL000013", 
             "name": "ESPAILLAT", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000051", 
+            "name": "SAMPSON", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000059", 
+            "name": "STEWART-COUSINS", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -71,7 +87,7 @@
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-05-23 01:12:29", 
+    "updated_at": "2012-07-28 02:49:54", 
     "versions": [
         {
             "doc_id": "NYD00027928", 

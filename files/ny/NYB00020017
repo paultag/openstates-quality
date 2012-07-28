@@ -1,7 +1,8 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2012-01-04 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-03-12 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,9 +12,28 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
+            ]
+        }, 
+        {
+            "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
+            "actor": "upper", 
+            "date": "2012-03-12 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
+            "actor": "upper", 
+            "date": "2012-03-12 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
             ]
         }
     ], 
@@ -31,7 +51,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=379"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=404"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S6017-2011"
@@ -41,7 +61,26 @@
         {
             "leg_id": "NYL000010", 
             "name": "DIAZ", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000001", 
+            "name": "ADAMS", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000023", 
+            "name": "HASSELL-THOMPSON", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000028", 
+            "name": "KRUEGER", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -52,12 +91,12 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-14 06:28:41", 
+    "updated_at": "2012-07-28 02:49:51", 
     "versions": [
         {
-            "doc_id": "NYD00021340", 
+            "doc_id": "NYD00043489", 
             "name": "S6017", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S6017-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/S6017-2011"
         }
     ], 
     "votes": []

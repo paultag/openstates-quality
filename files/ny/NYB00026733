@@ -1,7 +1,5 @@
 {
-    "+companion_bill_ids": [
-        "A9024"
-    ], 
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2012-04-19 00:00:00", 
         "last": "2012-05-22 00:00:00", 
@@ -14,6 +12,7 @@
             "action": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2012-04-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -23,6 +22,7 @@
             "action": "REPORTED AND COMMITTED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -42,7 +42,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=463"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=470"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S6994-2011"
@@ -52,7 +52,20 @@
         {
             "leg_id": "NYL000021", 
             "name": "GRISANTI", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000023", 
+            "name": "HASSELL-THOMPSON", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000026", 
+            "name": "KENNEDY", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -63,7 +76,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-12 01:11:11", 
+    "updated_at": "2012-07-28 02:49:52", 
     "versions": [
         {
             "doc_id": "NYD00037274", 

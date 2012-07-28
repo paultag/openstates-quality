@@ -1,7 +1,8 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-03-03 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-04-18 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,6 +12,7 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +21,16 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "held for consideration in housing", 
+            "actor": "lower", 
+            "date": "2012-04-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -38,7 +50,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=775"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=879"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5995-2011"
@@ -48,7 +60,38 @@
         {
             "leg_id": "NYL000079", 
             "name": "Burling", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000068", 
+            "name": "Barclay", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000134", 
+            "name": "Kolb", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000166", 
+            "name": "Oaks", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000104", 
+            "name": "Finch", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000160", 
+            "name": "Montesano", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -59,12 +102,12 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-27 01:00:42", 
+    "updated_at": "2012-07-28 02:50:03", 
     "versions": [
         {
-            "doc_id": "NYD00006281", 
+            "doc_id": "NYD00043692", 
             "name": "A5995", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A5995-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A5995-2011"
         }
     ], 
     "votes": []
