@@ -1,4 +1,5 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-01-06 00:00:00", 
         "last": "2012-01-04 00:00:00", 
@@ -11,6 +12,7 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-01-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -20,6 +22,7 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -49,7 +52,20 @@
         {
             "leg_id": "NYL000002", 
             "name": "ADDABBO", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000042", 
+            "name": "OPPENHEIMER", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000044", 
+            "name": "PERALTA", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -60,7 +76,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-13 01:11:17", 
+    "updated_at": "2012-08-16 02:11:01", 
     "versions": [
         {
             "doc_id": "NYD00025854", 

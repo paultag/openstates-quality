@@ -1,4 +1,5 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-02-09 00:00:00", 
         "last": "2012-06-13 00:00:00", 
@@ -11,6 +12,7 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +21,7 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,6 +30,7 @@
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2012-06-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,6 +39,7 @@
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -43,6 +48,7 @@
             "action": "reported", 
             "actor": "lower", 
             "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -51,6 +57,7 @@
             "action": "rules report cal.139", 
             "actor": "lower", 
             "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -59,6 +66,7 @@
             "action": "ordered to third reading rules cal.139", 
             "actor": "lower", 
             "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -67,6 +75,7 @@
             "action": "passed assembly", 
             "actor": "lower", 
             "date": "2012-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -75,6 +84,7 @@
             "action": "delivered to senate", 
             "actor": "lower", 
             "date": "2012-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -83,6 +93,7 @@
             "action": "REFERRED TO RULES", 
             "actor": "lower", 
             "date": "2012-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -102,7 +113,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=802"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=813"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4900-2011"
@@ -112,7 +123,14 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -123,7 +141,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:33", 
+    "updated_at": "2012-08-16 02:11:15", 
     "versions": [
         {
             "doc_id": "NYD00040817", 

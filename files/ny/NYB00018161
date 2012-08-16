@@ -1,7 +1,8 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-06-08 00:00:00", 
-        "last": "2012-01-18 00:00:00", 
+        "last": "2012-06-14 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,6 +12,7 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-06-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +21,7 @@
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,6 +30,7 @@
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,6 +39,7 @@
             "action": "reported", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -43,6 +48,7 @@
             "action": "rules report cal.349", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -51,6 +57,7 @@
             "action": "ordered to third reading rules cal.349", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -59,6 +66,7 @@
             "action": "passed assembly", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -67,6 +75,7 @@
             "action": "delivered to senate", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -75,6 +84,7 @@
             "action": "REFERRED TO RULES", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -83,6 +93,7 @@
             "action": "DIED IN SENATE", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -91,6 +102,7 @@
             "action": "RETURNED TO ASSEMBLY", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -99,6 +111,7 @@
             "action": "ordered to third reading cal.285", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -107,6 +120,7 @@
             "action": "committed to housing", 
             "actor": "lower", 
             "date": "2012-01-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -115,6 +129,7 @@
             "action": "amend (t) and recommit to housing", 
             "actor": "lower", 
             "date": "2012-01-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -123,6 +138,52 @@
             "action": "print number 8243a", 
             "actor": "lower", 
             "date": "2012-01-18 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "amend (t) and recommit to housing", 
+            "actor": "lower", 
+            "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "print number 8243a", 
+            "actor": "lower", 
+            "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "print number 8243b", 
+            "actor": "lower", 
+            "date": "2012-05-24 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "reported referred to codes", 
+            "actor": "lower", 
+            "date": "2012-06-05 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "reported referred to rules", 
+            "actor": "lower", 
+            "date": "2012-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -142,7 +203,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=926"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1031"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8243-2011"
@@ -152,7 +213,26 @@
         {
             "leg_id": "NYL000086", 
             "name": "Castro", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000110", 
+            "name": "Gibson", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000126", 
+            "name": "Jaffee", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -163,12 +243,22 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-13 01:05:30", 
+    "updated_at": "2012-08-16 02:11:18", 
     "versions": [
         {
-            "doc_id": "NYD00009350", 
+            "doc_id": "NYD00044234", 
             "name": "A8243", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A8243-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A8243-2011"
+        }, 
+        {
+            "doc_id": "NYD00044235", 
+            "name": "A8243A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A8243A-2011"
+        }, 
+        {
+            "doc_id": "NYD00044236", 
+            "name": "A8243B", 
+            "url": "http://open.nysenate.gov/legislation/bill/A8243B-2011"
         }
     ], 
     "votes": []

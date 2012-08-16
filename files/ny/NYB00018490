@@ -1,4 +1,5 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-06-10 00:00:00", 
         "last": "2011-06-14 00:00:00", 
@@ -11,6 +12,7 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-06-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -20,6 +22,7 @@
             "action": "REPORTED TO CALENDAR FOR CONSIDERATION", 
             "actor": "upper", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +31,7 @@
             "action": "ADOPTED", 
             "actor": "upper", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -47,7 +51,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1113"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1395"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J2496-2011"
@@ -57,6 +61,7 @@
         {
             "leg_id": "NYL000039", 
             "name": "MONTGOMERY", 
+            "official_type": "primary", 
             "type": "primary"
         }
     ], 
@@ -68,12 +73,12 @@
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-02-22 01:05:06", 
+    "updated_at": "2012-08-16 02:11:09", 
     "versions": [
         {
-            "doc_id": "NYD00013192", 
+            "doc_id": "NYD00043941", 
             "name": "J2496", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/J2496-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/J2496-2011"
         }
     ], 
     "votes": []

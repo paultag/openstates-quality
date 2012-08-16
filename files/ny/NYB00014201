@@ -1,4 +1,5 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-03-24 00:00:00", 
         "last": "2012-01-04 00:00:00", 
@@ -11,6 +12,7 @@
             "action": "referred to tourism, parks, arts and sports development", 
             "actor": "lower", 
             "date": "2011-03-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +21,7 @@
             "action": "reference changed to housing", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,6 +30,7 @@
             "action": "amend and recommit to housing", 
             "actor": "lower", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,6 +39,7 @@
             "action": "print number 6685a", 
             "actor": "lower", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -43,6 +48,7 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,7 +68,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=836"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=924"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6685-2011"
@@ -72,7 +78,14 @@
         {
             "leg_id": "NYL000208", 
             "name": "Weprin", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000078", 
+            "name": "Brook-Krasny", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -83,12 +96,17 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-24 01:09:37", 
+    "updated_at": "2012-08-16 02:11:17", 
     "versions": [
         {
-            "doc_id": "NYD00007211", 
+            "doc_id": "NYD00044165", 
             "name": "A6685", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A6685-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A6685-2011"
+        }, 
+        {
+            "doc_id": "NYD00044166", 
+            "name": "A6685A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A6685A-2011"
         }
     ], 
     "votes": []

@@ -1,9 +1,10 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-05-03 00:00:00", 
-        "last": "2012-01-09 00:00:00", 
+        "last": "2012-06-22 00:00:00", 
         "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_upper": "2012-06-21 00:00:00", 
         "signed": null
     }, 
     "actions": [
@@ -11,6 +12,7 @@
             "action": "REFERRED TO ENVIRONMENTAL CONSERVATION", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -20,6 +22,7 @@
             "action": "REPORTED AND COMMITTED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +31,7 @@
             "action": "REFERRED TO ENVIRONMENTAL CONSERVATION", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -36,6 +40,7 @@
             "action": "AMEND (T) AND RECOMMIT TO ENVIRONMENTAL CONSERVATION", 
             "actor": "upper", 
             "date": "2012-01-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
@@ -45,8 +50,63 @@
             "action": "PRINT NUMBER 5228A", 
             "actor": "upper", 
             "date": "2012-01-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
+            ]
+        }, 
+        {
+            "action": "REPORTED AND COMMITTED TO FINANCE", 
+            "actor": "upper", 
+            "date": "2012-06-05 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
+            "actor": "upper", 
+            "date": "2012-06-21 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "ORDERED TO THIRD READING CAL.1512", 
+            "actor": "upper", 
+            "date": "2012-06-21 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "PASSED SENATE", 
+            "actor": "upper", 
+            "date": "2012-06-21 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "DELIVERED TO ASSEMBLY", 
+            "actor": "upper", 
+            "date": "2012-06-21 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "referred to environmental conservation", 
+            "actor": "upper", 
+            "date": "2012-06-22 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:introduced"
             ]
         }
     ], 
@@ -64,7 +124,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=346"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=354"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S5228-2011"
@@ -74,6 +134,7 @@
         {
             "leg_id": "NYL000021", 
             "name": "GRISANTI", 
+            "official_type": "primary", 
             "type": "primary"
         }
     ], 
@@ -85,7 +146,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-24 01:10:22", 
+    "updated_at": "2012-08-16 02:11:05", 
     "versions": [
         {
             "doc_id": "NYD00029209", 

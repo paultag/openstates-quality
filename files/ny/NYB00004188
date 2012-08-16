@@ -1,4 +1,5 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-03-11 00:00:00", 
         "last": "2012-01-04 00:00:00", 
@@ -11,6 +12,7 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-03-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -20,6 +22,7 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -39,7 +42,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=253"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=260"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S3971-2011"
@@ -49,7 +52,14 @@
         {
             "leg_id": "NYL000001", 
             "name": "ADAMS", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000042", 
+            "name": "OPPENHEIMER", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -60,12 +70,12 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-13 01:02:18", 
+    "updated_at": "2012-08-16 02:11:03", 
     "versions": [
         {
-            "doc_id": "NYD00018444", 
+            "doc_id": "NYD00043817", 
             "name": "S3971", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S3971-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/S3971-2011"
         }
     ], 
     "votes": []
