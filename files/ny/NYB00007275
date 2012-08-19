@@ -1,4 +1,7 @@
 {
+    "+companion_bill_ids": [
+        "S3479"
+    ], 
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
         "last": "2012-02-14 00:00:00", 
@@ -11,6 +14,7 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +23,7 @@
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,6 +32,7 @@
             "action": "amend and recommit to codes", 
             "actor": "lower", 
             "date": "2011-04-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,6 +41,7 @@
             "action": "print number 77a", 
             "actor": "lower", 
             "date": "2011-04-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -43,6 +50,7 @@
             "action": "reported", 
             "actor": "lower", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -51,6 +59,7 @@
             "action": "advanced to third reading cal.236", 
             "actor": "lower", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -59,6 +68,7 @@
             "action": "passed assembly", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -67,6 +77,7 @@
             "action": "delivered to senate", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -75,6 +86,7 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -83,6 +95,7 @@
             "action": "DIED IN SENATE", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -91,6 +104,7 @@
             "action": "RETURNED TO ASSEMBLY", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -99,6 +113,7 @@
             "action": "ordered to third reading cal.7", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -107,6 +122,7 @@
             "action": "amended on third reading 77b", 
             "actor": "lower", 
             "date": "2012-01-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -115,6 +131,7 @@
             "action": "passed assembly", 
             "actor": "lower", 
             "date": "2012-02-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -123,6 +140,7 @@
             "action": "delivered to senate", 
             "actor": "lower", 
             "date": "2012-02-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -131,6 +149,7 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "lower", 
             "date": "2012-02-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -150,7 +169,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=475"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=526"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A77-2011"
@@ -160,7 +179,62 @@
         {
             "leg_id": "NYL000169", 
             "name": "Paulin", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000157", 
+            "name": "Miller M", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000149", 
+            "name": "Markey", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000203", 
+            "name": "Titone", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": null, 
+            "name": "Mayersohn", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000131", 
+            "name": "Kavanagh", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000126", 
+            "name": "Jaffee", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000086", 
+            "name": "Castro", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -171,12 +245,22 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-10 01:06:12", 
+    "updated_at": "2012-08-19 02:11:00", 
     "versions": [
         {
-            "doc_id": "NYD00008602", 
+            "doc_id": "NYD00044353", 
             "name": "A77", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A77-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A77-2011"
+        }, 
+        {
+            "doc_id": "NYD00044354", 
+            "name": "A77A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A77A-2011"
+        }, 
+        {
+            "doc_id": "NYD00044355", 
+            "name": "A77B", 
+            "url": "http://open.nysenate.gov/legislation/bill/A77B-2011"
         }
     ], 
     "votes": []

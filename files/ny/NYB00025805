@@ -12,6 +12,7 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -21,6 +22,7 @@
             "action": "REPORTED TO CALENDAR FOR CONSIDERATION", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -29,6 +31,7 @@
             "action": "ADOPTED", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -48,7 +51,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1506"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1508"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J4746-2011"
@@ -58,11 +61,13 @@
         {
             "leg_id": "NYL000006", 
             "name": "BONACIC", 
+            "official_type": "primary", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000031", 
             "name": "LARKIN", 
+            "official_type": "cosponsor", 
             "type": "cosponsor"
         }
     ], 
@@ -74,7 +79,7 @@
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-07-06 02:27:32", 
+    "updated_at": "2012-08-19 02:10:55", 
     "versions": [
         {
             "doc_id": "NYD00026585", 

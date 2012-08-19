@@ -1,4 +1,5 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
         "last": "2012-04-18 00:00:00", 
@@ -11,6 +12,7 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +21,7 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,6 +30,7 @@
             "action": "held for consideration in housing", 
             "actor": "lower", 
             "date": "2012-04-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -46,7 +50,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=503"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=542"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A328-2011"
@@ -56,7 +60,56 @@
         {
             "leg_id": "NYL000160", 
             "name": "Montesano", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000150", 
+            "name": "McKevitt", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000159", 
+            "name": "Molinaro", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000188", 
+            "name": "Saladino", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000085", 
+            "name": "Castelli", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000198", 
+            "name": "Stevenson", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000181", 
+            "name": "Rivera N", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000157", 
+            "name": "Miller M", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -67,7 +120,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-26 01:09:25", 
+    "updated_at": "2012-08-19 02:11:00", 
     "versions": [
         {
             "doc_id": "NYD00031902", 

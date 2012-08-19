@@ -1,4 +1,5 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
         "last": "2012-01-04 00:00:00", 
@@ -11,6 +12,7 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +21,7 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -38,7 +41,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=516"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=562"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A651-2011"
@@ -48,7 +51,68 @@
         {
             "leg_id": "NYL000116", 
             "name": "Gunther", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000081", 
+            "name": "Cahill", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000082", 
+            "name": "Calhoun", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000094", 
+            "name": "Crouch", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000141", 
+            "name": "Lopez P", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000145", 
+            "name": "Magee", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000204", 
+            "name": "Titus", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000179", 
+            "name": "Reilly", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000086", 
+            "name": "Castro", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000223", 
+            "name": "Barrett", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -59,12 +123,12 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-18 01:03:58", 
+    "updated_at": "2012-08-19 02:11:00", 
     "versions": [
         {
-            "doc_id": "NYD00006984", 
+            "doc_id": "NYD00044376", 
             "name": "A651", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A651-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A651-2011"
         }
     ], 
     "votes": []

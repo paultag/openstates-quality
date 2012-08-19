@@ -1,4 +1,5 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-02-14 00:00:00", 
         "last": "2012-01-04 00:00:00", 
@@ -11,6 +12,7 @@
             "action": "referred to local governments", 
             "actor": "lower", 
             "date": "2011-02-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +21,7 @@
             "action": "referred to local governments", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -38,7 +41,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=820"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=831"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5206-2011"
@@ -48,7 +51,14 @@
         {
             "leg_id": "NYL000123", 
             "name": "Hooper", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -59,7 +69,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-16 01:15:44", 
+    "updated_at": "2012-08-19 02:11:04", 
     "versions": [
         {
             "doc_id": "NYD00026911", 

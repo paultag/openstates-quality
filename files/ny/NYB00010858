@@ -1,10 +1,8 @@
 {
-    "+companion_bill_ids": [
-        "S3092"
-    ], 
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-01-25 00:00:00", 
-        "last": "2012-06-11 00:00:00", 
+        "last": "2012-06-20 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -14,6 +12,7 @@
             "action": "referred to insurance", 
             "actor": "lower", 
             "date": "2011-01-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -22,6 +21,7 @@
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -30,6 +30,7 @@
             "action": "amend and recommit to codes", 
             "actor": "lower", 
             "date": "2011-06-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -38,6 +39,7 @@
             "action": "print number 3507a", 
             "actor": "lower", 
             "date": "2011-06-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -46,6 +48,7 @@
             "action": "referred to insurance", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +57,7 @@
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,8 +66,63 @@
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
+            ]
+        }, 
+        {
+            "action": "reported", 
+            "actor": "lower", 
+            "date": "2012-06-14 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "rules report cal.173", 
+            "actor": "lower", 
+            "date": "2012-06-14 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "ordered to third reading rules cal.173", 
+            "actor": "lower", 
+            "date": "2012-06-14 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "passed assembly", 
+            "actor": "lower", 
+            "date": "2012-06-20 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "delivered to senate", 
+            "actor": "lower", 
+            "date": "2012-06-20 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "REFERRED TO RULES", 
+            "actor": "lower", 
+            "date": "2012-06-20 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "committee:referred"
             ]
         }
     ], 
@@ -81,7 +140,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=711"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=730"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3507-2011"
@@ -91,7 +150,50 @@
         {
             "leg_id": "NYL000112", 
             "name": "Glick", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000199", 
+            "name": "Sweeney", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000165", 
+            "name": "O'Donnell", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000102", 
+            "name": "Englebright", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000151", 
+            "name": "McDonough", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000208", 
+            "name": "Weprin", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -102,7 +204,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-13 01:11:46", 
+    "updated_at": "2012-08-19 02:11:03", 
     "versions": [
         {
             "doc_id": "NYD00035271", 

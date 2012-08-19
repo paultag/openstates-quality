@@ -1,4 +1,5 @@
 {
+    "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-01-25 00:00:00", 
         "last": "2012-01-04 00:00:00", 
@@ -11,6 +12,7 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +21,7 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -38,7 +41,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=719"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=730"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3504-2011"
@@ -48,7 +51,50 @@
         {
             "leg_id": "NYL000112", 
             "name": "Glick", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000199", 
+            "name": "Sweeney", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000126", 
+            "name": "Jaffee", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -59,7 +105,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-16 01:15:44", 
+    "updated_at": "2012-08-19 02:11:03", 
     "versions": [
         {
             "doc_id": "NYD00035268", 
