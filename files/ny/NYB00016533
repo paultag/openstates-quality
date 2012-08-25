@@ -11,6 +11,7 @@
             "action": "referred to social services", 
             "actor": "lower", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +20,7 @@
             "action": "reported", 
             "actor": "lower", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,6 +29,7 @@
             "action": "advanced to third reading cal.493", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,6 +38,7 @@
             "action": "passed assembly", 
             "actor": "lower", 
             "date": "2011-06-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -43,6 +47,7 @@
             "action": "delivered to senate", 
             "actor": "lower", 
             "date": "2011-06-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -51,6 +56,7 @@
             "action": "REFERRED TO SOCIAL SERVICES", 
             "actor": "lower", 
             "date": "2011-06-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -59,6 +65,7 @@
             "action": "SUBSTITUTED FOR S5339", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -67,6 +74,7 @@
             "action": "3RD READING CAL.726", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -75,6 +83,7 @@
             "action": "PASSED SENATE", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -83,6 +92,7 @@
             "action": "RETURNED TO ASSEMBLY", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -91,6 +101,7 @@
             "action": "delivered to governor", 
             "actor": "lower", 
             "date": "2011-06-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -99,6 +110,7 @@
             "action": "signed chap.108", 
             "actor": "lower", 
             "date": "2011-06-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -107,6 +119,14 @@
     "alternate_titles": [], 
     "bill_id": "A 7827", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 5339", 
+            "chamber": null, 
+            "internal_id": "NYB00015780", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-19 06:39:45", 
     "documents": [], 
@@ -118,7 +138,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=945"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1002"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7827-2011"
@@ -128,7 +148,14 @@
         {
             "leg_id": "NYL000204", 
             "name": "Titus", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000100", 
+            "name": "Dinowitz", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -139,12 +166,12 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-19 01:04:27", 
+    "updated_at": "2012-08-24 19:58:16", 
     "versions": [
         {
-            "doc_id": "NYD00008782", 
+            "doc_id": "NYD00044727", 
             "name": "A7827", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A7827-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A7827-2011"
         }
     ], 
     "votes": [
@@ -251,8 +278,8 @@
                     "name": "Hannon"
                 }, 
                 {
-                    "leg_id": "NYL000023", 
-                    "name": "Hassell-Thompson"
+                    "leg_id": null, 
+                    "name": "Hassell-Thomps"
                 }, 
                 {
                     "leg_id": "NYL000024", 
@@ -395,8 +422,8 @@
                     "name": "Stavisky"
                 }, 
                 {
-                    "leg_id": "NYL000059", 
-                    "name": "Stewart-Cousins"
+                    "leg_id": null, 
+                    "name": "Stewart-Cousin"
                 }, 
                 {
                     "leg_id": "NYL000060", 

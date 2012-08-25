@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-11 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-04-18 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,6 +11,7 @@
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2011-02-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +20,16 @@
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "held for consideration in governmental operations", 
+            "actor": "lower", 
+            "date": "2012-04-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,6 +38,7 @@
     "alternate_titles": [], 
     "bill_id": "A 5099", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:10", 
     "documents": [], 
@@ -38,7 +50,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=696"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=825"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5099-2011"
@@ -48,7 +60,80 @@
         {
             "leg_id": "NYL000166", 
             "name": "Oaks", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000068", 
+            "name": "Barclay", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000080", 
+            "name": "Butler", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000151", 
+            "name": "McDonough", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000153", 
+            "name": "McLaughlin", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000168", 
+            "name": "Palmesano", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000202", 
+            "name": "Thiele", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000079", 
+            "name": "Burling", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000104", 
+            "name": "Finch", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000219", 
+            "name": "Giglio", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000118", 
+            "name": "Hawley", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000134", 
+            "name": "Kolb", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000188", 
+            "name": "Saladino", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -59,12 +144,12 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-22 01:05:10", 
+    "updated_at": "2012-08-24 20:29:18", 
     "versions": [
         {
-            "doc_id": "NYD00005136", 
+            "doc_id": "NYD00044820", 
             "name": "A5099", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A5099-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A5099-2011"
         }
     ], 
     "votes": []

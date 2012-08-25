@@ -11,6 +11,7 @@
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2011-06-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +20,7 @@
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,6 +29,7 @@
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,6 +38,7 @@
             "action": "reported", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -43,6 +47,7 @@
             "action": "rules report cal.384", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -51,6 +56,7 @@
             "action": "ordered to third reading rules cal.384", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -59,6 +65,7 @@
             "action": "passed assembly", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -67,6 +74,7 @@
             "action": "delivered to senate", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -75,6 +83,7 @@
             "action": "REFERRED TO RULES", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -83,6 +92,7 @@
             "action": "SUBSTITUTED FOR S5663", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -91,6 +101,7 @@
             "action": "3RD READING CAL.1348", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -99,6 +110,7 @@
             "action": "PASSED SENATE", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -107,6 +119,7 @@
             "action": "RETURNED TO ASSEMBLY", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -115,6 +128,7 @@
             "action": "delivered to governor", 
             "actor": "lower", 
             "date": "2011-09-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -123,6 +137,7 @@
             "action": "signed chap.538", 
             "actor": "lower", 
             "date": "2011-09-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -131,6 +146,14 @@
     "alternate_titles": [], 
     "bill_id": "A 8265", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 5663", 
+            "chamber": null, 
+            "internal_id": "NYB00018190", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-10 07:39:24", 
     "documents": [], 
@@ -142,7 +165,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=960"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1033"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8265-2011"
@@ -152,7 +175,44 @@
         {
             "leg_id": "NYL000199", 
             "name": "Sweeney", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000202", 
+            "name": "Thiele", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000102", 
+            "name": "Englebright", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000105", 
+            "name": "Fitzpatrick", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000143", 
+            "name": "Losquadro", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000163", 
+            "name": "Murray", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -163,12 +223,12 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-03 01:08:54", 
+    "updated_at": "2012-08-24 19:58:16", 
     "versions": [
         {
-            "doc_id": "NYD00009380", 
+            "doc_id": "NYD00044731", 
             "name": "A8265", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A8265-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A8265-2011"
         }
     ], 
     "votes": [
@@ -275,8 +335,8 @@
                     "name": "Hannon"
                 }, 
                 {
-                    "leg_id": "NYL000023", 
-                    "name": "Hassell-Thompson"
+                    "leg_id": null, 
+                    "name": "Hassell-Thomps"
                 }, 
                 {
                     "leg_id": "NYL000024", 
@@ -419,8 +479,8 @@
                     "name": "Stavisky"
                 }, 
                 {
-                    "leg_id": "NYL000059", 
-                    "name": "Stewart-Cousins"
+                    "leg_id": null, 
+                    "name": "Stewart-Cousin"
                 }, 
                 {
                     "leg_id": "NYL000060", 

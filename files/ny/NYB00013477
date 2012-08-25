@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-03-03 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-05-22 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,6 +11,7 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +20,16 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "held for consideration in judiciary", 
+            "actor": "lower", 
+            "date": "2012-05-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,6 +38,7 @@
     "alternate_titles": [], 
     "bill_id": "A 6009", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:14", 
     "documents": [], 
@@ -38,7 +50,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=746"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=880"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6009-2011"
@@ -48,7 +60,32 @@
         {
             "leg_id": "NYL000079", 
             "name": "Burling", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000145", 
+            "name": "Magee", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000160", 
+            "name": "Montesano", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000094", 
+            "name": "Crouch", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000104", 
+            "name": "Finch", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -59,12 +96,12 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-16 06:31:49", 
+    "updated_at": "2012-08-24 19:58:15", 
     "versions": [
         {
-            "doc_id": "NYD00006299", 
+            "doc_id": "NYD00044724", 
             "name": "A6009", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A6009-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A6009-2011"
         }
     ], 
     "votes": []

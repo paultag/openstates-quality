@@ -14,6 +14,7 @@
             "action": "referred to energy", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -22,6 +23,7 @@
             "action": "reported", 
             "actor": "lower", 
             "date": "2011-01-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -30,6 +32,7 @@
             "action": "advanced to third reading cal.1", 
             "actor": "lower", 
             "date": "2011-01-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -38,6 +41,7 @@
             "action": "passed assembly", 
             "actor": "lower", 
             "date": "2011-01-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -46,6 +50,7 @@
             "action": "delivered to senate", 
             "actor": "lower", 
             "date": "2011-01-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +59,7 @@
             "action": "REFERRED TO ENERGY AND TELECOMMUNICATIONS", 
             "actor": "lower", 
             "date": "2011-01-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -62,6 +68,7 @@
             "action": "SUBSTITUTED FOR S1149", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +77,7 @@
             "action": "3RD READING CAL.608", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +86,7 @@
             "action": "recalled from senate", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,6 +95,7 @@
             "action": "SUBSTITUTION RECONSIDERED", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +104,7 @@
             "action": "COMMITTED TO RULES", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +113,7 @@
             "action": "RETURNED TO ASSEMBLY", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +122,7 @@
             "action": "vote reconsidered - restored to third reading", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +131,7 @@
             "action": "amended on third reading 28a", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -126,6 +140,7 @@
             "action": "substituted by s1149a", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,6 +149,14 @@
     "alternate_titles": [], 
     "bill_id": "A 28", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1149", 
+            "chamber": null, 
+            "internal_id": "NYB00001192", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:48", 
     "documents": [], 
@@ -145,7 +168,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=513"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=523"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A28-2011"
@@ -155,7 +178,44 @@
         {
             "leg_id": "NYL000081", 
             "name": "Cahill", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000082", 
+            "name": "Calhoun", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000101", 
+            "name": "Duprey", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000141", 
+            "name": "Lopez P", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000145", 
+            "name": "Magee", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000116", 
+            "name": "Gunther", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000187", 
+            "name": "Russell", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -166,7 +226,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-16 01:15:41", 
+    "updated_at": "2012-08-24 20:29:17", 
     "versions": [
         {
             "doc_id": "NYD00026599", 
