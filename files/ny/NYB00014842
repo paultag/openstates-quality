@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-04-29 00:00:00", 
-        "last": "2012-03-01 00:00:00", 
+        "last": "2012-05-30 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,6 +11,7 @@
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2011-04-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +20,7 @@
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,6 +29,7 @@
             "action": "amend and recommit to aging", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,6 +38,25 @@
             "action": "print number 7309a", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to aging", 
+            "actor": "lower", 
+            "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "print number 7309b", 
+            "actor": "lower", 
+            "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -43,6 +65,7 @@
     "alternate_titles": [], 
     "bill_id": "A 7309", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:21", 
     "documents": [], 
@@ -54,7 +77,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=863"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=966"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7309-2011"
@@ -64,7 +87,14 @@
         {
             "leg_id": "NYL000100", 
             "name": "Dinowitz", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000113", 
+            "name": "Goodell", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -75,12 +105,22 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-05 01:34:28", 
+    "updated_at": "2012-08-28 09:56:15", 
     "versions": [
         {
-            "doc_id": "NYD00008062", 
+            "doc_id": "NYD00045025", 
             "name": "A7309", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A7309-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A7309-2011"
+        }, 
+        {
+            "doc_id": "NYD00045026", 
+            "name": "A7309A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A7309A-2011"
+        }, 
+        {
+            "doc_id": "NYD00045027", 
+            "name": "A7309B", 
+            "url": "http://open.nysenate.gov/legislation/bill/A7309B-2011"
         }
     ], 
     "votes": []

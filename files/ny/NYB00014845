@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-04-29 00:00:00", 
-        "last": "2012-01-10 00:00:00", 
+        "last": "2012-05-31 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,6 +11,7 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-04-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +20,7 @@
             "action": "amend and recommit to agriculture", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,6 +29,7 @@
             "action": "print number 7312a", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,6 +38,7 @@
             "action": "amend and recommit to agriculture", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -43,6 +47,7 @@
             "action": "print number 7312b", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -51,6 +56,7 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -59,6 +65,7 @@
             "action": "amend and recommit to agriculture", 
             "actor": "lower", 
             "date": "2012-01-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -67,6 +74,16 @@
             "action": "print number 7312c", 
             "actor": "lower", 
             "date": "2012-01-10 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "held for consideration in agriculture", 
+            "actor": "lower", 
+            "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -75,6 +92,7 @@
     "alternate_titles": [], 
     "bill_id": "A 7312", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:21", 
     "documents": [], 
@@ -86,7 +104,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=873"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=966"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7312-2011"
@@ -96,7 +114,56 @@
         {
             "leg_id": "NYL000132", 
             "name": "Kellner", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000107", 
+            "name": "Gabryszak", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000151", 
+            "name": "McDonough", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000203", 
+            "name": "Titone", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000210", 
+            "name": "Zebrowski", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -107,12 +174,27 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-20 06:02:27", 
+    "updated_at": "2012-08-28 09:56:15", 
     "versions": [
         {
-            "doc_id": "NYD00008067", 
+            "doc_id": "NYD00045031", 
             "name": "A7312", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A7312-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A7312-2011"
+        }, 
+        {
+            "doc_id": "NYD00045032", 
+            "name": "A7312A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A7312A-2011"
+        }, 
+        {
+            "doc_id": "NYD00045033", 
+            "name": "A7312B", 
+            "url": "http://open.nysenate.gov/legislation/bill/A7312B-2011"
+        }, 
+        {
+            "doc_id": "NYD00045034", 
+            "name": "A7312C", 
+            "url": "http://open.nysenate.gov/legislation/bill/A7312C-2011"
         }
     ], 
     "votes": []
