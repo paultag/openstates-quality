@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-04-21 00:00:00", 
-        "last": "2012-05-01 00:00:00", 
+        "last": "2012-06-11 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,6 +11,7 @@
             "action": "referred to veterans' affairs", 
             "actor": "lower", 
             "date": "2011-04-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +20,7 @@
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,6 +29,7 @@
             "action": "referred to veterans' affairs", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,6 +38,7 @@
             "action": "amend and recommit to veterans' affairs", 
             "actor": "lower", 
             "date": "2012-01-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -43,6 +47,7 @@
             "action": "print number 7260a", 
             "actor": "lower", 
             "date": "2012-01-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -51,14 +56,79 @@
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
+            ]
+        }, 
+        {
+            "action": "reported referred to rules", 
+            "actor": "lower", 
+            "date": "2012-06-06 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "reported", 
+            "actor": "lower", 
+            "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "rules report cal.94", 
+            "actor": "lower", 
+            "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "ordered to third reading rules cal.94", 
+            "actor": "lower", 
+            "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "passed assembly", 
+            "actor": "lower", 
+            "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "delivered to senate", 
+            "actor": "lower", 
+            "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "REFERRED TO RULES", 
+            "actor": "lower", 
+            "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7260", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:20", 
     "documents": [], 
@@ -70,7 +140,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=906"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=963"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7260-2011"
@@ -80,7 +150,44 @@
         {
             "leg_id": "NYL000177", 
             "name": "Ramos", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000096", 
+            "name": "Cusick", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000167", 
+            "name": "Ortiz", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000146", 
+            "name": "Magnarelli", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000164", 
+            "name": "Nolan", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000085", 
+            "name": "Castelli", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -91,12 +198,17 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-17 01:11:43", 
+    "updated_at": "2012-09-08 09:54:55", 
     "versions": [
         {
-            "doc_id": "NYD00007998", 
+            "doc_id": "NYD00045272", 
             "name": "A7260", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A7260-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A7260-2011"
+        }, 
+        {
+            "doc_id": "NYD00045273", 
+            "name": "A7260A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A7260A-2011"
         }
     ], 
     "votes": []

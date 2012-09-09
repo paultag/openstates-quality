@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-08 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-09-04 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,6 +11,7 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +20,16 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "enacting clause stricken", 
+            "actor": "lower", 
+            "date": "2012-09-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,6 +38,7 @@
     "alternate_titles": [], 
     "bill_id": "A 4825", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:09", 
     "documents": [], 
@@ -38,7 +50,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=798"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=808"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4825-2011"
@@ -48,7 +60,14 @@
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000170", 
+            "name": "Peoples-Stokes", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -59,7 +78,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-18 01:16:00", 
+    "updated_at": "2012-09-08 09:54:54", 
     "versions": [
         {
             "doc_id": "NYD00041247", 
