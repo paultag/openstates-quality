@@ -147,29 +147,11 @@
     ], 
     "votes": [
         {
-            "+vote_type": "Voice", 
-            "chamber": "lower", 
-            "date": "2011-05-10 14:21:12", 
-            "motion": "House  Voice vote", 
-            "no_count": 0, 
-            "no_votes": [], 
-            "other_count": 0, 
-            "other_votes": [], 
-            "passed": true, 
-            "sources": [
-                {
-                    "url": "http://legis.delaware.gov/LIS/lis146.nsf/7712cf7cc0e9227a852568470077336f/7c506f6c2efad2218525788c0064d1de?OpenDocument"
-                }
-            ], 
-            "type": "other", 
-            "vote_id": "DEV00000582", 
-            "yes_count": 0, 
-            "yes_votes": []
-        }, 
-        {
             "+vote_type": "SM", 
+            "bill_id": "DEB00000469", 
             "chamber": "upper", 
             "date": "2011-05-10 15:10:39", 
+            "id": "DEV00000583", 
             "motion": "Senate vote", 
             "no_count": 0, 
             "no_votes": [], 
@@ -181,11 +163,13 @@
                 }
             ], 
             "passed": true, 
+            "session": "146", 
             "sources": [
                 {
                     "url": "http://legis.delaware.gov/LIS/lis146.nsf/7712cf7cc0e9227a852568470077336f/dc4f80a5821f1ab98525788c0069583b?OpenDocument"
                 }
             ], 
+            "state": "de", 
             "type": "other", 
             "vote_id": "DEV00000583", 
             "yes_count": 20, 
@@ -271,6 +255,30 @@
                     "name": "Venables"
                 }
             ]
+        }, 
+        {
+            "+vote_type": "Voice", 
+            "bill_id": "DEB00000469", 
+            "chamber": "lower", 
+            "date": "2011-05-10 14:21:12", 
+            "id": "DEV00000582", 
+            "motion": "House  Voice vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "146", 
+            "sources": [
+                {
+                    "url": "http://legis.delaware.gov/LIS/lis146.nsf/7712cf7cc0e9227a852568470077336f/7c506f6c2efad2218525788c0064d1de?OpenDocument"
+                }
+            ], 
+            "state": "de", 
+            "type": "other", 
+            "vote_id": "DEV00000582", 
+            "yes_count": 0, 
+            "yes_votes": []
         }
     ]
 }
