@@ -11,6 +11,7 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -19,6 +20,7 @@
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2012-01-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,6 +29,7 @@
     "alternate_titles": [], 
     "bill_id": "A 6220", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:15", 
     "documents": [], 
@@ -38,7 +41,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=790"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=894"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6220-2011"
@@ -48,7 +51,14 @@
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -59,12 +69,12 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-28 00:54:12", 
+    "updated_at": "2012-09-13 09:56:04", 
     "versions": [
         {
-            "doc_id": "NYD00006580", 
+            "doc_id": "NYD00045605", 
             "name": "A6220", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A6220-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A6220-2011"
         }
     ], 
     "votes": []
