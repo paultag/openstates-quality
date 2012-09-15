@@ -14,6 +14,7 @@
             "action": "referred to labor", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced"
             ]
@@ -22,6 +23,7 @@
             "action": "reported", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -30,6 +32,7 @@
             "action": "advanced to third reading cal.357", 
             "actor": "lower", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -38,6 +41,7 @@
             "action": "passed assembly", 
             "actor": "lower", 
             "date": "2011-06-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -46,6 +50,7 @@
             "action": "delivered to senate", 
             "actor": "lower", 
             "date": "2011-06-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,6 +59,7 @@
             "action": "REFERRED TO LABOR", 
             "actor": "lower", 
             "date": "2011-06-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -62,6 +68,7 @@
             "action": "SUBSTITUTED FOR S5355", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +77,7 @@
             "action": "3RD READING CAL.1389", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,6 +86,7 @@
             "action": "PASSED SENATE", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -86,6 +95,7 @@
             "action": "RETURNED TO ASSEMBLY", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -94,6 +104,7 @@
             "action": "delivered to governor", 
             "actor": "lower", 
             "date": "2011-09-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -102,6 +113,7 @@
             "action": "vetoed memo.50", 
             "actor": "lower", 
             "date": "2011-09-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -110,6 +122,7 @@
             "action": "tabled", 
             "actor": "lower", 
             "date": "2011-09-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,6 +131,14 @@
     "alternate_titles": [], 
     "bill_id": "A 241", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 5355", 
+            "chamber": null, 
+            "internal_id": "NYB00015796", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:49", 
     "documents": [], 
@@ -129,7 +150,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=527"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=537"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A241-2011"
@@ -139,7 +160,140 @@
         {
             "leg_id": "NYL000136", 
             "name": "Latimer", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000071", 
+            "name": "Bing", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000107", 
+            "name": "Gabryszak", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000116", 
+            "name": "Gunther", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000120", 
+            "name": "Heastie", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000170", 
+            "name": "Peoples-Stokes", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000191", 
+            "name": "Schimel", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000147", 
+            "name": "Maisel", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000197", 
+            "name": "Spano", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000169", 
+            "name": "Paulin", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000063", 
+            "name": "Abbate", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000193", 
+            "name": "Schroeder", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000139", 
+            "name": "Lifton", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000108", 
+            "name": "Galef", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000124", 
+            "name": "Hoyt", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000088", 
+            "name": "Clark", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000171", 
+            "name": "Perry", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -150,7 +304,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-16 01:15:41", 
+    "updated_at": "2012-09-14 09:55:53", 
     "versions": [
         {
             "doc_id": "NYD00039962", 
@@ -275,8 +429,8 @@
                     "name": "Hannon"
                 }, 
                 {
-                    "leg_id": "NYL000023", 
-                    "name": "Hassell-Thompson"
+                    "leg_id": null, 
+                    "name": "Hassell-Thomps"
                 }, 
                 {
                     "leg_id": "NYL000024", 
@@ -411,8 +565,8 @@
                     "name": "Stavisky"
                 }, 
                 {
-                    "leg_id": "NYL000059", 
-                    "name": "Stewart-Cousins"
+                    "leg_id": null, 
+                    "name": "Stewart-Cousin"
                 }, 
                 {
                     "leg_id": "NYL000060", 
