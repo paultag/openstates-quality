@@ -14,7 +14,7 @@
             "date": "2011-06-10 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
@@ -23,7 +23,7 @@
             "date": "2012-01-04 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
@@ -32,7 +32,8 @@
             "date": "2012-05-02 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
@@ -41,7 +42,7 @@
             "date": "2012-05-02 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
@@ -50,7 +51,8 @@
             "date": "2012-05-29 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
@@ -59,7 +61,7 @@
             "date": "2012-05-29 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
@@ -68,7 +70,7 @@
             "date": "2012-06-05 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -78,7 +80,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-06-12 07:26:23", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00046634", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00018549", 
     "level": "state", 
     "scraped_subjects": [
@@ -122,7 +130,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-15 09:55:55", 
+    "updated_at": "2012-09-20 10:06:36", 
     "versions": [
         {
             "doc_id": "NYD00032130", 

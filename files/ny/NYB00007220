@@ -5,7 +5,7 @@
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
         "last": "2011-06-17 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2011-01-25 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -16,7 +16,7 @@
             "date": "2011-01-05 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
@@ -43,7 +43,7 @@
             "date": "2011-01-25 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "bill:passed"
             ]
         }, 
         {
@@ -57,7 +57,7 @@
         }, 
         {
             "action": "REFERRED TO ENERGY AND TELECOMMUNICATIONS", 
-            "actor": "lower", 
+            "actor": "upper", 
             "date": "2011-01-25 00:00:00", 
             "related_entities": [], 
             "type": [
@@ -66,7 +66,7 @@
         }, 
         {
             "action": "SUBSTITUTED FOR S1149", 
-            "actor": "lower", 
+            "actor": "upper", 
             "date": "2011-06-13 00:00:00", 
             "related_entities": [], 
             "type": [
@@ -75,7 +75,7 @@
         }, 
         {
             "action": "3RD READING CAL.608", 
-            "actor": "lower", 
+            "actor": "upper", 
             "date": "2011-06-13 00:00:00", 
             "related_entities": [], 
             "type": [
@@ -93,7 +93,7 @@
         }, 
         {
             "action": "SUBSTITUTION RECONSIDERED", 
-            "actor": "lower", 
+            "actor": "upper", 
             "date": "2011-06-13 00:00:00", 
             "related_entities": [], 
             "type": [
@@ -102,16 +102,16 @@
         }, 
         {
             "action": "COMMITTED TO RULES", 
-            "actor": "lower", 
+            "actor": "upper", 
             "date": "2011-06-13 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "RETURNED TO ASSEMBLY", 
-            "actor": "lower", 
+            "actor": "upper", 
             "date": "2011-06-13 00:00:00", 
             "related_entities": [], 
             "type": [
@@ -133,7 +133,7 @@
             "date": "2011-06-13 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
@@ -159,7 +159,13 @@
     ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:48", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00046195", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007220", 
     "level": "state", 
     "scraped_subjects": [
@@ -226,7 +232,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 20:29:17", 
+    "updated_at": "2012-09-20 10:06:29", 
     "versions": [
         {
             "doc_id": "NYD00026599", 

@@ -13,7 +13,7 @@
             "date": "2011-01-26 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
@@ -22,7 +22,7 @@
             "date": "2012-01-04 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -32,7 +32,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:03", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00046383", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010935", 
     "level": "state", 
     "scraped_subjects": [
@@ -117,7 +123,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-13 09:56:03", 
+    "updated_at": "2012-09-20 10:06:33", 
     "versions": [
         {
             "doc_id": "NYD00045581", 
