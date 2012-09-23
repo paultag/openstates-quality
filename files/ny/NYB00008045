@@ -14,25 +14,34 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 803", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:51", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00046860", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008045", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +50,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=551"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=573"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A803-2011"
@@ -51,6 +60,7 @@
         {
             "leg_id": "NYL000109", 
             "name": "Gantt", 
+            "official_type": "primary", 
             "type": "primary"
         }
     ], 
@@ -62,7 +72,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-12 01:11:21", 
+    "updated_at": "2012-09-22 10:05:40", 
     "versions": [
         {
             "doc_id": "NYD00028233", 

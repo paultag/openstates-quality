@@ -11,49 +11,62 @@
             "action": "referred to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2012-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
             "action": "print number 500a", 
             "actor": "lower", 
             "date": "2012-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2012-02-14 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 500", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00046840", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007733", 
     "level": "state", 
     "scraped_subjects": [
@@ -62,7 +75,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=513"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=554"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A500-2011"
@@ -72,6 +85,7 @@
         {
             "leg_id": "NYL000138", 
             "name": "Lentol", 
+            "official_type": "primary", 
             "type": "primary"
         }
     ], 
@@ -83,7 +97,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-25 01:13:11", 
+    "updated_at": "2012-09-22 10:05:40", 
     "versions": [
         {
             "doc_id": "NYD00030912", 

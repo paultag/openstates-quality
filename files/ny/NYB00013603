@@ -14,41 +14,53 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to housing", 
             "actor": "lower", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
             "action": "print number 6132a", 
             "actor": "lower", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 6132", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:14", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00047165", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013603", 
     "level": "state", 
     "scraped_subjects": [
@@ -57,7 +69,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=865"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=889"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6132-2011"
@@ -67,6 +79,7 @@
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
+            "official_type": "primary", 
             "type": "primary"
         }
     ], 
@@ -78,7 +91,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-12 01:11:27", 
+    "updated_at": "2012-09-22 10:05:44", 
     "versions": [
         {
             "doc_id": "NYD00037451", 

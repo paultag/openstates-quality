@@ -11,25 +11,34 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 191", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:49", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00046813", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007399", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +47,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=456"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=534"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A191-2011"
@@ -48,7 +57,62 @@
         {
             "leg_id": "NYL000081", 
             "name": "Cahill", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000080", 
+            "name": "Butler", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000149", 
+            "name": "Markey", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000096", 
+            "name": "Cusick", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000131", 
+            "name": "Kavanagh", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000102", 
+            "name": "Englebright", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -59,13 +123,13 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-20 06:02:18", 
+    "updated_at": "2012-09-22 10:05:40", 
     "versions": [
         {
-            "doc_id": "NYD00001120", 
+            "doc_id": "NYD00046812", 
             "mimetype": "text/html", 
             "name": "A191", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A191-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A191-2011"
         }
     ], 
     "votes": []

@@ -2,7 +2,7 @@
     "action_dates": {
         "first": "2011-01-31 00:00:00", 
         "last": "2011-01-31 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2011-01-31 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -11,14 +11,16 @@
             "action": "adopted", 
             "actor": "lower", 
             "date": "2011-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "bill:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "K 82", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:22", 
     "documents": [], 
@@ -30,7 +32,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1167"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1198"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K82-2011"
@@ -40,7 +42,14 @@
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000099", 
+            "name": "Destito", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -51,7 +60,7 @@
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-06-14 01:13:57", 
+    "updated_at": "2012-09-22 10:05:49", 
     "versions": [
         {
             "doc_id": "NYD00038872", 

@@ -11,22 +11,25 @@
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2011-03-04 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "K 196", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:22", 
     "documents": [], 
@@ -38,7 +41,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1105"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1209"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K196-2011"
@@ -48,7 +51,14 @@
         {
             "leg_id": "NYL000143", 
             "name": "Losquadro", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000102", 
+            "name": "Englebright", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -59,13 +69,13 @@
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-05-17 01:11:46", 
+    "updated_at": "2012-09-22 10:05:49", 
     "versions": [
         {
-            "doc_id": "NYD00010781", 
+            "doc_id": "NYD00047403", 
             "mimetype": "text/html", 
             "name": "K196", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/K196-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/K196-2011"
         }
     ], 
     "votes": []

@@ -22,6 +22,9 @@
             "actor": "upper", 
             "date": "2012-09-20 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NJV00008907"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -104,7 +107,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 00:22:51", 
+    "updated_at": "2012-09-23 00:33:52", 
     "versions": [
         {
             "doc_id": "NJD00033181", 
@@ -119,5 +122,70 @@
             "url": "http://www.njleg.state.nj.us/2012/Bills/S2000/1796_R1.HTM"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+bill_id": "S1796", 
+            "bill_id": "NJB00021099", 
+            "chamber": "upper", 
+            "committee": "Senate Health, Human Services and Senior Citizens Committee", 
+            "committee_id": "NJC000065", 
+            "date": "2012-09-20 00:00:00", 
+            "id": "NJV00008907", 
+            "motion": "Reported out of Senate committee with amendments", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 4, 
+            "other_votes": [
+                {
+                    "leg_id": "NJL000084", 
+                    "name": "Rice, Ronald L."
+                }, 
+                {
+                    "leg_id": "NJL000020", 
+                    "name": "Allen, Diane B."
+                }, 
+                {
+                    "leg_id": "NJL000024", 
+                    "name": "Addiego, Dawn Marie"
+                }, 
+                {
+                    "leg_id": "NJL000039", 
+                    "name": "Thompson, Samuel D."
+                }
+            ], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00008907", 
+            "yes_count": 6, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000090", 
+                    "name": "Singer, Robert W."
+                }, 
+                {
+                    "leg_id": "NJL000007", 
+                    "name": "Sweeney, Stephen M."
+                }, 
+                {
+                    "leg_id": "NJL000010", 
+                    "name": "Madden, Fred H."
+                }, 
+                {
+                    "leg_id": "NJL000112", 
+                    "name": "Weinberg, Loretta"
+                }, 
+                {
+                    "leg_id": "NJL000004", 
+                    "name": "Whelan, Jim"
+                }, 
+                {
+                    "leg_id": "NJL000115", 
+                    "name": "Gordon, Robert M."
+                }
+            ]
+        }
+    ]
 }

@@ -13,7 +13,7 @@
             "date": "2011-06-09 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
@@ -22,7 +22,7 @@
             "date": "2012-01-04 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -32,7 +32,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-06-10 07:39:24", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00047294", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00018287", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +47,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1033"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1034"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8269-2011"
@@ -63,7 +69,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 19:58:17", 
+    "updated_at": "2012-09-22 10:05:46", 
     "versions": [
         {
             "doc_id": "NYD00044736", 

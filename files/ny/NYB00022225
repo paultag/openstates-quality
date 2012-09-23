@@ -14,8 +14,8 @@
             "action": "REFERRED TO ENVIRONMENTAL CONSERVATION", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -23,6 +23,14 @@
     "alternate_titles": [], 
     "bill_id": "S 6456", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 1391", 
+            "chamber": null, 
+            "internal_id": "NYB00008657", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-02-11 06:27:00", 
     "documents": [], 
@@ -44,7 +52,14 @@
         {
             "leg_id": "NYL000002", 
             "name": "ADDABBO", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000004", 
+            "name": "AVELLA", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -55,7 +70,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-27 21:39:37", 
+    "updated_at": "2012-09-22 10:05:35", 
     "versions": [
         {
             "doc_id": "NYD00032544", 
