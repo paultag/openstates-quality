@@ -55,6 +55,9 @@
             "actor": "lower", 
             "date": "2012-09-24 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NJV00008943"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -78,6 +81,11 @@
             "doc_id": "NJD00032926", 
             "name": "Statement SCU 3/8/12", 
             "url": "http://www.njleg.state.nj.us/2012/Bills/S1000/829_S1.HTM"
+        }, 
+        {
+            "doc_id": "NJD00035923", 
+            "name": "Statement AHO 9/24/12", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/S1000/829_S2.HTM"
         }, 
         {
             "doc_id": "NJD00032927", 
@@ -145,13 +153,19 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-25 00:22:13", 
+    "updated_at": "2012-09-26 00:20:28", 
     "versions": [
         {
             "doc_id": "NJD00032925", 
             "mimetype": "text/html", 
             "name": "Introduced Version", 
             "url": "http://www.njleg.state.nj.us/2012/Bills/S1000/829_I1.HTM"
+        }, 
+        {
+            "doc_id": "NJD00035922", 
+            "mimetype": "text/html", 
+            "name": "Reprint", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/S1000/829_R1.HTM"
         }
     ], 
     "votes": [
@@ -378,6 +392,54 @@
                 {
                     "leg_id": "NJL000004", 
                     "name": "Whelan, Jim"
+                }
+            ]
+        }, 
+        {
+            "+bill_id": "S829", 
+            "bill_id": "NJB00019431", 
+            "chamber": "lower", 
+            "committee": "Assembly Housing and Local Government Committee", 
+            "committee_id": null, 
+            "date": "2012-09-24 00:00:00", 
+            "id": "NJV00008943", 
+            "motion": "Reported out of Assembly committee with amendments", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NJL000062", 
+                    "name": "Quijano, Annette"
+                }
+            ], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00008943", 
+            "yes_count": 5, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000068", 
+                    "name": "Green, Jerry"
+                }, 
+                {
+                    "leg_id": "NJL000076", 
+                    "name": "Carroll, Michael Patrick"
+                }, 
+                {
+                    "leg_id": "NJL000083", 
+                    "name": "Jasey, Mila M."
+                }, 
+                {
+                    "leg_id": "NJL000157", 
+                    "name": "Clifton, Robert D."
+                }, 
+                {
+                    "leg_id": "NJL000161", 
+                    "name": "Jimenez, Angelica M."
                 }
             ]
         }

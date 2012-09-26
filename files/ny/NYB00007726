@@ -14,25 +14,34 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 493", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00047699", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A493&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007726", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +50,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=513"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=553"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A493-2011"
@@ -51,7 +60,80 @@
         {
             "leg_id": "NYL000110", 
             "name": "Gibson", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000067", 
+            "name": "Aubry", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000098", 
+            "name": "DenDekker", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000170", 
+            "name": "Peoples-Stokes", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000173", 
+            "name": "Pretlow", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000093", 
+            "name": "Crespo", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000127", 
+            "name": "Jeffries", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000086", 
+            "name": "Castro", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -62,7 +144,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-25 01:13:10", 
+    "updated_at": "2012-09-25 10:05:56", 
     "versions": [
         {
             "doc_id": "NYD00030905", 

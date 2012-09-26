@@ -42,7 +42,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-01-12 22:01:46", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NJD00035977", 
+            "name": "Statement AHO 9/24/12 ACS", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/A2000/1744_S1.HTM"
+        }
+    ], 
     "id": "NJB00017406", 
     "level": "state", 
     "scraped_subjects": [
@@ -69,6 +75,11 @@
     ], 
     "sponsors": [
         {
+            "leg_id": "NJL000053", 
+            "name": "Chivukula, Upendra J.", 
+            "type": "primary"
+        }, 
+        {
             "leg_id": "NJL000099", 
             "name": "Prieto, Vincent", 
             "type": "primary"
@@ -94,18 +105,73 @@
         "Housing and Property", 
         "Military"
     ], 
-    "title": "Grants certain veterans preference in affordable housing.", 
+    "title": "Permits affordable housing occupancy preferences for veterans through municipal agreements with developer.*", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-25 00:22:39", 
+    "updated_at": "2012-09-26 00:20:55", 
     "versions": [
         {
             "doc_id": "NJD00029673", 
             "mimetype": "text/html", 
             "name": "Introduced Version", 
             "url": "http://www.njleg.state.nj.us/2012/Bills/A2000/1744_I1.HTM"
+        }, 
+        {
+            "doc_id": "NJD00035976", 
+            "mimetype": "text/html", 
+            "name": "Assembly Committee Substitute", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/A2000/1744_U1.HTM"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+bill_id": "A1744", 
+            "bill_id": "NJB00017406", 
+            "chamber": "lower", 
+            "committee": "Assembly Housing and Local Government Committee", 
+            "committee_id": null, 
+            "date": "2012-09-24 00:00:00", 
+            "id": "NJV00008954", 
+            "motion": "Reported out of Assembly committee as a substitute", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NJL000062", 
+                    "name": "Quijano, Annette"
+                }
+            ], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00008954", 
+            "yes_count": 5, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000068", 
+                    "name": "Green, Jerry"
+                }, 
+                {
+                    "leg_id": "NJL000076", 
+                    "name": "Carroll, Michael Patrick"
+                }, 
+                {
+                    "leg_id": "NJL000083", 
+                    "name": "Jasey, Mila M."
+                }, 
+                {
+                    "leg_id": "NJL000157", 
+                    "name": "Clifton, Robert D."
+                }, 
+                {
+                    "leg_id": "NJL000161", 
+                    "name": "Jimenez, Angelica M."
+                }
+            ]
+        }
+    ]
 }

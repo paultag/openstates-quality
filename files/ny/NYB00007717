@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-06-19 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,25 +11,43 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "held for consideration in ways and means", 
+            "actor": "lower", 
+            "date": "2012-06-19 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 484", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00047689", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A484&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007717", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +56,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=456"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=553"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A484-2011"
@@ -48,7 +66,20 @@
         {
             "leg_id": "NYL000138", 
             "name": "Lentol", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -59,13 +90,13 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-20 20:49:20", 
+    "updated_at": "2012-09-25 10:05:56", 
     "versions": [
         {
-            "doc_id": "NYD00004812", 
+            "doc_id": "NYD00047688", 
             "mimetype": "text/html", 
             "name": "A484", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A484-2011"
+            "url": "http://open.nysenate.gov/legislation/bill/A484-2011"
         }
     ], 
     "votes": []

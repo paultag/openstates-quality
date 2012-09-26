@@ -11,25 +11,34 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2011-01-14 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 2193", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:57", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00047787", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2193&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009485", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +47,7 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=643"
+            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=654"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2193-2011"
@@ -48,7 +57,44 @@
         {
             "leg_id": "NYL000209", 
             "name": "Wright", 
+            "official_type": "primary", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000084", 
+            "name": "Canestrari", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000136", 
+            "name": "Latimer", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000210", 
+            "name": "Zebrowski", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "cosponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -60,7 +106,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-16 01:15:43", 
+    "updated_at": "2012-09-25 10:05:57", 
     "versions": [
         {
             "doc_id": "NYD00029755", 

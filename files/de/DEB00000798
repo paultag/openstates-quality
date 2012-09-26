@@ -1,11 +1,12 @@
 {
     "+fiscal_notes": "Not Required", 
+    "+volume_chapter": "78:409", 
     "action_dates": {
         "first": "2012-06-13 00:00:00", 
-        "last": "2012-06-28 00:00:00", 
+        "last": "2012-09-24 00:00:00", 
         "passed_lower": "2012-06-28 00:00:00", 
         "passed_upper": "2012-06-21 00:00:00", 
-        "signed": null
+        "signed": "2012-09-24 00:00:00"
     }, 
     "actions": [
         {
@@ -84,6 +85,15 @@
             ], 
             "type": [
                 "bill:passed"
+            ]
+        }, 
+        {
+            "action": "Signed by Governor", 
+            "actor": "governor", 
+            "date": "2012-09-24 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:signed"
             ]
         }
     ], 
@@ -324,7 +334,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 02:58:40", 
+    "updated_at": "2012-09-26 02:13:25", 
     "versions": [
         {
             "+source": "http://legis.delaware.gov/LIS/lis146.nsf/2bede841c6272c888025698400433a04/245057efbc3ead2085257a150058bda7?OpenDocument", 
