@@ -31,6 +31,9 @@
             "actor": "lower", 
             "date": "2012-09-27 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NJV00008998"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -49,7 +52,13 @@
     ], 
     "country": "us", 
     "created_at": "2012-01-12 22:01:39", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NJD00036108", 
+            "name": "Statement AJU 9/27/12", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/A1500/1374_S1.HTM"
+        }
+    ], 
     "id": "NJB00016765", 
     "level": "state", 
     "scraped_subjects": [
@@ -117,14 +126,73 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-28 00:18:22", 
+    "updated_at": "2012-09-29 00:23:22", 
     "versions": [
         {
             "doc_id": "NJD00028584", 
             "mimetype": "text/html", 
             "name": "Introduced Version", 
             "url": "http://www.njleg.state.nj.us/2012/Bills/A1500/1374_I1.HTM"
+        }, 
+        {
+            "doc_id": "NJD00036107", 
+            "mimetype": "text/html", 
+            "name": "Reprint", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/A1500/1374_R1.HTM"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+bill_id": "A1374", 
+            "bill_id": "NJB00016765", 
+            "chamber": "lower", 
+            "committee": "Assembly Judiciary Committee", 
+            "committee_id": null, 
+            "date": "2012-09-27 00:00:00", 
+            "id": "NJV00008998", 
+            "motion": "Reported out of Assembly committee with amendments", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NJL000114", 
+                    "name": "Johnson, Gordon M."
+                }
+            ], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00008998", 
+            "yes_count": 6, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000056", 
+                    "name": "Barnes, Peter J."
+                }, 
+                {
+                    "leg_id": "NJL000086", 
+                    "name": "Caputo, Ralph R."
+                }, 
+                {
+                    "leg_id": "NJL000168", 
+                    "name": "Schepisi, Holly"
+                }, 
+                {
+                    "leg_id": "NJL000076", 
+                    "name": "Carroll, Michael Patrick"
+                }, 
+                {
+                    "leg_id": "NJL000082", 
+                    "name": "McKeon, John F."
+                }, 
+                {
+                    "leg_id": "NJL000113", 
+                    "name": "Vainieri Huttle, Valerie"
+                }
+            ]
+        }
+    ]
 }
