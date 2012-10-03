@@ -22,6 +22,9 @@
             "actor": "upper", 
             "date": "2012-06-21 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NJV00009038"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -56,6 +59,11 @@
             "doc_id": "NJD00034944", 
             "name": "Statement SJU 6-21-2012", 
             "url": "http://www.njleg.state.nj.us/2012/Bills/S1500/1219_S1.HTM"
+        }, 
+        {
+            "doc_id": "NJD00036240", 
+            "name": "Statement SBA 10/1/12", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/S1500/1219_S2.HTM"
         }
     ], 
     "id": "NJB00019905", 
@@ -101,14 +109,98 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-10-02 00:18:11", 
+    "updated_at": "2012-10-02 19:25:40", 
     "versions": [
         {
             "doc_id": "NJD00032307", 
             "mimetype": "text/html", 
             "name": "Introduced Version", 
             "url": "http://www.njleg.state.nj.us/2012/Bills/S1500/1219_I1.HTM"
+        }, 
+        {
+            "doc_id": "NJD00036239", 
+            "mimetype": "text/html", 
+            "name": "Reprint", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/S1500/1219_R1.HTM"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+bill_id": "S1219", 
+            "bill_id": "NJB00019905", 
+            "chamber": "upper", 
+            "committee": "Senate Judiciary Committee", 
+            "committee_id": "NJC000035", 
+            "date": "2012-06-21 00:00:00", 
+            "id": "NJV00009038", 
+            "motion": "Reported favorably out of committee", 
+            "no_count": 2, 
+            "no_votes": [
+                {
+                    "leg_id": "NJL000118", 
+                    "name": "Cardinale, Gerald"
+                }, 
+                {
+                    "leg_id": "NJL000069", 
+                    "name": "Doherty, Michael J."
+                }
+            ], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NJL000038", 
+                    "name": "Kyrillos, Joseph M."
+                }
+            ], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00009038", 
+            "yes_count": 10, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000112", 
+                    "name": "Weinberg, Loretta"
+                }, 
+                {
+                    "leg_id": "NJL000048", 
+                    "name": "Bateman, Christopher"
+                }, 
+                {
+                    "leg_id": "NJL000100", 
+                    "name": "Stack, Brian P."
+                }, 
+                {
+                    "leg_id": "NJL000121", 
+                    "name": "O'Toole, Kevin J."
+                }, 
+                {
+                    "leg_id": "NJL000107", 
+                    "name": "Pou, Nellie"
+                }, 
+                {
+                    "leg_id": "NJL000060", 
+                    "name": "Lesniak, Raymond J."
+                }, 
+                {
+                    "leg_id": "NJL000103", 
+                    "name": "Gill, Nia H."
+                }, 
+                {
+                    "leg_id": "NJL000109", 
+                    "name": "Sarlo, Paul A."
+                }, 
+                {
+                    "leg_id": "NJL000066", 
+                    "name": "Scutari, Nicholas P."
+                }, 
+                {
+                    "leg_id": "NJL000051", 
+                    "name": "Smith, Bob"
+                }
+            ]
+        }
+    ]
 }
