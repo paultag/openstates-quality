@@ -1,29 +1,20 @@
 {
     "action_dates": {
-        "first": "2011-01-20 00:00:00", 
-        "last": "2011-10-11 00:00:00", 
+        "first": "2011-01-24 00:00:00", 
+        "last": "2012-10-01 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
     }, 
     "actions": [
         {
-            "action": "Bill Filed.", 
-            "actor": "lower", 
-            "date": "2011-01-20 00:00:00", 
-            "related_entities": [], 
-            "type": [
-                "bill:filed"
-            ]
-        }, 
-        {
-            "action": "Referred to Joint Committee on Housing.", 
+            "action": "Referred to the committee on Housing", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
             "related_entities": [
                 {
                     "id": null, 
-                    "name": "Referred to Joint Committee on Housing.", 
+                    "name": "Referred to the committee on Housing", 
                     "type": "committee"
                 }
             ], 
@@ -32,7 +23,7 @@
             ]
         }, 
         {
-            "action": "Senate concurred.", 
+            "action": "Senate concurred", 
             "actor": "upper", 
             "date": "2011-01-24 00:00:00", 
             "related_entities": [], 
@@ -44,6 +35,15 @@
             "action": "Hearing scheduled for 10/11/2011 from 10:00 AM-03:00 PM in Gardner Auditorium", 
             "actor": "joint", 
             "date": "2011-10-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "Accompanied a study order, see", 
+            "actor": "lower", 
+            "date": "2012-10-01 00:00:00", 
             "related_entities": [], 
             "type": [
                 "other"
@@ -79,7 +79,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-28 04:20:16", 
+    "updated_at": "2012-10-04 04:20:30", 
     "versions": [
         {
             "doc_id": "MAD00001239", 
