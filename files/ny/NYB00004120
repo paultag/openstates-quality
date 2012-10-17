@@ -14,8 +14,14 @@
             "action": "REFERRED TO CONSUMER PROTECTION", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000010", 
+                    "name": "CONSUMER PROTECTION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,13 @@
             "action": "REFERRED TO CONSUMER PROTECTION", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000010", 
+                    "name": "CONSUMER PROTECTION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -31,9 +44,23 @@
     "alternate_titles": [], 
     "bill_id": "S 3908", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 1367", 
+            "chamber": null, 
+            "internal_id": "NYB00008631", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:31", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00060790", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3908-2011"
+        }
+    ], 
     "id": "NYB00004120", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=254"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3908&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3908&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S3908-2011"
@@ -52,6 +82,7 @@
         {
             "leg_id": "NYL000032", 
             "name": "LAVALLE", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +90,19 @@
     "subjects": [
         "Business and Consumers"
     ], 
+    "summary": "Provides for the labeling of food or food products that contain a genetically\nmodified material or that are produced with a genetically modified material;\ndefines terms; imposes penalties for false labels and misbranding; sets forth\nexemptions.", 
     "title": "Provides for the labeling of food or food products that contain a genetically modified material or that are produced with a genetically modified material", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-13 01:11:23", 
+    "updated_at": "2012-10-16 18:02:01", 
     "versions": [
+        {
+            "doc_id": "NYD00060789", 
+            "mimetype": "text/html", 
+            "name": "S3908", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3908"
+        }, 
         {
             "doc_id": "NYD00037865", 
             "mimetype": "text/html", 

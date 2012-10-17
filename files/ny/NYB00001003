@@ -11,8 +11,14 @@
             "action": "REFERRED TO SOCIAL SERVICES", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000031", 
+                    "name": "SOCIAL SERVICES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO SOCIAL SERVICES", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000031", 
+                    "name": "SOCIAL SERVICES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,16 @@
     "alternate_titles": [], 
     "bill_id": "S 973", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:19", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00051859", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S973-2011"
+        }
+    ], 
     "id": "NYB00001003", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=60"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S973&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S973&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S973-2011"
@@ -49,24 +72,98 @@
         {
             "leg_id": "NYL000023", 
             "name": "HASSELL-THOMPSON", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000001", 
+            "name": "ADAMS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000010", 
+            "name": "DIAZ", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000012", 
+            "name": "DUANE", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000028", 
+            "name": "KRUEGER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000039", 
+            "name": "MONTGOMERY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000042", 
+            "name": "OPPENHEIMER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000043", 
+            "name": "PARKER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000045", 
+            "name": "PERKINS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000051", 
+            "name": "SAMPSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000052", 
+            "name": "SAVINO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000057", 
+            "name": "SQUADRON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Requires limit to maximum length of stay at residential program for victims of\ndomestic violence.", 
     "title": "Requires limit to maximum length of stay at residential program for victims of domestic violence", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-04 06:26:32", 
+    "updated_at": "2012-10-16 17:59:38", 
     "versions": [
         {
-            "doc_id": "NYD00022372", 
+            "doc_id": "NYD00051857", 
             "mimetype": "text/html", 
             "name": "S973", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S973-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S973"
+        }, 
+        {
+            "doc_id": "NYD00051858", 
+            "mimetype": "text/html", 
+            "name": "S973", 
+            "url": "http://open.nysenate.gov/legislation/bill/S973-2011"
         }
     ], 
     "votes": []

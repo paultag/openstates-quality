@@ -12,36 +12,61 @@
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2011-03-25 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in health", 
             "actor": "lower", 
             "date": "2011-05-24 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }, 
         {
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 6728", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:17", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00097464", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6728&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014246", 
     "level": "state", 
     "scraped_subjects": [
@@ -50,7 +75,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=926"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6728&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6728&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6728-2011"
@@ -60,31 +88,31 @@
         {
             "leg_id": "NYL000201", 
             "name": "Tenney", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000094", 
-            "name": "Crouch", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000085", 
             "name": "Castelli", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000115", 
             "name": "Graf", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000104", 
             "name": "Finch", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000094", 
+            "name": "Crouch", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -92,12 +120,19 @@
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Creates the state emergency health powers act; establishes measures to detect\nand track potential and existing public health emergencies and measures to\ndeclare a state of public emergency; authorizes special powers during a state\nof public emergency for the control of property and the control of persons; and\nfurther establishes procedures for dissemination of information to the public;\nenacts legislation relating to terrorism; including the crimes of agricultural\nadulteration in the first and second degrees, cyber-terrorism, hazardous use of\na laser pointer, structuring in the first and second degrees, criminal\nfacilitation of terrorism and conspiracy to commit terrorism; geographical\njurisdiction of offenses, special aircraft jurisdiction of the state; search\nwarrant of a foreign electronic communications service or a foreign remote\ncomputing service; liability of providers; roving interceptions.", 
     "title": "Creates the state emergency health powers act and enacts legislation relating to terrorism", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 02:25:53", 
+    "updated_at": "2012-10-16 18:09:57", 
     "versions": [
+        {
+            "doc_id": "NYD00097463", 
+            "mimetype": "text/html", 
+            "name": "A6728", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6728"
+        }, 
         {
             "doc_id": "NYD00027023", 
             "mimetype": "text/html", 

@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-08 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-06-06 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,8 +11,14 @@
             "action": "REFERRED TO VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000033", 
+                    "name": "VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,14 +26,43 @@
             "action": "REPORTED AND COMMITTED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-02-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "REFERRED TO VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000033", 
+                    "name": "VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "REPORTED AND COMMITTED TO FINANCE", 
+            "actor": "upper", 
+            "date": "2012-06-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,9 +71,16 @@
     "alternate_titles": [], 
     "bill_id": "S 3098", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:28", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00057974", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3098-2011"
+        }
+    ], 
     "id": "NYB00003251", 
     "level": "state", 
     "scraped_subjects": [
@@ -47,7 +89,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=190"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3098&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3098&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S3098-2011"
@@ -57,25 +102,202 @@
         {
             "leg_id": "NYL000005", 
             "name": "BALL", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000004", 
+            "name": "AVELLA", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000031", 
+            "name": "LARKIN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides the veteran's exemption from real property taxes to the unmarried\nsurviving spouse of a qualifying veteran; relates to both regular veteran's\nexemption and the alternative exemption.", 
     "title": "Provides veteran's exemption for unmarried surviving spouse of qualifying veteran", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-04 06:26:52", 
+    "updated_at": "2012-10-16 18:01:04", 
     "versions": [
         {
-            "doc_id": "NYD00017173", 
+            "doc_id": "NYD00057972", 
             "mimetype": "text/html", 
             "name": "S3098", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S3098-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3098"
+        }, 
+        {
+            "doc_id": "NYD00057973", 
+            "mimetype": "text/html", 
+            "name": "S3098", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3098-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00003251", 
+            "chamber": "upper", 
+            "date": "2012-06-05 00:00:00", 
+            "id": "NYV00005561", 
+            "motion": "Veterans, Homeland Security and Military Affairs Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S3098-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00005561", 
+            "yes_count": 13, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000005", 
+                    "name": "Ball"
+                }, 
+                {
+                    "leg_id": "NYL000015", 
+                    "name": "Flanagan"
+                }, 
+                {
+                    "leg_id": "NYL000019", 
+                    "name": "Golden"
+                }, 
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000021", 
+                    "name": "Grisanti"
+                }, 
+                {
+                    "leg_id": "NYL000038", 
+                    "name": "McDonald"
+                }, 
+                {
+                    "leg_id": "NYL000062", 
+                    "name": "Zeldin"
+                }, 
+                {
+                    "leg_id": "NYL000002", 
+                    "name": "Addabbo"
+                }, 
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
+                }, 
+                {
+                    "leg_id": "NYL000008", 
+                    "name": "Carlucci"
+                }, 
+                {
+                    "leg_id": "NYL000027", 
+                    "name": "Klein"
+                }, 
+                {
+                    "leg_id": "NYL000052", 
+                    "name": "Savino"
+                }
+            ]
+        }, 
+        {
+            "bill_id": "NYB00003251", 
+            "chamber": "upper", 
+            "date": "2011-02-15 00:00:00", 
+            "id": "NYV00005560", 
+            "motion": "Veterans, Homeland Security and Military Affairs Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S3098-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00005560", 
+            "yes_count": 14, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000005", 
+                    "name": "Ball"
+                }, 
+                {
+                    "leg_id": "NYL000015", 
+                    "name": "Flanagan"
+                }, 
+                {
+                    "leg_id": "NYL000019", 
+                    "name": "Golden"
+                }, 
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000021", 
+                    "name": "Grisanti"
+                }, 
+                {
+                    "leg_id": "NYL000031", 
+                    "name": "Larkin"
+                }, 
+                {
+                    "leg_id": "NYL000038", 
+                    "name": "McDonald"
+                }, 
+                {
+                    "leg_id": "NYL000062", 
+                    "name": "Zeldin"
+                }, 
+                {
+                    "leg_id": "NYL000002", 
+                    "name": "Addabbo"
+                }, 
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
+                }, 
+                {
+                    "leg_id": "NYL000008", 
+                    "name": "Carlucci"
+                }, 
+                {
+                    "leg_id": "NYL000027", 
+                    "name": "Klein"
+                }, 
+                {
+                    "leg_id": "NYL000052", 
+                    "name": "Savino"
+                }
+            ]
+        }
+    ]
 }

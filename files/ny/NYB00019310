@@ -14,33 +14,68 @@
             "action": "referred to children and families", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000044", 
+                    "name": "children and families", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to children and families", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000044", 
+                    "name": "children and families", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in children and families", 
             "actor": "lower", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000044", 
+                    "name": "children and families", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 8450", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 5565", 
+            "chamber": null, 
+            "internal_id": "NYB00017544", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-17 08:06:30", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00089132", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8450&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00019310", 
     "level": "state", 
     "scraped_subjects": [
@@ -49,7 +84,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1030"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8450&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8450&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8450-2011"
@@ -59,19 +97,33 @@
         {
             "leg_id": "NYL000092", 
             "name": "Corwin", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000087", 
+            "name": "Ceretto", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Enacts \"Renee's Law\"; directs the commissioner of children and family services\nto provide training to all employees of programs and facilities in which youth\nare placed or committed; grants access to office of children and family service\nrecords, juvenile delinquency records, youthful offender records and juvenile\noffender records of youth placed or committed to a facility, to staff members\nand employees who are exposed to such youth and to foster parents who take\ncustody of such person after his or her release; grants courts and attorneys\naccess to such records in any proceeding for the commission of a crime while a\nyouth is in the custody of the office of children and family services;\nprohibits the release, discharge or transfer of any youth who has engaged in\ncriminal activity while in custody; requires the reporting to law enforcement\nauthorities of criminal activity by a youth in the custody of the office of\nchildren and family services; requires a police officer to escort an employee\nsent to find a youth who is absent without authorization.", 
     "title": "Enacts \"Renee's law\" to provide greater protection and disclosure to employees of facilities where juvenile delinquents and youthful offenders are placed", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-15 01:11:54", 
+    "updated_at": "2012-10-16 18:07:48", 
     "versions": [
+        {
+            "doc_id": "NYD00089131", 
+            "mimetype": "text/html", 
+            "name": "A8450", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8450"
+        }, 
         {
             "doc_id": "NYD00027133", 
             "mimetype": "text/html", 

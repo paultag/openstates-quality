@@ -12,8 +12,8 @@
             "action": "ADOPTED", 
             "actor": "upper", 
             "date": "2011-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "bill:introduced", 
                 "bill:passed"
             ]
         }
@@ -21,9 +21,16 @@
     "alternate_titles": [], 
     "bill_id": "J 1770", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-10 00:57:06", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00072851", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J1770-2011"
+        }
+    ], 
     "id": "NYB00015586", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +39,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1357"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J1770&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J1770&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J1770-2011"
@@ -42,6 +52,7 @@
         {
             "leg_id": "NYL000013", 
             "name": "ESPAILLAT", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -49,12 +60,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commending Rosa Zorilla for her dedication in preserving her community's housing resources and recognizing her as a leader and an inspiration", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-07-10 02:28:23", 
+    "updated_at": "2012-10-16 18:04:45", 
     "versions": [
+        {
+            "doc_id": "NYD00072850", 
+            "mimetype": "text/html", 
+            "name": "J1770", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J1770"
+        }, 
         {
             "doc_id": "NYD00042367", 
             "mimetype": "text/html", 

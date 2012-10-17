@@ -11,8 +11,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-02-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,7 @@
             "action": "REPORTED TO CALENDAR FOR CONSIDERATION", 
             "actor": "upper", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +35,7 @@
             "action": "ADOPTED", 
             "actor": "upper", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -36,9 +44,16 @@
     "alternate_titles": [], 
     "bill_id": "J 3172", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-02-28 00:59:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00075325", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J3172-2011"
+        }
+    ], 
     "id": "NYB00022569", 
     "level": "state", 
     "scraped_subjects": [
@@ -47,7 +62,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1339"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J3172&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J3172&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J3172-2011"
@@ -57,19 +75,387 @@
         {
             "leg_id": "NYL000047", 
             "name": "RITCHIE", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000001", 
+            "name": "ADAMS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000002", 
+            "name": "ADDABBO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000003", 
+            "name": "ALESI", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000004", 
+            "name": "AVELLA", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000005", 
+            "name": "BALL", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000006", 
+            "name": "BONACIC", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000007", 
+            "name": "BRESLIN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000008", 
+            "name": "CARLUCCI", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000009", 
+            "name": "DEFRANCISCO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000010", 
+            "name": "DIAZ", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000011", 
+            "name": "DILAN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000012", 
+            "name": "DUANE", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000013", 
+            "name": "ESPAILLAT", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000014", 
+            "name": "FARLEY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000015", 
+            "name": "FLANAGAN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000016", 
+            "name": "FUSCHILLO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000017", 
+            "name": "GALLIVAN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000018", 
+            "name": "GIANARIS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000019", 
+            "name": "GOLDEN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000020", 
+            "name": "GRIFFO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000021", 
+            "name": "GRISANTI", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000022", 
+            "name": "HANNON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000023", 
+            "name": "HASSELL-THOMPSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000024", 
+            "name": "HUNTLEY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000025", 
+            "name": "JOHNSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000026", 
+            "name": "KENNEDY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000027", 
+            "name": "KLEIN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000028", 
+            "name": "KRUEGER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000030", 
+            "name": "LANZA", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000031", 
+            "name": "LARKIN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000032", 
+            "name": "LAVALLE", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000033", 
+            "name": "LIBOUS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000034", 
+            "name": "LITTLE", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000035", 
+            "name": "MARCELLINO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000036", 
+            "name": "MARTINS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000037", 
+            "name": "MAZIARZ", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000038", 
+            "name": "MCDONALD", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000039", 
+            "name": "MONTGOMERY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000040", 
+            "name": "NOZZOLIO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000041", 
+            "name": "O'MARA", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000042", 
+            "name": "OPPENHEIMER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000043", 
+            "name": "PARKER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000044", 
+            "name": "PERALTA", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000045", 
+            "name": "PERKINS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000046", 
+            "name": "RANZENHOFER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000048", 
+            "name": "RIVERA", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000049", 
+            "name": "ROBACH", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000050", 
+            "name": "SALAND", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000051", 
+            "name": "SAMPSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000052", 
+            "name": "SAVINO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000053", 
+            "name": "SERRANO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000054", 
+            "name": "SEWARD", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000055", 
+            "name": "SKELOS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000056", 
+            "name": "SMITH", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000057", 
+            "name": "SQUADRON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000058", 
+            "name": "STAVISKY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000059", 
+            "name": "STEWART-COUSINS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000060", 
+            "name": "VALESKY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000061", 
+            "name": "YOUNG", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000062", 
+            "name": "ZELDIN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Memorializing Governor Andrew M. Cuomo to proclaim February 18-25, 2012, as FFA Week in the State of New York", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-05-30 01:14:33", 
+    "updated_at": "2012-10-16 18:05:02", 
     "versions": [
+        {
+            "doc_id": "NYD00075324", 
+            "mimetype": "text/html", 
+            "name": "J3172", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J3172"
+        }, 
         {
             "doc_id": "NYD00032831", 
             "mimetype": "text/html", 

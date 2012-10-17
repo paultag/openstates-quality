@@ -14,8 +14,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-05-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -23,9 +29,23 @@
     "alternate_titles": [], 
     "bill_id": "S 7417", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 10165", 
+            "chamber": null, 
+            "internal_id": "NYB00025901", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-05-25 01:13:03", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00068370", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S7417-2011"
+        }
+    ], 
     "id": "NYB00026049", 
     "level": "state", 
     "scraped_subjects": [
@@ -34,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=482"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S7417&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S7417&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S7417-2011"
@@ -44,19 +67,45 @@
         {
             "leg_id": "NYL000019", 
             "name": "GOLDEN", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000005", 
+            "name": "BALL", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000030", 
+            "name": "LANZA", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000052", 
+            "name": "SAVINO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Prohibits subjecting any dog, cat or companion animal to a surgical procedure\nwith no medical benefit to the animal, for cosmetic or aesthetic purposes.", 
     "title": "Relates to prohibiting certain cosmetic surgery on animals", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-01 01:07:21", 
+    "updated_at": "2012-10-16 18:03:57", 
     "versions": [
+        {
+            "doc_id": "NYD00068369", 
+            "mimetype": "text/html", 
+            "name": "S7417", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S7417"
+        }, 
         {
             "doc_id": "NYD00030577", 
             "mimetype": "text/html", 

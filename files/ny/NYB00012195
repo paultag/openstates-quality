@@ -11,25 +11,46 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-02-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4776", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:09", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00095968", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4776&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012195", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=748"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4776&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4776&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4776-2011"
@@ -48,7 +72,56 @@
         {
             "leg_id": "NYL000100", 
             "name": "Dinowitz", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000186", 
+            "name": "Rosenthal", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000197", 
+            "name": "Spano", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000181", 
+            "name": "Rivera N", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000110", 
+            "name": "Gibson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -56,17 +129,24 @@
         "Housing and Property", 
         "Legal Issues"
     ], 
+    "summary": "Relates to establishing a cap on the rate of rent adjustment set by the rent\nguidelines board.", 
     "title": "Relates to establishing a cap on the rate of rent adjustment set by the rent guidelines board", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-10 01:06:17", 
+    "updated_at": "2012-10-16 18:09:27", 
     "versions": [
         {
-            "doc_id": "NYD00004729", 
+            "doc_id": "NYD00095966", 
             "mimetype": "text/html", 
             "name": "A4776", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4776-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4776"
+        }, 
+        {
+            "doc_id": "NYD00095967", 
+            "mimetype": "text/html", 
+            "name": "A4776", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4776-2011"
         }
     ], 
     "votes": []

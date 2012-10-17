@@ -11,14 +11,22 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,9 +35,23 @@
     "alternate_titles": [], 
     "bill_id": "A 4880", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1649", 
+            "chamber": null, 
+            "internal_id": "NYB00001707", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:09", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00083943", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4880&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012301", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=759"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4880&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4880&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4880-2011"
@@ -48,24 +73,62 @@
         {
             "leg_id": null, 
             "name": "Towns", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000181", 
+            "name": "Rivera N", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000167", 
+            "name": "Ortiz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000110", 
+            "name": "Gibson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Establishes the urban homeowners assistance program to assist first time, low\nor moderate income, or minority homeowners avoid foreclosure by authorizing and\ndirecting the commissioner of the state division of housing and community\nrenewal to enter into contracts with neighborhood preservation companies to\nprovide for such assistance to residents in certain urban communities; makes an\nappropriation therefor.", 
     "title": "Establishes the urban homeowners assistance program to assist first time, low or moderate income, or minority homeowners to avoid foreclosure; appropriation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-17 01:11:41", 
+    "updated_at": "2012-10-16 18:06:30", 
     "versions": [
         {
-            "doc_id": "NYD00004857", 
+            "doc_id": "NYD00083941", 
             "mimetype": "text/html", 
             "name": "A4880", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4880-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4880"
+        }, 
+        {
+            "doc_id": "NYD00083942", 
+            "mimetype": "text/html", 
+            "name": "A4880", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4880-2011"
         }
     ], 
     "votes": []

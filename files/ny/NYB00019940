@@ -11,8 +11,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-10-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,6 +41,7 @@
             "action": "REPORTED TO CALENDAR FOR CONSIDERATION", 
             "actor": "upper", 
             "date": "2012-01-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,6 +50,7 @@
             "action": "ADOPTED", 
             "actor": "upper", 
             "date": "2012-01-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -44,9 +59,16 @@
     "alternate_titles": [], 
     "bill_id": "J 2756", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-10-27 07:03:12", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00080585", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J2756-2011"
+        }
+    ], 
     "id": "NYB00019940", 
     "level": "state", 
     "scraped_subjects": [
@@ -55,7 +77,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1264"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J2756&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J2756&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J2756-2011"
@@ -65,6 +90,7 @@
         {
             "leg_id": "NYL000007", 
             "name": "BRESLIN", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -72,17 +98,24 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commemorating the 16th Anniversary of The Legal Project to be celebrated October 27, 2011", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-05-05 01:07:11", 
+    "updated_at": "2012-10-16 18:05:47", 
     "versions": [
         {
-            "doc_id": "NYD00013472", 
+            "doc_id": "NYD00080583", 
             "mimetype": "text/html", 
             "name": "J2756", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/J2756-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J2756"
+        }, 
+        {
+            "doc_id": "NYD00080584", 
+            "mimetype": "text/html", 
+            "name": "J2756", 
+            "url": "http://open.nysenate.gov/legislation/bill/J2756-2011"
         }
     ], 
     "votes": []

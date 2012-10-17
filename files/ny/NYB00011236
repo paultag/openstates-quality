@@ -12,18 +12,30 @@
             "action": "referred to local governments", 
             "actor": "lower", 
             "date": "2011-01-28 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000065", 
+                    "name": "local governments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to local governments", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000065", 
+                    "name": "local governments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -33,7 +45,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:04", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00089947", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3878&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011236", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=751"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3878&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3878&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3878-2011"
@@ -52,67 +73,67 @@
         {
             "leg_id": "NYL000102", 
             "name": "Englebright", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000063", 
-            "name": "Abbate", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000076", 
-            "name": "Brennan", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000179", 
-            "name": "Reilly", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000180", 
             "name": "Rivera J", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000199", 
             "name": "Sweeney", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000172", 
             "name": "Pheffer", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000116", 
             "name": "Gunther", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000184", 
             "name": "Robinson", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000073", 
             "name": "Boyland", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000193", 
             "name": "Schroeder", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000063", 
+            "name": "Abbate", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000179", 
+            "name": "Reilly", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -120,12 +141,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Authorizes cities, towns and villages to establish mixed-use age-integrated\ncommunities by permitting the development of sites to combine residential\nunits, commercial space and/or services for a multi-age population; 30% of such\nresidential units shall be for persons 60 years of age or older, and at least\n10% thereof shall be affordable by persons at 60% or less of the area median\nincome; authorizes, cities, town and villages to grant incentives for the\nconstruction of such communities; grants a real property tax exemption for such\nhousing.", 
     "title": "Authorizes cities, towns and villages to establish mixed-use age integrated communities, offer incentives to developers, and a tax exemption for such property", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 19:58:13", 
+    "updated_at": "2012-10-16 18:08:03", 
     "versions": [
+        {
+            "doc_id": "NYD00089946", 
+            "mimetype": "text/html", 
+            "name": "A3878", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3878"
+        }, 
         {
             "doc_id": "NYD00038175", 
             "mimetype": "text/html", 

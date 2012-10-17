@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,6 +41,7 @@
             "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
             "actor": "upper", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,17 +50,31 @@
             "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2012-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 907", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:18", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00061769", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S907-2011"
+        }
+    ], 
     "id": "NYB00000932", 
     "level": "state", 
     "scraped_subjects": [
@@ -55,7 +83,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=58"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S907&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S907&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S907-2011"
@@ -65,19 +96,51 @@
         {
             "leg_id": "NYL000028", 
             "name": "KRUEGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000012", 
+            "name": "DUANE", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000024", 
+            "name": "HUNTLEY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000053", 
+            "name": "SERRANO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000058", 
+            "name": "STAVISKY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Provides that in cities with a population of one million or more, a tenant or\ngroup of tenants, after proper notice to the landlord of the existence of a\nhazardous violation of housing codes and certification of the existence of such\nviolation by the local agency charged with enforcement of housing codes, may\ncontract for the repair of such condition and offset the price of such repair\nfrom his rental payments if the landlord fails to commence work to correct the\ncondition within a certain period after notice is received.", 
     "title": "Permits tenants in certain cities to take a rental offset for repair of hazardous conditions", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:15", 
+    "updated_at": "2012-10-16 18:02:11", 
     "versions": [
+        {
+            "doc_id": "NYD00061768", 
+            "mimetype": "text/html", 
+            "name": "S907", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S907"
+        }, 
         {
             "doc_id": "NYD00032242", 
             "mimetype": "text/html", 

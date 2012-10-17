@@ -2,7 +2,7 @@
     "action_dates": {
         "first": "2012-06-11 00:00:00", 
         "last": "2012-06-11 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2012-06-11 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -13,7 +13,7 @@
             "date": "2012-06-11 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "bill:passed"
             ]
         }
     ], 
@@ -23,7 +23,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-06-14 01:13:59", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00107570", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1502&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00026939", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +38,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1340"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1502&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1502&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K1502-2011"
@@ -42,7 +51,7 @@
         {
             "leg_id": "NYL000067", 
             "name": "Aubry", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -50,12 +59,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Honoring Correction Officer John Iocovello, recipient of a New York State Department of Corrections and Community Supervision Medal of Merit on June 14, 2012", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-14 09:56:03", 
+    "updated_at": "2012-10-16 18:12:35", 
     "versions": [
+        {
+            "doc_id": "NYD00107569", 
+            "mimetype": "text/html", 
+            "name": "K1502", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K1502"
+        }, 
         {
             "doc_id": "NYD00038915", 
             "mimetype": "text/html", 

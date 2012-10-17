@@ -12,7 +12,13 @@
             "action": "REFERRED TO CITIES", 
             "actor": "upper", 
             "date": "2011-05-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000006", 
+                    "name": "CITIES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -21,7 +27,13 @@
             "action": "REFERRED TO CITIES", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000006", 
+                    "name": "CITIES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -30,10 +42,23 @@
     "alternate_titles": [], 
     "bill_id": "S 5013", 
     "chamber": "upper", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "A 7748", 
+            "chamber": null, 
+            "internal_id": "NYB00016202", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:39", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00051095", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5013-2011"
+        }
+    ], 
     "id": "NYB00005275", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=337"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5013&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5013&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S5013-2011"
@@ -52,37 +80,37 @@
         {
             "leg_id": "NYL000004", 
             "name": "AVELLA", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000012", 
             "name": "DUANE", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000013", 
             "name": "ESPAILLAT", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000028", 
             "name": "KRUEGER", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000045", 
             "name": "PERKINS", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000053", 
             "name": "SERRANO", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -90,12 +118,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Prohibits the operation of horse drawn cabs in the city of New York; defines\nthe circumstances under which sale or disposal of a horse shall be deemed\nhumane.", 
     "title": "Prohibits the operation of horse drawn cabs in the city of New York; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:24", 
+    "updated_at": "2012-10-16 17:59:19", 
     "versions": [
+        {
+            "doc_id": "NYD00051094", 
+            "mimetype": "text/html", 
+            "name": "S5013", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5013"
+        }, 
         {
             "doc_id": "NYD00042183", 
             "mimetype": "text/html", 

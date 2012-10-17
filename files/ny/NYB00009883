@@ -11,7 +11,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -29,7 +41,13 @@
             "action": "held for consideration in housing", 
             "actor": "lower", 
             "date": "2012-05-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:failed"
             ]
@@ -43,9 +61,9 @@
     "created_at": "2011-05-05 01:29:59", 
     "documents": [
         {
-            "doc_id": "NYD00046329", 
+            "doc_id": "NYD00098468", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2569&term=&Memo=Y"
         }
     ], 
     "id": "NYB00009883", 
@@ -56,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=676"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2569&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2569&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2569-2011"
@@ -66,7 +87,7 @@
         {
             "leg_id": "NYL000105", 
             "name": "Fitzpatrick", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -74,12 +95,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Provides for an alternative hardship allowance for landlords in New York city\nrent controlled apartments which allows a hardship rent increase where a\nbuilding's annual net income is less than 8.5 percent of the equalized assessed\nvalue.", 
     "title": "Provides an alternative hardship allowance based on 8 1/2% of assessed value", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:32", 
+    "updated_at": "2012-10-16 18:10:08", 
     "versions": [
+        {
+            "doc_id": "NYD00098467", 
+            "mimetype": "text/html", 
+            "name": "A2569", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2569"
+        }, 
         {
             "doc_id": "NYD00046095", 
             "mimetype": "text/html", 

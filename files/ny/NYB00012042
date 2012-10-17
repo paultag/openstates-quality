@@ -11,33 +11,61 @@
             "action": "referred to mental health", 
             "actor": "lower", 
             "date": "2011-02-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000066", 
+                    "name": "mental health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to mental health", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000066", 
+                    "name": "mental health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in mental health", 
             "actor": "lower", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000066", 
+                    "name": "mental health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4627", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:08", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00082220", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4627&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012042", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=766"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4627&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4627&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4627-2011"
@@ -56,7 +87,50 @@
         {
             "leg_id": "NYL000176", 
             "name": "Raia", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000082", 
+            "name": "Calhoun", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000104", 
+            "name": "Finch", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000151", 
+            "name": "McDonough", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000198", 
+            "name": "Stevenson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000090", 
+            "name": "Conte", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000094", 
+            "name": "Crouch", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000202", 
+            "name": "Thiele", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -64,12 +138,19 @@
         "Health", 
         "Legal Issues"
     ], 
+    "summary": "Requires municipal approval of and a public hearing on the siting of community\nresidential facilities for mentally disabled persons and removes the property\ntax exemption for such community residential facilities.", 
     "title": "Requires municipal approval of and a public hearing on the siting of community residential facilities and removes the property tax exemption", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-06 01:17:25", 
+    "updated_at": "2012-10-16 18:06:00", 
     "versions": [
+        {
+            "doc_id": "NYD00082219", 
+            "mimetype": "text/html", 
+            "name": "A4627", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4627"
+        }, 
         {
             "doc_id": "NYD00036178", 
             "mimetype": "text/html", 

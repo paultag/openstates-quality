@@ -14,18 +14,38 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-05-01 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 9997", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 7147", 
+            "chamber": null, 
+            "internal_id": "NYB00028238", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-05-02 01:43:45", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00101920", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9997&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00024771", 
     "level": "state", 
     "scraped_subjects": [
@@ -34,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1139"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9997&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9997&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9997-2011"
@@ -44,13 +67,13 @@
         {
             "leg_id": "NYL000116", 
             "name": "Gunther", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -58,12 +81,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Includes the production of cellulosic ethanol within the biofuel production tax\ncredit.", 
     "title": "Includes the production of cellulosic ethanol within the biofuel production tax credit", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 02:25:54", 
+    "updated_at": "2012-10-16 18:11:03", 
     "versions": [
+        {
+            "doc_id": "NYD00101919", 
+            "mimetype": "text/html", 
+            "name": "A9997", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9997"
+        }, 
         {
             "doc_id": "NYD00043113", 
             "mimetype": "text/html", 

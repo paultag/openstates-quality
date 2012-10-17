@@ -1,9 +1,9 @@
 {
     "action_dates": {
         "first": "2012-05-22 00:00:00", 
-        "last": "2012-05-22 00:00:00", 
+        "last": "2012-05-31 00:00:00", 
         "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_upper": "2012-05-31 00:00:00", 
         "signed": null
     }, 
     "actions": [
@@ -11,18 +11,49 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
+            ]
+        }, 
+        {
+            "action": "REPORTED TO CALENDAR FOR CONSIDERATION", 
+            "actor": "upper", 
+            "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "ADOPTED", 
+            "actor": "upper", 
+            "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "J 4808", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-05-23 01:12:34", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00072328", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J4808-2011"
+        }
+    ], 
     "id": "NYB00025881", 
     "level": "state", 
     "scraped_subjects": [
@@ -31,7 +62,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1405"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J4808&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J4808&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J4808-2011"
@@ -41,6 +75,7 @@
         {
             "leg_id": "NYL000019", 
             "name": "GOLDEN", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -48,12 +83,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Honoring Mathew M. Wambua upon the occasion of his designation for special recognition by Brooklyn Housing and Family Services on June 21, 2012", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-05-23 01:12:34", 
+    "updated_at": "2012-10-16 18:04:37", 
     "versions": [
+        {
+            "doc_id": "NYD00072327", 
+            "mimetype": "text/html", 
+            "name": "J4808", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J4808"
+        }, 
         {
             "doc_id": "NYD00028162", 
             "mimetype": "text/html", 

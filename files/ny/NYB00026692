@@ -4,7 +4,7 @@
     ], 
     "action_dates": {
         "first": "2012-05-29 00:00:00", 
-        "last": "2012-05-29 00:00:00", 
+        "last": "2012-06-18 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -14,17 +14,131 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to housing", 
+            "actor": "lower", 
+            "date": "2012-06-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "10483"
+            ], 
+            "action": "print number 10483a", 
+            "actor": "lower", 
+            "date": "2012-06-13 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "amend by restoring to original print 10483", 
+            "actor": "lower", 
+            "date": "2012-06-13 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to housing", 
+            "actor": "lower", 
+            "date": "2012-06-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "10483"
+            ], 
+            "action": "print number 10483b", 
+            "actor": "lower", 
+            "date": "2012-06-15 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to housing", 
+            "actor": "lower", 
+            "date": "2012-06-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "10483"
+            ], 
+            "action": "print number 10483c", 
+            "actor": "lower", 
+            "date": "2012-06-18 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 10483", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4263", 
+            "chamber": null, 
+            "internal_id": "NYB00004504", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-06-11 15:59:59", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00105081", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10483&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00026692", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,16 +147,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1144"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10483&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A10483-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10483&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10483C&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A10483C-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000078", 
             "name": "Brook-Krasny", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -50,17 +171,42 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Relates to clarifying certain provisions relating to occupancy of class A\nmultiple dwellings; provides that use as a short-term rental for less than 30\ndays shall not disqualify a class A multiple dwelling as a permanent residence.", 
     "title": "Relates to clarifying certain provisions relating to occupancy of class A multiple dwellings", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-13 01:12:00", 
+    "updated_at": "2012-10-16 18:11:59", 
     "versions": [
+        {
+            "doc_id": "NYD00105077", 
+            "mimetype": "text/html", 
+            "name": "A10483", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10483"
+        }, 
         {
             "doc_id": "NYD00037139", 
             "mimetype": "text/html", 
             "name": "A10483", 
             "url": "http://open.nysenate.gov/legislation/bill/A10483-2011"
+        }, 
+        {
+            "doc_id": "NYD00105078", 
+            "mimetype": "text/html", 
+            "name": "A10483A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A10483A-2011"
+        }, 
+        {
+            "doc_id": "NYD00105079", 
+            "mimetype": "text/html", 
+            "name": "A10483B", 
+            "url": "http://open.nysenate.gov/legislation/bill/A10483B-2011"
+        }, 
+        {
+            "doc_id": "NYD00105080", 
+            "mimetype": "text/html", 
+            "name": "A10483C", 
+            "url": "http://open.nysenate.gov/legislation/bill/A10483C-2011"
         }
     ], 
     "votes": []

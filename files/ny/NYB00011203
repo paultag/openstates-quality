@@ -14,25 +14,46 @@
             "action": "referred to consumer affairs and protection", 
             "actor": "lower", 
             "date": "2011-01-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000047", 
+                    "name": "consumer affairs and protection", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to consumer affairs and protection", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000047", 
+                    "name": "consumer affairs and protection", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3845", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:04", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104290", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3845&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011203", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +62,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=715"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3845&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3845&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3845-2011"
@@ -51,19 +75,33 @@
         {
             "leg_id": "NYL000102", 
             "name": "Englebright", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Business and Consumers"
     ], 
+    "summary": "Requires sellers of apples and apple products treated with daminozide to be so\nlabelled.", 
     "title": "Requires apples and apple products treated with daminozide to be labelled", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-01 19:01:28", 
+    "updated_at": "2012-10-16 18:11:48", 
     "versions": [
+        {
+            "doc_id": "NYD00104289", 
+            "mimetype": "text/html", 
+            "name": "A3845", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3845"
+        }, 
         {
             "doc_id": "NYD00035275", 
             "mimetype": "text/html", 

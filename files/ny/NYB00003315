@@ -14,8 +14,14 @@
             "action": "REFERRED TO SOCIAL SERVICES", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000031", 
+                    "name": "SOCIAL SERVICES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -23,9 +29,23 @@
     "alternate_titles": [], 
     "bill_id": "S 3155", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 487", 
+            "chamber": null, 
+            "internal_id": "NYB00007720", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:28", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00058271", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3155-2011"
+        }
+    ], 
     "id": "NYB00003315", 
     "level": "state", 
     "scraped_subjects": [
@@ -34,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=203"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3155&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3155&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S3155-2011"
@@ -44,6 +67,7 @@
         {
             "leg_id": "NYL000029", 
             "name": "KRUGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -51,12 +75,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Provides for public assistance eligibility requirements for persons with AIDS\nor HIV-related illnesses and the expiration of such benefits.", 
     "title": "Provides for public assistance eligibility requirements for persons with AIDS or HIV-related illnesses and the expiration thereof", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:14", 
+    "updated_at": "2012-10-16 18:01:08", 
     "versions": [
+        {
+            "doc_id": "NYD00058270", 
+            "mimetype": "text/html", 
+            "name": "S3155", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3155"
+        }, 
         {
             "doc_id": "NYD00025975", 
             "mimetype": "text/html", 

@@ -11,33 +11,68 @@
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2011-02-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2011-03-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4711", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4789", 
+            "chamber": null, 
+            "internal_id": "NYB00005048", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:09", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00093279", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4711&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012127", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,7 +81,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=743"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4711&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4711&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4711-2011"
@@ -56,6 +94,7 @@
         {
             "leg_id": "NYL000177", 
             "name": "Ramos", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -63,17 +102,24 @@
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Requires each retail sale of nitric acid to be recorded by the seller thereof;\nsuch record shall include the photographic identification number, telephone\nnumber and address of the purchaser; provides for the secure storage of nitric\nacid by retailers, schools and institutions of higher education; makes the\nviolation of such provisions a class A misdemeanor; establishes the class D\nfelony of disseminating material on the manufacture of an explosive for using a\ncomputer network to disseminate information on how to make an explosive out of\nnitric acid.", 
     "title": "Provides for the sale, use and storage of nitric acid", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-09 01:16:59", 
+    "updated_at": "2012-10-16 18:08:56", 
     "versions": [
         {
-            "doc_id": "NYD00004644", 
+            "doc_id": "NYD00093277", 
             "mimetype": "text/html", 
             "name": "A4711", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4711-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4711"
+        }, 
+        {
+            "doc_id": "NYD00093278", 
+            "mimetype": "text/html", 
+            "name": "A4711", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4711-2011"
         }
     ], 
     "votes": []

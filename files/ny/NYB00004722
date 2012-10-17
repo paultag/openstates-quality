@@ -11,8 +11,14 @@
             "action": "REFERRED TO CITIES", 
             "actor": "upper", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000006", 
+                    "name": "CITIES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO CITIES", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000006", 
+                    "name": "CITIES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,23 @@
     "alternate_titles": [], 
     "bill_id": "S 4474", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 5322", 
+            "chamber": null, 
+            "internal_id": "NYB00012766", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:35", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00053305", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4474-2011"
+        }
+    ], 
     "id": "NYB00004722", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=284"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4474&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4474&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S4474-2011"
@@ -49,6 +79,7 @@
         {
             "leg_id": "NYL000030", 
             "name": "LANZA", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,17 +87,24 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Extends the benefits of the variable supplements fund to all New York city\npolice officers, firefighters, housing police, transit police, correction\nofficers and registered domestic partners.", 
     "title": "Extends benefits of the variable supplements to New York city police, firefighters, housing police, transit police, correction officers and registered domestic partn", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-09 06:30:24", 
+    "updated_at": "2012-10-16 17:59:55", 
     "versions": [
         {
-            "doc_id": "NYD00019230", 
+            "doc_id": "NYD00053303", 
             "mimetype": "text/html", 
             "name": "S4474", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S4474-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4474"
+        }, 
+        {
+            "doc_id": "NYD00053304", 
+            "mimetype": "text/html", 
+            "name": "S4474", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4474-2011"
         }
     ], 
     "votes": []

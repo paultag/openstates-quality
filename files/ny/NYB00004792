@@ -14,7 +14,13 @@
             "action": "REFERRED TO CORPORATIONS, AUTHORITIES AND COMMISSIONS", 
             "actor": "upper", 
             "date": "2011-04-11 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000011", 
+                    "name": "CORPORATIONS, AUTHORITIES AND COMMISSIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -23,7 +29,13 @@
             "action": "REFERRED TO CORPORATIONS, AUTHORITIES AND COMMISSIONS", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000011", 
+                    "name": "CORPORATIONS, AUTHORITIES AND COMMISSIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -32,10 +44,23 @@
     "alternate_titles": [], 
     "bill_id": "S 4539", 
     "chamber": "upper", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "A 7741", 
+            "chamber": null, 
+            "internal_id": "NYB00016195", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:35", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00062018", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4539-2011"
+        }
+    ], 
     "id": "NYB00004792", 
     "level": "state", 
     "scraped_subjects": [
@@ -44,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=304"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4539&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4539&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S4539-2011"
@@ -54,7 +82,7 @@
         {
             "leg_id": "NYL000013", 
             "name": "ESPAILLAT", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -62,12 +90,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Relates to the bond issuance charge as applied to the New York city housing\ndevelopment corporation.", 
     "title": "Relates to the bond issuance charge", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-25 10:05:49", 
+    "updated_at": "2012-10-16 18:02:13", 
     "versions": [
+        {
+            "doc_id": "NYD00062017", 
+            "mimetype": "text/html", 
+            "name": "S4539", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4539"
+        }, 
         {
             "doc_id": "NYD00032453", 
             "mimetype": "text/html", 

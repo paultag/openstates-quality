@@ -11,41 +11,74 @@
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2011-02-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to economic development", 
             "actor": "lower", 
             "date": "2011-02-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4667"
+            ], 
             "action": "print number 4667a", 
             "actor": "lower", 
             "date": "2011-02-25 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4667", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:08", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00099711", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4667&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012082", 
     "level": "state", 
     "scraped_subjects": [
@@ -54,29 +87,49 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=786"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4667&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A4667-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4667&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4667A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A4667A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000158", 
             "name": "Millman", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000149", 
+            "name": "Markey", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Drugs"
     ], 
+    "summary": "Requires a permit to serve alcohol in a rear yard or on a rooftop in cities\nwith a population of one million or more.", 
     "title": "Requires a permit to serve alcohol in a rear yard or on a rooftop in N.Y. city", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-15 01:11:50", 
+    "updated_at": "2012-10-16 18:10:24", 
     "versions": [
+        {
+            "doc_id": "NYD00099710", 
+            "mimetype": "text/html", 
+            "name": "A4667", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4667"
+        }, 
         {
             "doc_id": "NYD00028404", 
             "mimetype": "text/html", 

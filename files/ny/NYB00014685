@@ -14,30 +14,52 @@
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-06-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -46,6 +68,7 @@
             "action": "rules report cal.248", 
             "actor": "lower", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,22 +77,31 @@
             "action": "ordered to third reading rules cal.248", 
             "actor": "lower", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "7156a"
+            ], 
             "action": "amended on third reading 7156a", 
             "actor": "lower", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
+            "+bill_id": [
+                "s3834"
+            ], 
             "action": "substituted by s3834a", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,9 +110,23 @@
     "alternate_titles": [], 
     "bill_id": "A 7156", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 3834", 
+            "chamber": null, 
+            "internal_id": "NYB00004039", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:20", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096837", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7156&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014685", 
     "level": "state", 
     "scraped_subjects": [
@@ -89,17 +135,36 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=904"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7156&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A7156-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7156&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7156A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A7156A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000146", 
             "name": "Magnarelli", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000183", 
+            "name": "Roberts", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -107,12 +172,19 @@
         "Legal Issues", 
         "Municipal and County Issues"
     ], 
+    "summary": "Relates to the economic development fund; provides assistance to biosciences\nresearch institutions and organizations based on a competitive basis to develop\ncurriculum and administer bioscience specific training programs for current and\nprospective industry employees.", 
     "title": "Relates to the economic development fund", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-23 01:12:49", 
+    "updated_at": "2012-10-16 18:09:39", 
     "versions": [
+        {
+            "doc_id": "NYD00096836", 
+            "mimetype": "text/html", 
+            "name": "A7156", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7156"
+        }, 
         {
             "doc_id": "NYD00028576", 
             "mimetype": "text/html", 

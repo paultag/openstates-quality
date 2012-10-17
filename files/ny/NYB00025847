@@ -14,8 +14,14 @@
             "action": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -23,9 +29,23 @@
     "alternate_titles": [], 
     "bill_id": "S 7039", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 559", 
+            "chamber": null, 
+            "internal_id": "NYB00007792", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-05-23 01:12:27", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00066043", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S7039-2011"
+        }
+    ], 
     "id": "NYB00025847", 
     "level": "state", 
     "scraped_subjects": [
@@ -34,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=471"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S7039&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S7039&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S7039-2011"
@@ -44,6 +67,7 @@
         {
             "leg_id": "NYL000026", 
             "name": "KENNEDY", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -51,12 +75,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
-    "title": "Provides personal income tax credit for real property taxes paid by certain veterans and their spouses; repeals real property tax law veterans&apos; tax exemptions", 
+    "summary": "Replaces current system which grants veterans real property tax exemptions\nfunded by local governments with a system funded by the state; provides that\nhonorably discharged veterans of certain wars shall receive an additional\npersonal income tax credit varying in amount based on factors like extent of\ndisability for qualifying real property taxes; provides same to unremarried\nsurviving spouse; includes multi-unit real property at least one unit of which\nis veteran's primary residence; repeals provisions relating to current system\nof veterans' real property tax exemptions.", 
+    "title": "Provides personal income tax credit for real property taxes paid by certain veterans and their spouses; repeals real property tax law veterans' tax exemptions", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:19", 
+    "updated_at": "2012-10-16 18:03:18", 
     "versions": [
+        {
+            "doc_id": "NYD00066042", 
+            "mimetype": "text/html", 
+            "name": "S7039", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S7039"
+        }, 
         {
             "doc_id": "NYD00027841", 
             "mimetype": "text/html", 

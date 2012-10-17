@@ -14,7 +14,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-03-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -44,9 +50,9 @@
     "created_at": "2011-05-05 01:30:14", 
     "documents": [
         {
-            "doc_id": "NYD00046521", 
+            "doc_id": "NYD00091773", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6124&term=&Memo=Y"
         }
     ], 
     "id": "NYB00013595", 
@@ -57,7 +63,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=888"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6124&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6124&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6124-2011"
@@ -67,139 +76,139 @@
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000076", 
-            "name": "Brennan", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000091", 
-            "name": "Cook", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000093", 
-            "name": "Crespo", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000112", 
-            "name": "Glick", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000120", 
-            "name": "Heastie", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000149", 
-            "name": "Markey", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000171", 
-            "name": "Perry", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000203", 
-            "name": "Titone", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000209", 
             "name": "Wright", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000207", 
             "name": "Weisenberg", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000157", 
             "name": "Miller M", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000114", 
             "name": "Gottfried", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000073", 
             "name": "Boyland", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000197", 
             "name": "Spano", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000089", 
             "name": "Colton", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000078", 
             "name": "Brook-Krasny", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000123", 
             "name": "Hooper", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000127", 
             "name": "Jeffries", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000181", 
             "name": "Rivera N", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000165", 
             "name": "O'Donnell", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000110", 
             "name": "Gibson", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000093", 
+            "name": "Crespo", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000120", 
+            "name": "Heastie", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000149", 
+            "name": "Markey", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000171", 
+            "name": "Perry", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000203", 
+            "name": "Titone", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -207,12 +216,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Amends chapter 576 of the laws of 1974 amending the emergency housing rent\ncontrol law relating to the control of and stabilization of rent in certain\ncases; amends chapter 274 of the laws of 1946, constituting the emergency\nhousing rent control law; amends chapter 329 of the laws of 1963 amending the\nemergency housing rent control law relating to recontrol of rents in certain\ncases; relates to chapter 555 of the laws of 1982 amending the general business\nlaw and the administrative code of the city of New York relating to conversion\nof residential property to cooperative or condominium ownership in the city of\nNew York; also relates to chapter 402 of the laws of 1983 amending the general\nbusiness law relating to conversions of residential property to cooperative or\ncondominium ownership in certain municipalities in the counties of Nassau,\nWestchester and Rockland, in relation to extending the period of effectiveness\nthereof.", 
     "title": "Extends provisions of rent control law", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:35", 
+    "updated_at": "2012-10-16 18:08:32", 
     "versions": [
+        {
+            "doc_id": "NYD00091772", 
+            "mimetype": "text/html", 
+            "name": "A6124", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6124"
+        }, 
         {
             "doc_id": "NYD00044131", 
             "mimetype": "text/html", 

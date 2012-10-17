@@ -11,25 +11,46 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 2632", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:59", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091954", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2632&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009947", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=670"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2632&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2632&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2632-2011"
@@ -48,6 +72,7 @@
         {
             "leg_id": "NYL000105", 
             "name": "Fitzpatrick", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,12 +80,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Authorizes the state of New York mortgage agency (SONYMA) to originate\nmortgages constituting a second lien and defines mortgage as a loan owed to a\nbank or to the agency secured by a second lien on a fee simple or leasehold\nestate in real property located in the state and improved by a residential\nstructure whether or not insured by the US or any agency thereof; authorizes\nsuch agency to purchase rehabilitation mortgages from banks within the state.", 
     "title": "Authorizes the state mortgage agency to originate mortgages which are second liens on real property", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:31", 
+    "updated_at": "2012-10-16 18:08:33", 
     "versions": [
+        {
+            "doc_id": "NYD00091953", 
+            "mimetype": "text/html", 
+            "name": "A2632", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2632"
+        }, 
         {
             "doc_id": "NYD00040738", 
             "mimetype": "text/html", 

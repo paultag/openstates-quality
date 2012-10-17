@@ -12,9 +12,14 @@
             "action": "REFERRED TO RULES", 
             "actor": "upper", 
             "date": "2011-01-14 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -22,9 +27,16 @@
     "alternate_titles": [], 
     "bill_id": "R 242", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:41", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00069499", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/R242-2011"
+        }
+    ], 
     "id": "NYB00005816", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +45,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1211"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=R242&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=R242&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/R242-2011"
@@ -43,6 +58,7 @@
         {
             "leg_id": "NYL000028", 
             "name": "KRUEGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -50,12 +66,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Amends Rules II, VI, VII, VIII, IX and X of the Senate rules", 
     "type": [
         "resolution"
     ], 
-    "updated_at": "2012-07-13 02:25:47", 
+    "updated_at": "2012-10-16 18:04:11", 
     "versions": [
+        {
+            "doc_id": "NYD00069498", 
+            "mimetype": "text/html", 
+            "name": "R242", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=R242"
+        }, 
         {
             "doc_id": "NYD00031586", 
             "mimetype": "text/html", 

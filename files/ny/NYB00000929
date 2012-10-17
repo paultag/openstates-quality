@@ -14,8 +14,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -31,9 +44,23 @@
     "alternate_titles": [], 
     "bill_id": "S 904", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 3679", 
+            "chamber": null, 
+            "internal_id": "NYB00011033", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:18", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00061771", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S904-2011"
+        }
+    ], 
     "id": "NYB00000929", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=58"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S904&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S904&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S904-2011"
@@ -52,6 +82,7 @@
         {
             "leg_id": "NYL000028", 
             "name": "KRUEGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +90,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Makes warrant execution (not issuance), following a judgment for the petitioner\nin summary proceeding to recover possession of real property, the act which\ncancels the agreement under which the person removed held the premises and\nannuls the landlord-tenant relationship; provides court not deprived of the\npower to vacate such warrant at any time (current law provides the court is not\ndeprived of the power to vacate such warrant for good cause shown prior to\nwarrant execution); provides petitioner may recover by action the reasonable\nvalue for the use and occupation to the time when the warrant was executed\n(rather than issued).", 
     "title": "Makes warrant execution, not issuance, following judgment for petitioner in summary proceeding to recover possession of real property act which annuls relationship", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:13", 
+    "updated_at": "2012-10-16 18:02:11", 
     "versions": [
+        {
+            "doc_id": "NYD00061770", 
+            "mimetype": "text/html", 
+            "name": "S904", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S904"
+        }, 
         {
             "doc_id": "NYD00032239", 
             "mimetype": "text/html", 

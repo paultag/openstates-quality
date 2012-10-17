@@ -12,40 +12,64 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-11 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2012-06-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2012-06-06 00:00:00", 
             "related_entities": [], 
@@ -75,9 +99,23 @@
     "alternate_titles": [], 
     "bill_id": "A 1682", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 57", 
+            "chamber": null, 
+            "internal_id": "NYB00000039", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00085483", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1682&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008960", 
     "level": "state", 
     "scraped_subjects": [
@@ -86,7 +124,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=622"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1682&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1682&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1682-2011"
@@ -96,103 +137,103 @@
         {
             "leg_id": "NYL000127", 
             "name": "Jeffries", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000103", 
-            "name": "Farrell", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000112", 
-            "name": "Glick", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": null, 
-            "name": "Mayersohn", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000154", 
-            "name": "Meng", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000190", 
-            "name": "Scarborough", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000083", 
             "name": "Camara", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000073", 
             "name": "Boyland", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000114", 
             "name": "Gottfried", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000132", 
             "name": "Kellner", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000135", 
             "name": "Lancman", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000089", 
             "name": "Colton", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000086", 
             "name": "Castro", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000100", 
             "name": "Dinowitz", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000126", 
             "name": "Jaffee", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000165", 
             "name": "O'Donnell", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000220", 
+            "name": "Mayersohn", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000154", 
+            "name": "Meng", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000190", 
+            "name": "Scarborough", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -200,12 +241,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Relates to statutes of limitations based on notices of deregulation.", 
     "title": "Relates to statutes of limitations based on notices of deregulation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 02:25:51", 
+    "updated_at": "2012-10-16 18:06:52", 
     "versions": [
+        {
+            "doc_id": "NYD00085482", 
+            "mimetype": "text/html", 
+            "name": "A1682", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1682"
+        }, 
         {
             "doc_id": "NYD00042884", 
             "mimetype": "text/html", 

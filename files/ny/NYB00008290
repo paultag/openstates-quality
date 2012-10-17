@@ -11,14 +11,22 @@
             "action": "referred to consumer affairs and protection", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000047", 
+                    "name": "consumer affairs and protection", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,9 +35,16 @@
     "alternate_titles": [], 
     "bill_id": "A 1034", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:52", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00090312", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1034&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008290", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +53,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=473"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1034&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1034&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1034-2011"
@@ -48,24 +66,50 @@
         {
             "leg_id": "NYL000172", 
             "name": "Pheffer", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": null, 
+            "name": "Towns", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Requires the posting of signs near pre-packaged salads offered for sale by\nretail food stores notifying consumers of the advisability of washing the\nproduce before consumption and referring them to the federal department of\nhealth and human services, food and drug administration, for further\ninformation; such signs must be printed legibly with boldface type at least\nthree-quarters of an inch.", 
     "title": "Requires the posting of signs near pre-packaged salads offered for sale notifying consumers of the advisability of washing the produce before consumption", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-01 00:47:50", 
+    "updated_at": "2012-10-16 18:08:08", 
     "versions": [
         {
-            "doc_id": "NYD00000041", 
+            "doc_id": "NYD00090310", 
             "mimetype": "text/html", 
             "name": "A1034", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1034-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1034"
+        }, 
+        {
+            "doc_id": "NYD00090311", 
+            "mimetype": "text/html", 
+            "name": "A1034", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1034-2011"
         }
     ], 
     "votes": []

@@ -14,25 +14,53 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5965", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2614", 
+            "chamber": null, 
+            "internal_id": "NYB00002703", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:14", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104326", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5965&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013433", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=834"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5965&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5965&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5965-2011"
@@ -51,19 +82,39 @@
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000070", 
+            "name": "Benedetto", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000100", 
+            "name": "Dinowitz", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Exempts pet food from sales and compensating use taxes.", 
     "title": "Exempts pet food from sales and compensating use taxes", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:42", 
+    "updated_at": "2012-10-16 18:11:50", 
     "versions": [
+        {
+            "doc_id": "NYD00104325", 
+            "mimetype": "text/html", 
+            "name": "A5965", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5965"
+        }, 
         {
             "doc_id": "NYD00031063", 
             "mimetype": "text/html", 

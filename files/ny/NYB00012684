@@ -14,7 +14,13 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-02-14 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -23,7 +29,13 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -44,9 +56,9 @@
     "created_at": "2011-05-05 01:30:11", 
     "documents": [
         {
-            "doc_id": "NYD00048635", 
+            "doc_id": "NYD00084157", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5246&term=&Memo=Y"
         }
     ], 
     "id": "NYB00012684", 
@@ -57,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=834"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5246&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5246&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5246-2011"
@@ -67,121 +82,121 @@
         {
             "leg_id": "NYL000203", 
             "name": "Titone", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000091", 
-            "name": "Cook", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000092", 
-            "name": "Corwin", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000114", 
-            "name": "Gottfried", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000130", 
-            "name": "Katz", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000134", 
-            "name": "Kolb", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000148", 
-            "name": "Malliotakis", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000171", 
-            "name": "Perry", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000188", 
-            "name": "Saladino", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000189", 
-            "name": "Sayward", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000202", 
-            "name": "Thiele", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000205", 
-            "name": "Tobacco", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000207", 
-            "name": "Weisenberg", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000086", 
             "name": "Castro", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000089", 
             "name": "Colton", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000154", 
             "name": "Meng", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000096", 
             "name": "Cusick", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000210", 
             "name": "Zebrowski", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000102", 
             "name": "Englebright", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000151", 
             "name": "McDonough", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000092", 
+            "name": "Corwin", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000130", 
+            "name": "Katz", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000134", 
+            "name": "Kolb", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000148", 
+            "name": "Malliotakis", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000171", 
+            "name": "Perry", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000188", 
+            "name": "Saladino", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000189", 
+            "name": "Sayward", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000202", 
+            "name": "Thiele", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000205", 
+            "name": "Tobacco", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -189,12 +204,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Relates to the registration and regulation of animal breeders; requires each to\nbe licensed; creates a breeder licensing fund; exempts not-for-profit\norganizations.", 
     "title": "Relates to the registration and regulation of animal breeders", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-26 10:06:04", 
+    "updated_at": "2012-10-16 18:06:32", 
     "versions": [
+        {
+            "doc_id": "NYD00084156", 
+            "mimetype": "text/html", 
+            "name": "A5246", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5246"
+        }, 
         {
             "doc_id": "NYD00029928", 
             "mimetype": "text/html", 

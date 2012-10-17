@@ -11,9 +11,15 @@
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2011-02-22 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
@@ -39,7 +45,13 @@
     ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:11", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00101461", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5473&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012922", 
     "level": "state", 
     "scraped_subjects": [
@@ -48,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=849"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5473&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5473&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5473-2011"
@@ -58,43 +73,43 @@
         {
             "leg_id": null, 
             "name": "Towns", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000073", 
-            "name": "Boyland", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000076", 
-            "name": "Brennan", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000091", 
             "name": "Cook", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000198", 
             "name": "Stevenson", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000127", 
             "name": "Jeffries", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000110", 
             "name": "Gibson", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -103,12 +118,19 @@
         "Budget, Spending, and Taxes", 
         "Legislative Affairs"
     ], 
+    "summary": "Enacts the minimum standards for subsidized jobs act; provides that entities\neligible to receive economic development subsidies must: pay each employee a\nminimum wage that's at least one dollar higher than state minimum wage levels;\noffer health insurance benefit plans to employees employed at least 35 hours\nper week; and offer at least twenty percent of its workers a worker training\nprogram.", 
     "title": "Provides that entities eligible to receive economic development subsidies must meet certain criteria to receive such subsidies", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-08 09:54:54", 
+    "updated_at": "2012-10-16 18:10:58", 
     "versions": [
+        {
+            "doc_id": "NYD00101460", 
+            "mimetype": "text/html", 
+            "name": "A5473", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5473"
+        }, 
         {
             "doc_id": "NYD00045208", 
             "mimetype": "text/html", 

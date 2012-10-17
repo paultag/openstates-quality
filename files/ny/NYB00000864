@@ -11,8 +11,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,16 @@
     "alternate_titles": [], 
     "bill_id": "S 843", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:18", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00061372", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S843-2011"
+        }
+    ], 
     "id": "NYB00000864", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=52"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S843&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S843&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S843-2011"
@@ -49,6 +72,7 @@
         {
             "leg_id": "NYL000061", 
             "name": "YOUNG", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,17 +80,24 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Establishes the Phytophthora research program at the New York state college of\nagriculture and life sciences at Cornell university; provides that such\nresearch shall include, but not be limited to, identification of\ndisease-resistant cultivars and control strategies found to be effective in New\nYork state; basic research to understand interactions that occur between\nPhytophthora capsici pathogen and related species; and the development of a\ndisease management strategy that integrates information gained through applied\nand basic research; appropriates $2,020,000 therefor.", 
     "title": "Establishes the Phytophthora research program at the state college of agriculture and life sciences; appropriation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-15 06:26:58", 
+    "updated_at": "2012-10-16 18:02:07", 
     "versions": [
         {
-            "doc_id": "NYD00022192", 
+            "doc_id": "NYD00061370", 
             "mimetype": "text/html", 
             "name": "S843", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S843-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S843"
+        }, 
+        {
+            "doc_id": "NYD00061371", 
+            "mimetype": "text/html", 
+            "name": "S843", 
+            "url": "http://open.nysenate.gov/legislation/bill/S843-2011"
         }
     ], 
     "votes": []

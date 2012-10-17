@@ -14,22 +14,37 @@
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2011-01-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2012-04-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -38,14 +53,19 @@
             "action": "advanced to third reading cal.447", 
             "actor": "lower", 
             "date": "2012-04-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s2351"
+            ], 
             "action": "substituted by s2351", 
             "actor": "lower", 
             "date": "2012-04-25 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,9 +74,23 @@
     "alternate_titles": [], 
     "bill_id": "A 2594", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2351", 
+            "chamber": null, 
+            "internal_id": "NYB00002421", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:59", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104354", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2594&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009908", 
     "level": "state", 
     "scraped_subjects": [
@@ -65,7 +99,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=637"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2594&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2594&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2594-2011"
@@ -75,19 +112,69 @@
         {
             "leg_id": "NYL000102", 
             "name": "Englebright", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000179", 
+            "name": "Reilly", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000084", 
+            "name": "Canestrari", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000153", 
+            "name": "McLaughlin", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000189", 
+            "name": "Sayward", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000129", 
+            "name": "Jordan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000202", 
+            "name": "Thiele", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Establishes the Historic Hudson-Hoosic Rivers Partnership to replace and expand\nthe territory of the former Historic Saratoga-Washington on the Hudson\nPartnership.", 
     "title": "Establishes the Historic Hudson-Hoosic Rivers Partnership to replace and expand the territory of the former Historic Saratoga-Washington on the Hudson Partnership", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:39", 
+    "updated_at": "2012-10-16 18:11:50", 
     "versions": [
+        {
+            "doc_id": "NYD00104353", 
+            "mimetype": "text/html", 
+            "name": "A2594", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2594"
+        }, 
         {
             "doc_id": "NYD00031987", 
             "mimetype": "text/html", 

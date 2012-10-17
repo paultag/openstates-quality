@@ -11,25 +11,46 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1772", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00095513", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1772&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009052", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=515"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1772&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1772&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1772-2011"
@@ -48,24 +72,164 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000071", 
+            "name": "Bing", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000142", 
+            "name": "Lopez V", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000070", 
+            "name": "Benedetto", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000132", 
+            "name": "Kellner", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000181", 
+            "name": "Rivera N", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000197", 
+            "name": "Spano", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000078", 
+            "name": "Brook-Krasny", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000127", 
+            "name": "Jeffries", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000126", 
+            "name": "Jaffee", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000120", 
+            "name": "Heastie", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000147", 
+            "name": "Maisel", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000149", 
+            "name": "Markey", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000179", 
+            "name": "Reilly", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000203", 
+            "name": "Titone", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Requires a Mitchell-Lama cooperative seeking to dissolve to offer cooperators\nwho may not be able to afford the increased carrying charges the opportunity to\nsell.", 
     "title": "Relates to mutual companies in N.Y. city", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-01 00:47:51", 
+    "updated_at": "2012-10-16 18:09:22", 
     "versions": [
         {
-            "doc_id": "NYD00000955", 
+            "doc_id": "NYD00095511", 
             "mimetype": "text/html", 
             "name": "A1772", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1772-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1772"
+        }, 
+        {
+            "doc_id": "NYD00095512", 
+            "mimetype": "text/html", 
+            "name": "A1772", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1772-2011"
         }
     ], 
     "votes": []

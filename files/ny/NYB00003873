@@ -14,8 +14,14 @@
             "action": "REFERRED TO HEALTH", 
             "actor": "upper", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000020", 
+                    "name": "HEALTH", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,13 @@
             "action": "REFERRED TO HEALTH", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000020", 
+                    "name": "HEALTH", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -31,9 +44,23 @@
     "alternate_titles": [], 
     "bill_id": "S 3678", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 6073", 
+            "chamber": null, 
+            "internal_id": "NYB00013543", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:30", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00061655", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3678-2011"
+        }
+    ], 
     "id": "NYB00003873", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=239"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3678&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3678&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S3678-2011"
@@ -52,19 +82,33 @@
         {
             "leg_id": "NYL000051", 
             "name": "SAMPSON", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000024", 
+            "name": "HUNTLEY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Health"
     ], 
+    "summary": "Outlines criteria by which the commissioner of health shall appoint a director\nof the acquired immune deficiency syndrome institute.", 
     "title": "Outlines criteria by which the commissioner of health shall appoint a director of the acquired immune deficiency syndrome institute", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-14 01:13:28", 
+    "updated_at": "2012-10-16 18:02:10", 
     "versions": [
+        {
+            "doc_id": "NYD00061654", 
+            "mimetype": "text/html", 
+            "name": "S3678", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3678"
+        }, 
         {
             "doc_id": "NYD00033345", 
             "mimetype": "text/html", 

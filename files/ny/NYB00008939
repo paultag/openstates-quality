@@ -12,27 +12,46 @@
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2011-01-11 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1661", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00086388", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1661&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008939", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=622"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1661&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1661&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1661-2011"
@@ -51,7 +73,7 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +81,19 @@
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Enacts \"The Mercury Free Water Resources and Mercury Reduction Management\nStrategy Act\"; provides for: disclosure of mercury content, phase-out of\nmercury-added products, disposal prohibition, labelling, source separation,\ncollection, requirements for sewage treatment plants, point source release\ncontainment traps, ban on sale or distribution of certain mercury products,\nreplacement of manometers and gas pressure regulators (agriculture dept. to\nhandle for dairy industry), regulates dental use and bans health insurance\ndiscrimination therein, requires lamp recycling; adds all mercury-added\nproducts to state universal waste rules; provides for a state advisory\ncommittee on mercury pollution; provides for penalties for violations; repeals\nchapter 145 of the laws of 2004 amending the environmental conservation law and\nthe state finance law relating to the labeling and recycling of mercury-added\nconsumer products and establishing an advisory committee on mercury pollution;\nprovides for penalties for violations; repeals chapter 145 of the laws of 2004\namending the environmental conservation law and the state finance law relating\nto the labeling and recycling of mercury-added consumer products and\nestablishing an advisory committee on mercury pollution.", 
     "title": "Enacts \"The Mercury-Free Water Resources and Mercury Reduction Management Strategy Act\"; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-16 02:11:13", 
+    "updated_at": "2012-10-16 18:07:04", 
     "versions": [
+        {
+            "doc_id": "NYD00086387", 
+            "mimetype": "text/html", 
+            "name": "A1661", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1661"
+        }, 
         {
             "doc_id": "NYD00039355", 
             "mimetype": "text/html", 

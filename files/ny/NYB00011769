@@ -11,25 +11,46 @@
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2011-02-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4361", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:07", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00103684", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4361&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011769", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=653"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4361&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4361&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4361-2011"
@@ -48,7 +72,110 @@
         {
             "leg_id": "NYL000161", 
             "name": "Morelle", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000167", 
+            "name": "Ortiz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000124", 
+            "name": "Hoyt", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000190", 
+            "name": "Scarborough", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000142", 
+            "name": "Lopez V", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000097", 
+            "name": "Cymbrowitz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000063", 
+            "name": "Abbate", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000067", 
+            "name": "Aubry", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000081", 
+            "name": "Cahill", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000088", 
+            "name": "Clark", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000099", 
+            "name": "Destito", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000199", 
+            "name": "Sweeney", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": null, 
+            "name": "Towns", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000209", 
+            "name": "Wright", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -56,17 +183,24 @@
         "Budget, Spending, and Taxes", 
         "Legislative Affairs"
     ], 
+    "summary": "Enacts the New York state academic collaborative district act; establishes\ncriteria for academic collaborative designation and the application for\nacademic collaborative district designation; establishes procedure to terminate\nor revise an academic collaborative district; creates academic collaborative\ndistrict tax exemptions.", 
     "title": "Enacts the New York state academic collaborative district act", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-17 06:32:28", 
+    "updated_at": "2012-10-16 18:11:33", 
     "versions": [
         {
-            "doc_id": "NYD00004220", 
+            "doc_id": "NYD00103682", 
             "mimetype": "text/html", 
             "name": "A4361", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4361-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4361"
+        }, 
+        {
+            "doc_id": "NYD00103683", 
+            "mimetype": "text/html", 
+            "name": "A4361", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4361-2011"
         }
     ], 
     "votes": []

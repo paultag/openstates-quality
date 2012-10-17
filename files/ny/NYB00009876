@@ -11,25 +11,46 @@
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2011-01-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 2562", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:59", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00098478", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2562&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009876", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=632"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2562&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2562&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2562-2011"
@@ -48,19 +72,51 @@
         {
             "leg_id": "NYL000088", 
             "name": "Clark", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000220", 
+            "name": "Mayersohn", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000086", 
+            "name": "Castro", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000127", 
+            "name": "Jeffries", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Health"
     ], 
+    "summary": "Prohibits the sale or the use of high-fructose corn syrup in any food products.", 
     "title": "Prohibits the sale or the use of high-fructose corn syrup in any food products", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-24 01:10:44", 
+    "updated_at": "2012-10-16 18:10:08", 
     "versions": [
+        {
+            "doc_id": "NYD00098477", 
+            "mimetype": "text/html", 
+            "name": "A2562", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2562"
+        }, 
         {
             "doc_id": "NYD00029785", 
             "mimetype": "text/html", 

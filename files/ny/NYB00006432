@@ -11,7 +11,13 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-03-11 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -41,7 +47,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:44", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00070956", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J858-2011"
+        }
+    ], 
     "id": "NYB00006432", 
     "level": "state", 
     "scraped_subjects": [
@@ -50,7 +62,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1275"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J858&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J858&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J858-2011"
@@ -60,7 +75,7 @@
         {
             "leg_id": "NYL000039", 
             "name": "MONTGOMERY", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -68,12 +83,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commending Executive Director Martha Kamber for her diligent effort in overseeing the construction project and completion", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-22 10:05:37", 
+    "updated_at": "2012-10-16 18:04:21", 
     "versions": [
+        {
+            "doc_id": "NYD00070955", 
+            "mimetype": "text/html", 
+            "name": "J858", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J858"
+        }, 
         {
             "doc_id": "NYD00040354", 
             "mimetype": "text/html", 

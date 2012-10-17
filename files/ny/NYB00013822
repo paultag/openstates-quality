@@ -12,163 +12,216 @@
             "action": "referred to education", 
             "actor": "lower", 
             "date": "2011-03-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend (t) and recommit to education", 
             "actor": "lower", 
             "date": "2011-03-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6330"
+            ], 
             "action": "print number 6330a", 
             "actor": "lower", 
             "date": "2011-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "referred to education", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 6330", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4288", 
+            "chamber": null, 
+            "internal_id": "NYB00004529", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:15", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00086259", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6330&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013822", 
     "level": "state", 
     "scraped_subjects": [
-        "Education Law"
+        "Agriculture and Markets Law"
     ], 
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=900"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6330&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A6330-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6330&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6330A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A6330A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000081", 
-            "name": "Cahill", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000088", 
-            "name": "Clark", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000103", 
-            "name": "Farrell", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000120", 
-            "name": "Heastie", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000125", 
-            "name": "Jacobs", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000145", 
-            "name": "Magee", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": null, 
-            "name": "Mayersohn", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000152", 
-            "name": "McEneny", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000158", 
-            "name": "Millman", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000184", 
-            "name": "Robinson", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000190", 
-            "name": "Scarborough", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000199", 
-            "name": "Sweeney", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000207", 
             "name": "Weisenberg", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000091", 
             "name": "Cook", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000108", 
             "name": "Galef", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000081", 
+            "name": "Cahill", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000088", 
+            "name": "Clark", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000120", 
+            "name": "Heastie", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000145", 
+            "name": "Magee", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000220", 
+            "name": "Mayersohn", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000190", 
+            "name": "Scarborough", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000199", 
+            "name": "Sweeney", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
-        "Education"
+        "Agriculture and Food"
     ], 
-    "title": "Directs commissioner of education to facilitate a program to coordinate the donation of excess, unused, edible food from school meal programs to voluntary food assistance programs", 
+    "summary": "Directs the commissioner of education, in cooperation with the commissioner of\nagriculture and markets, to establish voluntary guidelines to provide for the\ndonation of excess, unused, edible food from school, university or other\neducational institutions meal programs to voluntary food assistance programs.", 
+    "title": "Directs commissioner of education to establish guidelines providing  for donation of excess, unused, edible food from school meals to food assistance programs", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 02:27:36", 
+    "updated_at": "2012-10-16 18:07:02", 
     "versions": [
+        {
+            "doc_id": "NYD00086258", 
+            "mimetype": "text/html", 
+            "name": "A6330", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6330"
+        }, 
         {
             "doc_id": "NYD00036980", 
             "mimetype": "text/html", 

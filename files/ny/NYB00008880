@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-11 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-06-19 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,25 +11,61 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-01-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "held for consideration in ways and means", 
+            "actor": "lower", 
+            "date": "2012-06-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1602", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091409", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1602&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008880", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=562"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1602&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1602&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1602-2011"
@@ -48,24 +87,44 @@
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000085", 
+            "name": "Castelli", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Establishes the military family relief fund and provides taxpayers a method by\nwhich they may contribute to the fund.", 
     "title": "Establishes the military family relief fund and provides taxpayers a method by which they may contribute to the fund", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-03 01:08:50", 
+    "updated_at": "2012-10-16 18:08:26", 
     "versions": [
         {
-            "doc_id": "NYD00000752", 
+            "doc_id": "NYD00091407", 
             "mimetype": "text/html", 
             "name": "A1602", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1602-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1602"
+        }, 
+        {
+            "doc_id": "NYD00091408", 
+            "mimetype": "text/html", 
+            "name": "A1602", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1602-2011"
         }
     ], 
     "votes": []

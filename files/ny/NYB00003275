@@ -14,8 +14,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,23 +29,41 @@
             "action": "AMEND (T) AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "3121"
+            ], 
             "action": "PRINT NUMBER 3121A", 
             "actor": "upper", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -48,9 +72,23 @@
     "alternate_titles": [], 
     "bill_id": "S 3121", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 1466", 
+            "chamber": null, 
+            "internal_id": "NYB00008739", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:28", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00067593", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3121A-2011"
+        }
+    ], 
     "id": "NYB00003275", 
     "level": "state", 
     "scraped_subjects": [
@@ -59,29 +97,67 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=198"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3121&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S3121-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3121&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3121A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S3121A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000013", 
             "name": "ESPAILLAT", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000028", 
+            "name": "KRUEGER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000039", 
+            "name": "MONTGOMERY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000045", 
+            "name": "PERKINS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000051", 
+            "name": "SAMPSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Relates to the remediation and prevention of indoor mold; requires the\ndisclosure of indoor mold history upon the sale of certain real property;\nrequires notification to prospective lessees; directs the commissioner of\nhousing and community renewal and the commissioner of health to promulgate\nrules and standards for the remediation and prevention of indoor mold.", 
     "title": "Relates to the remediation and prevention of indoor mold and requiring the disclosure of indoor mold history upon the sale of certain real property", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:20", 
+    "updated_at": "2012-10-16 18:03:37", 
     "versions": [
+        {
+            "doc_id": "NYD00067592", 
+            "mimetype": "text/html", 
+            "name": "S3121", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3121"
+        }, 
         {
             "doc_id": "NYD00032355", 
             "mimetype": "text/html", 

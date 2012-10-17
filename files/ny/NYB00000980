@@ -11,8 +11,14 @@
             "action": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,23 +26,41 @@
             "action": "AMEND AND RECOMMIT TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "952"
+            ], 
             "action": "PRINT NUMBER 952A", 
             "actor": "upper", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -45,9 +69,16 @@
     "alternate_titles": [], 
     "bill_id": "S 952", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:18", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00052603", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S952A-2011"
+        }
+    ], 
     "id": "NYB00000980", 
     "level": "state", 
     "scraped_subjects": [
@@ -56,16 +87,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=61"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S952&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S952-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S952&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S952A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S952A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000035", 
             "name": "MARCELLINO", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -73,23 +111,30 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Disallows corporate and personal income tax deductions for interest,\ndepreciation, taxes or amortization for persons who own real property offered\nfor lease which is in continued non-compliance with regards to rent impairing\nviolations; requires local housing officials to submit list of such\nnon-compliant landlords to the division of housing and community renewal;\nexcludes cities with a population of one million or more.", 
     "title": "Disallows corporate and personal income tax deductions for property in continued noncompliance with regard to rent impairing violations", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-06 01:16:51", 
+    "updated_at": "2012-10-16 17:59:49", 
     "versions": [
         {
-            "doc_id": "NYD00035589", 
+            "doc_id": "NYD00052602", 
             "mimetype": "text/html", 
             "name": "S952", 
-            "url": "http://open.nysenate.gov/legislation/bill/S952-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S952"
         }, 
         {
             "doc_id": "NYD00035590", 
             "mimetype": "text/html", 
             "name": "S952A", 
             "url": "http://open.nysenate.gov/legislation/bill/S952A-2011"
+        }, 
+        {
+            "doc_id": "NYD00035589", 
+            "mimetype": "text/html", 
+            "name": "S952", 
+            "url": "http://open.nysenate.gov/legislation/bill/S952-2011"
         }
     ], 
     "votes": []

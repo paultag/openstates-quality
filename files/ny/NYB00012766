@@ -11,25 +11,53 @@
             "action": "referred to governmental employees", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000056", 
+                    "name": "governmental employees", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to governmental employees", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000056", 
+                    "name": "governmental employees", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5322", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4474", 
+            "chamber": null, 
+            "internal_id": "NYB00004722", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:11", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00106439", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5322&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012766", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=724"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5322&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5322&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5322-2011"
@@ -48,6 +79,7 @@
         {
             "leg_id": "NYL000203", 
             "name": "Titone", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,17 +87,24 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Extends the benefits of the variable supplements fund to all New York city\npolice officers, firefighters, housing police, transit police and registered\ndomestic partners.", 
     "title": "Extends benefits of the variable supplements to New York city police, firefighters, housing police, transit police, correction officers and registered domestic partners", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-10 01:22:42", 
+    "updated_at": "2012-10-16 18:12:14", 
     "versions": [
         {
-            "doc_id": "NYD00005418", 
+            "doc_id": "NYD00106437", 
             "mimetype": "text/html", 
             "name": "A5322", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A5322-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5322"
+        }, 
+        {
+            "doc_id": "NYD00106438", 
+            "mimetype": "text/html", 
+            "name": "A5322", 
+            "url": "http://open.nysenate.gov/legislation/bill/A5322-2011"
         }
     ], 
     "votes": []

@@ -12,25 +12,46 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3663", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:04", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00085277", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3663&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011017", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=738"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3663&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3663&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3663-2011"
@@ -49,37 +73,37 @@
         {
             "leg_id": "NYL000088", 
             "name": "Clark", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000172", 
-            "name": "Pheffer", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000204", 
             "name": "Titus", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000091", 
             "name": "Cook", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000190", 
             "name": "Scarborough", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -87,12 +111,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Relates to the inspection of live poultry markets by the department of\nagriculture and markets; provides for the commissioner, or his or her\nauthorized agent, to notify the zoning or planning board of the municipality in\nwhich such market is located if the market commences additional slaughtering\noperations over which the department has no statutory jurisdiction on the same\npremises.", 
     "title": "Relates to the inspection of live poultry markets by the department of agriculture and markets", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 02:27:34", 
+    "updated_at": "2012-10-16 18:06:50", 
     "versions": [
+        {
+            "doc_id": "NYD00085276", 
+            "mimetype": "text/html", 
+            "name": "A3663", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3663"
+        }, 
         {
             "doc_id": "NYD00041766", 
             "mimetype": "text/html", 

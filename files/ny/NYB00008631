@@ -11,25 +11,53 @@
             "action": "referred to consumer affairs and protection", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000047", 
+                    "name": "consumer affairs and protection", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to consumer affairs and protection", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000047", 
+                    "name": "consumer affairs and protection", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1367", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 3908", 
+            "chamber": null, 
+            "internal_id": "NYB00004120", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:54", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00094827", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1367&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008631", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=558"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1367&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1367&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1367-2011"
@@ -48,24 +79,146 @@
         {
             "leg_id": "NYL000127", 
             "name": "Jeffries", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000186", 
+            "name": "Rosenthal", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000064", 
+            "name": "Abinanti", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000102", 
+            "name": "Englebright", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000146", 
+            "name": "Magnarelli", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000202", 
+            "name": "Thiele", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000070", 
+            "name": "Benedetto", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000170", 
+            "name": "Peoples-Stokes", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000108", 
+            "name": "Galef", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000130", 
+            "name": "Katz", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000139", 
+            "name": "Lifton", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000169", 
+            "name": "Paulin", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Business and Consumers"
     ], 
+    "summary": "Provides for the labeling of food or food products that contain a genetically\nmodified material or that are produced with a genetically modified material;\ndefines terms; imposes penalties for false labels and misbranding; sets forth\nexemptions.", 
     "title": "Provides for the labeling of food or food products that contain a genetically modified material or that are produced with a genetically modified material", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-18 01:03:59", 
+    "updated_at": "2012-10-16 18:09:14", 
     "versions": [
         {
-            "doc_id": "NYD00000449", 
+            "doc_id": "NYD00094825", 
             "mimetype": "text/html", 
             "name": "A1367", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1367-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1367"
+        }, 
+        {
+            "doc_id": "NYD00094826", 
+            "mimetype": "text/html", 
+            "name": "A1367", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1367-2011"
         }
     ], 
     "votes": []

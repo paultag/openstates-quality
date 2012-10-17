@@ -14,30 +14,52 @@
             "action": "referred to energy", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000053", 
+                    "name": "energy", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-06-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -46,14 +68,19 @@
             "action": "rules report cal.540", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s3914"
+            ], 
             "action": "substituted by s3914a", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,9 +89,23 @@
     "alternate_titles": [], 
     "bill_id": "A 8316", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 3914", 
+            "chamber": null, 
+            "internal_id": "NYB00004128", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-14 07:11:08", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00097903", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8316&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00018707", 
     "level": "state", 
     "scraped_subjects": [
@@ -73,7 +114,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=985"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8316&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8316&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8316-2011"
@@ -83,6 +127,7 @@
         {
             "leg_id": "NYL000081", 
             "name": "Cahill", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -90,12 +135,19 @@
     "subjects": [
         "Energy"
     ], 
+    "summary": "Relates to the composition, responsibilities and discretion of the state energy\nplanning board and makes technical changes related thereto.", 
     "title": "Relates to the composition, responsibilities and discretion of the state energy planning board and makes technical changes related thereto", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-25 01:13:17", 
+    "updated_at": "2012-10-16 18:10:02", 
     "versions": [
+        {
+            "doc_id": "NYD00097902", 
+            "mimetype": "text/html", 
+            "name": "A8316", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8316"
+        }, 
         {
             "doc_id": "NYD00031208", 
             "mimetype": "text/html", 

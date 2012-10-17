@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-01-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -20,9 +26,16 @@
     "alternate_titles": [], 
     "bill_id": "S 2234", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:23", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00055902", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2234-2011"
+        }
+    ], 
     "id": "NYB00002300", 
     "level": "state", 
     "scraped_subjects": [
@@ -31,7 +44,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=139"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2234&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2234&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S2234-2011"
@@ -41,6 +57,7 @@
         {
             "leg_id": "NYL000029", 
             "name": "KRUGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -48,12 +65,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Provides that in the case of dwelling accommodations of limited-profit housing\ncompanies, the probable aggregate annual income required to determine the\neligibility of tenants, shall not include the cost of tuition, books, room and\nboard paid for dependent children; limits such exclusion to fifteen hundred\ndollars for each dependent child who is a full time student.", 
     "title": "Excludes certain tuition and related expenses from annual income for purposes of limited-profit housing eligibility", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-22 01:08:19", 
+    "updated_at": "2012-10-16 18:00:31", 
     "versions": [
+        {
+            "doc_id": "NYD00055901", 
+            "mimetype": "text/html", 
+            "name": "S2234", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2234"
+        }, 
         {
             "doc_id": "NYD00025907", 
             "mimetype": "text/html", 

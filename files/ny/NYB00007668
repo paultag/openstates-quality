@@ -11,33 +11,61 @@
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in real property taxation", 
             "actor": "lower", 
             "date": "2012-03-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 439", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00089468", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A439&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007668", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=504"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A439&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A439&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A439-2011"
@@ -56,24 +87,104 @@
         {
             "leg_id": "NYL000138", 
             "name": "Lentol", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000067", 
+            "name": "Aubry", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000209", 
+            "name": "Wright", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000142", 
+            "name": "Lopez V", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000063", 
+            "name": "Abbate", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000097", 
+            "name": "Cymbrowitz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000167", 
+            "name": "Ortiz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": null, 
+            "name": "Towns", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides a partial real property tax tax abatement to owners of certain\nproperty in a city with a population of one million or more who lease units at\nless than the fair market rental value to eligible tenants.", 
     "title": "Provides a partial tax abatement to owners of property who lease units at less than the fair market rental value", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-19 01:04:19", 
+    "updated_at": "2012-10-16 18:07:52", 
     "versions": [
         {
-            "doc_id": "NYD00004256", 
+            "doc_id": "NYD00089466", 
             "mimetype": "text/html", 
             "name": "A439", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A439-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A439"
+        }, 
+        {
+            "doc_id": "NYD00089467", 
+            "mimetype": "text/html", 
+            "name": "A439", 
+            "url": "http://open.nysenate.gov/legislation/bill/A439-2011"
         }
     ], 
     "votes": []

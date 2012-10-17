@@ -1,18 +1,24 @@
 {
     "action_dates": {
-        "first": "2011-02-02 00:00:00", 
-        "last": "2011-06-13 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
-        "signed": null
+        "first": "2011-01-25 00:00:00", 
+        "last": "2011-08-03 00:00:00", 
+        "passed_lower": "2011-06-13 00:00:00", 
+        "passed_upper": "2011-06-13 00:00:00", 
+        "signed": "2011-08-03 00:00:00"
     }, 
     "actions": [
         {
             "action": "REFERRED TO ENVIRONMENTAL CONSERVATION", 
             "actor": "upper", 
             "date": "2011-02-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000017", 
+                    "name": "ENVIRONMENTAL CONSERVATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,7 @@
             "action": "1ST REPORT CAL.341", 
             "actor": "upper", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,41 +35,240 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2011-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "2840A"
+            ], 
             "action": "AMENDED ON THIRD READING 2840A", 
             "actor": "upper", 
             "date": "2011-06-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
         }, 
         {
+            "+bill_id": [
+                "A3556"
+            ], 
             "action": "SUBSTITUTED BY A3556A", 
             "actor": "upper", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
+            ]
+        }, 
+        {
+            "action": "referred to environmental conservation", 
+            "actor": "lower", 
+            "date": "2011-01-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to environmental conservation", 
+            "actor": "lower", 
+            "date": "2011-06-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "3556"
+            ], 
+            "action": "print number 3556a", 
+            "actor": "lower", 
+            "date": "2011-06-02 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "reported referred to rules", 
+            "actor": "lower", 
+            "date": "2011-06-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported ", 
+            "actor": "lower", 
+            "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "rules report cal.99", 
+            "actor": "lower", 
+            "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "ordered to third reading rules cal.99", 
+            "actor": "lower", 
+            "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "passed assembly", 
+            "actor": "lower", 
+            "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "delivered to senate", 
+            "actor": "lower", 
+            "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "REFERRED TO RULES", 
+            "actor": "upper", 
+            "date": "2011-06-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "SUBSTITUTED FOR S2840A", 
+            "actor": "upper", 
+            "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "3RD READING CAL.341", 
+            "actor": "upper", 
+            "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "PASSED SENATE", 
+            "actor": "upper", 
+            "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "RETURNED TO ASSEMBLY", 
+            "actor": "upper", 
+            "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "delivered to governor", 
+            "actor": "lower", 
+            "date": "2011-07-22 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:received"
+            ]
+        }, 
+        {
+            "+session_laws": [
+                "363"
+            ], 
+            "action": "signed chap.363", 
+            "actor": "lower", 
+            "date": "2011-08-03 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:signed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 2840", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 3556", 
+            "chamber": null, 
+            "internal_id": "NYB00010907", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:26", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00054899", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2840A-2011"
+        }
+    ], 
     "id": "NYB00002977", 
     "level": "state", 
     "scraped_subjects": [
@@ -71,35 +277,185 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=174"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2840&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S2840-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2840&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2840A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S2840A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000061", 
             "name": "YOUNG", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000007", 
+            "name": "BRESLIN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000026", 
+            "name": "KENNEDY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000035", 
+            "name": "MARCELLINO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000040", 
+            "name": "NOZZOLIO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000041", 
+            "name": "O'MARA", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000047", 
+            "name": "RITCHIE", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000054", 
+            "name": "SEWARD", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000060", 
+            "name": "VALESKY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Relates to giving the state soil and water conservation committee membership to\nthe New York ocean and Great Lakes ecosystem conservation council.", 
     "title": "Relates to giving the state soil and water conservation committee membership to the New York ocean and Great Lakes ecosystem conservation council", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-10 06:25:54", 
+    "updated_at": "2012-10-16 18:00:20", 
     "versions": [
         {
-            "doc_id": "NYD00016809", 
+            "doc_id": "NYD00054896", 
             "mimetype": "text/html", 
             "name": "S2840", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S2840-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2840"
+        }, 
+        {
+            "doc_id": "NYD00054897", 
+            "mimetype": "text/html", 
+            "name": "S2840", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2840-2011"
+        }, 
+        {
+            "doc_id": "NYD00054898", 
+            "mimetype": "text/html", 
+            "name": "S2840A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2840A-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00002977", 
+            "chamber": "upper", 
+            "date": "2011-04-12 00:00:00", 
+            "id": "NYV00004758", 
+            "motion": "Environmental Conservation Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NYL000042", 
+                    "name": "Oppenheimer"
+                }
+            ], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S2840A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00004758", 
+            "yes_count": 13, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000021", 
+                    "name": "Grisanti"
+                }, 
+                {
+                    "leg_id": "NYL000025", 
+                    "name": "Johnson"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }, 
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }, 
+                {
+                    "leg_id": "NYL000053", 
+                    "name": "Serrano"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
+                }
+            ]
+        }
+    ]
 }

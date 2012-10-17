@@ -11,38 +11,65 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2011-01-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to judiciary", 
             "actor": "lower", 
             "date": "2011-12-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "1774"
+            ], 
             "action": "print number 1774a", 
             "actor": "lower", 
             "date": "2011-12-07 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -51,9 +78,16 @@
     "alternate_titles": [], 
     "bill_id": "A 1774", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00088695", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1774&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009054", 
     "level": "state", 
     "scraped_subjects": [
@@ -62,16 +96,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=515"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1774&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A1774-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1774&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1774A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A1774A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -79,17 +120,30 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Relates to the recovery of abandoned animals from property that has been\nvacated through lease termination, property foreclosure or abandonment;\nprovides that an animal shall then be subject to disposition under section 117\nand 374 of the agriculture and markets law.", 
     "title": "Relates to the recovery of abandoned animals from property that has been vacated through lease termination, property foreclosure or abandonment", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-01 00:47:51", 
+    "updated_at": "2012-10-16 18:07:43", 
     "versions": [
         {
-            "doc_id": "NYD00000957", 
+            "doc_id": "NYD00088692", 
             "mimetype": "text/html", 
             "name": "A1774", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1774-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1774"
+        }, 
+        {
+            "doc_id": "NYD00088693", 
+            "mimetype": "text/html", 
+            "name": "A1774", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1774-2011"
+        }, 
+        {
+            "doc_id": "NYD00088694", 
+            "mimetype": "text/html", 
+            "name": "A1774A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1774A-2011"
         }
     ], 
     "votes": []

@@ -11,30 +11,50 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "7608"
+            ], 
             "action": "print number 7608a", 
             "actor": "lower", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2011-07-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -43,9 +63,23 @@
     "alternate_titles": [], 
     "bill_id": "A 7608", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4990", 
+            "chamber": null, 
+            "internal_id": "NYB00005252", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-16 21:06:12", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00105203", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7608&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00016062", 
     "level": "state", 
     "scraped_subjects": [
@@ -54,29 +88,67 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=932"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7608&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A7608-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7608&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7608A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A7608A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000071", 
             "name": "Bing", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000208", 
+            "name": "Weprin", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000192", 
+            "name": "Schimminger", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Expands the state investment tax credits to include tangible property used for\nproviding investment advisory services or management of investment portfolios\nwith investment objectives of over one million dollars.", 
     "title": "Relates to an investment advisory services tax credit", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-22 01:09:00", 
+    "updated_at": "2012-10-16 18:12:01", 
     "versions": [
+        {
+            "doc_id": "NYD00105202", 
+            "mimetype": "text/html", 
+            "name": "A7608", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7608"
+        }, 
         {
             "doc_id": "NYD00027089", 
             "mimetype": "text/html", 

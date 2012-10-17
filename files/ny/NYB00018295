@@ -12,7 +12,13 @@
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2011-06-09 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -21,7 +27,13 @@
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -30,7 +42,13 @@
             "action": "held for consideration in real property taxation", 
             "actor": "lower", 
             "date": "2012-05-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:failed"
             ]
@@ -39,14 +57,21 @@
     "alternate_titles": [], 
     "bill_id": "A 8277", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 5231", 
+            "chamber": null, 
+            "internal_id": "NYB00005493", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-10 07:39:24", 
     "documents": [
         {
-            "doc_id": "NYD00047302", 
+            "doc_id": "NYD00090800", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8277&term=&Memo=Y"
         }
     ], 
     "id": "NYB00018295", 
@@ -57,7 +82,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1034"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8277&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8277&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8277-2011"
@@ -67,7 +95,7 @@
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -75,12 +103,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Establishes a real property tax exemption for reservists.", 
     "title": "Establishes a real property tax exemption for reservists", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 10:05:46", 
+    "updated_at": "2012-10-16 18:08:19", 
     "versions": [
+        {
+            "doc_id": "NYD00090799", 
+            "mimetype": "text/html", 
+            "name": "A8277", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8277"
+        }, 
         {
             "doc_id": "NYD00032117", 
             "mimetype": "text/html", 

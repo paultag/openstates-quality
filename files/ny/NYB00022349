@@ -11,7 +11,13 @@
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2012-02-15 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -32,9 +38,9 @@
     "created_at": "2012-02-16 06:32:25", 
     "documents": [
         {
-            "doc_id": "NYD00048854", 
+            "doc_id": "NYD00100342", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9311&term=&Memo=Y"
         }
     ], 
     "id": "NYB00022349", 
@@ -45,7 +51,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1096"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9311&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9311&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9311-2011"
@@ -55,7 +64,7 @@
         {
             "leg_id": "NYL000218", 
             "name": "Ryan", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -63,12 +72,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Establishes the biosciences commercialization fund within the foundation for\nscience, technology and innovation.", 
     "title": "Establishes the biosciences commercialization assistance fund within the foundation for science, technology and innovation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-26 10:06:07", 
+    "updated_at": "2012-10-16 18:10:37", 
     "versions": [
+        {
+            "doc_id": "NYD00100341", 
+            "mimetype": "text/html", 
+            "name": "A9311", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9311"
+        }, 
         {
             "doc_id": "NYD00048213", 
             "mimetype": "text/html", 

@@ -12,8 +12,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -21,6 +27,7 @@
             "action": "REPORTED TO CALENDAR FOR CONSIDERATION", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -29,6 +36,7 @@
             "action": "ADOPTED", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -37,9 +45,16 @@
     "alternate_titles": [], 
     "bill_id": "J 1773", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-11 01:10:11", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00075999", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J1773-2011"
+        }
+    ], 
     "id": "NYB00015589", 
     "level": "state", 
     "scraped_subjects": [
@@ -48,7 +63,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1357"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J1773&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J1773&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J1773-2011"
@@ -58,16 +76,19 @@
         {
             "leg_id": "NYL000006", 
             "name": "BONACIC", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000031", 
             "name": "LARKIN", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000054", 
             "name": "SEWARD", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -75,12 +96,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commending Kathy Freese, recipient of Ulster-Greene ARC's Jack Deyo Award on May 20, 2011", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-07-10 02:28:23", 
+    "updated_at": "2012-10-16 18:05:09", 
     "versions": [
+        {
+            "doc_id": "NYD00075998", 
+            "mimetype": "text/html", 
+            "name": "J1773", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J1773"
+        }, 
         {
             "doc_id": "NYD00042370", 
             "mimetype": "text/html", 

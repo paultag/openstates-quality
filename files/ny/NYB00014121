@@ -11,49 +11,89 @@
             "action": "referred to small business", 
             "actor": "lower", 
             "date": "2011-03-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000071", 
+                    "name": "small business", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to small business", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000071", 
+                    "name": "small business", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to small business", 
             "actor": "lower", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000071", 
+                    "name": "small business", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6607"
+            ], 
             "action": "print number 6607a", 
             "actor": "lower", 
             "date": "2012-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 6607", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:16", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00092279", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6607&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014121", 
     "level": "state", 
     "scraped_subjects": [
@@ -62,17 +102,72 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=893"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6607&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A6607-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6607&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6607A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A6607A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000190", 
             "name": "Scarborough", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000178", 
+            "name": "Reilich", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000193", 
+            "name": "Schroeder", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000208", 
+            "name": "Weprin", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000065", 
+            "name": "Amedore", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000199", 
+            "name": "Sweeney", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -80,12 +175,19 @@
         "Budget, Spending, and Taxes", 
         "Legislative Affairs"
     ], 
+    "summary": "Allows for the division for small-business to advise on matters affecting\nmicro-enterprises consisting of fewer than five employees; establishes the main\nstreet center grant program to create main street centers in each of the\ncounties in New York state, with the exception of the five boroughs of New York\ncity; and requires the secretary of state to receive all rule-making documents\nin electronic format and to create an online publication of the state register.", 
     "title": "Makes provisions relating to assisting small businesses", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-11 15:59:56", 
+    "updated_at": "2012-10-16 18:08:39", 
     "versions": [
+        {
+            "doc_id": "NYD00092278", 
+            "mimetype": "text/html", 
+            "name": "A6607", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6607"
+        }, 
         {
             "doc_id": "NYD00031089", 
             "mimetype": "text/html", 

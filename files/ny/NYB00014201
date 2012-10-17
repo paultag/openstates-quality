@@ -12,7 +12,13 @@
             "action": "referred to tourism, parks, arts and sports development", 
             "actor": "lower", 
             "date": "2011-03-24 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000073", 
+                    "name": "tourism, parks, arts and sports development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -21,7 +27,13 @@
             "action": "reference changed to housing", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -30,13 +42,22 @@
             "action": "amend and recommit to housing", 
             "actor": "lower", 
             "date": "2011-05-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6685"
+            ], 
             "action": "print number 6685a", 
             "actor": "lower", 
             "date": "2011-05-04 00:00:00", 
@@ -49,7 +70,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -58,14 +85,21 @@
     "alternate_titles": [], 
     "bill_id": "A 6685", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 4320", 
+            "chamber": null, 
+            "internal_id": "NYB00004563", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:17", 
     "documents": [
         {
-            "doc_id": "NYD00048705", 
+            "doc_id": "NYD00088733", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6685&term=&Memo=Y"
         }
     ], 
     "id": "NYB00014201", 
@@ -76,23 +110,29 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=925"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6685&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A6685-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6685&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6685A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A6685A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000208", 
             "name": "Weprin", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000078", 
             "name": "Brook-Krasny", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -100,12 +140,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Establishes a committee to study the housing aspect of tourism in the state of\nNew York.", 
     "title": "Establishes a committee to study the housing aspect of tourism in the state of New York", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-26 10:06:05", 
+    "updated_at": "2012-10-16 18:07:44", 
     "versions": [
+        {
+            "doc_id": "NYD00088732", 
+            "mimetype": "text/html", 
+            "name": "A6685", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6685"
+        }, 
         {
             "doc_id": "NYD00044165", 
             "mimetype": "text/html", 

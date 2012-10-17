@@ -12,18 +12,30 @@
             "action": "referred to higher education", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000059", 
+                    "name": "higher education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to higher education", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000059", 
+                    "name": "higher education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -33,7 +45,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:49", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00087422", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A358&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007579", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=544"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A358&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A358&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A358-2011"
@@ -52,13 +73,13 @@
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000118", 
             "name": "Hawley", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -66,12 +87,19 @@
     "subjects": [
         "Education"
     ], 
+    "summary": "Creates a regents large animal veterinarian loan forgiveness program;\nestablishes the number, criteria and notification requirements to receive an\naward under such program; establishes such awards shall be awarded annually to\nveterinarians who agree to practice in large animal veterinarian medicine.", 
     "title": "Creates a regents large animal veterinarian loan forgiveness program", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 19:58:12", 
+    "updated_at": "2012-10-16 18:07:16", 
     "versions": [
+        {
+            "doc_id": "NYD00087421", 
+            "mimetype": "text/html", 
+            "name": "A358", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A358"
+        }, 
         {
             "doc_id": "NYD00032941", 
             "mimetype": "text/html", 

@@ -11,25 +11,53 @@
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2011-02-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4781", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4361", 
+            "chamber": null, 
+            "internal_id": "NYB00004604", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:09", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00084733", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4781&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012200", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=748"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4781&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4781&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4781-2011"
@@ -48,24 +79,50 @@
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000116", 
+            "name": "Gunther", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000168", 
+            "name": "Palmesano", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000079", 
+            "name": "Burling", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Relates to selectively cutting timber and exclusion of current best management\npractices from regulated activities.", 
     "title": "Relating to selectively cutting timber", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-10 01:06:17", 
+    "updated_at": "2012-10-16 18:06:37", 
     "versions": [
         {
-            "doc_id": "NYD00004736", 
+            "doc_id": "NYD00084731", 
             "mimetype": "text/html", 
             "name": "A4781", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4781-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4781"
+        }, 
+        {
+            "doc_id": "NYD00084732", 
+            "mimetype": "text/html", 
+            "name": "A4781", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4781-2011"
         }
     ], 
     "votes": []

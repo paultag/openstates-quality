@@ -11,25 +11,53 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1285", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 3118", 
+            "chamber": null, 
+            "internal_id": "NYB00003272", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:53", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00094541", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1285&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008549", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=522"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1285&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1285&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1285-2011"
@@ -48,24 +79,50 @@
         {
             "leg_id": "NYL000100", 
             "name": "Dinowitz", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000142", 
+            "name": "Lopez V", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Defines \"probable aggregate annual income\" for purposes of determining\neligibility for limited profit and limited dividend housing companies, as the\nannual net income after federal, state and municipal income taxes are deducted\nfrom gross income of the chief wage earner.", 
     "title": "Defines probable aggregate annual income for the tenant's eligibility under guidelines set for housing authority", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-24 01:09:33", 
+    "updated_at": "2012-10-16 18:09:11", 
     "versions": [
         {
-            "doc_id": "NYD00000349", 
+            "doc_id": "NYD00094539", 
             "mimetype": "text/html", 
             "name": "A1285", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1285-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1285"
+        }, 
+        {
+            "doc_id": "NYD00094540", 
+            "mimetype": "text/html", 
+            "name": "A1285", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1285-2011"
         }
     ], 
     "votes": []

@@ -11,9 +11,15 @@
             "action": "referred to racing and wagering", 
             "actor": "lower", 
             "date": "2012-03-21 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000068", 
+                    "name": "racing and wagering", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
@@ -30,7 +36,13 @@
     ], 
     "country": "us", 
     "created_at": "2012-03-22 01:26:09", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00098225", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9622&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00023133", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +51,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1116"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9622&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9622&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9622-2011"
@@ -49,49 +64,49 @@
         {
             "leg_id": "NYL000102", 
             "name": "Englebright", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000182", 
-            "name": "Rivera P", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000202", 
-            "name": "Thiele", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000210", 
             "name": "Zebrowski", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000199", 
             "name": "Sweeney", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000177", 
             "name": "Ramos", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000073", 
             "name": "Boyland", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000140", 
             "name": "Linares", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000202", 
+            "name": "Thiele", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -99,12 +114,19 @@
     "subjects": [
         "Gambling and Gaming"
     ], 
+    "summary": "Authorizes off-track betting corporations to host video lottery terminals.", 
     "title": "Authorizes off-track betting corporations to host video lottery terminals", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-08 09:54:57", 
+    "updated_at": "2012-10-16 18:10:05", 
     "versions": [
+        {
+            "doc_id": "NYD00098224", 
+            "mimetype": "text/html", 
+            "name": "A9622", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9622"
+        }, 
         {
             "doc_id": "NYD00045332", 
             "mimetype": "text/html", 

@@ -11,9 +11,14 @@
             "action": "REFERRED TO RACING, GAMING AND WAGERING", 
             "actor": "upper", 
             "date": "2011-03-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000029", 
+                    "name": "RACING, GAMING AND WAGERING", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -21,7 +26,13 @@
             "action": "REFERRED TO RACING, GAMING AND WAGERING", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000029", 
+                    "name": "RACING, GAMING AND WAGERING", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -33,7 +44,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:30", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00063533", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3703-2011"
+        }
+    ], 
     "id": "NYB00003898", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=241"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3703&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3703&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S3703-2011"
@@ -52,7 +72,7 @@
         {
             "leg_id": "NYL000001", 
             "name": "ADAMS", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -60,12 +80,19 @@
     "subjects": [
         "Gambling and Gaming"
     ], 
+    "summary": "Provides funding to support education, promotion and protection of the\nstandardbred breeding industry through the Agriculture and NYS Horse Breeding\nDevelopment Fund.", 
     "title": "Provides funding to support education, promotion and protection of the standardbred breeding industry", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-13 09:55:55", 
+    "updated_at": "2012-10-16 18:02:32", 
     "versions": [
+        {
+            "doc_id": "NYD00063532", 
+            "mimetype": "text/html", 
+            "name": "S3703", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3703"
+        }, 
         {
             "doc_id": "NYD00034313", 
             "mimetype": "text/html", 

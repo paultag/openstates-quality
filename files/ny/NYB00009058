@@ -11,25 +11,46 @@
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2011-01-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1778", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00095521", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1778&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009058", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=515"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1778&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1778&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1778-2011"
@@ -48,24 +72,110 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000142", 
+            "name": "Lopez V", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000167", 
+            "name": "Ortiz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000097", 
+            "name": "Cymbrowitz", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000220", 
+            "name": "Mayersohn", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000165", 
+            "name": "O'Donnell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000180", 
+            "name": "Rivera J", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000206", 
+            "name": "Weinstein", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Requires the division of housing and community renewal to promulgate forms\nwhich a landlord of a rent regulated unit in a building with four or more such\nunits shall be required to use when requesting additional information from a\ntenant who has made a request to sublet.", 
     "title": "Provides that landlord's request for information regarding request to sublet shall be on forms prepared by housing agency", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-01 00:47:51", 
+    "updated_at": "2012-10-16 18:09:22", 
     "versions": [
         {
-            "doc_id": "NYD00000962", 
+            "doc_id": "NYD00095519", 
             "mimetype": "text/html", 
             "name": "A1778", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1778-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1778"
+        }, 
+        {
+            "doc_id": "NYD00095520", 
+            "mimetype": "text/html", 
+            "name": "A1778", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1778-2011"
         }
     ], 
     "votes": []

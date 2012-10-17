@@ -14,17 +14,38 @@
             "action": "referred to veterans' affairs", 
             "actor": "lower", 
             "date": "2012-04-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000075", 
+                    "name": "veterans' affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 9892", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 6627", 
+            "chamber": null, 
+            "internal_id": "NYB00023338", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-05-25 01:13:18", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00088999", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9892&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00026097", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1132"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9892&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9892&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9892-2011"
@@ -43,11 +67,13 @@
         {
             "leg_id": "NYL000137", 
             "name": "Lavine", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000191", 
             "name": "Schimel", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -55,12 +81,19 @@
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Provides opportunities for veteran-owned business enterprises.", 
     "title": "Provides opportunities for veteran-owned business enterprises", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 02:27:38", 
+    "updated_at": "2012-10-16 18:07:46", 
     "versions": [
+        {
+            "doc_id": "NYD00088998", 
+            "mimetype": "text/html", 
+            "name": "A9892", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9892"
+        }, 
         {
             "doc_id": "NYD00031291", 
             "mimetype": "text/html", 

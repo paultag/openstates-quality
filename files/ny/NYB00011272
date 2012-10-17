@@ -14,33 +14,68 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2011-01-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in judiciary", 
             "actor": "lower", 
             "date": "2012-06-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3909", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 68", 
+            "chamber": null, 
+            "internal_id": "NYB00000050", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:05", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096541", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3909&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011272", 
     "level": "state", 
     "scraped_subjects": [
@@ -49,7 +84,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=743"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3909&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3909&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3909-2011"
@@ -59,6 +97,7 @@
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -66,12 +105,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Requires leases in cities with a population of one million or more to contain a\nrider describing the rights and duties with regards to the housing part of such\ncity's housing part of civil court; directs the office of court administration\nto conduct a public information program informing tenants of their rights and\nof the right to utilize the housing of the civil court.", 
     "title": "Requires leases in N.Y. city to contain a rider concerning the rights and duties with regards to the housing part of court", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-18 01:15:59", 
+    "updated_at": "2012-10-16 18:09:34", 
     "versions": [
+        {
+            "doc_id": "NYD00096540", 
+            "mimetype": "text/html", 
+            "name": "A3909", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3909"
+        }, 
         {
             "doc_id": "NYD00041226", 
             "mimetype": "text/html", 

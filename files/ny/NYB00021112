@@ -12,7 +12,13 @@
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2012-01-17 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -21,13 +27,22 @@
             "action": "amend and recommit to governmental operations", 
             "actor": "lower", 
             "date": "2012-01-26 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "9032"
+            ], 
             "action": "print number 9032a", 
             "actor": "lower", 
             "date": "2012-01-26 00:00:00", 
@@ -40,14 +55,21 @@
     "alternate_titles": [], 
     "bill_id": "A 9032", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 6023", 
+            "chamber": null, 
+            "internal_id": "NYB00020023", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-01-18 07:00:24", 
     "documents": [
         {
-            "doc_id": "NYD00048843", 
+            "doc_id": "NYD00103539", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9032&term=&Memo=Y"
         }
     ], 
     "id": "NYB00021112", 
@@ -58,17 +80,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1077"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9032&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A9032-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9032&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9032A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A9032A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000107", 
             "name": "Gabryszak", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -76,12 +104,19 @@
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Relates to participation by independent living centers in minority and women\nowned business requirements.", 
     "title": "Relates to participation by independent living centers in minority and women owned business requirements", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-26 10:06:07", 
+    "updated_at": "2012-10-16 18:11:31", 
     "versions": [
+        {
+            "doc_id": "NYD00103538", 
+            "mimetype": "text/html", 
+            "name": "A9032", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9032"
+        }, 
         {
             "doc_id": "NYD00034158", 
             "mimetype": "text/html", 

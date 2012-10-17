@@ -14,49 +14,77 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to agriculture", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "7744"
+            ], 
             "action": "print number 7744a", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-23 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-06-23 00:00:00", 
             "related_entities": [], 
@@ -74,6 +102,9 @@
             ]
         }, 
         {
+            "+bill_id": [
+                "s5168"
+            ], 
             "action": "substituted by s5168a", 
             "actor": "lower", 
             "date": "2011-06-23 00:00:00", 
@@ -86,9 +117,23 @@
     "alternate_titles": [], 
     "bill_id": "A 7744", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 5168", 
+            "chamber": null, 
+            "internal_id": "NYB00005430", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-16 21:06:12", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00097415", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7744&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00016198", 
     "level": "state", 
     "scraped_subjects": [
@@ -97,29 +142,49 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=995"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7744&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A7744-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7744&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7744A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A7744A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Defines a commercial equine operation as an agricultural enterprise, consisting\nof at least seven acres and stabling at least ten horses, regardless of\nownership, that receives more than ten thousand dollars or more annually from\nfees generated through provision of commercial equine activities or production\nfor sale of crops or livestock; includes commercial equine operation in the\ndefinition of a farm operation.", 
     "title": "Defines a commercial equine operation and includes commercial equine operation in the definition of a farm operation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 02:25:53", 
+    "updated_at": "2012-10-16 18:09:57", 
     "versions": [
+        {
+            "doc_id": "NYD00097414", 
+            "mimetype": "text/html", 
+            "name": "A7744", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7744"
+        }, 
         {
             "doc_id": "NYD00031156", 
             "mimetype": "text/html", 

@@ -14,17 +14,38 @@
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 10139", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 6753", 
+            "chamber": null, 
+            "internal_id": "NYB00026942", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-05-11 01:14:33", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00100314", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10139&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00025298", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1136"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10139&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10139&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A10139-2011"
@@ -43,19 +67,33 @@
         {
             "leg_id": "NYL000083", 
             "name": "Camara", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Provides for the awarding of state contracts for professional services under\nthe minority and women-owned business enterprise program.", 
     "title": "Provides for the awarding of state contracts for professional services under the minority and women-owned business enterprise program", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-16 01:15:49", 
+    "updated_at": "2012-10-16 18:10:37", 
     "versions": [
+        {
+            "doc_id": "NYD00100313", 
+            "mimetype": "text/html", 
+            "name": "A10139", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10139"
+        }, 
         {
             "doc_id": "NYD00034961", 
             "mimetype": "text/html", 

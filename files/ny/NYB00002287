@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-01-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -20,9 +26,16 @@
     "alternate_titles": [], 
     "bill_id": "S 2221", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:23", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00065941", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2221-2011"
+        }
+    ], 
     "id": "NYB00002287", 
     "level": "state", 
     "scraped_subjects": [
@@ -31,7 +44,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=134"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2221&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2221&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S2221-2011"
@@ -41,6 +57,7 @@
         {
             "leg_id": "NYL000029", 
             "name": "KRUGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -48,17 +65,24 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Increases the ability to remove persons from premises used for illegal\npurposes; enables tenants, block associations and community organizations\nwithin 1,000 feet of a property being used for an illegal activity to serve\nowners with a written notice requiring the owner to make application for the\nremoval of the person using the premises for illegal activities and allows such\norganizations to bring a proceeding when the owner fails to act.", 
     "title": "Increases the ability to remove persons from premises used for illegal purposes", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-04 06:26:43", 
+    "updated_at": "2012-10-16 18:03:11", 
     "versions": [
         {
-            "doc_id": "NYD00015939", 
+            "doc_id": "NYD00065939", 
             "mimetype": "text/html", 
             "name": "S2221", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S2221-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2221"
+        }, 
+        {
+            "doc_id": "NYD00065940", 
+            "mimetype": "text/html", 
+            "name": "S2221", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2221-2011"
         }
     ], 
     "votes": []

@@ -11,25 +11,46 @@
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7085", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:19", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00087620", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7085&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014613", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=936"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7085&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7085&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7085-2011"
@@ -48,19 +72,57 @@
         {
             "leg_id": "NYL000156", 
             "name": "Miller J", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000134", 
+            "name": "Kolb", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000201", 
+            "name": "Tenney", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000118", 
+            "name": "Hawley", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000130", 
+            "name": "Katz", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000160", 
+            "name": "Montesano", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides for the exemption of certain fruit or vegetable storage facilities\npermanently affixed to agricultural land from taxation, special ad valorem\nlevies, and special assessments.", 
     "title": "Provides for the exemption of certain farm products storage facilities from taxation, special ad valorem levies, and special assessments", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-15 01:11:53", 
+    "updated_at": "2012-10-16 18:07:18", 
     "versions": [
+        {
+            "doc_id": "NYD00087619", 
+            "mimetype": "text/html", 
+            "name": "A7085", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7085"
+        }, 
         {
             "doc_id": "NYD00039602", 
             "mimetype": "text/html", 

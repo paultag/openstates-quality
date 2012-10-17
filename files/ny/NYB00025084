@@ -14,8 +14,14 @@
             "action": "REFERRED TO CRIME VICTIMS, CRIME AND CORRECTION", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000012", 
+                    "name": "CRIME VICTIMS, CRIME AND CORRECTION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -23,9 +29,23 @@
     "alternate_titles": [], 
     "bill_id": "S 6855", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 9475", 
+            "chamber": null, 
+            "internal_id": "NYB00025412", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-05-08 01:05:28", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00068606", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6855-2011"
+        }
+    ], 
     "id": "NYB00025084", 
     "level": "state", 
     "scraped_subjects": [
@@ -34,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=445"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6855&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6855&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S6855-2011"
@@ -44,19 +67,63 @@
         {
             "leg_id": "NYL000048", 
             "name": "RIVERA", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000023", 
+            "name": "HASSELL-THOMPSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000028", 
+            "name": "KRUEGER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000039", 
+            "name": "MONTGOMERY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000042", 
+            "name": "OPPENHEIMER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000043", 
+            "name": "PARKER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000058", 
+            "name": "STAVISKY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Establishes a pilot project for placement of inmates close to home; provides\nthat such project would house inmates who are parents of minor children in the\ncorrectional facility located in closest proximity to the primary place of\nresidence of any such inmate's minor child or children.", 
     "title": "Establishes a pilot project for the placement of inmates close to home", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-22 01:08:32", 
+    "updated_at": "2012-10-16 18:03:59", 
     "versions": [
+        {
+            "doc_id": "NYD00068605", 
+            "mimetype": "text/html", 
+            "name": "S6855", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6855"
+        }, 
         {
             "doc_id": "NYD00026259", 
             "mimetype": "text/html", 

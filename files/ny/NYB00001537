@@ -14,7 +14,13 @@
             "action": "REFERRED TO CONSUMER PROTECTION", 
             "actor": "upper", 
             "date": "2011-01-07 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000010", 
+                    "name": "CONSUMER PROTECTION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -23,7 +29,13 @@
             "action": "REFERRED TO CONSUMER PROTECTION", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000010", 
+                    "name": "CONSUMER PROTECTION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -32,10 +44,23 @@
     "alternate_titles": [], 
     "bill_id": "S 1481", 
     "chamber": "upper", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "A 1396", 
+            "chamber": null, 
+            "internal_id": "NYB00008662", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:21", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00055643", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1481-2011"
+        }
+    ], 
     "id": "NYB00001537", 
     "level": "state", 
     "scraped_subjects": [
@@ -44,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=95"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1481&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1481&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S1481-2011"
@@ -54,19 +82,19 @@
         {
             "leg_id": "NYL000032", 
             "name": "LAVALLE", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000019", 
             "name": "GOLDEN", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000046", 
             "name": "RANZENHOFER", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -74,12 +102,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Provides that no person shall manufacture, sell or expose for sale any product\nwhich shall be termed as a dietary supplement or nutritional supplement without\nbranding or labeling such product with a statement that the product has or has\nnot been tested by the United States food and drug administration; provides\nthat the commissioner of agriculture and markets shall promulgate rules and\nregulations defining the terms dietary supplement and nutritional supplement.", 
     "title": "Requires products labeled as dietary supplements or nutritional supplements to carry a label stating that product has or has not been tested by United States FDA", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:21", 
+    "updated_at": "2012-10-16 18:00:28", 
     "versions": [
+        {
+            "doc_id": "NYD00055642", 
+            "mimetype": "text/html", 
+            "name": "S1481", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S1481"
+        }, 
         {
             "doc_id": "NYD00033208", 
             "mimetype": "text/html", 

@@ -12,27 +12,53 @@
             "action": "referred to higher education", 
             "actor": "lower", 
             "date": "2011-06-14 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000059", 
+                    "name": "higher education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to higher education", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000059", 
+                    "name": "higher education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 8345", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4879", 
+            "chamber": null, 
+            "internal_id": "NYB00005141", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-15 07:56:27", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00099211", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8345&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00018946", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1037"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8345&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8345&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8345-2011"
@@ -51,7 +80,7 @@
         {
             "leg_id": "NYL000081", 
             "name": "Cahill", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +88,19 @@
     "subjects": [
         "Education"
     ], 
+    "summary": "Provides that housing allowances under the World trade center memorial\nscholarships shall not be decreased for off campus housing unless a student\nresides with a relative.", 
     "title": "Relates to housing allowances under the World trade center memorial scholarships", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-28 02:50:06", 
+    "updated_at": "2012-10-16 18:10:19", 
     "versions": [
+        {
+            "doc_id": "NYD00099210", 
+            "mimetype": "text/html", 
+            "name": "A8345", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8345"
+        }, 
         {
             "doc_id": "NYD00041910", 
             "mimetype": "text/html", 

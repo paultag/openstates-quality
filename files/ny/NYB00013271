@@ -11,9 +11,15 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-03-01 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
@@ -32,7 +38,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:13", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00083883", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5808&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013271", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +53,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=869"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5808&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5808&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5808-2011"
@@ -51,19 +66,19 @@
         {
             "leg_id": null, 
             "name": "Towns", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000198", 
             "name": "Stevenson", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000086", 
             "name": "Castro", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -71,12 +86,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Enacts the \"public housing and safety security act\"; grants the division of\nhousing and community renewal the authority to issue grants to public housing\nauthorities or agencies for use in improving security in public housing\nprojects; provides eligible activities for such grants; requires periodic\nsafety inspection and an annual report.", 
     "title": "Enacts the \"public housing safety and security act of 2011\"", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-14 09:55:57", 
+    "updated_at": "2012-10-16 18:06:29", 
     "versions": [
+        {
+            "doc_id": "NYD00083882", 
+            "mimetype": "text/html", 
+            "name": "A5808", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5808"
+        }, 
         {
             "doc_id": "NYD00026967", 
             "mimetype": "text/html", 

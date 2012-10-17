@@ -14,46 +14,80 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-06-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-06-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "7428"
+            ], 
             "action": "print number 7428a", 
             "actor": "lower", 
             "date": "2011-06-10 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-06-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +96,7 @@
             "action": "rules report cal.310", 
             "actor": "lower", 
             "date": "2011-06-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,14 +105,19 @@
             "action": "ordered to third reading rules cal.310", 
             "actor": "lower", 
             "date": "2011-06-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s4718"
+            ], 
             "action": "substituted by s4718a", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -86,9 +126,23 @@
     "alternate_titles": [], 
     "bill_id": "A 7428", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4718", 
+            "chamber": null, 
+            "internal_id": "NYB00004976", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:21", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00092261", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7428&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014961", 
     "level": "state", 
     "scraped_subjects": [
@@ -97,29 +151,61 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=940"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7428&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A7428-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7428&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7428A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A7428A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000187", 
+            "name": "Russell", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000141", 
+            "name": "Lopez P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Relates to the memberships of country agriculture and farmland protection\nboards; authorization to hold conservation easements and funding for\nagricultural nonpoint source abatement and control projects.", 
     "title": "Relates to the memberships of country agriculture and farmland protection boards; authorization to hold conservation easements and funding for agricultural projects", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-06 01:17:29", 
+    "updated_at": "2012-10-16 18:08:39", 
     "versions": [
+        {
+            "doc_id": "NYD00092260", 
+            "mimetype": "text/html", 
+            "name": "A7428", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7428"
+        }, 
         {
             "doc_id": "NYD00036294", 
             "mimetype": "text/html", 

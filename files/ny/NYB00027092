@@ -14,17 +14,38 @@
             "action": "referred to consumer affairs and protection", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000047", 
+                    "name": "consumer affairs and protection", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 10447", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 7096", 
+            "chamber": null, 
+            "internal_id": "NYB00028544", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-06-16 01:15:49", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00087448", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10447&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00027092", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1155"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10447&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10447&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A10447-2011"
@@ -43,6 +67,7 @@
         {
             "leg_id": "NYL000127", 
             "name": "Jeffries", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -50,12 +75,19 @@
     "subjects": [
         "Business and Consumers"
     ], 
+    "summary": "Requires products sold as not safe for human consumption or not intended for\nhuman consumption to be labeled with their ingredients and active chemical\ncompounds; violations of such provisions shall constitute a class A\nmisdemeanor.", 
     "title": "Requires products sold as not safe for human consumption to be labeled with their ingredients and active chemical compounds", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-16 01:15:49", 
+    "updated_at": "2012-10-16 18:07:16", 
     "versions": [
+        {
+            "doc_id": "NYD00087447", 
+            "mimetype": "text/html", 
+            "name": "A10447", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10447"
+        }, 
         {
             "doc_id": "NYD00040085", 
             "mimetype": "text/html", 

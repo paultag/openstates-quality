@@ -14,22 +14,34 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-12-07 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-12-07 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-12-07 00:00:00", 
             "related_entities": [], 
@@ -47,6 +59,9 @@
             ]
         }, 
         {
+            "+bill_id": [
+                "s50002"
+            ], 
             "action": "substituted by s50002", 
             "actor": "lower", 
             "date": "2011-12-07 00:00:00", 
@@ -69,7 +84,13 @@
     ], 
     "country": "us", 
     "created_at": "2011-12-08 07:42:56", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00085932", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A40002&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00020128", 
     "level": "state", 
     "scraped_subjects": [
@@ -78,7 +99,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1190"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A40002&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A40002&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A40002-2011"
@@ -87,8 +111,8 @@
     "sponsors": [
         {
             "leg_id": null, 
-            "name": "BUDGET BILL", 
-            "official_type": "primary", 
+            "name": "Budget", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -96,12 +120,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Relates to enacting into law major components of law necessary to the state;\nrelates to tax rates and exclusions under the metropolitan commuter\ntransportation mobility tax; relates to tax rates imposed on NY manufacturers;\nestablishes a youth works tax credit; establishes the empire state jobs\nretention program; establishes the infrastructure investment act; enacts\nHurricane Irene and Tropical storm Lee assessment relief and flood recover\nprogram; prohibits MTA funds diversion; requires compliance with project labor\nagreements under NY-SUNY 2020 challenge grant program.", 
     "title": "Enacts major components of legislation relating to issues deemed necessary to the state", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-11 09:55:52", 
+    "updated_at": "2012-10-16 18:06:59", 
     "versions": [
+        {
+            "doc_id": "NYD00085931", 
+            "mimetype": "text/html", 
+            "name": "A40002", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A40002"
+        }, 
         {
             "doc_id": "NYD00034985", 
             "mimetype": "text/html", 

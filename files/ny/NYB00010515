@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-24 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-06-05 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,25 +11,61 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported referred to codes", 
+            "actor": "lower", 
+            "date": "2012-06-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3181", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:01", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00100131", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3181&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010515", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=630"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3181&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3181&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3181-2011"
@@ -48,24 +87,50 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000126", 
+            "name": "Jaffee", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000197", 
+            "name": "Spano", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Relates to the installation of radiator covers.", 
     "title": "Relates to the installation of radiator covers", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-25 01:14:55", 
+    "updated_at": "2012-10-16 18:10:35", 
     "versions": [
         {
-            "doc_id": "NYD00002697", 
+            "doc_id": "NYD00100129", 
             "mimetype": "text/html", 
             "name": "A3181", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A3181-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3181"
+        }, 
+        {
+            "doc_id": "NYD00100130", 
+            "mimetype": "text/html", 
+            "name": "A3181", 
+            "url": "http://open.nysenate.gov/legislation/bill/A3181-2011"
         }
     ], 
     "votes": []

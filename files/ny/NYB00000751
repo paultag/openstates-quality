@@ -11,8 +11,14 @@
             "action": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,16 @@
     "alternate_titles": [], 
     "bill_id": "S 735", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:18", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00068996", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S735-2011"
+        }
+    ], 
     "id": "NYB00000751", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=45"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S735&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S735&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S735-2011"
@@ -49,24 +72,50 @@
         {
             "leg_id": "NYL000049", 
             "name": "ROBACH", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000002", 
+            "name": "ADDABBO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000043", 
+            "name": "PARKER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000224", 
+            "name": "STOROBIN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides for the establishment of a home purchase account; enables first time\nhouse, condominium or unit in a cooperative housing corporation purchasers to\ndeposit monies into an account established at a banking institution and be able\nto take a tax deduction for the amount deposited, not exceeding $5,000 for an\nindividual and $10,000 for a couple; withdrawal of the monies in the fund will\nnot make an individual liable to income tax if such monies are applied toward\nthe purchase of a house, condominium or unit in a cooperative housing\ncorporation or the construction of a house, condominium or unit in a\ncooperative housing corporation; inappropriate application of fund monies shall\ncause the individual to be liable for income tax and be penalized.", 
     "title": "Authorizes an income tax deduction of monies deposited into a house, townhouse, condominium or unit in a cooperative housing corporation account", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-28 06:26:58", 
+    "updated_at": "2012-10-16 18:04:03", 
     "versions": [
         {
-            "doc_id": "NYD00022051", 
+            "doc_id": "NYD00068994", 
             "mimetype": "text/html", 
             "name": "S735", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S735-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S735"
+        }, 
+        {
+            "doc_id": "NYD00068995", 
+            "mimetype": "text/html", 
+            "name": "S735", 
+            "url": "http://open.nysenate.gov/legislation/bill/S735-2011"
         }
     ], 
     "votes": []

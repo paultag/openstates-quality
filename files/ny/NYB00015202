@@ -2,7 +2,7 @@
     "action_dates": {
         "first": "2011-03-07 00:00:00", 
         "last": "2011-03-07 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2011-03-07 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -13,7 +13,7 @@
             "date": "2011-03-07 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "bill:passed"
             ]
         }
     ], 
@@ -23,7 +23,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:22", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00108390", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K201&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00015202", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +38,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1210"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K201&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K201&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K201-2011"
@@ -42,7 +51,7 @@
         {
             "leg_id": "NYL000114", 
             "name": "Gottfried", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -50,12 +59,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Honoring the life and work of Susan M. Cohen, founding chairperson of the New York State Breast Cancer Network", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-14 09:56:02", 
+    "updated_at": "2012-10-16 18:12:47", 
     "versions": [
+        {
+            "doc_id": "NYD00108389", 
+            "mimetype": "text/html", 
+            "name": "K201", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K201"
+        }, 
         {
             "doc_id": "NYD00046011", 
             "mimetype": "text/html", 

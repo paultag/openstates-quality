@@ -14,33 +14,68 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in agriculture", 
             "actor": "lower", 
             "date": "2012-05-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1520", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 5015", 
+            "chamber": null, 
+            "internal_id": "NYB00005277", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:54", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00095829", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1520&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008795", 
     "level": "state", 
     "scraped_subjects": [
@@ -49,7 +84,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=604"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1520&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1520&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1520-2011"
@@ -59,19 +97,267 @@
         {
             "leg_id": "NYL000200", 
             "name": "Tedisco", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000090", 
+            "name": "Conte", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000082", 
+            "name": "Calhoun", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000065", 
+            "name": "Amedore", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000148", 
+            "name": "Malliotakis", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000130", 
+            "name": "Katz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000092", 
+            "name": "Corwin", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000080", 
+            "name": "Butler", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000079", 
+            "name": "Burling", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000163", 
+            "name": "Murray", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000151", 
+            "name": "McDonough", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000219", 
+            "name": "Giglio", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000201", 
+            "name": "Tenney", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000159", 
+            "name": "Molinaro", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000078", 
+            "name": "Brook-Krasny", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000153", 
+            "name": "McLaughlin", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000198", 
+            "name": "Stevenson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000157", 
+            "name": "Miller M", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000203", 
+            "name": "Titone", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000181", 
+            "name": "Rivera N", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000160", 
+            "name": "Montesano", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000128", 
+            "name": "Johns", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000066", 
+            "name": "Arroyo", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000068", 
+            "name": "Barclay", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000085", 
+            "name": "Castelli", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000087", 
+            "name": "Ceretto", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000094", 
+            "name": "Crouch", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000101", 
+            "name": "Duprey", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000104", 
+            "name": "Finch", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000119", 
+            "name": "Hayes", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000134", 
+            "name": "Kolb", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000150", 
+            "name": "McKevitt", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000166", 
+            "name": "Oaks", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000175", 
+            "name": "Rabbitt", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000188", 
+            "name": "Saladino", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000202", 
+            "name": "Thiele", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000205", 
+            "name": "Tobacco", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Increases certain penalties for violating the prohibition of animal fighting\nand for aggravated cruelty to animals and requires a psychiatric evaluation for\ndefendants convicted of aggravated cruelty to animals.", 
     "title": "Increases certain penalties for violating the prohibition of animal fighting and for aggravated cruelty to animals", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-16 01:15:42", 
+    "updated_at": "2012-10-16 18:09:25", 
     "versions": [
+        {
+            "doc_id": "NYD00095828", 
+            "mimetype": "text/html", 
+            "name": "A1520", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1520"
+        }, 
         {
             "doc_id": "NYD00028260", 
             "mimetype": "text/html", 

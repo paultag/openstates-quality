@@ -12,28 +12,53 @@
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 640", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 2457", 
+            "chamber": null, 
+            "internal_id": "NYB00002536", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:51", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00098630", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A640&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007876", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=562"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A640&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A640&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A640-2011"
@@ -52,67 +80,67 @@
         {
             "leg_id": "NYL000209", 
             "name": "Wright", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000073", 
-            "name": "Boyland", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000172", 
-            "name": "Pheffer", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000179", 
-            "name": "Reilly", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000191", 
-            "name": "Schimel", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": null, 
-            "name": "Towns", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000089", 
             "name": "Colton", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000126", 
             "name": "Jaffee", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000169", 
             "name": "Paulin", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000179", 
+            "name": "Reilly", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000191", 
+            "name": "Schimel", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": null, 
+            "name": "Towns", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -120,12 +148,19 @@
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Creates a state urban pesticide board to examine the application of pesticides\nin urban areas; delineates such board's functions, powers and duties; requires\nsuch board to make a preliminary and final report and make recommendations for\nlegislative action; also requires alternative pesticide training.", 
     "title": "Creates a state urban pesticide board to study and report on the application of pesticides in urban areas; requires alternative pesticide training", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 20:29:17", 
+    "updated_at": "2012-10-16 18:10:10", 
     "versions": [
+        {
+            "doc_id": "NYD00098629", 
+            "mimetype": "text/html", 
+            "name": "A640", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A640"
+        }, 
         {
             "doc_id": "NYD00031934", 
             "mimetype": "text/html", 

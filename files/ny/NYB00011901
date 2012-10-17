@@ -11,7 +11,13 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-02-03 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -34,9 +46,9 @@
     "created_at": "2011-05-05 01:30:08", 
     "documents": [
         {
-            "doc_id": "NYD00047066", 
+            "doc_id": "NYD00106400", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4490&term=&Memo=Y"
         }
     ], 
     "id": "NYB00011901", 
@@ -47,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=790"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4490&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4490&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4490-2011"
@@ -57,31 +72,31 @@
         {
             "leg_id": "NYL000149", 
             "name": "Markey", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000110", 
-            "name": "Gibson", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000160", 
-            "name": "Montesano", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000181", 
             "name": "Rivera N", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000197", 
             "name": "Spano", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000110", 
+            "name": "Gibson", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000160", 
+            "name": "Montesano", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -89,12 +104,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Relates to the maintaining of copies of purchase invoices and labeling of all\ncommercial feed products used in the feeding of bovine animals for ten years\nand requires such records to be open for inspection by the commissioner of\nagriculture and markets or his agent at any reasonable time.", 
     "title": "Relates to the maintaining of copies of purchase invoices and labeling of all commercial feed products for ten years", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 10:05:43", 
+    "updated_at": "2012-10-16 18:12:14", 
     "versions": [
+        {
+            "doc_id": "NYD00106399", 
+            "mimetype": "text/html", 
+            "name": "A4490", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4490"
+        }, 
         {
             "doc_id": "NYD00034738", 
             "mimetype": "text/html", 

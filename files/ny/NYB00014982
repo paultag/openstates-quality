@@ -11,55 +11,96 @@
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2011-05-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to economic development", 
             "actor": "lower", 
             "date": "2011-05-09 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "7449"
+            ], 
             "action": "print number 7449a", 
             "actor": "lower", 
             "date": "2011-05-09 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2012-03-13 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7449", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 5078", 
+            "chamber": null, 
+            "internal_id": "NYB00005340", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:21", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00095042", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7449&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014982", 
     "level": "state", 
     "scraped_subjects": [
@@ -68,30 +109,97 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=976"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7449&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A7449-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7449&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7449A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A7449A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000189", 
+            "name": "Sayward", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000179", 
+            "name": "Reilly", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000160", 
+            "name": "Montesano", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000116", 
+            "name": "Gunther", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000223", 
+            "name": "Barrett", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000141", 
+            "name": "Lopez P", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Drugs"
     ], 
+    "summary": "Authorizes the liquor authority to issue farm brewery licenses for the\nmanufacture and sale of beer on farms.", 
     "title": "Authorizes the liquor authority to issue farm brewery licenses for the manufacture and sale of beer on farms", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-14 09:55:58", 
+    "updated_at": "2012-10-16 18:09:16", 
     "versions": [
+        {
+            "doc_id": "NYD00095041", 
+            "mimetype": "text/html", 
+            "name": "A7449", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7449"
+        }, 
         {
             "doc_id": "NYD00045933", 
             "mimetype": "text/html", 

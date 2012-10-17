@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-03-12 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,8 +11,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,37 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
+            "actor": "upper", 
+            "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
+            "actor": "upper", 
+            "date": "2012-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +65,23 @@
     "alternate_titles": [], 
     "bill_id": "S 104", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 3294", 
+            "chamber": null, 
+            "internal_id": "NYB00010632", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:15", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00059194", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S104-2011"
+        }
+    ], 
     "id": "NYB00000086", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +90,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=5"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S104&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S104&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S104-2011"
@@ -49,24 +103,68 @@
         {
             "leg_id": "NYL000039", 
             "name": "MONTGOMERY", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000010", 
+            "name": "DIAZ", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000011", 
+            "name": "DILAN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000013", 
+            "name": "ESPAILLAT", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000023", 
+            "name": "HASSELL-THOMPSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000043", 
+            "name": "PARKER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000051", 
+            "name": "SAMPSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Establishes the New York state justice reinvestment fund and program to provide\nnot-for-profit and faith based entities with funding to improve communities\nwith a higher than normal criminal offender and ex-offender population;\nappropriates $10,000,000 therefor.", 
     "title": "Establishes the New York state justice reinvestment fund and program to provide not-for-profit and faith based entities with funding to improve certain communities", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-07 06:27:12", 
+    "updated_at": "2012-10-16 18:01:29", 
     "versions": [
         {
-            "doc_id": "NYD00014384", 
+            "doc_id": "NYD00059192", 
             "mimetype": "text/html", 
             "name": "S104", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S104-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S104"
+        }, 
+        {
+            "doc_id": "NYD00059193", 
+            "mimetype": "text/html", 
+            "name": "S104", 
+            "url": "http://open.nysenate.gov/legislation/bill/S104-2011"
         }
     ], 
     "votes": []

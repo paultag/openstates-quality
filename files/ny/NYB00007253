@@ -11,18 +11,30 @@
             "action": "referred to consumer affairs and protection", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000047", 
+                    "name": "consumer affairs and protection", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to consumer affairs and protection", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000047", 
+                    "name": "consumer affairs and protection", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -32,7 +44,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:48", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00101875", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A57&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007253", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=525"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A57&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A57&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A57-2011"
@@ -51,7 +72,7 @@
         {
             "leg_id": "NYL000081", 
             "name": "Cahill", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +80,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Establishes a permanent state item pricing law; provides that such item pricing\nshall apply to food, certain paper products, certain cleaning products, and\ncertain health and beauty aids; provides for the enforcement of item pricing by\nthe department of agriculture and markets and by municipal directors of\nconsumer affairs or weights and measures; provides for monetary penalties for\nviolations; further permits a super-refund on certain items; and permits\nlocalities to enforce local laws which are more stringent than state standards.", 
     "title": "Requires item pricing with limited exception", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 19:58:11", 
+    "updated_at": "2012-10-16 18:11:03", 
     "versions": [
+        {
+            "doc_id": "NYD00101874", 
+            "mimetype": "text/html", 
+            "name": "A57", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A57"
+        }, 
         {
             "doc_id": "NYD00032918", 
             "mimetype": "text/html", 

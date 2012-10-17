@@ -14,22 +14,37 @@
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2012-01-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -38,9 +53,23 @@
     "alternate_titles": [], 
     "bill_id": "A 532", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 6137", 
+            "chamber": null, 
+            "internal_id": "NYB00020495", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00089033", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A532&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007765", 
     "level": "state", 
     "scraped_subjects": [
@@ -49,7 +78,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=545"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A532&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A532&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A532-2011"
@@ -59,19 +91,93 @@
         {
             "leg_id": "NYL000100", 
             "name": "Dinowitz", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000102", 
+            "name": "Englebright", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000071", 
+            "name": "Bing", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000180", 
+            "name": "Rivera J", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000136", 
+            "name": "Latimer", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000126", 
+            "name": "Jaffee", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000116", 
+            "name": "Gunther", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000063", 
+            "name": "Abbate", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000104", 
+            "name": "Finch", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000147", 
+            "name": "Maisel", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Senior Issues"
     ], 
+    "summary": "Expands supportive services to the elderly in naturally occurring retirement\ncommunities by enlarging target group through eliminating head of household\nrequirement, and including more such communities by reducing the number of\nelderly needed to qualify.", 
     "title": "Expands supportive services to the elderly in certain retirement communities by enlarging target group and including more facilities", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-16 01:15:41", 
+    "updated_at": "2012-10-16 18:07:47", 
     "versions": [
+        {
+            "doc_id": "NYD00089032", 
+            "mimetype": "text/html", 
+            "name": "A532", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A532"
+        }, 
         {
             "doc_id": "NYD00039986", 
             "mimetype": "text/html", 

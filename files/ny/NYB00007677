@@ -11,25 +11,46 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 448", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00099098", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A448&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007677", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,34 +59,66 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=541"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A448&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A448-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A448&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A448A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A448A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000094", 
+            "name": "Crouch", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000072", 
+            "name": "Blankenbush", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Regulates hatcheries that raise trout and black bass for food fish.", 
     "title": "Regulates hatcheries that raise trout and black bass for food fish", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:29", 
+    "updated_at": "2012-10-16 18:10:16", 
     "versions": [
+        {
+            "doc_id": "NYD00099096", 
+            "mimetype": "text/html", 
+            "name": "A448", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A448"
+        }, 
         {
             "doc_id": "NYD00040597", 
             "mimetype": "text/html", 
             "name": "A448", 
             "url": "http://open.nysenate.gov/legislation/bill/A448-2011"
+        }, 
+        {
+            "doc_id": "NYD00099097", 
+            "mimetype": "text/html", 
+            "name": "A448A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A448A-2011"
         }
     ], 
     "votes": []

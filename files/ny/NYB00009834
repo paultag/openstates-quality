@@ -14,7 +14,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -23,7 +29,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -32,7 +44,13 @@
             "action": "held for consideration in housing", 
             "actor": "lower", 
             "date": "2012-06-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:failed"
             ]
@@ -41,14 +59,21 @@
     "alternate_titles": [], 
     "bill_id": "A 2520", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 763", 
+            "chamber": null, 
+            "internal_id": "NYB00000783", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:59", 
     "documents": [
         {
-            "doc_id": "NYD00046967", 
+            "doc_id": "NYD00096676", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2520&term=&Memo=Y"
         }
     ], 
     "id": "NYB00009834", 
@@ -59,7 +84,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=673"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2520&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2520&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2520-2011"
@@ -69,79 +97,79 @@
         {
             "leg_id": "NYL000105", 
             "name": "Fitzpatrick", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000079", 
-            "name": "Burling", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000090", 
-            "name": "Conte", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000094", 
-            "name": "Crouch", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000219", 
-            "name": "Giglio", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000151", 
-            "name": "McDonough", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000176", 
-            "name": "Raia", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000188", 
-            "name": "Saladino", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000200", 
-            "name": "Tedisco", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000201", 
-            "name": "Tenney", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000202", 
-            "name": "Thiele", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000068", 
             "name": "Barclay", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000174", 
             "name": "Ra", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000079", 
+            "name": "Burling", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000090", 
+            "name": "Conte", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000094", 
+            "name": "Crouch", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000219", 
+            "name": "Giglio", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000151", 
+            "name": "McDonough", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000188", 
+            "name": "Saladino", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000200", 
+            "name": "Tedisco", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000201", 
+            "name": "Tenney", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000202", 
+            "name": "Thiele", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -149,12 +177,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Authorizes the establishment of the home equity protection insurance program\ndirecting the agency to issue a commitment to insure and insure the full value\nof certain residences which are owner-occupied by persons who meet certain\nincome qualifications.", 
     "title": "Authorizes the establishment of the home equity protection insurance program", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 10:05:42", 
+    "updated_at": "2012-10-16 18:09:35", 
     "versions": [
+        {
+            "doc_id": "NYD00096675", 
+            "mimetype": "text/html", 
+            "name": "A2520", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2520"
+        }, 
         {
             "doc_id": "NYD00036102", 
             "mimetype": "text/html", 

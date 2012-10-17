@@ -11,25 +11,46 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5619", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:12", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00082514", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5619&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013077", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=843"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5619&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5619&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5619-2011"
@@ -48,19 +72,135 @@
         {
             "leg_id": "NYL000149", 
             "name": "Markey", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000126", 
+            "name": "Jaffee", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000147", 
+            "name": "Maisel", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000069", 
+            "name": "Barron", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000183", 
+            "name": "Roberts", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000198", 
+            "name": "Stevenson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000210", 
+            "name": "Zebrowski", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000063", 
+            "name": "Abbate", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000067", 
+            "name": "Aubry", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000083", 
+            "name": "Camara", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000110", 
+            "name": "Gibson", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000164", 
+            "name": "Nolan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000170", 
+            "name": "Peoples-Stokes", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000188", 
+            "name": "Saladino", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000191", 
+            "name": "Schimel", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Directs the commissioner of agriculture and markets to assign inspectors to\nperform ongoing oversight of slaughterhouses, rendering plants, and commercial\nfeed plants; they shall enforce all applicable federal, state, and local laws\nand regulations pertaining to sanitation and health.", 
     "title": "Directs the commissioner of agriculture and markets to assign inspectors to perform ongoing oversight of slaughterhouses, rendering and commercial feed plants", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-15 01:11:50", 
+    "updated_at": "2012-10-16 18:06:04", 
     "versions": [
+        {
+            "doc_id": "NYD00082513", 
+            "mimetype": "text/html", 
+            "name": "A5619", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5619"
+        }, 
         {
             "doc_id": "NYD00036224", 
             "mimetype": "text/html", 

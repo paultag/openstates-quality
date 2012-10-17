@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-14 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-05-31 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,8 +11,14 @@
             "action": "REFERRED TO JUDICIARY", 
             "actor": "upper", 
             "date": "2011-01-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000025", 
+                    "name": "JUDICIARY", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,17 +26,66 @@
             "action": "REFERRED TO JUDICIARY", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000025", 
+                    "name": "JUDICIARY", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
+            ]
+        }, 
+        {
+            "action": "AMEND (T) AND RECOMMIT TO JUDICIARY", 
+            "actor": "upper", 
+            "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000025", 
+                    "name": "JUDICIARY", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "1941"
+            ], 
+            "action": "PRINT NUMBER 1941A", 
+            "actor": "upper", 
+            "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 1941", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 2136", 
+            "chamber": null, 
+            "internal_id": "NYB00009426", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:22", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00065648", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1941A-2011"
+        }
+    ], 
     "id": "NYB00002004", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,16 +94,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=118"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1941&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S1941-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1941&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1941A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S1941A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000032", 
             "name": "LAVALLE", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,17 +118,30 @@
     "subjects": [
         "Housing and Property"
     ], 
-    "title": "Defines planned retirement community and proscribes rules and regulations for ownership and operation in Suffolk county", 
+    "summary": "Sets up rules and regulations for the operation of lease-hold retirement\ncommunities to provide adequate housing for senior citizens wishing to retire\nand locate in a lease-hold retirement community; grants owners of homes in\nlease-hold retirement communities the right to sell their homes by methods\ncommon to sales of residential property; requires that owners of lease-hold\nretirement communities offer owners of homes the option to sign a long-term\nninety-nine year lease.", 
+    "title": "Defines lease-hold retirement community and proscribes rules and regulations for ownership and operation thereof", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-04 06:26:41", 
+    "updated_at": "2012-10-16 18:03:07", 
     "versions": [
         {
-            "doc_id": "NYD00015583", 
+            "doc_id": "NYD00065645", 
             "mimetype": "text/html", 
             "name": "S1941", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S1941-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S1941"
+        }, 
+        {
+            "doc_id": "NYD00065646", 
+            "mimetype": "text/html", 
+            "name": "S1941", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1941-2011"
+        }, 
+        {
+            "doc_id": "NYD00065647", 
+            "mimetype": "text/html", 
+            "name": "S1941A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1941A-2011"
         }
     ], 
     "votes": []

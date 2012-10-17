@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2012-02-24 00:00:00", 
-        "last": "2012-02-24 00:00:00", 
+        "last": "2012-05-01 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,17 +11,53 @@
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2012-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported referred to codes", 
+            "actor": "lower", 
+            "date": "2012-05-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 9387", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4241", 
+            "chamber": null, 
+            "internal_id": "NYB00004476", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-03-28 00:54:25", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091227", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9387&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00023497", 
     "level": "state", 
     "scraped_subjects": [
@@ -30,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=987"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9387&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9387&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9387-2011"
@@ -40,24 +79,50 @@
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000160", 
+            "name": "Montesano", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000088", 
+            "name": "Clark", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Drugs"
     ], 
+    "summary": "Authorizes licensed roadside farm markets to sell wine from up to two farm or\nspecial wineries or micro-wineries located within 20 miles of such licensed\nroadside farm market.", 
     "title": "Authorizes roadside farm markets to sell wine from up to two farm, special or micro-wineries located within 20 miles", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-13 01:05:53", 
+    "updated_at": "2012-10-16 18:08:24", 
     "versions": [
         {
-            "doc_id": "NYD00023497", 
+            "doc_id": "NYD00091225", 
             "mimetype": "text/html", 
             "name": "A9387", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A9387-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9387"
+        }, 
+        {
+            "doc_id": "NYD00091226", 
+            "mimetype": "text/html", 
+            "name": "A9387", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9387-2011"
         }
     ], 
     "votes": []

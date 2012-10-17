@@ -11,7 +11,13 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-26 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -34,9 +46,9 @@
     "created_at": "2011-05-05 01:30:03", 
     "documents": [
         {
-            "doc_id": "NYD00048539", 
+            "doc_id": "NYD00097600", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3584&term=&Memo=Y"
         }
     ], 
     "id": "NYB00010935", 
@@ -47,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=735"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3584&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3584&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3584-2011"
@@ -57,61 +72,61 @@
         {
             "leg_id": "NYL000094", 
             "name": "Crouch", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000104", 
-            "name": "Finch", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000166", 
-            "name": "Oaks", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000176", 
-            "name": "Raia", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000201", 
-            "name": "Tenney", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000134", 
             "name": "Kolb", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000079", 
             "name": "Burling", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000068", 
             "name": "Barclay", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000118", 
             "name": "Hawley", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000160", 
             "name": "Montesano", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000104", 
+            "name": "Finch", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000166", 
+            "name": "Oaks", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000201", 
+            "name": "Tenney", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -119,12 +134,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Establishes the anaerobic digesters revolving fund program to provide\nincentives for the installation of anaerobic manure digesters on agricultural\noperations to convert trapped methane from manure into energy.", 
     "title": "Establishes the anaerobic digesters revolving fund program", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-26 10:06:03", 
+    "updated_at": "2012-10-16 18:09:59", 
     "versions": [
+        {
+            "doc_id": "NYD00097599", 
+            "mimetype": "text/html", 
+            "name": "A3584", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3584"
+        }, 
         {
             "doc_id": "NYD00045581", 
             "mimetype": "text/html", 

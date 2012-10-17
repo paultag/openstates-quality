@@ -11,9 +11,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-02-25 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -42,7 +47,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:42", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00075601", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J684-2011"
+        }
+    ], 
     "id": "NYB00006258", 
     "level": "state", 
     "scraped_subjects": [
@@ -51,7 +62,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1258"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J684&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J684&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J684-2011"
@@ -61,7 +75,7 @@
         {
             "leg_id": "NYL000039", 
             "name": "MONTGOMERY", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -69,12 +83,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commending the Brooklyn Chinese-American Association (BCA) Sixth Avenue Senior Center on the occasion of its 6th Anniversary Celebration on March 11, 2011", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-08-24 20:29:16", 
+    "updated_at": "2012-10-16 18:05:03", 
     "versions": [
+        {
+            "doc_id": "NYD00075600", 
+            "mimetype": "text/html", 
+            "name": "J684", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J684"
+        }, 
         {
             "doc_id": "NYD00031628", 
             "mimetype": "text/html", 

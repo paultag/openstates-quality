@@ -11,14 +11,22 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2011-04-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,9 +35,16 @@
     "alternate_titles": [], 
     "bill_id": "A 4971", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:10", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00103018", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4971&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012397", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +53,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=714"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4971&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4971&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4971-2011"
@@ -46,26 +64,40 @@
     ], 
     "sponsors": [
         {
-            "leg_id": null, 
+            "leg_id": "NYL000220", 
             "name": "Mayersohn", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000142", 
+            "name": "Lopez V", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Provides that certain persons or families in occupancy of certain mutual and\nnon-mutual housing company projects prior to July 1, 2011 are not subject to\neviction from such housing if their income exceeds 150% of the eligibility\nstandards; postpones the statutory date after which such an eviction could\nlegally occur.", 
     "title": "Prohibits removal prior to July 1, 2011, of persons and families exceeding income criteria for certain housing company projects", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-24 01:21:30", 
+    "updated_at": "2012-10-16 18:11:24", 
     "versions": [
         {
-            "doc_id": "NYD00004972", 
+            "doc_id": "NYD00103016", 
             "mimetype": "text/html", 
             "name": "A4971", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4971-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4971"
+        }, 
+        {
+            "doc_id": "NYD00103017", 
+            "mimetype": "text/html", 
+            "name": "A4971", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4971-2011"
         }
     ], 
     "votes": []

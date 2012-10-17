@@ -11,25 +11,53 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1461", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 3120", 
+            "chamber": null, 
+            "internal_id": "NYB00003274", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:54", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00085527", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1461&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008734", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=565"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1461&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1461&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1461-2011"
@@ -48,24 +79,146 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000100", 
+            "name": "Dinowitz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000142", 
+            "name": "Lopez V", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000078", 
+            "name": "Brook-Krasny", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000081", 
+            "name": "Cahill", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000097", 
+            "name": "Cymbrowitz", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000124", 
+            "name": "Hoyt", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000132", 
+            "name": "Kellner", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000220", 
+            "name": "Mayersohn", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000165", 
+            "name": "O'Donnell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000180", 
+            "name": "Rivera J", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Allows tenants the right to offset rent with payments made for the repair or\nservice maintenance of an oil fired or other heating device where reasonable\nefforts were made to notify the landlord of the heating failure, the agency\nused is reasonably engaged in the business of making such repairs and an\nitemized bill for such service is provided.", 
     "title": "Permits tenants heat repair expense to be set off against rent", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-20 01:01:19", 
+    "updated_at": "2012-10-16 18:06:53", 
     "versions": [
         {
-            "doc_id": "NYD00000583", 
+            "doc_id": "NYD00085525", 
             "mimetype": "text/html", 
             "name": "A1461", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1461-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1461"
+        }, 
+        {
+            "doc_id": "NYD00085526", 
+            "mimetype": "text/html", 
+            "name": "A1461", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1461-2011"
         }
     ], 
     "votes": []

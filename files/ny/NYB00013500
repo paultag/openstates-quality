@@ -11,25 +11,46 @@
             "action": "referred to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2011-03-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 6031", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:14", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00092867", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6031&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013500", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=871"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6031&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6031&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6031-2011"
@@ -48,19 +72,117 @@
         {
             "leg_id": "NYL000076", 
             "name": "Brennan", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000164", 
+            "name": "Nolan", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000108", 
+            "name": "Galef", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000167", 
+            "name": "Ortiz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000124", 
+            "name": "Hoyt", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000099", 
+            "name": "Destito", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000136", 
+            "name": "Latimer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000139", 
+            "name": "Lifton", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000171", 
+            "name": "Perry", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000179", 
+            "name": "Reilly", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000193", 
+            "name": "Schroeder", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Business and Consumers"
     ], 
+    "summary": "Enacts the \"corporate disclosure, responsibility, and taxpayer protection act\";\nestablishes principles for corporations receiving state assistance; provides\nfor disclosure of real property tax reductions and abatements, standardized\napplications for development assistance, disclosure of development assistance,\njob creation and quality standards, and recapture in the event of development\nassistance defaults.", 
     "title": "Enacts the \"corporate disclosure, responsibility, and taxpayer protection act\"", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-18 01:16:02", 
+    "updated_at": "2012-10-16 18:08:52", 
     "versions": [
+        {
+            "doc_id": "NYD00092866", 
+            "mimetype": "text/html", 
+            "name": "A6031", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6031"
+        }, 
         {
             "doc_id": "NYD00036954", 
             "mimetype": "text/html", 

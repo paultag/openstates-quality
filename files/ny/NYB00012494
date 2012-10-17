@@ -12,25 +12,46 @@
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2011-02-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5065", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:10", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096688", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5065&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012494", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=821"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5065&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5065&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5065-2011"
@@ -49,6 +73,7 @@
         {
             "leg_id": "NYL000209", 
             "name": "Wright", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,12 +81,19 @@
     "subjects": [
         "Health"
     ], 
+    "summary": "Regulates the use of human subjects for medical research and experimentation,\nincluding subjects with mental disorders and children; makes definitions;\naddresses exclusion or inclusion of subjects to participate in human research\nbased on race, ethnicity or sex; requires reporting certain information\nrelating to the collection of data; provides that no greater than minimal risk\nnon-therapeutic human research shall be conducted on a child without consent of\na parent or guardian; makes related provisions.", 
     "title": "Regulates the use of human subjects for medical research and experimentation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-27 21:39:44", 
+    "updated_at": "2012-10-16 18:09:37", 
     "versions": [
+        {
+            "doc_id": "NYD00096687", 
+            "mimetype": "text/html", 
+            "name": "A5065", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5065"
+        }, 
         {
             "doc_id": "NYD00041829", 
             "mimetype": "text/html", 

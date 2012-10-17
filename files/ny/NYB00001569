@@ -14,8 +14,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-01-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -31,9 +44,23 @@
     "alternate_titles": [], 
     "bill_id": "S 1513", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 2592", 
+            "chamber": null, 
+            "internal_id": "NYB00009906", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:21", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00058663", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1513-2011"
+        }
+    ], 
     "id": "NYB00001569", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=96"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1513&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1513&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S1513-2011"
@@ -52,19 +82,57 @@
         {
             "leg_id": "NYL000027", 
             "name": "KLEIN", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000001", 
+            "name": "ADAMS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000010", 
+            "name": "DIAZ", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000023", 
+            "name": "HASSELL-THOMPSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000028", 
+            "name": "KRUEGER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000043", 
+            "name": "PARKER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Requires companies aided by loans under Mitchell-Lama to notify tenants of such\nhousing of the possibility of buyout from mortgages held which would\npotentially result in rent increases not later than twelve months prior to\nproposed dissolution; provides such notice shall inform tenants of the nature\nof the action, the date intended, the applicable laws and a summary of the\npotential consequences including expenses and rent increases which may be\ncharged; requires the commissioner or supervising agency to prepare a report to\nbe made available to the tenants of the project.", 
     "title": "Requires companies aided by loans under Mitchell-Lama to notify tenants of buy out from mortgage options and a report by the commissioner or supervising agency", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-06 01:16:52", 
+    "updated_at": "2012-10-16 18:01:14", 
     "versions": [
+        {
+            "doc_id": "NYD00058662", 
+            "mimetype": "text/html", 
+            "name": "S1513", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S1513"
+        }, 
         {
             "doc_id": "NYD00027435", 
             "mimetype": "text/html", 

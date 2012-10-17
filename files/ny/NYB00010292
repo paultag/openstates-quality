@@ -11,14 +11,22 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2011-01-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,6 +35,7 @@
             "action": "advanced to third reading cal.314", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,14 +44,22 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2012-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -51,6 +68,7 @@
             "action": "advanced to third reading cal.308", 
             "actor": "lower", 
             "date": "2012-01-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -59,9 +77,23 @@
     "alternate_titles": [], 
     "bill_id": "A 2967", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 55", 
+            "chamber": null, 
+            "internal_id": "NYB00000037", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:00", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00092049", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2967&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010292", 
     "level": "state", 
     "scraped_subjects": [
@@ -70,7 +102,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=643"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2967&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2967&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2967-2011"
@@ -80,24 +115,38 @@
         {
             "leg_id": "NYL000209", 
             "name": "Wright", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Judiciary"
     ], 
+    "summary": "Authorizes the housing part of the civil court of the city of New York on its\nown motion or on the motion of a party to join the department of social\nservices of the city of New York as a party in any action or proceeding wherein\nthe failure of a recipient of or applicant for public assistance to pay rent is\nat issue; also permits the court to join the division of adult protective\nservices of the city of New York, where appropriate.", 
     "title": "Permits New York city department of social services to participate in proceedings in housing part of civil court", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-10 01:06:16", 
+    "updated_at": "2012-10-16 18:08:35", 
     "versions": [
         {
-            "doc_id": "NYD00002432", 
+            "doc_id": "NYD00092047", 
             "mimetype": "text/html", 
             "name": "A2967", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A2967-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2967"
+        }, 
+        {
+            "doc_id": "NYD00092048", 
+            "mimetype": "text/html", 
+            "name": "A2967", 
+            "url": "http://open.nysenate.gov/legislation/bill/A2967-2011"
         }
     ], 
     "votes": []

@@ -11,25 +11,53 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 739", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1383", 
+            "chamber": null, 
+            "internal_id": "NYB00001432", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:51", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00106524", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A739&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007981", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=517"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A739&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A739&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A739-2011"
@@ -48,24 +79,56 @@
         {
             "leg_id": "NYL000132", 
             "name": "Kellner", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000147", 
+            "name": "Maisel", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Relates to the collection of charges for heat-related residential utility\nservice.", 
     "title": "Relates to the collection of charges for heat-related residential utility service", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-10 01:06:13", 
+    "updated_at": "2012-10-16 18:12:15", 
     "versions": [
         {
-            "doc_id": "NYD00008172", 
+            "doc_id": "NYD00106522", 
             "mimetype": "text/html", 
             "name": "A739", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A739-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A739"
+        }, 
+        {
+            "doc_id": "NYD00106523", 
+            "mimetype": "text/html", 
+            "name": "A739", 
+            "url": "http://open.nysenate.gov/legislation/bill/A739-2011"
         }
     ], 
     "votes": []

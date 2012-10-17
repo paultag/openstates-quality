@@ -11,18 +11,30 @@
             "action": "referred to consumer affairs and protection", 
             "actor": "lower", 
             "date": "2011-06-15 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000047", 
+                    "name": "consumer affairs and protection", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to consumer affairs and protection", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000047", 
+                    "name": "consumer affairs and protection", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -32,7 +44,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-06-16 07:59:02", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00086908", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8378&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00019098", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1040"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8378&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8378&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8378-2011"
@@ -51,19 +72,19 @@
         {
             "leg_id": "NYL000100", 
             "name": "Dinowitz", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000125", 
             "name": "Jacobs", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000158", 
             "name": "Millman", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -71,12 +92,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Requires the posting of signs near pre-packaged salads offered for sale by\nretail food stores notifying consumers of the advisability of washing the\nproduce before consumption and referring them to the United States food and\ndrug administration, for further information; requires such signs be printed\nlegibly with boldface type at least three-quarters of an inch.", 
     "title": "Requires the posting of signs near pre-packaged salads offered for sale notifying consumers of the advisability of washing the produce before consumption", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 20:29:19", 
+    "updated_at": "2012-10-16 18:07:10", 
     "versions": [
+        {
+            "doc_id": "NYD00086907", 
+            "mimetype": "text/html", 
+            "name": "A8378", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8378"
+        }, 
         {
             "doc_id": "NYD00037048", 
             "mimetype": "text/html", 

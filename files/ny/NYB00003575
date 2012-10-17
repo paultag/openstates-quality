@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-02-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,16 @@
     "alternate_titles": [], 
     "bill_id": "S 3398", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:29", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00063483", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3398-2011"
+        }
+    ], 
     "id": "NYB00003575", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=211"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3398&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3398&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S3398-2011"
@@ -49,6 +72,7 @@
         {
             "leg_id": "NYL000043", 
             "name": "PARKER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,17 +80,24 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Requires owner of a multiple dwelling to procure and maintain fire insurance on\nsuch multiple dwelling in the amount of the full cost to replace such multiple\ndwellings; requires owners of multiple dwellings to use insurance proceeds to\nreplace such multiple dwellings; deems void provisions in other documents which\nare contrary to such insurance requirement; provides that failure to comply\nwith such provisions shall constitute a misdemeanor; gives tenants a right to\nresume occupancy upon restoration of such multiple dwelling.", 
     "title": "Requires replacement cost fire insurance on multiple dwellings and use of insurance proceeds to replace such multiple dwellings", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-28 00:59:49", 
+    "updated_at": "2012-10-16 18:02:31", 
     "versions": [
         {
-            "doc_id": "NYD00017602", 
+            "doc_id": "NYD00063481", 
             "mimetype": "text/html", 
             "name": "S3398", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S3398-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3398"
+        }, 
+        {
+            "doc_id": "NYD00063482", 
+            "mimetype": "text/html", 
+            "name": "S3398", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3398-2011"
         }
     ], 
     "votes": []

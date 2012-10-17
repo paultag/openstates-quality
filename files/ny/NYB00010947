@@ -12,7 +12,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-26 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -21,7 +27,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -35,9 +47,9 @@
     "created_at": "2011-05-05 01:30:03", 
     "documents": [
         {
-            "doc_id": "NYD00046394", 
+            "doc_id": "NYD00104209", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3595&term=&Memo=Y"
         }
     ], 
     "id": "NYB00010947", 
@@ -48,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=735"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3595&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3595&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3595-2011"
@@ -58,67 +73,67 @@
         {
             "leg_id": "NYL000112", 
             "name": "Glick", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000088", 
-            "name": "Clark", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000089", 
-            "name": "Colton", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000147", 
-            "name": "Maisel", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000152", 
-            "name": "McEneny", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000172", 
-            "name": "Pheffer", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000158", 
             "name": "Millman", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000114", 
             "name": "Gottfried", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000071", 
             "name": "Bing", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000162", 
             "name": "Moya", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000088", 
+            "name": "Clark", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000147", 
+            "name": "Maisel", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -126,12 +141,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Provides that no person 62 years of age or older shall be denied occupancy in\nmultiple dwellings, nor shall such tenant be evicted from a multiple dwelling\non the sole ground that he or she owns or keeps a common household pet or pets,\nthe harboring of which is not prohibited by the multiple dwelling law or other\napplicable law, unless the pet causes damage to the subject premises, creates a\nnuisance or interferes substantially with the health, safety or welfare of\nother tenants or occupants of the same or adjacent building or structure.", 
     "title": "Provides that certain tenants who own or keep pets shall not be denied occupancy or be subject to eviction solely on those grounds", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:33", 
+    "updated_at": "2012-10-16 18:11:39", 
     "versions": [
+        {
+            "doc_id": "NYD00104208", 
+            "mimetype": "text/html", 
+            "name": "A3595", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3595"
+        }, 
         {
             "doc_id": "NYD00030950", 
             "mimetype": "text/html", 

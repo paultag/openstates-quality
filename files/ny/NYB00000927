@@ -14,8 +14,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,23 +29,41 @@
             "action": "AMEND AND RECOMMIT TO FINANCE", 
             "actor": "upper", 
             "date": "2011-12-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "902"
+            ], 
             "action": "PRINT NUMBER 902A", 
             "actor": "upper", 
             "date": "2011-12-23 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -48,9 +72,23 @@
     "alternate_titles": [], 
     "bill_id": "S 902", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 218", 
+            "chamber": null, 
+            "internal_id": "NYB00007428", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:18", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00061759", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S902A-2011"
+        }
+    ], 
     "id": "NYB00000927", 
     "level": "state", 
     "scraped_subjects": [
@@ -59,16 +97,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=58"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S902&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S902-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S902&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S902A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S902A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000028", 
             "name": "KRUEGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -76,23 +121,30 @@
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Establishes the New York state council on food policy; authorizes the\nestablishment of an advisory board to assist the council; enumerates the powers\nand duties of the council and board, which include developing comprehensive\ncoordinated state food policies.", 
     "title": "Establishes the New York state council on food policy", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-01 01:07:09", 
+    "updated_at": "2012-10-16 18:02:11", 
     "versions": [
         {
-            "doc_id": "NYD00034201", 
+            "doc_id": "NYD00061758", 
             "mimetype": "text/html", 
             "name": "S902", 
-            "url": "http://open.nysenate.gov/legislation/bill/S902-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S902"
         }, 
         {
             "doc_id": "NYD00034202", 
             "mimetype": "text/html", 
             "name": "S902A", 
             "url": "http://open.nysenate.gov/legislation/bill/S902A-2011"
+        }, 
+        {
+            "doc_id": "NYD00034201", 
+            "mimetype": "text/html", 
+            "name": "S902", 
+            "url": "http://open.nysenate.gov/legislation/bill/S902-2011"
         }
     ], 
     "votes": []

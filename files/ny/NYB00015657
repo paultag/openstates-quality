@@ -11,8 +11,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-05-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,7 @@
             "action": "REPORTED TO CALENDAR FOR CONSIDERATION", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +35,7 @@
             "action": "ADOPTED", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -36,9 +44,16 @@
     "alternate_titles": [], 
     "bill_id": "J 1841", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-14 01:15:17", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00080171", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J1841-2011"
+        }
+    ], 
     "id": "NYB00015657", 
     "level": "state", 
     "scraped_subjects": [
@@ -47,7 +62,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1228"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J1841&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J1841&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J1841-2011"
@@ -57,24 +75,44 @@
         {
             "leg_id": "NYL000031", 
             "name": "LARKIN", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000006", 
+            "name": "BONACIC", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000054", 
+            "name": "SEWARD", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commending Bobbie Smith, recipient of Ulster-Greene ARC's Personal Achievement Award on May 20, 2011", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-05-10 01:06:09", 
+    "updated_at": "2012-10-16 18:05:38", 
     "versions": [
         {
-            "doc_id": "NYD00012468", 
+            "doc_id": "NYD00080169", 
             "mimetype": "text/html", 
             "name": "J1841", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/J1841-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J1841"
+        }, 
+        {
+            "doc_id": "NYD00080170", 
+            "mimetype": "text/html", 
+            "name": "J1841", 
+            "url": "http://open.nysenate.gov/legislation/bill/J1841-2011"
         }
     ], 
     "votes": []

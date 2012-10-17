@@ -14,8 +14,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,13 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -31,17 +44,38 @@
             "action": "REPORTED AND COMMITTED TO CODES", 
             "actor": "upper", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000008", 
+                    "name": "CODES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 5083", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 1632", 
+            "chamber": null, 
+            "internal_id": "NYB00008910", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:39", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00058779", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5083-2011"
+        }
+    ], 
     "id": "NYB00005345", 
     "level": "state", 
     "scraped_subjects": [
@@ -50,7 +84,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=339"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5083&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5083&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S5083-2011"
@@ -60,19 +97,33 @@
         {
             "leg_id": "NYL000005", 
             "name": "BALL", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000002", 
+            "name": "ADDABBO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Expands the definition of aggravated cruelty to animals to include harm to\nanimals during the commission of a felony.", 
     "title": "Expands the definition of aggravated cruelty to animals to include harm to a companion animal during the commission of a felony", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-11 15:59:37", 
+    "updated_at": "2012-10-16 18:01:15", 
     "versions": [
+        {
+            "doc_id": "NYD00058778", 
+            "mimetype": "text/html", 
+            "name": "S5083", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5083"
+        }, 
         {
             "doc_id": "NYD00031447", 
             "mimetype": "text/html", 
@@ -80,5 +131,71 @@
             "url": "http://open.nysenate.gov/legislation/bill/S5083-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00005345", 
+            "chamber": "upper", 
+            "date": "2012-05-01 00:00:00", 
+            "id": "NYV00005762", 
+            "motion": "Agriculture Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NYL000060", 
+                    "name": "Valesky"
+                }
+            ], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5083-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00005762", 
+            "yes_count": 9, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }
+            ]
+        }
+    ]
 }

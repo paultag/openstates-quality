@@ -11,25 +11,46 @@
             "action": "referred to racing and wagering", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000068", 
+                    "name": "racing and wagering", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to racing and wagering", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000068", 
+                    "name": "racing and wagering", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5967", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:14", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104330", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5967&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013435", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=834"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5967&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5967&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5967-2011"
@@ -48,6 +72,7 @@
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,12 +80,19 @@
     "subjects": [
         "Gambling and Gaming"
     ], 
+    "summary": "Relates to the agriculture and New York state horse breeding development fund.", 
     "title": "Relates to the agriculture and New York state horse breeding development fund", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:42", 
+    "updated_at": "2012-10-16 18:11:50", 
     "versions": [
+        {
+            "doc_id": "NYD00104329", 
+            "mimetype": "text/html", 
+            "name": "A5967", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5967"
+        }, 
         {
             "doc_id": "NYD00031065", 
             "mimetype": "text/html", 

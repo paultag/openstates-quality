@@ -11,8 +11,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,23 +26,41 @@
             "action": "AMEND (T) AND RECOMMIT TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-12-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5433"
+            ], 
             "action": "PRINT NUMBER 5433A", 
             "actor": "upper", 
             "date": "2011-12-28 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -45,17 +69,32 @@
             "action": "RECOMMIT, ENACTING CLAUSE STRICKEN", 
             "actor": "upper", 
             "date": "2012-02-29 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "committee:referred"
+                "other"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 5433", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 5449", 
+            "chamber": null, 
+            "internal_id": "NYB00012898", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-21 06:41:01", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00053496", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5433A-2011"
+        }
+    ], 
     "id": "NYB00016641", 
     "level": "state", 
     "scraped_subjects": [
@@ -64,29 +103,61 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=363"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5433&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S5433-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5433&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5433A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S5433A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000005", 
             "name": "BALL", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000022", 
+            "name": "HANNON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000037", 
+            "name": "MAZIARZ", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000046", 
+            "name": "RANZENHOFER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
-    "title": "Relates to the treatment and disposition of lost, stray or homeless dogs", 
+    "summary": "Relates to the treatment and disposition of lost, stray or homeless animals.", 
+    "title": "Relates to the treatment and disposition of lost, stray or homeless animals", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-06 01:17:05", 
+    "updated_at": "2012-10-16 17:59:57", 
     "versions": [
+        {
+            "doc_id": "NYD00053495", 
+            "mimetype": "text/html", 
+            "name": "S5433", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5433"
+        }, 
         {
             "doc_id": "NYD00033476", 
             "mimetype": "text/html", 

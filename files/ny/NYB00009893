@@ -11,7 +11,13 @@
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2011-01-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "held for consideration in real property taxation", 
             "actor": "lower", 
             "date": "2011-06-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:failed"
             ]
@@ -29,7 +41,13 @@
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -43,9 +61,9 @@
     "created_at": "2011-05-05 01:29:59", 
     "documents": [
         {
-            "doc_id": "NYD00046339", 
+            "doc_id": "NYD00085292", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2579&term=&Memo=Y"
         }
     ], 
     "id": "NYB00009893", 
@@ -56,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=676"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2579&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2579&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2579-2011"
@@ -66,91 +87,91 @@
         {
             "leg_id": "NYL000105", 
             "name": "Fitzpatrick", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000068", 
-            "name": "Barclay", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000079", 
-            "name": "Burling", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000090", 
-            "name": "Conte", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000094", 
-            "name": "Crouch", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000219", 
-            "name": "Giglio", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000134", 
-            "name": "Kolb", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000151", 
-            "name": "McDonough", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000176", 
-            "name": "Raia", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000189", 
-            "name": "Sayward", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000201", 
-            "name": "Tenney", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000202", 
-            "name": "Thiele", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000200", 
             "name": "Tedisco", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000150", 
             "name": "McKevitt", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000160", 
             "name": "Montesano", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000068", 
+            "name": "Barclay", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000079", 
+            "name": "Burling", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000090", 
+            "name": "Conte", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000094", 
+            "name": "Crouch", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000219", 
+            "name": "Giglio", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000134", 
+            "name": "Kolb", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000151", 
+            "name": "McDonough", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000189", 
+            "name": "Sayward", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000201", 
+            "name": "Tenney", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000202", 
+            "name": "Thiele", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -158,12 +179,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Authorizes localities to convey distressed residential real property that has\nbeen foreclosed upon for non-payment of real estate taxes to a third party;\nestablishes that third party may be an individual or for-profit or\nnot-for-profit entity which would rehabilitate and manage such property,\nproviding needed housing while restoring the property to the non-delinquent tax\nrolls; called \"third party transfer program\".", 
     "title": "Authorizes localities to convey distressed residential real property that has been foreclosed upon for non-payment of real estate taxes to a third party", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:32", 
+    "updated_at": "2012-10-16 18:06:50", 
     "versions": [
+        {
+            "doc_id": "NYD00085291", 
+            "mimetype": "text/html", 
+            "name": "A2579", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2579"
+        }, 
         {
             "doc_id": "NYD00033819", 
             "mimetype": "text/html", 

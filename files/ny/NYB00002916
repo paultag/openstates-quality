@@ -1,18 +1,24 @@
 {
     "action_dates": {
         "first": "2011-02-01 00:00:00", 
-        "last": "2011-03-30 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
-        "signed": null
+        "last": "2011-04-11 00:00:00", 
+        "passed_lower": "2011-03-30 00:00:00", 
+        "passed_upper": "2011-03-30 00:00:00", 
+        "signed": "2011-04-11 00:00:00"
     }, 
     "actions": [
         {
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,93 +26,433 @@
             "action": "AMEND AND RECOMMIT TO FINANCE", 
             "actor": "upper", 
             "date": "2011-02-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "2804"
+            ], 
             "action": "PRINT NUMBER 2804A", 
             "actor": "upper", 
             "date": "2011-02-25 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "AMEND AND RECOMMIT TO FINANCE", 
             "actor": "upper", 
             "date": "2011-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "2804"
+            ], 
             "action": "PRINT NUMBER 2804B", 
             "actor": "upper", 
             "date": "2011-03-12 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "AMEND AND RECOMMIT TO FINANCE", 
             "actor": "upper", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "2804"
+            ], 
             "action": "PRINT NUMBER 2804C", 
             "actor": "upper", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "AMEND AND RECOMMIT TO FINANCE", 
             "actor": "upper", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "2804"
+            ], 
             "action": "PRINT NUMBER 2804D", 
             "actor": "upper", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "ORDERED TO THIRD READING CAL.286", 
             "actor": "upper", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "A4004"
+            ], 
             "action": "SUBSTITUTED BY A4004D", 
             "actor": "upper", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
+            ]
+        }, 
+        {
+            "action": "referred to ways and means", 
+            "actor": "lower", 
+            "date": "2011-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to ways and means", 
+            "actor": "lower", 
+            "date": "2011-02-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "4004"
+            ], 
+            "action": "print number 4004a", 
+            "actor": "lower", 
+            "date": "2011-02-25 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to ways and means", 
+            "actor": "lower", 
+            "date": "2011-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "4004"
+            ], 
+            "action": "print number 4004b", 
+            "actor": "lower", 
+            "date": "2011-03-12 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to ways and means", 
+            "actor": "lower", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "4004"
+            ], 
+            "action": "print number 4004c", 
+            "actor": "lower", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to ways and means", 
+            "actor": "lower", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "4004"
+            ], 
+            "action": "print number 4004d", 
+            "actor": "lower", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "reported referred to rules", 
+            "actor": "lower", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported ", 
+            "actor": "lower", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "rules report cal.13", 
+            "actor": "lower", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "ordered to third reading rules cal.13", 
+            "actor": "lower", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "message of necessity - 3 day message", 
+            "actor": "lower", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "passed assembly", 
+            "actor": "lower", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "delivered to senate", 
+            "actor": "lower", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "REFERRED TO FINANCE", 
+            "actor": "upper", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "SUBSTITUTED FOR S2804D", 
+            "actor": "upper", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "3RD READING CAL.286", 
+            "actor": "upper", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "MESSAGE OF NECESSITY", 
+            "actor": "upper", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "PASSED SENATE", 
+            "actor": "upper", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "RETURNED TO ASSEMBLY", 
+            "actor": "upper", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "delivered to governor", 
+            "actor": "lower", 
+            "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:received"
+            ]
+        }, 
+        {
+            "+session_laws": [
+                "54"
+            ], 
+            "action": "signed chap.54", 
+            "actor": "lower", 
+            "date": "2011-04-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:signed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 2804", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 4004", 
+            "chamber": null, 
+            "internal_id": "NYB00011383", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:26", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00053489", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2804D-2011"
+        }
+    ], 
     "id": "NYB00002916", 
     "level": "state", 
     "scraped_subjects": [
@@ -115,16 +461,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=171"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2804&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S2804-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2804&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2804D&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S2804D-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": null, 
             "name": "BUDGET", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -132,18 +485,211 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Makes appropriations for the support of government - Capital Projects Budget.", 
     "title": "capital projects", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-14 06:28:03", 
+    "updated_at": "2012-10-16 17:59:57", 
     "versions": [
         {
-            "doc_id": "NYD00016738", 
+            "doc_id": "NYD00053483", 
             "mimetype": "text/html", 
             "name": "S2804", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S2804-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2804"
+        }, 
+        {
+            "doc_id": "NYD00053484", 
+            "mimetype": "text/html", 
+            "name": "S2804", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2804-2011"
+        }, 
+        {
+            "doc_id": "NYD00053485", 
+            "mimetype": "text/html", 
+            "name": "S2804A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2804A-2011"
+        }, 
+        {
+            "doc_id": "NYD00053486", 
+            "mimetype": "text/html", 
+            "name": "S2804B", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2804B-2011"
+        }, 
+        {
+            "doc_id": "NYD00053487", 
+            "mimetype": "text/html", 
+            "name": "S2804C", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2804C-2011"
+        }, 
+        {
+            "doc_id": "NYD00053488", 
+            "mimetype": "text/html", 
+            "name": "S2804D", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2804D-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00002916", 
+            "chamber": "upper", 
+            "date": "2011-03-29 00:00:00", 
+            "id": "NYV00004347", 
+            "motion": "Finance Committee Vote", 
+            "no_count": 1, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S2804D-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00004347", 
+            "yes_count": 33, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000009", 
+                    "name": "DeFrancisco"
+                }, 
+                {
+                    "leg_id": "NYL000025", 
+                    "name": "Johnson"
+                }, 
+                {
+                    "leg_id": "NYL000003", 
+                    "name": "Alesi"
+                }, 
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000014", 
+                    "name": "Farley"
+                }, 
+                {
+                    "leg_id": "NYL000015", 
+                    "name": "Flanagan"
+                }, 
+                {
+                    "leg_id": "NYL000016", 
+                    "name": "Fuschillo"
+                }, 
+                {
+                    "leg_id": "NYL000019", 
+                    "name": "Golden"
+                }, 
+                {
+                    "leg_id": "NYL000022", 
+                    "name": "Hannon"
+                }, 
+                {
+                    "leg_id": "NYL000030", 
+                    "name": "Lanza"
+                }, 
+                {
+                    "leg_id": "NYL000031", 
+                    "name": "Larkin"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }, 
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000049", 
+                    "name": "Robach"
+                }, 
+                {
+                    "leg_id": "NYL000050", 
+                    "name": "Saland"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }, 
+                {
+                    "leg_id": "NYL000007", 
+                    "name": "Breslin"
+                }, 
+                {
+                    "leg_id": "NYL000011", 
+                    "name": "Dilan"
+                }, 
+                {
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
+                }, 
+                {
+                    "leg_id": "NYL000018", 
+                    "name": "Gianaris"
+                }, 
+                {
+                    "leg_id": "NYL000029", 
+                    "name": "Kruger"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }, 
+                {
+                    "leg_id": "NYL000042", 
+                    "name": "Oppenheimer"
+                }, 
+                {
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
+                }, 
+                {
+                    "leg_id": "NYL000044", 
+                    "name": "Peralta"
+                }, 
+                {
+                    "leg_id": "NYL000048", 
+                    "name": "Rivera"
+                }, 
+                {
+                    "leg_id": "NYL000058", 
+                    "name": "Stavisky"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }
+            ]
+        }
+    ]
 }

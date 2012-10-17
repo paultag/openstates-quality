@@ -11,25 +11,53 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1729", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 451", 
+            "chamber": null, 
+            "internal_id": "NYB00000445", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00084147", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1729&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009008", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=579"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1729&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1729&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1729-2011"
@@ -48,24 +79,128 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000142", 
+            "name": "Lopez V", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000167", 
+            "name": "Ortiz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000097", 
+            "name": "Cymbrowitz", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000100", 
+            "name": "Dinowitz", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000220", 
+            "name": "Mayersohn", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000165", 
+            "name": "O'Donnell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000180", 
+            "name": "Rivera J", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000190", 
+            "name": "Scarborough", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000206", 
+            "name": "Weinstein", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000209", 
+            "name": "Wright", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Revises proceedings to recover possession of premises located in a multiple\ndwelling; requires premises to be registered with the local agency responsible\nfor code enforcement; petition shall be stated in plain language and include\nnotice of the rights of the respondent and a statement of any outstanding code\nviolations on the premises and whether rent payments from a public assistance\noffice is being withheld therefor; provides civil penalties for willful\nmisstatements on such petition.", 
     "title": "Revises proceedings to recover possession to prevent avoidable eviction and resulting homelessness; requires improved notice to the respondent", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-18 01:03:59", 
+    "updated_at": "2012-10-16 18:06:31", 
     "versions": [
         {
-            "doc_id": "NYD00000901", 
+            "doc_id": "NYD00084145", 
             "mimetype": "text/html", 
             "name": "A1729", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1729-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1729"
+        }, 
+        {
+            "doc_id": "NYD00084146", 
+            "mimetype": "text/html", 
+            "name": "A1729", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1729-2011"
         }
     ], 
     "votes": []

@@ -12,27 +12,53 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-02-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4620", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2927", 
+            "chamber": null, 
+            "internal_id": "NYB00003073", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:08", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00082206", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4620&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012035", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=795"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4620&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4620&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4620-2011"
@@ -51,169 +80,169 @@
         {
             "leg_id": "NYL000102", 
             "name": "Englebright", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000067", 
-            "name": "Aubry", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000084", 
-            "name": "Canestrari", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000088", 
-            "name": "Clark", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000091", 
-            "name": "Cook", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000100", 
-            "name": "Dinowitz", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000108", 
-            "name": "Galef", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000120", 
-            "name": "Heastie", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000125", 
-            "name": "Jacobs", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000138", 
-            "name": "Lentol", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": null, 
-            "name": "Mayersohn", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000151", 
-            "name": "McDonough", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000152", 
-            "name": "McEneny", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000171", 
-            "name": "Perry", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000172", 
-            "name": "Pheffer", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000180", 
-            "name": "Rivera J", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000182", 
-            "name": "Rivera P", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000184", 
-            "name": "Robinson", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000089", 
             "name": "Colton", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000142", 
             "name": "Lopez V", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000097", 
             "name": "Cymbrowitz", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000158", 
             "name": "Millman", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000192", 
             "name": "Schimminger", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000199", 
             "name": "Sweeney", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000193", 
             "name": "Schroeder", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000124", 
             "name": "Hoyt", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000191", 
             "name": "Schimel", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000067", 
+            "name": "Aubry", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000084", 
+            "name": "Canestrari", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000088", 
+            "name": "Clark", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000100", 
+            "name": "Dinowitz", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000108", 
+            "name": "Galef", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000120", 
+            "name": "Heastie", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000138", 
+            "name": "Lentol", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000220", 
+            "name": "Mayersohn", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000151", 
+            "name": "McDonough", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000171", 
+            "name": "Perry", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000180", 
+            "name": "Rivera J", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -221,12 +250,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides for pollution tax credits for the purchase of certain machinery or\nequipment for the reduction of pollution made by dry cleaning businesses.", 
     "title": "Provides for pollution tax credits for the purchase of certain machinery or equipment for the reduction of pollution made by dry cleaning businesses", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 02:25:52", 
+    "updated_at": "2012-10-16 18:06:00", 
     "versions": [
+        {
+            "doc_id": "NYD00082205", 
+            "mimetype": "text/html", 
+            "name": "A4620", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4620"
+        }, 
         {
             "doc_id": "NYD00029898", 
             "mimetype": "text/html", 

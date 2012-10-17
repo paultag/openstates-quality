@@ -14,14 +14,22 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-02-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -30,9 +38,23 @@
     "alternate_titles": [], 
     "bill_id": "A 5137", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 232", 
+            "chamber": null, 
+            "internal_id": "NYB00000221", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:10", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104058", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5137&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012571", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +63,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=811"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5137&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5137&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5137-2011"
@@ -51,19 +76,39 @@
         {
             "leg_id": "NYL000087", 
             "name": "Ceretto", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000118", 
+            "name": "Hawley", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000113", 
+            "name": "Goodell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Relates to the administration of property tax assessments for certain orchards\nand vineyards; establishes the portion of the value of orchard or vineyard land\neligible for real property tax exemption shall be determined based on the\naverage per acre assessment of all tillable acreage of the specific tax parcel.", 
     "title": "Relates to the administration of property tax assessments for certain orchards and vineyards", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-14 01:13:49", 
+    "updated_at": "2012-10-16 18:11:36", 
     "versions": [
+        {
+            "doc_id": "NYD00104057", 
+            "mimetype": "text/html", 
+            "name": "A5137", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5137"
+        }, 
         {
             "doc_id": "NYD00038746", 
             "mimetype": "text/html", 

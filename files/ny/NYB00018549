@@ -12,7 +12,13 @@
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2011-06-10 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -21,7 +27,13 @@
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -30,13 +42,22 @@
             "action": "amend and recommit to economic development", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "8289"
+            ], 
             "action": "print number 8289a", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
@@ -49,13 +70,22 @@
             "action": "amend and recommit to economic development", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "8289"
+            ], 
             "action": "print number 8289b", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
@@ -68,7 +98,13 @@
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2012-06-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -82,9 +118,9 @@
     "created_at": "2011-06-12 07:26:23", 
     "documents": [
         {
-            "doc_id": "NYD00046634", 
+            "doc_id": "NYD00102377", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8289&term=&Memo=Y"
         }
     ], 
     "id": "NYB00018549", 
@@ -95,29 +131,41 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1035"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8289&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A8289-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8289&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8289B&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A8289B-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000192", 
             "name": "Schimminger", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000144", 
             "name": "Lupardo", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000107", 
             "name": "Gabryszak", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000146", 
+            "name": "Magnarelli", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -126,12 +174,19 @@
         "Budget, Spending, and Taxes", 
         "Legislative Affairs"
     ], 
+    "summary": "Relates to the general powers and duties of the department and the designation\nof centers for advanced technology.", 
     "title": "Relates to the general powers and duties of the department and the designation of centers for advanced technology", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:36", 
+    "updated_at": "2012-10-16 18:11:15", 
     "versions": [
+        {
+            "doc_id": "NYD00102376", 
+            "mimetype": "text/html", 
+            "name": "A8289", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8289"
+        }, 
         {
             "doc_id": "NYD00032130", 
             "mimetype": "text/html", 

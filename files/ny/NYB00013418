@@ -14,88 +14,238 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend (t) and recommit to agriculture", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5950"
+            ], 
             "action": "print number 5950a", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend and recommit to agriculture", 
             "actor": "lower", 
             "date": "2012-06-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5950"
+            ], 
             "action": "print number 5950b", 
             "actor": "lower", 
             "date": "2012-06-12 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5950", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 7667", 
+            "chamber": null, 
+            "internal_id": "NYB00027389", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:14", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00092821", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5950&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013418", 
     "level": "state", 
     "scraped_subjects": [
-        "Agriculture and Markets Law"
+        "New York City Administrative Code"
     ], 
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=863"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5950&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A5950-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5950&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5950B&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A5950B-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000145", 
+            "name": "Magee", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000102", 
+            "name": "Englebright", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000071", 
+            "name": "Bing", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000100", 
+            "name": "Dinowitz", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000108", 
+            "name": "Galef", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000220", 
+            "name": "Mayersohn", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000167", 
+            "name": "Ortiz", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
-        "Agriculture and Food"
+        "Municipal and County Issues"
     ], 
+    "summary": "Relates to animal control and licensing of animals; relates to the better\nprotection of lost and strayed animals and to securing the rights of owners\nthereof; relates to licensing of dogs in certain cities; relates to the animal\npopulation control fund.", 
     "title": "Relates to animal control and licensing of animals; makes various amendments to dog licensing laws in N.Y. city; establishes an animal population control fund; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-15 01:11:51", 
+    "updated_at": "2012-10-16 18:08:51", 
     "versions": [
+        {
+            "doc_id": "NYD00092820", 
+            "mimetype": "text/html", 
+            "name": "A5950", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5950"
+        }, 
         {
             "doc_id": "NYD00031047", 
             "mimetype": "text/html", 

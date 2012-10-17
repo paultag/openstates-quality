@@ -14,8 +14,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-02-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,26 +29,51 @@
             "action": "AMEND (T) AND RECOMMIT TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-06-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6502"
+            ], 
             "action": "PRINT NUMBER 6502A", 
             "actor": "upper", 
             "date": "2012-06-01 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 6502", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 9319", 
+            "chamber": null, 
+            "internal_id": "NYB00022371", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-05-02 01:43:33", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00065800", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6502A-2011"
+        }
+    ], 
     "id": "NYB00024699", 
     "level": "state", 
     "scraped_subjects": [
@@ -51,16 +82,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=433"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6502&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S6502-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6502&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6502A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S6502A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000027", 
             "name": "KLEIN", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -68,23 +106,30 @@
     "subjects": [
         "Agriculture and Food"
     ], 
-    "title": "Relates to the care and collection of abandoned animals on vacant property", 
+    "summary": "Relates to the care and collection of abandoned animals on vacant property;\nrequires notification to the appropriate authorities by anyone authorized to be\non vacant land where such person finds an animal which based on its physical\nappearance or lack of available food or water appears abandoned, within six\nhours of an encounter.", 
+    "title": "Relates to the care and collection of animals on vacant property", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-13 01:11:29", 
+    "updated_at": "2012-10-16 18:03:09", 
     "versions": [
         {
-            "doc_id": "NYD00026243", 
+            "doc_id": "NYD00065799", 
             "mimetype": "text/html", 
             "name": "S6502", 
-            "url": "http://open.nysenate.gov/legislation/bill/S6502-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6502"
         }, 
         {
             "doc_id": "NYD00038029", 
             "mimetype": "text/html", 
             "name": "S6502A", 
             "url": "http://open.nysenate.gov/legislation/bill/S6502A-2011"
+        }, 
+        {
+            "doc_id": "NYD00026243", 
+            "mimetype": "text/html", 
+            "name": "S6502", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6502-2011"
         }
     ], 
     "votes": []

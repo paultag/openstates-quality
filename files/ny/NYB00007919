@@ -14,22 +14,37 @@
             "action": "referred to veterans' affairs", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000075", 
+                    "name": "veterans' affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to veterans' affairs", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000075", 
+                    "name": "veterans' affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2012-03-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -38,9 +53,23 @@
     "alternate_titles": [], 
     "bill_id": "A 682", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4157", 
+            "chamber": null, 
+            "internal_id": "NYB00004388", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:51", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00094593", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A682&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007919", 
     "level": "state", 
     "scraped_subjects": [
@@ -49,7 +78,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=563"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A682&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A682&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A682-2011"
@@ -59,121 +91,121 @@
         {
             "leg_id": "NYL000146", 
             "name": "Magnarelli", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000079", 
-            "name": "Burling", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000118", 
-            "name": "Hawley", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000141", 
-            "name": "Lopez P", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000151", 
-            "name": "McDonough", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000152", 
-            "name": "McEneny", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000199", 
-            "name": "Sweeney", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000201", 
-            "name": "Tenney", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000205", 
-            "name": "Tobacco", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000169", 
             "name": "Paulin", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000137", 
             "name": "Lavine", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000096", 
             "name": "Cusick", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000191", 
             "name": "Schimel", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000144", 
             "name": "Lupardo", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000157", 
             "name": "Miller M", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000187", 
             "name": "Russell", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000098", 
             "name": "DenDekker", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000089", 
             "name": "Colton", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000079", 
+            "name": "Burling", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000118", 
+            "name": "Hawley", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000141", 
+            "name": "Lopez P", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000151", 
+            "name": "McDonough", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000199", 
+            "name": "Sweeney", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000201", 
+            "name": "Tenney", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000205", 
+            "name": "Tobacco", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -181,12 +213,19 @@
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Enacts the \"Veterans Mental Health and Chemical Dependency Act.\"", 
     "title": "Enacts the Veterans Mental Health and Chemical Dependency Act", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 02:27:33", 
+    "updated_at": "2012-10-16 18:09:12", 
     "versions": [
+        {
+            "doc_id": "NYD00094592", 
+            "mimetype": "text/html", 
+            "name": "A682", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A682"
+        }, 
         {
             "doc_id": "NYD00041132", 
             "mimetype": "text/html", 

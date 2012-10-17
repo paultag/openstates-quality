@@ -3,19 +3,25 @@
         "A3304A"
     ], 
     "action_dates": {
-        "first": "2011-06-01 00:00:00", 
-        "last": "2011-06-23 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
-        "signed": null
+        "first": "2011-01-24 00:00:00", 
+        "last": "2011-09-23 00:00:00", 
+        "passed_lower": "2011-06-17 00:00:00", 
+        "passed_upper": "2011-06-23 00:00:00", 
+        "signed": "2011-09-23 00:00:00"
     }, 
     "actions": [
         {
             "action": "REFERRED TO HEALTH", 
             "actor": "upper", 
             "date": "2011-06-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000020", 
+                    "name": "HEALTH", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,7 @@
             "action": "1ST REPORT CAL.1141", 
             "actor": "upper", 
             "date": "2011-06-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -31,33 +38,243 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "A3304"
+            ], 
             "action": "SUBSTITUTED BY A3304A", 
             "actor": "upper", 
             "date": "2011-06-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
+            ]
+        }, 
+        {
+            "action": "referred to health", 
+            "actor": "lower", 
+            "date": "2011-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported referred to ways and means", 
+            "actor": "lower", 
+            "date": "2011-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to ways and means", 
+            "actor": "lower", 
+            "date": "2011-05-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "3304"
+            ], 
+            "action": "print number 3304a", 
+            "actor": "lower", 
+            "date": "2011-05-24 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "reported referred to rules", 
+            "actor": "lower", 
+            "date": "2011-06-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported ", 
+            "actor": "lower", 
+            "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "rules report cal.324", 
+            "actor": "lower", 
+            "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "ordered to third reading rules cal.324", 
+            "actor": "lower", 
+            "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "passed assembly", 
+            "actor": "lower", 
+            "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "delivered to senate", 
+            "actor": "lower", 
+            "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "REFERRED TO RULES", 
+            "actor": "upper", 
+            "date": "2011-06-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "SUBSTITUTED FOR S5556", 
+            "actor": "upper", 
+            "date": "2011-06-23 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "3RD READING CAL.1141", 
+            "actor": "upper", 
+            "date": "2011-06-23 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "PASSED SENATE", 
+            "actor": "upper", 
+            "date": "2011-06-23 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "RETURNED TO ASSEMBLY", 
+            "actor": "upper", 
+            "date": "2011-06-23 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "delivered to governor", 
+            "actor": "lower", 
+            "date": "2011-09-12 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:received"
+            ]
+        }, 
+        {
+            "+session_laws": [
+                "509"
+            ], 
+            "action": "signed chap.509", 
+            "actor": "lower", 
+            "date": "2011-09-23 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:signed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 5556", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 3304", 
+            "chamber": null, 
+            "internal_id": "NYB00010643", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-02 06:58:14", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00053562", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5556-2011"
+        }
+    ], 
     "id": "NYB00017347", 
     "level": "state", 
     "scraped_subjects": [
@@ -66,7 +283,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=373"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5556&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5556&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S5556-2011"
@@ -76,19 +296,33 @@
         {
             "leg_id": "NYL000022", 
             "name": "HANNON", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000043", 
+            "name": "PARKER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Health"
     ], 
+    "summary": "Establishes a health-related legal services program for the purpose of\nproviding on-site legal services without charge to assist, on a voluntary\nbasis, income eligible patients and their families to resolve legal matters or\nneeds that have an impact on patient health.", 
     "title": "Relates to health-related legal services programs", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-11 15:59:38", 
+    "updated_at": "2012-10-16 17:59:58", 
     "versions": [
+        {
+            "doc_id": "NYD00053561", 
+            "mimetype": "text/html", 
+            "name": "S5556", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5556"
+        }, 
         {
             "doc_id": "NYD00030460", 
             "mimetype": "text/html", 
@@ -100,265 +334,92 @@
         {
             "bill_id": "NYB00017347", 
             "chamber": "upper", 
-            "date": "2012-02-29 00:00:00", 
-            "id": "NYV00001695", 
-            "motion": "Floor Vote", 
+            "date": "2011-06-07 00:00:00", 
+            "id": "NYV00004368", 
+            "motion": "Health Committee Vote", 
             "no_count": 0, 
             "no_votes": [], 
-            "other_count": 2, 
-            "other_votes": [
-                {
-                    "leg_id": "NYL000001", 
-                    "name": "Adams"
-                }, 
-                {
-                    "leg_id": "NYL000042", 
-                    "name": "Oppenheimer"
-                }
-            ], 
+            "other_count": 0, 
+            "other_votes": [], 
             "passed": true, 
             "session": "2011-2012", 
-            "sources": [], 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5556-2011"
+                }
+            ], 
             "state": "ny", 
             "type": "other", 
-            "vote_id": "NYV00001695", 
-            "yes_count": 59, 
+            "vote_id": "NYV00004368", 
+            "yes_count": 17, 
             "yes_votes": [
                 {
-                    "leg_id": "NYL000002", 
-                    "name": "Addabbo"
-                }, 
-                {
-                    "leg_id": "NYL000003", 
-                    "name": "Alesi"
-                }, 
-                {
-                    "leg_id": "NYL000004", 
-                    "name": "Avella"
+                    "leg_id": "NYL000022", 
+                    "name": "Hannon"
                 }, 
                 {
                     "leg_id": "NYL000005", 
                     "name": "Ball"
                 }, 
                 {
-                    "leg_id": "NYL000006", 
-                    "name": "Bonacic"
-                }, 
-                {
-                    "leg_id": "NYL000007", 
-                    "name": "Breslin"
-                }, 
-                {
-                    "leg_id": "NYL000008", 
-                    "name": "Carlucci"
-                }, 
-                {
-                    "leg_id": "NYL000009", 
-                    "name": "DeFrancisco"
-                }, 
-                {
-                    "leg_id": "NYL000010", 
-                    "name": "Diaz"
-                }, 
-                {
-                    "leg_id": "NYL000011", 
-                    "name": "Dilan"
-                }, 
-                {
-                    "leg_id": "NYL000012", 
-                    "name": "Duane"
-                }, 
-                {
-                    "leg_id": "NYL000013", 
-                    "name": "Espaillat"
-                }, 
-                {
                     "leg_id": "NYL000014", 
                     "name": "Farley"
-                }, 
-                {
-                    "leg_id": "NYL000015", 
-                    "name": "Flanagan"
                 }, 
                 {
                     "leg_id": "NYL000016", 
                     "name": "Fuschillo"
                 }, 
                 {
-                    "leg_id": "NYL000017", 
-                    "name": "Gallivan"
-                }, 
-                {
-                    "leg_id": "NYL000018", 
-                    "name": "Gianaris"
-                }, 
-                {
                     "leg_id": "NYL000019", 
                     "name": "Golden"
-                }, 
-                {
-                    "leg_id": "NYL000020", 
-                    "name": "Griffo"
-                }, 
-                {
-                    "leg_id": "NYL000021", 
-                    "name": "Grisanti"
-                }, 
-                {
-                    "leg_id": "NYL000022", 
-                    "name": "Hannon"
-                }, 
-                {
-                    "leg_id": "NYL000023", 
-                    "name": "Hassell-Thompson"
-                }, 
-                {
-                    "leg_id": "NYL000024", 
-                    "name": "Huntley"
-                }, 
-                {
-                    "leg_id": "NYL000025", 
-                    "name": "Johnson"
-                }, 
-                {
-                    "leg_id": "NYL000026", 
-                    "name": "Kennedy"
-                }, 
-                {
-                    "leg_id": "NYL000027", 
-                    "name": "Klein"
-                }, 
-                {
-                    "leg_id": "NYL000028", 
-                    "name": "Krueger"
-                }, 
-                {
-                    "leg_id": "NYL000030", 
-                    "name": "Lanza"
                 }, 
                 {
                     "leg_id": "NYL000031", 
                     "name": "Larkin"
                 }, 
                 {
-                    "leg_id": "NYL000032", 
-                    "name": "LaValle"
-                }, 
-                {
-                    "leg_id": "NYL000033", 
-                    "name": "Libous"
-                }, 
-                {
-                    "leg_id": "NYL000034", 
-                    "name": "Little"
-                }, 
-                {
-                    "leg_id": "NYL000035", 
-                    "name": "Marcellino"
-                }, 
-                {
-                    "leg_id": "NYL000036", 
-                    "name": "Martins"
-                }, 
-                {
-                    "leg_id": "NYL000037", 
-                    "name": "Maziarz"
-                }, 
-                {
                     "leg_id": "NYL000038", 
                     "name": "McDonald"
-                }, 
-                {
-                    "leg_id": "NYL000039", 
-                    "name": "Montgomery"
-                }, 
-                {
-                    "leg_id": "NYL000040", 
-                    "name": "Nozzolio"
-                }, 
-                {
-                    "leg_id": "NYL000041", 
-                    "name": "O'Mara"
-                }, 
-                {
-                    "leg_id": "NYL000043", 
-                    "name": "Parker"
-                }, 
-                {
-                    "leg_id": "NYL000044", 
-                    "name": "Peralta"
-                }, 
-                {
-                    "leg_id": "NYL000045", 
-                    "name": "Perkins"
-                }, 
-                {
-                    "leg_id": "NYL000046", 
-                    "name": "Ranzenhofer"
-                }, 
-                {
-                    "leg_id": "NYL000047", 
-                    "name": "Ritchie"
-                }, 
-                {
-                    "leg_id": "NYL000048", 
-                    "name": "Rivera"
-                }, 
-                {
-                    "leg_id": "NYL000049", 
-                    "name": "Robach"
-                }, 
-                {
-                    "leg_id": "NYL000050", 
-                    "name": "Saland"
-                }, 
-                {
-                    "leg_id": "NYL000051", 
-                    "name": "Sampson"
-                }, 
-                {
-                    "leg_id": "NYL000052", 
-                    "name": "Savino"
-                }, 
-                {
-                    "leg_id": "NYL000053", 
-                    "name": "Serrano"
                 }, 
                 {
                     "leg_id": "NYL000054", 
                     "name": "Seward"
                 }, 
                 {
-                    "leg_id": "NYL000055", 
-                    "name": "Skelos"
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
+                }, 
+                {
+                    "leg_id": "NYL000018", 
+                    "name": "Gianaris"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }, 
+                {
+                    "leg_id": "NYL000048", 
+                    "name": "Rivera"
                 }, 
                 {
                     "leg_id": "NYL000056", 
                     "name": "Smith"
                 }, 
                 {
-                    "leg_id": "NYL000057", 
-                    "name": "Squadron"
-                }, 
-                {
-                    "leg_id": "NYL000058", 
-                    "name": "Stavisky"
-                }, 
-                {
                     "leg_id": "NYL000059", 
                     "name": "Stewart-Cousins"
                 }, 
                 {
-                    "leg_id": "NYL000060", 
-                    "name": "Valesky"
+                    "leg_id": "NYL000001", 
+                    "name": "Adams"
                 }, 
                 {
-                    "leg_id": "NYL000061", 
-                    "name": "Young"
-                }, 
-                {
-                    "leg_id": "NYL000062", 
-                    "name": "Zeldin"
+                    "leg_id": "NYL000029", 
+                    "name": "Kruger"
                 }
             ]
         }

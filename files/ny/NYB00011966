@@ -11,25 +11,46 @@
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2011-02-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4553", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:08", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091012", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4553&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011966", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=736"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4553&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4553&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4553-2011"
@@ -48,24 +72,140 @@
         {
             "leg_id": "NYL000176", 
             "name": "Raia", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000090", 
+            "name": "Conte", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000104", 
+            "name": "Finch", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000150", 
+            "name": "McKevitt", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000188", 
+            "name": "Saladino", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000198", 
+            "name": "Stevenson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000160", 
+            "name": "Montesano", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000157", 
+            "name": "Miller M", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000068", 
+            "name": "Barclay", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000079", 
+            "name": "Burling", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000219", 
+            "name": "Giglio", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000118", 
+            "name": "Hawley", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000129", 
+            "name": "Jordan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000151", 
+            "name": "McDonough", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000156", 
+            "name": "Miller J", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000175", 
+            "name": "Rabbitt", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000189", 
+            "name": "Sayward", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000200", 
+            "name": "Tedisco", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000201", 
+            "name": "Tenney", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Health"
     ], 
+    "summary": "Directs the office for the aging, in consultation with the department of health\nand other entities, to conduct a study of the comprehensiveness and\neffectiveness of evacuation plans for nursing homes and other facilities\nhousing elderly individuals in the case of an emergency or natural disaster.", 
     "title": "Directs the office for the aging, in consultation with other entities, to conduct a study of the comprehensiveness and effectiveness of evacuation plans for nursing", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-11 01:14:29", 
+    "updated_at": "2012-10-16 18:08:21", 
     "versions": [
         {
-            "doc_id": "NYD00004456", 
+            "doc_id": "NYD00091010", 
             "mimetype": "text/html", 
             "name": "A4553", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4553-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4553"
+        }, 
+        {
+            "doc_id": "NYD00091011", 
+            "mimetype": "text/html", 
+            "name": "A4553", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4553-2011"
         }
     ], 
     "votes": []

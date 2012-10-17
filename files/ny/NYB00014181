@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-03-24 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-05-08 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,25 +11,61 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-03-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "held for consideration in agriculture", 
+            "actor": "lower", 
+            "date": "2012-05-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 6666", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:17", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091396", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6666&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014181", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=786"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6666&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6666&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6666-2011"
@@ -48,24 +87,80 @@
         {
             "leg_id": "NYL000175", 
             "name": "Rabbitt", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000160", 
+            "name": "Montesano", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000130", 
+            "name": "Katz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000104", 
+            "name": "Finch", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000079", 
+            "name": "Burling", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000082", 
+            "name": "Calhoun", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000201", 
+            "name": "Tenney", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000203", 
+            "name": "Titone", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Education"
     ], 
+    "summary": "Requires any employee of a veterinary facility, animal hospital or clinic,\nanimal boarding kennel, pound, shelter or rescue center or facility that\nprovides services for animals to report an animal's injury, illness or\ncondition to the police if such employee reasonably suspects animal cruelty or\nabuse.", 
     "title": "Requires any employee of a veterinary facility or facility that provides services for animals to report an animal's injury to the police if animal abuse is suspected", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-16 06:31:56", 
+    "updated_at": "2012-10-16 18:08:26", 
     "versions": [
         {
-            "doc_id": "NYD00007183", 
+            "doc_id": "NYD00091394", 
             "mimetype": "text/html", 
             "name": "A6666", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A6666-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6666"
+        }, 
+        {
+            "doc_id": "NYD00091395", 
+            "mimetype": "text/html", 
+            "name": "A6666", 
+            "url": "http://open.nysenate.gov/legislation/bill/A6666-2011"
         }
     ], 
     "votes": []

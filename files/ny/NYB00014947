@@ -11,25 +11,46 @@
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7414", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:21", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00105745", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7414&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014947", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,34 +59,88 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=927"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7414&term=&Votes=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A7414-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7414&Summary=Y&Actions=Y"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000202", 
             "name": "Thiele", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000079", 
+            "name": "Burling", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000094", 
+            "name": "Crouch", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000219", 
+            "name": "Giglio", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000134", 
+            "name": "Kolb", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000156", 
+            "name": "Miller J", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000090", 
+            "name": "Conte", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000163", 
+            "name": "Murray", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000197", 
+            "name": "Spano", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
-    "subjects": [
-        "Budget, Spending, and Taxes"
-    ], 
+    "subjects": [], 
+    "summary": "Limits real property assessment increases; caps municipal tax increases in this\nstate; establishes a personal income tax credit for a cap on real property tax\nbased off of a household's income; creates senior tax deferral; defines terms;\nprovides for annual notification to senior taxpayers and permits prepayment of\ndeferred taxes for certain seniors who meet the requirements of the enhanced\nSTAR exemption.", 
     "title": "Limits real property assessment increases and creates senior tax deferral", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:43", 
+    "updated_at": "2012-10-17 04:10:58", 
     "versions": [
         {
-            "doc_id": "NYD00028591", 
+            "doc_id": "NYD00105744", 
             "mimetype": "text/html", 
             "name": "A7414", 
-            "url": "http://open.nysenate.gov/legislation/bill/A7414-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7414"
         }
     ], 
     "votes": []

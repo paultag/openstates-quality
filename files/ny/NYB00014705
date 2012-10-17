@@ -4,7 +4,7 @@
     ], 
     "action_dates": {
         "first": "2011-04-14 00:00:00", 
-        "last": "2012-01-17 00:00:00", 
+        "last": "2012-06-19 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -14,41 +14,96 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to ways and means", 
             "actor": "lower", 
             "date": "2012-01-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "7176"
+            ], 
             "action": "print number 7176a", 
             "actor": "lower", 
             "date": "2012-01-17 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "held for consideration in ways and means", 
+            "actor": "lower", 
+            "date": "2012-06-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7176", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 3733", 
+            "chamber": null, 
+            "internal_id": "NYB00003928", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:20", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00097708", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7176&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014705", 
     "level": "state", 
     "scraped_subjects": [
@@ -57,16 +112,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=910"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7176&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A7176-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7176&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7176A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A7176A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000202", 
             "name": "Thiele", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -74,12 +136,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Creates a credit against income tax for disabled persons modeled after the\n\"circuit breaker\" tax credit which now exists for senior citizens and certain\nindividuals; provides tax relief to those disabled persons who qualify for\nfederal social security benefits and are property owners or renters, who pay a\ndisproportionate amount of property tax in relation to their household income.", 
     "title": "Creates a real property tax credit for disabled persons", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-26 01:09:30", 
+    "updated_at": "2012-10-16 18:10:00", 
     "versions": [
+        {
+            "doc_id": "NYD00097707", 
+            "mimetype": "text/html", 
+            "name": "A7176", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7176"
+        }, 
         {
             "doc_id": "NYD00031124", 
             "mimetype": "text/html", 

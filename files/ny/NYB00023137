@@ -3,7 +3,7 @@
     "action_dates": {
         "first": "2012-02-29 00:00:00", 
         "last": "2012-02-29 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2012-02-29 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -14,7 +14,7 @@
             "date": "2012-02-29 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "bill:passed"
             ]
         }
     ], 
@@ -24,7 +24,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-03-22 01:26:35", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00109912", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K945&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00023137", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +39,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1284"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K945&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K945&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K945-2011"
@@ -43,19 +52,19 @@
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000112", 
             "name": "Glick", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000194", 
             "name": "Silver", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -63,12 +72,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Paying tribute to the life and accomplishments of Mary Spink, a true public servant and civic leader", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-14 09:56:03", 
+    "updated_at": "2012-10-16 18:12:56", 
     "versions": [
+        {
+            "doc_id": "NYD00109911", 
+            "mimetype": "text/html", 
+            "name": "K945", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K945"
+        }, 
         {
             "doc_id": "NYD00041068", 
             "mimetype": "text/html", 

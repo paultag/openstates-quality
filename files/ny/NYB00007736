@@ -14,7 +14,13 @@
             "action": "referred to children and families", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000044", 
+                    "name": "children and families", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -23,7 +29,13 @@
             "action": "referred to children and families", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000044", 
+                    "name": "children and families", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -32,14 +44,21 @@
     "alternate_titles": [], 
     "bill_id": "A 503", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 3314", 
+            "chamber": null, 
+            "internal_id": "NYB00003488", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
     "documents": [
         {
-            "doc_id": "NYD00046843", 
+            "doc_id": "NYD00103131", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A503&term=&Memo=Y"
         }
     ], 
     "id": "NYB00007736", 
@@ -50,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=554"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A503&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A503&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A503-2011"
@@ -60,13 +82,13 @@
         {
             "leg_id": "NYL000209", 
             "name": "Wright", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000180", 
             "name": "Rivera J", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -75,12 +97,19 @@
         "Judiciary", 
         "Family and Children Issues"
     ], 
+    "summary": "Amends provisions of child protective proceedings to prevent the unnecessary\nremoval of children from a custodial parent who is the victim of domestic\nviolence.", 
     "title": "Relates to preventing the unnecessary removal of children from a custodial parent who is the victim of domestic violence", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 10:05:40", 
+    "updated_at": "2012-10-16 18:11:27", 
     "versions": [
+        {
+            "doc_id": "NYD00103130", 
+            "mimetype": "text/html", 
+            "name": "A503", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A503"
+        }, 
         {
             "doc_id": "NYD00030916", 
             "mimetype": "text/html", 

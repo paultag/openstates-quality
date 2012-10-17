@@ -12,9 +12,14 @@
             "action": "REFERRED TO ENVIRONMENTAL CONSERVATION", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000017", 
+                    "name": "ENVIRONMENTAL CONSERVATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -22,16 +27,28 @@
             "action": "REPORTED AND COMMITTED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "REFERRED TO ENVIRONMENTAL CONSERVATION", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000017", 
+                    "name": "ENVIRONMENTAL CONSERVATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -40,37 +57,58 @@
             "action": "AMEND (T) AND RECOMMIT TO ENVIRONMENTAL CONSERVATION", 
             "actor": "upper", 
             "date": "2012-01-09 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000017", 
+                    "name": "ENVIRONMENTAL CONSERVATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5228"
+            ], 
             "action": "PRINT NUMBER 5228A", 
             "actor": "upper", 
             "date": "2012-01-09 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "REPORTED AND COMMITTED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-06-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2012-06-21 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
@@ -102,11 +140,17 @@
         }, 
         {
             "action": "referred to environmental conservation", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2012-06-22 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
@@ -116,7 +160,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:40", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00051463", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5228A-2011"
+        }
+    ], 
     "id": "NYB00005490", 
     "level": "state", 
     "scraped_subjects": [
@@ -125,17 +175,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=354"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5228&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S5228-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5228&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5228A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S5228A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000021", 
             "name": "GRISANTI", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -143,12 +199,19 @@
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Relates to brownfield site cleanup; establishes environmental covenants;\nrepeals provisions of law relating to brownfield redevelopment tax credits.", 
     "title": "Relates to brownfield site cleanup; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 19:58:07", 
+    "updated_at": "2012-10-16 17:59:23", 
     "versions": [
+        {
+            "doc_id": "NYD00051462", 
+            "mimetype": "text/html", 
+            "name": "S5228", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5228"
+        }, 
         {
             "doc_id": "NYD00029209", 
             "mimetype": "text/html", 
@@ -162,5 +225,576 @@
             "url": "http://open.nysenate.gov/legislation/bill/S5228A-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+actual_vote": {
+                "Espaillat": [
+                    "Espaillat"
+                ], 
+                "Huntley": [
+                    "Huntley"
+                ]
+            }, 
+            "bill_id": "NYB00005490", 
+            "chamber": "upper", 
+            "date": "2012-06-21 00:00:00", 
+            "id": "NYV00003846", 
+            "motion": "Floor Vote", 
+            "no_count": 19, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000002", 
+                    "name": "Addabbo"
+                }, 
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000005", 
+                    "name": "Ball"
+                }, 
+                {
+                    "leg_id": "NYL000007", 
+                    "name": "Breslin"
+                }, 
+                {
+                    "leg_id": "NYL000011", 
+                    "name": "Dilan"
+                }, 
+                {
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
+                }, 
+                {
+                    "leg_id": "NYL000018", 
+                    "name": "Gianaris"
+                }, 
+                {
+                    "leg_id": "NYL000023", 
+                    "name": "Hassell-Thomps"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }, 
+                {
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
+                }, 
+                {
+                    "leg_id": "NYL000044", 
+                    "name": "Peralta"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }, 
+                {
+                    "leg_id": "NYL000048", 
+                    "name": "Rivera"
+                }, 
+                {
+                    "leg_id": "NYL000053", 
+                    "name": "Serrano"
+                }, 
+                {
+                    "leg_id": "NYL000057", 
+                    "name": "Squadron"
+                }, 
+                {
+                    "leg_id": "NYL000058", 
+                    "name": "Stavisky"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousin"
+                }
+            ], 
+            "other_count": 2, 
+            "other_votes": [
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }
+            ], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5228A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00003846", 
+            "yes_count": 41, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000001", 
+                    "name": "Adams"
+                }, 
+                {
+                    "leg_id": "NYL000003", 
+                    "name": "Alesi"
+                }, 
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000008", 
+                    "name": "Carlucci"
+                }, 
+                {
+                    "leg_id": "NYL000009", 
+                    "name": "DeFrancisco"
+                }, 
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }, 
+                {
+                    "leg_id": "NYL000014", 
+                    "name": "Farley"
+                }, 
+                {
+                    "leg_id": "NYL000015", 
+                    "name": "Flanagan"
+                }, 
+                {
+                    "leg_id": "NYL000016", 
+                    "name": "Fuschillo"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000019", 
+                    "name": "Golden"
+                }, 
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000021", 
+                    "name": "Grisanti"
+                }, 
+                {
+                    "leg_id": "NYL000022", 
+                    "name": "Hannon"
+                }, 
+                {
+                    "leg_id": "NYL000025", 
+                    "name": "Johnson"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000027", 
+                    "name": "Klein"
+                }, 
+                {
+                    "leg_id": "NYL000030", 
+                    "name": "Lanza"
+                }, 
+                {
+                    "leg_id": "NYL000031", 
+                    "name": "Larkin"
+                }, 
+                {
+                    "leg_id": "NYL000033", 
+                    "name": "Libous"
+                }, 
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }, 
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000036", 
+                    "name": "Martins"
+                }, 
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000038", 
+                    "name": "McDonald"
+                }, 
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000042", 
+                    "name": "Oppenheimer"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000049", 
+                    "name": "Robach"
+                }, 
+                {
+                    "leg_id": "NYL000050", 
+                    "name": "Saland"
+                }, 
+                {
+                    "leg_id": "NYL000051", 
+                    "name": "Sampson"
+                }, 
+                {
+                    "leg_id": "NYL000052", 
+                    "name": "Savino"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000055", 
+                    "name": "Skelos"
+                }, 
+                {
+                    "leg_id": "NYL000056", 
+                    "name": "Smith"
+                }, 
+                {
+                    "leg_id": "NYL000224", 
+                    "name": "Storobin"
+                }, 
+                {
+                    "leg_id": "NYL000060", 
+                    "name": "Valesky"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000062", 
+                    "name": "Zeldin"
+                }
+            ]
+        }, 
+        {
+            "bill_id": "NYB00005490", 
+            "chamber": "upper", 
+            "date": "2012-06-21 00:00:00", 
+            "id": "NYV00003849", 
+            "motion": "Rules Committee Vote", 
+            "no_count": 2, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }, 
+                {
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
+                }
+            ], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NYL000016", 
+                    "name": "Fuschillo"
+                }
+            ], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5228A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00003849", 
+            "yes_count": 22, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000055", 
+                    "name": "Skelos"
+                }, 
+                {
+                    "leg_id": "NYL000003", 
+                    "name": "Alesi"
+                }, 
+                {
+                    "leg_id": "NYL000014", 
+                    "name": "Farley"
+                }, 
+                {
+                    "leg_id": "NYL000022", 
+                    "name": "Hannon"
+                }, 
+                {
+                    "leg_id": "NYL000025", 
+                    "name": "Johnson"
+                }, 
+                {
+                    "leg_id": "NYL000031", 
+                    "name": "Larkin"
+                }, 
+                {
+                    "leg_id": "NYL000033", 
+                    "name": "Libous"
+                }, 
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000050", 
+                    "name": "Saland"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000051", 
+                    "name": "Sampson"
+                }, 
+                {
+                    "leg_id": "NYL000011", 
+                    "name": "Dilan"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000007", 
+                    "name": "Breslin"
+                }, 
+                {
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
+                }, 
+                {
+                    "leg_id": "NYL000023", 
+                    "name": "Hassell-Thompson"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }, 
+                {
+                    "leg_id": "NYL000056", 
+                    "name": "Smith"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
+                }
+            ]
+        }, 
+        {
+            "bill_id": "NYB00005490", 
+            "chamber": "upper", 
+            "date": "2012-06-05 00:00:00", 
+            "id": "NYV00003848", 
+            "motion": "Environmental Conservation Committee Vote", 
+            "no_count": 6, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000042", 
+                    "name": "Oppenheimer"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }, 
+                {
+                    "leg_id": "NYL000053", 
+                    "name": "Serrano"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5228A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00003848", 
+            "yes_count": 8, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000021", 
+                    "name": "Grisanti"
+                }, 
+                {
+                    "leg_id": "NYL000025", 
+                    "name": "Johnson"
+                }, 
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }, 
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }
+            ]
+        }, 
+        {
+            "bill_id": "NYB00005490", 
+            "chamber": "upper", 
+            "date": "2011-05-17 00:00:00", 
+            "id": "NYV00003847", 
+            "motion": "Environmental Conservation Committee Vote", 
+            "no_count": 2, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5228A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00003847", 
+            "yes_count": 12, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000021", 
+                    "name": "Grisanti"
+                }, 
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }, 
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000053", 
+                    "name": "Serrano"
+                }, 
+                {
+                    "leg_id": "NYL000025", 
+                    "name": "Johnson"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000042", 
+                    "name": "Oppenheimer"
+                }
+            ]
+        }
+    ]
 }

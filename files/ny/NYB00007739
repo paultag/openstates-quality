@@ -14,7 +14,13 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -23,7 +29,13 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -32,14 +44,21 @@
     "alternate_titles": [], 
     "bill_id": "A 506", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 1291", 
+            "chamber": null, 
+            "internal_id": "NYB00001336", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
     "documents": [
         {
-            "doc_id": "NYD00046846", 
+            "doc_id": "NYD00103121", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A506&term=&Memo=Y"
         }
     ], 
     "id": "NYB00007739", 
@@ -50,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=554"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A506&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A506&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A506-2011"
@@ -60,7 +82,7 @@
         {
             "leg_id": "NYL000209", 
             "name": "Wright", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -68,12 +90,19 @@
     "subjects": [
         "Judiciary"
     ], 
+    "summary": "Requires tenants in housing court proceedings be given information pertaining\nto their rights including that only a judge may issue a warrant to evict them;\nthey should assert any defense or counterclaim in their answer and that they\nhave a right to have the premises inspected to confirm any claim of dangerous\nor unhealthy conditions and that they may have a right to withhold rent for\nfailure to make repairs and that OCA sells information to residential tenant\nscreening companies.", 
     "title": "Requires tenants in housing court to be given certain information in bold print at the end of any petition for eviction", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 10:05:40", 
+    "updated_at": "2012-10-16 18:11:27", 
     "versions": [
+        {
+            "doc_id": "NYD00103120", 
+            "mimetype": "text/html", 
+            "name": "A506", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A506"
+        }, 
         {
             "doc_id": "NYD00035212", 
             "mimetype": "text/html", 

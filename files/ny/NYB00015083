@@ -23,7 +23,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:22", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00109966", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K82&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00015083", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +38,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1198"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K82&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K82&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K82-2011"
@@ -42,13 +51,13 @@
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000099", 
             "name": "Destito", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -56,12 +65,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commending the Vernon Verona Sherrill Senior High School FFA Chapter on its designation as the NYS Agricultural Society's NYS FFA Chapter of the Year", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-22 10:05:49", 
+    "updated_at": "2012-10-16 18:12:57", 
     "versions": [
+        {
+            "doc_id": "NYD00109965", 
+            "mimetype": "text/html", 
+            "name": "K82", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K82"
+        }, 
         {
             "doc_id": "NYD00038872", 
             "mimetype": "text/html", 

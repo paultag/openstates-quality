@@ -11,25 +11,46 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1612", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00101287", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1612&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008890", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=539"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1612&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1612&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1612-2011"
@@ -48,24 +72,104 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000088", 
+            "name": "Clark", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000131", 
+            "name": "Kavanagh", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000100", 
+            "name": "Dinowitz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000132", 
+            "name": "Kellner", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000209", 
+            "name": "Wright", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Provides that with respect to apartments covered by rent control, rent\nstabilization, or the emergency tenant protection act, a landlord must be free\nof outstanding building code violations to bring an action or proceeding for\nrent or eviction; provides alternative provisions for disputed violations;\nrequires tenants to pay rent into an interest bearing account to be maintained\nby the court during the pendency of the dispute over the violation; payments\nmay be made from such account to cover utility bills and the making of\nnecessary repairs if the dispute is resolved in favor of the tenant; if such\ndispute is resolved in favor of the landlord, then he or she shall receive all\nsuch payments with interest thereon.", 
     "title": "Requires a landlord to have clean hands to bring action for rent or eviction in certain cases", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-20 06:02:20", 
+    "updated_at": "2012-10-16 18:10:56", 
     "versions": [
         {
-            "doc_id": "NYD00000764", 
+            "doc_id": "NYD00101285", 
             "mimetype": "text/html", 
             "name": "A1612", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1612-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1612"
+        }, 
+        {
+            "doc_id": "NYD00101286", 
+            "mimetype": "text/html", 
+            "name": "A1612", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1612-2011"
         }
     ], 
     "votes": []

@@ -12,27 +12,46 @@
             "action": "referred to governmental employees", 
             "actor": "lower", 
             "date": "2012-04-30 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000056", 
+                    "name": "governmental employees", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2012-06-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 9985", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-05-10 01:06:21", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00088632", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9985&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00025259", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1139"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9985&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9985&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9985-2011"
@@ -51,6 +73,7 @@
         {
             "leg_id": "NYL000063", 
             "name": "Abbate", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -58,12 +81,19 @@
     "subjects": [
         "Civil Liberties and Civil Rights"
     ], 
+    "summary": "Includes environmental conservation police officers and forest rangers in\nprovisions permitting transfer of police officers to other police forces or\ndepartments listed.", 
     "title": "Includes environmental conservation police officers and forest rangers in provisions permitting transfer of police officers", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 02:25:54", 
+    "updated_at": "2012-10-16 18:07:39", 
     "versions": [
+        {
+            "doc_id": "NYD00088631", 
+            "mimetype": "text/html", 
+            "name": "A9985", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9985"
+        }, 
         {
             "doc_id": "NYD00043098", 
             "mimetype": "text/html", 

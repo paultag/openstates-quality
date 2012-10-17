@@ -14,9 +14,15 @@
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2011-01-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
@@ -42,7 +48,13 @@
     ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:59", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096668", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2524&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009838", 
     "level": "state", 
     "scraped_subjects": [
@@ -51,7 +63,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=673"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2524&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2524&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2524-2011"
@@ -61,7 +76,7 @@
         {
             "leg_id": "NYL000124", 
             "name": "Hoyt", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -69,12 +84,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides tax abatement related to the removal of lead paint; defines terms.", 
     "title": "Provides tax abatement related to the removal of lead paint", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-08 09:54:53", 
+    "updated_at": "2012-10-16 18:09:35", 
     "versions": [
+        {
+            "doc_id": "NYD00096667", 
+            "mimetype": "text/html", 
+            "name": "A2524", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2524"
+        }, 
         {
             "doc_id": "NYD00036109", 
             "mimetype": "text/html", 

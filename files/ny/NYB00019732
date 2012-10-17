@@ -11,7 +11,13 @@
             "action": "referred to alcoholism and drug abuse", 
             "actor": "lower", 
             "date": "2011-08-31 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000042", 
+                    "name": "alcoholism and drug abuse", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "referred to alcoholism and drug abuse", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000042", 
+                    "name": "alcoholism and drug abuse", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -34,9 +46,9 @@
     "created_at": "2011-09-01 06:23:06", 
     "documents": [
         {
-            "doc_id": "NYD00046652", 
+            "doc_id": "NYD00106548", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8567&term=&Memo=Y"
         }
     ], 
     "id": "NYB00019732", 
@@ -47,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1053"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8567&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8567&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8567-2011"
@@ -57,7 +72,7 @@
         {
             "leg_id": "NYL000163", 
             "name": "Murray", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -66,12 +81,19 @@
         "Health", 
         "Legal Issues"
     ], 
+    "summary": "Provides for pilot program in Suffolk County regarding recovery homes for\nrehabilitation of persons with chemical dependence; provides that provisions\nexpire and are deemed repealed four years after taking effect.", 
     "title": "Provides for pilot program in Suffolk County regarding recovery homes for rehabilitation of persons with chemical dependence", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:36", 
+    "updated_at": "2012-10-16 18:12:15", 
     "versions": [
+        {
+            "doc_id": "NYD00106547", 
+            "mimetype": "text/html", 
+            "name": "A8567", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8567"
+        }, 
         {
             "doc_id": "NYD00037561", 
             "mimetype": "text/html", 

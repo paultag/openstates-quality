@@ -11,25 +11,46 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3978", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:05", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00086960", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3978&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011344", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=716"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3978&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3978&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3978-2011"
@@ -48,19 +72,45 @@
         {
             "leg_id": "NYL000165", 
             "name": "O'Donnell", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000078", 
+            "name": "Brook-Krasny", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Provides that revenues from buyouts of Mitchell-Lama projects, whether\nstate-aided or municipally-aided, must be used for affordable housing purposes\nby the state or the municipality; creates a special state fund, the\nMitchell-Lama buyout affordable housing fund; provides that such fund's\nrevenues may only be used for housing projects meeting Mitchell-Lama\neligibility criteria.", 
     "title": "Provides that revenues from buyouts of Mitchell-Lama projects must be used for affordable housing purposes", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:39", 
+    "updated_at": "2012-10-16 18:07:10", 
     "versions": [
+        {
+            "doc_id": "NYD00086959", 
+            "mimetype": "text/html", 
+            "name": "A3978", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3978"
+        }, 
         {
             "doc_id": "NYD00028373", 
             "mimetype": "text/html", 

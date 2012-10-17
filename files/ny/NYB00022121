@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2012-02-08 00:00:00", 
-        "last": "2012-02-08 00:00:00", 
+        "last": "2012-04-23 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,18 +11,66 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
+            ]
+        }, 
+        {
+            "action": "AMEND AND RECOMMIT TO AGRICULTURE", 
+            "actor": "upper", 
+            "date": "2012-04-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "6423"
+            ], 
+            "action": "PRINT NUMBER 6423A", 
+            "actor": "upper", 
+            "date": "2012-04-23 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 6423", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 9394", 
+            "chamber": null, 
+            "internal_id": "NYB00023505", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-02-09 06:30:44", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00060180", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6423B-2011"
+        }
+    ], 
     "id": "NYB00022121", 
     "level": "state", 
     "scraped_subjects": [
@@ -31,34 +79,102 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=401"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6423&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S6423-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6423&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6423B&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S6423B-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000027", 
             "name": "KLEIN", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000002", 
+            "name": "ADDABBO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000008", 
+            "name": "CARLUCCI", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000022", 
+            "name": "HANNON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000023", 
+            "name": "HASSELL-THOMPSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000043", 
+            "name": "PARKER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000052", 
+            "name": "SAVINO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000058", 
+            "name": "STAVISKY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Enacts the \"omnibus obesity and respiratory illness reduction act\"; establishes\na community gardens task force and provides for direct marketing of fresh\nvegetables and fruits in areas with a high incidence of adult and child\nobesity; provides for the screening for childhood obesity by elementary and\nsecondary schools and promotes the availability of certain healthy foods and\nbeverages; provides for the regulation of the use of trans fats and requires\nthe provision of nutritional information by food service facilities; restricts\nthe sale, lease, transfer or authorization of open-air schoolhouse playgrounds\nfor certain uses; requires instruction in schools on good health practices;\nincludes certain respiratory diseases and obesity in disease management\ndemonstration programs; enacts provisions to reduce the incidence of certain\nrespiratory diseases; enacts provisions to prevent in-utero exposure to tobacco\nsmoke; provides for the use of inhalers and nebulizers by certain students;\nprovides for residential real property smoking policies; adds weight control\nand schools to the health care and wellness education and outreach program;\nexpands the collection and reporting of data on obesity in the state; directs\nthe health research science board to study obesity and respiratory diseases;\nprovides for expanded obesity prevention and screening; expands ease of breast\nfeeding in child day care centers and at work; provides for nutrition\ncounseling to pregnant teenagers; establishes the obesity and respiratory\ndisease research and education fund; includes weight management and physical\nfitness in wellness programs; provides for health and nutritional education and\nservices to teen parents; requires day care centers to provide healthy foods\nand exercise; directs cooperative extension to offer obesity and respiratory\ndisease prevention programs.", 
     "title": "Enacts the \"omnibus obesity and respiratory illness reduction act\"", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-11 06:27:00", 
+    "updated_at": "2012-10-16 18:01:48", 
     "versions": [
         {
-            "doc_id": "NYD00021847", 
+            "doc_id": "NYD00060176", 
             "mimetype": "text/html", 
             "name": "S6423", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S6423-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6423"
+        }, 
+        {
+            "doc_id": "NYD00060177", 
+            "mimetype": "text/html", 
+            "name": "S6423", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6423-2011"
+        }, 
+        {
+            "doc_id": "NYD00060178", 
+            "mimetype": "text/html", 
+            "name": "S6423A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6423A-2011"
+        }, 
+        {
+            "doc_id": "NYD00060179", 
+            "mimetype": "text/html", 
+            "name": "S6423B", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6423B-2011"
         }
     ], 
     "votes": []

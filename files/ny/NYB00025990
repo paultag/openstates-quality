@@ -14,17 +14,38 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-05-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 10278", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 7076", 
+            "chamber": null, 
+            "internal_id": "NYB00026032", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-05-24 01:10:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104489", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10278&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00025990", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1097"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10278&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10278&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A10278-2011"
@@ -43,19 +67,57 @@
         {
             "leg_id": "NYL000198", 
             "name": "Stevenson", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000078", 
+            "name": "Brook-Krasny", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000208", 
+            "name": "Weprin", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Establishes certain rights for shareholders in limited-profit housing\ncompanies.", 
     "title": "Establishes certain rights for shareholders in limited-profit housing companies", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-25 01:13:19", 
+    "updated_at": "2012-10-16 18:11:52", 
     "versions": [
+        {
+            "doc_id": "NYD00104488", 
+            "mimetype": "text/html", 
+            "name": "A10278", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10278"
+        }, 
         {
             "doc_id": "NYD00030148", 
             "mimetype": "text/html", 

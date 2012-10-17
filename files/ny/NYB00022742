@@ -23,7 +23,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-03-08 01:12:59", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00109217", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K889&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00022742", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +38,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1278"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K889&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K889&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K889-2011"
@@ -42,7 +51,7 @@
         {
             "leg_id": "NYL000106", 
             "name": "Friend", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -50,12 +59,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commemorating the 125th Anniversary of the YWCA of Elmira and the Twin Tiers", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-20 10:06:41", 
+    "updated_at": "2012-10-16 18:12:52", 
     "versions": [
+        {
+            "doc_id": "NYD00109216", 
+            "mimetype": "text/html", 
+            "name": "K889", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K889"
+        }, 
         {
             "doc_id": "NYD00032218", 
             "mimetype": "text/html", 

@@ -12,31 +12,49 @@
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2011-05-24 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-15 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
             "related_entities": [], 
@@ -66,55 +84,96 @@
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2012-02-14 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend (t) and recommit to codes", 
             "actor": "lower", 
             "date": "2012-02-27 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "7776"
+            ], 
             "action": "print number 7776a", 
             "actor": "lower", 
             "date": "2012-02-27 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2012-06-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7776", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 7229", 
+            "chamber": null, 
+            "internal_id": "NYB00025777", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-17 06:19:56", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00084308", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7776&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00016315", 
     "level": "state", 
     "scraped_subjects": [
@@ -123,41 +182,47 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=999"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7776&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A7776-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7776&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7776A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A7776A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000182", 
-            "name": "Rivera P", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000108", 
             "name": "Galef", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000064", 
             "name": "Abinanti", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000073", 
             "name": "Boyland", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -165,12 +230,19 @@
     "subjects": [
         "Health"
     ], 
+    "summary": "Relates to prohibiting certain restaurants and food establishments from serving\nfoods containing artificial trans fat.", 
     "title": "Relates to prohibiting certain restaurants and food establishments from serving foods containing artificial trans fat", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-08 09:54:56", 
+    "updated_at": "2012-10-16 18:06:33", 
     "versions": [
+        {
+            "doc_id": "NYD00084307", 
+            "mimetype": "text/html", 
+            "name": "A7776", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7776"
+        }, 
         {
             "doc_id": "NYD00032096", 
             "mimetype": "text/html", 

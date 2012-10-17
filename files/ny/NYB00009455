@@ -14,25 +14,53 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 2164", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 850", 
+            "chamber": null, 
+            "internal_id": "NYB00000871", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:57", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00088871", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2164&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009455", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=631"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2164&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2164&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2164-2011"
@@ -51,6 +82,7 @@
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -58,12 +90,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Directs the department of agriculture and markets and the state soil and water\nconservation committee to review and define farm conservation practices which\nare within the professions of engineering, land surveying and architecture.", 
     "title": "Directs department of agriculture and markets and the state soil and water conservation committee to define farm conservation practices conducted by professionals", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-12 01:11:22", 
+    "updated_at": "2012-10-16 18:07:45", 
     "versions": [
+        {
+            "doc_id": "NYD00088870", 
+            "mimetype": "text/html", 
+            "name": "A2164", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2164"
+        }, 
         {
             "doc_id": "NYD00037348", 
             "mimetype": "text/html", 

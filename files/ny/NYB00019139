@@ -14,25 +14,53 @@
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2011-06-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 8419", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 845", 
+            "chamber": null, 
+            "internal_id": "NYB00000866", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-16 07:59:02", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00090859", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8419&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00019139", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1021"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8419&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8419&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8419-2011"
@@ -51,6 +82,7 @@
         {
             "leg_id": "NYL000202", 
             "name": "Thiele", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -58,12 +90,19 @@
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Provides for aquaculture and shellfish regulation.", 
     "title": "Provides for aquaculture and shellfish regulation; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-13 01:11:56", 
+    "updated_at": "2012-10-16 18:08:19", 
     "versions": [
+        {
+            "doc_id": "NYD00090858", 
+            "mimetype": "text/html", 
+            "name": "A8419", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8419"
+        }, 
         {
             "doc_id": "NYD00038278", 
             "mimetype": "text/html", 

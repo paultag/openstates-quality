@@ -11,25 +11,46 @@
             "action": "referred to children and families", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000044", 
+                    "name": "children and families", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to children and families", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000044", 
+                    "name": "children and families", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7795", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-18 06:38:22", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00090272", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7795&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00016419", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=943"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7795&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7795&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7795-2011"
@@ -48,24 +72,44 @@
         {
             "leg_id": "NYL000083", 
             "name": "Camara", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Relates to the operation of secure, limited secure and non-secure facilities\nfor the placement of adjudicated juvenile delinquents and juvenile offenders.", 
     "title": "Relates to the operation of secure, limited secure and non-secure facilities for the placement of adjudicated juvenile delinquents and juvenile offenders", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-20 01:01:28", 
+    "updated_at": "2012-10-16 18:08:08", 
     "versions": [
         {
-            "doc_id": "NYD00008736", 
+            "doc_id": "NYD00090270", 
             "mimetype": "text/html", 
             "name": "A7795", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A7795-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7795"
+        }, 
+        {
+            "doc_id": "NYD00090271", 
+            "mimetype": "text/html", 
+            "name": "A7795", 
+            "url": "http://open.nysenate.gov/legislation/bill/A7795-2011"
         }
     ], 
     "votes": []

@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-11 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-06-05 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,25 +11,61 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported referred to rules", 
+            "actor": "lower", 
+            "date": "2012-06-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1720", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00084166", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1720&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008998", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=555"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1720&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1720&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1720-2011"
@@ -48,24 +87,74 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000142", 
+            "name": "Lopez V", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000165", 
+            "name": "O'Donnell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000167", 
+            "name": "Ortiz", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Repeals provisions of the administrative code of the city of NY relating to\nmore readily permitting the eviction of tenants where buildings are to be\ndemolished or substantially altered.", 
     "title": "Repeals provisions of the administrative code of the city of New York relating to the eviction of tenants where buildings are to be demolished or substantially altered", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-01 01:06:27", 
+    "updated_at": "2012-10-16 18:06:32", 
     "versions": [
         {
-            "doc_id": "NYD00000891", 
+            "doc_id": "NYD00084164", 
             "mimetype": "text/html", 
             "name": "A1720", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1720-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1720"
+        }, 
+        {
+            "doc_id": "NYD00084165", 
+            "mimetype": "text/html", 
+            "name": "A1720", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1720-2011"
         }
     ], 
     "votes": []

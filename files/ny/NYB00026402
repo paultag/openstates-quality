@@ -11,7 +11,13 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-05-29 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -41,7 +47,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-06-01 01:07:27", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00074142", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J4941-2011"
+        }
+    ], 
     "id": "NYB00026402", 
     "level": "state", 
     "scraped_subjects": [
@@ -50,7 +62,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1518"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J4941&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J4941&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J4941-2011"
@@ -60,7 +75,7 @@
         {
             "leg_id": "NYL000047", 
             "name": "RITCHIE", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -68,12 +83,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commending the Future Farmers of America Chapter at Belleville Henderson Central School District upon the occasion of its designation as Best FFA Chapter in New York", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-22 10:05:39", 
+    "updated_at": "2012-10-16 18:04:54", 
     "versions": [
+        {
+            "doc_id": "NYD00074141", 
+            "mimetype": "text/html", 
+            "name": "J4941", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J4941"
+        }, 
         {
             "doc_id": "NYD00034623", 
             "mimetype": "text/html", 

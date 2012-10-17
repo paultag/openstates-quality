@@ -12,8 +12,14 @@
             "action": "REFERRED TO RACING, GAMING AND WAGERING", 
             "actor": "upper", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000029", 
+                    "name": "RACING, GAMING AND WAGERING", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -21,6 +27,7 @@
             "action": "1ST REPORT CAL.166", 
             "actor": "upper", 
             "date": "2011-03-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -29,22 +36,28 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "3759A"
+            ], 
             "action": "AMENDED ON THIRD READING 3759A", 
             "actor": "upper", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -53,14 +66,28 @@
             "action": "COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2011-06-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "REFERRED TO RACING, GAMING AND WAGERING", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000029", 
+                    "name": "RACING, GAMING AND WAGERING", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -69,9 +96,23 @@
     "alternate_titles": [], 
     "bill_id": "S 3759", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 7900", 
+            "chamber": null, 
+            "internal_id": "NYB00016755", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:31", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00059836", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3759A-2011"
+        }
+    ], 
     "id": "NYB00003960", 
     "level": "state", 
     "scraped_subjects": [
@@ -80,29 +121,55 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=245"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3759&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S3759-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3759&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3759A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S3759A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000006", 
             "name": "BONACIC", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000027", 
+            "name": "KLEIN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000038", 
+            "name": "MCDONALD", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Gambling and Gaming"
     ], 
+    "summary": "Relates to creating a racing fan advisory board to provide advice to the state\nracing and wagering board on issues related to horse racing and wagering;\nestablishes an I Love NY Racing promotion and the New York State Horse Racing\nFarm of the Year Award.", 
     "title": "Relates to creating a racing fan advisory board, establishing an I Love NY Racing promotion and awarding the New York State Horse Racing Farm of the Year Award", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-27 21:39:34", 
+    "updated_at": "2012-10-16 18:01:37", 
     "versions": [
+        {
+            "doc_id": "NYD00059835", 
+            "mimetype": "text/html", 
+            "name": "S3759", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3759"
+        }, 
         {
             "doc_id": "NYD00041470", 
             "mimetype": "text/html", 
@@ -116,5 +183,70 @@
             "url": "http://open.nysenate.gov/legislation/bill/S3759A-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00003960", 
+            "chamber": "upper", 
+            "date": "2011-03-08 00:00:00", 
+            "id": "NYV00006029", 
+            "motion": "Racing, Gaming and Wagering Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S3759A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00006029", 
+            "yes_count": 10, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000022", 
+                    "name": "Hannon"
+                }, 
+                {
+                    "leg_id": "NYL000038", 
+                    "name": "McDonald"
+                }, 
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000002", 
+                    "name": "Addabbo"
+                }, 
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000001", 
+                    "name": "Adams"
+                }
+            ]
+        }
+    ]
 }

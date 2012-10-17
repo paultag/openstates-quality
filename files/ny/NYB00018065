@@ -2,7 +2,7 @@
     "action_dates": {
         "first": "2011-06-07 00:00:00", 
         "last": "2011-06-07 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2011-06-07 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -11,17 +11,25 @@
             "action": "adopted", 
             "actor": "lower", 
             "date": "2011-06-07 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "bill:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "K 639", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-06-08 07:19:32", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00108585", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K639&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00018065", 
     "level": "state", 
     "scraped_subjects": [
@@ -30,7 +38,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1149"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K639&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K639&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K639-2011"
@@ -40,6 +51,7 @@
         {
             "leg_id": "NYL000168", 
             "name": "Palmesano", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -47,17 +59,24 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commemorating the 30th Anniversary of the Clyde F. Simon Lakeview Apartments and 15th Anniversary of Clyde Simon II Apartments, in Bath, New York", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-05-17 01:11:46", 
+    "updated_at": "2012-10-16 18:12:48", 
     "versions": [
         {
-            "doc_id": "NYD00011268", 
+            "doc_id": "NYD00108583", 
             "mimetype": "text/html", 
             "name": "K639", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/K639-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K639"
+        }, 
+        {
+            "doc_id": "NYD00108584", 
+            "mimetype": "text/html", 
+            "name": "K639", 
+            "url": "http://open.nysenate.gov/legislation/bill/K639-2011"
         }
     ], 
     "votes": []

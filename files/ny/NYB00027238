@@ -14,7 +14,13 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-06-12 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -25,8 +31,9 @@
     "chamber": "lower", 
     "companions": [
         {
-            "bill_id": "S 2409E", 
+            "bill_id": "S 2409", 
             "chamber": null, 
+            "internal_id": "NYB00002487", 
             "session": "2011-2012"
         }
     ], 
@@ -34,9 +41,9 @@
     "created_at": "2012-06-18 01:16:08", 
     "documents": [
         {
-            "doc_id": "NYD00046756", 
+            "doc_id": "NYD00099384", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10652&term=&Memo=Y"
         }
     ], 
     "id": "NYB00027238", 
@@ -47,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1181"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10652&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10652&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A10652-2011"
@@ -55,9 +65,16 @@
     ], 
     "sponsors": [
         {
+            "chamber": "lower", 
+            "committee_id": "NYC000070", 
             "leg_id": null, 
-            "name": "RULES COM Rosenthal", 
-            "official_type": "primary", 
+            "name": "Rules Committee", 
+            "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000186", 
+            "name": "Rosenthal", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -65,12 +82,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Provides for the training, examination and certification of dog control\nofficers.", 
     "title": "Provides for the training, examination and certification of dog control officers", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:38", 
+    "updated_at": "2012-10-16 18:10:21", 
     "versions": [
+        {
+            "doc_id": "NYD00099383", 
+            "mimetype": "text/html", 
+            "name": "A10652", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10652"
+        }, 
         {
             "doc_id": "NYD00041389", 
             "mimetype": "text/html", 

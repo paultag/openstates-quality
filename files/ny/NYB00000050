@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-03-01 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,8 +11,14 @@
             "action": "REFERRED TO JUDICIARY", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000025", 
+                    "name": "JUDICIARY", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,17 +26,56 @@
             "action": "REFERRED TO JUDICIARY", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000025", 
+                    "name": "JUDICIARY", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
+            ]
+        }, 
+        {
+            "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
+            "actor": "upper", 
+            "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "DEFEATED IN JUDICIARY", 
+            "actor": "upper", 
+            "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 68", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 3909", 
+            "chamber": null, 
+            "internal_id": "NYB00011272", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:15", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00066421", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S68-2011"
+        }
+    ], 
     "id": "NYB00000050", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +84,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=3"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S68&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S68&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S68-2011"
@@ -49,25 +97,169 @@
         {
             "leg_id": "NYL000039", 
             "name": "MONTGOMERY", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000023", 
+            "name": "HASSELL-THOMPSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000028", 
+            "name": "KRUEGER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000053", 
+            "name": "SERRANO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Requires leases in cities with a population of one million or more to contain a\nrider describing the rights and duties with regards to the housing part of such\ncity's housing part of civil court; directs the office of court administration\nto conduct a public information program informing tenants of their rights and\nof the right to utilize the housing of the civil court.", 
     "title": "Requires leases in N.Y. city to contain a rider concerning the rights and duties with regards to the housing part of court", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-07 06:27:11", 
+    "updated_at": "2012-10-16 18:03:22", 
     "versions": [
         {
-            "doc_id": "NYD00021980", 
+            "doc_id": "NYD00066419", 
             "mimetype": "text/html", 
             "name": "S68", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S68-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S68"
+        }, 
+        {
+            "doc_id": "NYD00066420", 
+            "mimetype": "text/html", 
+            "name": "S68", 
+            "url": "http://open.nysenate.gov/legislation/bill/S68-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00000050", 
+            "chamber": "upper", 
+            "date": "2012-03-01 00:00:00", 
+            "id": "NYV00007731", 
+            "motion": "Judiciary Committee Vote", 
+            "no_count": 12, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000009", 
+                    "name": "DeFrancisco"
+                }, 
+                {
+                    "leg_id": "NYL000015", 
+                    "name": "Flanagan"
+                }, 
+                {
+                    "leg_id": "NYL000016", 
+                    "name": "Fuschillo"
+                }, 
+                {
+                    "leg_id": "NYL000030", 
+                    "name": "Lanza"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }, 
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000050", 
+                    "name": "Saland"
+                }, 
+                {
+                    "leg_id": "NYL000062", 
+                    "name": "Zeldin"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": false, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S68-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00007731", 
+            "yes_count": 11, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000023", 
+                    "name": "Hassell-Thompson"
+                }, 
+                {
+                    "leg_id": "NYL000007", 
+                    "name": "Breslin"
+                }, 
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000018", 
+                    "name": "Gianaris"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }, 
+                {
+                    "leg_id": "NYL000053", 
+                    "name": "Serrano"
+                }, 
+                {
+                    "leg_id": "NYL000057", 
+                    "name": "Squadron"
+                }, 
+                {
+                    "leg_id": "NYL000058", 
+                    "name": "Stavisky"
+                }, 
+                {
+                    "leg_id": "NYL000001", 
+                    "name": "Adams"
+                }, 
+                {
+                    "leg_id": "NYL000011", 
+                    "name": "Dilan"
+                }
+            ]
+        }
+    ]
 }

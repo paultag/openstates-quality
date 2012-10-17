@@ -12,8 +12,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-04-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -21,6 +27,13 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -29,9 +42,16 @@
     "alternate_titles": [], 
     "bill_id": "S 4908", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:38", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00058449", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4908-2011"
+        }
+    ], 
     "id": "NYB00005170", 
     "level": "state", 
     "scraped_subjects": [
@@ -40,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=330"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4908&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4908&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S4908-2011"
@@ -50,6 +73,7 @@
         {
             "leg_id": "NYL000027", 
             "name": "KLEIN", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -57,12 +81,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Requires municipalities which sell, transfer or lease community garden real\nproperty to use proceeds therefrom for community garden purposes.", 
     "title": "Requires municipalities which sell, transfer or lease community garden real property to use proceeds therefrom for community garden purposes", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-27 21:39:35", 
+    "updated_at": "2012-10-16 18:01:10", 
     "versions": [
+        {
+            "doc_id": "NYD00058448", 
+            "mimetype": "text/html", 
+            "name": "S4908", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4908"
+        }, 
         {
             "doc_id": "NYD00039006", 
             "mimetype": "text/html", 

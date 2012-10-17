@@ -12,9 +12,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-02-28 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -22,7 +27,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -31,9 +42,23 @@
     "alternate_titles": [], 
     "bill_id": "S 3588", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 3996", 
+            "chamber": null, 
+            "internal_id": "NYB00011364", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:30", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00061750", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3588-2011"
+        }
+    ], 
     "id": "NYB00003780", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=233"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3588&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3588&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S3588-2011"
@@ -52,7 +80,7 @@
         {
             "leg_id": "NYL000001", 
             "name": "ADAMS", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -60,12 +88,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Provides that records of eviction proceeding shall be sealed when the leased\nproperty was foreclosed upon; prohibits use and disclosure of any such\ninformation relating to a tenant; imposes fine of between $1,000 and $2,000 for\nviolations thereof.", 
     "title": "Provides that records of eviction proceeding shall be sealed when the leased property was foreclosed upon", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-28 02:49:47", 
+    "updated_at": "2012-10-16 18:02:11", 
     "versions": [
+        {
+            "doc_id": "NYD00061749", 
+            "mimetype": "text/html", 
+            "name": "S3588", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3588"
+        }, 
         {
             "doc_id": "NYD00042084", 
             "mimetype": "text/html", 

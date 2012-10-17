@@ -12,9 +12,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-02-16 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -43,7 +48,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:42", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00072109", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J573-2011"
+        }
+    ], 
     "id": "NYB00006147", 
     "level": "state", 
     "scraped_subjects": [
@@ -52,7 +63,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1247"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J573&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J573&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J573-2011"
@@ -62,7 +76,7 @@
         {
             "leg_id": "NYL000016", 
             "name": "FUSCHILLO", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -70,12 +84,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Congratulating Michael A. Granito upon the occasion of receiving the distinguished rank of Eagle Scout", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-08-24 20:29:16", 
+    "updated_at": "2012-10-16 18:04:35", 
     "versions": [
+        {
+            "doc_id": "NYD00072108", 
+            "mimetype": "text/html", 
+            "name": "J573", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J573"
+        }, 
         {
             "doc_id": "NYD00031617", 
             "mimetype": "text/html", 

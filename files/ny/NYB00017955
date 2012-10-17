@@ -14,7 +14,13 @@
             "action": "REFERRED TO ENVIRONMENTAL CONSERVATION", 
             "actor": "upper", 
             "date": "2011-06-07 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000017", 
+                    "name": "ENVIRONMENTAL CONSERVATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -23,7 +29,13 @@
             "action": "REFERRED TO ENVIRONMENTAL CONSERVATION", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000017", 
+                    "name": "ENVIRONMENTAL CONSERVATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -41,7 +53,13 @@
             "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2012-03-12 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -50,10 +68,23 @@
     "alternate_titles": [], 
     "bill_id": "S 5622", 
     "chamber": "upper", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "A 919", 
+            "chamber": null, 
+            "internal_id": "NYB00008169", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-08 07:18:40", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00059413", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5622-2011"
+        }
+    ], 
     "id": "NYB00017955", 
     "level": "state", 
     "scraped_subjects": [
@@ -62,7 +93,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=383"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5622&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5622&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S5622-2011"
@@ -72,7 +106,7 @@
         {
             "leg_id": "NYL000028", 
             "name": "KRUEGER", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -80,12 +114,19 @@
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Prohibits waste transfer stations from being located near public housing\nprojects.", 
     "title": "Prohibits waste transfer stations from being located near public housing projects", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:25", 
+    "updated_at": "2012-10-16 18:01:32", 
     "versions": [
+        {
+            "doc_id": "NYD00059412", 
+            "mimetype": "text/html", 
+            "name": "S5622", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5622"
+        }, 
         {
             "doc_id": "NYD00026173", 
             "mimetype": "text/html", 

@@ -11,17 +11,38 @@
             "action": "referred to mental health", 
             "actor": "lower", 
             "date": "2012-02-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000066", 
+                    "name": "mental health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 9402", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 6420", 
+            "chamber": null, 
+            "internal_id": "NYB00022076", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-03-28 00:54:26", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00097996", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9402&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00023513", 
     "level": "state", 
     "scraped_subjects": [
@@ -30,7 +51,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=997"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9402&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9402&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9402-2011"
@@ -40,7 +64,14 @@
         {
             "leg_id": "NYL000107", 
             "name": "Gabryszak", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000092", 
+            "name": "Corwin", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -48,17 +79,24 @@
         "Health", 
         "Legal Issues"
     ], 
+    "summary": "Enacts the \"people first act of 2012\"; defines terms; ensures that individuals\nwith developmental disabilities who utilize long-term care services under the\nmedical assistance program administered by the state have meaningful access to\na reasonable array of community-based and institutional program options to\nensure the well-being of such individuals.", 
     "title": "Enacts the \"people first act of 2012\"", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-21 01:21:50", 
+    "updated_at": "2012-10-16 18:10:03", 
     "versions": [
         {
-            "doc_id": "NYD00023513", 
+            "doc_id": "NYD00097994", 
             "mimetype": "text/html", 
             "name": "A9402", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A9402-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9402"
+        }, 
+        {
+            "doc_id": "NYD00097995", 
+            "mimetype": "text/html", 
+            "name": "A9402", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9402-2011"
         }
     ], 
     "votes": []

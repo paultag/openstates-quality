@@ -11,33 +11,61 @@
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2011-02-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in governmental operations", 
             "actor": "lower", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4205", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:06", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00098741", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4205&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011609", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=753"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4205&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4205&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4205-2011"
@@ -56,19 +87,75 @@
         {
             "leg_id": "NYL000176", 
             "name": "Raia", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000219", 
+            "name": "Giglio", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000150", 
+            "name": "McKevitt", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000090", 
+            "name": "Conte", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000105", 
+            "name": "Fitzpatrick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000151", 
+            "name": "McDonough", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000188", 
+            "name": "Saladino", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000198", 
+            "name": "Stevenson", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000202", 
+            "name": "Thiele", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Creates within the office of general services a home ownership and local\ndevelopment program.", 
     "title": "Creates within the office of general services a home ownership and local development program", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-13 01:11:47", 
+    "updated_at": "2012-10-16 18:10:11", 
     "versions": [
+        {
+            "doc_id": "NYD00098740", 
+            "mimetype": "text/html", 
+            "name": "A4205", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4205"
+        }, 
         {
             "doc_id": "NYD00026869", 
             "mimetype": "text/html", 

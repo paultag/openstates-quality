@@ -12,36 +12,61 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in agriculture", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1327", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:53", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00085987", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1327&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008591", 
     "level": "state", 
     "scraped_subjects": [
@@ -50,7 +75,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=602"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1327&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1327&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1327-2011"
@@ -60,37 +88,37 @@
         {
             "leg_id": "NYL000175", 
             "name": "Rabbitt", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000129", 
-            "name": "Jordan", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000160", 
-            "name": "Montesano", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000151", 
             "name": "McDonough", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000181", 
             "name": "Rivera N", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000159", 
             "name": "Molinaro", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000129", 
+            "name": "Jordan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000160", 
+            "name": "Montesano", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -98,12 +126,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Authorizes municipalities to set license fees for unspayed or unneutered dogs.", 
     "title": "Authorizes municipalities to set license fees for unspayed or unneutered dogs", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-16 02:11:13", 
+    "updated_at": "2012-10-16 18:06:59", 
     "versions": [
+        {
+            "doc_id": "NYD00085986", 
+            "mimetype": "text/html", 
+            "name": "A1327", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1327"
+        }, 
         {
             "doc_id": "NYD00039335", 
             "mimetype": "text/html", 

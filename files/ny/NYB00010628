@@ -12,27 +12,46 @@
             "action": "referred to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3291", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:02", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00089083", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3291&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010628", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=717"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3291&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3291&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3291-2011"
@@ -51,67 +73,67 @@
         {
             "leg_id": "NYL000076", 
             "name": "Brennan", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000063", 
-            "name": "Abbate", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000088", 
-            "name": "Clark", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000100", 
-            "name": "Dinowitz", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000112", 
-            "name": "Glick", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000114", 
-            "name": "Gottfried", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000123", 
-            "name": "Hooper", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000125", 
-            "name": "Jacobs", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000199", 
-            "name": "Sweeney", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000089", 
             "name": "Colton", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000172", 
             "name": "Pheffer", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000063", 
+            "name": "Abbate", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000088", 
+            "name": "Clark", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000100", 
+            "name": "Dinowitz", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000199", 
+            "name": "Sweeney", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -119,12 +141,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Relates to the manner in which members of the New York job development\nauthority shall be appointed; reduces gubernatorial appointments from seven to\nfour members.", 
     "title": "Relates to the manner in which members of the New York job development authority shall be appointed", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-16 02:11:14", 
+    "updated_at": "2012-10-16 18:07:47", 
     "versions": [
+        {
+            "doc_id": "NYD00089082", 
+            "mimetype": "text/html", 
+            "name": "A3291", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3291"
+        }, 
         {
             "doc_id": "NYD00032016", 
             "mimetype": "text/html", 

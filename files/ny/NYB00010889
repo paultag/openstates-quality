@@ -11,18 +11,30 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-25 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -32,7 +44,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:03", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00082713", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3538&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010889", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=732"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3538&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3538&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3538-2011"
@@ -51,25 +72,25 @@
         {
             "leg_id": "NYL000083", 
             "name": "Camara", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000088", 
-            "name": "Clark", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000086", 
             "name": "Castro", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000190", 
             "name": "Scarborough", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000088", 
+            "name": "Clark", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -77,12 +98,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Enacts the \"foreclosure prevention act of 2011\"; establishes that before any\nmortgagee may accelerate the maturity of any eligible mortgage obligation,\ncommence any legal action including mortgage foreclosure, or take possession of\nany security of the mortgage debtor for such mortgage obligation that such\nmortgagee shall give the mortgagor notice; authorizes the commissioner of the\nstate division of housing and community renewal to enter into contracts with\nneighborhood preservation companies to provide temporary homeownership\nassistance activities; gives notice to mortgagors of foreclosure prevention\nactivities and payments; creates the New York state foreclosure prevention\nfund.", 
     "title": "Enacts the \"foreclosure prevention act of 2011\"", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-08 09:54:53", 
+    "updated_at": "2012-10-16 18:06:06", 
     "versions": [
+        {
+            "doc_id": "NYD00082712", 
+            "mimetype": "text/html", 
+            "name": "A3538", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3538"
+        }, 
         {
             "doc_id": "NYD00036849", 
             "mimetype": "text/html", 

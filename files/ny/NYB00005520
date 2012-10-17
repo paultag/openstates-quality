@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,16 @@
     "alternate_titles": [], 
     "bill_id": "S 5258", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:40", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00060654", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5258-2011"
+        }
+    ], 
     "id": "NYB00005520", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=337"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5258&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5258&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S5258-2011"
@@ -49,6 +72,7 @@
         {
             "leg_id": "NYL000061", 
             "name": "YOUNG", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,17 +80,24 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Authorizes the amendment of a contract with a neighborhood preservation company\nor not-for-profit company for compelling public purposes.", 
     "title": "Authorizes the amendment of a contract with a neighborhood preservation company or not-for-profit company for compelling public purposes", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-18 00:59:39", 
+    "updated_at": "2012-10-16 18:01:53", 
     "versions": [
         {
-            "doc_id": "NYD00020379", 
+            "doc_id": "NYD00060652", 
             "mimetype": "text/html", 
             "name": "S5258", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S5258-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5258"
+        }, 
+        {
+            "doc_id": "NYD00060653", 
+            "mimetype": "text/html", 
+            "name": "S5258", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5258-2011"
         }
     ], 
     "votes": []

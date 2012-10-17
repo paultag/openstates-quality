@@ -11,8 +11,14 @@
             "action": "REFERRED TO RULES", 
             "actor": "upper", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,26 +41,44 @@
             "action": "AMEND AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5780"
+            ], 
             "action": "PRINT NUMBER 5780A", 
             "actor": "upper", 
             "date": "2012-02-01 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 5780", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-06-17 08:05:25", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00052513", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5780A-2011"
+        }
+    ], 
     "id": "NYB00019211", 
     "level": "state", 
     "scraped_subjects": [
@@ -56,16 +87,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=379"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5780&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S5780-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5780&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5780A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S5780A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000011", 
             "name": "DILAN", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -73,17 +111,30 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Relates to the regulation of interim multiple dwellings.", 
     "title": "Relates to the regulation of interim multiple dwellings", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-19 01:02:21", 
+    "updated_at": "2012-10-16 17:59:48", 
     "versions": [
         {
-            "doc_id": "NYD00021120", 
+            "doc_id": "NYD00052510", 
             "mimetype": "text/html", 
             "name": "S5780", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S5780-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5780"
+        }, 
+        {
+            "doc_id": "NYD00052511", 
+            "mimetype": "text/html", 
+            "name": "S5780", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5780-2011"
+        }, 
+        {
+            "doc_id": "NYD00052512", 
+            "mimetype": "text/html", 
+            "name": "S5780A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5780A-2011"
         }
     ], 
     "votes": []

@@ -4,9 +4,9 @@
     ], 
     "action_dates": {
         "first": "2012-03-02 00:00:00", 
-        "last": "2012-03-29 00:00:00", 
+        "last": "2012-06-18 00:00:00", 
         "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_upper": "2012-06-18 00:00:00", 
         "signed": null
     }, 
     "actions": [
@@ -14,8 +14,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,7 @@
             "action": "1ST REPORT CAL.456", 
             "actor": "upper", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -31,25 +38,77 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
+            ]
+        }, 
+        {
+            "action": "PASSED SENATE", 
+            "actor": "upper", 
+            "date": "2012-06-18 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NYV00005457"
+            ], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "DELIVERED TO ASSEMBLY", 
+            "actor": "upper", 
+            "date": "2012-06-18 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "referred to agriculture", 
+            "actor": "lower", 
+            "date": "2012-06-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 6609", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 9499", 
+            "chamber": null, 
+            "internal_id": "NYB00024359", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-06-16 01:15:33", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00057662", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6609-2011"
+        }
+    ], 
     "id": "NYB00027039", 
     "level": "state", 
     "scraped_subjects": [
@@ -58,7 +117,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=443"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6609&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6609&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S6609-2011"
@@ -68,19 +130,69 @@
         {
             "leg_id": "NYL000047", 
             "name": "RITCHIE", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000020", 
+            "name": "GRIFFO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000017", 
+            "name": "GALLIVAN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000037", 
+            "name": "MAZIARZ", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000046", 
+            "name": "RANZENHOFER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000054", 
+            "name": "SEWARD", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000060", 
+            "name": "VALESKY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000061", 
+            "name": "YOUNG", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Decreases the allowable base percentage change in agriculture assessment value\nfrom ten percent to two percent of the preceding year.", 
     "title": "Decreases the allowable base percentage change in agriculture assessment value from ten percent to two percent of the preceding year", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-16 01:15:33", 
+    "updated_at": "2012-10-16 18:01:01", 
     "versions": [
+        {
+            "doc_id": "NYD00057661", 
+            "mimetype": "text/html", 
+            "name": "S6609", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6609"
+        }, 
         {
             "doc_id": "NYD00039857", 
             "mimetype": "text/html", 
@@ -88,5 +200,363 @@
             "url": "http://open.nysenate.gov/legislation/bill/S6609-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+actual_vote": {
+                "Adams": [
+                    "Adams"
+                ], 
+                "Alesi": [
+                    "Alesi"
+                ], 
+                "Espaillat": [
+                    "Espaillat"
+                ], 
+                "Huntley": [
+                    "Huntley"
+                ], 
+                "O'Mara": [
+                    "O'Mara"
+                ], 
+                "Perkins": [
+                    "Perkins"
+                ]
+            }, 
+            "bill_id": "NYB00027039", 
+            "chamber": "upper", 
+            "date": "2012-06-18 00:00:00", 
+            "id": "NYV00005457", 
+            "motion": "Floor Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 6, 
+            "other_votes": [
+                {
+                    "leg_id": "NYL000001", 
+                    "name": "Adams"
+                }, 
+                {
+                    "leg_id": "NYL000003", 
+                    "name": "Alesi"
+                }, 
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }
+            ], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S6609-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00005457", 
+            "yes_count": 56, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000002", 
+                    "name": "Addabbo"
+                }, 
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000005", 
+                    "name": "Ball"
+                }, 
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000007", 
+                    "name": "Breslin"
+                }, 
+                {
+                    "leg_id": "NYL000008", 
+                    "name": "Carlucci"
+                }, 
+                {
+                    "leg_id": "NYL000009", 
+                    "name": "DeFrancisco"
+                }, 
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }, 
+                {
+                    "leg_id": "NYL000011", 
+                    "name": "Dilan"
+                }, 
+                {
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
+                }, 
+                {
+                    "leg_id": "NYL000014", 
+                    "name": "Farley"
+                }, 
+                {
+                    "leg_id": "NYL000015", 
+                    "name": "Flanagan"
+                }, 
+                {
+                    "leg_id": "NYL000016", 
+                    "name": "Fuschillo"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000018", 
+                    "name": "Gianaris"
+                }, 
+                {
+                    "leg_id": "NYL000019", 
+                    "name": "Golden"
+                }, 
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000021", 
+                    "name": "Grisanti"
+                }, 
+                {
+                    "leg_id": "NYL000022", 
+                    "name": "Hannon"
+                }, 
+                {
+                    "leg_id": "NYL000023", 
+                    "name": "Hassell-Thomps"
+                }, 
+                {
+                    "leg_id": "NYL000025", 
+                    "name": "Johnson"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000027", 
+                    "name": "Klein"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }, 
+                {
+                    "leg_id": "NYL000030", 
+                    "name": "Lanza"
+                }, 
+                {
+                    "leg_id": "NYL000031", 
+                    "name": "Larkin"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000033", 
+                    "name": "Libous"
+                }, 
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }, 
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000036", 
+                    "name": "Martins"
+                }, 
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000038", 
+                    "name": "McDonald"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }, 
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000042", 
+                    "name": "Oppenheimer"
+                }, 
+                {
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
+                }, 
+                {
+                    "leg_id": "NYL000044", 
+                    "name": "Peralta"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000048", 
+                    "name": "Rivera"
+                }, 
+                {
+                    "leg_id": "NYL000049", 
+                    "name": "Robach"
+                }, 
+                {
+                    "leg_id": "NYL000050", 
+                    "name": "Saland"
+                }, 
+                {
+                    "leg_id": "NYL000051", 
+                    "name": "Sampson"
+                }, 
+                {
+                    "leg_id": "NYL000052", 
+                    "name": "Savino"
+                }, 
+                {
+                    "leg_id": "NYL000053", 
+                    "name": "Serrano"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000055", 
+                    "name": "Skelos"
+                }, 
+                {
+                    "leg_id": "NYL000056", 
+                    "name": "Smith"
+                }, 
+                {
+                    "leg_id": "NYL000057", 
+                    "name": "Squadron"
+                }, 
+                {
+                    "leg_id": "NYL000058", 
+                    "name": "Stavisky"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousin"
+                }, 
+                {
+                    "leg_id": "NYL000224", 
+                    "name": "Storobin"
+                }, 
+                {
+                    "leg_id": "NYL000060", 
+                    "name": "Valesky"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000062", 
+                    "name": "Zeldin"
+                }
+            ]
+        }, 
+        {
+            "bill_id": "NYB00027039", 
+            "chamber": "upper", 
+            "date": "2012-03-27 00:00:00", 
+            "id": "NYV00005458", 
+            "motion": "Agriculture Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S6609-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00005458", 
+            "yes_count": 10, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }, 
+                {
+                    "leg_id": "NYL000060", 
+                    "name": "Valesky"
+                }
+            ]
+        }
+    ]
 }

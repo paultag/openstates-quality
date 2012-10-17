@@ -11,25 +11,46 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5622", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:12", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00094639", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5622&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013080", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=843"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5622&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5622&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5622-2011"
@@ -48,19 +72,51 @@
         {
             "leg_id": "NYL000149", 
             "name": "Markey", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000208", 
+            "name": "Weprin", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000083", 
+            "name": "Camara", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000179", 
+            "name": "Reilly", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Permits owners of diseased bovine animals to recover actual costs incurred for\nengaging the services of a licensed veterinarian for an initial evaluation and\nexamination of such animal and creates a financial incentive of one hundred and\nfifty percent of the actual value of such animal as determined by the\ncommissioner for owners transporting a diseased bovine animal to Cornell\nUniversity or the New York State Veterinary College at Cornell for testing for\nbovine spongiform encephalopathy (BSE).", 
     "title": "Creates a financial incentive for owners transporting a diseased bovine animal for testing", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-15 01:11:51", 
+    "updated_at": "2012-10-16 18:09:12", 
     "versions": [
+        {
+            "doc_id": "NYD00094638", 
+            "mimetype": "text/html", 
+            "name": "A5622", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5622"
+        }, 
         {
             "doc_id": "NYD00039546", 
             "mimetype": "text/html", 

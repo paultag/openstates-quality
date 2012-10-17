@@ -12,27 +12,45 @@
             "action": "referred to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2012-06-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
@@ -42,7 +60,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:51", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091583", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A884&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008131", 
     "level": "state", 
     "scraped_subjects": [
@@ -51,7 +75,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=577"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A884&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A884&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A884-2011"
@@ -61,7 +88,7 @@
         {
             "leg_id": "NYL000132", 
             "name": "Kellner", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -69,12 +96,19 @@
     "subjects": [
         "Business and Consumers"
     ], 
+    "summary": "Reconstitutes the Roosevelt Island operating corporation board of directors;\nprovides that the corporation shall be governed by an elected rather than\nappointed board; makes numerous related provisions, including provisions for\nadditional duties.", 
     "title": "Reconstitutes the Roosevelt Island operating corporation to be the Roosevelt Island community", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-13 09:56:02", 
+    "updated_at": "2012-10-16 18:08:28", 
     "versions": [
+        {
+            "doc_id": "NYD00091582", 
+            "mimetype": "text/html", 
+            "name": "A884", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A884"
+        }, 
         {
             "doc_id": "NYD00038137", 
             "mimetype": "text/html", 

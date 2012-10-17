@@ -12,25 +12,46 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7877", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-21 06:41:32", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00100260", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7877&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00016732", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1005"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7877&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7877&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7877-2011"
@@ -49,6 +73,7 @@
         {
             "leg_id": "NYL000202", 
             "name": "Thiele", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,12 +81,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides an income tax credit equal to the full market value of donated farm\nproducts to taxpayers who donate farm products to charitable or nonprofit\norganizations.", 
     "title": "Provides an income tax credit to taxpayers who donate farm products to charitable or nonprofit organizations", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-27 21:39:45", 
+    "updated_at": "2012-10-16 18:10:36", 
     "versions": [
+        {
+            "doc_id": "NYD00100259", 
+            "mimetype": "text/html", 
+            "name": "A7877", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7877"
+        }, 
         {
             "doc_id": "NYD00027104", 
             "mimetype": "text/html", 

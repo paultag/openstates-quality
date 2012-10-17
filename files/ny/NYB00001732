@@ -11,8 +11,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-01-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,16 @@
     "alternate_titles": [], 
     "bill_id": "S 1674", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:21", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00062684", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1674-2011"
+        }
+    ], 
     "id": "NYB00001732", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=102"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1674&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1674&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S1674-2011"
@@ -49,24 +72,50 @@
         {
             "leg_id": "NYL000051", 
             "name": "SAMPSON", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000012", 
+            "name": "DUANE", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000024", 
+            "name": "HUNTLEY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000043", 
+            "name": "PARKER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Establishes the rural homeowners assistance program for assisting first time,\nlow or moderate income, or minority homeowners from foreclosure by authorizing\nand directing the commissioner of state division of housing and community\nrenewal to enter into contracts with neighborhood preservation companies to\nprovide such assistance to residents in certain rural communities; appropriates\n$1,000,000 for such purposes.", 
     "title": "Establishes the rural homeowners assistance program to assist first time, low or moderate income, or minority homeowners to avoid foreclosure; appropriation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-04 06:26:38", 
+    "updated_at": "2012-10-16 18:02:23", 
     "versions": [
         {
-            "doc_id": "NYD00015233", 
+            "doc_id": "NYD00062682", 
             "mimetype": "text/html", 
             "name": "S1674", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S1674-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S1674"
+        }, 
+        {
+            "doc_id": "NYD00062683", 
+            "mimetype": "text/html", 
+            "name": "S1674", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1674-2011"
         }
     ], 
     "votes": []

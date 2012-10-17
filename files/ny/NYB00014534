@@ -12,40 +12,64 @@
             "action": "referred to energy", 
             "actor": "lower", 
             "date": "2011-04-07 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000053", 
+                    "name": "energy", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2011-04-13 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
             "related_entities": [], 
@@ -75,18 +99,31 @@
             "action": "referred to energy", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000053", 
+                    "name": "energy", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7006", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:19", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091144", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7006&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014534", 
     "level": "state", 
     "scraped_subjects": [
@@ -95,7 +132,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=944"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7006&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7006&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7006-2011"
@@ -105,43 +145,43 @@
         {
             "leg_id": "NYL000081", 
             "name": "Cahill", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000136", 
-            "name": "Latimer", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000144", 
             "name": "Lupardo", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000140", 
             "name": "Linares", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000149", 
             "name": "Markey", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000136", 
+            "name": "Latimer", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -149,12 +189,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Relates to green jobs-green New York on-bill recovery charges; provides that\nthe public service commission shall require each gas and electric corporation\nfile tariffs to provide for the billing and collection of on-bill recovery\ncharges for payment of obligations of its customers to the green jobs-green NY\nrevolving loan fund.", 
     "title": "Relates to green jobs-green New York on-bill recovery charges", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 02:25:53", 
+    "updated_at": "2012-10-16 18:08:23", 
     "versions": [
+        {
+            "doc_id": "NYD00091143", 
+            "mimetype": "text/html", 
+            "name": "A7006", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7006"
+        }, 
         {
             "doc_id": "NYD00042974", 
             "mimetype": "text/html", 

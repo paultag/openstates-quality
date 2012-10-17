@@ -11,25 +11,46 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-01-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 2324", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:58", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104889", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2324&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009619", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=612"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2324&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2324&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2324-2011"
@@ -48,6 +72,7 @@
         {
             "leg_id": "NYL000173", 
             "name": "Pretlow", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,17 +80,24 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Relates to the brownfield redevelopment tax credit; provides that in the event\nthat the qualified site is owned by, or was acquired by a taxpayer from, a\nmunicipality and such municipality is a volunteer under the brownfield site\nclean-up agreement with respect to such qualified site, then the amount of the\ncredit shall be reduced; defines \"infrastructure work\"; makes related\namendments.", 
     "title": "Relates to the brownfield redevelopment tax credit", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-17 01:11:39", 
+    "updated_at": "2012-10-16 18:11:56", 
     "versions": [
         {
-            "doc_id": "NYD00001636", 
+            "doc_id": "NYD00104887", 
             "mimetype": "text/html", 
             "name": "A2324", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A2324-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2324"
+        }, 
+        {
+            "doc_id": "NYD00104888", 
+            "mimetype": "text/html", 
+            "name": "A2324", 
+            "url": "http://open.nysenate.gov/legislation/bill/A2324-2011"
         }
     ], 
     "votes": []

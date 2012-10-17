@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-04 00:00:00", 
-        "last": "2012-05-22 00:00:00", 
+        "last": "2012-09-04 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,22 +11,52 @@
             "action": "referred to small business", 
             "actor": "lower", 
             "date": "2011-02-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000071", 
+                    "name": "small business", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to small business", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000071", 
+                    "name": "small business", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "enacting clause stricken", 
+            "actor": "lower", 
+            "date": "2012-09-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,9 +65,16 @@
     "alternate_titles": [], 
     "bill_id": "A 4679", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:08", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00093331", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4679&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012095", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,7 +83,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=786"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4679&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4679&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4679-2011"
@@ -56,7 +96,14 @@
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000198", 
+            "name": "Stevenson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -64,12 +111,19 @@
         "Budget, Spending, and Taxes", 
         "Legislative Affairs"
     ], 
+    "summary": "Directs the division for small-business to examine and report on the\nestablishment of new financial products for the benefit of small businesses in\nemerging domestic markets.", 
     "title": "Directs division for small-business to examine the establishment of new financial products for the benefit of small businesses in emerging domestic markets", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-15 01:11:50", 
+    "updated_at": "2012-10-16 18:08:57", 
     "versions": [
+        {
+            "doc_id": "NYD00093330", 
+            "mimetype": "text/html", 
+            "name": "A4679", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4679"
+        }, 
         {
             "doc_id": "NYD00028419", 
             "mimetype": "text/html", 

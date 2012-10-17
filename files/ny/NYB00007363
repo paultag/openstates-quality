@@ -14,33 +14,68 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in housing", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 157", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 339", 
+            "chamber": null, 
+            "internal_id": "NYB00000331", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:49", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00083024", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A157&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007363", 
     "level": "state", 
     "scraped_subjects": [
@@ -49,7 +84,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=522"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A157&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A157&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A157-2011"
@@ -59,6 +97,7 @@
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -66,12 +105,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Imposes additional requirements with respect to the duty of a landlord to\nprovide tenants with a written receipt for rent paid and directs the office of\ncourt administration to embark upon a campaign to inform tenants of their right\nto the same; authorizes the court to impose a twenty-five dollar rent reduction\nfor each failure to comply with this section.", 
     "title": "Imposes additional requirements with respect to the duty of a landlord to provide tenants with a written receipt for rent paid", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:29", 
+    "updated_at": "2012-10-16 18:06:09", 
     "versions": [
+        {
+            "doc_id": "NYD00083023", 
+            "mimetype": "text/html", 
+            "name": "A157", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A157"
+        }, 
         {
             "doc_id": "NYD00028187", 
             "mimetype": "text/html", 

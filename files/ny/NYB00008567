@@ -11,25 +11,53 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1303", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2506", 
+            "chamber": null, 
+            "internal_id": "NYB00002592", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:53", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00085085", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1303&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008567", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=517"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1303&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1303&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1303-2011"
@@ -48,24 +79,122 @@
         {
             "leg_id": "NYL000118", 
             "name": "Hawley", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000134", 
+            "name": "Kolb", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000205", 
+            "name": "Tobacco", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000150", 
+            "name": "McKevitt", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000168", 
+            "name": "Palmesano", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000085", 
+            "name": "Castelli", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000160", 
+            "name": "Montesano", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000068", 
+            "name": "Barclay", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000090", 
+            "name": "Conte", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000092", 
+            "name": "Corwin", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000129", 
+            "name": "Jordan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000174", 
+            "name": "Ra", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000189", 
+            "name": "Sayward", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000201", 
+            "name": "Tenney", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Creates a veteran's home and land ownership loan program to provide loans to\nveterans to purchase homes or unimproved land suitable for building; such loans\nto be secured by a second mortgage.", 
     "title": "Creates a veteran's home and land ownership loan program", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-14 01:02:51", 
+    "updated_at": "2012-10-16 18:06:48", 
     "versions": [
         {
-            "doc_id": "NYD00000372", 
+            "doc_id": "NYD00085083", 
             "mimetype": "text/html", 
             "name": "A1303", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1303-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1303"
+        }, 
+        {
+            "doc_id": "NYD00085084", 
+            "mimetype": "text/html", 
+            "name": "A1303", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1303-2011"
         }
     ], 
     "votes": []

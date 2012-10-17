@@ -12,27 +12,53 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 76", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1854", 
+            "chamber": null, 
+            "internal_id": "NYB00001915", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:48", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104582", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A76&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007274", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=526"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A76&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A76&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A76-2011"
@@ -51,7 +80,7 @@
         {
             "leg_id": "NYL000169", 
             "name": "Paulin", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +88,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Regulates the treatment and display of elephants; requires persons who bring\nelephants into the state as part of a traveling exhibition to file an itinerary\nof the elephant's stay in the state with the department of agriculture and\nmarkets at least thirty days before the elephant arrives in the state;\nauthorizes the imposition of up to a $1,000 civil penalty for failure to file\nsuch itinerary; establishes requirements for the transportation of elephants;\nrequires elephants to be untethered at least one hour a day; prohibits use of\ncertain equipment upon elephants; prohibits riding elephants, except in certain\ncases; makes such violations class E felonies; authorizes agents of the\ndepartment of agriculture and markets to inspect living conditions of\nelephants; makes cruelty to an elephant a class D felony.", 
     "title": "Regulates the treatment and display of elephants", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-19 02:11:00", 
+    "updated_at": "2012-10-16 18:11:53", 
     "versions": [
+        {
+            "doc_id": "NYD00104581", 
+            "mimetype": "text/html", 
+            "name": "A76", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A76"
+        }, 
         {
             "doc_id": "NYD00044352", 
             "mimetype": "text/html", 

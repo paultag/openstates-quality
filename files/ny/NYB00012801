@@ -14,49 +14,96 @@
             "action": "referred to correction", 
             "actor": "lower", 
             "date": "2011-02-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000049", 
+                    "name": "correction", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-03-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to correction", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000049", 
+                    "name": "correction", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to correction", 
             "actor": "lower", 
             "date": "2012-01-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000049", 
+                    "name": "correction", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5355"
+            ], 
             "action": "print number 5355a", 
             "actor": "lower", 
             "date": "2012-01-20 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5355", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 107", 
+            "chamber": null, 
+            "internal_id": "NYB00000089", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:11", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091207", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5355&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012801", 
     "level": "state", 
     "scraped_subjects": [
@@ -65,29 +112,67 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=797"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5355&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A5355-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5355&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5355A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A5355A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000067", 
             "name": "Aubry", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000064", 
+            "name": "Abinanti", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Provides inmates the opportunity to obtain a general equivalency diploma;\ninstructs the department of corrections to ensure that academic education\nprograms provide the appropriate curriculum and certified academic staff for\nGED instruction.", 
     "title": "Provides inmates the opportunity to obtain a general equivalency diploma", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:40", 
+    "updated_at": "2012-10-16 18:08:24", 
     "versions": [
+        {
+            "doc_id": "NYD00091206", 
+            "mimetype": "text/html", 
+            "name": "A5355", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5355"
+        }, 
         {
             "doc_id": "NYD00028457", 
             "mimetype": "text/html", 

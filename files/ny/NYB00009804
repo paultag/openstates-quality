@@ -12,18 +12,30 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -33,7 +45,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:59", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00105231", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2492&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009804", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=671"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2492&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2492&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2492-2011"
@@ -52,7 +73,7 @@
         {
             "leg_id": "NYL000154", 
             "name": "Meng", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -60,12 +81,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Establishes a priority senior housing waiting list and website through the\noffice of the New York city housing authority for use by adults sixty-five\nyears of age and older.", 
     "title": "Establishes a priority senior housing waiting list and website through the office of the New York city housing authority for use by adults sixty-five years of age and older", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 19:58:13", 
+    "updated_at": "2012-10-16 18:12:01", 
     "versions": [
+        {
+            "doc_id": "NYD00105230", 
+            "mimetype": "text/html", 
+            "name": "A2492", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2492"
+        }, 
         {
             "doc_id": "NYD00043577", 
             "mimetype": "text/html", 

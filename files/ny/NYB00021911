@@ -14,8 +14,14 @@
             "action": "REFERRED TO JUDICIARY", 
             "actor": "upper", 
             "date": "2012-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000025", 
+                    "name": "JUDICIARY", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,7 @@
             "action": "TO ATTORNEY-GENERAL FOR OPINION", 
             "actor": "upper", 
             "date": "2012-02-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -31,9 +38,23 @@
     "alternate_titles": [], 
     "bill_id": "S 6364", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 7907", 
+            "chamber": null, 
+            "internal_id": "NYB00016823", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-02-02 06:23:00", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00062183", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6364-2011"
+        }
+    ], 
     "id": "NYB00021911", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +63,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=420"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6364&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6364&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S6364-2011"
@@ -52,6 +76,7 @@
         {
             "leg_id": "NYL000033", 
             "name": "LIBOUS", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +84,19 @@
     "subjects": [
         "Government Reform"
     ], 
+    "summary": "Relates to authorization of debt in times of public emergency; relates to a\nlimit on state funded debt and refunding of state debts.", 
     "title": "Relates to authorization of debt in times of public emergency; and a limit on state funded debt and refunding of state debts", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-31 01:08:36", 
+    "updated_at": "2012-10-16 18:02:15", 
     "versions": [
+        {
+            "doc_id": "NYD00062182", 
+            "mimetype": "text/html", 
+            "name": "S6364", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6364"
+        }, 
         {
             "doc_id": "NYD00033514", 
             "mimetype": "text/html", 

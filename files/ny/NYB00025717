@@ -11,17 +11,38 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-04-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 9968", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 6820", 
+            "chamber": null, 
+            "internal_id": "NYB00025322", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-05-19 01:04:29", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00082604", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9968&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00025717", 
     "level": "state", 
     "scraped_subjects": [
@@ -30,7 +51,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1071"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9968&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9968&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9968-2011"
@@ -40,6 +64,7 @@
         {
             "leg_id": "NYL000110", 
             "name": "Gibson", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -47,17 +72,24 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Requires the amount of each federal, state or local tax or fee included in the\nprice of a gallon of fuel to be posted upon the dispensing device.", 
     "title": "Requires the amount of each federal, state or local tax or fee included in the price of a gallon of fuel to be posted upon the dispensing device", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-19 01:04:29", 
+    "updated_at": "2012-10-16 18:06:05", 
     "versions": [
         {
-            "doc_id": "NYD00025717", 
+            "doc_id": "NYD00082602", 
             "mimetype": "text/html", 
             "name": "A9968", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A9968-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9968"
+        }, 
+        {
+            "doc_id": "NYD00082603", 
+            "mimetype": "text/html", 
+            "name": "A9968", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9968-2011"
         }
     ], 
     "votes": []

@@ -11,25 +11,53 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1773", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 450", 
+            "chamber": null, 
+            "internal_id": "NYB00000444", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00095510", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1773&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009053", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=515"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1773&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1773&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1773-2011"
@@ -48,24 +79,68 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000088", 
+            "name": "Clark", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000097", 
+            "name": "Cymbrowitz", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000180", 
+            "name": "Rivera J", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Authorizes localities to establish administrative proceedings for the\nenforcement of state and local housing maintenance codes; permits\nadministratively imposed penalties to be dockets and enforced in the same\nmanner as a judgement in a civil action without further judicial proceedings.", 
     "title": "Authorizes administrative enforcement of state and local housing maintenance laws", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-01 00:47:51", 
+    "updated_at": "2012-10-16 18:09:22", 
     "versions": [
         {
-            "doc_id": "NYD00000956", 
+            "doc_id": "NYD00095508", 
             "mimetype": "text/html", 
             "name": "A1773", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1773-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1773"
+        }, 
+        {
+            "doc_id": "NYD00095509", 
+            "mimetype": "text/html", 
+            "name": "A1773", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1773-2011"
         }
     ], 
     "votes": []

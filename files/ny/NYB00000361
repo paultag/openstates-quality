@@ -12,7 +12,13 @@
             "action": "REFERRED TO CHILDREN AND FAMILIES", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000005", 
+                    "name": "CHILDREN AND FAMILIES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -21,7 +27,13 @@
             "action": "REFERRED TO CHILDREN AND FAMILIES", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000005", 
+                    "name": "CHILDREN AND FAMILIES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -39,7 +51,13 @@
             "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2012-03-12 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -51,7 +69,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:16", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00065106", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S368-2011"
+        }
+    ], 
     "id": "NYB00000361", 
     "level": "state", 
     "scraped_subjects": [
@@ -60,7 +84,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=22"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S368&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S368&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S368-2011"
@@ -70,7 +97,7 @@
         {
             "leg_id": "NYL000039", 
             "name": "MONTGOMERY", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -78,12 +105,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Relates to school placement for homeless children.", 
     "title": "Relates to school placement for homeless children", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:19", 
+    "updated_at": "2012-10-16 18:03:01", 
     "versions": [
+        {
+            "doc_id": "NYD00065105", 
+            "mimetype": "text/html", 
+            "name": "S368", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S368"
+        }, 
         {
             "doc_id": "NYD00041405", 
             "mimetype": "text/html", 

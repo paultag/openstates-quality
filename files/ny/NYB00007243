@@ -12,36 +12,68 @@
             "action": "referred to codes", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to codes", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in codes", 
             "actor": "lower", 
             "date": "2012-06-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 49", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 953", 
+            "chamber": null, 
+            "internal_id": "NYB00000981", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:48", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00100529", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A49&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007243", 
     "level": "state", 
     "scraped_subjects": [
@@ -50,7 +82,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=523"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A49&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A49&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A49-2011"
@@ -60,31 +95,31 @@
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000137", 
+            "name": "Lavine", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000108", 
             "name": "Galef", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
-            "leg_id": null, 
+            "leg_id": "NYL000220", 
             "name": "Mayersohn", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000137", 
-            "name": "Lavine", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -92,12 +127,19 @@
     "subjects": [
         "Crime"
     ], 
+    "summary": "Establishes the crime of criminal sale of an internet domain name to a\nterrorist group or organization listed by the office of homeland security as\nposing a terrorist threat, a class A misdemeanor.", 
     "title": "Establishes the crime of criminal sale of an internet domain name to a terrorist group, a class A misdemeanor", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-28 02:49:58", 
+    "updated_at": "2012-10-16 18:10:39", 
     "versions": [
+        {
+            "doc_id": "NYD00100528", 
+            "mimetype": "text/html", 
+            "name": "A49", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A49"
+        }, 
         {
             "doc_id": "NYD00031890", 
             "mimetype": "text/html", 

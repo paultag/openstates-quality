@@ -14,7 +14,13 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-06-12 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -23,13 +29,22 @@
             "action": "amend and recommit to judiciary", 
             "actor": "lower", 
             "date": "2012-06-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "10657"
+            ], 
             "action": "print number 10657a", 
             "actor": "lower", 
             "date": "2012-06-19 00:00:00", 
@@ -42,13 +57,19 @@
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2012-06-21 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2012-06-21 00:00:00", 
             "related_entities": [], 
@@ -66,6 +87,9 @@
             ]
         }, 
         {
+            "+bill_id": [
+                "s7641"
+            ], 
             "action": "substituted by s7641b", 
             "actor": "lower", 
             "date": "2012-06-21 00:00:00", 
@@ -78,14 +102,21 @@
     "alternate_titles": [], 
     "bill_id": "A 10657", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 7641", 
+            "chamber": null, 
+            "internal_id": "NYB00027693", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-06-17 01:12:38", 
     "documents": [
         {
-            "doc_id": "NYD00046761", 
+            "doc_id": "NYD00106591", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10657&term=&Memo=Y"
         }
     ], 
     "id": "NYB00027205", 
@@ -96,30 +127,56 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1181"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10657&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A10657-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10657&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10657A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A10657A-2011"
         }
     ], 
     "sponsors": [
         {
+            "chamber": "lower", 
+            "committee_id": "NYC000070", 
             "leg_id": null, 
-            "name": "RULES COM Weinstein", 
-            "official_type": "primary", 
+            "name": "Rules Committee", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000206", 
+            "name": "Weinstein", 
+            "official_type": "SPONSOR", 
+            "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000203", 
+            "name": "Titone", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Civil Liberties and Civil Rights"
     ], 
+    "summary": "Enacts the \"uniform notice of claim act\"; establishes a uniform process and\nrequirement for the filing of notices of claim prior to the commencement of a\ncause of action against any state or municipal entity, public authority or\npublic benefit corporation.", 
     "title": "Enacts the \"uniform notice of claim act\"", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:39", 
+    "updated_at": "2012-10-16 18:12:15", 
     "versions": [
+        {
+            "doc_id": "NYD00106590", 
+            "mimetype": "text/html", 
+            "name": "A10657", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10657"
+        }, 
         {
             "doc_id": "NYD00041031", 
             "mimetype": "text/html", 

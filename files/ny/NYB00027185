@@ -12,27 +12,53 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-05-03 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2012-06-12 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 10101", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 7114", 
+            "chamber": null, 
+            "internal_id": "NYB00026184", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-06-17 01:12:38", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00084813", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10101&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00027185", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1146"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10101&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10101&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A10101-2011"
@@ -51,7 +80,7 @@
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +88,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Establishes provisions to combat the incidence of adult and childhood obesity;\nprovides for direct marketing of fresh vegetables and fruits in areas with a\nhigh incidence of adult and child obesity; directs Cornell cooperative\nextension program to offer obesity and respiratory disease prevention programs.", 
     "title": "Establishes provisions to combat the incidence of adult and childhood obesity", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-28 02:50:08", 
+    "updated_at": "2012-10-16 18:06:38", 
     "versions": [
+        {
+            "doc_id": "NYD00084812", 
+            "mimetype": "text/html", 
+            "name": "A10101", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10101"
+        }, 
         {
             "doc_id": "NYD00041003", 
             "mimetype": "text/html", 

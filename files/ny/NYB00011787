@@ -11,41 +11,81 @@
             "action": "referred to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2011-02-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2011-11-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4379"
+            ], 
             "action": "print number 4379a", 
             "actor": "lower", 
             "date": "2011-11-02 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "referred to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4379", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 6046", 
+            "chamber": null, 
+            "internal_id": "NYB00020046", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:07", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00090323", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4379&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011787", 
     "level": "state", 
     "scraped_subjects": [
@@ -54,16 +94,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=703"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4379&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A4379-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4379&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4379A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A4379A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000173", 
             "name": "Pretlow", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -71,17 +118,30 @@
     "subjects": [
         "Legal Issues"
     ], 
-    "title": "Enacts the omnibus telecommunications reform act of 2011", 
+    "summary": "Enacts the \"omnibus telecommunications reform act of 2012\".", 
+    "title": "Enacts the omnibus telecommunications reform act of 2012", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-27 01:08:47", 
+    "updated_at": "2012-10-16 18:08:08", 
     "versions": [
         {
-            "doc_id": "NYD00004243", 
+            "doc_id": "NYD00090320", 
             "mimetype": "text/html", 
             "name": "A4379", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4379-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4379"
+        }, 
+        {
+            "doc_id": "NYD00090321", 
+            "mimetype": "text/html", 
+            "name": "A4379", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4379-2011"
+        }, 
+        {
+            "doc_id": "NYD00090322", 
+            "mimetype": "text/html", 
+            "name": "A4379A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4379A-2011"
         }
     ], 
     "votes": []

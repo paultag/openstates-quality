@@ -14,7 +14,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-03-16 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -23,7 +29,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -32,13 +44,22 @@
             "action": "amend and recommit to housing", 
             "actor": "lower", 
             "date": "2012-01-31 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6394"
+            ], 
             "action": "print number 6394a", 
             "actor": "lower", 
             "date": "2012-01-31 00:00:00", 
@@ -51,13 +72,22 @@
             "action": "amend and recommit to housing", 
             "actor": "lower", 
             "date": "2012-04-12 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6394"
+            ], 
             "action": "print number 6394b", 
             "actor": "lower", 
             "date": "2012-04-12 00:00:00", 
@@ -67,7 +97,7 @@
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2012-04-18 00:00:00", 
             "related_entities": [], 
@@ -89,6 +119,9 @@
             "actor": "lower", 
             "date": "2012-06-13 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NYV00002992"
+            ], 
             "type": [
                 "bill:passed"
             ]
@@ -106,7 +139,13 @@
             "action": "REFERRED TO RULES", 
             "actor": "upper", 
             "date": "2012-06-13 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -115,14 +154,21 @@
     "alternate_titles": [], 
     "bill_id": "A 6394", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 741", 
+            "chamber": null, 
+            "internal_id": "NYB00000758", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:16", 
     "documents": [
         {
-            "doc_id": "NYD00048690", 
+            "doc_id": "NYD00090526", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6394&term=&Memo=Y"
         }
     ], 
     "id": "NYB00013896", 
@@ -133,23 +179,53 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=907"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6394&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A6394-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6394&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6394B&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A6394B-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000086", 
+            "name": "Castro", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -157,12 +233,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Relates to the appointment and qualifications of members of rent boards.", 
     "title": "Relates to the appointment and qualifications of members of rent boards", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-26 10:06:05", 
+    "updated_at": "2012-10-16 18:08:16", 
     "versions": [
+        {
+            "doc_id": "NYD00090525", 
+            "mimetype": "text/html", 
+            "name": "A6394", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6394"
+        }, 
         {
             "doc_id": "NYD00037463", 
             "mimetype": "text/html", 
@@ -184,6 +267,18 @@
     ], 
     "votes": [
         {
+            "+actual_vote": {
+                "ER": [
+                    "Kellner", 
+                    "Meng", 
+                    "Conte", 
+                    "Lancman", 
+                    "Titone", 
+                    "Titus", 
+                    "Burling", 
+                    "Jeffrie"
+                ]
+            }, 
             "bill_id": "NYB00013896", 
             "chamber": "lower", 
             "date": "2012-06-13 00:00:00", 
@@ -200,11 +295,11 @@
                     "name": "Jordan"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000151", 
                     "name": "McDonou"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000085", 
                     "name": "Castell"
                 }, 
                 {
@@ -220,7 +315,7 @@
                     "name": "Amedore"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000150", 
                     "name": "McKevit"
                 }, 
                 {
@@ -236,7 +331,7 @@
                     "name": "Ceretto"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000153", 
                     "name": "McLaugh"
                 }, 
                 {
@@ -256,7 +351,7 @@
                     "name": "Kolb"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000155", 
                     "name": "Mill D"
                 }, 
                 {
@@ -268,7 +363,7 @@
                     "name": "Tedisco"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000156", 
                     "name": "Mill JM"
                 }, 
                 {
@@ -284,11 +379,11 @@
                     "name": "Goodell"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000072", 
                     "name": "Blanken"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000160", 
                     "name": "Montesa"
                 }, 
                 {
@@ -320,7 +415,7 @@
                     "name": "Hanna"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000141", 
                     "name": "Lope PD"
                 }, 
                 {
@@ -332,7 +427,7 @@
                     "name": "Hawley"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000143", 
                     "name": "Losquad"
                 }, 
                 {
@@ -344,11 +439,11 @@
                     "name": "Duprey"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000188", 
                     "name": "Saladin"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000168", 
                     "name": "Palmesa"
                 }, 
                 {
@@ -368,11 +463,11 @@
                     "name": "Finch"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000192", 
                     "name": "Schimmi"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000105", 
                     "name": "Fitzpat"
                 }, 
                 {
@@ -411,7 +506,7 @@
                     "name": "Burling"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000127", 
                     "name": "Jeffrie"
                 }
             ], 
@@ -428,7 +523,7 @@
                     "name": "Abbate"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000084", 
                     "name": "Canestr"
                 }, 
                 {
@@ -444,7 +539,7 @@
                     "name": "Abinant"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000107", 
                     "name": "Gabrysz"
                 }, 
                 {
@@ -452,7 +547,7 @@
                     "name": "McEneny"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000221", 
                     "name": "Skartad"
                 }, 
                 {
@@ -464,7 +559,7 @@
                     "name": "Galef"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000131", 
                     "name": "Kavanag"
                 }, 
                 {
@@ -480,7 +575,7 @@
                     "name": "Kearns"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000198", 
                     "name": "Stevens"
                 }, 
                 {
@@ -528,7 +623,7 @@
                     "name": "Cook"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000214", 
                     "name": "Goldfed"
                 }, 
                 {
@@ -536,11 +631,11 @@
                     "name": "Latimer"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000157", 
                     "name": "Mill MG"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000180", 
                     "name": "Rive J"
                 }, 
                 {
@@ -548,7 +643,7 @@
                     "name": "Thiele"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000070", 
                     "name": "Benedet"
                 }, 
                 {
@@ -560,7 +655,7 @@
                     "name": "Millman"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000181", 
                     "name": "Rive N"
                 }, 
                 {
@@ -568,7 +663,7 @@
                     "name": "Crespo"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000114", 
                     "name": "Gottfri"
                 }, 
                 {
@@ -576,7 +671,7 @@
                     "name": "Lentol"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000182", 
                     "name": "Rive PM"
                 }, 
                 {
@@ -608,11 +703,11 @@
                     "name": "Moya"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000184", 
                     "name": "Robinso"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000075", 
                     "name": "Braunst"
                 }, 
                 {
@@ -620,11 +715,11 @@
                     "name": "Cusick"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000185", 
                     "name": "Rodrigu"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000206", 
                     "name": "Weinste"
                 }, 
                 {
@@ -632,11 +727,11 @@
                     "name": "Brennan"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000097", 
                     "name": "Cymbrow"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000142", 
                     "name": "Lope VJ"
                 }, 
                 {
@@ -644,19 +739,19 @@
                     "name": "Nolan"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000186", 
                     "name": "Rosenth"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000207", 
                     "name": "Weisenb"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000212", 
                     "name": "Brindis"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000098", 
                     "name": "DenDekk"
                 }, 
                 {
@@ -676,7 +771,7 @@
                     "name": "Bronson"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000100", 
                     "name": "Dinowit"
                 }, 
                 {
@@ -688,7 +783,7 @@
                     "name": "Lupardo"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000165", 
                     "name": "O'Donne"
                 }, 
                 {
@@ -700,7 +795,7 @@
                     "name": "Wright"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000078", 
                     "name": "Brook K"
                 }, 
                 {
@@ -716,11 +811,11 @@
                     "name": "Ortiz"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000210", 
                     "name": "Zebrows"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000102", 
                     "name": "Englebr"
                 }, 
                 {
@@ -728,7 +823,7 @@
                     "name": "Hooper"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000146", 
                     "name": "Magnare"
                 }, 
                 {
@@ -752,7 +847,7 @@
                     "name": "Paulin"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000190", 
                     "name": "Scarbor"
                 }, 
                 {
@@ -772,7 +867,7 @@
                     "name": "Malliot"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000170", 
                     "name": "Peoples"
                 }, 
                 {
@@ -800,1251 +895,7 @@
                     "name": "Pretlow"
                 }, 
                 {
-                    "leg_id": null, 
-                    "name": "Simanow"
-                }
-            ]
-        }, 
-        {
-            "bill_id": "NYB00013896", 
-            "chamber": "lower", 
-            "date": "2012-06-13 00:00:00", 
-            "id": "NYV00002993", 
-            "motion": "Floor Vote", 
-            "no_count": 47, 
-            "no_votes": [
-                {
-                    "leg_id": "NYL000106", 
-                    "name": "Friend"
-                }, 
-                {
-                    "leg_id": "NYL000129", 
-                    "name": "Jordan"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "McDonou"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Castell"
-                }, 
-                {
-                    "leg_id": "NYL000130", 
-                    "name": "Katz"
-                }, 
-                {
-                    "leg_id": "NYL000174", 
-                    "name": "Ra"
-                }, 
-                {
-                    "leg_id": "NYL000065", 
-                    "name": "Amedore"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "McKevit"
-                }, 
-                {
-                    "leg_id": "NYL000175", 
-                    "name": "Rabbitt"
-                }, 
-                {
-                    "leg_id": "NYL000196", 
-                    "name": "Smardz"
-                }, 
-                {
-                    "leg_id": "NYL000087", 
-                    "name": "Ceretto"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "McLaugh"
-                }, 
-                {
-                    "leg_id": "NYL000176", 
-                    "name": "Raia"
-                }, 
-                {
-                    "leg_id": "NYL000068", 
-                    "name": "Barclay"
-                }, 
-                {
-                    "leg_id": "NYL000219", 
-                    "name": "Giglio"
-                }, 
-                {
-                    "leg_id": "NYL000134", 
-                    "name": "Kolb"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Mill D"
-                }, 
-                {
-                    "leg_id": "NYL000178", 
-                    "name": "Reilich"
-                }, 
-                {
-                    "leg_id": "NYL000200", 
-                    "name": "Tedisco"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Mill JM"
-                }, 
-                {
-                    "leg_id": "NYL000201", 
-                    "name": "Tenney"
-                }, 
-                {
-                    "leg_id": "NYL000092", 
-                    "name": "Corwin"
-                }, 
-                {
-                    "leg_id": "NYL000113", 
-                    "name": "Goodell"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Blanken"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Montesa"
-                }, 
-                {
-                    "leg_id": "NYL000094", 
-                    "name": "Crouch"
-                }, 
-                {
-                    "leg_id": "NYL000115", 
-                    "name": "Graf"
-                }, 
-                {
-                    "leg_id": "NYL000205", 
-                    "name": "Tobacco"
-                }, 
-                {
-                    "leg_id": "NYL000074", 
-                    "name": "Boyle"
-                }, 
-                {
-                    "leg_id": "NYL000095", 
-                    "name": "Curran"
-                }, 
-                {
-                    "leg_id": "NYL000217", 
-                    "name": "Walter"
-                }, 
-                {
-                    "leg_id": "NYL000117", 
-                    "name": "Hanna"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Lope PD"
-                }, 
-                {
-                    "leg_id": "NYL000163", 
-                    "name": "Murray"
-                }, 
-                {
-                    "leg_id": "NYL000118", 
-                    "name": "Hawley"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Losquad"
-                }, 
-                {
-                    "leg_id": "NYL000166", 
-                    "name": "Oaks"
-                }, 
-                {
-                    "leg_id": "NYL000101", 
-                    "name": "Duprey"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Saladin"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Palmesa"
-                }, 
-                {
-                    "leg_id": "NYL000189", 
-                    "name": "Sayward"
-                }, 
-                {
-                    "leg_id": "NYL000080", 
-                    "name": "Butler"
-                }, 
-                {
-                    "leg_id": "NYL000082", 
-                    "name": "Calhoun"
-                }, 
-                {
-                    "leg_id": "NYL000104", 
-                    "name": "Finch"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Schimmi"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Fitzpat"
-                }, 
-                {
-                    "leg_id": "NYL000128", 
-                    "name": "Johns"
-                }
-            ], 
-            "other_count": 8, 
-            "other_votes": [
-                {
-                    "leg_id": "NYL000132", 
-                    "name": "Kellner"
-                }, 
-                {
-                    "leg_id": "NYL000154", 
-                    "name": "Meng"
-                }, 
-                {
-                    "leg_id": "NYL000090", 
-                    "name": "Conte"
-                }, 
-                {
-                    "leg_id": "NYL000135", 
-                    "name": "Lancman"
-                }, 
-                {
-                    "leg_id": "NYL000203", 
-                    "name": "Titone"
-                }, 
-                {
-                    "leg_id": "NYL000204", 
-                    "name": "Titus"
-                }, 
-                {
-                    "leg_id": "NYL000079", 
-                    "name": "Burling"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Jeffrie"
-                }
-            ], 
-            "passed": true, 
-            "session": "2011-2012", 
-            "sources": [], 
-            "state": "ny", 
-            "type": "other", 
-            "vote_id": "NYV00002993", 
-            "yes_count": 95, 
-            "yes_votes": [
-                {
-                    "leg_id": "NYL000063", 
-                    "name": "Abbate"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Canestr"
-                }, 
-                {
-                    "leg_id": "NYL000216", 
-                    "name": "Quart"
-                }, 
-                {
-                    "leg_id": "NYL000195", 
-                    "name": "Simotas"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Abinant"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Gabrysz"
-                }, 
-                {
-                    "leg_id": "NYL000152", 
-                    "name": "McEneny"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Skartad"
-                }, 
-                {
-                    "leg_id": "NYL000086", 
-                    "name": "Castro"
-                }, 
-                {
-                    "leg_id": "NYL000108", 
-                    "name": "Galef"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Kavanag"
-                }, 
-                {
-                    "leg_id": "NYL000066", 
-                    "name": "Arroyo"
-                }, 
-                {
-                    "leg_id": "NYL000109", 
-                    "name": "Gantt"
-                }, 
-                {
-                    "leg_id": "NYL000222", 
-                    "name": "Kearns"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Stevens"
-                }, 
-                {
-                    "leg_id": "NYL000067", 
-                    "name": "Aubry"
-                }, 
-                {
-                    "leg_id": "NYL000088", 
-                    "name": "Clark"
-                }, 
-                {
-                    "leg_id": "NYL000110", 
-                    "name": "Gibson"
-                }, 
-                {
-                    "leg_id": "NYL000177", 
-                    "name": "Ramos"
-                }, 
-                {
-                    "leg_id": "NYL000199", 
-                    "name": "Sweeney"
-                }, 
-                {
-                    "leg_id": "NYL000089", 
-                    "name": "Colton"
-                }, 
-                {
-                    "leg_id": "NYL000223", 
-                    "name": "Barrett"
-                }, 
-                {
-                    "leg_id": "NYL000112", 
-                    "name": "Glick"
-                }, 
-                {
-                    "leg_id": "NYL000179", 
-                    "name": "Reilly"
-                }, 
-                {
-                    "leg_id": "NYL000069", 
-                    "name": "Barron"
-                }, 
-                {
-                    "leg_id": "NYL000091", 
-                    "name": "Cook"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Goldfed"
-                }, 
-                {
-                    "leg_id": "NYL000136", 
-                    "name": "Latimer"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Mill MG"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Rive J"
-                }, 
-                {
-                    "leg_id": "NYL000202", 
-                    "name": "Thiele"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Benedet"
-                }, 
-                {
-                    "leg_id": "NYL000137", 
-                    "name": "Lavine"
-                }, 
-                {
-                    "leg_id": "NYL000158", 
-                    "name": "Millman"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Rive N"
-                }, 
-                {
-                    "leg_id": "NYL000093", 
-                    "name": "Crespo"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Gottfri"
-                }, 
-                {
-                    "leg_id": "NYL000138", 
-                    "name": "Lentol"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Rive PM"
-                }, 
-                {
-                    "leg_id": "NYL000073", 
-                    "name": "Boyland"
-                }, 
-                {
-                    "leg_id": "NYL000139", 
-                    "name": "Lifton"
-                }, 
-                {
-                    "leg_id": "NYL000161", 
-                    "name": "Morelle"
-                }, 
-                {
-                    "leg_id": "NYL000183", 
-                    "name": "Roberts"
-                }, 
-                {
-                    "leg_id": "NYL000116", 
-                    "name": "Gunther"
-                }, 
-                {
-                    "leg_id": "NYL000140", 
-                    "name": "Linares"
-                }, 
-                {
-                    "leg_id": "NYL000162", 
-                    "name": "Moya"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Robinso"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Braunst"
-                }, 
-                {
-                    "leg_id": "NYL000096", 
-                    "name": "Cusick"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Rodrigu"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Weinste"
-                }, 
-                {
-                    "leg_id": "NYL000076", 
-                    "name": "Brennan"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Cymbrow"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Lope VJ"
-                }, 
-                {
-                    "leg_id": "NYL000164", 
-                    "name": "Nolan"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Rosenth"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Weisenb"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Brindis"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "DenDekk"
-                }, 
-                {
-                    "leg_id": "NYL000120", 
-                    "name": "Heastie"
-                }, 
-                {
-                    "leg_id": "NYL000187", 
-                    "name": "Russell"
-                }, 
-                {
-                    "leg_id": "NYL000208", 
-                    "name": "Weprin"
-                }, 
-                {
-                    "leg_id": "NYL000077", 
-                    "name": "Bronson"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Dinowit"
-                }, 
-                {
-                    "leg_id": "NYL000121", 
-                    "name": "Hevesi"
-                }, 
-                {
-                    "leg_id": "NYL000144", 
-                    "name": "Lupardo"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "O'Donne"
-                }, 
-                {
-                    "leg_id": "NYL000218", 
-                    "name": "Ryan"
-                }, 
-                {
-                    "leg_id": "NYL000209", 
-                    "name": "Wright"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Brook K"
-                }, 
-                {
-                    "leg_id": "NYL000122", 
-                    "name": "Hikind"
-                }, 
-                {
-                    "leg_id": "NYL000145", 
-                    "name": "Magee"
-                }, 
-                {
-                    "leg_id": "NYL000167", 
-                    "name": "Ortiz"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Zebrows"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Englebr"
-                }, 
-                {
-                    "leg_id": "NYL000123", 
-                    "name": "Hooper"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Magnare"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Mr Spkr"
-                }, 
-                {
-                    "leg_id": "NYL000213", 
-                    "name": "Espinal"
-                }, 
-                {
-                    "leg_id": "NYL000125", 
-                    "name": "Jacobs"
-                }, 
-                {
-                    "leg_id": "NYL000147", 
-                    "name": "Maisel"
-                }, 
-                {
-                    "leg_id": "NYL000169", 
-                    "name": "Paulin"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Scarbor"
-                }, 
-                {
-                    "leg_id": "NYL000081", 
-                    "name": "Cahill"
-                }, 
-                {
-                    "leg_id": "NYL000103", 
-                    "name": "Farrell"
-                }, 
-                {
-                    "leg_id": "NYL000126", 
-                    "name": "Jaffee"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Malliot"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Peoples"
-                }, 
-                {
-                    "leg_id": "NYL000191", 
-                    "name": "Schimel"
-                }, 
-                {
-                    "leg_id": "NYL000149", 
-                    "name": "Markey"
-                }, 
-                {
-                    "leg_id": "NYL000171", 
-                    "name": "Perry"
-                }, 
-                {
-                    "leg_id": "NYL000083", 
-                    "name": "Camara"
-                }, 
-                {
-                    "leg_id": "NYL000220", 
-                    "name": "Mayer"
-                }, 
-                {
-                    "leg_id": "NYL000173", 
-                    "name": "Pretlow"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Simanow"
-                }
-            ]
-        }, 
-        {
-            "bill_id": "NYB00013896", 
-            "chamber": "lower", 
-            "date": "2012-06-13 00:00:00", 
-            "id": "NYV00002994", 
-            "motion": "Floor Vote", 
-            "no_count": 47, 
-            "no_votes": [
-                {
-                    "leg_id": "NYL000106", 
-                    "name": "Friend"
-                }, 
-                {
-                    "leg_id": "NYL000129", 
-                    "name": "Jordan"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "McDonou"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Castell"
-                }, 
-                {
-                    "leg_id": "NYL000130", 
-                    "name": "Katz"
-                }, 
-                {
-                    "leg_id": "NYL000174", 
-                    "name": "Ra"
-                }, 
-                {
-                    "leg_id": "NYL000065", 
-                    "name": "Amedore"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "McKevit"
-                }, 
-                {
-                    "leg_id": "NYL000175", 
-                    "name": "Rabbitt"
-                }, 
-                {
-                    "leg_id": "NYL000196", 
-                    "name": "Smardz"
-                }, 
-                {
-                    "leg_id": "NYL000087", 
-                    "name": "Ceretto"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "McLaugh"
-                }, 
-                {
-                    "leg_id": "NYL000176", 
-                    "name": "Raia"
-                }, 
-                {
-                    "leg_id": "NYL000068", 
-                    "name": "Barclay"
-                }, 
-                {
-                    "leg_id": "NYL000219", 
-                    "name": "Giglio"
-                }, 
-                {
-                    "leg_id": "NYL000134", 
-                    "name": "Kolb"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Mill D"
-                }, 
-                {
-                    "leg_id": "NYL000178", 
-                    "name": "Reilich"
-                }, 
-                {
-                    "leg_id": "NYL000200", 
-                    "name": "Tedisco"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Mill JM"
-                }, 
-                {
-                    "leg_id": "NYL000201", 
-                    "name": "Tenney"
-                }, 
-                {
-                    "leg_id": "NYL000092", 
-                    "name": "Corwin"
-                }, 
-                {
-                    "leg_id": "NYL000113", 
-                    "name": "Goodell"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Blanken"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Montesa"
-                }, 
-                {
-                    "leg_id": "NYL000094", 
-                    "name": "Crouch"
-                }, 
-                {
-                    "leg_id": "NYL000115", 
-                    "name": "Graf"
-                }, 
-                {
-                    "leg_id": "NYL000205", 
-                    "name": "Tobacco"
-                }, 
-                {
-                    "leg_id": "NYL000074", 
-                    "name": "Boyle"
-                }, 
-                {
-                    "leg_id": "NYL000095", 
-                    "name": "Curran"
-                }, 
-                {
-                    "leg_id": "NYL000217", 
-                    "name": "Walter"
-                }, 
-                {
-                    "leg_id": "NYL000117", 
-                    "name": "Hanna"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Lope PD"
-                }, 
-                {
-                    "leg_id": "NYL000163", 
-                    "name": "Murray"
-                }, 
-                {
-                    "leg_id": "NYL000118", 
-                    "name": "Hawley"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Losquad"
-                }, 
-                {
-                    "leg_id": "NYL000166", 
-                    "name": "Oaks"
-                }, 
-                {
-                    "leg_id": "NYL000101", 
-                    "name": "Duprey"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Saladin"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Palmesa"
-                }, 
-                {
-                    "leg_id": "NYL000189", 
-                    "name": "Sayward"
-                }, 
-                {
-                    "leg_id": "NYL000080", 
-                    "name": "Butler"
-                }, 
-                {
-                    "leg_id": "NYL000082", 
-                    "name": "Calhoun"
-                }, 
-                {
-                    "leg_id": "NYL000104", 
-                    "name": "Finch"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Schimmi"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Fitzpat"
-                }, 
-                {
-                    "leg_id": "NYL000128", 
-                    "name": "Johns"
-                }
-            ], 
-            "other_count": 8, 
-            "other_votes": [
-                {
-                    "leg_id": "NYL000132", 
-                    "name": "Kellner"
-                }, 
-                {
-                    "leg_id": "NYL000154", 
-                    "name": "Meng"
-                }, 
-                {
-                    "leg_id": "NYL000090", 
-                    "name": "Conte"
-                }, 
-                {
-                    "leg_id": "NYL000135", 
-                    "name": "Lancman"
-                }, 
-                {
-                    "leg_id": "NYL000203", 
-                    "name": "Titone"
-                }, 
-                {
-                    "leg_id": "NYL000204", 
-                    "name": "Titus"
-                }, 
-                {
-                    "leg_id": "NYL000079", 
-                    "name": "Burling"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Jeffrie"
-                }
-            ], 
-            "passed": true, 
-            "session": "2011-2012", 
-            "sources": [], 
-            "state": "ny", 
-            "type": "other", 
-            "vote_id": "NYV00002994", 
-            "yes_count": 95, 
-            "yes_votes": [
-                {
-                    "leg_id": "NYL000063", 
-                    "name": "Abbate"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Canestr"
-                }, 
-                {
-                    "leg_id": "NYL000216", 
-                    "name": "Quart"
-                }, 
-                {
-                    "leg_id": "NYL000195", 
-                    "name": "Simotas"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Abinant"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Gabrysz"
-                }, 
-                {
-                    "leg_id": "NYL000152", 
-                    "name": "McEneny"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Skartad"
-                }, 
-                {
-                    "leg_id": "NYL000086", 
-                    "name": "Castro"
-                }, 
-                {
-                    "leg_id": "NYL000108", 
-                    "name": "Galef"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Kavanag"
-                }, 
-                {
-                    "leg_id": "NYL000066", 
-                    "name": "Arroyo"
-                }, 
-                {
-                    "leg_id": "NYL000109", 
-                    "name": "Gantt"
-                }, 
-                {
-                    "leg_id": "NYL000222", 
-                    "name": "Kearns"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Stevens"
-                }, 
-                {
-                    "leg_id": "NYL000067", 
-                    "name": "Aubry"
-                }, 
-                {
-                    "leg_id": "NYL000088", 
-                    "name": "Clark"
-                }, 
-                {
-                    "leg_id": "NYL000110", 
-                    "name": "Gibson"
-                }, 
-                {
-                    "leg_id": "NYL000177", 
-                    "name": "Ramos"
-                }, 
-                {
-                    "leg_id": "NYL000199", 
-                    "name": "Sweeney"
-                }, 
-                {
-                    "leg_id": "NYL000089", 
-                    "name": "Colton"
-                }, 
-                {
-                    "leg_id": "NYL000223", 
-                    "name": "Barrett"
-                }, 
-                {
-                    "leg_id": "NYL000112", 
-                    "name": "Glick"
-                }, 
-                {
-                    "leg_id": "NYL000179", 
-                    "name": "Reilly"
-                }, 
-                {
-                    "leg_id": "NYL000069", 
-                    "name": "Barron"
-                }, 
-                {
-                    "leg_id": "NYL000091", 
-                    "name": "Cook"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Goldfed"
-                }, 
-                {
-                    "leg_id": "NYL000136", 
-                    "name": "Latimer"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Mill MG"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Rive J"
-                }, 
-                {
-                    "leg_id": "NYL000202", 
-                    "name": "Thiele"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Benedet"
-                }, 
-                {
-                    "leg_id": "NYL000137", 
-                    "name": "Lavine"
-                }, 
-                {
-                    "leg_id": "NYL000158", 
-                    "name": "Millman"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Rive N"
-                }, 
-                {
-                    "leg_id": "NYL000093", 
-                    "name": "Crespo"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Gottfri"
-                }, 
-                {
-                    "leg_id": "NYL000138", 
-                    "name": "Lentol"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Rive PM"
-                }, 
-                {
-                    "leg_id": "NYL000073", 
-                    "name": "Boyland"
-                }, 
-                {
-                    "leg_id": "NYL000139", 
-                    "name": "Lifton"
-                }, 
-                {
-                    "leg_id": "NYL000161", 
-                    "name": "Morelle"
-                }, 
-                {
-                    "leg_id": "NYL000183", 
-                    "name": "Roberts"
-                }, 
-                {
-                    "leg_id": "NYL000116", 
-                    "name": "Gunther"
-                }, 
-                {
-                    "leg_id": "NYL000140", 
-                    "name": "Linares"
-                }, 
-                {
-                    "leg_id": "NYL000162", 
-                    "name": "Moya"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Robinso"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Braunst"
-                }, 
-                {
-                    "leg_id": "NYL000096", 
-                    "name": "Cusick"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Rodrigu"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Weinste"
-                }, 
-                {
-                    "leg_id": "NYL000076", 
-                    "name": "Brennan"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Cymbrow"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Lope VJ"
-                }, 
-                {
-                    "leg_id": "NYL000164", 
-                    "name": "Nolan"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Rosenth"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Weisenb"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Brindis"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "DenDekk"
-                }, 
-                {
-                    "leg_id": "NYL000120", 
-                    "name": "Heastie"
-                }, 
-                {
-                    "leg_id": "NYL000187", 
-                    "name": "Russell"
-                }, 
-                {
-                    "leg_id": "NYL000208", 
-                    "name": "Weprin"
-                }, 
-                {
-                    "leg_id": "NYL000077", 
-                    "name": "Bronson"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Dinowit"
-                }, 
-                {
-                    "leg_id": "NYL000121", 
-                    "name": "Hevesi"
-                }, 
-                {
-                    "leg_id": "NYL000144", 
-                    "name": "Lupardo"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "O'Donne"
-                }, 
-                {
-                    "leg_id": "NYL000218", 
-                    "name": "Ryan"
-                }, 
-                {
-                    "leg_id": "NYL000209", 
-                    "name": "Wright"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Brook K"
-                }, 
-                {
-                    "leg_id": "NYL000122", 
-                    "name": "Hikind"
-                }, 
-                {
-                    "leg_id": "NYL000145", 
-                    "name": "Magee"
-                }, 
-                {
-                    "leg_id": "NYL000167", 
-                    "name": "Ortiz"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Zebrows"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Englebr"
-                }, 
-                {
-                    "leg_id": "NYL000123", 
-                    "name": "Hooper"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Magnare"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Mr Spkr"
-                }, 
-                {
-                    "leg_id": "NYL000213", 
-                    "name": "Espinal"
-                }, 
-                {
-                    "leg_id": "NYL000125", 
-                    "name": "Jacobs"
-                }, 
-                {
-                    "leg_id": "NYL000147", 
-                    "name": "Maisel"
-                }, 
-                {
-                    "leg_id": "NYL000169", 
-                    "name": "Paulin"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Scarbor"
-                }, 
-                {
-                    "leg_id": "NYL000081", 
-                    "name": "Cahill"
-                }, 
-                {
-                    "leg_id": "NYL000103", 
-                    "name": "Farrell"
-                }, 
-                {
-                    "leg_id": "NYL000126", 
-                    "name": "Jaffee"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Malliot"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Peoples"
-                }, 
-                {
-                    "leg_id": "NYL000191", 
-                    "name": "Schimel"
-                }, 
-                {
-                    "leg_id": "NYL000149", 
-                    "name": "Markey"
-                }, 
-                {
-                    "leg_id": "NYL000171", 
-                    "name": "Perry"
-                }, 
-                {
-                    "leg_id": "NYL000083", 
-                    "name": "Camara"
-                }, 
-                {
-                    "leg_id": "NYL000220", 
-                    "name": "Mayer"
-                }, 
-                {
-                    "leg_id": "NYL000173", 
-                    "name": "Pretlow"
-                }, 
-                {
-                    "leg_id": null, 
+                    "leg_id": "NYL000215", 
                     "name": "Simanow"
                 }
             ]

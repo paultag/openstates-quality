@@ -11,8 +11,14 @@
             "action": "REFERRED TO JUDICIARY", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000025", 
+                    "name": "JUDICIARY", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,23 +26,35 @@
             "action": "AMEND AND RECOMMIT TO JUDICIARY", 
             "actor": "upper", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000025", 
+                    "name": "JUDICIARY", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "3177"
+            ], 
             "action": "PRINT NUMBER 3177A", 
             "actor": "upper", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "1ST REPORT CAL.1076", 
             "actor": "upper", 
             "date": "2011-06-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -45,14 +63,16 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -61,14 +81,28 @@
             "action": "COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2011-06-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "REFERRED TO JUDICIARY", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000025", 
+                    "name": "JUDICIARY", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -77,9 +111,23 @@
     "alternate_titles": [], 
     "bill_id": "S 3177", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 5029", 
+            "chamber": null, 
+            "internal_id": "NYB00012456", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:28", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00058887", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3177A-2011"
+        }
+    ], 
     "id": "NYB00003337", 
     "level": "state", 
     "scraped_subjects": [
@@ -88,35 +136,179 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=196"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3177&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S3177-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3177&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3177A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S3177A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000032", 
             "name": "LAVALLE", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000040", 
+            "name": "NOZZOLIO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Relates to providing recourse for manufactured homeowners in manufactured home\nparks confronted with unjustifiable rent increases; creates a local option in\ncounties in New York state to provide such protection.", 
     "title": "Relates to providing recourse for manufactured homeowners in manufactured home parks confronted with unjustifiable rent increases", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-11 06:26:25", 
+    "updated_at": "2012-10-16 18:01:17", 
     "versions": [
         {
-            "doc_id": "NYD00017291", 
+            "doc_id": "NYD00058884", 
             "mimetype": "text/html", 
             "name": "S3177", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S3177-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3177"
+        }, 
+        {
+            "doc_id": "NYD00058885", 
+            "mimetype": "text/html", 
+            "name": "S3177", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3177-2011"
+        }, 
+        {
+            "doc_id": "NYD00058886", 
+            "mimetype": "text/html", 
+            "name": "S3177A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3177A-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00003337", 
+            "chamber": "upper", 
+            "date": "2011-06-07 00:00:00", 
+            "id": "NYV00005801", 
+            "motion": "Judiciary Committee Vote", 
+            "no_count": 1, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S3177A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00005801", 
+            "yes_count": 22, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000015", 
+                    "name": "Flanagan"
+                }, 
+                {
+                    "leg_id": "NYL000016", 
+                    "name": "Fuschillo"
+                }, 
+                {
+                    "leg_id": "NYL000030", 
+                    "name": "Lanza"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000023", 
+                    "name": "Hassell-Thompson"
+                }, 
+                {
+                    "leg_id": "NYL000001", 
+                    "name": "Adams"
+                }, 
+                {
+                    "leg_id": "NYL000007", 
+                    "name": "Breslin"
+                }, 
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }, 
+                {
+                    "leg_id": "NYL000053", 
+                    "name": "Serrano"
+                }, 
+                {
+                    "leg_id": "NYL000057", 
+                    "name": "Squadron"
+                }, 
+                {
+                    "leg_id": "NYL000058", 
+                    "name": "Stavisky"
+                }, 
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000009", 
+                    "name": "DeFrancisco"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000050", 
+                    "name": "Saland"
+                }, 
+                {
+                    "leg_id": "NYL000062", 
+                    "name": "Zeldin"
+                }, 
+                {
+                    "leg_id": "NYL000011", 
+                    "name": "Dilan"
+                }, 
+                {
+                    "leg_id": "NYL000018", 
+                    "name": "Gianaris"
+                }
+            ]
+        }
+    ]
 }

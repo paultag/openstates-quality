@@ -11,8 +11,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-05-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,7 @@
             "action": "ADOPTED", 
             "actor": "upper", 
             "date": "2012-05-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -28,9 +35,16 @@
     "alternate_titles": [], 
     "bill_id": "J 4416", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-05-30 01:14:34", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00070733", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J4416-2011"
+        }
+    ], 
     "id": "NYB00026237", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +53,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1402"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J4416&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J4416&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J4416-2011"
@@ -49,6 +66,7 @@
         {
             "leg_id": "NYL000051", 
             "name": "SAMPSON", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,12 +74,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Mourning the death of Gregory Jackson, distinguished Brownsville citizen and devoted member of the Brooklyn community", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-05-30 01:14:34", 
+    "updated_at": "2012-10-16 18:04:19", 
     "versions": [
+        {
+            "doc_id": "NYD00070732", 
+            "mimetype": "text/html", 
+            "name": "J4416", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J4416"
+        }, 
         {
             "doc_id": "NYD00032875", 
             "mimetype": "text/html", 

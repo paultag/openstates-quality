@@ -11,25 +11,53 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 6908", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 848", 
+            "chamber": null, 
+            "internal_id": "NYB00000869", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:18", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00086030", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6908&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014433", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=852"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6908&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6908&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6908-2011"
@@ -48,24 +79,38 @@
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000118", 
+            "name": "Hawley", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Relates to the regulation of the sale and analysis of fertilizer; prohibits\nlocal governments from enacting any laws relating to the labeling, quality,\ntransportation, treatment or recordkeeping requirements for the sale or use of\nfertilizer in this state.", 
     "title": "Relates to the regulation of the sale and analysis of fertilizer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-26 01:11:03", 
+    "updated_at": "2012-10-16 18:07:00", 
     "versions": [
         {
-            "doc_id": "NYD00007517", 
+            "doc_id": "NYD00086028", 
             "mimetype": "text/html", 
             "name": "A6908", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A6908-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6908"
+        }, 
+        {
+            "doc_id": "NYD00086029", 
+            "mimetype": "text/html", 
+            "name": "A6908", 
+            "url": "http://open.nysenate.gov/legislation/bill/A6908-2011"
         }
     ], 
     "votes": []

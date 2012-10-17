@@ -11,8 +11,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,7 @@
             "action": "REPORTED TO CALENDAR FOR CONSIDERATION", 
             "actor": "upper", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +35,7 @@
             "action": "ADOPTED", 
             "actor": "upper", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -36,9 +44,16 @@
     "alternate_titles": [], 
     "bill_id": "J 1938", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-19 06:39:19", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00073788", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J1938-2011"
+        }
+    ], 
     "id": "NYB00016504", 
     "level": "state", 
     "scraped_subjects": [
@@ -47,7 +62,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1315"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J1938&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J1938&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J1938-2011"
@@ -57,19 +75,33 @@
         {
             "leg_id": "NYL000019", 
             "name": "GOLDEN", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000052", 
+            "name": "SAVINO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commending Paul T. Cassone, recipient of the Bay Ridge Community Council's 2011 Civic Award on June 9, 2011", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-06-11 15:59:43", 
+    "updated_at": "2012-10-16 18:04:51", 
     "versions": [
+        {
+            "doc_id": "NYD00073787", 
+            "mimetype": "text/html", 
+            "name": "J1938", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J1938"
+        }, 
         {
             "doc_id": "NYD00035155", 
             "mimetype": "text/html", 

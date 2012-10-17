@@ -11,33 +11,68 @@
             "action": "referred to veterans' affairs", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000075", 
+                    "name": "veterans' affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reference changed to aging", 
             "actor": "lower", 
             "date": "2011-01-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1128", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 3337", 
+            "chamber": null, 
+            "internal_id": "NYB00003512", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:52", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00095880", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1128&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008388", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,7 +81,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=538"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1128&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1128&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1128-2011"
@@ -56,24 +94,110 @@
         {
             "leg_id": "NYL000085", 
             "name": "Castelli", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000100", 
+            "name": "Dinowitz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000167", 
+            "name": "Ortiz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000079", 
+            "name": "Burling", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000198", 
+            "name": "Stevenson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000160", 
+            "name": "Montesano", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000169", 
+            "name": "Paulin", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000126", 
+            "name": "Jaffee", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000151", 
+            "name": "McDonough", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000188", 
+            "name": "Saladino", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000150", 
+            "name": "McKevitt", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000115", 
+            "name": "Graf", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000064", 
+            "name": "Abinanti", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000094", 
+            "name": "Crouch", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Senior Issues"
     ], 
-    "title": "Establishes a veterans&apos; gerontological advisory committee", 
+    "summary": "Establishes a veterans' gerontological advisory committee.", 
+    "title": "Establishes a veterans' gerontological advisory committee", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-10 01:06:14", 
+    "updated_at": "2012-10-16 18:09:26", 
     "versions": [
         {
-            "doc_id": "NYD00000153", 
+            "doc_id": "NYD00095878", 
             "mimetype": "text/html", 
             "name": "A1128", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1128-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1128"
+        }, 
+        {
+            "doc_id": "NYD00095879", 
+            "mimetype": "text/html", 
+            "name": "A1128", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1128-2011"
         }
     ], 
     "votes": []

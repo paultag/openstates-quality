@@ -14,28 +14,53 @@
             "action": "referred to social services", 
             "actor": "lower", 
             "date": "2011-04-11 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000072", 
+                    "name": "social services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to social services", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000072", 
+                    "name": "social services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7049", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 4652", 
+            "chamber": null, 
+            "internal_id": "NYB00004909", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:19", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00089341", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7049&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014577", 
     "level": "state", 
     "scraped_subjects": [
@@ -44,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=948"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7049&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7049&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7049-2011"
@@ -54,13 +82,13 @@
         {
             "leg_id": "NYL000202", 
             "name": "Thiele", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000177", 
             "name": "Ramos", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -68,12 +96,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Provides that the commissioner of social services for Suffolk county shall\nnotify local law enforcement agencies when a homeless sex offender is placed in\ntemporary emergency housing.", 
     "title": "Provides that local commissioners of social services shall notify law enforcement agencies when a homeless sex offender is placed in temporary emergency housing", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-28 09:56:15", 
+    "updated_at": "2012-10-16 18:07:50", 
     "versions": [
+        {
+            "doc_id": "NYD00089340", 
+            "mimetype": "text/html", 
+            "name": "A7049", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7049"
+        }, 
         {
             "doc_id": "NYD00027046", 
             "mimetype": "text/html", 

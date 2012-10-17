@@ -12,33 +12,66 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to housing", 
             "actor": "lower", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "125"
+            ], 
             "action": "print number 125a", 
             "actor": "lower", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 125", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 3508", 
+            "chamber": null, 
+            "internal_id": "NYB00003696", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:49", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00093386", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A125&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007326", 
     "level": "state", 
     "scraped_subjects": [
@@ -47,21 +80,29 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=528"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A125&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A125-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A125&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A125A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A125A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000081", 
             "name": "Cahill", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000141", 
             "name": "Lopez P", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -69,12 +110,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Authorizes the use of surplus funds from the greater Catskills flood\nremediation program by Ulster county.", 
     "title": "Authorizes the use of surplus funds from the greater Catskills flood remediation program by Ulster county", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 02:27:32", 
+    "updated_at": "2012-10-16 18:08:58", 
     "versions": [
+        {
+            "doc_id": "NYD00093385", 
+            "mimetype": "text/html", 
+            "name": "A125", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A125"
+        }, 
         {
             "doc_id": "NYD00041084", 
             "mimetype": "text/html", 

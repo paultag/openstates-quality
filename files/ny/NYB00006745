@@ -12,8 +12,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-04-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -21,6 +27,7 @@
             "action": "REPORTED TO CALENDAR FOR CONSIDERATION", 
             "actor": "upper", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -29,6 +36,7 @@
             "action": "ADOPTED", 
             "actor": "upper", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -37,9 +45,16 @@
     "alternate_titles": [], 
     "bill_id": "J 1170", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:46", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00069627", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J1170-2011"
+        }
+    ], 
     "id": "NYB00006745", 
     "level": "state", 
     "scraped_subjects": [
@@ -48,7 +63,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1304"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J1170&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J1170&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J1170-2011"
@@ -58,6 +76,7 @@
         {
             "leg_id": "NYL000042", 
             "name": "OPPENHEIMER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -65,12 +84,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Honoring Karen H. Hill upon the occasion of her designation as recipient of the Community Champion Award by the YMCA of White Plains and Central Westchester", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-06-27 21:39:38", 
+    "updated_at": "2012-10-16 18:04:12", 
     "versions": [
+        {
+            "doc_id": "NYD00069626", 
+            "mimetype": "text/html", 
+            "name": "J1170", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J1170"
+        }, 
         {
             "doc_id": "NYD00034434", 
             "mimetype": "text/html", 

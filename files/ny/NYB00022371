@@ -14,45 +14,71 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-02-16 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend (t) and recommit to judiciary", 
             "actor": "lower", 
             "date": "2012-05-07 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "9319"
+            ], 
             "action": "print number 9319a", 
             "actor": "lower", 
             "date": "2012-05-07 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend and recommit to judiciary", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "9319"
+            ], 
             "action": "print number 9319b", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
@@ -69,7 +95,13 @@
     ], 
     "country": "us", 
     "created_at": "2012-02-17 06:33:20", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00100326", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9319&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00022371", 
     "level": "state", 
     "scraped_subjects": [
@@ -78,23 +110,29 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1096"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9319&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A9319-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9319&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9319B&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A9319B-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000157", 
             "name": "Miller M", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -102,12 +140,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
-    "title": "Relates to the care and collection of abandoned animals on vacant property", 
+    "summary": "Relates to the care and collection of abandoned animals on vacant property;\nrequires notification to the appropriate authorities by anyone authorized to be\non vacant land where such person finds an animal which based on its physical\nappearance or lack of available food or water appears abandoned, within six\nhours of an encounter.", 
+    "title": "Relates to the care and collection of animals on vacant property", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 20:29:19", 
+    "updated_at": "2012-10-16 18:10:37", 
     "versions": [
+        {
+            "doc_id": "NYD00100325", 
+            "mimetype": "text/html", 
+            "name": "A9319", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9319"
+        }, 
         {
             "doc_id": "NYD00042727", 
             "mimetype": "text/html", 

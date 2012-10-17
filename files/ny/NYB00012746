@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-15 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-05-23 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,25 +11,61 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported referred to codes", 
+            "actor": "lower", 
+            "date": "2012-05-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5304", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:11", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00105613", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5304&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012746", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=752"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5304&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5304&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5304-2011"
@@ -48,24 +87,92 @@
         {
             "leg_id": "NYL000123", 
             "name": "Hooper", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000220", 
+            "name": "Mayersohn", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000066", 
+            "name": "Arroyo", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000156", 
+            "name": "Miller J", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000157", 
+            "name": "Miller M", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000170", 
+            "name": "Peoples-Stokes", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000203", 
+            "name": "Titone", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": null, 
+            "name": "Towns", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Permits a landlord to inspect dwellings and exterminate bedbug infestations\nupon reasonable notice.", 
     "title": "Permits a landlord to inspect dwellings and exterminate bedbug infestations upon reasonable notice", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-24 01:09:36", 
+    "updated_at": "2012-10-16 18:12:05", 
     "versions": [
         {
-            "doc_id": "NYD00005395", 
+            "doc_id": "NYD00105611", 
             "mimetype": "text/html", 
             "name": "A5304", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A5304-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5304"
+        }, 
+        {
+            "doc_id": "NYD00105612", 
+            "mimetype": "text/html", 
+            "name": "A5304", 
+            "url": "http://open.nysenate.gov/legislation/bill/A5304-2011"
         }
     ], 
     "votes": []

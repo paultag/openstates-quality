@@ -11,8 +11,14 @@
             "action": "REFERRED TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2011-01-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,26 +41,44 @@
             "action": "AMEND AND RECOMMIT TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2012-01-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "1887"
+            ], 
             "action": "PRINT NUMBER 1887A", 
             "actor": "upper", 
             "date": "2012-01-13 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 1887", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:22", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00068467", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1887A-2011"
+        }
+    ], 
     "id": "NYB00001950", 
     "level": "state", 
     "scraped_subjects": [
@@ -56,29 +87,67 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=120"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1887&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S1887-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1887&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1887A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S1887A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000042", 
             "name": "OPPENHEIMER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000010", 
+            "name": "DIAZ", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000011", 
+            "name": "DILAN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000028", 
+            "name": "KRUEGER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000051", 
+            "name": "SAMPSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides that owners of private real property exempt from taxation shall give\nmunicipalities notice of intention to sell.", 
     "title": "Provides that owners of private real property exempt from taxation shall give municipalities notice of intention to sell", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-13 01:11:18", 
+    "updated_at": "2012-10-16 18:03:58", 
     "versions": [
+        {
+            "doc_id": "NYD00068466", 
+            "mimetype": "text/html", 
+            "name": "S1887", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S1887"
+        }, 
         {
             "doc_id": "NYD00037744", 
             "mimetype": "text/html", 

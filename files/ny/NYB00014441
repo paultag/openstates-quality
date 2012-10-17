@@ -11,41 +11,81 @@
             "action": "referred to higher education", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000059", 
+                    "name": "higher education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to higher education", 
             "actor": "lower", 
             "date": "2011-04-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000059", 
+                    "name": "higher education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6915"
+            ], 
             "action": "print number 6915a", 
             "actor": "lower", 
             "date": "2011-04-18 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "referred to higher education", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000059", 
+                    "name": "higher education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 6915", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4709", 
+            "chamber": null, 
+            "internal_id": "NYB00004967", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:18", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00085137", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6915&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014441", 
     "level": "state", 
     "scraped_subjects": [
@@ -54,34 +94,168 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=802"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6915&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A6915-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6915&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6915A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A6915A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000170", 
             "name": "Peoples-Stokes", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000161", 
+            "name": "Morelle", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000124", 
+            "name": "Hoyt", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000140", 
+            "name": "Linares", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000187", 
+            "name": "Russell", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000193", 
+            "name": "Schroeder", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000192", 
+            "name": "Schimminger", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000070", 
+            "name": "Benedetto", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000138", 
+            "name": "Lentol", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000132", 
+            "name": "Kellner", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000094", 
+            "name": "Crouch", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000107", 
+            "name": "Gabryszak", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000219", 
+            "name": "Giglio", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000113", 
+            "name": "Goodell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000189", 
+            "name": "Sayward", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000191", 
+            "name": "Schimel", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Education"
     ], 
+    "summary": "Relates to tuition and state operating support of the state university of New\nYork.", 
     "title": "Relates to tuition and state operating support of the state university of New York", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-17 06:32:55", 
+    "updated_at": "2012-10-16 18:06:48", 
     "versions": [
         {
-            "doc_id": "NYD00007526", 
+            "doc_id": "NYD00085134", 
             "mimetype": "text/html", 
             "name": "A6915", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A6915-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6915"
+        }, 
+        {
+            "doc_id": "NYD00085135", 
+            "mimetype": "text/html", 
+            "name": "A6915", 
+            "url": "http://open.nysenate.gov/legislation/bill/A6915-2011"
+        }, 
+        {
+            "doc_id": "NYD00085136", 
+            "mimetype": "text/html", 
+            "name": "A6915A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A6915A-2011"
         }
     ], 
     "votes": []

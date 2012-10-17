@@ -12,27 +12,46 @@
             "action": "referred to correction", 
             "actor": "lower", 
             "date": "2011-01-26 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000049", 
+                    "name": "correction", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to correction", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000049", 
+                    "name": "correction", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3655", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:04", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096652", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3655&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011008", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=737"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3655&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3655&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3655-2011"
@@ -51,61 +73,61 @@
         {
             "leg_id": "NYL000067", 
             "name": "Aubry", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000144", 
-            "name": "Lupardo", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000138", 
             "name": "Lentol", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000197", 
             "name": "Spano", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000179", 
             "name": "Reilly", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000177", 
             "name": "Ramos", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000203", 
             "name": "Titone", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000096", 
             "name": "Cusick", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000099", 
             "name": "Destito", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000107", 
             "name": "Gabryszak", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -113,12 +135,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Allows a district attorney to file a petition to seek the imposition of\nresidency restrictions for certain sex offenders; allows a sex offender subject\nto a residency restriction to petition the court which imposed such restriction\nfor an order terminating or modifying such residency restriction.", 
     "title": "Establishes sex offender residency restrictions", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 02:25:52", 
+    "updated_at": "2012-10-16 18:09:35", 
     "versions": [
+        {
+            "doc_id": "NYD00096651", 
+            "mimetype": "text/html", 
+            "name": "A3655", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3655"
+        }, 
         {
             "doc_id": "NYD00042606", 
             "mimetype": "text/html", 

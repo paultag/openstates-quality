@@ -12,18 +12,30 @@
             "action": "referred to cities", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000045", 
+                    "name": "cities", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to cities", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000045", 
+                    "name": "cities", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -33,7 +45,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:01", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00106471", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3168&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010502", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=710"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3168&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3168&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3168-2011"
@@ -52,19 +73,19 @@
         {
             "leg_id": "NYL000171", 
             "name": "Perry", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000066", 
             "name": "Arroyo", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000091", 
             "name": "Cook", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -72,12 +93,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Provides that the contractor who performed the construction work which results\nin an illegal conversion of a housing unit shall be held liable for monetary\npenalties related to such illegal conversion, rather than the residents;\nprovides that the owner of the building shall be held liable if he or she knew\nor should reasonably have known that the construction was being done without\nprior approval by the department of buildings and without the required permits.", 
     "title": "Assigns liability for monetary penalties for an illegal conversion of a housing unit to the person actually so doing and/or the owner, not the residents", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 20:29:18", 
+    "updated_at": "2012-10-16 18:12:14", 
     "versions": [
+        {
+            "doc_id": "NYD00106470", 
+            "mimetype": "text/html", 
+            "name": "A3168", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3168"
+        }, 
         {
             "doc_id": "NYD00043605", 
             "mimetype": "text/html", 

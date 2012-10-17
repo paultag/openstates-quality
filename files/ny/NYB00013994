@@ -11,33 +11,61 @@
             "action": "referred to energy", 
             "actor": "lower", 
             "date": "2011-03-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000053", 
+                    "name": "energy", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in energy", 
             "actor": "lower", 
             "date": "2011-06-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000053", 
+                    "name": "energy", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }, 
         {
             "action": "referred to energy", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000053", 
+                    "name": "energy", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 6486", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:16", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00100075", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6486&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013994", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=859"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6486&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6486&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6486-2011"
@@ -56,24 +87,38 @@
         {
             "leg_id": "NYL000085", 
             "name": "Castelli", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000188", 
+            "name": "Saladino", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Regulates the cutting, topping and removal of trees upon rights of way by\nproviders of electric service; requires the planting of replacement trees in\ncertain cases; provides for the enforcement of such provisions.", 
     "title": "Regulates the cutting, topping and removal of trees upon rights of way by providers of electric service; requires the planting of replacement trees in certain cases", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-20 01:01:26", 
+    "updated_at": "2012-10-16 18:10:28", 
     "versions": [
         {
-            "doc_id": "NYD00006954", 
+            "doc_id": "NYD00100073", 
             "mimetype": "text/html", 
             "name": "A6486", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A6486-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6486"
+        }, 
+        {
+            "doc_id": "NYD00100074", 
+            "mimetype": "text/html", 
+            "name": "A6486", 
+            "url": "http://open.nysenate.gov/legislation/bill/A6486-2011"
         }
     ], 
     "votes": []

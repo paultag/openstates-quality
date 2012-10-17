@@ -14,7 +14,13 @@
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -23,7 +29,13 @@
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-03-09 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -32,7 +44,13 @@
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -41,7 +59,13 @@
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -50,7 +74,13 @@
             "action": "held for consideration in ways and means", 
             "actor": "lower", 
             "date": "2012-06-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:failed"
             ]
@@ -59,14 +89,21 @@
     "alternate_titles": [], 
     "bill_id": "A 1176", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 303", 
+            "chamber": null, 
+            "internal_id": "NYB00000294", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:53", 
     "documents": [
         {
-            "doc_id": "NYD00048408", 
+            "doc_id": "NYD00081913", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1176&term=&Memo=Y"
         }
     ], 
     "id": "NYB00008436", 
@@ -77,7 +114,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=594"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1176&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1176&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1176-2011"
@@ -87,13 +127,13 @@
         {
             "leg_id": "NYL000093", 
             "name": "Crespo", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000172", 
             "name": "Pheffer", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -101,12 +141,19 @@
     "subjects": [
         "Senior Issues"
     ], 
+    "summary": "Establishes the bureau of the senior tenants' advocate within the state office\nfor the aging; provides that the senior tenants' advocate shall assist senior\ncitizen tenants in resolving complaints they may have with the New York state\ndivision of housing and community renewal, landlord disputes, rent increases,\nand other housing related matters; provides that the governor shall appoint the\nsenior tenants' advocate to a term of four years.", 
     "title": "Establishes the bureau of the senior tenants' advocate in the state office for the aging", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-26 10:06:01", 
+    "updated_at": "2012-10-16 18:05:57", 
     "versions": [
+        {
+            "doc_id": "NYD00081912", 
+            "mimetype": "text/html", 
+            "name": "A1176", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1176"
+        }, 
         {
             "doc_id": "NYD00028248", 
             "mimetype": "text/html", 

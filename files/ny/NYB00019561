@@ -2,7 +2,7 @@
     "action_dates": {
         "first": "2011-06-20 00:00:00", 
         "last": "2011-06-20 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2011-06-20 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -11,17 +11,25 @@
             "action": "adopted", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "bill:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "K 752", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-06-22 08:15:57", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00108692", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K752&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00019561", 
     "level": "state", 
     "scraped_subjects": [
@@ -30,7 +38,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1160"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K752&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K752&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K752-2011"
@@ -40,6 +51,7 @@
         {
             "leg_id": "NYL000079", 
             "name": "Burling", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -47,17 +59,24 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commending Jason Swede upon the occasion of his designation as the Corn Growers Yield Contest's 2010 Top National Winner", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-05-17 01:11:46", 
+    "updated_at": "2012-10-16 18:12:49", 
     "versions": [
         {
-            "doc_id": "NYD00011393", 
+            "doc_id": "NYD00108690", 
             "mimetype": "text/html", 
             "name": "K752", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/K752-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K752"
+        }, 
+        {
+            "doc_id": "NYD00108691", 
+            "mimetype": "text/html", 
+            "name": "K752", 
+            "url": "http://open.nysenate.gov/legislation/bill/K752-2011"
         }
     ], 
     "votes": []

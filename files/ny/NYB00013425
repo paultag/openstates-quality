@@ -11,14 +11,22 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2012-01-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,9 +35,16 @@
     "alternate_titles": [], 
     "bill_id": "A 5957", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:14", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00092831", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5957&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013425", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +53,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=834"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5957&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5957&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5957-2011"
@@ -48,6 +66,7 @@
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,12 +74,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Provides that all persons convicted of being spectators at animal fights shall\nbe guilty of a misdemeanor and provides for increased penalties for a second\noffense.", 
     "title": "Provides that all persons convicted of being spectators at animal fights shall be guilty of a misdemeanor", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:41", 
+    "updated_at": "2012-10-16 18:08:51", 
     "versions": [
+        {
+            "doc_id": "NYD00092830", 
+            "mimetype": "text/html", 
+            "name": "A5957", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5957"
+        }, 
         {
             "doc_id": "NYD00031054", 
             "mimetype": "text/html", 

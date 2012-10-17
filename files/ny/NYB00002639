@@ -11,8 +11,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-01-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,16 @@
     "alternate_titles": [], 
     "bill_id": "S 2552", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:25", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00051065", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2552-2011"
+        }
+    ], 
     "id": "NYB00002639", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=154"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2552&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2552&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S2552-2011"
@@ -49,24 +72,38 @@
         {
             "leg_id": "NYL000006", 
             "name": "BONACIC", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000031", 
+            "name": "LARKIN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides that real property tax exemptions granted to real property owned by\ncorporations or associations organized or conducted exclusively for hospital or\nmoral or mental improvement of men, women, or children purposes and used\nexclusively for carrying out such purposes shall only be granted if the\nproperty owner can prove by clear and convincing evidence that each acre is\nactually used for such purpose at least 120 days a year; appropriates\n$10,000,000 therefor.", 
     "title": "Provides that certain real property tax exemptions shall only be granted where such property is actually used for certain enumerated purposes;appropriation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-09 06:30:01", 
+    "updated_at": "2012-10-16 17:59:18", 
     "versions": [
         {
-            "doc_id": "NYD00016379", 
+            "doc_id": "NYD00051063", 
             "mimetype": "text/html", 
             "name": "S2552", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S2552-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2552"
+        }, 
+        {
+            "doc_id": "NYD00051064", 
+            "mimetype": "text/html", 
+            "name": "S2552", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2552-2011"
         }
     ], 
     "votes": []

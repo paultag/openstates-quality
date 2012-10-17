@@ -12,27 +12,45 @@
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in environmental conservation", 
             "actor": "lower", 
             "date": "2011-06-06 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }, 
         {
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -42,7 +60,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:01", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00093124", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3155&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010488", 
     "level": "state", 
     "scraped_subjects": [
@@ -51,7 +75,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=709"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3155&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3155&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3155-2011"
@@ -61,103 +88,103 @@
         {
             "leg_id": "NYL000094", 
             "name": "Crouch", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000200", 
             "name": "Tedisco", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000068", 
             "name": "Barclay", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000118", 
             "name": "Hawley", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000079", 
             "name": "Burling", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000080", 
             "name": "Butler", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000101", 
             "name": "Duprey", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000104", 
             "name": "Finch", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000134", 
             "name": "Kolb", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
-            "leg_id": "NYL000141", 
-            "name": "Lopez P", 
-            "official_type": "cosponsor", 
+            "leg_id": null, 
+            "name": "Lopez\n           P", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000150", 
             "name": "McKevitt", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000156", 
             "name": "Miller J", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000159", 
             "name": "Molinaro", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000166", 
             "name": "Oaks", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000178", 
             "name": "Reilich", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000189", 
             "name": "Sayward", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000197", 
             "name": "Spano", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -165,12 +192,19 @@
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Creates a cellulosic ethanol task force to prevent and reduce the production\nand emanation of greenhouse gases.", 
     "title": "Creates a cellulosic ethanol task force to prevent and reduce the production and emanation of greenhouse gases", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 19:58:13", 
+    "updated_at": "2012-10-16 18:08:54", 
     "versions": [
+        {
+            "doc_id": "NYD00093123", 
+            "mimetype": "text/html", 
+            "name": "A3155", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3155"
+        }, 
         {
             "doc_id": "NYD00044409", 
             "mimetype": "text/html", 

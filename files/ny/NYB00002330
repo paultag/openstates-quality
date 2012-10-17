@@ -11,8 +11,14 @@
             "action": "REFERRED TO CODES", 
             "actor": "upper", 
             "date": "2011-01-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000008", 
+                    "name": "CODES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -20,9 +26,23 @@
     "alternate_titles": [], 
     "bill_id": "S 2264", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 8347", 
+            "chamber": null, 
+            "internal_id": "NYB00018948", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:23", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00064504", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2264-2011"
+        }
+    ], 
     "id": "NYB00002330", 
     "level": "state", 
     "scraped_subjects": [
@@ -31,7 +51,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=136"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2264&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2264&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S2264-2011"
@@ -41,6 +64,7 @@
         {
             "leg_id": "NYL000029", 
             "name": "KRUGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -48,17 +72,24 @@
     "subjects": [
         "Civil Liberties and Civil Rights"
     ], 
+    "summary": "Requires cooperative housing corporations provide a prospective purchaser with\na written statement of reasons when withholding consent to a purchase; voids\nany agreement inconsistent with such requirement.", 
     "title": "Requires cooperative housing corporations provide a prospective purchaser with a written statement of reasons when withholding consent to a purchase", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-04 06:26:43", 
+    "updated_at": "2012-10-16 18:02:53", 
     "versions": [
         {
-            "doc_id": "NYD00015989", 
+            "doc_id": "NYD00064502", 
             "mimetype": "text/html", 
             "name": "S2264", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S2264-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2264"
+        }, 
+        {
+            "doc_id": "NYD00064503", 
+            "mimetype": "text/html", 
+            "name": "S2264", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2264-2011"
         }
     ], 
     "votes": []

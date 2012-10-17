@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-06-21 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,8 +11,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,7 @@
             "action": "1ST REPORT CAL.287", 
             "actor": "upper", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,14 +35,16 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2011-04-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -44,14 +53,70 @@
             "action": "COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2011-06-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "1ST REPORT CAL.452", 
+            "actor": "upper", 
+            "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "2ND REPORT CAL.", 
+            "actor": "upper", 
+            "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "ADVANCED TO THIRD READING ", 
+            "actor": "upper", 
+            "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "COMMITTED TO RULES", 
+            "actor": "upper", 
+            "date": "2012-06-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -60,9 +125,23 @@
     "alternate_titles": [], 
     "bill_id": "S 848", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 6908", 
+            "chamber": null, 
+            "internal_id": "NYB00014433", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:18", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00061391", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S848-2011"
+        }
+    ], 
     "id": "NYB00000869", 
     "level": "state", 
     "scraped_subjects": [
@@ -71,7 +150,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=52"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S848&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S848&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S848-2011"
@@ -81,25 +163,170 @@
         {
             "leg_id": "NYL000061", 
             "name": "YOUNG", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000017", 
+            "name": "GALLIVAN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Relates to the regulation of the sale and analysis of fertilizer; prohibits\nlocal governments from enacting any laws relating to the labeling, quality,\ntransportation, treatment or recordkeeping requirements for the sale or use of\nfertilizer in this state.", 
     "title": "Relates to the regulation of the sale and analysis of fertilizer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-04 06:26:30", 
+    "updated_at": "2012-10-16 18:02:07", 
     "versions": [
         {
-            "doc_id": "NYD00022197", 
+            "doc_id": "NYD00061389", 
             "mimetype": "text/html", 
             "name": "S848", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S848-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S848"
+        }, 
+        {
+            "doc_id": "NYD00061390", 
+            "mimetype": "text/html", 
+            "name": "S848", 
+            "url": "http://open.nysenate.gov/legislation/bill/S848-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00000869", 
+            "chamber": "upper", 
+            "date": "2011-03-30 00:00:00", 
+            "id": "NYV00006438", 
+            "motion": "Agriculture Committee Vote", 
+            "no_count": 1, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S848-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00006438", 
+            "yes_count": 9, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000060", 
+                    "name": "Valesky"
+                }, 
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }
+            ]
+        }, 
+        {
+            "bill_id": "NYB00000869", 
+            "chamber": "upper", 
+            "date": "2012-03-27 00:00:00", 
+            "id": "NYV00006439", 
+            "motion": "Agriculture Committee Vote", 
+            "no_count": 1, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S848-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00006439", 
+            "yes_count": 9, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000060", 
+                    "name": "Valesky"
+                }, 
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }
+            ]
+        }
+    ]
 }

@@ -14,7 +14,13 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-03-16 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -23,13 +29,19 @@
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2011-04-12 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-05-03 00:00:00", 
             "related_entities": [], 
@@ -47,6 +59,9 @@
             ]
         }, 
         {
+            "+bill_id": [
+                "s4080"
+            ], 
             "action": "substituted by s4080", 
             "actor": "lower", 
             "date": "2011-05-09 00:00:00", 
@@ -71,9 +86,9 @@
     "created_at": "2011-05-05 01:30:16", 
     "documents": [
         {
-            "doc_id": "NYD00046529", 
+            "doc_id": "NYD00095627", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6423&term=&Memo=Y"
         }
     ], 
     "id": "NYB00013926", 
@@ -84,7 +99,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=909"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6423&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6423&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6423-2011"
@@ -94,13 +112,13 @@
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -108,12 +126,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Requires food retailers to provide scales for customer use in an accessible\nlocation and with a conspicuous sign reading \"for customer use\".", 
     "title": "Requires food retailers to provide scales for customer use", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:35", 
+    "updated_at": "2012-10-16 18:09:24", 
     "versions": [
+        {
+            "doc_id": "NYD00095626", 
+            "mimetype": "text/html", 
+            "name": "A6423", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6423"
+        }, 
         {
             "doc_id": "NYD00034023", 
             "mimetype": "text/html", 

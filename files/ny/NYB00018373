@@ -11,8 +11,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-06-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,17 +41,25 @@
             "action": "RECOMMIT, ENACTING CLAUSE STRICKEN", 
             "actor": "upper", 
             "date": "2012-01-30 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "committee:referred"
+                "other"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 5682", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-06-12 07:25:35", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00057322", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5682-2011"
+        }
+    ], 
     "id": "NYB00018373", 
     "level": "state", 
     "scraped_subjects": [
@@ -47,7 +68,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=383"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5682&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5682&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S5682-2011"
@@ -57,6 +81,7 @@
         {
             "leg_id": "NYL000027", 
             "name": "KLEIN", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -64,12 +89,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Prohibits dangerous practices at companion animal grooming facilities; provides\nthat no heating elements in cage or box dryers shall be turned on; provides\nthat any violation shall be punishable of a fine between $250-$500.", 
     "title": "Prohibits dangerous practices at companion animal grooming facilities", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-13 01:11:27", 
+    "updated_at": "2012-10-16 18:00:57", 
     "versions": [
+        {
+            "doc_id": "NYD00057321", 
+            "mimetype": "text/html", 
+            "name": "S5682", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5682"
+        }, 
         {
             "doc_id": "NYD00029247", 
             "mimetype": "text/html", 

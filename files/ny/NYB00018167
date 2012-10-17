@@ -14,31 +14,49 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-06-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-06-14 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-15 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-06-15 00:00:00", 
             "related_entities": [], 
@@ -65,6 +83,9 @@
             ]
         }, 
         {
+            "+bill_id": [
+                "s4032"
+            ], 
             "action": "substituted by s4032", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
@@ -77,9 +98,23 @@
     "alternate_titles": [], 
     "bill_id": "A 8249", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4032", 
+            "chamber": null, 
+            "internal_id": "NYB00004254", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-09 07:20:04", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104141", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8249&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00018167", 
     "level": "state", 
     "scraped_subjects": [
@@ -88,7 +123,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1031"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8249&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8249&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8249-2011"
@@ -98,91 +136,91 @@
         {
             "leg_id": "NYL000142", 
             "name": "Lopez V", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000073", 
-            "name": "Boyland", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000091", 
             "name": "Cook", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000209", 
             "name": "Wright", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000120", 
             "name": "Heastie", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000184", 
             "name": "Robinson", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000071", 
             "name": "Bing", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000070", 
             "name": "Benedetto", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000083", 
             "name": "Camara", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000127", 
             "name": "Jeffries", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000086", 
             "name": "Castro", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000110", 
             "name": "Gibson", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000185", 
             "name": "Rodriguez", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -190,12 +228,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Extends various chapters relating to the powers of the New York state housing\nfinance agency and the New York state mortgage agency.", 
     "title": "Extends various chapters relating to the powers of the New York state housing finance agency and the New York state mortgage agency", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 02:25:53", 
+    "updated_at": "2012-10-16 18:11:37", 
     "versions": [
+        {
+            "doc_id": "NYD00104140", 
+            "mimetype": "text/html", 
+            "name": "A8249", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8249"
+        }, 
         {
             "doc_id": "NYD00043025", 
             "mimetype": "text/html", 

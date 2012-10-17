@@ -11,25 +11,46 @@
             "action": "referred to social services", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000072", 
+                    "name": "social services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to social services", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000072", 
+                    "name": "social services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 8055", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-28 06:37:15", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00083765", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8055&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00017252", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=990"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8055&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8055&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8055-2011"
@@ -48,19 +72,39 @@
         {
             "leg_id": "NYL000202", 
             "name": "Thiele", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000177", 
+            "name": "Ramos", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000163", 
+            "name": "Murray", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Authorizes the withholding of certain room and board payments if a building's\ncondition is dangerous, hazardous or detrimental to life or health; provides\nthat in no event may a public welfare official withhold payments for food.", 
     "title": "Authorizes the withholding of certain room and board payments if the condition is dangerous, hazardous or detrimental to life or health", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-11 15:59:57", 
+    "updated_at": "2012-10-16 18:06:28", 
     "versions": [
+        {
+            "doc_id": "NYD00083764", 
+            "mimetype": "text/html", 
+            "name": "A8055", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8055"
+        }, 
         {
             "doc_id": "NYD00037017", 
             "mimetype": "text/html", 

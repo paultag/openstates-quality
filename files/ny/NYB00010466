@@ -11,25 +11,53 @@
             "action": "referred to insurance", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000061", 
+                    "name": "insurance", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to insurance", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000061", 
+                    "name": "insurance", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3133", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 3991", 
+            "chamber": null, 
+            "internal_id": "NYB00004209", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:01", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00092155", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3133&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010466", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=627"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3133&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3133&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3133-2011"
@@ -48,24 +79,74 @@
         {
             "leg_id": "NYL000192", 
             "name": "Schimminger", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000170", 
+            "name": "Peoples-Stokes", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000199", 
+            "name": "Sweeney", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000068", 
+            "name": "Barclay", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000136", 
+            "name": "Latimer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000145", 
+            "name": "Magee", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000203", 
+            "name": "Titone", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Insurance"
     ], 
+    "summary": "Authorizes health insurers, subject to the approval of the superintendent of\ninsurance, to provide actuarially appropriate reductions in health insurance\npremiums for an enrollee's or insured's participation in a wellness program\n(defined); provides for the appointment of an advisory committee on wellness to\nbe co-chaired by the commissioner of health and the superintendent of insurance\nand to report on the development and effectiveness of wellness programs.", 
     "title": "Authorizes health insurers to provide actuarially appropriate reductions in health insurance premiums for participation in a wellness program", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-24 01:09:35", 
+    "updated_at": "2012-10-16 18:08:37", 
     "versions": [
         {
-            "doc_id": "NYD00002639", 
+            "doc_id": "NYD00092153", 
             "mimetype": "text/html", 
             "name": "A3133", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A3133-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3133"
+        }, 
+        {
+            "doc_id": "NYD00092154", 
+            "mimetype": "text/html", 
+            "name": "A3133", 
+            "url": "http://open.nysenate.gov/legislation/bill/A3133-2011"
         }
     ], 
     "votes": []

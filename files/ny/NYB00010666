@@ -12,27 +12,46 @@
             "action": "referred to social services", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000072", 
+                    "name": "social services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to social services", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000072", 
+                    "name": "social services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3326", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:02", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00088972", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3326&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010666", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=718"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3326&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3326&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3326-2011"
@@ -51,19 +73,19 @@
         {
             "leg_id": "NYL000088", 
             "name": "Clark", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000076", 
             "name": "Brennan", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000089", 
             "name": "Colton", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -71,12 +93,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Requires data collection on homeless persons served by a homeless project\nincluding reasons why such person becomes homeless and enters a homeless\nfacility; requires annual report be made to governor and legislature.", 
     "title": "Requires data collection on homeless persons in homeless shelters", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 02:25:51", 
+    "updated_at": "2012-10-16 18:07:46", 
     "versions": [
+        {
+            "doc_id": "NYD00088971", 
+            "mimetype": "text/html", 
+            "name": "A3326", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3326"
+        }, 
         {
             "doc_id": "NYD00042948", 
             "mimetype": "text/html", 

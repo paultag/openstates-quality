@@ -14,30 +14,52 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-06-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -46,14 +68,19 @@
             "action": "rules report cal.613", 
             "actor": "lower", 
             "date": "2011-06-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s5396"
+            ], 
             "action": "substituted by s5396", 
             "actor": "lower", 
             "date": "2011-06-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,9 +89,23 @@
     "alternate_titles": [], 
     "bill_id": "A 7641", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 5396", 
+            "chamber": null, 
+            "internal_id": "NYB00016347", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-16 21:06:12", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00106922", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7641&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00016095", 
     "level": "state", 
     "scraped_subjects": [
@@ -73,7 +114,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=977"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7641&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7641&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7641-2011"
@@ -83,6 +127,7 @@
         {
             "leg_id": "NYL000071", 
             "name": "Bing", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -90,12 +135,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Relates to powers of the agency; allows agency to exercise powers when its\nobligations are purchased by certain financial institutions.", 
     "title": "Relates to powers of the agency; allows agency to exercise powers when its obligations are purchased by certain financial institutions", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:35", 
+    "updated_at": "2012-10-16 18:12:29", 
     "versions": [
+        {
+            "doc_id": "NYD00106921", 
+            "mimetype": "text/html", 
+            "name": "A7641", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7641"
+        }, 
         {
             "doc_id": "NYD00030086", 
             "mimetype": "text/html", 

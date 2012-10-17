@@ -11,55 +11,96 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to ways and means", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "559"
+            ], 
             "action": "print number 559a", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "held for consideration in ways and means", 
             "actor": "lower", 
             "date": "2012-06-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 559", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 7039", 
+            "chamber": null, 
+            "internal_id": "NYB00025847", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00088075", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A559&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007792", 
     "level": "state", 
     "scraped_subjects": [
@@ -68,17 +109,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=557"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A559&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A559-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A559&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A559A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A559A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000138", 
             "name": "Lentol", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -86,12 +133,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Replaces current system which grants veterans real property tax exemptions\nfunded by local governments with a system funded by the state; provides that\nhonorably discharged veterans of certain wars shall receive an additional\npersonal income tax credit varying in amount based on factors like extent of\ndisability for qualifying real property taxes; provides same to unremarried\nsurviving spouse; includes multi-unit real property at least one unit of which\nis veteran's primary residence; repeals provisions relating to current system\nof veterans' real property tax exemptions.", 
     "title": "Provides personal income tax credit for real property taxes paid by certain veterans and their spouses; repeals real property tax law veterans' tax exemptions", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-08 09:54:52", 
+    "updated_at": "2012-10-16 18:07:23", 
     "versions": [
+        {
+            "doc_id": "NYD00088074", 
+            "mimetype": "text/html", 
+            "name": "A559", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A559"
+        }, 
         {
             "doc_id": "NYD00045162", 
             "mimetype": "text/html", 

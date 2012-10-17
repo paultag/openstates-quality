@@ -11,8 +11,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-03-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,23 +26,41 @@
             "action": "AMEND AND RECOMMIT TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-06-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4086"
+            ], 
             "action": "PRINT NUMBER 4086A", 
             "actor": "upper", 
             "date": "2011-06-08 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -45,26 +69,44 @@
             "action": "AMEND AND RECOMMIT TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4068"
+            ], 
             "action": "PRINT NUMBER 4068B", 
             "actor": "upper", 
             "date": "2012-01-09 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 4086", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:32", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00056117", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4086B-2011"
+        }
+    ], 
     "id": "NYB00004313", 
     "level": "state", 
     "scraped_subjects": [
@@ -73,34 +115,72 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=257"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4086&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S4086-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4086&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4086B&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S4086B-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000002", 
             "name": "ADDABBO", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000013", 
+            "name": "ESPAILLAT", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000028", 
+            "name": "KRUEGER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Requires the installation and testing of fire equipment and sprinkler systems\nat pet stores.", 
     "title": "Requires the installation and testing of fire equipment and sprinkler systems at pet stores", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-09 06:30:19", 
+    "updated_at": "2012-10-16 18:00:34", 
     "versions": [
         {
-            "doc_id": "NYD00018636", 
+            "doc_id": "NYD00056113", 
             "mimetype": "text/html", 
             "name": "S4086", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S4086-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4086"
+        }, 
+        {
+            "doc_id": "NYD00056114", 
+            "mimetype": "text/html", 
+            "name": "S4086", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4086-2011"
+        }, 
+        {
+            "doc_id": "NYD00056115", 
+            "mimetype": "text/html", 
+            "name": "S4086A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4086A-2011"
+        }, 
+        {
+            "doc_id": "NYD00056116", 
+            "mimetype": "text/html", 
+            "name": "S4086B", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4086B-2011"
         }
     ], 
     "votes": []

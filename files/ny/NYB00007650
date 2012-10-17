@@ -12,36 +12,61 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in housing", 
             "actor": "lower", 
             "date": "2012-05-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 421", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00101934", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A421&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007650", 
     "level": "state", 
     "scraped_subjects": [
@@ -50,7 +75,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=548"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A421&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A421&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A421-2011"
@@ -60,7 +88,7 @@
         {
             "leg_id": "NYL000138", 
             "name": "Lentol", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -68,12 +96,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Protects tenants in unlawful lofts (\"interim multiple dwellings\") from eviction\non certain grounds (i.e., on grounds that the occupancy is unlawful because the\nbuilding does not satisfy one or more requirements pertaining to such dwellings\nor because the owner has failed to satisfy one or more requirements pertaining\nto such dwellings or because a residential certificate of occupancy has not\nbeen issued for the building or because residential occupancy is not permitted\nby the local zoning resolution) by precluding owners who have recovered\npossession on the grounds of unlawful occupancy from making certain\napplications to any public body to legalize residential occupancy for a ten\nyear period following the actual recovery of possession; provides that any\napproval, authorization, permit, etc. granted or issued by a public body in\nconnection with an application made in violation of these provisions shall be\nvoid.", 
     "title": "Protects tenants in unlawful lofts from eviction on certain grounds by precluding owners from making application to legalize residential occupancy for 10 years", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-16 02:11:12", 
+    "updated_at": "2012-10-16 18:11:03", 
     "versions": [
+        {
+            "doc_id": "NYD00101933", 
+            "mimetype": "text/html", 
+            "name": "A421", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A421"
+        }, 
         {
             "doc_id": "NYD00039292", 
             "mimetype": "text/html", 

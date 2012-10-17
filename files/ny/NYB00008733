@@ -11,25 +11,53 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1460", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 3259", 
+            "chamber": null, 
+            "internal_id": "NYB00003427", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:54", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00085530", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1460&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008733", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=565"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1460&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1460&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1460-2011"
@@ -48,6 +79,7 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,17 +87,24 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Requires landlords to provide notice of rental history upon the signing of a\nvacancy lease for the four years prior to the vacancy.", 
     "title": "Requires landlords to provide notice of rental history upon the signing of a vacancy lease", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-20 01:01:19", 
+    "updated_at": "2012-10-16 18:06:53", 
     "versions": [
         {
-            "doc_id": "NYD00000582", 
+            "doc_id": "NYD00085528", 
             "mimetype": "text/html", 
             "name": "A1460", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1460-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1460"
+        }, 
+        {
+            "doc_id": "NYD00085529", 
+            "mimetype": "text/html", 
+            "name": "A1460", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1460-2011"
         }
     ], 
     "votes": []

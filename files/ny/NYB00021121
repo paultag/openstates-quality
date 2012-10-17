@@ -11,86 +11,149 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to ways and means", 
             "actor": "lower", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "9058"
+            ], 
             "action": "print number 9058a", 
             "actor": "lower", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2012-02-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "9058"
+            ], 
             "action": "print number 9058b", 
             "actor": "lower", 
             "date": "2012-02-17 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "9058"
+            ], 
             "action": "print number 9058c", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2012-03-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "9058"
+            ], 
             "action": "print number 9058d", 
             "actor": "lower", 
             "date": "2012-03-25 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -99,14 +162,19 @@
             "action": "rules report cal.24", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s6258"
+            ], 
             "action": "substituted by s6258d", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -115,9 +183,23 @@
     "alternate_titles": [], 
     "bill_id": "A 9058", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 6258", 
+            "chamber": null, 
+            "internal_id": "NYB00021085", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-01-18 07:00:24", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104496", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9058&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00021121", 
     "level": "state", 
     "scraped_subjects": [
@@ -126,16 +208,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=977"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9058&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A9058-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9058&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9058D&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A9058D-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": null, 
-            "name": "BUDGET BILL", 
+            "name": "Budget", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -143,17 +232,48 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Authorizes funding for the Consolidated Local Street and Highway Improvement\nProgram (CHIPS) and Marchiselli program for state fiscal year 2012-2013;\nrelates to the establishment of the dedicated highway and bridge trust fund;\nauthorizes funding for the Consolidated Local Street and Highway Improvement\nProgram (CHIPS) and Marchiselli program for state fiscal year 2011-2012;\nrelates to the effectiveness of the dedicated highway and bridge trust fund\n(Part A); modifies the distribution of certain highway funds (Part B); enacts a\nrisk based bus inspection program (Part C); relates to commercial driver's\nlicenses and medical certifications; repeals paragraph (f) of subdivision 3 of\nsection 510-a of the vehicle and traffic law, relating to commercial driver's\nlicenses (Part D); relates to notes, bonds and other obligations of the\nmetropolitan transportation authority, Triborough bridge and tunnel authority\nand New York city transit authority (Part E); establishes an additional\nretention rate for county clerks acting as an agent of the department of motor\nvehicles based upon internet transactions (Part F); relates to federal revenue\n(Part G); relates to regulation of various fish and wildlife licenses, permits\nand fees; repeals certain provisions of such law relating thereto (Part H);\nrelates to hazardous waste program fees and surcharges (Part J); relates to\nsewage treatment and drinking water funds and the water pollution control and\ndrinking water revolving funds (Part K); relates to seed testing (Park L);\nrelates to cost recovery for services (Part M); relates to food processing\nlicense fees; repeals subdivision 4 of section 128-a and subdivision 3 of\nsection 133-a of the agriculture and markets law and section 90-b of the state\nfinance law relating to the commercial feed licensing fund (Part N); authorizes\nand directs the New York state energy research and development authority to\nmake a payment to the general fund of up to $913,000 (Part O); authorizes the\nNew York state energy research and development authority to finance a portion\nof its research, development and demonstration and policy and planning programs\nfrom assessments on gas and electric corporations (Part P); relates to powers\nof the New York state urban development corporation to make loans (Part R);\nextends certain provisions relating to the empire state economic development\nfund (Part S); relates to excelsior linked deposit act (Part U); authorizes the\ndepartment of health to finance certain activities with revenues generated from\nan assessment on cable television companies (Part V); relates to the employment\nof officials at harness race meetings and reimbursement by licensed racing\ncorporations to the state racing and wagering board for the per diem cost of\nsuch employees (Part Y); relates to the recovery of state governmental costs\nfrom public authorities and public benefit corporations (Part AA); authorizes\nthe dormitory authority to enter into certain design and construction\nmanagement agreements; provides for the repeal of such provisions upon the\nexpiration thereof (Part BB); relates to on-bill recovery mechanism for the\n\"green jobs-green New York\" program (Part DD); relates to the use of ultra low\nsulfur diesel fuel and best available technology by the State (Part EE);\ndirects the commissioner of environmental conservation to create gift cards for\nhunting and fishing licenses (Part FF); enacts the western New York power\nproceeds allocation act; repeals chapter 436 of the laws of 2010, relating to\nauthorizing unallocated expansion or replacement power to be allocated for\nwestern New York economic development fund benefits (Part GG); relates to\ninfrastructure investment (Part HH); relates to regional off-track betting\ncorporations and provides for the repeal of certain provisions upon expiration\nthereof (Part II).", 
     "title": "Enacts major components of legislation necessary to implement the transportation, economic development and environmental conservation budget for 2012-2013", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-20 06:02:29", 
+    "updated_at": "2012-10-16 18:11:52", 
     "versions": [
         {
-            "doc_id": "NYD00010259", 
+            "doc_id": "NYD00104490", 
             "mimetype": "text/html", 
             "name": "A9058", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A9058-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9058"
+        }, 
+        {
+            "doc_id": "NYD00104491", 
+            "mimetype": "text/html", 
+            "name": "A9058", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9058-2011"
+        }, 
+        {
+            "doc_id": "NYD00104492", 
+            "mimetype": "text/html", 
+            "name": "A9058A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9058A-2011"
+        }, 
+        {
+            "doc_id": "NYD00104493", 
+            "mimetype": "text/html", 
+            "name": "A9058B", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9058B-2011"
+        }, 
+        {
+            "doc_id": "NYD00104494", 
+            "mimetype": "text/html", 
+            "name": "A9058C", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9058C-2011"
+        }, 
+        {
+            "doc_id": "NYD00104495", 
+            "mimetype": "text/html", 
+            "name": "A9058D", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9058D-2011"
         }
     ], 
     "votes": []

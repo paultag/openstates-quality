@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-01-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -20,9 +26,16 @@
     "alternate_titles": [], 
     "bill_id": "S 2284", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:24", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00062005", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2284-2011"
+        }
+    ], 
     "id": "NYB00002350", 
     "level": "state", 
     "scraped_subjects": [
@@ -31,7 +44,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=137"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2284&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2284&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S2284-2011"
@@ -41,6 +57,7 @@
         {
             "leg_id": "NYL000029", 
             "name": "KRUGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -48,17 +65,24 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Provides that except in accordance with proper judicial order, or proper\nintergovernmental use, or as otherwise provided by law, it shall be unlawful\nfor the commissioner of housing, the supervising agency, housing companies, and\ntheir officers and agents or any person who is permitted to inspect any\napplication for admission or income report submitted during occupancy for\nsurcharge purposes for a limited profit housing company, submitted in\naccordance with certain provisions of the private housing finance law relating\nto rentals and the selection of tenants, to divulge or make known in any manner\nthe contents of such application or report; imposes fine not to exceed two\nhundred fifty dollars.", 
     "title": "Directs the confidentiality of income information contained in application or reporting for surcharge purposes for limited-profit housing companies", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-04 06:26:43", 
+    "updated_at": "2012-10-16 18:02:13", 
     "versions": [
         {
-            "doc_id": "NYD00016011", 
+            "doc_id": "NYD00062003", 
             "mimetype": "text/html", 
             "name": "S2284", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S2284-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2284"
+        }, 
+        {
+            "doc_id": "NYD00062004", 
+            "mimetype": "text/html", 
+            "name": "S2284", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2284-2011"
         }
     ], 
     "votes": []

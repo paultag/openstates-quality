@@ -1,20 +1,25 @@
 {
     "+companion_bill_ids": [], 
     "action_dates": {
-        "first": "2012-05-02 00:00:00", 
-        "last": "2012-06-19 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
-        "signed": null
+        "first": "2012-04-18 00:00:00", 
+        "last": "2012-08-01 00:00:00", 
+        "passed_lower": "2012-06-14 00:00:00", 
+        "passed_upper": "2012-06-19 00:00:00", 
+        "signed": "2012-08-01 00:00:00"
     }, 
     "actions": [
         {
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -22,37 +27,58 @@
             "action": "AMEND AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "7278"
+            ], 
             "action": "PRINT NUMBER 7278A", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "REPORTED AND COMMITTED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-06-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2012-06-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
@@ -65,6 +91,9 @@
             ]
         }, 
         {
+            "+bill_id": [
+                "A9843"
+            ], 
             "action": "SUBSTITUTED BY A9843A", 
             "actor": "upper", 
             "date": "2012-06-19 00:00:00", 
@@ -72,14 +101,221 @@
             "type": [
                 "other"
             ]
+        }, 
+        {
+            "action": "referred to housing", 
+            "actor": "lower", 
+            "date": "2012-04-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to housing", 
+            "actor": "lower", 
+            "date": "2012-05-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "9843"
+            ], 
+            "action": "print number 9843a", 
+            "actor": "lower", 
+            "date": "2012-05-02 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "reported referred to ways and means", 
+            "actor": "lower", 
+            "date": "2012-05-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported referred to rules", 
+            "actor": "lower", 
+            "date": "2012-06-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported ", 
+            "actor": "lower", 
+            "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "rules report cal.119", 
+            "actor": "lower", 
+            "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "ordered to third reading rules cal.119", 
+            "actor": "lower", 
+            "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "passed assembly", 
+            "actor": "lower", 
+            "date": "2012-06-14 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "delivered to senate", 
+            "actor": "lower", 
+            "date": "2012-06-14 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "REFERRED TO RULES", 
+            "actor": "upper", 
+            "date": "2012-06-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "SUBSTITUTED FOR S7278A", 
+            "actor": "upper", 
+            "date": "2012-06-19 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "3RD READING CAL.1367", 
+            "actor": "upper", 
+            "date": "2012-06-19 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "PASSED SENATE", 
+            "actor": "upper", 
+            "date": "2012-06-19 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NYV00008503"
+            ], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "RETURNED TO ASSEMBLY", 
+            "actor": "upper", 
+            "date": "2012-06-19 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "delivered to governor", 
+            "actor": "lower", 
+            "date": "2012-07-20 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:received"
+            ]
+        }, 
+        {
+            "+session_laws": [
+                "295"
+            ], 
+            "action": "signed chap.295", 
+            "actor": "lower", 
+            "date": "2012-08-01 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:signed"
+            ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 7278", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 9843", 
+            "chamber": null, 
+            "internal_id": "NYB00025414", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-05-03 01:08:46", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00069259", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S7278A-2011"
+        }
+    ], 
     "id": "NYB00024826", 
     "level": "state", 
     "scraped_subjects": [
@@ -88,17 +324,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=488"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S7278&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S7278-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S7278&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S7278A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S7278A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000061", 
             "name": "YOUNG", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -106,293 +348,211 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Relates to funding of contracts of neighborhood preservation companies and\nnot-for-profit corporations.", 
     "title": "Relates to funding of contracts of neighborhood preservation companies and not-for-profit corporations", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-28 02:49:53", 
+    "updated_at": "2012-10-16 18:04:08", 
     "versions": [
         {
-            "doc_id": "NYD00037285", 
+            "doc_id": "NYD00069258", 
             "mimetype": "text/html", 
             "name": "S7278", 
-            "url": "http://open.nysenate.gov/legislation/bill/S7278-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S7278"
         }, 
         {
             "doc_id": "NYD00037286", 
             "mimetype": "text/html", 
             "name": "S7278A", 
             "url": "http://open.nysenate.gov/legislation/bill/S7278A-2011"
+        }, 
+        {
+            "doc_id": "NYD00037285", 
+            "mimetype": "text/html", 
+            "name": "S7278", 
+            "url": "http://open.nysenate.gov/legislation/bill/S7278-2011"
         }
     ], 
     "votes": [
         {
             "bill_id": "NYB00024826", 
             "chamber": "upper", 
-            "date": "2012-06-20 00:00:00", 
-            "id": "NYV00002339", 
-            "motion": "Floor Vote", 
-            "no_count": 2, 
-            "no_votes": [
-                {
-                    "leg_id": "NYL000012", 
-                    "name": "Duane"
-                }, 
-                {
-                    "leg_id": "NYL000032", 
-                    "name": "LaValle"
-                }
-            ], 
-            "other_count": 2, 
-            "other_votes": [
-                {
-                    "leg_id": "NYL000013", 
-                    "name": "Espaillat"
-                }, 
-                {
-                    "leg_id": "NYL000024", 
-                    "name": "Huntley"
-                }
-            ], 
+            "date": "2012-06-04 00:00:00", 
+            "id": "NYV00008502", 
+            "motion": "Housing, Construction and Community Development Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
             "passed": true, 
             "session": "2011-2012", 
-            "sources": [], 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S7278A-2011"
+                }
+            ], 
             "state": "ny", 
             "type": "other", 
-            "vote_id": "NYV00002339", 
-            "yes_count": 58, 
+            "vote_id": "NYV00008502", 
+            "yes_count": 8, 
             "yes_votes": [
                 {
-                    "leg_id": "NYL000001", 
-                    "name": "Adams"
-                }, 
-                {
-                    "leg_id": "NYL000002", 
-                    "name": "Addabbo"
-                }, 
-                {
-                    "leg_id": "NYL000003", 
-                    "name": "Alesi"
-                }, 
-                {
-                    "leg_id": "NYL000004", 
-                    "name": "Avella"
-                }, 
-                {
-                    "leg_id": "NYL000005", 
-                    "name": "Ball"
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
                 }, 
                 {
                     "leg_id": "NYL000006", 
                     "name": "Bonacic"
                 }, 
                 {
-                    "leg_id": "NYL000007", 
-                    "name": "Breslin"
-                }, 
-                {
-                    "leg_id": "NYL000008", 
-                    "name": "Carlucci"
-                }, 
-                {
-                    "leg_id": "NYL000009", 
-                    "name": "DeFrancisco"
-                }, 
-                {
-                    "leg_id": "NYL000010", 
-                    "name": "Diaz"
-                }, 
-                {
-                    "leg_id": "NYL000011", 
-                    "name": "Dilan"
-                }, 
-                {
-                    "leg_id": "NYL000014", 
-                    "name": "Farley"
-                }, 
-                {
-                    "leg_id": "NYL000015", 
-                    "name": "Flanagan"
-                }, 
-                {
-                    "leg_id": "NYL000016", 
-                    "name": "Fuschillo"
-                }, 
-                {
                     "leg_id": "NYL000017", 
                     "name": "Gallivan"
-                }, 
-                {
-                    "leg_id": "NYL000018", 
-                    "name": "Gianaris"
-                }, 
-                {
-                    "leg_id": "NYL000019", 
-                    "name": "Golden"
-                }, 
-                {
-                    "leg_id": "NYL000020", 
-                    "name": "Griffo"
                 }, 
                 {
                     "leg_id": "NYL000021", 
                     "name": "Grisanti"
                 }, 
                 {
-                    "leg_id": "NYL000022", 
-                    "name": "Hannon"
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
                 }, 
                 {
-                    "leg_id": null, 
-                    "name": "Hassell-Thomps"
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }
+            ]
+        }, 
+        {
+            "bill_id": "NYB00024826", 
+            "chamber": "upper", 
+            "date": "2012-06-19 00:00:00", 
+            "id": "NYV00008503", 
+            "motion": "Rules Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NYL000003", 
+                    "name": "Alesi"
+                }
+            ], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S7278A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00008503", 
+            "yes_count": 24, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000055", 
+                    "name": "Skelos"
+                }, 
+                {
+                    "leg_id": "NYL000014", 
+                    "name": "Farley"
+                }, 
+                {
+                    "leg_id": "NYL000016", 
+                    "name": "Fuschillo"
+                }, 
+                {
+                    "leg_id": "NYL000022", 
+                    "name": "Hannon"
                 }, 
                 {
                     "leg_id": "NYL000025", 
                     "name": "Johnson"
                 }, 
                 {
-                    "leg_id": "NYL000026", 
-                    "name": "Kennedy"
-                }, 
-                {
-                    "leg_id": "NYL000027", 
-                    "name": "Klein"
-                }, 
-                {
-                    "leg_id": "NYL000028", 
-                    "name": "Krueger"
-                }, 
-                {
-                    "leg_id": "NYL000030", 
-                    "name": "Lanza"
-                }, 
-                {
                     "leg_id": "NYL000031", 
                     "name": "Larkin"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
                 }, 
                 {
                     "leg_id": "NYL000033", 
                     "name": "Libous"
                 }, 
                 {
-                    "leg_id": "NYL000034", 
-                    "name": "Little"
-                }, 
-                {
                     "leg_id": "NYL000035", 
                     "name": "Marcellino"
-                }, 
-                {
-                    "leg_id": "NYL000036", 
-                    "name": "Martins"
                 }, 
                 {
                     "leg_id": "NYL000037", 
                     "name": "Maziarz"
                 }, 
                 {
-                    "leg_id": "NYL000038", 
-                    "name": "McDonald"
-                }, 
-                {
-                    "leg_id": "NYL000039", 
-                    "name": "Montgomery"
-                }, 
-                {
                     "leg_id": "NYL000040", 
                     "name": "Nozzolio"
-                }, 
-                {
-                    "leg_id": "NYL000041", 
-                    "name": "O'Mara"
-                }, 
-                {
-                    "leg_id": "NYL000042", 
-                    "name": "Oppenheimer"
-                }, 
-                {
-                    "leg_id": "NYL000043", 
-                    "name": "Parker"
-                }, 
-                {
-                    "leg_id": "NYL000044", 
-                    "name": "Peralta"
-                }, 
-                {
-                    "leg_id": "NYL000045", 
-                    "name": "Perkins"
-                }, 
-                {
-                    "leg_id": "NYL000046", 
-                    "name": "Ranzenhofer"
-                }, 
-                {
-                    "leg_id": "NYL000047", 
-                    "name": "Ritchie"
-                }, 
-                {
-                    "leg_id": "NYL000048", 
-                    "name": "Rivera"
-                }, 
-                {
-                    "leg_id": "NYL000049", 
-                    "name": "Robach"
                 }, 
                 {
                     "leg_id": "NYL000050", 
                     "name": "Saland"
                 }, 
                 {
-                    "leg_id": "NYL000051", 
-                    "name": "Sampson"
-                }, 
-                {
-                    "leg_id": "NYL000052", 
-                    "name": "Savino"
-                }, 
-                {
-                    "leg_id": "NYL000053", 
-                    "name": "Serrano"
-                }, 
-                {
                     "leg_id": "NYL000054", 
                     "name": "Seward"
                 }, 
                 {
-                    "leg_id": "NYL000055", 
-                    "name": "Skelos"
+                    "leg_id": "NYL000051", 
+                    "name": "Sampson"
+                }, 
+                {
+                    "leg_id": "NYL000007", 
+                    "name": "Breslin"
+                }, 
+                {
+                    "leg_id": "NYL000011", 
+                    "name": "Dilan"
+                }, 
+                {
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
+                }, 
+                {
+                    "leg_id": "NYL000023", 
+                    "name": "Hassell-Thompson"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }, 
+                {
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
                 }, 
                 {
                     "leg_id": "NYL000056", 
                     "name": "Smith"
                 }, 
                 {
-                    "leg_id": "NYL000057", 
-                    "name": "Squadron"
-                }, 
-                {
-                    "leg_id": "NYL000058", 
-                    "name": "Stavisky"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Stewart-Cousin"
-                }, 
-                {
-                    "leg_id": "NYL000224", 
-                    "name": "Storobin"
-                }, 
-                {
-                    "leg_id": "NYL000060", 
-                    "name": "Valesky"
-                }, 
-                {
-                    "leg_id": "NYL000061", 
-                    "name": "Young"
-                }, 
-                {
-                    "leg_id": "NYL000062", 
-                    "name": "Zeldin"
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
                 }
             ]
         }

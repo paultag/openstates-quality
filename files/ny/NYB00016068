@@ -12,25 +12,53 @@
             "action": "referred to transportation", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000074", 
+                    "name": "transportation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to transportation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000074", 
+                    "name": "transportation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7614", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1622", 
+            "chamber": null, 
+            "internal_id": "NYB00001680", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-16 21:06:12", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091700", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7614&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00016068", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=986"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7614&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7614&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7614-2011"
@@ -49,6 +80,7 @@
         {
             "leg_id": "NYL000109", 
             "name": "Gantt", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,12 +88,19 @@
     "subjects": [
         "Transportation"
     ], 
+    "summary": "Makes it unlawful for any commercial operator of a motor vehicle to transport\nloose substances in an open vehicle without the use of a proper restraint\nmechanism, as approved by the commissioner of motor vehicles.", 
     "title": "Makes it unlawful for any commercial operator of a motor vehicle to transport loose substances in an open vehicle without proper restraints", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-27 21:39:45", 
+    "updated_at": "2012-10-16 18:08:29", 
     "versions": [
+        {
+            "doc_id": "NYD00091699", 
+            "mimetype": "text/html", 
+            "name": "A7614", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7614"
+        }, 
         {
             "doc_id": "NYD00034054", 
             "mimetype": "text/html", 

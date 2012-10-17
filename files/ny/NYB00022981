@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2012-03-07 00:00:00", 
-        "last": "2012-04-17 00:00:00", 
+        "last": "2012-06-18 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,33 +11,124 @@
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to economic development", 
             "actor": "lower", 
             "date": "2012-04-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "9505"
+            ], 
             "action": "print number 9505a", 
             "actor": "lower", 
             "date": "2012-04-17 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "reported referred to codes", 
+            "actor": "lower", 
+            "date": "2012-06-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "amend (t) and recommit to codes", 
+            "actor": "lower", 
+            "date": "2012-06-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "9505"
+            ], 
+            "action": "print number 9505b", 
+            "actor": "lower", 
+            "date": "2012-06-15 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "reported referred to rules", 
+            "actor": "lower", 
+            "date": "2012-06-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 9505", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 6909", 
+            "chamber": null, 
+            "internal_id": "NYB00024537", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-03-20 20:50:45", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00082653", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9505&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00022981", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,16 +137,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1081"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9505&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A9505-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9505&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9505B&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A9505B-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000179", 
             "name": "Reilly", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -63,12 +161,19 @@
     "subjects": [
         "Drugs"
     ], 
+    "summary": "Relates to off-premises beer and wine product sales in premises licensed for\non-premises consumption.", 
     "title": "Relates to off-premises beer and wine product sales in premises licensed for on-premises consumption", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-12 01:11:32", 
+    "updated_at": "2012-10-16 18:06:05", 
     "versions": [
+        {
+            "doc_id": "NYD00082651", 
+            "mimetype": "text/html", 
+            "name": "A9505", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9505"
+        }, 
         {
             "doc_id": "NYD00036339", 
             "mimetype": "text/html", 
@@ -80,6 +185,12 @@
             "mimetype": "text/html", 
             "name": "A9505A", 
             "url": "http://open.nysenate.gov/legislation/bill/A9505A-2011"
+        }, 
+        {
+            "doc_id": "NYD00082652", 
+            "mimetype": "text/html", 
+            "name": "A9505B", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9505B-2011"
         }
     ], 
     "votes": []

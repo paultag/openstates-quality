@@ -14,25 +14,53 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-03-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 6410", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2727", 
+            "chamber": null, 
+            "internal_id": "NYB00002820", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:16", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00084300", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6410&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013913", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=887"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6410&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6410&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6410-2011"
@@ -51,6 +82,7 @@
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -58,12 +90,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Provides that a rent reduction made pursuant to the rent stabilization law of\n1969 and based upon a reduction in services provided by a landlord shall be\nretroactive to the date occurring 30 days after the date upon which the tenant\napplied to the division of housing and community renewal for such a reduction.", 
     "title": "Allows retroactively to apply the rent reduction based upon failure to maintain services for accommodations regulated by the rent stabilization law", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-13 01:11:51", 
+    "updated_at": "2012-10-16 18:06:33", 
     "versions": [
+        {
+            "doc_id": "NYD00084299", 
+            "mimetype": "text/html", 
+            "name": "A6410", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6410"
+        }, 
         {
             "doc_id": "NYD00038212", 
             "mimetype": "text/html", 

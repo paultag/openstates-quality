@@ -11,8 +11,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,23 @@
     "alternate_titles": [], 
     "bill_id": "S 540", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 4922", 
+            "chamber": null, 
+            "internal_id": "NYB00012345", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:17", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00064978", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S540-2011"
+        }
+    ], 
     "id": "NYB00000543", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=33"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S540&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S540&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S540-2011"
@@ -49,24 +79,56 @@
         {
             "leg_id": "NYL000027", 
             "name": "KLEIN", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000011", 
+            "name": "DILAN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000028", 
+            "name": "KRUEGER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000043", 
+            "name": "PARKER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000051", 
+            "name": "SAMPSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Provides that the department of agriculture and markets must order a retail\nfood store failing three consecutive sanitary inspections to cease retail\noperations or suspend or revoke its license until it passes inspection; also\nprovides for a five hundred dollar fine for stores failing to post inspection\nreports or make copies available to the public upon request.", 
     "title": "Provides that the department of agriculture and markets must order a retail food store failing inspection to cease operations or suspend or revoke its license", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-03 06:20:03", 
+    "updated_at": "2012-10-16 18:03:00", 
     "versions": [
         {
-            "doc_id": "NYD00020582", 
+            "doc_id": "NYD00064976", 
             "mimetype": "text/html", 
             "name": "S540", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S540-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S540"
+        }, 
+        {
+            "doc_id": "NYD00064977", 
+            "mimetype": "text/html", 
+            "name": "S540", 
+            "url": "http://open.nysenate.gov/legislation/bill/S540-2011"
         }
     ], 
     "votes": []

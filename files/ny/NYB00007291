@@ -12,27 +12,46 @@
             "action": "referred to labor", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000063", 
+                    "name": "labor", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to labor", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000063", 
+                    "name": "labor", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 91", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:49", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00081892", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A91&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007291", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=526"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A91&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A91&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A91-2011"
@@ -51,6 +73,7 @@
         {
             "leg_id": "NYL000081", 
             "name": "Cahill", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -58,12 +81,19 @@
     "subjects": [
         "Labor and Employment"
     ], 
+    "summary": "Enacts the Telework 2011 Act; provides for a task force and demonstration\nprogram on teleworking to study the benefits and other impacts thereof;\nprovides that the task force shall consist of departments of environmental\nconservation, transportation, and civil service, the workers' compensation\nboard, the office of general services, and the office of advocate for persons\nwith disabilities, and legislative liaisons; authorizes the following five\nstate agencies to participate in a demonstration program: the departments of\nbanking, health, insurance, transportation and the division of housing and\ncommunity renewal; provides that after 18 months, the task force shall report\nits finding and recommendations on teleworking to the governor and the\nlegislature.", 
     "title": "Provides for a task force and demonstration program on teleworking to study the benefits and other impacts thereof", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 02:25:50", 
+    "updated_at": "2012-10-16 18:05:57", 
     "versions": [
+        {
+            "doc_id": "NYD00081891", 
+            "mimetype": "text/html", 
+            "name": "A91", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A91"
+        }, 
         {
             "doc_id": "NYD00039264", 
             "mimetype": "text/html", 

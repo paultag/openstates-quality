@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-26 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-09-04 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,14 +11,37 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "enacting clause stricken", 
+            "actor": "lower", 
+            "date": "2012-09-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,9 +50,16 @@
     "alternate_titles": [], 
     "bill_id": "A 3716", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:04", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00093308", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3716&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011071", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +68,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=693"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3716&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3716&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3716-2011"
@@ -48,24 +81,98 @@
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000170", 
+            "name": "Peoples-Stokes", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000167", 
+            "name": "Ortiz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000088", 
+            "name": "Clark", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000116", 
+            "name": "Gunther", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000124", 
+            "name": "Hoyt", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000139", 
+            "name": "Lifton", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Requires all seeds that are or include genetically engineered organisms to be\nlabeled \"These are genetically engineered seeds\", and include labeling on the\nidentity of the relevant traits and characteristics introduced into such seed,\nany requirements for the safe handling, storage, transport and use of the seed,\nthe name, address and telephone number of the manufacturer of the seed and the\nperson who labeled, sells, offers for sale or exposes such seed for sale.", 
     "title": "Requires all seeds that are or include genetically engineered organisms to be labeled as such", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-19 01:04:23", 
+    "updated_at": "2012-10-16 18:08:56", 
     "versions": [
         {
-            "doc_id": "NYD00003368", 
+            "doc_id": "NYD00093306", 
             "mimetype": "text/html", 
             "name": "A3716", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A3716-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3716"
+        }, 
+        {
+            "doc_id": "NYD00093307", 
+            "mimetype": "text/html", 
+            "name": "A3716", 
+            "url": "http://open.nysenate.gov/legislation/bill/A3716-2011"
         }
     ], 
     "votes": []

@@ -14,8 +14,14 @@
             "action": "REFERRED TO CRIME VICTIMS, CRIME AND CORRECTION", 
             "actor": "upper", 
             "date": "2011-06-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000012", 
+                    "name": "CRIME VICTIMS, CRIME AND CORRECTION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,7 @@
             "action": "1ST REPORT CAL.1127", 
             "actor": "upper", 
             "date": "2011-06-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -31,14 +38,16 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -47,6 +56,10 @@
             "action": "PASSED SENATE", 
             "actor": "upper", 
             "date": "2011-06-15 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NYV00000794"
+            ], 
             "type": [
                 "bill:passed"
             ]
@@ -55,30 +68,40 @@
             "action": "DELIVERED TO ASSEMBLY", 
             "actor": "upper", 
             "date": "2011-06-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
             "action": "referred to codes", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2011-06-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "died in assembly", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
             "action": "returned to senate", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -87,6 +110,13 @@
             "action": "REFERRED TO CRIME VICTIMS, CRIME AND CORRECTION", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000012", 
+                    "name": "CRIME VICTIMS, CRIME AND CORRECTION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -95,17 +125,38 @@
             "action": "REPORTED AND COMMITTED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 5565", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 8450", 
+            "chamber": null, 
+            "internal_id": "NYB00019310", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-03 06:39:56", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00062792", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5565-2011"
+        }
+    ], 
     "id": "NYB00017544", 
     "level": "state", 
     "scraped_subjects": [
@@ -114,7 +165,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=377"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5565&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5565&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S5565-2011"
@@ -124,19 +178,87 @@
         {
             "leg_id": "NYL000061", 
             "name": "YOUNG", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000037", 
+            "name": "MAZIARZ", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000009", 
+            "name": "DEFRANCISCO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000014", 
+            "name": "FARLEY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000017", 
+            "name": "GALLIVAN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000019", 
+            "name": "GOLDEN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000031", 
+            "name": "LARKIN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000033", 
+            "name": "LIBOUS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000040", 
+            "name": "NOZZOLIO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000046", 
+            "name": "RANZENHOFER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000054", 
+            "name": "SEWARD", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Enacts \"Renee's Law\"; directs the commissioner of children and family services\nto provide training to all employees of programs and facilities in which youth\nare placed or committed; grants access to office of children and family service\nrecords, juvenile delinquency records, youthful offender records and juvenile\noffender records of youth placed or committed to a facility, to staff members\nand employees who are exposed to such youth and to foster parents who take\ncustody of such person after his or her release; grants courts and attorneys\naccess to such records in any proceeding for the commission of a crime while a\nyouth is in the custody of the office of children and family services;\nprohibits the release, discharge or transfer of any youth who has engaged in\ncriminal activity while in custody; requires the reporting to law enforcement\nauthorities of criminal activity by a youth in the custody of the office of\nchildren and family services; requires a police officer to escort an employee\nsent to find a youth who is absent without authorization.", 
     "title": "Enacts \"Renee's law\" to provide greater protection and disclosure to employees of facilities where juvenile delinquents and youthful offenders are placed", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-16 01:15:32", 
+    "updated_at": "2012-10-16 18:02:25", 
     "versions": [
+        {
+            "doc_id": "NYD00062791", 
+            "mimetype": "text/html", 
+            "name": "S5565", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5565"
+        }, 
         {
             "doc_id": "NYD00030472", 
             "mimetype": "text/html", 
@@ -146,6 +268,169 @@
     ], 
     "votes": [
         {
+            "bill_id": "NYB00017544", 
+            "chamber": "upper", 
+            "date": "2011-06-07 00:00:00", 
+            "id": "NYV00006801", 
+            "motion": "Crime Victims, Crime and Correction Committee Vote", 
+            "no_count": 2, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000023", 
+                    "name": "Hassell-Thompson"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5565-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00006801", 
+            "yes_count": 12, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000009", 
+                    "name": "DeFrancisco"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }, 
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000048", 
+                    "name": "Rivera"
+                }, 
+                {
+                    "leg_id": "NYL000029", 
+                    "name": "Kruger"
+                }, 
+                {
+                    "leg_id": "NYL000044", 
+                    "name": "Peralta"
+                }
+            ]
+        }, 
+        {
+            "bill_id": "NYB00017544", 
+            "chamber": "upper", 
+            "date": "2012-05-01 00:00:00", 
+            "id": "NYV00006802", 
+            "motion": "Crime Victims, Crime and Correction Committee Vote", 
+            "no_count": 2, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000023", 
+                    "name": "Hassell-Thompson"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5565-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00006802", 
+            "yes_count": 12, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000009", 
+                    "name": "DeFrancisco"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }, 
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000048", 
+                    "name": "Rivera"
+                }, 
+                {
+                    "leg_id": "NYL000044", 
+                    "name": "Peralta"
+                }, 
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }
+            ]
+        }, 
+        {
+            "+actual_vote": {}, 
             "bill_id": "NYB00017544", 
             "chamber": "upper", 
             "date": "2011-06-15 00:00:00", 
@@ -159,7 +444,7 @@
                 }, 
                 {
                     "leg_id": "NYL000023", 
-                    "name": "Hassell-Thompson"
+                    "name": "Hassell-Thomps"
                 }, 
                 {
                     "leg_id": "NYL000039", 
@@ -174,7 +459,11 @@
             "other_votes": [], 
             "passed": true, 
             "session": "2011-2012", 
-            "sources": [], 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5565-2011"
+                }
+            ], 
             "state": "ny", 
             "type": "other", 
             "vote_id": "NYV00000794", 
@@ -398,7 +687,7 @@
                 }, 
                 {
                     "leg_id": "NYL000059", 
-                    "name": "Stewart-Cousins"
+                    "name": "Stewart-Cousin"
                 }, 
                 {
                     "leg_id": "NYL000060", 

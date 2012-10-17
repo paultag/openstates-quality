@@ -12,27 +12,46 @@
             "action": "referred to insurance", 
             "actor": "lower", 
             "date": "2011-06-09 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000061", 
+                    "name": "insurance", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to insurance", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000061", 
+                    "name": "insurance", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 8257", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-06-10 07:39:24", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00092506", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8257&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00018275", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1031"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8257&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8257&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8257-2011"
@@ -51,6 +73,7 @@
         {
             "leg_id": "NYL000161", 
             "name": "Morelle", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -58,12 +81,19 @@
     "subjects": [
         "Insurance"
     ], 
+    "summary": "Authorizes a trust that has been issued an experience rated group insurance\npolicy to accept certain community rated employers without affecting the\nexperience rated status of the trust.", 
     "title": "Authorizes a trust that has been issued an experience rated group insurance policy to accept certain community rated employers", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 02:25:53", 
+    "updated_at": "2012-10-16 18:08:48", 
     "versions": [
+        {
+            "doc_id": "NYD00092505", 
+            "mimetype": "text/html", 
+            "name": "A8257", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8257"
+        }, 
         {
             "doc_id": "NYD00043037", 
             "mimetype": "text/html", 

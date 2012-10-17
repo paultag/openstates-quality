@@ -11,33 +11,61 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in housing", 
             "actor": "lower", 
             "date": "2012-05-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 2737", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:00", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00095282", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2737&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010055", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=631"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2737&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2737&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2737-2011"
@@ -56,6 +87,7 @@
         {
             "leg_id": "NYL000105", 
             "name": "Fitzpatrick", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -63,17 +95,24 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Relates to the de-regulation of rent-stabilized housing accommodations;\neliminates rent regulation for any regulated housing accommodation that becomes\nvacant on or after June 16, 2012; makes exceptions.", 
     "title": "Provides for the de-regulation of rent-stabilized housing accommodations", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-11 01:14:28", 
+    "updated_at": "2012-10-16 18:09:18", 
     "versions": [
         {
-            "doc_id": "NYD00002152", 
+            "doc_id": "NYD00095280", 
             "mimetype": "text/html", 
             "name": "A2737", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A2737-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2737"
+        }, 
+        {
+            "doc_id": "NYD00095281", 
+            "mimetype": "text/html", 
+            "name": "A2737", 
+            "url": "http://open.nysenate.gov/legislation/bill/A2737-2011"
         }
     ], 
     "votes": []

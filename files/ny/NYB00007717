@@ -11,7 +11,13 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -29,7 +41,13 @@
             "action": "held for consideration in ways and means", 
             "actor": "lower", 
             "date": "2012-06-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:failed"
             ]
@@ -43,9 +61,9 @@
     "created_at": "2011-05-05 01:29:50", 
     "documents": [
         {
-            "doc_id": "NYD00048371", 
+            "doc_id": "NYD00097373", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A484&term=&Memo=Y"
         }
     ], 
     "id": "NYB00007717", 
@@ -56,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=553"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A484&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A484&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A484-2011"
@@ -66,19 +87,19 @@
         {
             "leg_id": "NYL000138", 
             "name": "Lentol", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000152", 
-            "name": "McEneny", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000158", 
             "name": "Millman", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -86,12 +107,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Creates the rescued animals spray and neuter fund; authorizes the department of\ntaxation and finance to place a check-off box on income tax returns for\ntaxpayers to contribute money to the fund.", 
     "title": "Creates the rescued animals spay and neuter fund", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-26 10:06:00", 
+    "updated_at": "2012-10-16 18:09:56", 
     "versions": [
+        {
+            "doc_id": "NYD00097372", 
+            "mimetype": "text/html", 
+            "name": "A484", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A484"
+        }, 
         {
             "doc_id": "NYD00047688", 
             "mimetype": "text/html", 

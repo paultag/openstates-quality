@@ -14,8 +14,14 @@
             "action": "REFERRED TO RULES", 
             "actor": "upper", 
             "date": "2012-06-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -23,9 +29,23 @@
     "alternate_titles": [], 
     "bill_id": "S 7591", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 10348", 
+            "chamber": null, 
+            "internal_id": "NYB00028007", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-06-13 01:11:32", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00067250", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S7591-2011"
+        }
+    ], 
     "id": "NYB00026812", 
     "level": "state", 
     "scraped_subjects": [
@@ -34,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=508"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S7591&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S7591&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S7591-2011"
@@ -42,8 +65,10 @@
     ], 
     "sponsors": [
         {
+            "committee_id": "NYC000030", 
             "leg_id": null, 
-            "name": "RULES COM", 
+            "name": "RULES", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -52,12 +77,19 @@
         "Judiciary", 
         "Family and Children Issues"
     ], 
+    "summary": "Relates to permanency planning in juvenile deliquency and persons in need of\nsupervision proceedings.", 
     "title": "Relates to permanency planning in juvenile delinquent and persons in need of supervision proceedings", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-27 21:39:37", 
+    "updated_at": "2012-10-16 18:03:33", 
     "versions": [
+        {
+            "doc_id": "NYD00067249", 
+            "mimetype": "text/html", 
+            "name": "S7591", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S7591"
+        }, 
         {
             "doc_id": "NYD00038050", 
             "mimetype": "text/html", 

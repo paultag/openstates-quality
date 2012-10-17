@@ -12,7 +12,13 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-01-24 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -42,7 +48,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:41", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00071337", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J310-2011"
+        }
+    ], 
     "id": "NYB00005884", 
     "level": "state", 
     "scraped_subjects": [
@@ -51,7 +63,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1221"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J310&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J310&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J310-2011"
@@ -61,19 +76,19 @@
         {
             "leg_id": "NYL000060", 
             "name": "VALESKY", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000033", 
             "name": "LIBOUS", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000054", 
             "name": "SEWARD", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -81,12 +96,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Honoring outgoing President Raymond Cross, Ph.D. after many years of distinguished service to Morrisville State College", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-20 10:06:27", 
+    "updated_at": "2012-10-16 18:04:23", 
     "versions": [
+        {
+            "doc_id": "NYD00071336", 
+            "mimetype": "text/html", 
+            "name": "J310", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J310"
+        }, 
         {
             "doc_id": "NYD00027903", 
             "mimetype": "text/html", 

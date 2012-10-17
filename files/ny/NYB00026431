@@ -4,7 +4,7 @@
     ], 
     "action_dates": {
         "first": "2012-05-31 00:00:00", 
-        "last": "2012-05-31 00:00:00", 
+        "last": "2012-06-18 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -14,17 +14,107 @@
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported referred to ways and means", 
+            "actor": "lower", 
+            "date": "2012-06-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported referred to rules", 
+            "actor": "lower", 
+            "date": "2012-06-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported ", 
+            "actor": "lower", 
+            "date": "2012-06-14 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "rules report cal.264", 
+            "actor": "lower", 
+            "date": "2012-06-14 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "ordered to third reading rules cal.264", 
+            "actor": "lower", 
+            "date": "2012-06-14 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "s7405"
+            ], 
+            "action": "substituted by s7405", 
+            "actor": "lower", 
+            "date": "2012-06-18 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 10516", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 7405", 
+            "chamber": null, 
+            "internal_id": "NYB00028432", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-06-01 01:07:41", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096259", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10516&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00026431", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +123,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1121"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10516&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10516&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A10516-2011"
@@ -41,19 +134,36 @@
     ], 
     "sponsors": [
         {
+            "chamber": "lower", 
+            "committee_id": "NYC000070", 
             "leg_id": null, 
-            "name": "RULES COM Cahill", 
+            "name": "Rules Committee", 
+            "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000081", 
+            "name": "Cahill", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
     "state": "ny", 
-    "subjects": [], 
+    "subjects": [
+        "Municipal and County Issues"
+    ], 
+    "summary": "Authorizes the commissioner of general services to convey certain state lands\nin the city of Kingston to the county of Ulster for $1, to be used for\ntransitional housing for veterans and provision of other assistance to\nveterans.", 
     "title": "Authorizes the commissioner of general services to convey certain state lands in the city of Kingston to the county of Ulster for $1", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-01 01:07:41", 
+    "updated_at": "2012-10-16 18:09:30", 
     "versions": [
+        {
+            "doc_id": "NYD00096258", 
+            "mimetype": "text/html", 
+            "name": "A10516", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10516"
+        }, 
         {
             "doc_id": "NYD00034981", 
             "mimetype": "text/html", 

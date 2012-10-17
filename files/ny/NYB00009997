@@ -11,33 +11,61 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in housing", 
             "actor": "lower", 
             "date": "2012-05-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 2680", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:59", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00081877", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2680&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009997", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=633"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2680&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2680&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2680-2011"
@@ -56,6 +87,7 @@
         {
             "leg_id": "NYL000105", 
             "name": "Fitzpatrick", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -63,17 +95,24 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Authorizes state of New York mortgage agency to purchase labor organization\nassisted forward commitment mortgages from banks; sets criteria for labor\norganization participation; requires them to guarantee up to twenty percent of\noutstanding indebtedness.", 
     "title": "Authorizes state of New York mortgage agency to purchase labor organization assisted forward commitment mortgages from banks", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-17 01:11:39", 
+    "updated_at": "2012-10-16 18:05:57", 
     "versions": [
         {
-            "doc_id": "NYD00002086", 
+            "doc_id": "NYD00081875", 
             "mimetype": "text/html", 
             "name": "A2680", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A2680-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2680"
+        }, 
+        {
+            "doc_id": "NYD00081876", 
+            "mimetype": "text/html", 
+            "name": "A2680", 
+            "url": "http://open.nysenate.gov/legislation/bill/A2680-2011"
         }
     ], 
     "votes": []

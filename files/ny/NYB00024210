@@ -11,7 +11,13 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-04-13 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "held for consideration in ways and means", 
             "actor": "lower", 
             "date": "2012-06-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:failed"
             ]
@@ -34,9 +46,9 @@
     "created_at": "2012-04-20 06:02:30", 
     "documents": [
         {
-            "doc_id": "NYD00048883", 
+            "doc_id": "NYD00090233", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9830&term=&Memo=Y"
         }
     ], 
     "id": "NYB00024210", 
@@ -47,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1130"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9830&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9830&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9830-2011"
@@ -57,7 +72,7 @@
         {
             "leg_id": "NYL000201", 
             "name": "Tenney", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -65,12 +80,19 @@
     "subjects": [
         "Health"
     ], 
+    "summary": "Relates to establishing a cost of living adjustment for designated human\nservices programs, in relation to foregoing such adjustment during the\n2012-2013 state fiscal year; directs limits on state reimbursement for\nexecutive compensation and administrative costs; relates to prescription drug\ncoverage for minors being treated in residential settings or juvenile detention\ncenters upon their release from such settings; relates to establishing the\nsupportive housing development reinvestment program.", 
     "title": "Relates to childrens mental health services", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-26 10:06:07", 
+    "updated_at": "2012-10-16 18:08:08", 
     "versions": [
+        {
+            "doc_id": "NYD00090232", 
+            "mimetype": "text/html", 
+            "name": "A9830", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9830"
+        }, 
         {
             "doc_id": "NYD00045961", 
             "mimetype": "text/html", 

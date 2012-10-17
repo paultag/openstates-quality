@@ -11,7 +11,13 @@
             "action": "referred to local governments", 
             "actor": "lower", 
             "date": "2011-01-20 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000065", 
+                    "name": "local governments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "held for consideration in local governments", 
             "actor": "lower", 
             "date": "2011-04-12 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000065", 
+                    "name": "local governments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:failed"
             ]
@@ -29,7 +41,13 @@
             "action": "referred to local governments", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000065", 
+                    "name": "local governments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -43,9 +61,9 @@
     "created_at": "2011-05-05 01:30:00", 
     "documents": [
         {
-            "doc_id": "NYD00046986", 
+            "doc_id": "NYD00101316", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2878&term=&Memo=Y"
         }
     ], 
     "id": "NYB00010197", 
@@ -56,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=693"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2878&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2878&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2878-2011"
@@ -66,43 +87,43 @@
         {
             "leg_id": "NYL000082", 
             "name": "Calhoun", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000104", 
-            "name": "Finch", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000156", 
-            "name": "Miller J", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000159", 
-            "name": "Molinaro", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000094", 
             "name": "Crouch", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000202", 
             "name": "Thiele", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000200", 
             "name": "Tedisco", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000104", 
+            "name": "Finch", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000156", 
+            "name": "Miller J", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000159", 
+            "name": "Molinaro", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -110,12 +131,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Provides that causes of action against public entities for injuries sustained\non or in public recreational facilities shall be allowed only if such injuries\narose from wanton, willful or gross negligence on the part of the public\nentities or operators; applies to actions for personal injury, injury to\nproperty or wrongful death.", 
     "title": "Limits civil liability of public entities for injuries sustained at public recreational facilities", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 10:05:42", 
+    "updated_at": "2012-10-16 18:10:57", 
     "versions": [
+        {
+            "doc_id": "NYD00101315", 
+            "mimetype": "text/html", 
+            "name": "A2878", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2878"
+        }, 
         {
             "doc_id": "NYD00037365", 
             "mimetype": "text/html", 

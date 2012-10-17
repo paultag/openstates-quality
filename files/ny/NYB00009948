@@ -11,33 +11,61 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in housing", 
             "actor": "lower", 
             "date": "2012-05-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 2633", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:59", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091952", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2633&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009948", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=670"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2633&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2633&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2633-2011"
@@ -56,19 +87,33 @@
         {
             "leg_id": "NYL000105", 
             "name": "Fitzpatrick", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000151", 
+            "name": "McDonough", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Provides that non-payment of New York city taxes shall be a prima facie finding\nthat a housing accommodation subject to the emergency housing rent control act\nis not a person's primary residence as claimed by the delinquent taxpayer and\nnon-payment of NYS taxes shall be a prima facie finding that a housing\naccommodation subject to the emergency tenant protection act of 1974 is not a\nperson's primary residence.", 
     "title": "Provides basis for determining primary residency", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:31", 
+    "updated_at": "2012-10-16 18:08:33", 
     "versions": [
+        {
+            "doc_id": "NYD00091951", 
+            "mimetype": "text/html", 
+            "name": "A2633", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2633"
+        }, 
         {
             "doc_id": "NYD00040739", 
             "mimetype": "text/html", 

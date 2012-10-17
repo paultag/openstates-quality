@@ -11,17 +11,31 @@
             "action": "referred to education", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 8944", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-01-07 06:30:11", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00087988", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8944&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00020605", 
     "level": "state", 
     "scraped_subjects": [
@@ -30,7 +44,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=996"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8944&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8944&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8944-2011"
@@ -40,24 +57,38 @@
         {
             "leg_id": "NYL000208", 
             "name": "Weprin", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000214", 
+            "name": "Goldfeder", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Education"
     ], 
+    "summary": "Establishes senior citizen extension schools to provide courses and activities\nof special interest to the health, welfare, and recreational needs of persons\nover sixty years of age.", 
     "title": "Permits greater availability of adult education programs for the elderly", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-04 01:12:05", 
+    "updated_at": "2012-10-16 18:07:23", 
     "versions": [
         {
-            "doc_id": "NYD00010117", 
+            "doc_id": "NYD00087986", 
             "mimetype": "text/html", 
             "name": "A8944", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A8944-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8944"
+        }, 
+        {
+            "doc_id": "NYD00087987", 
+            "mimetype": "text/html", 
+            "name": "A8944", 
+            "url": "http://open.nysenate.gov/legislation/bill/A8944-2011"
         }
     ], 
     "votes": []

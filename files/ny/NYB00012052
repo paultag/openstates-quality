@@ -11,14 +11,22 @@
             "action": "referred to education", 
             "actor": "lower", 
             "date": "2011-02-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "to attorney-general for opinion", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,17 +35,31 @@
             "action": "opinion referred to judiciary", 
             "actor": "lower", 
             "date": "2011-04-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4637", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:08", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00087477", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4637&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012052", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,7 +68,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=714"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4637&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4637&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4637-2011"
@@ -56,24 +81,68 @@
         {
             "leg_id": "NYL000193", 
             "name": "Schroeder", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000167", 
+            "name": "Ortiz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000104", 
+            "name": "Finch", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000134", 
+            "name": "Kolb", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000079", 
+            "name": "Burling", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000083", 
+            "name": "Camara", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Government Reform"
     ], 
+    "summary": "Requires the commissioner of education to be an elected official.", 
     "title": "Requires the commissioner of education to be an elected official", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-25 01:14:57", 
+    "updated_at": "2012-10-16 18:07:16", 
     "versions": [
         {
-            "doc_id": "NYD00004554", 
+            "doc_id": "NYD00087475", 
             "mimetype": "text/html", 
             "name": "A4637", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4637-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4637"
+        }, 
+        {
+            "doc_id": "NYD00087476", 
+            "mimetype": "text/html", 
+            "name": "A4637", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4637-2011"
         }
     ], 
     "votes": []

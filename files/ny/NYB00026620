@@ -14,8 +14,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-03-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,34 +29,66 @@
             "action": "REPORTED AND COMMITTED TO CODES", 
             "actor": "upper", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000008", 
+                    "name": "CODES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "AMEND (T) AND RECOMMIT TO CODES", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000008", 
+                    "name": "CODES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6730"
+            ], 
             "action": "PRINT NUMBER 6730A", 
             "actor": "upper", 
             "date": "2012-05-30 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 6730", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 9917", 
+            "chamber": null, 
+            "internal_id": "NYB00025812", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-06-11 15:59:39", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00050956", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6730A-2011"
+        }
+    ], 
     "id": "NYB00026620", 
     "level": "state", 
     "scraped_subjects": [
@@ -59,29 +97,127 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=445"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6730&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S6730-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6730&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6730A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S6730A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000016", 
             "name": "FUSCHILLO", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000009", 
+            "name": "DEFRANCISCO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000011", 
+            "name": "DILAN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000019", 
+            "name": "GOLDEN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000022", 
+            "name": "HANNON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000025", 
+            "name": "JOHNSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000031", 
+            "name": "LARKIN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000032", 
+            "name": "LAVALLE", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000036", 
+            "name": "MARTINS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000037", 
+            "name": "MAZIARZ", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000042", 
+            "name": "OPPENHEIMER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000049", 
+            "name": "ROBACH", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000053", 
+            "name": "SERRANO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000058", 
+            "name": "STAVISKY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000060", 
+            "name": "VALESKY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Relates to promoting understanding, awareness and enforcement of animal crime\nlaws.", 
     "title": "Relates to promoting understanding, awareness and enforcement of animal crimes laws; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-11 15:59:39", 
+    "updated_at": "2012-10-16 17:59:17", 
     "versions": [
+        {
+            "doc_id": "NYD00050955", 
+            "mimetype": "text/html", 
+            "name": "S6730", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6730"
+        }, 
         {
             "doc_id": "NYD00036605", 
             "mimetype": "text/html", 
@@ -95,5 +231,72 @@
             "url": "http://open.nysenate.gov/legislation/bill/S6730-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00026620", 
+            "chamber": "upper", 
+            "date": "2012-05-01 00:00:00", 
+            "id": "NYV00003697", 
+            "motion": "Agriculture Committee Vote", 
+            "no_count": 1, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }
+            ], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NYL000060", 
+                    "name": "Valesky"
+                }
+            ], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S6730A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00003697", 
+            "yes_count": 8, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }
+            ]
+        }
+    ]
 }

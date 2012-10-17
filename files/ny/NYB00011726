@@ -11,25 +11,46 @@
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2011-02-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4320", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:07", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00105629", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4320&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011726", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=737"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4320&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4320&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4320-2011"
@@ -48,6 +72,7 @@
         {
             "leg_id": "NYL000102", 
             "name": "Englebright", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,12 +80,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Establishes a real property tax exemption for persons eighty years of age or\nover; provides that such exemption shall be phased in over a ten year period\nwhereby ten percent of the assessed valuation is exempt per year for ten years,\nat which time one hundred percent of such property shall be exempt.", 
     "title": "Establishes a real property tax exemption for persons eighty years of age or over", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:39", 
+    "updated_at": "2012-10-16 18:12:05", 
     "versions": [
+        {
+            "doc_id": "NYD00105628", 
+            "mimetype": "text/html", 
+            "name": "A4320", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4320"
+        }, 
         {
             "doc_id": "NYD00028391", 
             "mimetype": "text/html", 

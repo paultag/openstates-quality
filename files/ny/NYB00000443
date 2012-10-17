@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
-        "last": "2012-01-13 00:00:00", 
+        "last": "2012-03-12 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,26 +41,75 @@
             "action": "AMEND AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "449"
+            ], 
             "action": "PRINT NUMBER 449A", 
             "actor": "upper", 
             "date": "2012-01-13 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
+            "actor": "upper", 
+            "date": "2012-02-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
+            ]
+        }, 
+        {
+            "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
+            "actor": "upper", 
+            "date": "2012-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 449", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 6131", 
+            "chamber": null, 
+            "internal_id": "NYB00013602", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:16", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00063051", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S449A-2011"
+        }
+    ], 
     "id": "NYB00000443", 
     "level": "state", 
     "scraped_subjects": [
@@ -56,34 +118,66 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=27"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S449&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S449-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S449&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S449A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S449A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000028", 
             "name": "KRUEGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000012", 
+            "name": "DUANE", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000024", 
+            "name": "HUNTLEY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Requires hearing by the division of housing and community renewal prior to\norder of decontrol for a tenant's failure to respond to income certification\nmaterial relating to high income rent decontrol; provides that failure to\nappear at the hearing will result in an order of decontrol; excludes certain\ntenants from inclusion for annual income determination.", 
     "title": "Requires hearing by the DHCR prior to order of decontrol for failure to respond to income certification material relating to high income rent decontrol", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-03 06:20:02", 
+    "updated_at": "2012-10-16 18:02:27", 
     "versions": [
         {
-            "doc_id": "NYD00019250", 
+            "doc_id": "NYD00063048", 
             "mimetype": "text/html", 
             "name": "S449", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S449-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S449"
+        }, 
+        {
+            "doc_id": "NYD00063049", 
+            "mimetype": "text/html", 
+            "name": "S449", 
+            "url": "http://open.nysenate.gov/legislation/bill/S449-2011"
+        }, 
+        {
+            "doc_id": "NYD00063050", 
+            "mimetype": "text/html", 
+            "name": "S449A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S449A-2011"
         }
     ], 
     "votes": []

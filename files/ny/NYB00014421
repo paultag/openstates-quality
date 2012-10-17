@@ -14,25 +14,53 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 6896", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1649", 
+            "chamber": null, 
+            "internal_id": "NYB00001707", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:18", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104089", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6896&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014421", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=891"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6896&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6896&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6896-2011"
@@ -51,19 +82,75 @@
         {
             "leg_id": "NYL000069", 
             "name": "Barron", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000190", 
+            "name": "Scarborough", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000110", 
+            "name": "Gibson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000191", 
+            "name": "Schimel", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Establishes the urban homeowners assistance program to assist first time, low\nor moderate income, or minority homeowners avoid foreclosure by authorizing and\ndirecting the commissioner of the state division of housing and community\nrenewal to enter into contracts with neighborhood preservation companies to\nprovide for such assistance to residents in certain urban communities; makes an\nappropriation therefor.", 
     "title": "Establishes the urban homeowners assistance program to assist first time, low or moderate income, or minority homeowners to avoid foreclosure; appropriation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-25 01:13:16", 
+    "updated_at": "2012-10-16 18:11:37", 
     "versions": [
+        {
+            "doc_id": "NYD00104088", 
+            "mimetype": "text/html", 
+            "name": "A6896", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6896"
+        }, 
         {
             "doc_id": "NYD00031111", 
             "mimetype": "text/html", 

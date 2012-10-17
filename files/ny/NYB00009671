@@ -11,17 +11,38 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 2370", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2827", 
+            "chamber": null, 
+            "internal_id": "NYB00002963", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:58", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091435", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2370&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009671", 
     "level": "state", 
     "scraped_subjects": [
@@ -30,7 +51,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=541"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2370&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2370&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2370-2011"
@@ -40,24 +64,56 @@
         {
             "leg_id": "NYL000197", 
             "name": "Spano", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000107", 
+            "name": "Gabryszak", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000078", 
+            "name": "Brook-Krasny", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000198", 
+            "name": "Stevenson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Requires landlords to furnish each tenant either renewing or entering into a\nlease with a rider describing the rights and duties of landlords and tenants;\nfurther requires the rider to conform to the intent of section 5-702 of the\ngeneral obligations law.", 
     "title": "Requires landlords to furnish each tenant either renewing or entering into a lease with a document describing the rights and duties of landlords and tenants", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-17 06:32:09", 
+    "updated_at": "2012-10-16 18:08:26", 
     "versions": [
         {
-            "doc_id": "NYD00001697", 
+            "doc_id": "NYD00091433", 
             "mimetype": "text/html", 
             "name": "A2370", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A2370-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2370"
+        }, 
+        {
+            "doc_id": "NYD00091434", 
+            "mimetype": "text/html", 
+            "name": "A2370", 
+            "url": "http://open.nysenate.gov/legislation/bill/A2370-2011"
         }
     ], 
     "votes": []

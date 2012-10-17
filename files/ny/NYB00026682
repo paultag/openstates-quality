@@ -11,9 +11,15 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
@@ -23,7 +29,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-06-11 15:59:59", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00085409", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10473&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00026682", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +44,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1170"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10473&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10473&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A10473-2011"
@@ -42,7 +57,7 @@
         {
             "leg_id": "NYL000132", 
             "name": "Kellner", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -50,12 +65,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Authorizes the voluntary dissolution of Mitchell-Lama coops, directs that a\nportion of the sale price of dissolved coops be paid to the state, authorizes\nthe reassessment of such properties for tax purposes, and allows the transfer\nof shares in such properties to be subject to taxation; creates the middle\nincome housing fund.", 
     "title": "Authorizes the voluntary dissolution of Mitchell-Lama co-ops; creates the middle income housing fund", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-08 09:54:57", 
+    "updated_at": "2012-10-16 18:06:51", 
     "versions": [
+        {
+            "doc_id": "NYD00085408", 
+            "mimetype": "text/html", 
+            "name": "A10473", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10473"
+        }, 
         {
             "doc_id": "NYD00037129", 
             "mimetype": "text/html", 

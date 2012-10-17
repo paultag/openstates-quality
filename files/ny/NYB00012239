@@ -11,18 +11,30 @@
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
@@ -48,7 +60,13 @@
     ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:09", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00097966", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4820&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012239", 
     "level": "state", 
     "scraped_subjects": [
@@ -57,7 +75,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=808"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4820&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4820&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4820-2011"
@@ -67,13 +88,13 @@
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000085", 
             "name": "Castelli", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -82,12 +103,19 @@
         "Budget, Spending, and Taxes", 
         "Legislative Affairs"
     ], 
+    "summary": "Directs the department of economic development to identify those banks which\nhave made a significant commitment to the community reinvestment program and\nemerging domestic markets; such department shall conduct an outreach program to\nprovide such information to regional and local economic developers and\nfinancial institutions.", 
     "title": "Directs department of economic development to make available to the public a list of banks committed to community reinvestment and emerging domestic markets", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-08 09:54:54", 
+    "updated_at": "2012-10-16 18:10:03", 
     "versions": [
+        {
+            "doc_id": "NYD00097965", 
+            "mimetype": "text/html", 
+            "name": "A4820", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4820"
+        }, 
         {
             "doc_id": "NYD00045181", 
             "mimetype": "text/html", 

@@ -11,22 +11,37 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,14 +50,19 @@
             "action": "rules report cal.564", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s5831"
+            ], 
             "action": "substituted by s5831", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -51,9 +71,23 @@
     "alternate_titles": [], 
     "bill_id": "A 8501", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 5831", 
+            "chamber": null, 
+            "internal_id": "NYB00019490", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-21 08:08:59", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00094596", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8501&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00019500", 
     "level": "state", 
     "scraped_subjects": [
@@ -62,7 +96,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=975"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8501&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8501&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8501-2011"
@@ -72,24 +109,38 @@
         {
             "leg_id": "NYL000142", 
             "name": "Lopez V", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000194", 
+            "name": "Silver", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Extends the provisions of rent control laws.", 
     "title": "Extends the provisions of rent control laws", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-04 01:12:05", 
+    "updated_at": "2012-10-16 18:09:12", 
     "versions": [
         {
-            "doc_id": "NYD00009680", 
+            "doc_id": "NYD00094594", 
             "mimetype": "text/html", 
             "name": "A8501", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A8501-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8501"
+        }, 
+        {
+            "doc_id": "NYD00094595", 
+            "mimetype": "text/html", 
+            "name": "A8501", 
+            "url": "http://open.nysenate.gov/legislation/bill/A8501-2011"
         }
     ], 
     "votes": []

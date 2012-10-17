@@ -11,9 +11,14 @@
             "action": "REFERRED TO ENERGY AND TELECOMMUNICATIONS", 
             "actor": "upper", 
             "date": "2011-05-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000016", 
+                    "name": "ENERGY AND TELECOMMUNICATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -21,7 +26,13 @@
             "action": "REFERRED TO ENERGY AND TELECOMMUNICATIONS", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000016", 
+                    "name": "ENERGY AND TELECOMMUNICATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -32,7 +43,7 @@
             "date": "2012-02-14 00:00:00", 
             "related_entities": [], 
             "type": [
-                "committee:referred"
+                "other"
             ]
         }
     ], 
@@ -42,7 +53,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:39", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00067076", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4959-2011"
+        }
+    ], 
     "id": "NYB00005221", 
     "level": "state", 
     "scraped_subjects": [
@@ -51,7 +68,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=333"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4959&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4959&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S4959-2011"
@@ -61,7 +81,7 @@
         {
             "leg_id": "NYL000005", 
             "name": "BALL", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -69,12 +89,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Relates to remote net metering by farm and non-residential customer-generators;\npermits designating credits over a period of time.", 
     "title": "Relates to remote net metering by farm and non-residential customer-generators", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-13 09:55:56", 
+    "updated_at": "2012-10-16 18:03:31", 
     "versions": [
+        {
+            "doc_id": "NYD00067075", 
+            "mimetype": "text/html", 
+            "name": "S4959", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4959"
+        }, 
         {
             "doc_id": "NYD00045494", 
             "mimetype": "text/html", 

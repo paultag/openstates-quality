@@ -11,25 +11,46 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 2966", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:00", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00092052", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2966&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010291", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=643"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2966&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2966&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2966-2011"
@@ -48,6 +72,7 @@
         {
             "leg_id": "NYL000209", 
             "name": "Wright", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,17 +80,24 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Provides for the suspension of public assistance to owners of privately owned\nresidential housing in NYC who are in violation of certain New York city\ndepartment of housing preservation and development standards.", 
     "title": "Provides for the suspension of public assistance to owners of privately owned residential housing in New York city who are in violation of certain housing standards", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-10 01:06:16", 
+    "updated_at": "2012-10-16 18:08:35", 
     "versions": [
         {
-            "doc_id": "NYD00002431", 
+            "doc_id": "NYD00092050", 
             "mimetype": "text/html", 
             "name": "A2966", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A2966-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2966"
+        }, 
+        {
+            "doc_id": "NYD00092051", 
+            "mimetype": "text/html", 
+            "name": "A2966", 
+            "url": "http://open.nysenate.gov/legislation/bill/A2966-2011"
         }
     ], 
     "votes": []

@@ -3,7 +3,7 @@
     "action_dates": {
         "first": "2012-05-21 00:00:00", 
         "last": "2012-05-21 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2012-05-21 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -14,16 +14,23 @@
             "date": "2012-05-21 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "bill:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "K 1350", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-05-25 01:13:21", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00110225", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1350&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00026114", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +39,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1322"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1350&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1350&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K1350-2011"
@@ -42,445 +52,445 @@
         {
             "leg_id": "NYL000096", 
             "name": "Cusick", 
-            "official_type": "multisponsor", 
+            "official_type": "SPONSOR", 
+            "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000194", 
+            "name": "Silver", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000063", 
             "name": "Abbate", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000064", 
             "name": "Abinanti", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000068", 
             "name": "Barclay", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000070", 
             "name": "Benedetto", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000076", 
             "name": "Brennan", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000079", 
             "name": "Burling", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000081", 
             "name": "Cahill", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000082", 
             "name": "Calhoun", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000084", 
             "name": "Canestrari", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000086", 
             "name": "Castro", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000087", 
             "name": "Ceretto", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000090", 
             "name": "Conte", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000091", 
             "name": "Cook", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000093", 
             "name": "Crespo", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000094", 
             "name": "Crouch", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000098", 
             "name": "DenDekker", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000100", 
             "name": "Dinowitz", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000101", 
             "name": "Duprey", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000105", 
             "name": "Fitzpatrick", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000107", 
             "name": "Gabryszak", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000219", 
             "name": "Giglio", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000112", 
             "name": "Glick", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000114", 
             "name": "Gottfried", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000116", 
             "name": "Gunther", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000118", 
             "name": "Hawley", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000123", 
             "name": "Hooper", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000125", 
             "name": "Jacobs", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000126", 
             "name": "Jaffee", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000128", 
             "name": "Johns", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000136", 
             "name": "Latimer", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000137", 
             "name": "Lavine", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000144", 
             "name": "Lupardo", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000149", 
             "name": "Markey", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000151", 
             "name": "McDonough", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000152", 
             "name": "McEneny", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000153", 
             "name": "McLaughlin", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000155", 
             "name": "Miller D", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000157", 
             "name": "Miller M", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000158", 
             "name": "Millman", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000160", 
             "name": "Montesano", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000163", 
             "name": "Murray", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000164", 
             "name": "Nolan", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000166", 
             "name": "Oaks", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000168", 
             "name": "Palmesano", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000169", 
             "name": "Paulin", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000170", 
             "name": "Peoples-Stokes", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000171", 
             "name": "Perry", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000174", 
             "name": "Ra", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000175", 
             "name": "Rabbitt", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000176", 
             "name": "Raia", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000177", 
             "name": "Ramos", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000178", 
             "name": "Reilich", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000179", 
             "name": "Reilly", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000183", 
             "name": "Roberts", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000184", 
             "name": "Robinson", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000189", 
             "name": "Sayward", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000191", 
             "name": "Schimel", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000192", 
             "name": "Schimminger", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000215", 
             "name": "Simanowitz", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000198", 
             "name": "Stevenson", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000199", 
             "name": "Sweeney", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000202", 
             "name": "Thiele", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000203", 
             "name": "Titone", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000204", 
             "name": "Titus", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000217", 
             "name": "Walter", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000208", 
             "name": "Weprin", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000209", 
             "name": "Wright", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000210", 
             "name": "Zebrowski", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000194", 
-            "name": "Silver", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -488,12 +498,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Honoring Clifton Perez upon the occasion of his designation as recipient of the Eighth Annual Dr. Henry Viscardi, Jr. Advocacy Award", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-07-13 02:25:55", 
+    "updated_at": "2012-10-16 18:12:59", 
     "versions": [
+        {
+            "doc_id": "NYD00110224", 
+            "mimetype": "text/html", 
+            "name": "K1350", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K1350"
+        }, 
         {
             "doc_id": "NYD00031419", 
             "mimetype": "text/html", 

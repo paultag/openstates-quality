@@ -12,27 +12,46 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-02-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4590", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:08", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00082024", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4590&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012003", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=794"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4590&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4590&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4590-2011"
@@ -51,85 +73,85 @@
         {
             "leg_id": "NYL000094", 
             "name": "Crouch", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000087", 
-            "name": "Ceretto", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000201", 
-            "name": "Tenney", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000134", 
             "name": "Kolb", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000079", 
             "name": "Burling", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000219", 
             "name": "Giglio", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000118", 
             "name": "Hawley", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000065", 
             "name": "Amedore", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000068", 
             "name": "Barclay", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000104", 
             "name": "Finch", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000166", 
             "name": "Oaks", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000176", 
             "name": "Raia", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000160", 
             "name": "Montesano", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000196", 
             "name": "Smardz", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000087", 
+            "name": "Ceretto", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000201", 
+            "name": "Tenney", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -137,12 +159,19 @@
     "subjects": [
         "Education"
     ], 
+    "summary": "Enacts the \"New York farmer recruitment and retention act of 2011\"; directs the\nboard of regents and the education department to investigate and study\nundergraduate agricultural programs with the goal of identifying programs which\nencourage entry into agricultural production; establishes agriculture producer\nscholarships for students who agree to be agriculture producers in the state\nfor a certain period of time after graduation; establishes the producer's loan\nforegiveness program; directs the board of regents and the education department\nto establish and implement an outreach program to encourage elementary and\nsecondary school students to enter the agricultural field; directs the\ncommissioner of agriculture and markets to report to the governor and the\nlegislature on reducing taxation on land used in agricultural production;\nappropriates funds therefor.", 
     "title": "Enacts the \"New York farmer recruitment and retention act of 2011\" and appropriates monies to implement certain provisions thereof; appropriation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-16 02:11:15", 
+    "updated_at": "2012-10-16 18:05:58", 
     "versions": [
+        {
+            "doc_id": "NYD00082023", 
+            "mimetype": "text/html", 
+            "name": "A4590", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4590"
+        }, 
         {
             "doc_id": "NYD00037423", 
             "mimetype": "text/html", 

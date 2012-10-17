@@ -11,8 +11,14 @@
             "action": "REFERRED TO VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS", 
             "actor": "upper", 
             "date": "2011-01-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000033", 
+                    "name": "VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000033", 
+                    "name": "VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,23 @@
     "alternate_titles": [], 
     "bill_id": "S 2532", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 4876", 
+            "chamber": null, 
+            "internal_id": "NYB00012297", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:25", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00050281", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2532-2011"
+        }
+    ], 
     "id": "NYB00002618", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=153"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2532&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2532&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S2532-2011"
@@ -49,6 +79,7 @@
         {
             "leg_id": "NYL000018", 
             "name": "GIANARIS", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,17 +87,24 @@
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Directs the division of homeland security and emergency services to develop\nrules and regulations relating to truck rental security; requires any person or\norganization in the business of renting trucks, vans or trailers to the public\nto be registered with the state.", 
     "title": "Directs the division of homeland security and emergency services to establish rules and regulations providing for truck rental security", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-10 06:25:50", 
+    "updated_at": "2012-10-16 17:59:09", 
     "versions": [
         {
-            "doc_id": "NYD00016354", 
+            "doc_id": "NYD00050279", 
             "mimetype": "text/html", 
             "name": "S2532", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S2532-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2532"
+        }, 
+        {
+            "doc_id": "NYD00050280", 
+            "mimetype": "text/html", 
+            "name": "S2532", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2532-2011"
         }
     ], 
     "votes": []

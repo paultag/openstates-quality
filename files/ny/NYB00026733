@@ -12,9 +12,14 @@
             "action": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2012-04-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -22,18 +27,38 @@
             "action": "REPORTED AND COMMITTED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 6994", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 9024", 
+            "chamber": null, 
+            "internal_id": "NYB00021104", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-06-12 01:11:11", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00065303", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6994-2011"
+        }
+    ], 
     "id": "NYB00026733", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=470"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6994&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6994&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S6994-2011"
@@ -52,19 +80,19 @@
         {
             "leg_id": "NYL000021", 
             "name": "GRISANTI", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000023", 
             "name": "HASSELL-THOMPSON", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000026", 
             "name": "KENNEDY", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -72,12 +100,19 @@
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Prevents housing discrimination against victims of domestic violence.", 
     "title": "Relates to preventing housing discrimination against victims of domestic violence; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-28 02:49:52", 
+    "updated_at": "2012-10-16 18:03:04", 
     "versions": [
+        {
+            "doc_id": "NYD00065302", 
+            "mimetype": "text/html", 
+            "name": "S6994", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6994"
+        }, 
         {
             "doc_id": "NYD00037274", 
             "mimetype": "text/html", 
@@ -85,5 +120,62 @@
             "url": "http://open.nysenate.gov/legislation/bill/S6994-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00026733", 
+            "chamber": "upper", 
+            "date": "2012-05-22 00:00:00", 
+            "id": "NYV00007464", 
+            "motion": "Investigations and Government Operations Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S6994-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00007464", 
+            "yes_count": 8, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000003", 
+                    "name": "Alesi"
+                }, 
+                {
+                    "leg_id": "NYL000019", 
+                    "name": "Golden"
+                }, 
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000062", 
+                    "name": "Zeldin"
+                }, 
+                {
+                    "leg_id": "NYL000057", 
+                    "name": "Squadron"
+                }, 
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }, 
+                {
+                    "leg_id": "NYL000044", 
+                    "name": "Peralta"
+                }
+            ]
+        }
+    ]
 }

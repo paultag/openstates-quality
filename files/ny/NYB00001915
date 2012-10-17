@@ -12,9 +12,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-01-13 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -22,7 +27,13 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -31,10 +42,23 @@
     "alternate_titles": [], 
     "bill_id": "S 1854", 
     "chamber": "upper", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "A 76", 
+            "chamber": null, 
+            "internal_id": "NYB00007274", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:22", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00056273", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1854-2011"
+        }
+    ], 
     "id": "NYB00001915", 
     "level": "state", 
     "scraped_subjects": [
@@ -43,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=118"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1854&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1854&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S1854-2011"
@@ -53,25 +80,25 @@
         {
             "leg_id": "NYL000042", 
             "name": "OPPENHEIMER", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000010", 
             "name": "DIAZ", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000043", 
             "name": "PARKER", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000053", 
             "name": "SERRANO", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -79,12 +106,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Regulates the treatment and display of elephants; requires persons who bring\nelephants into the state as part of a traveling exhibition to file an itinerary\nof the elephant's stay in the state with the department of agriculture and\nmarkets at least thirty days before the elephant arrives in the state;\nauthorizes the imposition of up to a $1,000 civil penalty for failure to file\nsuch itinerary; establishes requirements for the transportation of elephants;\nrequires elephants to be untethered at least one hour a day; prohibits use of\ncertain equipment upon elephants; prohibits riding elephants, except in certain\ncases; makes such violations class E felonies; authorizes agents of the\ndepartment of agriculture and markets to inspect living conditions of\nelephants; makes cruelty to an elephant a class D felony.", 
     "title": "Regulates the treatment and display of elephants", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 19:58:04", 
+    "updated_at": "2012-10-16 18:00:37", 
     "versions": [
+        {
+            "doc_id": "NYD00056272", 
+            "mimetype": "text/html", 
+            "name": "S1854", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S1854"
+        }, 
         {
             "doc_id": "NYD00028950", 
             "mimetype": "text/html", 

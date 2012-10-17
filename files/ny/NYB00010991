@@ -11,25 +11,46 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3638", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:03", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00099300", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3638&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010991", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=695"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3638&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3638&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3638-2011"
@@ -48,7 +72,50 @@
         {
             "leg_id": "NYL000114", 
             "name": "Gottfried", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000100", 
+            "name": "Dinowitz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000209", 
+            "name": "Wright", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000108", 
+            "name": "Galef", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000142", 
+            "name": "Lopez V", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -56,12 +123,19 @@
         "Housing and Property", 
         "Legal Issues"
     ], 
+    "summary": "Prohibits certain regulations of the state division of housing and community\nrenewal, for cities having a population of less than one million and towns and\nvillages, from permitting an owner to refuse to renew a lease on grounds that\nthe housing accommodation is sought for personal use or occupancy (i.e., use or\noccupancy by the owner or the owner's immediate family); repeals provisions of\nthe administrative code of the city of New York and of the Emergency Housing\nRent Control Law which permit evictions for personal use and occupancy.", 
     "title": "Prohibits regulations from permitting an owner to refuse to renew a lease on grounds that the housing is sought for personal use or occupancy; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-26 01:09:28", 
+    "updated_at": "2012-10-16 18:10:20", 
     "versions": [
+        {
+            "doc_id": "NYD00099299", 
+            "mimetype": "text/html", 
+            "name": "A3638", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3638"
+        }, 
         {
             "doc_id": "NYD00032020", 
             "mimetype": "text/html", 

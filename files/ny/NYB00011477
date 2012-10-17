@@ -11,22 +11,37 @@
             "action": "referred to local governments", 
             "actor": "lower", 
             "date": "2011-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000065", 
+                    "name": "local governments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,14 +50,19 @@
             "action": "advanced to third reading cal.115", 
             "actor": "lower", 
             "date": "2011-03-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s2781"
+            ], 
             "action": "substituted by s2781", 
             "actor": "lower", 
             "date": "2011-03-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -51,9 +71,23 @@
     "alternate_titles": [], 
     "bill_id": "A 4074", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2781", 
+            "chamber": null, 
+            "internal_id": "NYB00002881", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:06", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00099243", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4074&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011477", 
     "level": "state", 
     "scraped_subjects": [
@@ -62,7 +96,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=684"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4074&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4074&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4074-2011"
@@ -72,24 +109,38 @@
         {
             "leg_id": "NYL000187", 
             "name": "Russell", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000072", 
+            "name": "Blankenbush", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Legalizes, validates, ratifies and confirms certain actions taken by the\nvillage of Black Water, Jefferson County with respect to refunding its low\ninterest loans through the United States department of agriculture and the New\nYork state environmental facilities corporation.", 
     "title": "Legalizes, validates, ratifies and confirms certain actions taken by the village of Black River, Jefferson County with respect to refunding its low interest loans", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-26 01:11:01", 
+    "updated_at": "2012-10-16 18:10:19", 
     "versions": [
         {
-            "doc_id": "NYD00003857", 
+            "doc_id": "NYD00099241", 
             "mimetype": "text/html", 
             "name": "A4074", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4074-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4074"
+        }, 
+        {
+            "doc_id": "NYD00099242", 
+            "mimetype": "text/html", 
+            "name": "A4074", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4074-2011"
         }
     ], 
     "votes": []

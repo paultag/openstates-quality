@@ -14,33 +14,68 @@
             "action": "referred to social services", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000072", 
+                    "name": "social services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to social services", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000072", 
+                    "name": "social services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in social services", 
             "actor": "lower", 
             "date": "2012-06-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000072", 
+                    "name": "social services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 155", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 337", 
+            "chamber": null, 
+            "internal_id": "NYB00000329", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:49", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00083020", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A155&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007361", 
     "level": "state", 
     "scraped_subjects": [
@@ -49,7 +84,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=522"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A155&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A155&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A155-2011"
@@ -59,6 +97,7 @@
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -66,12 +105,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Provides that when a public assistance recipient, receiving care or treatment\nfor alcohol or other drug addiction, moves from one social services district to\nanother such district, the social services district from which the recipient\nmoved shall remain responsible for such benefits for 180 days or until\ntreatment is completed, whichever shall be sooner.", 
     "title": "Provides that the social services district from which a recipient moved shall be responsible for his or her alcohol and drug addiction treatment for 180 days", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:28", 
+    "updated_at": "2012-10-16 18:06:09", 
     "versions": [
+        {
+            "doc_id": "NYD00083019", 
+            "mimetype": "text/html", 
+            "name": "A155", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A155"
+        }, 
         {
             "doc_id": "NYD00028185", 
             "mimetype": "text/html", 

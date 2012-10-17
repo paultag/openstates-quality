@@ -11,8 +11,14 @@
             "action": "REFERRED TO CORPORATIONS, AUTHORITIES AND COMMISSIONS", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000011", 
+                    "name": "CORPORATIONS, AUTHORITIES AND COMMISSIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO CORPORATIONS, AUTHORITIES AND COMMISSIONS", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000011", 
+                    "name": "CORPORATIONS, AUTHORITIES AND COMMISSIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,16 @@
     "alternate_titles": [], 
     "bill_id": "S 484", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:17", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00061519", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S484-2011"
+        }
+    ], 
     "id": "NYB00000481", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=29"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S484&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S484&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S484-2011"
@@ -49,6 +72,7 @@
         {
             "leg_id": "NYL000049", 
             "name": "ROBACH", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,17 +80,24 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Provides that regulated public authorities submit a report of budget\ninformation to the governor, comptroller and legislative leaders; prohibits the\ntransfer of functions performed by a department or agency of the state to a\nregulated public authority; provides that employees of a regulated public\nauthority shall be deemed to be in the classified civil service; defines\nregulated public authority to include the environmental facilities corporation,\ndormitory authority, urban development corporation (also known as Empire State\nDevelopment Corporation) and subsidiaries thereof, Health Research, Inc., job\ndevelopment authority, and the housing trust fund corporation.", 
     "title": "Relates to the oversight of certain public authorities", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-28 06:26:56", 
+    "updated_at": "2012-10-16 18:02:09", 
     "versions": [
         {
-            "doc_id": "NYD00019749", 
+            "doc_id": "NYD00061517", 
             "mimetype": "text/html", 
             "name": "S484", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S484-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S484"
+        }, 
+        {
+            "doc_id": "NYD00061518", 
+            "mimetype": "text/html", 
+            "name": "S484", 
+            "url": "http://open.nysenate.gov/legislation/bill/S484-2011"
         }
     ], 
     "votes": []

@@ -11,55 +11,96 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-03-09 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-06-06 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to agriculture", 
             "actor": "lower", 
             "date": "2012-03-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6212"
+            ], 
             "action": "print number 6212a", 
             "actor": "lower", 
             "date": "2012-03-05 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 6212", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 847", 
+            "chamber": null, 
+            "internal_id": "NYB00000868", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:15", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00082327", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6212&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013691", 
     "level": "state", 
     "scraped_subjects": [
@@ -68,41 +109,47 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=894"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6212&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A6212-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6212&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6212A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A6212A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000168", 
-            "name": "Palmesano", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000139", 
             "name": "Lifton", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000079", 
             "name": "Burling", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000144", 
             "name": "Lupardo", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000168", 
+            "name": "Palmesano", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -110,12 +157,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Increases from 50 to 100 acres, the acreage of farm woodland that qualifies as\nland used in agricultural production for agricultural assessment purposes.", 
     "title": "Increases from 50 to 100 acres, the acreage of farm woodland that qualifies as land used in agricultural production for agricultural assessment purposes", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-13 09:56:04", 
+    "updated_at": "2012-10-16 18:06:01", 
     "versions": [
+        {
+            "doc_id": "NYD00082326", 
+            "mimetype": "text/html", 
+            "name": "A6212", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6212"
+        }, 
         {
             "doc_id": "NYD00045595", 
             "mimetype": "text/html", 

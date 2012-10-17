@@ -2,19 +2,24 @@
     "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-03-22 00:00:00", 
-        "last": "2011-06-16 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
-        "signed": null
+        "last": "2011-07-15 00:00:00", 
+        "passed_lower": "2011-06-15 00:00:00", 
+        "passed_upper": "2011-06-16 00:00:00", 
+        "signed": "2011-07-15 00:00:00"
     }, 
     "actions": [
         {
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-03-22 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -28,6 +33,9 @@
             ]
         }, 
         {
+            "+bill_id": [
+                "4165"
+            ], 
             "action": "AMENDED 4165A", 
             "actor": "upper", 
             "date": "2011-06-13 00:00:00", 
@@ -46,7 +54,7 @@
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2011-06-14 00:00:00", 
             "related_entities": [], 
@@ -55,6 +63,9 @@
             ]
         }, 
         {
+            "+bill_id": [
+                "A8303"
+            ], 
             "action": "SUBSTITUTED BY A8303", 
             "actor": "upper", 
             "date": "2011-06-16 00:00:00", 
@@ -62,15 +73,175 @@
             "type": [
                 "other"
             ]
+        }, 
+        {
+            "action": "referred to environmental conservation", 
+            "actor": "lower", 
+            "date": "2011-06-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported referred to rules", 
+            "actor": "lower", 
+            "date": "2011-06-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported ", 
+            "actor": "lower", 
+            "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "rules report cal.240", 
+            "actor": "lower", 
+            "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "ordered to third reading rules cal.240", 
+            "actor": "lower", 
+            "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "passed assembly", 
+            "actor": "lower", 
+            "date": "2011-06-15 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "delivered to senate", 
+            "actor": "lower", 
+            "date": "2011-06-15 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "REFERRED TO RULES", 
+            "actor": "upper", 
+            "date": "2011-06-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "SUBSTITUTED FOR S4165A", 
+            "actor": "upper", 
+            "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "3RD READING CAL.1103", 
+            "actor": "upper", 
+            "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "PASSED SENATE", 
+            "actor": "upper", 
+            "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "RETURNED TO ASSEMBLY", 
+            "actor": "upper", 
+            "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "delivered to governor", 
+            "actor": "lower", 
+            "date": "2011-07-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:received"
+            ]
+        }, 
+        {
+            "+session_laws": [
+                "135"
+            ], 
+            "action": "signed chap.135", 
+            "actor": "lower", 
+            "date": "2011-07-15 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:signed"
+            ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 4165", 
     "chamber": "upper", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "A 8303", 
+            "chamber": null, 
+            "internal_id": "NYB00018563", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:33", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00055870", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4165A-2011"
+        }
+    ], 
     "id": "NYB00004396", 
     "level": "state", 
     "scraped_subjects": [
@@ -79,17 +250,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=276"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4165&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S4165-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4165&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4165A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S4165A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000034", 
             "name": "LITTLE", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -97,12 +274,19 @@
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Defines \"community housing\" for purposes of the Adirondack Park to mean four\ndwelling units not exceeding 1500 square feet of floor space each, located on\none contiguous parcel within a moderate intensity use or low intensity use land\nuse area, and meeting certain other defined land use criteria.", 
     "title": "Defines \"community housing project\" for purposes of the Adirondack Park", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 19:58:06", 
+    "updated_at": "2012-10-16 18:00:30", 
     "versions": [
+        {
+            "doc_id": "NYD00055869", 
+            "mimetype": "text/html", 
+            "name": "S4165", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4165"
+        }, 
         {
             "doc_id": "NYD00033390", 
             "mimetype": "text/html", 
@@ -116,5 +300,171 @@
             "url": "http://open.nysenate.gov/legislation/bill/S4165A-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00004396", 
+            "chamber": "upper", 
+            "date": "2011-06-07 00:00:00", 
+            "id": "NYV00004976", 
+            "motion": "Finance Committee Vote", 
+            "no_count": 1, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4165A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00004976", 
+            "yes_count": 34, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000009", 
+                    "name": "DeFrancisco"
+                }, 
+                {
+                    "leg_id": "NYL000025", 
+                    "name": "Johnson"
+                }, 
+                {
+                    "leg_id": "NYL000003", 
+                    "name": "Alesi"
+                }, 
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000014", 
+                    "name": "Farley"
+                }, 
+                {
+                    "leg_id": "NYL000015", 
+                    "name": "Flanagan"
+                }, 
+                {
+                    "leg_id": "NYL000016", 
+                    "name": "Fuschillo"
+                }, 
+                {
+                    "leg_id": "NYL000019", 
+                    "name": "Golden"
+                }, 
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000022", 
+                    "name": "Hannon"
+                }, 
+                {
+                    "leg_id": "NYL000030", 
+                    "name": "Lanza"
+                }, 
+                {
+                    "leg_id": "NYL000031", 
+                    "name": "Larkin"
+                }, 
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }, 
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000049", 
+                    "name": "Robach"
+                }, 
+                {
+                    "leg_id": "NYL000050", 
+                    "name": "Saland"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }, 
+                {
+                    "leg_id": "NYL000007", 
+                    "name": "Breslin"
+                }, 
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }, 
+                {
+                    "leg_id": "NYL000011", 
+                    "name": "Dilan"
+                }, 
+                {
+                    "leg_id": "NYL000018", 
+                    "name": "Gianaris"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }, 
+                {
+                    "leg_id": "NYL000042", 
+                    "name": "Oppenheimer"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }, 
+                {
+                    "leg_id": "NYL000048", 
+                    "name": "Rivera"
+                }, 
+                {
+                    "leg_id": "NYL000058", 
+                    "name": "Stavisky"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
+                }, 
+                {
+                    "leg_id": "NYL000029", 
+                    "name": "Kruger"
+                }, 
+                {
+                    "leg_id": "NYL000044", 
+                    "name": "Peralta"
+                }
+            ]
+        }
+    ]
 }

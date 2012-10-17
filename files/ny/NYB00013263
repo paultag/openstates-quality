@@ -14,14 +14,22 @@
             "action": "referred to small business", 
             "actor": "lower", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000071", 
+                    "name": "small business", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2011-04-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -30,9 +38,23 @@
     "alternate_titles": [], 
     "bill_id": "A 5800", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2010", 
+            "chamber": null, 
+            "internal_id": "NYB00002073", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:13", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00083891", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5800&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013263", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +63,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=817"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5800&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5800&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5800-2011"
@@ -51,19 +76,45 @@
         {
             "leg_id": null, 
             "name": "Towns", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000110", 
+            "name": "Gibson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Establishes the office for small business under the executive department;\nrepeals the division for small-business which was in the economic development\nlaw; transfers powers from the division to the office.", 
     "title": "Establishes the office for small business; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-22 01:08:57", 
+    "updated_at": "2012-10-16 18:06:29", 
     "versions": [
+        {
+            "doc_id": "NYD00083890", 
+            "mimetype": "text/html", 
+            "name": "A5800", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5800"
+        }, 
         {
             "doc_id": "NYD00026959", 
             "mimetype": "text/html", 

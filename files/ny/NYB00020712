@@ -3,7 +3,7 @@
     "action_dates": {
         "first": "2012-01-09 00:00:00", 
         "last": "2012-01-09 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2012-01-09 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -14,16 +14,23 @@
             "date": "2012-01-09 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "bill:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "K 795", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-01-10 06:41:18", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00108254", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K795&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00020712", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +39,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1267"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K795&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K795&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K795-2011"
@@ -42,25 +52,25 @@
         {
             "leg_id": "NYL000108", 
             "name": "Galef", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000064", 
             "name": "Abinanti", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000130", 
             "name": "Katz", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000169", 
             "name": "Paulin", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -68,12 +78,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commemorating the 100th Anniversary of the Maryknoll Sisters", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-07-13 02:25:55", 
+    "updated_at": "2012-10-16 18:12:39", 
     "versions": [
+        {
+            "doc_id": "NYD00108253", 
+            "mimetype": "text/html", 
+            "name": "K795", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K795"
+        }, 
         {
             "doc_id": "NYD00031364", 
             "mimetype": "text/html", 

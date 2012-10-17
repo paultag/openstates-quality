@@ -12,27 +12,46 @@
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2011-01-11 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1660", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00086390", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1660&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008938", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=622"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1660&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1660&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1660-2011"
@@ -51,7 +73,7 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +81,19 @@
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Enacts regulations of perchloroethylene dry cleaning facilities; establishes\nequipment standards and specifications and operating requirements; provides for\nlead inspection and self monitoring and for management of perc-contaminated\nwastewater and makes numerous other regulatory provisions; includes phase-out\nfrom residential buildings.", 
     "title": "Enacts regulations of perchloroethylene dry cleaning facilities, including phase-out from residential buildings", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-16 02:11:13", 
+    "updated_at": "2012-10-16 18:07:04", 
     "versions": [
+        {
+            "doc_id": "NYD00086389", 
+            "mimetype": "text/html", 
+            "name": "A1660", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1660"
+        }, 
         {
             "doc_id": "NYD00039354", 
             "mimetype": "text/html", 

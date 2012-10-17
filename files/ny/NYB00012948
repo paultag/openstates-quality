@@ -12,27 +12,46 @@
             "action": "referred to governmental employees", 
             "actor": "lower", 
             "date": "2011-02-22 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000056", 
+                    "name": "governmental employees", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to governmental employees", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000056", 
+                    "name": "governmental employees", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5498", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:12", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00101066", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5498&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012948", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=850"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5498&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5498&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5498-2011"
@@ -51,25 +73,25 @@
         {
             "leg_id": "NYL000102", 
             "name": "Englebright", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000191", 
             "name": "Schimel", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000159", 
             "name": "Molinaro", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000136", 
             "name": "Latimer", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -77,12 +99,19 @@
     "subjects": [
         "Education"
     ], 
+    "summary": "Enacts the \"framework for the future act\"; requires the state to pay one-half\nof the employer contributions to the New York state teachers' retirement\nsystem; provides that officers and employees of school districts and boards of\ncooperative educational services shall participate in the state employee health\nplan, one-half of which shall be financed by the state; provides an\napportionment to school districts for the one-half amount of the additional\ncost of pupils with a disability; directs state leaders to lobby for more\nfederal education aid; directs the commissioner of education to establish a\nstudy group to compare and study the differences between state and federal\nspecial education requirements; prohibits state unfunded mandates upon\npolitical subdivisions; requires disclosure of the cost and source of funding\nof any provision in a bill, executive order or proposed rule requiring a\npolitical subdivision of the state to expend additional funds or forego\nrevenue; directs the commissioner of education to develop and implement a\nprogram to provide information, expertise and assistance to school districts\nrelating to consolidation of functions within and among such districts;\nestablishes efficiency study grants for school districts and boards of\ncooperative educational services through the education department; authorizes\nboards of cooperative educational services to provide any shared services\nrequested by their component school districts; eliminates all limitations on\nthe compensation that may be paid to the superintendent of a board of\ncooperative educational services; provides state aid to boards of cooperative\neducational services for career and technical education programs; directs the\ncommissioner of education to establish a task force to analyze and report on\nalternative methods of funding charter schools which do not reduce the funding\nto the school districts of residence; provides state aid to school districts\nfor energy cost increases; directs the power authority of the state of New York\nto provide financial assistance to school districts for energy conservation\nimprovements; directs boards of cooperative educational services to study, in\ncooperation with their component school districts, the feasibility of and\nsavings derived from establishing a regional transportation system for the\nbenefit of component schools; increases the total foundation aid payable to\nschool districts; provides state transportation aid to school districts based\nupon actual expenses incurred; doubles reorganization incentive aid payable to\nschool districts; provides for the payment thereof over a period of 5 years;\nprovides that the department of education and office of children and family\nservices shall pay cost of attendance of children who are residents of the\nstate at state schools for the blind and the deaf; directs the department of\naudit and control to annually publish a taxpayer report card, detailing state\nand local expenditures and revenues; requires the state and political\nsubdivisions thereof, and public authorities to publish and post on the\ninternet their proposed budgets at least 30 days before approval thereof;\ndirects the department of audit and control to annually produce a report on the\ncosts incurred by localities in complying with state laws, rules and\nregulations; provides for certain annual state budget allocations for the\nsupport of school districts.", 
     "title": "Enacts the \"framework for the future act\"; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-19 02:11:04", 
+    "updated_at": "2012-10-16 18:10:54", 
     "versions": [
+        {
+            "doc_id": "NYD00101065", 
+            "mimetype": "text/html", 
+            "name": "A5498", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5498"
+        }, 
         {
             "doc_id": "NYD00044434", 
             "mimetype": "text/html", 

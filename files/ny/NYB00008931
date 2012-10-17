@@ -12,27 +12,46 @@
             "action": "referred to labor", 
             "actor": "lower", 
             "date": "2011-01-11 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000063", 
+                    "name": "labor", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to labor", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000063", 
+                    "name": "labor", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1653", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00099499", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1653&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008931", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=622"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1653&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1653&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1653-2011"
@@ -51,7 +73,7 @@
         {
             "leg_id": "NYL000164", 
             "name": "Nolan", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +81,19 @@
     "subjects": [
         "Labor and Employment"
     ], 
+    "summary": "Enacts the farmworkers fair labor practices act: grants collective bargaining\nrights to farm laborers; requires employers of farm laborers to allow at least\n24 consecutive hours of rest each week; provides for a 10 hour work day for\nfarm laborers; requires overtime rate at one and one-half times normal rate;\nmakes provisions of unemployment insurance law applicable to farm laborers;\nprovides sanitary code shall apply to all farm and food processing labor camps\nintended to house migrant workers, regardless of the number of occupants;\nprovides for eligibility of farm laborers for workers' compensation benefits;\nrequires employers of farm laborers to provide such farm laborers with claim\nforms for workers' compensation claims under certain conditions; requires\nreporting of injuries to employers of farmworkers.", 
     "title": "Enacts the farmworkers fair labor practices act, granting collective bargaining rights, workers' compensation and unemployment benefits to farmworkers", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-16 02:11:13", 
+    "updated_at": "2012-10-16 18:10:22", 
     "versions": [
+        {
+            "doc_id": "NYD00099498", 
+            "mimetype": "text/html", 
+            "name": "A1653", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1653"
+        }, 
         {
             "doc_id": "NYD00040685", 
             "mimetype": "text/html", 

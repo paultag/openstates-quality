@@ -14,7 +14,13 @@
             "action": "REFERRED TO ENVIRONMENTAL CONSERVATION", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000017", 
+                    "name": "ENVIRONMENTAL CONSERVATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -33,7 +39,13 @@
     ], 
     "country": "us", 
     "created_at": "2012-02-11 06:27:00", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00052412", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6456-2011"
+        }
+    ], 
     "id": "NYB00022225", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=435"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6456&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6456&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S6456-2011"
@@ -52,13 +67,13 @@
         {
             "leg_id": "NYL000002", 
             "name": "ADDABBO", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000004", 
             "name": "AVELLA", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -66,12 +81,19 @@
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Establishes the New York state climate change task force; establishes the\nmembership of the task force; establishes the powers and duties of the task\nforce.", 
     "title": "Establishes the New York state climate change task force", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 10:05:35", 
+    "updated_at": "2012-10-16 17:59:47", 
     "versions": [
+        {
+            "doc_id": "NYD00052411", 
+            "mimetype": "text/html", 
+            "name": "S6456", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6456"
+        }, 
         {
             "doc_id": "NYD00032544", 
             "mimetype": "text/html", 

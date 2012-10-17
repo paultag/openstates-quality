@@ -14,25 +14,53 @@
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4876", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2532", 
+            "chamber": null, 
+            "internal_id": "NYB00002618", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:09", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00099895", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4876&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012297", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=774"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4876&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4876&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4876-2011"
@@ -51,19 +82,57 @@
         {
             "leg_id": "NYL000195", 
             "name": "Simotas", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000085", 
+            "name": "Castelli", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000071", 
+            "name": "Bing", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000150", 
+            "name": "McKevitt", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000154", 
+            "name": "Meng", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Directs the division of homeland security and emergency services to develop\nrules and regulations relating to truck rental security; requires any person or\norganization in the business of renting trucks, vans or trailers to the public\nto be registered with the state.", 
     "title": "Directs the division of homeland security and emergency services to establish rules and regulations providing for truck rental security", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-01 01:07:33", 
+    "updated_at": "2012-10-16 18:10:26", 
     "versions": [
+        {
+            "doc_id": "NYD00099894", 
+            "mimetype": "text/html", 
+            "name": "A4876", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4876"
+        }, 
         {
             "doc_id": "NYD00034770", 
             "mimetype": "text/html", 

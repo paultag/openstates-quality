@@ -11,25 +11,46 @@
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 658", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:51", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00101229", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A658&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007894", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=513"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A658&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A658&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A658-2011"
@@ -48,24 +72,44 @@
         {
             "leg_id": "NYL000114", 
             "name": "Gottfried", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000100", 
+            "name": "Dinowitz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Relates to improving quality of certain adult care facilities.", 
     "title": "Relates to improving quality of certain adult care facilities", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-15 01:12:16", 
+    "updated_at": "2012-10-16 18:10:56", 
     "versions": [
         {
-            "doc_id": "NYD00007072", 
+            "doc_id": "NYD00101227", 
             "mimetype": "text/html", 
             "name": "A658", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A658-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A658"
+        }, 
+        {
+            "doc_id": "NYD00101228", 
+            "mimetype": "text/html", 
+            "name": "A658", 
+            "url": "http://open.nysenate.gov/legislation/bill/A658-2011"
         }
     ], 
     "votes": []

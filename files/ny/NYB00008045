@@ -14,7 +14,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -23,7 +29,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -37,9 +49,9 @@
     "created_at": "2011-05-05 01:29:51", 
     "documents": [
         {
-            "doc_id": "NYD00046860", 
+            "doc_id": "NYD00095454", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A803&term=&Memo=Y"
         }
     ], 
     "id": "NYB00008045", 
@@ -50,7 +62,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=573"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A803&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A803&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A803-2011"
@@ -60,7 +75,7 @@
         {
             "leg_id": "NYL000109", 
             "name": "Gantt", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -68,12 +83,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Enacts the NYS housing opportunity zones act; provides for the creation of\nhousing opportunity zones within which certain incentives are available for new\nconstruction or substantial rehabilitation of residential units.", 
     "title": "Provides designation of housing opportunity zones for housing incentives", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 10:05:40", 
+    "updated_at": "2012-10-16 18:09:22", 
     "versions": [
+        {
+            "doc_id": "NYD00095453", 
+            "mimetype": "text/html", 
+            "name": "A803", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A803"
+        }, 
         {
             "doc_id": "NYD00028233", 
             "mimetype": "text/html", 

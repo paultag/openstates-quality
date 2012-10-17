@@ -11,7 +11,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -35,7 +41,7 @@
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2011-06-07 00:00:00", 
             "related_entities": [], 
@@ -47,7 +53,13 @@
             "action": "COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2011-06-24 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -56,7 +68,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -68,7 +86,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:39", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00060272", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5047-2011"
+        }
+    ], 
     "id": "NYB00005309", 
     "level": "state", 
     "scraped_subjects": [
@@ -77,7 +101,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=339"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5047&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5047&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S5047-2011"
@@ -87,7 +114,7 @@
         {
             "leg_id": "NYL000061", 
             "name": "YOUNG", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -96,12 +123,19 @@
         "Housing and Property", 
         "Legal Issues"
     ], 
+    "summary": "Provides for decontrol of rent regulated housing accommodations when total\naverage annual income over two calendar years exceeds $175,000.", 
     "title": "Provides for decontrol of rent regulated housing accommodations when total average annual income over two calendar years exceeds $175,000", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-25 10:05:50", 
+    "updated_at": "2012-10-16 18:01:49", 
     "versions": [
+        {
+            "doc_id": "NYD00060271", 
+            "mimetype": "text/html", 
+            "name": "S5047", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5047"
+        }, 
         {
             "doc_id": "NYD00047448", 
             "mimetype": "text/html", 
@@ -109,5 +143,63 @@
             "url": "http://open.nysenate.gov/legislation/bill/S5047-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00005309", 
+            "chamber": "upper", 
+            "date": "2011-06-02 00:00:00", 
+            "id": "NYV00006154", 
+            "motion": "Housing, Construction and Community Development Committee Vote", 
+            "no_count": 3, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5047-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00006154", 
+            "yes_count": 5, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000021", 
+                    "name": "Grisanti"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }
+            ]
+        }
+    ]
 }

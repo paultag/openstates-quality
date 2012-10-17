@@ -11,17 +11,31 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 9448", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-03-29 01:01:26", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00086625", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9448&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00023565", 
     "level": "state", 
     "scraped_subjects": [
@@ -30,7 +44,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1040"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9448&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9448&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9448-2011"
@@ -40,6 +57,7 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -47,17 +65,24 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Requires organizations that take in rescued companion animals to examine them\nfor identifying information including microchips and to contact the owner.", 
     "title": "Requires organizations that take in rescued companion animals to examine them for identifying information including microchips", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-18 01:04:13", 
+    "updated_at": "2012-10-16 18:07:06", 
     "versions": [
         {
-            "doc_id": "NYD00023565", 
+            "doc_id": "NYD00086623", 
             "mimetype": "text/html", 
             "name": "A9448", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A9448-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9448"
+        }, 
+        {
+            "doc_id": "NYD00086624", 
+            "mimetype": "text/html", 
+            "name": "A9448", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9448-2011"
         }
     ], 
     "votes": []

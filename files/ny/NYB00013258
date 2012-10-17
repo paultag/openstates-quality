@@ -12,27 +12,53 @@
             "action": "referred to banks", 
             "actor": "lower", 
             "date": "2011-03-01 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000043", 
+                    "name": "banks", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to banks", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000043", 
+                    "name": "banks", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5795", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1654", 
+            "chamber": null, 
+            "internal_id": "NYB00001712", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:13", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091293", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5795&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013258", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=867"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5795&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5795&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5795-2011"
@@ -51,13 +80,13 @@
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000208", 
             "name": "Weprin", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -66,12 +95,19 @@
         "Commerce", 
         "Legal Issues"
     ], 
+    "summary": "Establishes the New York state infrastructure development bank within the\nbanking department, makes a $250,000,000 appropriation therefor and provides\nfor the expiration thereof upon its repeal in 15 years.", 
     "title": "Establishes the New York state infrastructure development bank; appropriation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-16 02:11:15", 
+    "updated_at": "2012-10-16 18:08:25", 
     "versions": [
+        {
+            "doc_id": "NYD00091292", 
+            "mimetype": "text/html", 
+            "name": "A5795", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5795"
+        }, 
         {
             "doc_id": "NYD00026953", 
             "mimetype": "text/html", 

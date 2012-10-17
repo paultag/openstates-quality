@@ -11,25 +11,53 @@
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1391", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 6456", 
+            "chamber": null, 
+            "internal_id": "NYB00022225", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:54", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00102313", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1391&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008657", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=534"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1391&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1391&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1391-2011"
@@ -48,24 +79,38 @@
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000085", 
+            "name": "Castelli", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Establishes the New York state climate change task force; establishes the\nmembership of the task force; establishes the powers and duties of the task\nforce.", 
     "title": "Establishes the New York state climate change task force", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-28 01:10:28", 
+    "updated_at": "2012-10-16 18:11:15", 
     "versions": [
         {
-            "doc_id": "NYD00000484", 
+            "doc_id": "NYD00102311", 
             "mimetype": "text/html", 
             "name": "A1391", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1391-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1391"
+        }, 
+        {
+            "doc_id": "NYD00102312", 
+            "mimetype": "text/html", 
+            "name": "A1391", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1391-2011"
         }
     ], 
     "votes": []

@@ -11,36 +11,58 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-06-03 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to housing", 
             "actor": "lower", 
             "date": "2011-06-07 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "8175"
+            ], 
             "action": "print number 8175a", 
             "actor": "lower", 
             "date": "2011-06-07 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
@@ -56,10 +78,23 @@
     "alternate_titles": [], 
     "bill_id": "A 8175", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 4263", 
+            "chamber": null, 
+            "internal_id": "NYB00004504", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-04 07:03:21", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00093616", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8175&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00017756", 
     "level": "state", 
     "scraped_subjects": [
@@ -68,30 +103,97 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1027"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8175&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A8175-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8175&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8175A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A8175A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000154", 
             "name": "Meng", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000157", 
+            "name": "Miller M", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000216", 
+            "name": "Quart", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000185", 
+            "name": "Rodriguez", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000078", 
+            "name": "Brook-Krasny", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000082", 
+            "name": "Calhoun", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000189", 
+            "name": "Sayward", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Relates to clarifying certain provisions relating to occupancy of class A\nmultiple dwellings; provides that use as a vacation rental for less than 30\ndays shall not disqualify a class A multiple dwelling as a permanent residence.", 
     "title": "Relates to clarifying certain provisions relating to occupancy of class A multiple dwellings", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-13 09:56:05", 
+    "updated_at": "2012-10-16 18:09:00", 
     "versions": [
+        {
+            "doc_id": "NYD00093615", 
+            "mimetype": "text/html", 
+            "name": "A8175", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8175"
+        }, 
         {
             "doc_id": "NYD00045632", 
             "mimetype": "text/html", 

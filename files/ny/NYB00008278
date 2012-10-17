@@ -11,25 +11,46 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1023", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:52", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00087048", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1023&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008278", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,34 +59,120 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=513"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1023&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A1023-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1023&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1023A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A1023A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000097", 
+            "name": "Cymbrowitz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000088", 
+            "name": "Clark", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000149", 
+            "name": "Markey", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000180", 
+            "name": "Rivera J", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": null, 
+            "name": "Rivera\n           P", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": null, 
+            "name": "Towns", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Enacts the food allergen information toll-free number act; requires certain\nmanufacturers, packers or distributors to label their products with a toll-free\ntelephone number to provide information to the consumer regarding the product's\ningredients; requires other manufacturers, packers, or distributors to label\ntheir products with an e-mail or mailing address.", 
     "title": "Enacts the \"food allergen information toll-free number act\"", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-28 01:10:28", 
+    "updated_at": "2012-10-16 18:07:11", 
     "versions": [
         {
-            "doc_id": "NYD00000028", 
+            "doc_id": "NYD00087045", 
             "mimetype": "text/html", 
             "name": "A1023", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1023-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1023"
+        }, 
+        {
+            "doc_id": "NYD00087046", 
+            "mimetype": "text/html", 
+            "name": "A1023", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1023-2011"
+        }, 
+        {
+            "doc_id": "NYD00087047", 
+            "mimetype": "text/html", 
+            "name": "A1023A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1023A-2011"
         }
     ], 
     "votes": []

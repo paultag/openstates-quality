@@ -11,38 +11,65 @@
             "action": "referred to codes", 
             "actor": "lower", 
             "date": "2011-02-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend (t) and recommit to codes", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5457"
+            ], 
             "action": "print number 5457a", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -51,14 +78,19 @@
             "action": "rules report cal.468", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s2835"
+            ], 
             "action": "substituted by s2835a", 
             "actor": "lower", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -67,9 +99,23 @@
     "alternate_titles": [], 
     "bill_id": "A 5457", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2835", 
+            "chamber": null, 
+            "internal_id": "NYB00002971", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:11", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00103707", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5457&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012906", 
     "level": "state", 
     "scraped_subjects": [
@@ -78,16 +124,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=758"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5457&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A5457-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5457&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5457A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A5457A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000219", 
             "name": "Giglio", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -96,17 +149,30 @@
         "Judiciary", 
         "Crime"
     ], 
+    "summary": "Designates the dog control officer of the city of Salamanca as a peace officer\nfor purposes of enforcing article 26 of the agriculture and markets law and\nissuing appearance tickets pursuant to article 7 of such law.", 
     "title": "Designates the dog control officer of the city of Salamanca as a peace officer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-19 01:02:28", 
+    "updated_at": "2012-10-16 18:11:33", 
     "versions": [
         {
-            "doc_id": "NYD00005594", 
+            "doc_id": "NYD00103704", 
             "mimetype": "text/html", 
             "name": "A5457", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A5457-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5457"
+        }, 
+        {
+            "doc_id": "NYD00103705", 
+            "mimetype": "text/html", 
+            "name": "A5457", 
+            "url": "http://open.nysenate.gov/legislation/bill/A5457-2011"
+        }, 
+        {
+            "doc_id": "NYD00103706", 
+            "mimetype": "text/html", 
+            "name": "A5457A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A5457A-2011"
         }
     ], 
     "votes": []

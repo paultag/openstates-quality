@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-03 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-04-30 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,25 +11,81 @@
             "action": "referred to education", 
             "actor": "lower", 
             "date": "2011-02-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to education", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to education", 
+            "actor": "lower", 
+            "date": "2012-04-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "4363"
+            ], 
+            "action": "print number 4363a", 
+            "actor": "lower", 
+            "date": "2012-04-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4363", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1587", 
+            "chamber": null, 
+            "internal_id": "NYB00001644", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:07", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00103691", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4363&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011771", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,16 +94,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=695"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4363&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A4363-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4363&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4363A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A4363A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000165", 
             "name": "O'Donnell", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,17 +118,30 @@
     "subjects": [
         "Education"
     ], 
+    "summary": "Provides for the development and implementation of statewide school nutrition\nstandards for food and beverages that are sold to students and for the review\nof school wellness policies.", 
     "title": "Provides for the development and implementation of statewide school nutrition standards, for the review of school wellness policies", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-19 01:02:27", 
+    "updated_at": "2012-10-16 18:11:33", 
     "versions": [
         {
-            "doc_id": "NYD00004225", 
+            "doc_id": "NYD00103688", 
             "mimetype": "text/html", 
             "name": "A4363", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4363-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4363"
+        }, 
+        {
+            "doc_id": "NYD00103689", 
+            "mimetype": "text/html", 
+            "name": "A4363", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4363-2011"
+        }, 
+        {
+            "doc_id": "NYD00103690", 
+            "mimetype": "text/html", 
+            "name": "A4363A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4363A-2011"
         }
     ], 
     "votes": []

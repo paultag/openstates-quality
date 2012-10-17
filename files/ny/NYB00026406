@@ -11,8 +11,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,7 @@
             "action": "REPORTED TO CALENDAR FOR CONSIDERATION", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +35,7 @@
             "action": "ADOPTED", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -36,9 +44,16 @@
     "alternate_titles": [], 
     "bill_id": "J 4945", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-06-01 01:07:27", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00074134", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J4945-2011"
+        }
+    ], 
     "id": "NYB00026406", 
     "level": "state", 
     "scraped_subjects": [
@@ -47,7 +62,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1470"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J4945&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J4945&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J4945-2011"
@@ -57,6 +75,7 @@
         {
             "leg_id": "NYL000006", 
             "name": "BONACIC", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -64,12 +83,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Honoring Correction Officer John Iocovello, recipient of a New York State Department of Corrections and Community Supervision Medal of Merit on June 14, 2012", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-06-12 01:11:20", 
+    "updated_at": "2012-10-16 18:04:54", 
     "versions": [
+        {
+            "doc_id": "NYD00074133", 
+            "mimetype": "text/html", 
+            "name": "J4945", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J4945"
+        }, 
         {
             "doc_id": "NYD00034627", 
             "mimetype": "text/html", 

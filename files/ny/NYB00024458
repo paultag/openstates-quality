@@ -11,8 +11,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-01-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -20,9 +26,16 @@
     "alternate_titles": [], 
     "bill_id": "J 2955", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-04-26 01:10:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00072029", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J2955-2011"
+        }
+    ], 
     "id": "NYB00024458", 
     "level": "state", 
     "scraped_subjects": [
@@ -31,7 +44,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1395"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J2955&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J2955&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J2955-2011"
@@ -41,6 +57,7 @@
         {
             "leg_id": "NYL000039", 
             "name": "MONTGOMERY", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -48,12 +65,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Honoring Anthony Ng for his unwavering commitment and contributions to the youth of New York City", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-06-17 01:12:25", 
+    "updated_at": "2012-10-16 18:04:35", 
     "versions": [
+        {
+            "doc_id": "NYD00072028", 
+            "mimetype": "text/html", 
+            "name": "J2955", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J2955"
+        }, 
         {
             "doc_id": "NYD00040464", 
             "mimetype": "text/html", 

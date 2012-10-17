@@ -14,7 +14,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-03-07 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -23,7 +29,13 @@
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2012-06-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -32,13 +44,19 @@
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2012-06-18 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2012-06-18 00:00:00", 
             "related_entities": [], 
@@ -65,6 +83,9 @@
             ]
         }, 
         {
+            "+bill_id": [
+                "s6480"
+            ], 
             "action": "substituted by s6480", 
             "actor": "lower", 
             "date": "2012-06-19 00:00:00", 
@@ -89,9 +110,9 @@
     "created_at": "2012-04-24 01:09:39", 
     "documents": [
         {
-            "doc_id": "NYD00047347", 
+            "doc_id": "NYD00097142", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9498&term=&Memo=Y"
         }
     ], 
     "id": "NYB00024358", 
@@ -102,7 +123,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1108"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9498&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9498&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9498-2011"
@@ -112,7 +136,7 @@
         {
             "leg_id": "NYL000142", 
             "name": "Lopez V", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -120,12 +144,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Authorizes local legislative bodies to grant additional real property tax\nexemptions to redevelopment company projects, which are not operated by mutual\nredevelopment companies.", 
     "title": "Authorizes local legislative bodies to grant additional real property tax exemptions to certain redevelopment company projects", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 10:05:47", 
+    "updated_at": "2012-10-16 18:09:50", 
     "versions": [
+        {
+            "doc_id": "NYD00097141", 
+            "mimetype": "text/html", 
+            "name": "A9498", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9498"
+        }, 
         {
             "doc_id": "NYD00036332", 
             "mimetype": "text/html", 

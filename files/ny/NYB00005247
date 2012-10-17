@@ -12,9 +12,14 @@
             "action": "REFERRED TO VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS", 
             "actor": "upper", 
             "date": "2011-05-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000033", 
+                    "name": "VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -22,16 +27,28 @@
             "action": "REPORTED AND COMMITTED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-05-10 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "REFERRED TO VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000033", 
+                    "name": "VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -40,19 +57,28 @@
             "action": "AMEND AND RECOMMIT TO VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS", 
             "actor": "upper", 
             "date": "2012-01-30 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000033", 
+                    "name": "VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4985"
+            ], 
             "action": "PRINT NUMBER 4985A", 
             "actor": "upper", 
             "date": "2012-01-30 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
@@ -62,7 +88,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:39", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00055558", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4985A-2011"
+        }
+    ], 
     "id": "NYB00005247", 
     "level": "state", 
     "scraped_subjects": [
@@ -71,17 +103,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=334"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4985&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S4985-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4985&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4985A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S4985A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000032", 
             "name": "LAVALLE", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -89,12 +127,19 @@
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Establishes the pandemic preparedness task force comprised of eighteen members;\nprepares an influenza pandemic plan; provides that they shall meet at least six\ntimes per year; provides no member shall receive compensation but are allowed\nactual and necessary expenses; requires such task force shall report to the\ngovernor and the legislature within two years.", 
     "title": "Establishes the pandemic preparedness task force", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 19:58:07", 
+    "updated_at": "2012-10-16 18:00:27", 
     "versions": [
+        {
+            "doc_id": "NYD00055557", 
+            "mimetype": "text/html", 
+            "name": "S4985", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4985"
+        }, 
         {
             "doc_id": "NYD00033442", 
             "mimetype": "text/html", 
@@ -108,5 +153,86 @@
             "url": "http://open.nysenate.gov/legislation/bill/S4985A-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00005247", 
+            "chamber": "upper", 
+            "date": "2011-05-10 00:00:00", 
+            "id": "NYV00004901", 
+            "motion": "Veterans, Homeland Security and Military Affairs Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4985A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00004901", 
+            "yes_count": 14, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000005", 
+                    "name": "Ball"
+                }, 
+                {
+                    "leg_id": "NYL000015", 
+                    "name": "Flanagan"
+                }, 
+                {
+                    "leg_id": "NYL000019", 
+                    "name": "Golden"
+                }, 
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000021", 
+                    "name": "Grisanti"
+                }, 
+                {
+                    "leg_id": "NYL000031", 
+                    "name": "Larkin"
+                }, 
+                {
+                    "leg_id": "NYL000038", 
+                    "name": "McDonald"
+                }, 
+                {
+                    "leg_id": "NYL000062", 
+                    "name": "Zeldin"
+                }, 
+                {
+                    "leg_id": "NYL000002", 
+                    "name": "Addabbo"
+                }, 
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
+                }, 
+                {
+                    "leg_id": "NYL000008", 
+                    "name": "Carlucci"
+                }, 
+                {
+                    "leg_id": "NYL000027", 
+                    "name": "Klein"
+                }, 
+                {
+                    "leg_id": "NYL000052", 
+                    "name": "Savino"
+                }
+            ]
+        }
+    ]
 }

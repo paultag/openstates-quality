@@ -14,25 +14,53 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7609", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4661", 
+            "chamber": null, 
+            "internal_id": "NYB00004918", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-16 21:06:12", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00105201", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7609&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00016063", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=932"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7609&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7609&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7609-2011"
@@ -51,6 +82,7 @@
         {
             "leg_id": "NYL000081", 
             "name": "Cahill", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -58,12 +90,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Relates to the income criteria for the use of funds from the greater Catskills\nflood remediation program.", 
     "title": "Relates to the income criteria for the use of funds from the greater Catskills flood remediation program", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-22 01:09:00", 
+    "updated_at": "2012-10-16 18:12:01", 
     "versions": [
+        {
+            "doc_id": "NYD00105200", 
+            "mimetype": "text/html", 
+            "name": "A7609", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7609"
+        }, 
         {
             "doc_id": "NYD00027091", 
             "mimetype": "text/html", 

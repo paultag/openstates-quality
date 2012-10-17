@@ -11,25 +11,46 @@
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2011-02-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4366", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:07", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00103681", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4366&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011774", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=695"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4366&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4366&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4366-2011"
@@ -48,24 +72,56 @@
         {
             "leg_id": "NYL000171", 
             "name": "Perry", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000108", 
+            "name": "Galef", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000154", 
+            "name": "Meng", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": null, 
+            "name": "Towns", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides that head of household issued a tax abatement certificate for five\nconsecutive years shall not be required to file every two years for a tax\nabatement certificate upon local option; provides penalties for falsification\nof application of no more than $100 and disqualification from abatement for 5\nyears.", 
     "title": "Relates to exemption from rental increase and abatement of real property taxes on certain types of housing occupied by low income senior citizens", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-19 01:02:27", 
+    "updated_at": "2012-10-16 18:11:33", 
     "versions": [
         {
-            "doc_id": "NYD00004228", 
+            "doc_id": "NYD00103679", 
             "mimetype": "text/html", 
             "name": "A4366", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4366-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4366"
+        }, 
+        {
+            "doc_id": "NYD00103680", 
+            "mimetype": "text/html", 
+            "name": "A4366", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4366-2011"
         }
     ], 
     "votes": []

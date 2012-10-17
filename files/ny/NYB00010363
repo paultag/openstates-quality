@@ -12,27 +12,46 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-21 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3035", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:01", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00085590", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3035&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010363", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=701"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3035&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3035&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3035-2011"
@@ -51,49 +73,49 @@
         {
             "leg_id": "NYL000147", 
             "name": "Maisel", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000206", 
-            "name": "Weinstein", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000183", 
             "name": "Roberts", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000198", 
             "name": "Stevenson", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000125", 
             "name": "Jacobs", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000181", 
             "name": "Rivera N", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000207", 
             "name": "Weisenberg", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000208", 
             "name": "Weprin", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000206", 
+            "name": "Weinstein", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -101,12 +123,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Requires approval of the commissioner for compromise of a fine or penalty\nrelating to kosher violations.", 
     "title": "Requires approval of the commissioner of agriculture and markets for compromise of a fine or penalty relating to kosher violations", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 02:25:51", 
+    "updated_at": "2012-10-16 18:06:53", 
     "versions": [
+        {
+            "doc_id": "NYD00085589", 
+            "mimetype": "text/html", 
+            "name": "A3035", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3035"
+        }, 
         {
             "doc_id": "NYD00042932", 
             "mimetype": "text/html", 

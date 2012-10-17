@@ -14,8 +14,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-02-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -31,9 +44,23 @@
     "alternate_titles": [], 
     "bill_id": "S 2894", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 2696", 
+            "chamber": null, 
+            "internal_id": "NYB00010013", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:27", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00061161", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2894-2011"
+        }
+    ], 
     "id": "NYB00003037", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=183"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2894&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2894&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S2894-2011"
@@ -52,19 +82,39 @@
         {
             "leg_id": "NYL000013", 
             "name": "ESPAILLAT", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000045", 
+            "name": "PERKINS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000048", 
+            "name": "RIVERA", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Exempts new multiple dwellings from local taxation; extends period until June\n15, 2011.", 
     "title": "Exempts new multiple dwellings from local taxation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-31 01:08:29", 
+    "updated_at": "2012-10-16 18:02:04", 
     "versions": [
+        {
+            "doc_id": "NYD00061160", 
+            "mimetype": "text/html", 
+            "name": "S2894", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2894"
+        }, 
         {
             "doc_id": "NYD00033318", 
             "mimetype": "text/html", 

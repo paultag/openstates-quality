@@ -14,8 +14,14 @@
             "action": "REFERRED TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2011-01-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,13 @@
             "action": "REFERRED TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -31,9 +44,23 @@
     "alternate_titles": [], 
     "bill_id": "S 1801", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 1940", 
+            "chamber": null, 
+            "internal_id": "NYB00009224", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:22", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00066848", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1801-2011"
+        }
+    ], 
     "id": "NYB00001861", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=113"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1801&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1801&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S1801-2011"
@@ -52,6 +82,7 @@
         {
             "leg_id": "NYL000032", 
             "name": "LAVALLE", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +90,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Authorizes the town of Brookhaven to establish a housing and community court to\nassist the district court in the disposition of all violations of town laws,\ncodes and ordinances, and provides for its powers and duties.", 
     "title": "Authorizes town of Brookhaven to establish a housing and community court, and provides for its powers and duties", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-31 01:08:26", 
+    "updated_at": "2012-10-16 18:03:27", 
     "versions": [
+        {
+            "doc_id": "NYD00066847", 
+            "mimetype": "text/html", 
+            "name": "S1801", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S1801"
+        }, 
         {
             "doc_id": "NYD00033242", 
             "mimetype": "text/html", 

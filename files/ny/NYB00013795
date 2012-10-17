@@ -14,22 +14,37 @@
             "action": "referred to local governments", 
             "actor": "lower", 
             "date": "2011-03-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000065", 
+                    "name": "local governments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-03-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -38,14 +53,19 @@
             "action": "advanced to third reading cal.329", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s4031"
+            ], 
             "action": "substituted by s4031", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,9 +74,23 @@
     "alternate_titles": [], 
     "bill_id": "A 6306", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4031", 
+            "chamber": null, 
+            "internal_id": "NYB00004253", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:15", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00100286", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6306&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013795", 
     "level": "state", 
     "scraped_subjects": [
@@ -65,7 +99,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=889"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6306&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6306&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6306-2011"
@@ -75,6 +112,7 @@
         {
             "leg_id": "NYL000146", 
             "name": "Magnarelli", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -82,12 +120,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Relates to redistributing 2010 bond volume allocations, allocating the unified\nstate bond volume ceiling, and enacting the private activity bond act of 2011.", 
     "title": "Relates to redistributing 2011 bond volume allocations", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-18 01:16:02", 
+    "updated_at": "2012-10-16 18:10:37", 
     "versions": [
+        {
+            "doc_id": "NYD00100285", 
+            "mimetype": "text/html", 
+            "name": "A6306", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6306"
+        }, 
         {
             "doc_id": "NYD00032043", 
             "mimetype": "text/html", 

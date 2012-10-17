@@ -11,27 +11,45 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in judiciary", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
@@ -41,7 +59,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:14", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00106298", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6009&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013477", 
     "level": "state", 
     "scraped_subjects": [
@@ -50,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=880"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6009&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6009&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6009-2011"
@@ -60,31 +87,31 @@
         {
             "leg_id": "NYL000079", 
             "name": "Burling", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000145", 
-            "name": "Magee", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000160", 
-            "name": "Montesano", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000094", 
             "name": "Crouch", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000104", 
             "name": "Finch", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000145", 
+            "name": "Magee", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000160", 
+            "name": "Montesano", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -92,12 +119,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Provides that the owner, lessee or occupant of premises owes no duty to keep\nthe premises safe for entry or use by others performing certain activities,\nincluding recreational activities such as snowmobiling and motorized vehicle\noperation for recreational purposes.", 
     "title": "Provides for certain uses of premises for which no duty is owed to keep premises safe and the inherent risk of use of off highway recreational vehicles", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 19:58:15", 
+    "updated_at": "2012-10-16 18:12:12", 
     "versions": [
+        {
+            "doc_id": "NYD00106297", 
+            "mimetype": "text/html", 
+            "name": "A6009", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6009"
+        }, 
         {
             "doc_id": "NYD00044724", 
             "mimetype": "text/html", 

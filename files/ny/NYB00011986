@@ -11,7 +11,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-02-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -34,9 +46,9 @@
     "created_at": "2011-05-05 01:30:08", 
     "documents": [
         {
-            "doc_id": "NYD00048596", 
+            "doc_id": "NYD00090131", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4573&term=&Memo=Y"
         }
     ], 
     "id": "NYB00011986", 
@@ -47,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=794"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4573&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4573&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4573-2011"
@@ -57,13 +72,13 @@
         {
             "leg_id": "NYL000203", 
             "name": "Titone", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000205", 
             "name": "Tobacco", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -71,12 +86,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Requires the owner, lessee, agent or other person who manages or controls a\nmultiple dwelling to provide, install, and maintain, a window guard on the\nwindows of each apartment in which a child or children ten years of age or\nunder reside, and on the windows, if any, in the public halls of a multiple\ndwelling in which such children reside; prohibits a padlock, key lock,\ncombination lock or any other locking mechanism on any window guard, except\nthat such window guards may be secured with a latch system that is capable of\nreleasing in such a manner that immediate access to such fire escape is not\nimpeded; provides that any violation shall constitute a civil violation subject\nto a penalty of not more than five hundred dollars per violation.", 
     "title": "Provides that window guards shall be required on all fire escape windows in multiple dwellings", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-26 10:06:03", 
+    "updated_at": "2012-10-16 18:08:06", 
     "versions": [
+        {
+            "doc_id": "NYD00090130", 
+            "mimetype": "text/html", 
+            "name": "A4573", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4573"
+        }, 
         {
             "doc_id": "NYD00038201", 
             "mimetype": "text/html", 

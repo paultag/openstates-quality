@@ -14,8 +14,14 @@
             "action": "REFERRED TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,13 @@
             "action": "REFERRED TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -31,26 +44,51 @@
             "action": "AMEND AND RECOMMIT TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5080"
+            ], 
             "action": "PRINT NUMBER 5080A", 
             "actor": "upper", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 5080", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 7378", 
+            "chamber": null, 
+            "internal_id": "NYB00014911", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:39", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00058785", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5080A-2011"
+        }
+    ], 
     "id": "NYB00005342", 
     "level": "state", 
     "scraped_subjects": [
@@ -59,16 +97,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=339"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5080&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S5080-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5080&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5080A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S5080A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000032", 
             "name": "LAVALLE", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -76,12 +121,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Relates to the separate assessment of manufactured homes; includes manufactured\nhomes for purposes of the school tax relief (STAR) exemption; relates to the\nissuance of tax compliance certificates to the owner of a manufactured home.", 
     "title": "Relates to the separate assessment of manufactured homes; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-11 15:59:37", 
+    "updated_at": "2012-10-16 18:01:15", 
     "versions": [
+        {
+            "doc_id": "NYD00058784", 
+            "mimetype": "text/html", 
+            "name": "S5080", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5080"
+        }, 
         {
             "doc_id": "NYD00027712", 
             "mimetype": "text/html", 

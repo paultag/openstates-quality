@@ -11,25 +11,46 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-02-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4780", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:09", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00084736", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4780&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012199", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=748"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4780&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4780&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4780-2011"
@@ -48,24 +72,74 @@
         {
             "leg_id": "NYL000139", 
             "name": "Lifton", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000108", 
+            "name": "Galef", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000165", 
+            "name": "O'Donnell", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000126", 
+            "name": "Jaffee", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000102", 
+            "name": "Englebright", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000145", 
+            "name": "Magee", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Requires an agreement on the fiscal plan between the Assembly and Senate to be\ncompleted by March 23rd annually.", 
     "title": "Requires an agreement on the fiscal plan between the Assembly and Senate to be completed by March 23rd annually", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-10 01:06:17", 
+    "updated_at": "2012-10-16 18:06:37", 
     "versions": [
         {
-            "doc_id": "NYD00004735", 
+            "doc_id": "NYD00084734", 
             "mimetype": "text/html", 
             "name": "A4780", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4780-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4780"
+        }, 
+        {
+            "doc_id": "NYD00084735", 
+            "mimetype": "text/html", 
+            "name": "A4780", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4780-2011"
         }
     ], 
     "votes": []

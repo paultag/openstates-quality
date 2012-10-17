@@ -12,9 +12,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-04-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -40,9 +45,16 @@
     "alternate_titles": [], 
     "bill_id": "J 1335", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:46", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00077833", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J1335-2011"
+        }
+    ], 
     "id": "NYB00006910", 
     "level": "state", 
     "scraped_subjects": [
@@ -51,7 +63,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1321"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J1335&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J1335&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J1335-2011"
@@ -61,7 +76,7 @@
         {
             "leg_id": "NYL000061", 
             "name": "YOUNG", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -69,12 +84,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commemorating the observance of April 2011 as National Fair Housing Month", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-07-28 02:49:54", 
+    "updated_at": "2012-10-16 18:05:24", 
     "versions": [
+        {
+            "doc_id": "NYD00077832", 
+            "mimetype": "text/html", 
+            "name": "J1335", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J1335"
+        }, 
         {
             "doc_id": "NYD00042828", 
             "mimetype": "text/html", 

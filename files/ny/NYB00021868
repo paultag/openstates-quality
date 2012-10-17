@@ -14,13 +14,19 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-31 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
             "related_entities": [], 
@@ -38,6 +44,9 @@
             ]
         }, 
         {
+            "+bill_id": [
+                "s6332"
+            ], 
             "action": "substituted by s6332", 
             "actor": "lower", 
             "date": "2012-05-30 00:00:00", 
@@ -62,9 +71,9 @@
     "created_at": "2012-02-01 07:03:53", 
     "documents": [
         {
-            "doc_id": "NYD00046678", 
+            "doc_id": "NYD00093479", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9163&term=&Memo=Y"
         }
     ], 
     "id": "NYB00021868", 
@@ -75,7 +84,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1087"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9163&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9163&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9163-2011"
@@ -85,7 +97,7 @@
         {
             "leg_id": "NYL000142", 
             "name": "Lopez V", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -93,12 +105,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Relates to permitted obstructions in a city with a population of one million or\nmore; provides that such obstructions shall not include exterior wall thickness\nof up to 8 inches on the exterior of a building to accommodate the addition of\ninsulation.", 
     "title": "Relates to permitted obstructions in N.Y. city", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:37", 
+    "updated_at": "2012-10-16 18:08:58", 
     "versions": [
+        {
+            "doc_id": "NYD00093478", 
+            "mimetype": "text/html", 
+            "name": "A9163", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9163"
+        }, 
         {
             "doc_id": "NYD00043074", 
             "mimetype": "text/html", 

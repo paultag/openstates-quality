@@ -24,7 +24,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-06-16 01:15:52", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00108238", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1487&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00027109", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +39,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1338"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1487&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1487&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K1487-2011"
@@ -43,7 +52,7 @@
         {
             "leg_id": "NYL000170", 
             "name": "Peoples-Stokes", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -51,12 +60,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Honoring John Magnarelli on his retirement after 36 years of dedicated and distinguished service with the USDA Food and Nutrition Service", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-25 10:06:07", 
+    "updated_at": "2012-10-16 18:12:39", 
     "versions": [
+        {
+            "doc_id": "NYD00108237", 
+            "mimetype": "text/html", 
+            "name": "K1487", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K1487"
+        }, 
         {
             "doc_id": "NYD00040151", 
             "mimetype": "text/html", 

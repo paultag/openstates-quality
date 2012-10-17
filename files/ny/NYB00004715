@@ -1,18 +1,24 @@
 {
     "action_dates": {
-        "first": "2011-04-06 00:00:00", 
-        "last": "2011-05-11 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
-        "signed": null
+        "first": "2011-04-05 00:00:00", 
+        "last": "2011-06-01 00:00:00", 
+        "passed_lower": "2011-05-04 00:00:00", 
+        "passed_upper": "2011-05-11 00:00:00", 
+        "signed": "2011-06-01 00:00:00"
     }, 
     "actions": [
         {
             "action": "REFERRED TO MENTAL HEALTH AND DEVELOPMENTAL DISABILITIES", 
             "actor": "upper", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000028", 
+                    "name": "MENTAL HEALTH AND DEVELOPMENTAL DISABILITIES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,7 @@
             "action": "1ST REPORT CAL.549", 
             "actor": "upper", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,33 +35,176 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2011-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "A6840"
+            ], 
             "action": "SUBSTITUTED BY A6840", 
             "actor": "upper", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
+            ]
+        }, 
+        {
+            "action": "referred to mental health", 
+            "actor": "lower", 
+            "date": "2011-04-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000066", 
+                    "name": "mental health", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported ", 
+            "actor": "lower", 
+            "date": "2011-04-12 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "advanced to third reading cal.235", 
+            "actor": "lower", 
+            "date": "2011-04-28 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "passed assembly", 
+            "actor": "lower", 
+            "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "delivered to senate", 
+            "actor": "lower", 
+            "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "REFERRED TO MENTAL HEALTH AND DEVELOPMENTAL DISABILITIES", 
+            "actor": "upper", 
+            "date": "2011-05-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000028", 
+                    "name": "MENTAL HEALTH AND DEVELOPMENTAL DISABILITIES", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "SUBSTITUTED FOR S4467", 
+            "actor": "upper", 
+            "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "3RD READING CAL.549", 
+            "actor": "upper", 
+            "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "PASSED SENATE", 
+            "actor": "upper", 
+            "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "RETURNED TO ASSEMBLY", 
+            "actor": "upper", 
+            "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "delivered to governor", 
+            "actor": "lower", 
+            "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:received"
+            ]
+        }, 
+        {
+            "+session_laws": [
+                "37"
+            ], 
+            "action": "signed chap.37", 
+            "actor": "lower", 
+            "date": "2011-06-01 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:signed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 4467", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 6840", 
+            "chamber": null, 
+            "internal_id": "NYB00014363", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:34", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00063260", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4467-2011"
+        }
+    ], 
     "id": "NYB00004715", 
     "level": "state", 
     "scraped_subjects": [
@@ -63,7 +213,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=284"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4467&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4467&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S4467-2011"
@@ -73,6 +226,7 @@
         {
             "leg_id": "NYL000038", 
             "name": "MCDONALD", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -81,18 +235,90 @@
         "Health", 
         "Legal Issues"
     ], 
+    "summary": "Relates to state mental health and developmental disabilities programs, offices\nand issues.", 
     "title": "Relating to state mental health and developmental disabilities programs, offices and issues; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-11 06:26:40", 
+    "updated_at": "2012-10-16 18:02:29", 
     "versions": [
         {
-            "doc_id": "NYD00019221", 
+            "doc_id": "NYD00063258", 
             "mimetype": "text/html", 
             "name": "S4467", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S4467-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4467"
+        }, 
+        {
+            "doc_id": "NYD00063259", 
+            "mimetype": "text/html", 
+            "name": "S4467", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4467-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00004715", 
+            "chamber": "upper", 
+            "date": "2011-05-04 00:00:00", 
+            "id": "NYV00006911", 
+            "motion": "Mental Health and Developmental Disabilities Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4467-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00006911", 
+            "yes_count": 10, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000038", 
+                    "name": "McDonald"
+                }, 
+                {
+                    "leg_id": "NYL000005", 
+                    "name": "Ball"
+                }, 
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000022", 
+                    "name": "Hannon"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000062", 
+                    "name": "Zeldin"
+                }, 
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }, 
+                {
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
+                }, 
+                {
+                    "leg_id": "NYL000027", 
+                    "name": "Klein"
+                }, 
+                {
+                    "leg_id": "NYL000044", 
+                    "name": "Peralta"
+                }
+            ]
+        }
+    ]
 }

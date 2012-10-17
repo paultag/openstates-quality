@@ -11,25 +11,46 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3128", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:01", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104676", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3128&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010461", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=627"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3128&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3128&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3128-2011"
@@ -48,6 +72,7 @@
         {
             "leg_id": "NYL000173", 
             "name": "Pretlow", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,17 +80,24 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Provides for the limitation of rent increases after vacancy of a housing\naccommodation under the Rent Regulation Reform Act of 1997 by providing that\nthe statutory allowance in such Act replaces and is in lieu of any other\npreviously authorized vacancy allowance.", 
     "title": "Provides for the limitation of rent increases after vacancy of a rent regulated housing accommodation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-24 01:09:34", 
+    "updated_at": "2012-10-16 18:11:54", 
     "versions": [
         {
-            "doc_id": "NYD00002632", 
+            "doc_id": "NYD00104674", 
             "mimetype": "text/html", 
             "name": "A3128", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A3128-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3128"
+        }, 
+        {
+            "doc_id": "NYD00104675", 
+            "mimetype": "text/html", 
+            "name": "A3128", 
+            "url": "http://open.nysenate.gov/legislation/bill/A3128-2011"
         }
     ], 
     "votes": []

@@ -11,7 +11,13 @@
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2011-01-14 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -34,9 +46,9 @@
     "created_at": "2011-05-05 01:29:57", 
     "documents": [
         {
-            "doc_id": "NYD00048471", 
+            "doc_id": "NYD00095208", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2198&term=&Memo=Y"
         }
     ], 
     "id": "NYB00009490", 
@@ -47,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=654"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2198&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2198&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2198-2011"
@@ -57,7 +72,7 @@
         {
             "leg_id": "NYL000209", 
             "name": "Wright", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -65,12 +80,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Allows landlords to charge potential tenants application fees no greater than\nthe actual cost of a credit check or related services paid to a third party by\nthe landlord, and in no event shall such fee exceed $30.", 
     "title": "Prohibits landlords from charging potential tenants application fees greater than the actual cost of a credit check or other related services paid by the landlord", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-26 10:06:01", 
+    "updated_at": "2012-10-16 18:09:17", 
     "versions": [
+        {
+            "doc_id": "NYD00095207", 
+            "mimetype": "text/html", 
+            "name": "A2198", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2198"
+        }, 
         {
             "doc_id": "NYD00029760", 
             "mimetype": "text/html", 

@@ -12,54 +12,96 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-21 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reference changed to codes", 
             "actor": "lower", 
             "date": "2011-01-27 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to codes", 
             "actor": "lower", 
             "date": "2011-02-09 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "3042"
+            ], 
             "action": "print number 3042a", 
             "actor": "lower", 
             "date": "2011-02-09 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "referred to codes", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3042", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1728", 
+            "chamber": null, 
+            "internal_id": "NYB00001787", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:01", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00085913", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3042&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010370", 
     "level": "state", 
     "scraped_subjects": [
@@ -68,35 +110,59 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=701"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3042&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A3042-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3042&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3042A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A3042A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000161", 
             "name": "Morelle", 
-            "official_type": "multisponsor", 
+            "official_type": "SPONSOR", 
+            "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000193", 
+            "name": "Schroeder", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000096", 
+            "name": "Cusick", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000210", 
+            "name": "Zebrowski", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000116", 
             "name": "Gunther", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000163", 
+            "name": "Murray", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000172", 
             "name": "Pheffer", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000193", 
-            "name": "Schroeder", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -104,12 +170,19 @@
     "subjects": [
         "Crime"
     ], 
+    "summary": "Creates crimes of cemetery desecration of a veteran as a class E felony; makes\ncorresponding changes in cemetery desecration crimes in the first and second\ndegrees and aggravated cemetery desecration in the first degree; makes\nadditional penal provisions.", 
     "title": "Creates crimes of cemetery desecration of a veteran", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 02:25:51", 
+    "updated_at": "2012-10-16 18:06:57", 
     "versions": [
+        {
+            "doc_id": "NYD00085912", 
+            "mimetype": "text/html", 
+            "name": "A3042", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3042"
+        }, 
         {
             "doc_id": "NYD00042941", 
             "mimetype": "text/html", 

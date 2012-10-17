@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
-        "last": "2012-01-13 00:00:00", 
+        "last": "2012-03-12 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,8 +11,14 @@
             "action": "REFERRED TO CHILDREN AND FAMILIES", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000005", 
+                    "name": "CHILDREN AND FAMILIES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO CHILDREN AND FAMILIES", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000005", 
+                    "name": "CHILDREN AND FAMILIES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,26 +41,75 @@
             "action": "AMEND AND RECOMMIT TO CHILDREN AND FAMILIES", 
             "actor": "upper", 
             "date": "2012-01-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000005", 
+                    "name": "CHILDREN AND FAMILIES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "889"
+            ], 
             "action": "PRINT NUMBER 889A", 
             "actor": "upper", 
             "date": "2012-01-13 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
+            "actor": "upper", 
+            "date": "2012-02-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
+            ]
+        }, 
+        {
+            "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
+            "actor": "upper", 
+            "date": "2012-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 889", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 571", 
+            "chamber": null, 
+            "internal_id": "NYB00007804", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:18", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00057135", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S889A-2011"
+        }
+    ], 
     "id": "NYB00000913", 
     "level": "state", 
     "scraped_subjects": [
@@ -56,16 +118,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=55"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S889&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S889-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S889&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S889A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S889A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000028", 
             "name": "KRUEGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -74,17 +143,30 @@
         "Judiciary", 
         "Crime"
     ], 
+    "summary": "Requires courts to notify victims upon service of orders of protection.", 
     "title": "Relates to notification to victims of service of orders of protection", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-14 06:27:39", 
+    "updated_at": "2012-10-16 18:00:55", 
     "versions": [
         {
-            "doc_id": "NYD00022257", 
+            "doc_id": "NYD00057132", 
             "mimetype": "text/html", 
             "name": "S889", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S889-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S889"
+        }, 
+        {
+            "doc_id": "NYD00057133", 
+            "mimetype": "text/html", 
+            "name": "S889", 
+            "url": "http://open.nysenate.gov/legislation/bill/S889-2011"
+        }, 
+        {
+            "doc_id": "NYD00057134", 
+            "mimetype": "text/html", 
+            "name": "S889A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S889A-2011"
         }
     ], 
     "votes": []

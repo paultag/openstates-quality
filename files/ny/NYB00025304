@@ -24,7 +24,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-05-11 01:14:35", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00108272", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1271&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00025304", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +39,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1317"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1271&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1271&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K1271-2011"
@@ -43,7 +52,7 @@
         {
             "leg_id": "NYL000116", 
             "name": "Gunther", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -51,12 +60,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Honoring Ariana Juliet Kaminski upon the occasion of being named the 2011 Miss Teenager of New York", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-22 10:05:50", 
+    "updated_at": "2012-10-16 18:12:39", 
     "versions": [
+        {
+            "doc_id": "NYD00108271", 
+            "mimetype": "text/html", 
+            "name": "K1271", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K1271"
+        }, 
         {
             "doc_id": "NYD00036446", 
             "mimetype": "text/html", 

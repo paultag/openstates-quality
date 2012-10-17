@@ -3,7 +3,7 @@
     "action_dates": {
         "first": "2011-02-07 00:00:00", 
         "last": "2011-02-07 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2011-02-07 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -14,16 +14,23 @@
             "date": "2011-02-07 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "bill:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "K 94", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:22", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00107266", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K94&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00015095", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +39,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1197"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K94&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K94&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K94-2011"
@@ -42,6 +52,7 @@
         {
             "leg_id": "NYL000144", 
             "name": "Lupardo", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -49,12 +60,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commemorating the Good Shepherd Fairview Home upon the occasion of its 140th Anniversary", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-07-19 02:25:50", 
+    "updated_at": "2012-10-16 18:12:32", 
     "versions": [
+        {
+            "doc_id": "NYD00107265", 
+            "mimetype": "text/html", 
+            "name": "K94", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K94"
+        }, 
         {
             "doc_id": "NYD00043385", 
             "mimetype": "text/html", 

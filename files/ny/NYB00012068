@@ -11,25 +11,46 @@
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2011-02-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4653", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:08", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00094262", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4653&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012068", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=747"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4653&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4653&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4653-2011"
@@ -48,24 +72,38 @@
         {
             "leg_id": "NYL000102", 
             "name": "Englebright", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000223", 
+            "name": "Barrett", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Establishes a real property tax exemption for persons eighty years of age or\nover; provides that such exemption shall be phased in over a ten year period\nwhereby ten percent of the assessed valuation is exempt per year for ten years,\nat which time one hundred percent of such property shall be exempt.", 
     "title": "Establishes a real property tax exemption for persons eighty years of age or over", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-18 01:04:04", 
+    "updated_at": "2012-10-16 18:09:07", 
     "versions": [
         {
-            "doc_id": "NYD00004574", 
+            "doc_id": "NYD00094260", 
             "mimetype": "text/html", 
             "name": "A4653", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4653-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4653"
+        }, 
+        {
+            "doc_id": "NYD00094261", 
+            "mimetype": "text/html", 
+            "name": "A4653", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4653-2011"
         }
     ], 
     "votes": []

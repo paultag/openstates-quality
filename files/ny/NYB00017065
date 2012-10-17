@@ -14,25 +14,53 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7970", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4296", 
+            "chamber": null, 
+            "internal_id": "NYB00004537", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-26 06:44:13", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00097165", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7970&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00017065", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=965"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7970&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7970&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7970-2011"
@@ -51,6 +82,7 @@
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -58,12 +90,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Provides a tax incentive to domestic life insurance companies to invest up to\n1% of admitted assets in the purchase of agricultural land to be kept in\nagricultural production for the cultivation of fruit or vegetables, or the\nprocessing of fruit products or vegetable products, which land is subject to a\nconservation easement and receives or is eligible to receive an agricultural\nassessment; enacts related provision relating to conservation easements.", 
     "title": "Provides a tax incentive to domestic life insurance companies to invest in the purchase of agricultural land to be kept in agricultural production", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:45", 
+    "updated_at": "2012-10-16 18:09:50", 
     "versions": [
+        {
+            "doc_id": "NYD00097164", 
+            "mimetype": "text/html", 
+            "name": "A7970", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7970"
+        }, 
         {
             "doc_id": "NYD00033049", 
             "mimetype": "text/html", 

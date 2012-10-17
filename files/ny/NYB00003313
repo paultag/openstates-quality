@@ -14,8 +14,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -23,9 +29,16 @@
     "alternate_titles": [], 
     "bill_id": "S 3153", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:28", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00058259", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3153-2011"
+        }
+    ], 
     "id": "NYB00003313", 
     "level": "state", 
     "scraped_subjects": [
@@ -34,7 +47,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=203"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3153&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3153&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S3153-2011"
@@ -44,19 +60,33 @@
         {
             "leg_id": "NYL000029", 
             "name": "KRUGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000002", 
+            "name": "ADDABBO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Includes wildlife animals as those subject to the animal cruelty provisions of\nthe agriculture and markets law.", 
     "title": "Includes wildlife animals as those subject to the animal cruelty provisions", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:14", 
+    "updated_at": "2012-10-16 18:01:08", 
     "versions": [
+        {
+            "doc_id": "NYD00058258", 
+            "mimetype": "text/html", 
+            "name": "S3153", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3153"
+        }, 
         {
             "doc_id": "NYD00025973", 
             "mimetype": "text/html", 

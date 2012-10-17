@@ -11,14 +11,22 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,9 +35,16 @@
     "alternate_titles": [], 
     "bill_id": "A 928", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:52", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096734", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A928&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008178", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +53,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=496"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A928&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A928&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A928-2011"
@@ -48,6 +66,7 @@
         {
             "leg_id": "NYL000172", 
             "name": "Pheffer", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,17 +74,24 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Exempts state and public corporations from liability for injury to property or\npersonal injury, including death, of persons using public beaches when\nlifeguards are not on duty.", 
     "title": "Exempts state and public corporations from liability for injury to property or personal injury", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-14 01:02:50", 
+    "updated_at": "2012-10-16 18:09:38", 
     "versions": [
         {
-            "doc_id": "NYD00010511", 
+            "doc_id": "NYD00096732", 
             "mimetype": "text/html", 
             "name": "A928", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A928-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A928"
+        }, 
+        {
+            "doc_id": "NYD00096733", 
+            "mimetype": "text/html", 
+            "name": "A928", 
+            "url": "http://open.nysenate.gov/legislation/bill/A928-2011"
         }
     ], 
     "votes": []

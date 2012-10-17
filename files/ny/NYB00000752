@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,23 @@
     "alternate_titles": [], 
     "bill_id": "S 736", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 193", 
+            "chamber": null, 
+            "internal_id": "NYB00007401", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:18", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00069007", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S736-2011"
+        }
+    ], 
     "id": "NYB00000752", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=45"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S736&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S736&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S736-2011"
@@ -49,6 +79,7 @@
         {
             "leg_id": "NYL000057", 
             "name": "SQUADRON", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,17 +87,24 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Defines, for purposes of the Mitchell-Lama housing projects, \"essential\nservices\" which landlord in limited-profit housing companies are obligated to\nprovide and requires that any authorized maximum average monthly rental\nincrease shall be conditioned on the continued maintenance of such defined\nservices.", 
     "title": "Requires limited profit housing company to show maintenance of essential services before approval of rent increases", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-27 06:20:51", 
+    "updated_at": "2012-10-16 18:04:04", 
     "versions": [
         {
-            "doc_id": "NYD00022052", 
+            "doc_id": "NYD00069005", 
             "mimetype": "text/html", 
             "name": "S736", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S736-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S736"
+        }, 
+        {
+            "doc_id": "NYD00069006", 
+            "mimetype": "text/html", 
+            "name": "S736", 
+            "url": "http://open.nysenate.gov/legislation/bill/S736-2011"
         }
     ], 
     "votes": []

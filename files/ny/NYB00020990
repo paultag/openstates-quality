@@ -14,7 +14,13 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-13 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -33,7 +39,13 @@
     ], 
     "country": "us", 
     "created_at": "2012-01-14 06:42:06", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00049466", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6218-2011"
+        }
+    ], 
     "id": "NYB00020990", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=417"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6218&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6218&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S6218-2011"
@@ -52,7 +67,7 @@
         {
             "leg_id": "NYL000021", 
             "name": "GRISANTI", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -60,12 +75,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Limits the animal dealers that are exempt under the provisions of article 7 of\nthe agriculture and markets law relating to the licensing, identification and\ncontrol of dogs; applies provisions to dealers licensed as a class A dealer\nunder the Federal Animal Welfare Act that sells dogs exclusively to USDA\nregistered research facilities; requires a certificate of exemption.", 
     "title": "Limits animal dealers exempt under the provision of article 7 of such law relating to the licensing, identification and control of dogs", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 10:05:34", 
+    "updated_at": "2012-10-16 17:59:00", 
     "versions": [
+        {
+            "doc_id": "NYD00049465", 
+            "mimetype": "text/html", 
+            "name": "S6218", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6218"
+        }, 
         {
             "doc_id": "NYD00032538", 
             "mimetype": "text/html", 

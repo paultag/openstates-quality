@@ -11,46 +11,81 @@
             "action": "referred to tourism, parks, arts and sports development", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000073", 
+                    "name": "tourism, parks, arts and sports development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to tourism, parks, arts and sports development", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000073", 
+                    "name": "tourism, parks, arts and sports development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to tourism, parks, arts and sports development", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000073", 
+                    "name": "tourism, parks, arts and sports development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "561"
+            ], 
             "action": "print number 561a", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 561", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 6931", 
+            "chamber": null, 
+            "internal_id": "NYB00024011", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00100431", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A561&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007794", 
     "level": "state", 
     "scraped_subjects": [
@@ -59,17 +94,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=557"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A561&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A561-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A561&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A561A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A561A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000138", 
             "name": "Lentol", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -78,12 +119,19 @@
         "Recreation", 
         "Legislative Affairs"
     ], 
+    "summary": "Provides for establishment of the urban open space program in the office of\nparks, recreation and historic preservation; establishes the urban open space\nprogram fund; makes an appropriation of 10 million dollars; purpose of the\nprogram is to provide for the acquisition, creation, establishment, expansion,\nimprovement, conservation and protection of open space areas in cities for the\npurpose of enhancing the urban environment, and thereby promoting the health,\nsafety and welfare of the people of the state in a variety of ways, such as\nreduction of air and noise pollution, modification of extremes of temperature\n(resulting in the reduction of energy expended to heat/cool buildings/homes),\nassisting watershed management, providing habitats for desirable urban\nvegetation and wildlife, provision of shade, preservation of natural resources,\nenhancement of real estate values and beautification of urban areas throughout\nthe state.", 
     "title": "Provides for establishment of the urban open space program in the office of parks, recreation and historic preservation; establishes fund; appropriation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-08 09:54:52", 
+    "updated_at": "2012-10-16 18:10:38", 
     "versions": [
+        {
+            "doc_id": "NYD00100430", 
+            "mimetype": "text/html", 
+            "name": "A561", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A561"
+        }, 
         {
             "doc_id": "NYD00038132", 
             "mimetype": "text/html", 

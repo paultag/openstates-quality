@@ -12,8 +12,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -21,6 +27,7 @@
             "action": "1ST REPORT CAL.938", 
             "actor": "upper", 
             "date": "2011-06-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -29,14 +36,16 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2011-06-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2011-06-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -45,14 +54,28 @@
             "action": "COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2011-06-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -61,9 +84,16 @@
     "alternate_titles": [], 
     "bill_id": "S 5172", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:39", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00068531", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5172-2011"
+        }
+    ], 
     "id": "NYB00005434", 
     "level": "state", 
     "scraped_subjects": [
@@ -72,7 +102,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=349"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5172&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5172&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S5172-2011"
@@ -82,19 +115,39 @@
         {
             "leg_id": "NYL000047", 
             "name": "RITCHIE", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000001", 
+            "name": "ADAMS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000061", 
+            "name": "YOUNG", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Relates to the unlawful tampering of farm animals.", 
     "title": "Relates to unlawful tampering with farm animals", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-27 21:39:36", 
+    "updated_at": "2012-10-16 18:03:59", 
     "versions": [
+        {
+            "doc_id": "NYD00068530", 
+            "mimetype": "text/html", 
+            "name": "S5172", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5172"
+        }, 
         {
             "doc_id": "NYD00041521", 
             "mimetype": "text/html", 
@@ -102,5 +155,71 @@
             "url": "http://open.nysenate.gov/legislation/bill/S5172-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00005434", 
+            "chamber": "upper", 
+            "date": "2011-06-01 00:00:00", 
+            "id": "NYV00008285", 
+            "motion": "Agriculture Committee Vote", 
+            "no_count": 2, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5172-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00008285", 
+            "yes_count": 8, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000060", 
+                    "name": "Valesky"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }
+            ]
+        }
+    ]
 }

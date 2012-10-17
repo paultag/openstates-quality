@@ -11,8 +11,14 @@
             "action": "REFERRED TO CONSUMER PROTECTION", 
             "actor": "upper", 
             "date": "2011-01-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000010", 
+                    "name": "CONSUMER PROTECTION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -20,9 +26,16 @@
     "alternate_titles": [], 
     "bill_id": "S 1961", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:22", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00065892", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1961-2011"
+        }
+    ], 
     "id": "NYB00002024", 
     "level": "state", 
     "scraped_subjects": [
@@ -31,7 +44,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=119"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1961&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1961&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S1961-2011"
@@ -41,6 +57,7 @@
         {
             "leg_id": "NYL000029", 
             "name": "KRUGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -48,17 +65,24 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Directs commissioner of agriculture and markets to require that the proprietor\nof a business where a kosher food violation of law occurred to post a report of\nsuch violation in the public portion of every premises in which a food business\nis conducted, for a period of time beginning with the date the sanction,\npenalty or both are imposed; requires such report be posted for a period of at\nleast six months.", 
     "title": "Requires report of violations of law by kosher food establishments to be posted on the premises", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-04 06:26:41", 
+    "updated_at": "2012-10-16 18:03:10", 
     "versions": [
         {
-            "doc_id": "NYD00015605", 
+            "doc_id": "NYD00065890", 
             "mimetype": "text/html", 
             "name": "S1961", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S1961-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S1961"
+        }, 
+        {
+            "doc_id": "NYD00065891", 
+            "mimetype": "text/html", 
+            "name": "S1961", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1961-2011"
         }
     ], 
     "votes": []

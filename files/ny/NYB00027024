@@ -11,25 +11,46 @@
             "action": "referred to energy", 
             "actor": "lower", 
             "date": "2012-06-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000053", 
+                    "name": "energy", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2012-06-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 10565", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-06-15 01:11:57", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00083167", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10565&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00027024", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1157"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10565&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10565&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A10565-2011"
@@ -46,8 +70,16 @@
     ], 
     "sponsors": [
         {
+            "chamber": "lower", 
+            "committee_id": "NYC000070", 
             "leg_id": null, 
-            "name": "Rules (Cahill)", 
+            "name": "Rules Committee", 
+            "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000081", 
+            "name": "Cahill", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,12 +87,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Relates to net energy metering of electric generating facilities.", 
     "title": "Relates to net energy metering of electric generating facilities; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-15 01:11:57", 
+    "updated_at": "2012-10-16 18:06:11", 
     "versions": [
+        {
+            "doc_id": "NYD00083166", 
+            "mimetype": "text/html", 
+            "name": "A10565", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10565"
+        }, 
         {
             "doc_id": "NYD00039718", 
             "mimetype": "text/html", 

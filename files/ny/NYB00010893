@@ -11,7 +11,13 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2011-01-25 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -34,9 +46,9 @@
     "created_at": "2011-05-05 01:30:03", 
     "documents": [
         {
-            "doc_id": "NYD00047009", 
+            "doc_id": "NYD00092034", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3542&term=&Memo=Y"
         }
     ], 
     "id": "NYB00010893", 
@@ -47,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=733"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3542&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3542&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3542-2011"
@@ -57,7 +72,7 @@
         {
             "leg_id": "NYL000088", 
             "name": "Clark", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -65,12 +80,19 @@
     "subjects": [
         "Judiciary"
     ], 
+    "summary": "Requires pro se clerks appointed to the housing part of the New York city civil\ncourt to be assigned to each borough on a full-time basis, to be properly\nversed in substantive and procedural matters and to wear conspicuous badge and\nname tag identification.", 
     "title": "Sets requirements for pro se clerks of the housing part of the New York city civil court", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 10:05:42", 
+    "updated_at": "2012-10-16 18:08:34", 
     "versions": [
+        {
+            "doc_id": "NYD00092033", 
+            "mimetype": "text/html", 
+            "name": "A3542", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3542"
+        }, 
         {
             "doc_id": "NYD00036853", 
             "mimetype": "text/html", 

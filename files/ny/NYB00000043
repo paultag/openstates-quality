@@ -11,8 +11,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,7 @@
             "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
             "actor": "upper", 
             "date": "2011-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +35,7 @@
             "action": "DEFEATED IN AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,6 +44,13 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -44,9 +59,16 @@
     "alternate_titles": [], 
     "bill_id": "S 61", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:15", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00066397", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S61-2011"
+        }
+    ], 
     "id": "NYB00000043", 
     "level": "state", 
     "scraped_subjects": [
@@ -55,7 +77,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=3"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S61&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S61&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S61-2011"
@@ -65,6 +90,7 @@
         {
             "leg_id": "NYL000010", 
             "name": "DIAZ", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -72,18 +98,91 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Requires all dogs and their owners to successfully complete obedience training.", 
     "title": "Requires all dogs and their owners to successfully complete obedience training", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-07 06:27:11", 
+    "updated_at": "2012-10-16 18:03:22", 
     "versions": [
         {
-            "doc_id": "NYD00021447", 
+            "doc_id": "NYD00066395", 
             "mimetype": "text/html", 
             "name": "S61", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S61-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S61"
+        }, 
+        {
+            "doc_id": "NYD00066396", 
+            "mimetype": "text/html", 
+            "name": "S61", 
+            "url": "http://open.nysenate.gov/legislation/bill/S61-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00000043", 
+            "chamber": "upper", 
+            "date": "2011-03-30 00:00:00", 
+            "id": "NYV00007728", 
+            "motion": "Agriculture Committee Vote", 
+            "no_count": 9, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000060", 
+                    "name": "Valesky"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": false, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S61-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00007728", 
+            "yes_count": 1, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }
+            ]
+        }
+    ]
 }

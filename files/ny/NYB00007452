@@ -5,8 +5,8 @@
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
         "last": "2011-09-23 00:00:00", 
-        "passed_lower": "2011-06-20 00:00:00", 
-        "passed_upper": null, 
+        "passed_lower": "2011-06-07 00:00:00", 
+        "passed_upper": "2011-06-20 00:00:00", 
         "signed": null
     }, 
     "actions": [
@@ -14,13 +14,19 @@
             "action": "referred to labor", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000063", 
+                    "name": "labor", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
             "related_entities": [], 
@@ -42,8 +48,11 @@
             "actor": "lower", 
             "date": "2011-06-07 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NYV00009341"
+            ], 
             "type": [
-                "other"
+                "bill:passed"
             ]
         }, 
         {
@@ -57,16 +66,22 @@
         }, 
         {
             "action": "REFERRED TO LABOR", 
-            "actor": "lower", 
+            "actor": "upper", 
             "date": "2011-06-07 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000026", 
+                    "name": "LABOR", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
         }, 
         {
             "action": "SUBSTITUTED FOR S5355", 
-            "actor": "lower", 
+            "actor": "upper", 
             "date": "2011-06-20 00:00:00", 
             "related_entities": [], 
             "type": [
@@ -75,7 +90,7 @@
         }, 
         {
             "action": "3RD READING CAL.1389", 
-            "actor": "lower", 
+            "actor": "upper", 
             "date": "2011-06-20 00:00:00", 
             "related_entities": [], 
             "type": [
@@ -84,16 +99,19 @@
         }, 
         {
             "action": "PASSED SENATE", 
-            "actor": "lower", 
+            "actor": "upper", 
             "date": "2011-06-20 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NYV00001117"
+            ], 
             "type": [
                 "bill:passed"
             ]
         }, 
         {
             "action": "RETURNED TO ASSEMBLY", 
-            "actor": "lower", 
+            "actor": "upper", 
             "date": "2011-06-20 00:00:00", 
             "related_entities": [], 
             "type": [
@@ -106,16 +124,19 @@
             "date": "2011-09-12 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "governor:received"
             ]
         }, 
         {
+            "+veto_memo": [
+                "50"
+            ], 
             "action": "vetoed memo.50", 
             "actor": "lower", 
             "date": "2011-09-23 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "governor:vetoed"
             ]
         }, 
         {
@@ -124,7 +145,7 @@
             "date": "2011-09-23 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:tabled"
             ]
         }
     ], 
@@ -141,7 +162,13 @@
     ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:49", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00094747", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A241&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007452", 
     "level": "state", 
     "scraped_subjects": [
@@ -150,7 +177,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=537"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A241&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A241&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A241-2011"
@@ -160,139 +190,139 @@
         {
             "leg_id": "NYL000136", 
             "name": "Latimer", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000071", 
-            "name": "Bing", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000076", 
-            "name": "Brennan", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000107", 
-            "name": "Gabryszak", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000116", 
-            "name": "Gunther", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000120", 
-            "name": "Heastie", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000123", 
-            "name": "Hooper", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000170", 
-            "name": "Peoples-Stokes", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000191", 
-            "name": "Schimel", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000207", 
-            "name": "Weisenberg", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000147", 
             "name": "Maisel", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000144", 
             "name": "Lupardo", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000197", 
             "name": "Spano", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000169", 
             "name": "Paulin", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000063", 
             "name": "Abbate", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000193", 
             "name": "Schroeder", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000089", 
             "name": "Colton", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000139", 
             "name": "Lifton", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000108", 
             "name": "Galef", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000124", 
             "name": "Hoyt", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000088", 
             "name": "Clark", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000171", 
             "name": "Perry", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000071", 
+            "name": "Bing", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000107", 
+            "name": "Gabryszak", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000116", 
+            "name": "Gunther", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000120", 
+            "name": "Heastie", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000170", 
+            "name": "Peoples-Stokes", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000191", 
+            "name": "Schimel", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -300,12 +330,19 @@
     "subjects": [
         "Labor and Employment"
     ], 
+    "summary": "Establishes the green jobs workforce subcommittee of the state workforce\ninvestment board to conduct labor market data analysis, to provide job training\nand education programs, and to provide a local green jobs corps.", 
     "title": "Establishes the green jobs workforce subcommittee of the state workforce investment board", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-14 09:55:53", 
+    "updated_at": "2012-10-16 18:09:13", 
     "versions": [
+        {
+            "doc_id": "NYD00094746", 
+            "mimetype": "text/html", 
+            "name": "A241", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A241"
+        }, 
         {
             "doc_id": "NYD00039962", 
             "mimetype": "text/html", 
@@ -315,6 +352,621 @@
     ], 
     "votes": [
         {
+            "+actual_vote": {
+                "ER": [
+                    "Kirwan", 
+                    "Boyland", 
+                    "Rodrigu", 
+                    "Hikind"
+                ]
+            }, 
+            "bill_id": "NYB00007452", 
+            "chamber": "lower", 
+            "date": "2011-06-07 00:00:00", 
+            "id": "NYV00009341", 
+            "motion": "Floor Vote", 
+            "no_count": 1, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000106", 
+                    "name": "Friend"
+                }
+            ], 
+            "other_count": 4, 
+            "other_votes": [
+                {
+                    "leg_id": "NYL000133", 
+                    "name": "Kirwan"
+                }, 
+                {
+                    "leg_id": "NYL000073", 
+                    "name": "Boyland"
+                }, 
+                {
+                    "leg_id": "NYL000185", 
+                    "name": "Rodrigu"
+                }, 
+                {
+                    "leg_id": "NYL000122", 
+                    "name": "Hikind"
+                }
+            ], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00009341", 
+            "yes_count": 141, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000063", 
+                    "name": "Abbate"
+                }, 
+                {
+                    "leg_id": "NYL000085", 
+                    "name": "Castell"
+                }, 
+                {
+                    "leg_id": "NYL000108", 
+                    "name": "Galef"
+                }, 
+                {
+                    "leg_id": "NYL000130", 
+                    "name": "Katz"
+                }, 
+                {
+                    "leg_id": "NYL000150", 
+                    "name": "McKevit"
+                }, 
+                {
+                    "leg_id": "NYL000175", 
+                    "name": "Rabbitt"
+                }, 
+                {
+                    "leg_id": "NYL000198", 
+                    "name": "Stevens"
+                }, 
+                {
+                    "leg_id": null, 
+                    "name": "Abinant"
+                }, 
+                {
+                    "leg_id": "NYL000086", 
+                    "name": "Castro"
+                }, 
+                {
+                    "leg_id": "NYL000109", 
+                    "name": "Gantt"
+                }, 
+                {
+                    "leg_id": "NYL000131", 
+                    "name": "Kavanag"
+                }, 
+                {
+                    "leg_id": "NYL000153", 
+                    "name": "McLaugh"
+                }, 
+                {
+                    "leg_id": "NYL000176", 
+                    "name": "Raia"
+                }, 
+                {
+                    "leg_id": "NYL000199", 
+                    "name": "Sweeney"
+                }, 
+                {
+                    "leg_id": "NYL000065", 
+                    "name": "Amedore"
+                }, 
+                {
+                    "leg_id": "NYL000087", 
+                    "name": "Ceretto"
+                }, 
+                {
+                    "leg_id": "NYL000110", 
+                    "name": "Gibson"
+                }, 
+                {
+                    "leg_id": "NYL000132", 
+                    "name": "Kellner"
+                }, 
+                {
+                    "leg_id": "NYL000154", 
+                    "name": "Meng"
+                }, 
+                {
+                    "leg_id": "NYL000177", 
+                    "name": "Ramos"
+                }, 
+                {
+                    "leg_id": "NYL000200", 
+                    "name": "Tedisco"
+                }, 
+                {
+                    "leg_id": "NYL000066", 
+                    "name": "Arroyo"
+                }, 
+                {
+                    "leg_id": "NYL000088", 
+                    "name": "Clark"
+                }, 
+                {
+                    "leg_id": "NYL000219", 
+                    "name": "Giglio"
+                }, 
+                {
+                    "leg_id": "NYL000155", 
+                    "name": "Mill D"
+                }, 
+                {
+                    "leg_id": "NYL000178", 
+                    "name": "Reilich"
+                }, 
+                {
+                    "leg_id": "NYL000201", 
+                    "name": "Tenney"
+                }, 
+                {
+                    "leg_id": "NYL000067", 
+                    "name": "Aubry"
+                }, 
+                {
+                    "leg_id": "NYL000089", 
+                    "name": "Colton"
+                }, 
+                {
+                    "leg_id": "NYL000112", 
+                    "name": "Glick"
+                }, 
+                {
+                    "leg_id": "NYL000134", 
+                    "name": "Kolb"
+                }, 
+                {
+                    "leg_id": "NYL000156", 
+                    "name": "Mill JM"
+                }, 
+                {
+                    "leg_id": "NYL000179", 
+                    "name": "Reilly"
+                }, 
+                {
+                    "leg_id": "NYL000202", 
+                    "name": "Thiele"
+                }, 
+                {
+                    "leg_id": "NYL000068", 
+                    "name": "Barclay"
+                }, 
+                {
+                    "leg_id": "NYL000090", 
+                    "name": "Conte"
+                }, 
+                {
+                    "leg_id": "NYL000113", 
+                    "name": "Goodell"
+                }, 
+                {
+                    "leg_id": "NYL000135", 
+                    "name": "Lancman"
+                }, 
+                {
+                    "leg_id": "NYL000157", 
+                    "name": "Mill MG"
+                }, 
+                {
+                    "leg_id": "NYL000180", 
+                    "name": "Rive J"
+                }, 
+                {
+                    "leg_id": "NYL000203", 
+                    "name": "Titone"
+                }, 
+                {
+                    "leg_id": "NYL000069", 
+                    "name": "Barron"
+                }, 
+                {
+                    "leg_id": "NYL000091", 
+                    "name": "Cook"
+                }, 
+                {
+                    "leg_id": "NYL000114", 
+                    "name": "Gottfri"
+                }, 
+                {
+                    "leg_id": "NYL000136", 
+                    "name": "Latimer"
+                }, 
+                {
+                    "leg_id": "NYL000158", 
+                    "name": "Millman"
+                }, 
+                {
+                    "leg_id": "NYL000181", 
+                    "name": "Rive N"
+                }, 
+                {
+                    "leg_id": "NYL000204", 
+                    "name": "Titus"
+                }, 
+                {
+                    "leg_id": "NYL000070", 
+                    "name": "Benedet"
+                }, 
+                {
+                    "leg_id": "NYL000092", 
+                    "name": "Corwin"
+                }, 
+                {
+                    "leg_id": "NYL000115", 
+                    "name": "Graf"
+                }, 
+                {
+                    "leg_id": "NYL000137", 
+                    "name": "Lavine"
+                }, 
+                {
+                    "leg_id": "NYL000159", 
+                    "name": "Molinar"
+                }, 
+                {
+                    "leg_id": "NYL000182", 
+                    "name": "Rive PM"
+                }, 
+                {
+                    "leg_id": "NYL000205", 
+                    "name": "Tobacco"
+                }, 
+                {
+                    "leg_id": "NYL000071", 
+                    "name": "Bing"
+                }, 
+                {
+                    "leg_id": "NYL000093", 
+                    "name": "Crespo"
+                }, 
+                {
+                    "leg_id": "NYL000116", 
+                    "name": "Gunther"
+                }, 
+                {
+                    "leg_id": "NYL000138", 
+                    "name": "Lentol"
+                }, 
+                {
+                    "leg_id": "NYL000160", 
+                    "name": "Montesa"
+                }, 
+                {
+                    "leg_id": "NYL000183", 
+                    "name": "Roberts"
+                }, 
+                {
+                    "leg_id": "NYL000206", 
+                    "name": "Weinste"
+                }, 
+                {
+                    "leg_id": "NYL000072", 
+                    "name": "Blanken"
+                }, 
+                {
+                    "leg_id": "NYL000094", 
+                    "name": "Crouch"
+                }, 
+                {
+                    "leg_id": "NYL000117", 
+                    "name": "Hanna"
+                }, 
+                {
+                    "leg_id": "NYL000139", 
+                    "name": "Lifton"
+                }, 
+                {
+                    "leg_id": "NYL000161", 
+                    "name": "Morelle"
+                }, 
+                {
+                    "leg_id": "NYL000184", 
+                    "name": "Robinso"
+                }, 
+                {
+                    "leg_id": "NYL000207", 
+                    "name": "Weisenb"
+                }, 
+                {
+                    "leg_id": "NYL000095", 
+                    "name": "Curran"
+                }, 
+                {
+                    "leg_id": "NYL000118", 
+                    "name": "Hawley"
+                }, 
+                {
+                    "leg_id": "NYL000140", 
+                    "name": "Linares"
+                }, 
+                {
+                    "leg_id": "NYL000162", 
+                    "name": "Moya"
+                }, 
+                {
+                    "leg_id": "NYL000208", 
+                    "name": "Weprin"
+                }, 
+                {
+                    "leg_id": "NYL000074", 
+                    "name": "Boyle"
+                }, 
+                {
+                    "leg_id": "NYL000096", 
+                    "name": "Cusick"
+                }, 
+                {
+                    "leg_id": "NYL000119", 
+                    "name": "Hayes"
+                }, 
+                {
+                    "leg_id": "NYL000141", 
+                    "name": "Lope PD"
+                }, 
+                {
+                    "leg_id": "NYL000163", 
+                    "name": "Murray"
+                }, 
+                {
+                    "leg_id": "NYL000186", 
+                    "name": "Rosenth"
+                }, 
+                {
+                    "leg_id": "NYL000209", 
+                    "name": "Wright"
+                }, 
+                {
+                    "leg_id": "NYL000075", 
+                    "name": "Braunst"
+                }, 
+                {
+                    "leg_id": "NYL000097", 
+                    "name": "Cymbrow"
+                }, 
+                {
+                    "leg_id": "NYL000120", 
+                    "name": "Heastie"
+                }, 
+                {
+                    "leg_id": "NYL000142", 
+                    "name": "Lope VJ"
+                }, 
+                {
+                    "leg_id": "NYL000164", 
+                    "name": "Nolan"
+                }, 
+                {
+                    "leg_id": "NYL000187", 
+                    "name": "Russell"
+                }, 
+                {
+                    "leg_id": "NYL000210", 
+                    "name": "Zebrows"
+                }, 
+                {
+                    "leg_id": "NYL000076", 
+                    "name": "Brennan"
+                }, 
+                {
+                    "leg_id": "NYL000098", 
+                    "name": "DenDekk"
+                }, 
+                {
+                    "leg_id": "NYL000121", 
+                    "name": "Hevesi"
+                }, 
+                {
+                    "leg_id": "NYL000143", 
+                    "name": "Losquad"
+                }, 
+                {
+                    "leg_id": "NYL000166", 
+                    "name": "Oaks"
+                }, 
+                {
+                    "leg_id": "NYL000188", 
+                    "name": "Saladin"
+                }, 
+                {
+                    "leg_id": null, 
+                    "name": "Mr Spkr"
+                }, 
+                {
+                    "leg_id": "NYL000077", 
+                    "name": "Bronson"
+                }, 
+                {
+                    "leg_id": "NYL000100", 
+                    "name": "Dinowit"
+                }, 
+                {
+                    "leg_id": "NYL000144", 
+                    "name": "Lupardo"
+                }, 
+                {
+                    "leg_id": "NYL000165", 
+                    "name": "O'Donne"
+                }, 
+                {
+                    "leg_id": "NYL000189", 
+                    "name": "Sayward"
+                }, 
+                {
+                    "leg_id": "NYL000078", 
+                    "name": "Brook K"
+                }, 
+                {
+                    "leg_id": "NYL000101", 
+                    "name": "Duprey"
+                }, 
+                {
+                    "leg_id": "NYL000123", 
+                    "name": "Hooper"
+                }, 
+                {
+                    "leg_id": "NYL000145", 
+                    "name": "Magee"
+                }, 
+                {
+                    "leg_id": "NYL000167", 
+                    "name": "Ortiz"
+                }, 
+                {
+                    "leg_id": "NYL000190", 
+                    "name": "Scarbor"
+                }, 
+                {
+                    "leg_id": "NYL000079", 
+                    "name": "Burling"
+                }, 
+                {
+                    "leg_id": "NYL000102", 
+                    "name": "Englebr"
+                }, 
+                {
+                    "leg_id": "NYL000124", 
+                    "name": "Hoyt"
+                }, 
+                {
+                    "leg_id": "NYL000146", 
+                    "name": "Magnare"
+                }, 
+                {
+                    "leg_id": "NYL000168", 
+                    "name": "Palmesa"
+                }, 
+                {
+                    "leg_id": "NYL000191", 
+                    "name": "Schimel"
+                }, 
+                {
+                    "leg_id": "NYL000080", 
+                    "name": "Butler"
+                }, 
+                {
+                    "leg_id": "NYL000103", 
+                    "name": "Farrell"
+                }, 
+                {
+                    "leg_id": "NYL000125", 
+                    "name": "Jacobs"
+                }, 
+                {
+                    "leg_id": "NYL000147", 
+                    "name": "Maisel"
+                }, 
+                {
+                    "leg_id": "NYL000169", 
+                    "name": "Paulin"
+                }, 
+                {
+                    "leg_id": "NYL000192", 
+                    "name": "Schimmi"
+                }, 
+                {
+                    "leg_id": "NYL000081", 
+                    "name": "Cahill"
+                }, 
+                {
+                    "leg_id": "NYL000104", 
+                    "name": "Finch"
+                }, 
+                {
+                    "leg_id": "NYL000126", 
+                    "name": "Jaffee"
+                }, 
+                {
+                    "leg_id": null, 
+                    "name": "Malliot"
+                }, 
+                {
+                    "leg_id": "NYL000170", 
+                    "name": "Peoples"
+                }, 
+                {
+                    "leg_id": "NYL000193", 
+                    "name": "Schroed"
+                }, 
+                {
+                    "leg_id": "NYL000082", 
+                    "name": "Calhoun"
+                }, 
+                {
+                    "leg_id": "NYL000105", 
+                    "name": "Fitzpat"
+                }, 
+                {
+                    "leg_id": "NYL000127", 
+                    "name": "Jeffrie"
+                }, 
+                {
+                    "leg_id": "NYL000149", 
+                    "name": "Markey"
+                }, 
+                {
+                    "leg_id": "NYL000171", 
+                    "name": "Perry"
+                }, 
+                {
+                    "leg_id": "NYL000195", 
+                    "name": "Simotas"
+                }, 
+                {
+                    "leg_id": "NYL000083", 
+                    "name": "Camara"
+                }, 
+                {
+                    "leg_id": "NYL000128", 
+                    "name": "Johns"
+                }, 
+                {
+                    "leg_id": "NYL000151", 
+                    "name": "McDonou"
+                }, 
+                {
+                    "leg_id": "NYL000173", 
+                    "name": "Pretlow"
+                }, 
+                {
+                    "leg_id": "NYL000196", 
+                    "name": "Smardz"
+                }, 
+                {
+                    "leg_id": "NYL000084", 
+                    "name": "Canestr"
+                }, 
+                {
+                    "leg_id": "NYL000107", 
+                    "name": "Gabrysz"
+                }, 
+                {
+                    "leg_id": "NYL000129", 
+                    "name": "Jordan"
+                }, 
+                {
+                    "leg_id": "NYL000152", 
+                    "name": "McEneny"
+                }, 
+                {
+                    "leg_id": "NYL000174", 
+                    "name": "Ra"
+                }, 
+                {
+                    "leg_id": "NYL000197", 
+                    "name": "Spano"
+                }
+            ]
+        }, 
+        {
+            "+actual_vote": {}, 
             "bill_id": "NYB00007452", 
             "chamber": "upper", 
             "date": "2011-06-20 00:00:00", 
@@ -339,7 +991,11 @@
             "other_votes": [], 
             "passed": true, 
             "session": "2011-2012", 
-            "sources": [], 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/A241-2011"
+                }
+            ], 
             "state": "ny", 
             "type": "other", 
             "vote_id": "NYV00001117", 
@@ -430,7 +1086,7 @@
                     "name": "Hannon"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000023", 
                     "name": "Hassell-Thomps"
                 }, 
                 {
@@ -566,7 +1222,7 @@
                     "name": "Stavisky"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000059", 
                     "name": "Stewart-Cousin"
                 }, 
                 {

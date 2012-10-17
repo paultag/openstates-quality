@@ -11,25 +11,46 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-02-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4307", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:07", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104658", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4307&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011713", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=719"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4307&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4307&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4307-2011"
@@ -48,6 +72,7 @@
         {
             "leg_id": "NYL000097", 
             "name": "Cymbrowitz", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,17 +80,24 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Requires the division of housing and community renewal to amend 9 NYCRR 2524.4\n(b), in relation to recovery of a housing accommodation by a not-for-profit\ninstitution.", 
     "title": "Requires the division of housing and community renewal to amend 9 NYCRR 2524.4 (b), in relation to recovery of a housing accommodation by a not-for-profit institution", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-08 01:05:39", 
+    "updated_at": "2012-10-16 18:11:54", 
     "versions": [
         {
-            "doc_id": "NYD00004149", 
+            "doc_id": "NYD00104656", 
             "mimetype": "text/html", 
             "name": "A4307", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4307-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4307"
+        }, 
+        {
+            "doc_id": "NYD00104657", 
+            "mimetype": "text/html", 
+            "name": "A4307", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4307-2011"
         }
     ], 
     "votes": []

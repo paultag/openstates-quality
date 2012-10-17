@@ -11,8 +11,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-02-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,7 @@
             "action": "REPORTED TO CALENDAR FOR CONSIDERATION", 
             "actor": "upper", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +35,7 @@
             "action": "ADOPTED", 
             "actor": "upper", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -36,9 +44,16 @@
     "alternate_titles": [], 
     "bill_id": "J 563", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:42", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00078527", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J563-2011"
+        }
+    ], 
     "id": "NYB00006137", 
     "level": "state", 
     "scraped_subjects": [
@@ -47,7 +62,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1103"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J563&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J563&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J563-2011"
@@ -57,6 +75,7 @@
         {
             "leg_id": "NYL000039", 
             "name": "MONTGOMERY", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -64,17 +83,24 @@
     "subjects": [
         "Resolutions"
     ], 
-    "title": "Commemorating Colony South Brooklyn Houses&apos; 107th Anniversary Celebration on February 26, 2011", 
+    "summary": "", 
+    "title": "Commemorating Colony South Brooklyn Houses' 107th Anniversary Celebration on February 26, 2011", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-05-02 01:43:34", 
+    "updated_at": "2012-10-16 18:05:28", 
     "versions": [
         {
-            "doc_id": "NYD00013827", 
+            "doc_id": "NYD00078525", 
             "mimetype": "text/html", 
             "name": "J563", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/J563-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J563"
+        }, 
+        {
+            "doc_id": "NYD00078526", 
+            "mimetype": "text/html", 
+            "name": "J563", 
+            "url": "http://open.nysenate.gov/legislation/bill/J563-2011"
         }
     ], 
     "votes": []

@@ -11,25 +11,46 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5647", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:12", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00097355", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5647&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013105", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=815"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5647&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5647&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5647-2011"
@@ -48,19 +72,33 @@
         {
             "leg_id": "NYL000108", 
             "name": "Galef", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000163", 
+            "name": "Murray", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Judiciary"
     ], 
+    "summary": "Relates to the justice court efficiency and modernization act, which\nstrengthens the justice court system, creates a process for the limited sharing\nof justice courts and better supports local governments in their operation and\nadministration of courts.", 
     "title": "Relates to the justice court efficiency and modernization act; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:41", 
+    "updated_at": "2012-10-16 18:09:52", 
     "versions": [
+        {
+            "doc_id": "NYD00097354", 
+            "mimetype": "text/html", 
+            "name": "A5647", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5647"
+        }, 
         {
             "doc_id": "NYD00032992", 
             "mimetype": "text/html", 

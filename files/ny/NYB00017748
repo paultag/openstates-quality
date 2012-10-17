@@ -11,25 +11,46 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-06-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 8167", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-06-04 07:03:21", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096341", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8167&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00017748", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=969"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8167&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8167&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8167-2011"
@@ -48,19 +72,75 @@
         {
             "leg_id": "NYL000155", 
             "name": "Miller D", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000068", 
+            "name": "Barclay", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000130", 
+            "name": "Katz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000095", 
+            "name": "Curran", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000201", 
+            "name": "Tenney", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000104", 
+            "name": "Finch", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000217", 
+            "name": "Walter", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000079", 
+            "name": "Burling", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000153", 
+            "name": "McLaughlin", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Amends the tax law, in relation to the business corporations franchise tax, and\nto repeal certain provisions of the tax law.", 
     "title": "Relates to the business corporations franchise tax; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-22 01:09:01", 
+    "updated_at": "2012-10-16 18:09:31", 
     "versions": [
+        {
+            "doc_id": "NYD00096340", 
+            "mimetype": "text/html", 
+            "name": "A8167", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8167"
+        }, 
         {
             "doc_id": "NYD00027130", 
             "mimetype": "text/html", 

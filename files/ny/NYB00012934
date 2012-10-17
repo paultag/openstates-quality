@@ -11,36 +11,58 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-02-22 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to agriculture", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5485"
+            ], 
             "action": "print number 5485a", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -57,7 +79,13 @@
     ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:12", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00087902", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5485&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012934", 
     "level": "state", 
     "scraped_subjects": [
@@ -66,17 +94,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=849"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5485&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A5485-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5485&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5485A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A5485A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -84,12 +118,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Exempts certain institutions involved in the processing of homemade baked\ngoods, spices and powders, sold only at farmers' markets and roadside stands\nfrom the definition of a food processing establishment.", 
     "title": "Amends the agriculture and markets law, exempting certain institutions from the definition of a food processing establishment", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-08 09:54:54", 
+    "updated_at": "2012-10-16 18:07:22", 
     "versions": [
+        {
+            "doc_id": "NYD00087901", 
+            "mimetype": "text/html", 
+            "name": "A5485", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5485"
+        }, 
         {
             "doc_id": "NYD00045220", 
             "mimetype": "text/html", 

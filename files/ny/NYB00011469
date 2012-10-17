@@ -11,25 +11,46 @@
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2011-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4066", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:06", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00086130", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4066&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011469", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=714"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4066&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4066&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4066-2011"
@@ -48,24 +72,38 @@
         {
             "leg_id": "NYL000176", 
             "name": "Raia", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000198", 
+            "name": "Stevenson", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Authorizes municipalities in the county of Suffolk to establish programs for\nproviding real property tax exemptions and abatements to landlords of senior\ncitizens for the units occupied by the senior citizen; such abatements shall be\npassed through to seniors in the form of rent reductions.", 
     "title": "Authorizes municipalities in Suffolk county to establish programs for senior citizen rent real property tax exemptions and abatements", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-19 01:04:24", 
+    "updated_at": "2012-10-16 18:07:01", 
     "versions": [
         {
-            "doc_id": "NYD00003848", 
+            "doc_id": "NYD00086128", 
             "mimetype": "text/html", 
             "name": "A4066", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4066-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4066"
+        }, 
+        {
+            "doc_id": "NYD00086129", 
+            "mimetype": "text/html", 
+            "name": "A4066", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4066-2011"
         }
     ], 
     "votes": []

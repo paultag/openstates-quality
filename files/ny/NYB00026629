@@ -14,8 +14,14 @@
             "action": "REFERRED TO CRIME VICTIMS, CRIME AND CORRECTION", 
             "actor": "upper", 
             "date": "2012-03-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000012", 
+                    "name": "CRIME VICTIMS, CRIME AND CORRECTION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,17 +29,38 @@
             "action": "REPORTED AND COMMITTED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 6739", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 10237", 
+            "chamber": null, 
+            "internal_id": "NYB00025464", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-06-11 15:59:39", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00050974", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6739-2011"
+        }
+    ], 
     "id": "NYB00026629", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=445"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6739&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6739&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S6739-2011"
@@ -52,6 +82,7 @@
         {
             "leg_id": "NYL000061", 
             "name": "YOUNG", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +90,19 @@
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Limits temporary detention of defendants in violation of their release in a\nlocal correctional facility to 72 hours before transfer to state custody.", 
     "title": "Limits temporary detention of defendants in violation of their release in a local correctional facility to 72 hours before transfer to state custody", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-11 15:59:39", 
+    "updated_at": "2012-10-16 17:59:17", 
     "versions": [
+        {
+            "doc_id": "NYD00050973", 
+            "mimetype": "text/html", 
+            "name": "S6739", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6739"
+        }, 
         {
             "doc_id": "NYD00036616", 
             "mimetype": "text/html", 
@@ -72,5 +110,87 @@
             "url": "http://open.nysenate.gov/legislation/bill/S6739-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00026629", 
+            "chamber": "upper", 
+            "date": "2012-05-01 00:00:00", 
+            "id": "NYV00003708", 
+            "motion": "Crime Victims, Crime and Correction Committee Vote", 
+            "no_count": 3, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000048", 
+                    "name": "Rivera"
+                }, 
+                {
+                    "leg_id": "NYL000023", 
+                    "name": "Hassell-Thompson"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S6739-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00003708", 
+            "yes_count": 11, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000009", 
+                    "name": "DeFrancisco"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }, 
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000044", 
+                    "name": "Peralta"
+                }
+            ]
+        }
+    ]
 }

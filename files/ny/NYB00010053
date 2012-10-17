@@ -11,33 +11,61 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in housing", 
             "actor": "lower", 
             "date": "2012-05-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 2735", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:00", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00095276", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2735&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010053", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=631"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2735&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2735&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2735-2011"
@@ -56,6 +87,7 @@
         {
             "leg_id": "NYL000105", 
             "name": "Fitzpatrick", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -63,17 +95,24 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Relates to the purchase of community land mortgages; defines a community land\nmortgage as a mortgage that is secured by a first lien on a leasehold estate in\nreal property that is improved by a residential structure wherein title to the\nreal property is retained by a not-for-profit housing company or housing\ndevelopment fund company; authorizes the state of New York mortgage agency to\npurchase community land mortgages from banks within the state; ensures\nnot-for-profit housing remains as affordable housing.", 
     "title": "Relates to community land mortgages and authorizes the state of New York mortgage agency to purchase community land mortgages from banks within the state", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-11 01:14:28", 
+    "updated_at": "2012-10-16 18:09:18", 
     "versions": [
         {
-            "doc_id": "NYD00002150", 
+            "doc_id": "NYD00095274", 
             "mimetype": "text/html", 
             "name": "A2735", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A2735-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2735"
+        }, 
+        {
+            "doc_id": "NYD00095275", 
+            "mimetype": "text/html", 
+            "name": "A2735", 
+            "url": "http://open.nysenate.gov/legislation/bill/A2735-2011"
         }
     ], 
     "votes": []

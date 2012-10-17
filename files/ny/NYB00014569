@@ -11,18 +11,30 @@
             "action": "referred to social services", 
             "actor": "lower", 
             "date": "2011-04-11 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000072", 
+                    "name": "social services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to social services", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000072", 
+                    "name": "social services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -32,7 +44,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:19", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00089333", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7041&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014569", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=948"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7041&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7041&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7041-2011"
@@ -51,31 +72,31 @@
         {
             "leg_id": "NYL000202", 
             "name": "Thiele", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000074", 
             "name": "Boyle", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000163", 
             "name": "Murray", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000177", 
             "name": "Ramos", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000157", 
             "name": "Miller M", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -83,12 +104,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Requires landlords of housing accommodations rented to recipients of public\nassistance and care to file with the local department of social services\nstatements attesting to the housing accommodations meeting all building codes,\nrules, and laws of the municipality such accommodations are located within.", 
     "title": "Relates to landlords of housing accommodations occupied by recipients of public assistance", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-28 09:56:14", 
+    "updated_at": "2012-10-16 18:07:50", 
     "versions": [
+        {
+            "doc_id": "NYD00089332", 
+            "mimetype": "text/html", 
+            "name": "A7041", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7041"
+        }, 
         {
             "doc_id": "NYD00027036", 
             "mimetype": "text/html", 

@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-01-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -20,9 +26,16 @@
     "alternate_titles": [], 
     "bill_id": "S 2672", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:25", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00058801", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2672-2011"
+        }
+    ], 
     "id": "NYB00002762", 
     "level": "state", 
     "scraped_subjects": [
@@ -31,7 +44,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=166"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2672&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2672&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S2672-2011"
@@ -41,6 +57,7 @@
         {
             "leg_id": "NYL000029", 
             "name": "KRUGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -48,12 +65,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Excludes a veteran's disability benefits paid by the federal government to\nveterans for a service connected disability from the computation of probable\naggregate annual income for purposes of determining the eligibility of such\nveteran for admission to limited-profit housing company projects.", 
     "title": "Excludes veteran's disability benefits in computing income in selection of tenants", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-01 01:07:13", 
+    "updated_at": "2012-10-16 18:01:16", 
     "versions": [
+        {
+            "doc_id": "NYD00058800", 
+            "mimetype": "text/html", 
+            "name": "S2672", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2672"
+        }, 
         {
             "doc_id": "NYD00034253", 
             "mimetype": "text/html", 

@@ -11,25 +11,46 @@
             "action": "referred to education", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to education", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 447", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00085646", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A447&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007676", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=473"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A447&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A447&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A447-2011"
@@ -48,24 +72,110 @@
         {
             "leg_id": "NYL000081", 
             "name": "Cahill", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000170", 
+            "name": "Peoples-Stokes", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000179", 
+            "name": "Reilly", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000181", 
+            "name": "Rivera N", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000099", 
+            "name": "Destito", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000130", 
+            "name": "Katz", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000136", 
+            "name": "Latimer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000137", 
+            "name": "Lavine", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000159", 
+            "name": "Molinaro", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000193", 
+            "name": "Schroeder", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Education"
     ], 
+    "summary": "Makes provisions for the state to assume all costs of basic quality education\nand for the elimination of real property taxes for the support of education;\nrequires board of regents to establish a schedule of mandatory basic services\nand costs thereof; provides that school districts shall submit an annual basic\nbudget to the department of education for basic services; increases taxes on\npersonal income and business; makes special provisions for reduction of tax in\ncertain cities and for reduction in rent by tenants in such cities; provides\nfor phased in methods of funding using a \"Basic Quality Education\" formula;\nrepeals certain provisions of the tax law and real property tax law relating\nthereto.", 
     "title": "Provides for the state to assume all costs of basic quality education; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-21 01:21:35", 
+    "updated_at": "2012-10-16 18:06:54", 
     "versions": [
         {
-            "doc_id": "NYD00004354", 
+            "doc_id": "NYD00085644", 
             "mimetype": "text/html", 
             "name": "A447", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A447-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A447"
+        }, 
+        {
+            "doc_id": "NYD00085645", 
+            "mimetype": "text/html", 
+            "name": "A447", 
+            "url": "http://open.nysenate.gov/legislation/bill/A447-2011"
         }
     ], 
     "votes": []

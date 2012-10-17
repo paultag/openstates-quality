@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-06-06 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,25 +11,68 @@
             "action": "referred to education", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to education", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported referred to ways and means", 
+            "actor": "lower", 
+            "date": "2012-06-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1088", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 327", 
+            "chamber": null, 
+            "internal_id": "NYB00000318", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:52", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00099080", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1088&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008344", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +81,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=469"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1088&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1088&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1088-2011"
@@ -48,24 +94,56 @@
         {
             "leg_id": "NYL000164", 
             "name": "Nolan", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000183", 
+            "name": "Roberts", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000149", 
+            "name": "Markey", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000203", 
+            "name": "Titone", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Education"
     ], 
+    "summary": "Amends the education law relating to school based health and mental health\nclinics in certain cities.", 
     "title": "Amends the education law relating to school based health and mental health clinics in certain cities", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-17 06:31:57", 
+    "updated_at": "2012-10-16 18:10:16", 
     "versions": [
         {
-            "doc_id": "NYD00000100", 
+            "doc_id": "NYD00099078", 
             "mimetype": "text/html", 
             "name": "A1088", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1088-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1088"
+        }, 
+        {
+            "doc_id": "NYD00099079", 
+            "mimetype": "text/html", 
+            "name": "A1088", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1088-2011"
         }
     ], 
     "votes": []

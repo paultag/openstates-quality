@@ -11,7 +11,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -29,7 +41,13 @@
             "action": "held for consideration in housing", 
             "actor": "lower", 
             "date": "2012-05-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:failed"
             ]
@@ -43,9 +61,9 @@
     "created_at": "2011-05-05 01:29:59", 
     "documents": [
         {
-            "doc_id": "NYD00046336", 
+            "doc_id": "NYD00085294", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2576&term=&Memo=Y"
         }
     ], 
     "id": "NYB00009890", 
@@ -56,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=676"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2576&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2576&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2576-2011"
@@ -66,19 +87,19 @@
         {
             "leg_id": "NYL000105", 
             "name": "Fitzpatrick", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000188", 
-            "name": "Saladino", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000150", 
             "name": "McKevitt", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000188", 
+            "name": "Saladino", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -86,12 +107,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Includes moderate rehabilitation within the definition of project for the\npurposes of the low income housing trust fund program; defines moderate\nrehabilitation project as any occupied residential property or portion thereof\nwhich if vacant or underoccupied would qualify as a cooperative project,\ncondominium project, homesteading project or rental project.", 
     "title": "Includes moderate rehabilitation within projects eligible for assistance under the low income housing trust fund program", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:32", 
+    "updated_at": "2012-10-16 18:06:50", 
     "versions": [
+        {
+            "doc_id": "NYD00085293", 
+            "mimetype": "text/html", 
+            "name": "A2576", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2576"
+        }, 
         {
             "doc_id": "NYD00046102", 
             "mimetype": "text/html", 

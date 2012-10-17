@@ -4,7 +4,7 @@
     ], 
     "action_dates": {
         "first": "2011-05-25 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-06-11 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -14,25 +14,81 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to agriculture", 
+            "actor": "lower", 
+            "date": "2012-06-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "7971"
+            ], 
+            "action": "print number 7971a", 
+            "actor": "lower", 
+            "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7971", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4533", 
+            "chamber": null, 
+            "internal_id": "NYB00004786", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-26 06:44:13", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00097163", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7971&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00017066", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,34 +97,66 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=965"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7971&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A7971-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7971&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7971A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A7971A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000088", 
+            "name": "Clark", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Authorizes the operation of home wine makers centers as food processing\nestablishments under the jurisdiction of the department of agriculture and\nmarkets; defines such centers as places where individuals pay a fee to use\nspace and equipment for the purpose of making wine for personal household use\nand not for resale; authorizes wineries and farm wineries to operate such a\nbusiness.", 
     "title": "Provides that food processing establishments shall include the operation of home wine makers centers", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:45", 
+    "updated_at": "2012-10-16 18:09:50", 
     "versions": [
+        {
+            "doc_id": "NYD00097161", 
+            "mimetype": "text/html", 
+            "name": "A7971", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7971"
+        }, 
         {
             "doc_id": "NYD00033050", 
             "mimetype": "text/html", 
             "name": "A7971", 
             "url": "http://open.nysenate.gov/legislation/bill/A7971-2011"
+        }, 
+        {
+            "doc_id": "NYD00097162", 
+            "mimetype": "text/html", 
+            "name": "A7971A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A7971A-2011"
         }
     ], 
     "votes": []

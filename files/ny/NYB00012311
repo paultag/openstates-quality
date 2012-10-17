@@ -11,25 +11,46 @@
             "action": "referred to energy", 
             "actor": "lower", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000053", 
+                    "name": "energy", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to energy", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000053", 
+                    "name": "energy", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4888", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:09", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00083921", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4888&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012311", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=802"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4888&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4888&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4888-2011"
@@ -48,19 +72,81 @@
         {
             "leg_id": "NYL000102", 
             "name": "Englebright", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000108", 
+            "name": "Galef", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000171", 
+            "name": "Perry", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Energy"
     ], 
+    "summary": "Reestablishes the state energy office to administer the provisions of the\nenergy law, and transfers the powers and duties of the New York state energy\nresearch and development authority and the president thereof pursuant to the\nenergy law to the state energy office and the commissioner thereof.", 
     "title": "Reestablishes the state energy office to administer the provisions of the energy law; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:33", 
+    "updated_at": "2012-10-16 18:06:30", 
     "versions": [
+        {
+            "doc_id": "NYD00083920", 
+            "mimetype": "text/html", 
+            "name": "A4888", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4888"
+        }, 
         {
             "doc_id": "NYD00026895", 
             "mimetype": "text/html", 

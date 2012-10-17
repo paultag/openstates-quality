@@ -24,7 +24,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-05-11 01:14:35", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00110256", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1274&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00025307", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +39,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1317"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1274&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1274&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K1274-2011"
@@ -43,19 +52,19 @@
         {
             "leg_id": "NYL000163", 
             "name": "Murray", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000074", 
             "name": "Boyle", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000115", 
             "name": "Graf", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -63,12 +72,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Honoring Michael Francis Kelly, Esq. upon the occasion of his designation for special recognition by the Long Island Builders Institute", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-22 10:05:50", 
+    "updated_at": "2012-10-16 18:13:02", 
     "versions": [
+        {
+            "doc_id": "NYD00110255", 
+            "mimetype": "text/html", 
+            "name": "K1274", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K1274"
+        }, 
         {
             "doc_id": "NYD00038887", 
             "mimetype": "text/html", 

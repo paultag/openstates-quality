@@ -11,36 +11,60 @@
             "action": "referred to consumer affairs and protection", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000047", 
+                    "name": "consumer affairs and protection", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to consumer affairs and protection", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000047", 
+                    "name": "consumer affairs and protection", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2012-03-13 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2012-03-20 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -50,7 +74,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:48", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00103107", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A66&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007262", 
     "level": "state", 
     "scraped_subjects": [
@@ -59,7 +89,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=525"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A66&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A66&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A66-2011"
@@ -69,43 +102,43 @@
         {
             "leg_id": "NYL000100", 
             "name": "Dinowitz", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000108", 
+            "name": "Galef", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000076", 
             "name": "Brennan", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000123", 
             "name": "Hooper", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
-            "leg_id": null, 
+            "leg_id": "NYL000220", 
             "name": "Mayersohn", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000152", 
             "name": "McEneny", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000108", 
-            "name": "Galef", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -113,12 +146,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Requires clear and legible dating along with recommended conditions of storage\nto ensure freshness of perishable foods; makes exemptions; authorizes\nenforcement and the imposition of a written \"stop sale order\" for any\nviolation; provides penalties for violations including a five hundred dollar\nfine for any store found not complying with such requirements.", 
     "title": "Requires clear and legible dating along with recommended conditions of storage to ensure freshness of certain perishable foods and provides penalties for violations", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 19:58:11", 
+    "updated_at": "2012-10-16 18:11:25", 
     "versions": [
+        {
+            "doc_id": "NYD00103106", 
+            "mimetype": "text/html", 
+            "name": "A66", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A66"
+        }, 
         {
             "doc_id": "NYD00032928", 
             "mimetype": "text/html", 

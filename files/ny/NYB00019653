@@ -12,36 +12,58 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-07-13 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to agriculture", 
             "actor": "lower", 
             "date": "2012-01-17 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "8536"
+            ], 
             "action": "print number 8536a", 
             "actor": "lower", 
             "date": "2012-01-17 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
@@ -51,7 +73,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-07-13 21:36:23", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00082845", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8536&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00019653", 
     "level": "state", 
     "scraped_subjects": [
@@ -60,53 +88,77 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1050"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8536&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A8536-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8536&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8536A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A8536A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000108", 
-            "name": "Galef", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000112", 
-            "name": "Glick", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000114", 
-            "name": "Gottfried", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000162", 
             "name": "Moya", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000089", 
             "name": "Colton", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000102", 
+            "name": "Englebright", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000151", 
+            "name": "McDonough", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000200", 
+            "name": "Tedisco", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000108", 
+            "name": "Galef", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -114,12 +166,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Prohibits companion animal piercing and tattooing except for identification or\nmedical benefit; establishes penalties for such violation.", 
     "title": "Prohibits companion animal piercing and tattooing except for identification or medical benefit", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 19:58:17", 
+    "updated_at": "2012-10-16 18:06:08", 
     "versions": [
+        {
+            "doc_id": "NYD00082844", 
+            "mimetype": "text/html", 
+            "name": "A8536", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8536"
+        }, 
         {
             "doc_id": "NYD00030113", 
             "mimetype": "text/html", 

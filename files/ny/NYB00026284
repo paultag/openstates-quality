@@ -4,7 +4,7 @@
     ], 
     "action_dates": {
         "first": "2012-05-15 00:00:00", 
-        "last": "2012-05-23 00:00:00", 
+        "last": "2012-06-19 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -14,25 +14,68 @@
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2012-05-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "held for consideration in ways and means", 
+            "actor": "lower", 
+            "date": "2012-06-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 10220", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 7459", 
+            "chamber": null, 
+            "internal_id": "NYB00026205", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-05-30 01:14:47", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00090214", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10220&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00026284", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +84,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1097"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10220&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10220&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A10220-2011"
@@ -51,19 +97,51 @@
         {
             "leg_id": "NYL000199", 
             "name": "Sweeney", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000202", 
+            "name": "Thiele", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Relates to water pollution control linked loans.", 
     "title": "Relates to water pollution control linked loans; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:47", 
+    "updated_at": "2012-10-16 18:08:07", 
     "versions": [
+        {
+            "doc_id": "NYD00090213", 
+            "mimetype": "text/html", 
+            "name": "A10220", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10220"
+        }, 
         {
             "doc_id": "NYD00033121", 
             "mimetype": "text/html", 

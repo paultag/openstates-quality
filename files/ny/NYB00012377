@@ -11,14 +11,22 @@
             "action": "referred to governmental employees", 
             "actor": "lower", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000056", 
+                    "name": "governmental employees", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2011-04-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,9 +35,23 @@
     "alternate_titles": [], 
     "bill_id": "A 4952", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1265", 
+            "chamber": null, 
+            "internal_id": "NYB00001310", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:10", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104016", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4952&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012377", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=731"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4952&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4952&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4952-2011"
@@ -48,24 +73,56 @@
         {
             "leg_id": null, 
             "name": "Towns", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000198", 
+            "name": "Stevenson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000088", 
+            "name": "Clark", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000157", 
+            "name": "Miller M", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Civil Liberties and Civil Rights"
     ], 
+    "summary": "Relates to collective bargaining processes for peace officers and special\nofficers for the city of New York; requires negotiations with the certified\nemployee organization representing such employees.", 
     "title": "Relates to collective bargaining processes for peace officers and special officers for the city of New York", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-24 01:09:36", 
+    "updated_at": "2012-10-16 18:11:36", 
     "versions": [
         {
-            "doc_id": "NYD00004950", 
+            "doc_id": "NYD00104014", 
             "mimetype": "text/html", 
             "name": "A4952", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4952-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4952"
+        }, 
+        {
+            "doc_id": "NYD00104015", 
+            "mimetype": "text/html", 
+            "name": "A4952", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4952-2011"
         }
     ], 
     "votes": []

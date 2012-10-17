@@ -23,7 +23,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-05-15 01:12:27", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00109350", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1318&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00025422", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +38,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1321"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1318&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1318&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K1318-2011"
@@ -42,43 +51,43 @@
         {
             "leg_id": "NYL000192", 
             "name": "Schimminger", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000092", 
             "name": "Corwin", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000107", 
             "name": "Gabryszak", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000222", 
             "name": "Kearns", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000170", 
             "name": "Peoples-Stokes", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000196", 
             "name": "Smardz", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000217", 
             "name": "Walter", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -86,12 +95,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Mourning the death of William A. Delmont, distinguished citizen and devoted member of his community", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-20 10:06:41", 
+    "updated_at": "2012-10-16 18:12:53", 
     "versions": [
+        {
+            "doc_id": "NYD00109349", 
+            "mimetype": "text/html", 
+            "name": "K1318", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K1318"
+        }, 
         {
             "doc_id": "NYD00037720", 
             "mimetype": "text/html", 

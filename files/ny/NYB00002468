@@ -11,8 +11,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-01-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,26 +41,44 @@
             "action": "AMEND AND RECOMMIT TO FINANCE", 
             "actor": "upper", 
             "date": "2012-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "2392"
+            ], 
             "action": "PRINT NUMBER 2392A", 
             "actor": "upper", 
             "date": "2012-01-05 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 2392", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:24", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00056240", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2392A-2011"
+        }
+    ], 
     "id": "NYB00002468", 
     "level": "state", 
     "scraped_subjects": [
@@ -56,16 +87,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=148"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2392&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S2392-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2392&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2392A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S2392A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000033", 
             "name": "LIBOUS", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -73,12 +111,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Creates a debt management board with authority to set a limit on state debt;\nauthorizes the use of surplus moneys to reduce outstanding state debt; limits\nthe amount of state debt that may be incurred; limits the debt of public\nauthorities.", 
     "title": "Creates a debt management board; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:18", 
+    "updated_at": "2012-10-16 18:00:37", 
     "versions": [
+        {
+            "doc_id": "NYD00056239", 
+            "mimetype": "text/html", 
+            "name": "S2392", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2392"
+        }, 
         {
             "doc_id": "NYD00032301", 
             "mimetype": "text/html", 

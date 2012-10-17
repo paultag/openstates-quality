@@ -14,8 +14,14 @@
             "action": "REFERRED TO ENVIRONMENTAL CONSERVATION", 
             "actor": "upper", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000017", 
+                    "name": "ENVIRONMENTAL CONSERVATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -23,9 +29,23 @@
     "alternate_titles": [], 
     "bill_id": "S 7459", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 10220", 
+            "chamber": null, 
+            "internal_id": "NYB00026284", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-05-30 01:14:28", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00049216", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S7459-2011"
+        }
+    ], 
     "id": "NYB00026205", 
     "level": "state", 
     "scraped_subjects": [
@@ -34,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=482"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S7459&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S7459&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S7459-2011"
@@ -44,6 +67,7 @@
         {
             "leg_id": "NYL000032", 
             "name": "LAVALLE", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -51,12 +75,19 @@
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Relates to water pollution control linked loans.", 
     "title": "Relates to water pollution control linked loans; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:28", 
+    "updated_at": "2012-10-16 17:58:57", 
     "versions": [
+        {
+            "doc_id": "NYD00049215", 
+            "mimetype": "text/html", 
+            "name": "S7459", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S7459"
+        }, 
         {
             "doc_id": "NYD00032600", 
             "mimetype": "text/html", 

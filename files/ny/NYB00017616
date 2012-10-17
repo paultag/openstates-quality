@@ -12,81 +12,152 @@
             "action": "referred to banks", 
             "actor": "lower", 
             "date": "2011-06-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000043", 
+                    "name": "banks", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to banks", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000043", 
+                    "name": "banks", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend (t) and recommit to banks", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000043", 
+                    "name": "banks", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "8145"
+            ], 
             "action": "print number 8145a", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend (t) and recommit to banks", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000043", 
+                    "name": "banks", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "8145"
+            ], 
             "action": "print number 8145b", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to ways and means", 
             "actor": "lower", 
             "date": "2012-06-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "8145"
+            ], 
             "action": "print number 8145c", 
             "actor": "lower", 
             "date": "2012-06-06 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 8145", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4567", 
+            "chamber": null, 
+            "internal_id": "NYB00004822", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-03 06:40:40", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00101731", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8145&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00017616", 
     "level": "state", 
     "scraped_subjects": [
@@ -95,29 +166,59 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1023"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8145&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A8145-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8145&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8145C&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A8145C-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000127", 
             "name": "Jeffries", 
-            "official_type": "multisponsor", 
+            "official_type": "SPONSOR", 
+            "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000208", 
+            "name": "Weprin", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000212", 
+            "name": "Brindisi", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000213", 
+            "name": "Espinal", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000185", 
+            "name": "Rodriguez", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000215", 
             "name": "Simanowitz", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000208", 
-            "name": "Weprin", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -126,12 +227,19 @@
         "Commerce", 
         "Legal Issues"
     ], 
+    "summary": "Relates to credit union memberships and membership powers; sets forth the\nqualifications for membership in a credit union; and amends the powers of\ncredit unions in relation to business loans, investment activities and other\npowers.", 
     "title": "Relates to credit union memberships and membership powers", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 02:27:37", 
+    "updated_at": "2012-10-16 18:11:01", 
     "versions": [
+        {
+            "doc_id": "NYD00101730", 
+            "mimetype": "text/html", 
+            "name": "A8145", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8145"
+        }, 
         {
             "doc_id": "NYD00034094", 
             "mimetype": "text/html", 

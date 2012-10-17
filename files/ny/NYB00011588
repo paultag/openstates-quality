@@ -11,27 +11,45 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-02-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reference changed to social services", 
             "actor": "lower", 
             "date": "2011-04-12 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000072", 
+                    "name": "social services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to social services", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000072", 
+                    "name": "social services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -41,7 +59,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:06", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096425", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4184&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011588", 
     "level": "state", 
     "scraped_subjects": [
@@ -50,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=771"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4184&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4184&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4184-2011"
@@ -60,13 +87,13 @@
         {
             "leg_id": "NYL000086", 
             "name": "Castro", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -74,12 +101,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Prohibits the harassment of family day care homes and group family day care\nhomes by landlords.", 
     "title": "Prohibits the harassment of family day care homes and group family day care homes by landlords", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 20:29:18", 
+    "updated_at": "2012-10-16 18:09:32", 
     "versions": [
+        {
+            "doc_id": "NYD00096424", 
+            "mimetype": "text/html", 
+            "name": "A4184", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4184"
+        }, 
         {
             "doc_id": "NYD00035307", 
             "mimetype": "text/html", 

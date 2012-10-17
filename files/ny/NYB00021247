@@ -3,7 +3,7 @@
     "action_dates": {
         "first": "2012-01-18 00:00:00", 
         "last": "2012-01-18 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2012-01-18 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -14,16 +14,23 @@
             "date": "2012-01-18 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "bill:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "K 818", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-01-19 06:47:51", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00107996", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K818&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00021247", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +39,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1270"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K818&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K818&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K818-2011"
@@ -42,7 +52,7 @@
         {
             "leg_id": "NYL000184", 
             "name": "Robinson", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -50,12 +60,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Congratulating Rhonda A. Lewis upon the occasion of her retirement from the Bridge Street Development Corporation", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-08-16 02:11:24", 
+    "updated_at": "2012-10-16 18:12:38", 
     "versions": [
+        {
+            "doc_id": "NYD00107995", 
+            "mimetype": "text/html", 
+            "name": "K818", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K818"
+        }, 
         {
             "doc_id": "NYD00030213", 
             "mimetype": "text/html", 

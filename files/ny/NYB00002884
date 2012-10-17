@@ -12,9 +12,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-02-01 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -22,26 +27,41 @@
             "action": "AMEND (T) AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-02-17 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "2783"
+            ], 
             "action": "PRINT NUMBER 2783A", 
             "actor": "upper", 
             "date": "2011-02-17 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -50,9 +70,23 @@
     "alternate_titles": [], 
     "bill_id": "S 2783", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 2674", 
+            "chamber": null, 
+            "internal_id": "NYB00009990", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:26", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00057821", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2783A-2011"
+        }
+    ], 
     "id": "NYB00002884", 
     "level": "state", 
     "scraped_subjects": [
@@ -61,29 +95,155 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=176"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2783&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S2783-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2783&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2783A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S2783A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000013", 
             "name": "ESPAILLAT", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000001", 
+            "name": "ADAMS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000002", 
+            "name": "ADDABBO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000004", 
+            "name": "AVELLA", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000007", 
+            "name": "BRESLIN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000010", 
+            "name": "DIAZ", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000012", 
+            "name": "DUANE", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000018", 
+            "name": "GIANARIS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000023", 
+            "name": "HASSELL-THOMPSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000024", 
+            "name": "HUNTLEY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000028", 
             "name": "KRUEGER", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000039", 
+            "name": "MONTGOMERY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000042", 
+            "name": "OPPENHEIMER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000043", 
+            "name": "PARKER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000044", 
+            "name": "PERALTA", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000045", 
+            "name": "PERKINS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000048", 
+            "name": "RIVERA", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000051", 
+            "name": "SAMPSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000052", 
+            "name": "SAVINO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000053", 
+            "name": "SERRANO", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000057", 
             "name": "SQUADRON", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000058", 
+            "name": "STAVISKY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000059", 
+            "name": "STEWART-COUSINS", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -91,12 +251,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Relates to rent regulation; relates to recovery of certain housing\naccommodations by a landlord; relates to the declaration of emergencies for\ncertain rental housing accommodations; extends certain provisions of law\nrelating to rent regulation; relates to the adjustment of maximum allowable\nrent; relates to vacancy decontrol; relates to extending the length of time\nover which major capital improvement expenses may be recovered.", 
     "title": "Relates to rent regulation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-28 02:49:47", 
+    "updated_at": "2012-10-16 18:01:03", 
     "versions": [
+        {
+            "doc_id": "NYD00057820", 
+            "mimetype": "text/html", 
+            "name": "S2783", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2783"
+        }, 
         {
             "doc_id": "NYD00042033", 
             "mimetype": "text/html", 

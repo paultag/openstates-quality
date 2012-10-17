@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-01-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,26 +41,44 @@
             "action": "AMEND AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "1282"
+            ], 
             "action": "PRINT NUMBER 1282A", 
             "actor": "upper", 
             "date": "2012-01-11 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 1282", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:20", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00059353", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1282A-2011"
+        }
+    ], 
     "id": "NYB00001327", 
     "level": "state", 
     "scraped_subjects": [
@@ -56,34 +87,60 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=78"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1282&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S1282-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1282&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1282A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S1282A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000012", 
             "name": "DUANE", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000044", 
+            "name": "PERALTA", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Provides that no landlord shall deny access to a licensed professional engineer\nor licensed registered architect hired by any tenant or tenant association\nrepresenting tenants of a multiple dwelling of six units or more for the\npurpose of conducting an inspection of a major capital improvement for which an\napplication for a maximum rent adjustment has been filed by the landlord;\nprovides that such inspection shall be conducted after notice to the landlord\nand during normal business hours; provides for the filing of such inspection\nreport by such tenants with the New York city rent agency for consideration in\nsuch application's determination.", 
     "title": "Requires landlord to grant access to engineer or architect hired by tenants to inspect major capital improvements in certain multiple dwellings", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-31 06:22:47", 
+    "updated_at": "2012-10-16 18:01:32", 
     "versions": [
         {
-            "doc_id": "NYD00014707", 
+            "doc_id": "NYD00059350", 
             "mimetype": "text/html", 
             "name": "S1282", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S1282-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S1282"
+        }, 
+        {
+            "doc_id": "NYD00059351", 
+            "mimetype": "text/html", 
+            "name": "S1282", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1282-2011"
+        }, 
+        {
+            "doc_id": "NYD00059352", 
+            "mimetype": "text/html", 
+            "name": "S1282A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1282A-2011"
         }
     ], 
     "votes": []

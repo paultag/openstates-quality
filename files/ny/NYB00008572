@@ -11,25 +11,53 @@
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1308", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 365", 
+            "chamber": null, 
+            "internal_id": "NYB00000358", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:53", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00085088", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1308&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008572", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=517"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1308&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1308&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1308-2011"
@@ -48,6 +79,7 @@
         {
             "leg_id": "NYL000127", 
             "name": "Jeffries", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,17 +87,24 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Authorizes the commissioner of general services to sell and convey certain land\nin the county of Kings, borough of Brooklyn, city of New York to CNR Senior\nHousing Development Fund Corporation.", 
     "title": "Authorizes the commissioner of general services to sell and convey certain land in the county of Kings, borough of Brooklyn, city of New York", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-14 01:02:51", 
+    "updated_at": "2012-10-16 18:06:48", 
     "versions": [
         {
-            "doc_id": "NYD00000377", 
+            "doc_id": "NYD00085086", 
             "mimetype": "text/html", 
             "name": "A1308", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1308-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1308"
+        }, 
+        {
+            "doc_id": "NYD00085087", 
+            "mimetype": "text/html", 
+            "name": "A1308", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1308-2011"
         }
     ], 
     "votes": []

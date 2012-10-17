@@ -11,8 +11,14 @@
             "action": "REFERRED TO EDUCATION", 
             "actor": "upper", 
             "date": "2011-01-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000014", 
+                    "name": "EDUCATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO EDUCATION", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000014", 
+                    "name": "EDUCATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,26 +41,44 @@
             "action": "AMEND AND RECOMMIT TO EDUCATION", 
             "actor": "upper", 
             "date": "2012-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000014", 
+                    "name": "EDUCATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "2547"
+            ], 
             "action": "PRINT NUMBER 2547A", 
             "actor": "upper", 
             "date": "2012-01-05 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 2547", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:25", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00061698", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2547A-2011"
+        }
+    ], 
     "id": "NYB00002633", 
     "level": "state", 
     "scraped_subjects": [
@@ -56,34 +87,60 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=154"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2547&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S2547-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2547&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2547A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S2547A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000006", 
             "name": "BONACIC", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000031", 
+            "name": "LARKIN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Education"
     ], 
+    "summary": "Redefines \"nonresidents of a school district\" to include persons over five and\nunder twenty-one years of age who do not actually reside in the district or\nreside on real property in the district which is wholly exempt from real\nproperty taxes for school district purposes and students who reside on real\nproperty which is fifty percent or more exempt from taxation pursuant to the\nreal property tax law and such property is the residence of ten or more\nstudents who attend a public school in the district.", 
     "title": "Defines non-residents for the purpose of admission to a school district", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-11 06:26:18", 
+    "updated_at": "2012-10-16 18:02:11", 
     "versions": [
         {
-            "doc_id": "NYD00016371", 
+            "doc_id": "NYD00061695", 
             "mimetype": "text/html", 
             "name": "S2547", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S2547-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2547"
+        }, 
+        {
+            "doc_id": "NYD00061696", 
+            "mimetype": "text/html", 
+            "name": "S2547", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2547-2011"
+        }, 
+        {
+            "doc_id": "NYD00061697", 
+            "mimetype": "text/html", 
+            "name": "S2547A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2547A-2011"
         }
     ], 
     "votes": []

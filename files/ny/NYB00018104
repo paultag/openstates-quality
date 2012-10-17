@@ -3,7 +3,7 @@
     "action_dates": {
         "first": "2011-06-08 00:00:00", 
         "last": "2012-06-21 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2012-06-11 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -12,8 +12,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-06-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -21,6 +27,13 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -29,6 +42,7 @@
             "action": "1ST REPORT CAL.289", 
             "actor": "upper", 
             "date": "2012-03-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -37,30 +51,151 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2012-03-07 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2012-03-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "5641A"
+            ], 
             "action": "AMENDED ON THIRD READING 5641A", 
             "actor": "upper", 
             "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
         }, 
         {
+            "+bill_id": [
+                "A8329"
+            ], 
             "action": "SUBSTITUTED BY A8329A", 
             "actor": "upper", 
             "date": "2012-06-20 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "referred to agriculture", 
+            "actor": "lower", 
+            "date": "2011-06-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "referred to agriculture", 
+            "actor": "lower", 
+            "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported ", 
+            "actor": "lower", 
+            "date": "2012-02-15 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "advanced to third reading cal.364", 
+            "actor": "lower", 
+            "date": "2012-02-16 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "8329a"
+            ], 
+            "action": "amended on third reading 8329a", 
+            "actor": "lower", 
+            "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "passed assembly", 
+            "actor": "lower", 
+            "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "delivered to senate", 
+            "actor": "lower", 
+            "date": "2012-06-11 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "REFERRED TO RULES", 
+            "actor": "upper", 
+            "date": "2012-06-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "SUBSTITUTED FOR S5641A", 
+            "actor": "upper", 
+            "date": "2012-06-20 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "3RD READING CAL.289", 
+            "actor": "upper", 
+            "date": "2012-06-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -69,6 +204,31 @@
             "action": "SUBSTITUTION RECONSIDERED", 
             "actor": "upper", 
             "date": "2012-06-21 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "RECOMMITTED TO RULES", 
+            "actor": "upper", 
+            "date": "2012-06-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "SUBSTITUTION RECONSIDERED", 
+            "actor": "upper", 
+            "date": "2012-06-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -77,6 +237,7 @@
             "action": "RESTORED TO THIRD READING", 
             "actor": "upper", 
             "date": "2012-06-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -85,17 +246,38 @@
             "action": "COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2012-06-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 5641", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 8329", 
+            "chamber": null, 
+            "internal_id": "NYB00018934", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-09 07:19:14", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00061481", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5641A-2011"
+        }
+    ], 
     "id": "NYB00018104", 
     "level": "state", 
     "scraped_subjects": [
@@ -104,41 +286,133 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=384"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5641&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S5641-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5641&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5641A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S5641A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000047", 
             "name": "RITCHIE", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000017", 
+            "name": "GALLIVAN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000037", 
+            "name": "MAZIARZ", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Relates to licensure of exhibits or entertainment on fair grounds.", 
     "title": "Relates to licensure of exhibits or entertainment on fair grounds", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-27 21:39:36", 
+    "updated_at": "2012-10-16 18:02:08", 
     "versions": [
         {
-            "doc_id": "NYD00041550", 
+            "doc_id": "NYD00061480", 
             "mimetype": "text/html", 
-            "name": "S5641A", 
-            "url": "http://open.nysenate.gov/legislation/bill/S5641A-2011"
+            "name": "S5641", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5641"
         }, 
         {
             "doc_id": "NYD00041551", 
             "mimetype": "text/html", 
             "name": "S5641", 
             "url": "http://open.nysenate.gov/legislation/bill/S5641-2011"
+        }, 
+        {
+            "doc_id": "NYD00041550", 
+            "mimetype": "text/html", 
+            "name": "S5641A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5641A-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00018104", 
+            "chamber": "upper", 
+            "date": "2012-03-06 00:00:00", 
+            "id": "NYV00006457", 
+            "motion": "Agriculture Committee Vote", 
+            "no_count": 1, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5641A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00006457", 
+            "yes_count": 9, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }, 
+                {
+                    "leg_id": "NYL000060", 
+                    "name": "Valesky"
+                }
+            ]
+        }
+    ]
 }

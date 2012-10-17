@@ -11,25 +11,46 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 2941", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:00", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091199", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2941&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010265", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=650"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2941&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2941&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2941-2011"
@@ -48,19 +72,33 @@
         {
             "leg_id": "NYL000097", 
             "name": "Cymbrowitz", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Makes certain persons and families, regardless of number of dependents,\neligible for admission as residents to certain dwellings or accommodations of\nlimited-profit housing companies and limited dividend housing companies;\nchanges certain income limitations for residents of limited-profit housing\ncompanies and limited dividend housing companies.", 
     "title": "Relates to income limits applicable to residents of limited-profit housing companies and limited dividend housing companies", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-22 01:08:52", 
+    "updated_at": "2012-10-16 18:08:24", 
     "versions": [
+        {
+            "doc_id": "NYD00091198", 
+            "mimetype": "text/html", 
+            "name": "A2941", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2941"
+        }, 
         {
             "doc_id": "NYD00026778", 
             "mimetype": "text/html", 

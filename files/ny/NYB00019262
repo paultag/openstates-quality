@@ -12,9 +12,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-06-16 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -40,9 +45,16 @@
     "alternate_titles": [], 
     "bill_id": "J 2643", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-06-17 08:05:42", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00080927", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J2643-2011"
+        }
+    ], 
     "id": "NYB00019262", 
     "level": "state", 
     "scraped_subjects": [
@@ -51,7 +63,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1403"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J2643&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J2643&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J2643-2011"
@@ -61,13 +76,13 @@
         {
             "leg_id": "NYL000043", 
             "name": "PARKER", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000001", 
             "name": "ADAMS", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -75,12 +90,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commending By-Ways and Hedges Youth for Christ Ministry, Inc. upon the occasion of hosting the 2011 Brooklyn Salutes Award Ceremony", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-08-19 02:10:54", 
+    "updated_at": "2012-10-16 18:05:50", 
     "versions": [
+        {
+            "doc_id": "NYD00080926", 
+            "mimetype": "text/html", 
+            "name": "J2643", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J2643"
+        }, 
         {
             "doc_id": "NYD00026482", 
             "mimetype": "text/html", 

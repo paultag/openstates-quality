@@ -11,8 +11,14 @@
             "action": "REFERRED TO ENVIRONMENTAL CONSERVATION", 
             "actor": "upper", 
             "date": "2011-01-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000017", 
+                    "name": "ENVIRONMENTAL CONSERVATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,23 +26,41 @@
             "action": "AMEND AND RECOMMIT TO ENVIRONMENTAL CONSERVATION", 
             "actor": "upper", 
             "date": "2011-12-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000017", 
+                    "name": "ENVIRONMENTAL CONSERVATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "2696"
+            ], 
             "action": "PRINT NUMBER 2696A", 
             "actor": "upper", 
             "date": "2011-12-21 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "REFERRED TO ENVIRONMENTAL CONSERVATION", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000017", 
+                    "name": "ENVIRONMENTAL CONSERVATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -45,9 +69,16 @@
     "alternate_titles": [], 
     "bill_id": "S 2696", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:25", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00059565", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2696A-2011"
+        }
+    ], 
     "id": "NYB00002788", 
     "level": "state", 
     "scraped_subjects": [
@@ -56,16 +87,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=163"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2696&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S2696-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2696&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2696A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S2696A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000004", 
             "name": "AVELLA", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -73,17 +111,30 @@
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Relates to eligibility for acceptance into the brownfield cleanup program;\nrelates to the assignment of brownfield redevelopment tax credits.", 
     "title": "Relates to eligibility for acceptance into the brownfield cleanup program; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-15 06:27:19", 
+    "updated_at": "2012-10-16 18:01:34", 
     "versions": [
         {
-            "doc_id": "NYD00016565", 
+            "doc_id": "NYD00059562", 
             "mimetype": "text/html", 
             "name": "S2696", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S2696-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2696"
+        }, 
+        {
+            "doc_id": "NYD00059563", 
+            "mimetype": "text/html", 
+            "name": "S2696", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2696-2011"
+        }, 
+        {
+            "doc_id": "NYD00059564", 
+            "mimetype": "text/html", 
+            "name": "S2696A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2696A-2011"
         }
     ], 
     "votes": []

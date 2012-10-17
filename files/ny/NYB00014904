@@ -11,25 +11,46 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7371", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:21", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00103525", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7371&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014904", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=955"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7371&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7371&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7371-2011"
@@ -48,6 +72,7 @@
         {
             "leg_id": "NYL000138", 
             "name": "Lentol", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,12 +80,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Relates to regulations authorizing the issuance of financial penalties.", 
     "title": "Relates to regulations authorizing the issuance of financial penalties", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-15 01:11:53", 
+    "updated_at": "2012-10-16 18:11:31", 
     "versions": [
+        {
+            "doc_id": "NYD00103524", 
+            "mimetype": "text/html", 
+            "name": "A7371", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7371"
+        }, 
         {
             "doc_id": "NYD00038810", 
             "mimetype": "text/html", 

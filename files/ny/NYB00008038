@@ -11,25 +11,46 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 796", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:51", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00083640", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A796&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008038", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=551"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A796&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A796&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A796-2011"
@@ -48,19 +72,51 @@
         {
             "leg_id": "NYL000100", 
             "name": "Dinowitz", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000131", 
+            "name": "Kavanagh", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Business and Consumers"
     ], 
+    "summary": "Requires that the board of directors or board of managers of a converted\ncooperative or condominium, as the case may be, must be comprised of a majority\nof members elected by shareholders or owners in occupancy so that control of\nthe converted cooperative or condominium is turned over to the unit owners as\nsoon as possible; applies only to plans of 20 or more units.", 
     "title": "Governs election of board by residents of cooperatives and condominiums", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-12 01:11:21", 
+    "updated_at": "2012-10-16 18:06:27", 
     "versions": [
+        {
+            "doc_id": "NYD00083639", 
+            "mimetype": "text/html", 
+            "name": "A796", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A796"
+        }, 
         {
             "doc_id": "NYD00028226", 
             "mimetype": "text/html", 

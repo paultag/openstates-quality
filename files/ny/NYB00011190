@@ -12,27 +12,46 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-01-27 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3833", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:04", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00088271", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3833&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011190", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=748"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3833&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3833&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3833-2011"
@@ -51,19 +73,19 @@
         {
             "leg_id": "NYL000177", 
             "name": "Ramos", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000136", 
-            "name": "Latimer", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000136", 
+            "name": "Latimer", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -71,12 +93,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides for the establishment of a home purchase account; enables first time\nhouse, condominium or unit in a cooperative housing corporation purchasers to\ndeposit monies into an account established at a banking institution and be able\nto take a tax deduction for the amount deposited, not exceeding $5,000 for an\nindividual and $10,000 for a couple; withdrawal of the monies in the fund will\nnot make an individual liable to income tax if such monies are applied toward\nthe purchase of a house, condominium or unit in a cooperative housing\ncorporation or the construction of a house, condominium or unit in a\ncooperative housing corporation; inappropriate application of fund monies shall\ncause the individual to be liable for income tax and be penalized.", 
     "title": "Authorizes an income tax deduction of monies deposited into a house, townhouse, condominium or unit in a cooperative housing corporation account", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-28 02:50:01", 
+    "updated_at": "2012-10-16 18:07:28", 
     "versions": [
+        {
+            "doc_id": "NYD00088270", 
+            "mimetype": "text/html", 
+            "name": "A3833", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3833"
+        }, 
         {
             "doc_id": "NYD00033908", 
             "mimetype": "text/html", 

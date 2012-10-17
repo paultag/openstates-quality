@@ -11,25 +11,46 @@
             "action": "referred to labor", 
             "actor": "lower", 
             "date": "2011-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000063", 
+                    "name": "labor", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to labor", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000063", 
+                    "name": "labor", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4077", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:06", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00099246", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4077&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011480", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=684"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4077&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4077&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4077-2011"
@@ -48,24 +72,44 @@
         {
             "leg_id": "NYL000076", 
             "name": "Brennan", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000180", 
+            "name": "Rivera J", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Labor and Employment"
     ], 
+    "summary": "Establishes the \"minimum standards for subsidized jobs act\"; defines terms;\nrestricts persons, associations, corporations or other entities from being\neligible to receive any economic development subsidies unless such entities pay\nall of their employees a minimum wage that is at least one dollar per hour\nhigher than the state's minimum wage; provides health insurance benefits for\nwhich the employer pays a minimum of eighty percent of the monthly premium;\nemploys twenty percent of its workers who will participate in the state worker\ntraining program, and have not been adjudicated to be in violation of any\nfederal, state or local laws for at least the previous five years.", 
     "title": "Establishes the \"minimum standards for subsidized jobs act\"", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-26 01:11:01", 
+    "updated_at": "2012-10-16 18:10:19", 
     "versions": [
         {
-            "doc_id": "NYD00003860", 
+            "doc_id": "NYD00099244", 
             "mimetype": "text/html", 
             "name": "A4077", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4077-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4077"
+        }, 
+        {
+            "doc_id": "NYD00099245", 
+            "mimetype": "text/html", 
+            "name": "A4077", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4077-2011"
         }
     ], 
     "votes": []

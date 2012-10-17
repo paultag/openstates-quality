@@ -14,22 +14,37 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -38,6 +53,7 @@
             "action": "advanced to third reading cal.251", 
             "actor": "lower", 
             "date": "2011-05-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -46,6 +62,7 @@
             "action": "starred on calendar", 
             "actor": "lower", 
             "date": "2011-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -54,22 +71,31 @@
             "action": "star removed", 
             "actor": "lower", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "2888a"
+            ], 
             "action": "amended on third reading 2888a", 
             "actor": "lower", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
+            "+bill_id": [
+                "s4054"
+            ], 
             "action": "substituted by s4054a", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,9 +104,23 @@
     "alternate_titles": [], 
     "bill_id": "A 2888", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4054", 
+            "chamber": null, 
+            "internal_id": "NYB00004279", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:00", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00083809", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2888&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010207", 
     "level": "state", 
     "scraped_subjects": [
@@ -89,29 +129,55 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=672"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2888&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A2888-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2888&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2888A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A2888A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000108", 
+            "name": "Galef", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Regulates frozen desserts made with wine bearing or containing more than\none-half of one percent, but not more than five percent of alcohol by volume.", 
     "title": "Relates to the sale of frozen desserts made with wine", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-12 01:11:23", 
+    "updated_at": "2012-10-16 18:06:29", 
     "versions": [
+        {
+            "doc_id": "NYD00083808", 
+            "mimetype": "text/html", 
+            "name": "A2888", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2888"
+        }, 
         {
             "doc_id": "NYD00037376", 
             "mimetype": "text/html", 

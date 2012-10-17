@@ -14,25 +14,46 @@
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7983", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-26 06:44:13", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00088449", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7983&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00017078", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +62,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=965"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7983&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7983&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7983-2011"
@@ -51,6 +75,7 @@
         {
             "leg_id": "NYL000202", 
             "name": "Thiele", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +84,19 @@
         "Budget, Spending, and Taxes", 
         "Legislative Affairs"
     ], 
+    "summary": "Establishes office for new Americans, assisting local governments in attracting\ngroups of immigrants.", 
     "title": "Establishes office for new Americans, assists local governments in attracting groups of immigrants", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:46", 
+    "updated_at": "2012-10-16 18:07:30", 
     "versions": [
+        {
+            "doc_id": "NYD00088448", 
+            "mimetype": "text/html", 
+            "name": "A7983", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7983"
+        }, 
         {
             "doc_id": "NYD00033062", 
             "mimetype": "text/html", 

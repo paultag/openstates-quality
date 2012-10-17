@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-06-19 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,25 +11,61 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "held for consideration in ways and means", 
+            "actor": "lower", 
+            "date": "2012-06-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 618", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104114", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A618&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007852", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=470"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A618&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A618&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A618-2011"
@@ -48,24 +87,38 @@
         {
             "leg_id": "NYL000189", 
             "name": "Sayward", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000141", 
+            "name": "Lopez P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides a specified tax deduction for taxpayer land made available annually\nfor recreation as part of a local, national, state or regional trail system;\nlimits liability of such landowners to willful or malicious creation or\nperpetuation of a dangerous condition, use or structure.", 
     "title": "Provides a tax deduction of $100 per 10 acres of taxpayer land made available for recreation as part of a local, national, state or regional trail system", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-30 01:00:59", 
+    "updated_at": "2012-10-16 18:11:37", 
     "versions": [
         {
-            "doc_id": "NYD00006530", 
+            "doc_id": "NYD00104112", 
             "mimetype": "text/html", 
             "name": "A618", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A618-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A618"
+        }, 
+        {
+            "doc_id": "NYD00104113", 
+            "mimetype": "text/html", 
+            "name": "A618", 
+            "url": "http://open.nysenate.gov/legislation/bill/A618-2011"
         }
     ], 
     "votes": []

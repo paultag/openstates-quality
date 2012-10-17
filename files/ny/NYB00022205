@@ -12,9 +12,15 @@
             "action": "referred to racing and wagering", 
             "actor": "lower", 
             "date": "2012-02-09 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000068", 
+                    "name": "racing and wagering", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
@@ -24,7 +30,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-02-10 06:28:26", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091641", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9270&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00022205", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +45,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1093"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9270&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9270&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9270-2011"
@@ -43,7 +58,7 @@
         {
             "leg_id": "NYL000123", 
             "name": "Hooper", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -51,12 +66,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Authorizes the division of the lottery to conduct a pilot program for video\nlottery wagering at the regional off-track betting facilities.", 
     "title": "Authorizes the division of the lottery to conduct the operation of video lottery wagering at the regional off-track betting facilities", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-28 09:56:17", 
+    "updated_at": "2012-10-16 18:08:28", 
     "versions": [
+        {
+            "doc_id": "NYD00091640", 
+            "mimetype": "text/html", 
+            "name": "A9270", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9270"
+        }, 
         {
             "doc_id": "NYD00031260", 
             "mimetype": "text/html", 

@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-01 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-05-31 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,33 +11,89 @@
             "action": "referred to transportation", 
             "actor": "lower", 
             "date": "2011-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000074", 
+                    "name": "transportation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2011-06-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to transportation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000074", 
+                    "name": "transportation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to transportation", 
+            "actor": "lower", 
+            "date": "2012-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000074", 
+                    "name": "transportation", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "4088"
+            ], 
+            "action": "print number 4088a", 
+            "actor": "lower", 
+            "date": "2012-05-31 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4088", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:06", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00090403", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4088&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011491", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,16 +102,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=674"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4088&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A4088-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4088&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4088A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A4088A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -63,17 +126,30 @@
     "subjects": [
         "Transportation"
     ], 
+    "summary": "Relates to requiring commercial parking garages to install and operate\npedestrian warning devices where vehicles exiting such garage cross a\npedestrian sidewalk; requires both visual and audible warning signals.", 
     "title": "Relates to requiring parking garages to install and operate pedestrian warning devices where vehicles exiting such garage cross a pedestrian sidewalk", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-13 01:04:32", 
+    "updated_at": "2012-10-16 18:08:09", 
     "versions": [
         {
-            "doc_id": "NYD00003872", 
+            "doc_id": "NYD00090400", 
             "mimetype": "text/html", 
             "name": "A4088", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4088-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4088"
+        }, 
+        {
+            "doc_id": "NYD00090401", 
+            "mimetype": "text/html", 
+            "name": "A4088", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4088-2011"
+        }, 
+        {
+            "doc_id": "NYD00090402", 
+            "mimetype": "text/html", 
+            "name": "A4088A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4088A-2011"
         }
     ], 
     "votes": []

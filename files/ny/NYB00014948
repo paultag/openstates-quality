@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-05-04 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-06-19 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,25 +11,61 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "held for consideration in ways and means", 
+            "actor": "lower", 
+            "date": "2012-06-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7415", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:21", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00098819", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7415&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014948", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=927"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7415&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7415&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7415-2011"
@@ -48,6 +87,7 @@
         {
             "leg_id": "NYL000202", 
             "name": "Thiele", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,12 +95,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides a credit against the franchise tax on corporations and the personal\nincome tax to employers who provide housing assistance to eligible employees.", 
     "title": "Provides a credit against the franchise tax on corporations and the personal income tax to employers who provide housing assistance to eligible employees", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:43", 
+    "updated_at": "2012-10-16 18:10:13", 
     "versions": [
+        {
+            "doc_id": "NYD00098818", 
+            "mimetype": "text/html", 
+            "name": "A7415", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7415"
+        }, 
         {
             "doc_id": "NYD00028592", 
             "mimetype": "text/html", 

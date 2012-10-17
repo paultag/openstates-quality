@@ -12,7 +12,13 @@
             "action": "REFERRED TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -21,7 +27,13 @@
             "action": "REFERRED TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -30,10 +42,23 @@
     "alternate_titles": [], 
     "bill_id": "S 365", 
     "chamber": "upper", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "A 1308", 
+            "chamber": null, 
+            "internal_id": "NYB00008572", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:16", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00065116", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S365-2011"
+        }
+    ], 
     "id": "NYB00000358", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=22"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S365&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S365&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S365-2011"
@@ -52,7 +80,7 @@
         {
             "leg_id": "NYL000039", 
             "name": "MONTGOMERY", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -60,12 +88,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Authorizes the commissioner of general services to sell and convey certain land\nin the county of Kings, borough of Brooklyn, city of New York to CNR Senior\nHousing Development Fund Corporation.", 
     "title": "Authorizes the commissioner of general services to sell and convey certain land in the county of Kings, borough of Brooklyn, city of New York", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:19", 
+    "updated_at": "2012-10-16 18:03:01", 
     "versions": [
+        {
+            "doc_id": "NYD00065115", 
+            "mimetype": "text/html", 
+            "name": "S365", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S365"
+        }, 
         {
             "doc_id": "NYD00041401", 
             "mimetype": "text/html", 

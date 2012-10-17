@@ -11,7 +11,13 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-05-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -41,7 +47,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-06-13 01:11:39", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00079602", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J4508-2011"
+        }
+    ], 
     "id": "NYB00026822", 
     "level": "state", 
     "scraped_subjects": [
@@ -50,7 +62,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1497"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J4508&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J4508&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J4508-2011"
@@ -60,7 +75,7 @@
         {
             "leg_id": "NYL000043", 
             "name": "PARKER", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -68,12 +83,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Honoring Ava Barnett upon the occasion of her designation as recipient of the Community Service Award by the Girls High School Alumnae Association", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-22 10:05:38", 
+    "updated_at": "2012-10-16 18:05:34", 
     "versions": [
+        {
+            "doc_id": "NYD00079601", 
+            "mimetype": "text/html", 
+            "name": "J4508", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J4508"
+        }, 
         {
             "doc_id": "NYD00038090", 
             "mimetype": "text/html", 

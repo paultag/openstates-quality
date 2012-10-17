@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-03-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,23 @@
     "alternate_titles": [], 
     "bill_id": "S 4029", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 9436", 
+            "chamber": null, 
+            "internal_id": "NYB00022886", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:32", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00053972", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4029-2011"
+        }
+    ], 
     "id": "NYB00004251", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=253"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4029&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4029&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S4029-2011"
@@ -49,24 +79,44 @@
         {
             "leg_id": "NYL000062", 
             "name": "ZELDIN", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000019", 
+            "name": "GOLDEN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000046", 
+            "name": "RANZENHOFER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Requires warning labels on fireplace glass panels advising consumers of the\ngrave risk of burns when the fireplace is operating.", 
     "title": "Requires warning labels on fireplace glass panels advising consumers of the grave risk of burns when the fireplace is operating", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-11 06:26:34", 
+    "updated_at": "2012-10-16 18:00:03", 
     "versions": [
         {
-            "doc_id": "NYD00018541", 
+            "doc_id": "NYD00053970", 
             "mimetype": "text/html", 
             "name": "S4029", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S4029-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4029"
+        }, 
+        {
+            "doc_id": "NYD00053971", 
+            "mimetype": "text/html", 
+            "name": "S4029", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4029-2011"
         }
     ], 
     "votes": []

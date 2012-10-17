@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-01 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-05-10 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,14 +11,61 @@
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2011-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported referred to ways and means", 
+            "actor": "lower", 
+            "date": "2012-04-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported ", 
+            "actor": "lower", 
+            "date": "2012-05-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "advanced to third reading cal.548", 
+            "actor": "lower", 
+            "date": "2012-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,9 +74,23 @@
     "alternate_titles": [], 
     "bill_id": "A 4087", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 41", 
+            "chamber": null, 
+            "internal_id": "NYB00000022", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:06", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00090399", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4087&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011490", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +99,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=674"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4087&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4087&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4087-2011"
@@ -48,6 +112,7 @@
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,17 +120,24 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Requires notification to be given to the New York City Department of Housing\nPreservation in the event that construction on a project for which an\napplication for a certain tax exemption has been made ceases for a period\nexceeding one hundred twenty days.", 
     "title": "Requires notice to the local housing agency when construction is halted on a project for which an application for a certain tax exemption has been made", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-13 01:04:32", 
+    "updated_at": "2012-10-16 18:08:09", 
     "versions": [
         {
-            "doc_id": "NYD00003871", 
+            "doc_id": "NYD00090397", 
             "mimetype": "text/html", 
             "name": "A4087", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4087-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4087"
+        }, 
+        {
+            "doc_id": "NYD00090398", 
+            "mimetype": "text/html", 
+            "name": "A4087", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4087-2011"
         }
     ], 
     "votes": []

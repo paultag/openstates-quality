@@ -3,7 +3,7 @@
     "action_dates": {
         "first": "2011-06-02 00:00:00", 
         "last": "2011-06-02 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2011-06-02 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -14,7 +14,7 @@
             "date": "2011-06-02 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "bill:passed"
             ]
         }
     ], 
@@ -24,7 +24,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-06-03 06:40:42", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00108764", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K607&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00017629", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +39,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1250"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K607&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K607&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K607-2011"
@@ -43,7 +52,7 @@
         {
             "leg_id": "NYL000085", 
             "name": "Castelli", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -51,12 +60,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commending Angela Falisi upon the occasion of her designation as recipient of the New York Conference of Italian-American Scholarship", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-08-24 20:29:21", 
+    "updated_at": "2012-10-16 18:12:50", 
     "versions": [
+        {
+            "doc_id": "NYD00108763", 
+            "mimetype": "text/html", 
+            "name": "K607", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K607"
+        }, 
         {
             "doc_id": "NYD00036413", 
             "mimetype": "text/html", 

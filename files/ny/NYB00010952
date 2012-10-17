@@ -12,27 +12,46 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-26 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3600", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:03", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00086174", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3600&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010952", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=735"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3600&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3600&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3600-2011"
@@ -51,13 +73,13 @@
         {
             "leg_id": "NYL000165", 
             "name": "O'Donnell", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000112", 
             "name": "Glick", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -65,12 +87,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Provides for rents subject to the rent stabilization laws upon dissolution of\ncertain types of housing companies.", 
     "title": "Provides for rents subject to the rent stabilization laws upon dissolution of certain types of housing companies", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-16 02:11:14", 
+    "updated_at": "2012-10-16 18:07:01", 
     "versions": [
+        {
+            "doc_id": "NYD00086173", 
+            "mimetype": "text/html", 
+            "name": "A3600", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3600"
+        }, 
         {
             "doc_id": "NYD00030955", 
             "mimetype": "text/html", 

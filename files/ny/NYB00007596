@@ -12,38 +12,65 @@
             "action": "referred to tourism, parks, arts and sports development", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000073", 
+                    "name": "tourism, parks, arts and sports development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-01-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "374"
+            ], 
             "action": "print number 374a", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2011-07-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -52,9 +79,23 @@
     "alternate_titles": [], 
     "bill_id": "A 374", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 3847", 
+            "chamber": null, 
+            "internal_id": "NYB00004053", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00088316", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A374&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007596", 
     "level": "state", 
     "scraped_subjects": [
@@ -63,21 +104,35 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=544"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A374&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A374-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A374&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A374A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A374A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000124", 
             "name": "Hoyt", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000152", 
             "name": "McEneny", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000071", 
+            "name": "Bing", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -85,12 +140,19 @@
     "subjects": [
         "Arts and Humanities"
     ], 
-    "title": "Provides an optional pilot program to establish arts-based districts in the cities of Buffalo, Rochester, Syracuse and Troy", 
+    "summary": "Provides an optional pilot program to establish arts-based districts in the\ncities of Albany, Buffalo, Rochester, Syracuse and Troy and for the repeal of\nthe provisions pertaining thereto.", 
+    "title": "Provides an optional pilot program to establish arts-based districts in the cities of Albany, Buffalo, Rochester, Syracuse and Troy", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 02:27:33", 
+    "updated_at": "2012-10-16 18:07:28", 
     "versions": [
+        {
+            "doc_id": "NYD00088315", 
+            "mimetype": "text/html", 
+            "name": "A374", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A374"
+        }, 
         {
             "doc_id": "NYD00041104", 
             "mimetype": "text/html", 

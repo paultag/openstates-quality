@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-05-17 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,14 +11,61 @@
             "action": "referred to banks", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000043", 
+                    "name": "banks", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to banks", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000043", 
+                    "name": "banks", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported referred to ways and means", 
+            "actor": "lower", 
+            "date": "2012-05-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported ", 
+            "actor": "lower", 
+            "date": "2012-05-15 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "advanced to third reading cal.576", 
+            "actor": "lower", 
+            "date": "2012-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,9 +74,23 @@
     "alternate_titles": [], 
     "bill_id": "A 1362", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4406", 
+            "chamber": null, 
+            "internal_id": "NYB00004651", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:54", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00094900", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1362&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008626", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +99,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=534"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1362&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1362&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1362-2011"
@@ -48,7 +112,68 @@
         {
             "leg_id": "NYL000127", 
             "name": "Jeffries", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000069", 
+            "name": "Barron", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000185", 
+            "name": "Rodriguez", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000208", 
+            "name": "Weprin", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000081", 
+            "name": "Cahill", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000083", 
+            "name": "Camara", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -56,17 +181,24 @@
         "Commerce", 
         "Legal Issues"
     ], 
+    "summary": "Requires inclusion and explanation of additional annual data in assessing\nrecord of performance of banking institutions in meeting community credit\nneeds; additional data to include but not be limited to: loans for housing low\nand moderate-income residents of low and moderate income areas, the scope of\nefforts to market housing and small business loans in low and moderate-income\nareas and other data.", 
     "title": "Requires inclusion and explanation of additional annual data in assessing record of performance of banking institutions in meeting community credit needs", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-01 01:06:26", 
+    "updated_at": "2012-10-16 18:09:14", 
     "versions": [
         {
-            "doc_id": "NYD00000442", 
+            "doc_id": "NYD00094898", 
             "mimetype": "text/html", 
             "name": "A1362", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1362-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1362"
+        }, 
+        {
+            "doc_id": "NYD00094899", 
+            "mimetype": "text/html", 
+            "name": "A1362", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1362-2011"
         }
     ], 
     "votes": []

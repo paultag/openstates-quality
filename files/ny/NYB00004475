@@ -11,8 +11,14 @@
             "action": "REFERRED TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2011-03-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,14 +26,22 @@
             "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "ORDERED TO THIRD READING CAL.1226", 
             "actor": "upper", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,6 +50,7 @@
             "action": "PASSED SENATE", 
             "actor": "upper", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -44,30 +59,40 @@
             "action": "DELIVERED TO ASSEMBLY", 
             "actor": "upper", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
             "action": "referred to local governments", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000065", 
+                    "name": "local governments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "died in assembly", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
             "action": "returned to senate", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -76,6 +101,13 @@
             "action": "REFERRED TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -84,23 +116,35 @@
             "action": "AMEND AND RECOMMIT TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2012-01-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4240"
+            ], 
             "action": "PRINT NUMBER 4240A", 
             "actor": "upper", 
             "date": "2012-01-09 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "1ST REPORT CAL.443", 
             "actor": "upper", 
             "date": "2012-03-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -109,14 +153,16 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2012-03-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -125,6 +171,10 @@
             "action": "PASSED SENATE", 
             "actor": "upper", 
             "date": "2012-04-18 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NYV00007194"
+            ], 
             "type": [
                 "bill:passed"
             ]
@@ -133,25 +183,40 @@
             "action": "DELIVERED TO ASSEMBLY", 
             "actor": "upper", 
             "date": "2012-04-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
             "action": "referred to local governments", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2012-04-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000065", 
+                    "name": "local governments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 4240", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:33", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00064298", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4240A-2011"
+        }
+    ], 
     "id": "NYB00004475", 
     "level": "state", 
     "scraped_subjects": [
@@ -160,38 +225,272 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=274"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4240&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S4240-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4240&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4240A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S4240A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000031", 
             "name": "LARKIN", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000008", 
+            "name": "CARLUCCI", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000009", 
+            "name": "DEFRANCISCO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000037", 
+            "name": "MAZIARZ", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000041", 
+            "name": "O'MARA", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000046", 
+            "name": "RANZENHOFER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000047", 
+            "name": "RITCHIE", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Authorizes industrial development agencies to provide technical and financial\nassistance to agricultural producers for products grown, harvested or produced\nwithin the state.", 
     "title": "Authorizes industrial development agencies to provide assistance to agricultural producers for products grown, harvested or produced within the state", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-01 01:06:21", 
+    "updated_at": "2012-10-16 18:02:51", 
     "versions": [
         {
-            "doc_id": "NYD00018870", 
+            "doc_id": "NYD00064295", 
             "mimetype": "text/html", 
             "name": "S4240", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S4240-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4240"
+        }, 
+        {
+            "doc_id": "NYD00064296", 
+            "mimetype": "text/html", 
+            "name": "S4240", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4240-2011"
+        }, 
+        {
+            "doc_id": "NYD00064297", 
+            "mimetype": "text/html", 
+            "name": "S4240A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4240A-2011"
         }
     ], 
     "votes": [
         {
+            "bill_id": "NYB00004475", 
+            "chamber": "upper", 
+            "date": "2012-03-21 00:00:00", 
+            "id": "NYV00007196", 
+            "motion": "Local Government Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NYL000042", 
+                    "name": "Oppenheimer"
+                }
+            ], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4240A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00007196", 
+            "yes_count": 7, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000036", 
+                    "name": "Martins"
+                }, 
+                {
+                    "leg_id": "NYL000005", 
+                    "name": "Ball"
+                }, 
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }, 
+                {
+                    "leg_id": "NYL000038", 
+                    "name": "McDonald"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
+                }, 
+                {
+                    "leg_id": "NYL000027", 
+                    "name": "Klein"
+                }
+            ]
+        }, 
+        {
+            "bill_id": "NYB00004475", 
+            "chamber": "upper", 
+            "date": "2011-06-14 00:00:00", 
+            "id": "NYV00007195", 
+            "motion": "Rules Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4240A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00007195", 
+            "yes_count": 24, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000055", 
+                    "name": "Skelos"
+                }, 
+                {
+                    "leg_id": "NYL000003", 
+                    "name": "Alesi"
+                }, 
+                {
+                    "leg_id": "NYL000014", 
+                    "name": "Farley"
+                }, 
+                {
+                    "leg_id": "NYL000022", 
+                    "name": "Hannon"
+                }, 
+                {
+                    "leg_id": "NYL000025", 
+                    "name": "Johnson"
+                }, 
+                {
+                    "leg_id": "NYL000031", 
+                    "name": "Larkin"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000033", 
+                    "name": "Libous"
+                }, 
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000050", 
+                    "name": "Saland"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000051", 
+                    "name": "Sampson"
+                }, 
+                {
+                    "leg_id": "NYL000007", 
+                    "name": "Breslin"
+                }, 
+                {
+                    "leg_id": "NYL000011", 
+                    "name": "Dilan"
+                }, 
+                {
+                    "leg_id": "NYL000023", 
+                    "name": "Hassell-Thompson"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }, 
+                {
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }, 
+                {
+                    "leg_id": "NYL000056", 
+                    "name": "Smith"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
+                }, 
+                {
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
+                }
+            ]
+        }, 
+        {
+            "+actual_vote": {}, 
             "bill_id": "NYB00004475", 
             "chamber": "upper", 
             "date": "2011-06-14 00:00:00", 
@@ -208,7 +507,11 @@
             "other_votes": [], 
             "passed": true, 
             "session": "2011-2012", 
-            "sources": [], 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4240A-2011"
+                }
+            ], 
             "state": "ny", 
             "type": "other", 
             "vote_id": "NYV00000634", 
@@ -300,7 +603,7 @@
                 }, 
                 {
                     "leg_id": "NYL000023", 
-                    "name": "Hassell-Thompson"
+                    "name": "Hassell-Thomps"
                 }, 
                 {
                     "leg_id": "NYL000024", 
@@ -444,7 +747,288 @@
                 }, 
                 {
                     "leg_id": "NYL000059", 
-                    "name": "Stewart-Cousins"
+                    "name": "Stewart-Cousin"
+                }, 
+                {
+                    "leg_id": "NYL000060", 
+                    "name": "Valesky"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000062", 
+                    "name": "Zeldin"
+                }
+            ]
+        }, 
+        {
+            "+actual_vote": {
+                "Hannon": [
+                    "Hannon"
+                ], 
+                "Huntley": [
+                    "Huntley"
+                ], 
+                "Oppenheimer": [
+                    "Oppenheimer"
+                ]
+            }, 
+            "bill_id": "NYB00004475", 
+            "chamber": "upper", 
+            "date": "2012-04-18 00:00:00", 
+            "id": "NYV00007194", 
+            "motion": "Floor Vote", 
+            "no_count": 1, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
+                }
+            ], 
+            "other_count": 3, 
+            "other_votes": [
+                {
+                    "leg_id": "NYL000022", 
+                    "name": "Hannon"
+                }, 
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }, 
+                {
+                    "leg_id": "NYL000042", 
+                    "name": "Oppenheimer"
+                }
+            ], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4240A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00007194", 
+            "yes_count": 57, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000001", 
+                    "name": "Adams"
+                }, 
+                {
+                    "leg_id": "NYL000002", 
+                    "name": "Addabbo"
+                }, 
+                {
+                    "leg_id": "NYL000003", 
+                    "name": "Alesi"
+                }, 
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000005", 
+                    "name": "Ball"
+                }, 
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000007", 
+                    "name": "Breslin"
+                }, 
+                {
+                    "leg_id": "NYL000008", 
+                    "name": "Carlucci"
+                }, 
+                {
+                    "leg_id": "NYL000009", 
+                    "name": "DeFrancisco"
+                }, 
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }, 
+                {
+                    "leg_id": "NYL000011", 
+                    "name": "Dilan"
+                }, 
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000014", 
+                    "name": "Farley"
+                }, 
+                {
+                    "leg_id": "NYL000015", 
+                    "name": "Flanagan"
+                }, 
+                {
+                    "leg_id": "NYL000016", 
+                    "name": "Fuschillo"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000018", 
+                    "name": "Gianaris"
+                }, 
+                {
+                    "leg_id": "NYL000019", 
+                    "name": "Golden"
+                }, 
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000021", 
+                    "name": "Grisanti"
+                }, 
+                {
+                    "leg_id": "NYL000023", 
+                    "name": "Hassell-Thomps"
+                }, 
+                {
+                    "leg_id": "NYL000025", 
+                    "name": "Johnson"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000027", 
+                    "name": "Klein"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }, 
+                {
+                    "leg_id": "NYL000030", 
+                    "name": "Lanza"
+                }, 
+                {
+                    "leg_id": "NYL000031", 
+                    "name": "Larkin"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000033", 
+                    "name": "Libous"
+                }, 
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }, 
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000036", 
+                    "name": "Martins"
+                }, 
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000038", 
+                    "name": "McDonald"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }, 
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
+                }, 
+                {
+                    "leg_id": "NYL000044", 
+                    "name": "Peralta"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000048", 
+                    "name": "Rivera"
+                }, 
+                {
+                    "leg_id": "NYL000049", 
+                    "name": "Robach"
+                }, 
+                {
+                    "leg_id": "NYL000050", 
+                    "name": "Saland"
+                }, 
+                {
+                    "leg_id": "NYL000051", 
+                    "name": "Sampson"
+                }, 
+                {
+                    "leg_id": "NYL000052", 
+                    "name": "Savino"
+                }, 
+                {
+                    "leg_id": "NYL000053", 
+                    "name": "Serrano"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000055", 
+                    "name": "Skelos"
+                }, 
+                {
+                    "leg_id": "NYL000056", 
+                    "name": "Smith"
+                }, 
+                {
+                    "leg_id": "NYL000057", 
+                    "name": "Squadron"
+                }, 
+                {
+                    "leg_id": "NYL000058", 
+                    "name": "Stavisky"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousin"
                 }, 
                 {
                     "leg_id": "NYL000060", 

@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2012-03-22 00:00:00", 
-        "last": "2012-03-22 00:00:00", 
+        "last": "2012-06-05 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,17 +11,53 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-03-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported referred to codes", 
+            "actor": "lower", 
+            "date": "2012-06-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 9642", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 6056", 
+            "chamber": null, 
+            "internal_id": "NYB00020056", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-03-30 01:02:03", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00102471", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9642&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00023600", 
     "level": "state", 
     "scraped_subjects": [
@@ -30,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1038"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9642&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9642&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9642-2011"
@@ -40,6 +79,7 @@
         {
             "leg_id": "NYL000158", 
             "name": "Millman", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -47,17 +87,24 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Requires access to new homes by persons with disabilities.", 
     "title": "Requires access to new homes by persons with disabilities", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-04 01:12:05", 
+    "updated_at": "2012-10-16 18:11:16", 
     "versions": [
         {
-            "doc_id": "NYD00023600", 
+            "doc_id": "NYD00102469", 
             "mimetype": "text/html", 
             "name": "A9642", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A9642-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9642"
+        }, 
+        {
+            "doc_id": "NYD00102470", 
+            "mimetype": "text/html", 
+            "name": "A9642", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9642-2011"
         }
     ], 
     "votes": []

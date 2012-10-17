@@ -11,7 +11,13 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-05-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -29,10 +41,23 @@
     "alternate_titles": [], 
     "bill_id": "S 5015", 
     "chamber": "upper", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "A 1520", 
+            "chamber": null, 
+            "internal_id": "NYB00008795", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:39", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00051099", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5015-2011"
+        }
+    ], 
     "id": "NYB00005277", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=337"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5015&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5015&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S5015-2011"
@@ -51,7 +79,7 @@
         {
             "leg_id": "NYL000009", 
             "name": "DEFRANCISCO", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +87,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Increases certain penalties for violating the prohibition of animal fighting\nand for aggravated cruelty to animals and requires a psychiatric evaluation for\ndefendants convicted of aggravated cruelty to animals.", 
     "title": "Increases certain penalties for violating the prohibition of animal fighting and for aggravated cruelty to animals", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:24", 
+    "updated_at": "2012-10-16 17:59:19", 
     "versions": [
+        {
+            "doc_id": "NYD00051098", 
+            "mimetype": "text/html", 
+            "name": "S5015", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5015"
+        }, 
         {
             "doc_id": "NYD00045744", 
             "mimetype": "text/html", 

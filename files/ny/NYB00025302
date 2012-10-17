@@ -3,7 +3,7 @@
     "action_dates": {
         "first": "2012-04-17 00:00:00", 
         "last": "2012-04-17 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2012-04-17 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -12,17 +12,25 @@
             "action": "adopted", 
             "actor": "lower", 
             "date": "2012-04-17 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "bill:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "K 1164", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-05-11 01:14:35", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00110473", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1164&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00025302", 
     "level": "state", 
     "scraped_subjects": [
@@ -31,7 +39,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1303"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1164&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1164&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K1164-2011"
@@ -41,61 +52,61 @@
         {
             "leg_id": "NYL000200", 
             "name": "Tedisco", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000065", 
             "name": "Amedore", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000080", 
             "name": "Butler", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000084", 
             "name": "Canestrari", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000129", 
             "name": "Jordan", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000141", 
             "name": "Lopez P", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000152", 
             "name": "McEneny", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000153", 
             "name": "McLaughlin", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000179", 
             "name": "Reilly", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000189", 
             "name": "Sayward", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -103,12 +114,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commemorating the 125th Anniversary of the Mohawk Hudson Humane Society", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-07-10 02:28:38", 
+    "updated_at": "2012-10-16 18:13:04", 
     "versions": [
+        {
+            "doc_id": "NYD00110472", 
+            "mimetype": "text/html", 
+            "name": "K1164", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K1164"
+        }, 
         {
             "doc_id": "NYD00040144", 
             "mimetype": "text/html", 

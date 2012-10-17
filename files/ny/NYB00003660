@@ -14,8 +14,14 @@
             "action": "REFERRED TO CONSUMER PROTECTION", 
             "actor": "upper", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000010", 
+                    "name": "CONSUMER PROTECTION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,13 @@
             "action": "REFERRED TO CONSUMER PROTECTION", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000010", 
+                    "name": "CONSUMER PROTECTION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -31,43 +44,72 @@
             "action": "AMEND AND RECOMMIT TO CONSUMER PROTECTION", 
             "actor": "upper", 
             "date": "2012-01-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000010", 
+                    "name": "CONSUMER PROTECTION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "3475"
+            ], 
             "action": "PRINT NUMBER 3475A", 
             "actor": "upper", 
             "date": "2012-01-17 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "AMEND AND RECOMMIT TO CONSUMER PROTECTION", 
             "actor": "upper", 
             "date": "2012-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000010", 
+                    "name": "CONSUMER PROTECTION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "3475"
+            ], 
             "action": "PRINT NUMBER 3475B", 
             "actor": "upper", 
             "date": "2012-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 3475", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:30", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00050699", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3475B-2011"
+        }
+    ], 
     "id": "NYB00003660", 
     "level": "state", 
     "scraped_subjects": [
@@ -76,16 +118,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=224"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3475&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S3475-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3475&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3475B&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S3475B-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000042", 
             "name": "OPPENHEIMER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -93,12 +142,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Amends the definitions of pet dealers in the agriculture and markets law and\nthe general business law.", 
     "title": "Amends the definitions of pet dealers", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:15", 
+    "updated_at": "2012-10-16 17:59:14", 
     "versions": [
+        {
+            "doc_id": "NYD00050698", 
+            "mimetype": "text/html", 
+            "name": "S3475", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3475"
+        }, 
         {
             "doc_id": "NYD00040199", 
             "mimetype": "text/html", 

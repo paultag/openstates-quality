@@ -23,7 +23,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:22", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00110378", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K115&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00015116", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +38,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1201"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K115&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K115&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K115-2011"
@@ -42,7 +51,7 @@
         {
             "leg_id": "NYL000119", 
             "name": "Hayes", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -50,12 +59,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Mourning the death of Victor L. Peterson, distinguished citizen and devoted member of his community", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-20 10:06:40", 
+    "updated_at": "2012-10-16 18:13:04", 
     "versions": [
+        {
+            "doc_id": "NYD00110377", 
+            "mimetype": "text/html", 
+            "name": "K115", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K115"
+        }, 
         {
             "doc_id": "NYD00028787", 
             "mimetype": "text/html", 

@@ -11,8 +11,14 @@
             "action": "REFERRED TO AGING", 
             "actor": "upper", 
             "date": "2011-04-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000001", 
+                    "name": "AGING", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,23 +26,41 @@
             "action": "AMEND (T) AND RECOMMIT TO AGING", 
             "actor": "upper", 
             "date": "2011-04-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000001", 
+                    "name": "AGING", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4858"
+            ], 
             "action": "PRINT NUMBER 4858A", 
             "actor": "upper", 
             "date": "2011-04-29 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "REFERRED TO AGING", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000001", 
+                    "name": "AGING", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -45,9 +69,23 @@
     "alternate_titles": [], 
     "bill_id": "S 4858", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 7573", 
+            "chamber": null, 
+            "internal_id": "NYB00016026", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:38", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00062971", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4858A-2011"
+        }
+    ], 
     "id": "NYB00005119", 
     "level": "state", 
     "scraped_subjects": [
@@ -56,29 +94,49 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=324"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4858&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S4858-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4858&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4858A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S4858A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000037", 
             "name": "MAZIARZ", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000046", 
+            "name": "RANZENHOFER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Health"
     ], 
-    "title": "Relates to the review and approval process for a license to operate a fee-for-service continuing care retirement community", 
+    "summary": "Relates to the review and approval process for a license to operate an assisted\nliving residence.", 
+    "title": "Relates to the review and approval process for a license to operate an assisted living residence", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-14 01:13:30", 
+    "updated_at": "2012-10-16 18:02:26", 
     "versions": [
+        {
+            "doc_id": "NYD00062970", 
+            "mimetype": "text/html", 
+            "name": "S4858", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4858"
+        }, 
         {
             "doc_id": "NYD00038402", 
             "mimetype": "text/html", 

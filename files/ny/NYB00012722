@@ -12,25 +12,46 @@
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5281", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:11", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00089250", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5281&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012722", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=835"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5281&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5281&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5281-2011"
@@ -49,11 +73,13 @@
         {
             "leg_id": "NYL000076", 
             "name": "Brennan", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000158", 
             "name": "Millman", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -62,12 +88,19 @@
         "Legal Issues", 
         "Municipal and County Issues"
     ], 
+    "summary": "Addresses environmental and community concerns regarding the size, scope and\ndensity of the Atlantic Yards arena and redevelopment project.", 
     "title": "Addresses environmental and community concerns regarding the size, scope and density of the Atlantic Yards arena and redevelopment project", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-10 02:28:30", 
+    "updated_at": "2012-10-16 18:07:49", 
     "versions": [
+        {
+            "doc_id": "NYD00089249", 
+            "mimetype": "text/html", 
+            "name": "A5281", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5281"
+        }, 
         {
             "doc_id": "NYD00031021", 
             "mimetype": "text/html", 

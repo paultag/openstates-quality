@@ -14,14 +14,22 @@
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2012-01-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -30,9 +38,23 @@
     "alternate_titles": [], 
     "bill_id": "A 5850", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4322", 
+            "chamber": null, 
+            "internal_id": "NYB00004565", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:13", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00094200", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5850&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013315", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +63,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=860"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5850&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5850&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5850-2011"
@@ -51,19 +76,39 @@
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000198", 
+            "name": "Stevenson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Legislative Affairs"
     ], 
+    "summary": "Consolidates and reduces the frequency of reporting requirements by various\ndepartments, agencies and public authorities; also provides for copies of\npublic documents to be sent to the legislative library; eliminates certain\nrequired reports by departments.", 
     "title": "Consolidates and reduces the frequency of reporting requirements by various departments, agencies and public authorities; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-16 01:15:45", 
+    "updated_at": "2012-10-16 18:09:07", 
     "versions": [
+        {
+            "doc_id": "NYD00094199", 
+            "mimetype": "text/html", 
+            "name": "A5850", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5850"
+        }, 
         {
             "doc_id": "NYD00035328", 
             "mimetype": "text/html", 

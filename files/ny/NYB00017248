@@ -11,25 +11,46 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 8051", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-28 06:37:15", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00083757", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8051&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00017248", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1006"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8051&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8051&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8051-2011"
@@ -48,19 +72,45 @@
         {
             "leg_id": "NYL000202", 
             "name": "Thiele", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000094", 
+            "name": "Crouch", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000219", 
+            "name": "Giglio", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000197", 
+            "name": "Spano", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Establishes a credit against income tax for certain donations of real property\ndonated for public beach access or use, public waters or trails, fish and\nwildlife conservation or other similar land conservation purposes; establishes\nthe real property donation credit transitory fund; provides that monies in such\nfund shall be used for land conservation purposes.", 
     "title": "Establishes a credit against income tax for certain donations of real property donated for land conservation purposes", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-18 01:16:04", 
+    "updated_at": "2012-10-16 18:06:28", 
     "versions": [
+        {
+            "doc_id": "NYD00083756", 
+            "mimetype": "text/html", 
+            "name": "A8051", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8051"
+        }, 
         {
             "doc_id": "NYD00037013", 
             "mimetype": "text/html", 

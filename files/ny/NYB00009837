@@ -14,9 +14,15 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-01-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
@@ -42,7 +48,13 @@
     ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:59", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096678", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2523&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009837", 
     "level": "state", 
     "scraped_subjects": [
@@ -51,7 +63,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=673"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2523&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2523&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2523-2011"
@@ -61,7 +76,7 @@
         {
             "leg_id": "NYL000124", 
             "name": "Hoyt", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -69,12 +84,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides for a tax exemption for commercial horse boarding services when\nprovided by a commercial horse boarding operation; defines terms.", 
     "title": "Provides for a tax exemption for commercial horse boarding services when provided by a commercial horse boarding operation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-08 09:54:53", 
+    "updated_at": "2012-10-16 18:09:35", 
     "versions": [
+        {
+            "doc_id": "NYD00096677", 
+            "mimetype": "text/html", 
+            "name": "A2523", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2523"
+        }, 
         {
             "doc_id": "NYD00036108", 
             "mimetype": "text/html", 

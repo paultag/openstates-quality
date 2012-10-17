@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-03-12 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,8 +11,14 @@
             "action": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,7 @@
             "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
             "actor": "upper", 
             "date": "2011-04-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,23 +35,65 @@
             "action": "AMEND AND RECOMMIT TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "83"
+            ], 
             "action": "PRINT NUMBER 83A", 
             "actor": "upper", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
+            "actor": "upper", 
+            "date": "2012-02-27 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
+            "actor": "upper", 
+            "date": "2012-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -53,9 +102,16 @@
     "alternate_titles": [], 
     "bill_id": "S 83", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:15", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00068643", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S83A-2011"
+        }
+    ], 
     "id": "NYB00000065", 
     "level": "state", 
     "scraped_subjects": [
@@ -64,34 +120,84 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=4"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S83&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S83-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S83&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S83A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S83A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000057", 
             "name": "SQUADRON", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000002", 
+            "name": "ADDABBO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000028", 
+            "name": "KRUEGER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000042", 
+            "name": "OPPENHEIMER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000043", 
+            "name": "PARKER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000059", 
+            "name": "STEWART-COUSINS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Relates to rental discrimination based on income.", 
     "title": "Relates to rental discrimination based on income", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-07 06:27:12", 
+    "updated_at": "2012-10-16 18:04:00", 
     "versions": [
         {
-            "doc_id": "NYD00022174", 
+            "doc_id": "NYD00068640", 
             "mimetype": "text/html", 
             "name": "S83", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S83-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S83"
+        }, 
+        {
+            "doc_id": "NYD00068641", 
+            "mimetype": "text/html", 
+            "name": "S83", 
+            "url": "http://open.nysenate.gov/legislation/bill/S83-2011"
+        }, 
+        {
+            "doc_id": "NYD00068642", 
+            "mimetype": "text/html", 
+            "name": "S83A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S83A-2011"
         }
     ], 
     "votes": []

@@ -11,25 +11,46 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3450", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:03", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00084958", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3450&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010800", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=667"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3450&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3450&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3450-2011"
@@ -48,24 +72,86 @@
         {
             "leg_id": "NYL000107", 
             "name": "Gabryszak", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000192", 
+            "name": "Schimminger", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000179", 
+            "name": "Reilly", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000116", 
+            "name": "Gunther", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000126", 
+            "name": "Jaffee", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000187", 
+            "name": "Russell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000188", 
+            "name": "Saladino", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000203", 
+            "name": "Titone", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Creates the vineyard planting loan program and makes an appropriation therefor;\nprovides that the program is to be run by the New York wine/grape foundation;\nprovides that the program shall involve the planting of vineyards, the\npurchasing of vines and the purchasing of vineyard equipment and supplies;\nspecifies that the program does not include the purchase or lease of tractors,\ntrucks or winemaking equipment.", 
     "title": "Creates the vineyard planting loan program and makes an appropriation therefor", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-03 01:08:51", 
+    "updated_at": "2012-10-16 18:06:45", 
     "versions": [
         {
-            "doc_id": "NYD00003041", 
+            "doc_id": "NYD00084956", 
             "mimetype": "text/html", 
             "name": "A3450", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A3450-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3450"
+        }, 
+        {
+            "doc_id": "NYD00084957", 
+            "mimetype": "text/html", 
+            "name": "A3450", 
+            "url": "http://open.nysenate.gov/legislation/bill/A3450-2011"
         }
     ], 
     "votes": []

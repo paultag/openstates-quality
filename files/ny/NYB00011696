@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-02 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-09-04 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,14 +11,37 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-02-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "enacting clause stricken", 
+            "actor": "lower", 
+            "date": "2012-09-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,9 +50,16 @@
     "alternate_titles": [], 
     "bill_id": "A 4290", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:06", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00082884", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4290&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011696", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +68,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=733"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4290&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4290&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4290-2011"
@@ -48,6 +81,7 @@
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,12 +89,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Establishes a genetically modified organism registry within the department of\nagriculture and markets; provides that such registry shall include information\non the location, type and use of genetically modified organisms possessed and\nused by institutions of higher education, and included in seeds sold and\ndistributed in this state.", 
     "title": "Establishes a genetically modified organism registry within the department of agriculture and markets", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-25 01:13:13", 
+    "updated_at": "2012-10-16 18:06:08", 
     "versions": [
+        {
+            "doc_id": "NYD00082883", 
+            "mimetype": "text/html", 
+            "name": "A4290", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4290"
+        }, 
         {
             "doc_id": "NYD00030985", 
             "mimetype": "text/html", 

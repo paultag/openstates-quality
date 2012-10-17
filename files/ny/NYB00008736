@@ -11,41 +11,83 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2012-03-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1463", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 5377", 
+            "chamber": null, 
+            "internal_id": "NYB00015818", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:54", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00085533", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1463&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008736", 
     "level": "state", 
     "scraped_subjects": [
@@ -54,7 +96,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=565"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1463&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1463&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1463-2011"
@@ -64,24 +109,50 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000141", 
+            "name": "Lopez P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000146", 
+            "name": "Magnarelli", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Directs the commissioners of agriculture and markets and economic development\nto study and develop a long-term strategy for sustaining farming and food\nproduction in New York state; strategy shall be based on an analysis of land\nuse and economic trends, soil and natural resources, food consumption needs and\nother factors necessary to develop a state-level blueprint for protecting\nfarmland and strengthening food production in the state.", 
     "title": "Directs the commissioners of agriculture and markets and economic development to study and develop a long-term strategy for sustaining farming and food production in New York State", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-20 01:01:19", 
+    "updated_at": "2012-10-16 18:06:53", 
     "versions": [
         {
-            "doc_id": "NYD00000585", 
+            "doc_id": "NYD00085531", 
             "mimetype": "text/html", 
             "name": "A1463", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1463-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1463"
+        }, 
+        {
+            "doc_id": "NYD00085532", 
+            "mimetype": "text/html", 
+            "name": "A1463", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1463-2011"
         }
     ], 
     "votes": []

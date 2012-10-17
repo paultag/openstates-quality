@@ -12,28 +12,53 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-02-09 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4922", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 540", 
+            "chamber": null, 
+            "internal_id": "NYB00000543", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:09", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00097024", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4922&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012345", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=814"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4922&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4922&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4922-2011"
@@ -52,7 +80,7 @@
         {
             "leg_id": "NYL000070", 
             "name": "Benedetto", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -60,12 +88,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Provides that the department of agriculture and markets must order a retail\nfood store failing three consecutive sanitary inspections to cease retail\noperations or suspend or revoke its license until it passes inspection; also\nprovides for a five hundred dollar fine for stores failing to post inspection\nreports or make copies available to the public upon request.", 
     "title": "Provides that the department of agriculture and markets must order a retail food store failing inspection to cease operations or suspend or revoke its license", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-13 09:56:03", 
+    "updated_at": "2012-10-16 18:09:49", 
     "versions": [
+        {
+            "doc_id": "NYD00097023", 
+            "mimetype": "text/html", 
+            "name": "A4922", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4922"
+        }, 
         {
             "doc_id": "NYD00030996", 
             "mimetype": "text/html", 

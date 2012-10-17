@@ -11,7 +11,13 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -34,9 +46,9 @@
     "created_at": "2011-05-05 01:29:59", 
     "documents": [
         {
-            "doc_id": "NYD00046324", 
+            "doc_id": "NYD00098482", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2564&term=&Memo=Y"
         }
     ], 
     "id": "NYB00009878", 
@@ -47,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=676"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2564&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2564&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2564-2011"
@@ -57,7 +72,7 @@
         {
             "leg_id": "NYL000088", 
             "name": "Clark", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -65,12 +80,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Prohibits the ownership, possession or harboring of a wild animal or reptile;\nmakes violation a class E felony.", 
     "title": "Prohibits the ownership, possession or harboring of a wild animal or reptile", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:32", 
+    "updated_at": "2012-10-16 18:10:08", 
     "versions": [
+        {
+            "doc_id": "NYD00098481", 
+            "mimetype": "text/html", 
+            "name": "A2564", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2564"
+        }, 
         {
             "doc_id": "NYD00029787", 
             "mimetype": "text/html", 

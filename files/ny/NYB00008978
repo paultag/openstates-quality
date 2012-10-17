@@ -11,22 +11,37 @@
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2011-01-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2012-01-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,9 +50,23 @@
     "alternate_titles": [], 
     "bill_id": "A 1700", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1372", 
+            "chamber": null, 
+            "internal_id": "NYB00001421", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00083253", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1700&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008978", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,7 +75,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=569"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1700&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1700&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1700-2011"
@@ -56,24 +88,50 @@
         {
             "leg_id": "NYL000100", 
             "name": "Dinowitz", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000069", 
+            "name": "Barron", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000186", 
+            "name": "Rosenthal", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
-    "title": "Provides for annual adjustment of the maximum income threshold for eligibility for the senior citizens&apos; rent increase exemption by any increase in the consumer price", 
+    "summary": "Provides for annual adjustment by the commissioner of housing and community\nrenewal of the maximum income threshold for eligibility for the senior\ncitizens' rent increase exemption (SCRIE) and for the municipal property tax\nabatement for rent-controlled and rent regulated property occupied by senior\ncitizens by any increase in the consumer price index (CPI).", 
+    "title": "Provides for annual adjustment of the maximum income threshold for eligibility for the senior citizens' rent increase exemption by any increase in the consumer price", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-05 01:07:14", 
+    "updated_at": "2012-10-16 18:06:12", 
     "versions": [
         {
-            "doc_id": "NYD00000867", 
+            "doc_id": "NYD00083251", 
             "mimetype": "text/html", 
             "name": "A1700", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1700-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1700"
+        }, 
+        {
+            "doc_id": "NYD00083252", 
+            "mimetype": "text/html", 
+            "name": "A1700", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1700-2011"
         }
     ], 
     "votes": []

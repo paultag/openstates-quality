@@ -11,27 +11,45 @@
             "action": "referred to insurance", 
             "actor": "lower", 
             "date": "2011-02-11 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000061", 
+                    "name": "insurance", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to insurance", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000061", 
+                    "name": "insurance", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reference changed to consumer affairs and protection", 
             "actor": "lower", 
             "date": "2012-02-15 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000047", 
+                    "name": "consumer affairs and protection", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -41,7 +59,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:10", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00093854", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5084&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012514", 
     "level": "state", 
     "scraped_subjects": [
@@ -50,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=824"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5084&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5084&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5084-2011"
@@ -60,61 +87,61 @@
         {
             "leg_id": "NYL000091", 
             "name": "Cook", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000089", 
-            "name": "Colton", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000097", 
-            "name": "Cymbrowitz", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000114", 
-            "name": "Gottfried", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000123", 
-            "name": "Hooper", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000125", 
-            "name": "Jacobs", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": null, 
-            "name": "Towns", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000108", 
             "name": "Galef", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000193", 
             "name": "Schroeder", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000097", 
+            "name": "Cymbrowitz", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000125", 
+            "name": "Jacobs", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": null, 
+            "name": "Towns", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -122,12 +149,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Requires any person, firm or corporation offering any dairy product, meat, meat\nby-product, meat food product or perishable food item for sale in the state to\nlabel such product with an expiration date clearly visible in a conspicuous\nlocation; provides that such date shall be the time after which such item is\nunfit for human consumption as determined by industry standards; provides that\nno such products shall be allowed to remain on display or offered for sale\nafter such date.", 
     "title": "Relates to expiration date on meat, dairy products and perishable food items", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-28 09:56:12", 
+    "updated_at": "2012-10-16 18:09:04", 
     "versions": [
+        {
+            "doc_id": "NYD00093853", 
+            "mimetype": "text/html", 
+            "name": "A5084", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5084"
+        }, 
         {
             "doc_id": "NYD00044947", 
             "mimetype": "text/html", 

@@ -14,80 +14,147 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-06-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend (t) and recommit to housing", 
             "actor": "lower", 
             "date": "2012-05-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "7404"
+            ], 
             "action": "print number 7404a", 
             "actor": "lower", 
             "date": "2012-05-08 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7404", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4758", 
+            "chamber": null, 
+            "internal_id": "NYB00005017", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:21", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00093203", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7404&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014937", 
     "level": "state", 
     "scraped_subjects": [
-        "Public Housing Law"
+        "Tax Law"
     ], 
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=921"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7404&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A7404-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7404&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7404A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A7404A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000142", 
             "name": "Lopez V", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000209", 
+            "name": "Wright", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
-        "Housing and Property"
+        "Budget, Spending, and Taxes"
     ], 
-    "title": "Allows for the separate distribution of a tax credit without regard to the sharing of other tax or economic attributes of the entity", 
+    "summary": "Provides that the low income housing tax credits shall be treated as\noverpayments of the applicable tax, to be credited or refunded.", 
+    "title": "Provides that the low income housing tax credits shall be treated as overpayments of the applicable tax, to be credited or refunded", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-23 01:12:49", 
+    "updated_at": "2012-10-16 18:08:55", 
     "versions": [
+        {
+            "doc_id": "NYD00093202", 
+            "mimetype": "text/html", 
+            "name": "A7404", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7404"
+        }, 
         {
             "doc_id": "NYD00028580", 
             "mimetype": "text/html", 

@@ -12,9 +12,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-02-13 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -37,7 +42,7 @@
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2012-05-02 00:00:00", 
             "related_entities": [], 
@@ -68,11 +73,17 @@
         }, 
         {
             "action": "referred to housing", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2012-06-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
@@ -82,7 +93,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-02-14 06:28:46", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00051582", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6472-2011"
+        }
+    ], 
     "id": "NYB00022262", 
     "level": "state", 
     "scraped_subjects": [
@@ -91,7 +108,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=436"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6472&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6472&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S6472-2011"
@@ -101,7 +121,7 @@
         {
             "leg_id": "NYL000061", 
             "name": "YOUNG", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -109,12 +129,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Authorizes an increase in the rent of a rent regulated housing accommodation\nwhen the tenants vacate and family members of such tenants renew the lease.", 
     "title": "Authorizes an increase in the rent of a rent regulated housing accommodation when the tenants vacate and family members of such tenants renew the lease", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:56:49", 
+    "updated_at": "2012-10-16 17:59:27", 
     "versions": [
+        {
+            "doc_id": "NYD00051581", 
+            "mimetype": "text/html", 
+            "name": "S6472", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6472"
+        }, 
         {
             "doc_id": "NYD00032563", 
             "mimetype": "text/html", 
@@ -124,6 +151,26 @@
     ], 
     "votes": [
         {
+            "+actual_vote": {
+                "Bonacic": [
+                    "Bonacic"
+                ], 
+                "Breslin": [
+                    "Breslin"
+                ], 
+                "Espaillat": [
+                    "Espaillat"
+                ], 
+                "Farley": [
+                    "Farley"
+                ], 
+                "Huntley": [
+                    "Huntley"
+                ], 
+                "Smith": [
+                    "Smith"
+                ]
+            }, 
             "bill_id": "NYB00022262", 
             "chamber": "upper", 
             "date": "2012-06-05 00:00:00", 
@@ -160,7 +207,7 @@
                     "name": "Gianaris"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000023", 
                     "name": "Hassell-Thomps"
                 }, 
                 {
@@ -208,7 +255,7 @@
                     "name": "Stavisky"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000059", 
                     "name": "Stewart-Cousin"
                 }
             ], 
@@ -241,7 +288,11 @@
             ], 
             "passed": true, 
             "session": "2011-2012", 
-            "sources": [], 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S6472-2011"
+                }
+            ], 
             "state": "ny", 
             "type": "other", 
             "vote_id": "NYV00002438", 
@@ -390,6 +441,63 @@
                 {
                     "leg_id": "NYL000062", 
                     "name": "Zeldin"
+                }
+            ]
+        }, 
+        {
+            "bill_id": "NYB00022262", 
+            "chamber": "upper", 
+            "date": "2012-04-30 00:00:00", 
+            "id": "NYV00003886", 
+            "motion": "Housing, Construction and Community Development Committee Vote", 
+            "no_count": 3, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S6472-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00003886", 
+            "yes_count": 5, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000021", 
+                    "name": "Grisanti"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
                 }
             ]
         }

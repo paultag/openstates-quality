@@ -11,17 +11,38 @@
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2012-01-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 9070", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1372", 
+            "chamber": null, 
+            "internal_id": "NYB00001421", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-01-21 06:46:57", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00105497", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9070&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00021364", 
     "level": "state", 
     "scraped_subjects": [
@@ -30,7 +51,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=967"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9070&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9070&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9070-2011"
@@ -40,24 +64,140 @@
         {
             "leg_id": "NYL000158", 
             "name": "Millman", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000100", 
+            "name": "Dinowitz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000086", 
+            "name": "Castro", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000093", 
+            "name": "Crespo", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000126", 
+            "name": "Jaffee", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000195", 
+            "name": "Simotas", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000069", 
+            "name": "Barron", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000186", 
+            "name": "Rosenthal", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000208", 
+            "name": "Weprin", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000063", 
+            "name": "Abbate", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000067", 
+            "name": "Aubry", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000191", 
+            "name": "Schimel", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000198", 
+            "name": "Stevenson", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000203", 
+            "name": "Titone", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
-    "title": "Provides for annual adjustment of the maximum income threshold for eligibility for the senior citizens&apos; rent increase exemption by any increase in the consumer price", 
+    "summary": "Provides for annual adjustment by the commissioner of housing and community\nrenewal of the maximum income threshold for eligibility for the senior\ncitizens' rent increase exemption (SCRIE) and for the municipal property tax\nabatement for rent-controlled and rent regulated property occupied by senior\ncitizens by any increase in the consumer price index (CPI).", 
+    "title": "Provides for annual adjustment of the maximum income threshold for eligibility for the senior citizens' rent increase exemption by any increase in the consumer price", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-05 01:34:49", 
+    "updated_at": "2012-10-16 18:12:04", 
     "versions": [
         {
-            "doc_id": "NYD00010277", 
+            "doc_id": "NYD00105495", 
             "mimetype": "text/html", 
             "name": "A9070", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A9070-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9070"
+        }, 
+        {
+            "doc_id": "NYD00105496", 
+            "mimetype": "text/html", 
+            "name": "A9070", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9070-2011"
         }
     ], 
     "votes": []

@@ -11,7 +11,13 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-01-20 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -29,13 +41,22 @@
             "action": "AMEND AND RECOMMIT TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-13 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "2434"
+            ], 
             "action": "PRINT NUMBER 2434A", 
             "actor": "upper", 
             "date": "2012-01-13 00:00:00", 
@@ -51,7 +72,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:24", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00065510", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2434A-2011"
+        }
+    ], 
     "id": "NYB00002513", 
     "level": "state", 
     "scraped_subjects": [
@@ -60,29 +87,35 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=154"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2434&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S2434-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2434&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2434A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S2434A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000042", 
             "name": "OPPENHEIMER", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000010", 
             "name": "DIAZ", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000043", 
             "name": "PARKER", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -90,12 +123,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Relates to the definition of pet dealer; in addition to the sale, includes the\noffering for sale of more than nine animals per year for profit to the public\nor to any broker, wholesaler, medical facility or pet dealer; requires pet\ndealers who offer animals for sale to the public, brokers, wholesalers and\nmedical facilities to be licensed.", 
     "title": "Relates to the definition of pet dealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:21", 
+    "updated_at": "2012-10-16 18:03:06", 
     "versions": [
+        {
+            "doc_id": "NYD00065509", 
+            "mimetype": "text/html", 
+            "name": "S2434", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2434"
+        }, 
         {
             "doc_id": "NYD00035657", 
             "mimetype": "text/html", 

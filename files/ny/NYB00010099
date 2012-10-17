@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-20 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-04-26 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,25 +11,61 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "held for consideration in agriculture", 
+            "actor": "lower", 
+            "date": "2012-04-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 2781", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:00", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00092462", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2781&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010099", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=601"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2781&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2781&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2781-2011"
@@ -48,24 +87,80 @@
         {
             "leg_id": "NYL000094", 
             "name": "Crouch", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000079", 
+            "name": "Burling", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000118", 
+            "name": "Hawley", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000068", 
+            "name": "Barclay", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000104", 
+            "name": "Finch", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000219", 
+            "name": "Giglio", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000166", 
+            "name": "Oaks", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000201", 
+            "name": "Tenney", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Creates the concentrated animal feeding operation environmental compliance\nrevolving loan program.", 
     "title": "Creates the concentrated animal feeding operation environmental compliance revolving loan program", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-14 01:02:54", 
+    "updated_at": "2012-10-16 18:08:47", 
     "versions": [
         {
-            "doc_id": "NYD00002203", 
+            "doc_id": "NYD00092460", 
             "mimetype": "text/html", 
             "name": "A2781", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A2781-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2781"
+        }, 
+        {
+            "doc_id": "NYD00092461", 
+            "mimetype": "text/html", 
+            "name": "A2781", 
+            "url": "http://open.nysenate.gov/legislation/bill/A2781-2011"
         }
     ], 
     "votes": []

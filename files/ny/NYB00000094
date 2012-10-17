@@ -11,8 +11,14 @@
             "action": "REFERRED TO AGING", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000001", 
+                    "name": "AGING", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,7 @@
             "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
             "actor": "upper", 
             "date": "2011-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,14 +35,28 @@
             "action": "REPORTED AND COMMITTED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-04-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "REFERRED TO AGING", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000001", 
+                    "name": "AGING", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -44,9 +65,23 @@
     "alternate_titles": [], 
     "bill_id": "S 112", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 399", 
+            "chamber": null, 
+            "internal_id": "NYB00007626", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:15", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00069231", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S112-2011"
+        }
+    ], 
     "id": "NYB00000094", 
     "level": "state", 
     "scraped_subjects": [
@@ -55,7 +90,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=6"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S112&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S112&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S112-2011"
@@ -65,6 +103,7 @@
         {
             "leg_id": "NYL000010", 
             "name": "DIAZ", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -72,18 +111,99 @@
     "subjects": [
         "Senior Issues"
     ], 
+    "summary": "Establishes the New York certified retirement community program within the\noffice for the aging; provides for certification by the director of the office\nfor the aging that a community is advantageous for retirees to live and that\nsuch community encourages retirees to reside therein; provides that upon\ncertification, the office for the aging shall provide assistance to the\ncommunity.", 
     "title": "Establishes the New York certified retirement community program within the office for the aging", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-07 06:27:12", 
+    "updated_at": "2012-10-16 18:04:08", 
     "versions": [
         {
-            "doc_id": "NYD00014495", 
+            "doc_id": "NYD00069229", 
             "mimetype": "text/html", 
             "name": "S112", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S112-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S112"
+        }, 
+        {
+            "doc_id": "NYD00069230", 
+            "mimetype": "text/html", 
+            "name": "S112", 
+            "url": "http://open.nysenate.gov/legislation/bill/S112-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00000094", 
+            "chamber": "upper", 
+            "date": "2011-04-04 00:00:00", 
+            "id": "NYV00008496", 
+            "motion": "Aging Committee Vote", 
+            "no_count": 2, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000062", 
+                    "name": "Zeldin"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S112-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00008496", 
+            "yes_count": 10, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000019", 
+                    "name": "Golden"
+                }, 
+                {
+                    "leg_id": "NYL000060", 
+                    "name": "Valesky"
+                }, 
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }, 
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000029", 
+                    "name": "Kruger"
+                }, 
+                {
+                    "leg_id": "NYL000005", 
+                    "name": "Ball"
+                }, 
+                {
+                    "leg_id": "NYL000014", 
+                    "name": "Farley"
+                }, 
+                {
+                    "leg_id": "NYL000049", 
+                    "name": "Robach"
+                }, 
+                {
+                    "leg_id": "NYL000002", 
+                    "name": "Addabbo"
+                }, 
+                {
+                    "leg_id": "NYL000058", 
+                    "name": "Stavisky"
+                }
+            ]
+        }
+    ]
 }

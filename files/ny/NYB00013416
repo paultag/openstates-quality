@@ -14,25 +14,53 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5948", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 458", 
+            "chamber": null, 
+            "internal_id": "NYB00000453", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:14", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00105363", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5948&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013416", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=863"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5948&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5948&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5948-2011"
@@ -51,19 +82,33 @@
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Grants tenants right to withhold one-tenth of one month's rent for each day the\nowner of a multiple dwelling fails to provide heat during winter months, from\nNovember to March, where the landlord is given 24 hours notice of insufficient\nheat.", 
     "title": "Grants tenants right to withhold portion of rent for failure of landlord to provide heat", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-15 01:11:51", 
+    "updated_at": "2012-10-16 18:12:02", 
     "versions": [
+        {
+            "doc_id": "NYD00105362", 
+            "mimetype": "text/html", 
+            "name": "A5948", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5948"
+        }, 
         {
             "doc_id": "NYD00036239", 
             "mimetype": "text/html", 

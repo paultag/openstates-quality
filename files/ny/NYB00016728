@@ -12,25 +12,53 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7873", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 3117", 
+            "chamber": null, 
+            "internal_id": "NYB00003271", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-21 06:41:32", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00100268", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7873&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00016728", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1005"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7873&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7873&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7873-2011"
@@ -49,67 +80,67 @@
         {
             "leg_id": "NYL000110", 
             "name": "Gibson", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000073", 
-            "name": "Boyland", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000089", 
-            "name": "Colton", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000112", 
-            "name": "Glick", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000123", 
-            "name": "Hooper", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000158", 
-            "name": "Millman", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000182", 
-            "name": "Rivera P", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000198", 
-            "name": "Stevenson", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000162", 
             "name": "Moya", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000181", 
             "name": "Rivera N", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000208", 
             "name": "Weprin", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000198", 
+            "name": "Stevenson", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -117,12 +148,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Allows persons 62 years or older to keep and care for common household pets in\nmunicipal housing; prevents eviction of such persons based on the ownership of\npets; provides that any pet who poses a nuisance to the community may be\nremoved; does not remove any pet owner from liability for the reasonable costs\ndirectly attributable to any damage caused by the pet.", 
     "title": "Allows persons 62 years or older in any housing project to keep common household pets", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 02:27:37", 
+    "updated_at": "2012-10-16 18:10:36", 
     "versions": [
+        {
+            "doc_id": "NYD00100267", 
+            "mimetype": "text/html", 
+            "name": "A7873", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7873"
+        }, 
         {
             "doc_id": "NYD00027096", 
             "mimetype": "text/html", 

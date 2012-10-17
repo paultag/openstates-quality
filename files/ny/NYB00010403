@@ -11,22 +11,37 @@
             "action": "referred to codes", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,14 +50,19 @@
             "action": "rules report cal.393", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s1188"
+            ], 
             "action": "substituted by s1188", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -51,9 +71,23 @@
     "alternate_titles": [], 
     "bill_id": "A 3074", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1188", 
+            "chamber": null, 
+            "internal_id": "NYB00001231", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:01", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00097312", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3074&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010403", 
     "level": "state", 
     "scraped_subjects": [
@@ -62,7 +96,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=602"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3074&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3074&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3074-2011"
@@ -72,6 +109,7 @@
         {
             "leg_id": "NYL000084", 
             "name": "Canestrari", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -80,17 +118,24 @@
         "Judiciary", 
         "Crime"
     ], 
+    "summary": "Designates dog control officers in the city of Cohoes as peace officers when\nthey are acting pursuant to their special duties.", 
     "title": "Designates dog control officers in the city of Cohoes as peace officers", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-20 20:49:47", 
+    "updated_at": "2012-10-16 18:09:51", 
     "versions": [
         {
-            "doc_id": "NYD00002566", 
+            "doc_id": "NYD00097310", 
             "mimetype": "text/html", 
             "name": "A3074", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A3074-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3074"
+        }, 
+        {
+            "doc_id": "NYD00097311", 
+            "mimetype": "text/html", 
+            "name": "A3074", 
+            "url": "http://open.nysenate.gov/legislation/bill/A3074-2011"
         }
     ], 
     "votes": []

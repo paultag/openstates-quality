@@ -14,18 +14,38 @@
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2012-01-31 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 9154", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 498", 
+            "chamber": null, 
+            "internal_id": "NYB00000495", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-02-01 07:03:53", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00084822", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9154&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00021859", 
     "level": "state", 
     "scraped_subjects": [
@@ -34,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1085"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9154&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9154&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9154-2011"
@@ -44,6 +67,7 @@
         {
             "leg_id": "NYL000157", 
             "name": "Miller M", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -51,12 +75,19 @@
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Prohibits certain discriminatory practices against victims of domestic violence\nrelating to housing, including but not limited to, the purchase, rent, lease or\nhousing accommodation; defines domestic violence victim to include victims of\ndomestic violence pursuant to the social services law and victims of stalking\noffenses.", 
     "title": "Prohibits certain discriminatory practices against victims of domestic violence", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 02:25:53", 
+    "updated_at": "2012-10-16 18:06:38", 
     "versions": [
+        {
+            "doc_id": "NYD00084821", 
+            "mimetype": "text/html", 
+            "name": "A9154", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9154"
+        }, 
         {
             "doc_id": "NYD00043063", 
             "mimetype": "text/html", 

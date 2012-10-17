@@ -12,7 +12,13 @@
             "action": "REFERRED TO RULES", 
             "actor": "upper", 
             "date": "2011-10-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -21,7 +27,13 @@
             "action": "REFERRED TO CRIME VICTIMS, CRIME AND CORRECTION", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000012", 
+                    "name": "CRIME VICTIMS, CRIME AND CORRECTION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -51,7 +63,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-10-06 06:59:41", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00066606", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5906-2011"
+        }
+    ], 
     "id": "NYB00019870", 
     "level": "state", 
     "scraped_subjects": [
@@ -60,7 +78,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=402"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5906&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5906&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S5906-2011"
@@ -70,7 +91,7 @@
         {
             "leg_id": "NYL000039", 
             "name": "MONTGOMERY", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -78,12 +99,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Relates to the segregated confinement of inmates with serious mental illness.", 
     "title": "Relates to the segregated confinement of inmates with serious mental illness", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 10:05:34", 
+    "updated_at": "2012-10-16 18:03:24", 
     "versions": [
+        {
+            "doc_id": "NYD00066605", 
+            "mimetype": "text/html", 
+            "name": "S5906", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5906"
+        }, 
         {
             "doc_id": "NYD00041563", 
             "mimetype": "text/html", 
@@ -91,5 +119,87 @@
             "url": "http://open.nysenate.gov/legislation/bill/S5906-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00019870", 
+            "chamber": "upper", 
+            "date": "2012-03-07 00:00:00", 
+            "id": "NYV00007765", 
+            "motion": "Crime Victims, Crime and Correction Committee Vote", 
+            "no_count": 8, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000009", 
+                    "name": "DeFrancisco"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }, 
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": false, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5906-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00007765", 
+            "yes_count": 6, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000023", 
+                    "name": "Hassell-Thompson"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000044", 
+                    "name": "Peralta"
+                }, 
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000048", 
+                    "name": "Rivera"
+                }
+            ]
+        }
+    ]
 }

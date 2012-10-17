@@ -14,41 +14,81 @@
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2011-04-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to environmental conservation", 
             "actor": "lower", 
             "date": "2011-12-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "7133"
+            ], 
             "action": "print number 7133a", 
             "actor": "lower", 
             "date": "2011-12-22 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7133", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2651", 
+            "chamber": null, 
+            "internal_id": "NYB00002741", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:20", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00099481", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7133&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014661", 
     "level": "state", 
     "scraped_subjects": [
@@ -57,16 +97,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=921"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7133&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A7133-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7133&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7133A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A7133A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000121", 
             "name": "Hevesi", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -74,12 +121,19 @@
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Provides that diesel fuel that contains a concentration of sulfur that is less\nthan or equal to fifteen parts per million shall not be sold or offered for\nsale unless such diesel fuel includes biodiesel as its lubrication additive.", 
     "title": "Provides that diesel fuel that contains a concentration of sulfur that is less than or equal to 15 parts per million shall not be sold unless it includes biodiesel", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-06 01:17:28", 
+    "updated_at": "2012-10-16 18:10:22", 
     "versions": [
+        {
+            "doc_id": "NYD00099480", 
+            "mimetype": "text/html", 
+            "name": "A7133", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7133"
+        }, 
         {
             "doc_id": "NYD00036282", 
             "mimetype": "text/html", 

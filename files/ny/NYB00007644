@@ -12,27 +12,46 @@
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 415", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00088649", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A415&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007644", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=548"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A415&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A415&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A415-2011"
@@ -51,13 +73,13 @@
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -65,12 +87,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Increases from $1,000,000 to $2,000,000, the aggregate of linked loans that an\nagricultural project may receive during the linked loan program; provides that\nthe linked deposit for a linked loan shall be for a period of not more than 6\nyears.", 
     "title": "Increases from $1,000,000 to $2,000,000 the aggregate of linked loans that an agricultural project may receive during the linked loan program", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-16 02:11:12", 
+    "updated_at": "2012-10-16 18:07:39", 
     "versions": [
+        {
+            "doc_id": "NYD00088648", 
+            "mimetype": "text/html", 
+            "name": "A415", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A415"
+        }, 
         {
             "doc_id": "NYD00039284", 
             "mimetype": "text/html", 

@@ -11,25 +11,53 @@
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2011-03-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to economic development", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "economic development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 6254", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1101", 
+            "chamber": null, 
+            "internal_id": "NYB00001144", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:15", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00084035", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6254&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013737", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=800"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6254&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6254&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6254-2011"
@@ -48,7 +79,32 @@
         {
             "leg_id": "NYL000076", 
             "name": "Brennan", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000198", 
+            "name": "Stevenson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000127", 
+            "name": "Jeffries", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -56,17 +112,24 @@
         "Budget, Spending, and Taxes", 
         "Legislative Affairs"
     ], 
+    "summary": "Enacts the minimum standards for subsidized jobs act; provides that entities\neligible to receive economic development subsidies must: pay each employee a\nminimum wage that's at least one dollar higher than state minimum wage levels;\noffer health insurance benefit plans to employees employed at least 35 hours\nper week; and offer at least twenty percent of its workers a worker training\nprogram.", 
     "title": "Provides that entities eligible to receive economic development subsidies must meet certain criteria to receive such subsidies", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-13 01:04:56", 
+    "updated_at": "2012-10-16 18:06:30", 
     "versions": [
         {
-            "doc_id": "NYD00006627", 
+            "doc_id": "NYD00084033", 
             "mimetype": "text/html", 
             "name": "A6254", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A6254-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6254"
+        }, 
+        {
+            "doc_id": "NYD00084034", 
+            "mimetype": "text/html", 
+            "name": "A6254", 
+            "url": "http://open.nysenate.gov/legislation/bill/A6254-2011"
         }
     ], 
     "votes": []

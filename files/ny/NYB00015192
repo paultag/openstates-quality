@@ -23,7 +23,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:22", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00108873", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K191&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00015192", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +38,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1209"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K191&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K191&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K191-2011"
@@ -42,7 +51,7 @@
         {
             "leg_id": "NYL000129", 
             "name": "Jordan", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -50,12 +59,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Honoring Dr. Roger Ellis upon the occasion of his designation as a recipient of the Presidential Volunteer Service Award", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-22 10:05:49", 
+    "updated_at": "2012-10-16 18:12:50", 
     "versions": [
+        {
+            "doc_id": "NYD00108872", 
+            "mimetype": "text/html", 
+            "name": "K191", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K191"
+        }, 
         {
             "doc_id": "NYD00027260", 
             "mimetype": "text/html", 

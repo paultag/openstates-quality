@@ -11,25 +11,46 @@
             "action": "referred to local governments", 
             "actor": "lower", 
             "date": "2011-01-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000065", 
+                    "name": "local governments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to local governments", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000065", 
+                    "name": "local governments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 2710", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:00", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096127", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2710&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010028", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=625"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2710&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2710&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2710-2011"
@@ -48,6 +72,7 @@
         {
             "leg_id": "NYL000175", 
             "name": "Rabbitt", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,17 +80,24 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Relates to separate specifications for public works contracts; relates to\npayment by contractors to subcontractors.", 
     "title": "Relates to separate specifications for public works contracts and payment by contractors to subcontractors", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-03 01:08:51", 
+    "updated_at": "2012-10-16 18:09:28", 
     "versions": [
         {
-            "doc_id": "NYD00002122", 
+            "doc_id": "NYD00096125", 
             "mimetype": "text/html", 
             "name": "A2710", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A2710-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2710"
+        }, 
+        {
+            "doc_id": "NYD00096126", 
+            "mimetype": "text/html", 
+            "name": "A2710", 
+            "url": "http://open.nysenate.gov/legislation/bill/A2710-2011"
         }
     ], 
     "votes": []

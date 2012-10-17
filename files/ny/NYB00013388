@@ -11,41 +11,81 @@
             "action": "referred to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2012-01-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5920"
+            ], 
             "action": "print number 5920a", 
             "actor": "lower", 
             "date": "2012-01-12 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5920", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 446", 
+            "chamber": null, 
+            "internal_id": "NYB00000440", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:13", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00102572", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5920&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013388", 
     "level": "state", 
     "scraped_subjects": [
@@ -54,16 +94,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=822"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5920&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A5920-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5920&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5920A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A5920A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -71,17 +118,30 @@
     "subjects": [
         "Business and Consumers"
     ], 
+    "summary": "Enacts the corporate accountability for tax expenditures act; standardizes\napplications for state development assistance for empire zone assistance and\nindustrial development agency assistance; requires submission of certain\ndevelopment assistance agreements to the department of taxation and finance;\nrequires recipients of certain development assistance to submit progress\nreports which include certain information and disclosures; makes certain\nrecapture provisions; and defines relevant terms.", 
     "title": "Enacts the corporate accountability for tax expenditures act", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-17 01:11:42", 
+    "updated_at": "2012-10-16 18:11:17", 
     "versions": [
         {
-            "doc_id": "NYD00006193", 
+            "doc_id": "NYD00102569", 
             "mimetype": "text/html", 
             "name": "A5920", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A5920-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5920"
+        }, 
+        {
+            "doc_id": "NYD00102570", 
+            "mimetype": "text/html", 
+            "name": "A5920", 
+            "url": "http://open.nysenate.gov/legislation/bill/A5920-2011"
+        }, 
+        {
+            "doc_id": "NYD00102571", 
+            "mimetype": "text/html", 
+            "name": "A5920A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A5920A-2011"
         }
     ], 
     "votes": []

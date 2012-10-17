@@ -12,7 +12,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-03-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -21,7 +27,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -30,14 +42,21 @@
     "alternate_titles": [], 
     "bill_id": "A 6123", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 1294", 
+            "chamber": null, 
+            "internal_id": "NYB00001339", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:14", 
     "documents": [
         {
-            "doc_id": "NYD00046520", 
+            "doc_id": "NYD00087440", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6123&term=&Memo=Y"
         }
     ], 
     "id": "NYB00013594", 
@@ -48,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=888"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6123&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6123&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6123-2011"
@@ -58,13 +80,13 @@
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000132", 
             "name": "Kellner", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -73,12 +95,19 @@
         "Housing and Property", 
         "Legal Issues"
     ], 
+    "summary": "Prevents landlords from receiving a financial windfall from major capital\nimprovements funded by the New York State energy and research development\nauthority.", 
     "title": "Prevents landlords from receiving a financial windfall from major capital improvements funded by the New York state energy and research development authority", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:35", 
+    "updated_at": "2012-10-16 18:07:16", 
     "versions": [
+        {
+            "doc_id": "NYD00087439", 
+            "mimetype": "text/html", 
+            "name": "A6123", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6123"
+        }, 
         {
             "doc_id": "NYD00044130", 
             "mimetype": "text/html", 

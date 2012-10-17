@@ -11,38 +11,65 @@
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to aging", 
             "actor": "lower", 
             "date": "2011-04-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "395"
+            ], 
             "action": "print number 395a", 
             "actor": "lower", 
             "date": "2011-04-29 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -51,14 +78,19 @@
             "action": "advanced to third reading cal.435", 
             "actor": "lower", 
             "date": "2011-05-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s331"
+            ], 
             "action": "substituted by s331a", 
             "actor": "lower", 
             "date": "2011-06-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -67,9 +99,23 @@
     "alternate_titles": [], 
     "bill_id": "A 395", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 331", 
+            "chamber": null, 
+            "internal_id": "NYB00000322", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00082106", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A395&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007621", 
     "level": "state", 
     "scraped_subjects": [
@@ -78,34 +124,168 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=492"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A395&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A395-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A395&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A395A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A395A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000100", 
             "name": "Dinowitz", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000126", 
+            "name": "Jaffee", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000070", 
+            "name": "Benedetto", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000116", 
+            "name": "Gunther", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000149", 
+            "name": "Markey", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000181", 
+            "name": "Rivera N", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000069", 
+            "name": "Barron", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000186", 
+            "name": "Rosenthal", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000093", 
+            "name": "Crespo", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000145", 
+            "name": "Magee", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000150", 
+            "name": "McKevitt", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000209", 
+            "name": "Wright", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Senior Issues"
     ], 
+    "summary": "Permits support from contiguous areas to provide required matching funds for\ngrants under the naturally occurring retirement community supportive service\nprogram.", 
     "title": "Relates to matching funds for grants under the naturally occurring retirement community supportive service program", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-04 01:11:56", 
+    "updated_at": "2012-10-16 18:05:59", 
     "versions": [
         {
-            "doc_id": "NYD00003667", 
+            "doc_id": "NYD00082103", 
             "mimetype": "text/html", 
             "name": "A395", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A395-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A395"
+        }, 
+        {
+            "doc_id": "NYD00082104", 
+            "mimetype": "text/html", 
+            "name": "A395", 
+            "url": "http://open.nysenate.gov/legislation/bill/A395-2011"
+        }, 
+        {
+            "doc_id": "NYD00082105", 
+            "mimetype": "text/html", 
+            "name": "A395A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A395A-2011"
         }
     ], 
     "votes": []

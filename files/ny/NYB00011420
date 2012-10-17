@@ -11,41 +11,76 @@
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2011-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2011-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2012-02-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4018", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:05", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00100145", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4018&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011420", 
     "level": "state", 
     "scraped_subjects": [
@@ -54,7 +89,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=748"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4018&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4018&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4018-2011"
@@ -64,19 +102,57 @@
         {
             "leg_id": "NYL000171", 
             "name": "Perry", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000088", 
+            "name": "Clark", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000108", 
+            "name": "Galef", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Business and Consumers"
     ], 
+    "summary": "Requires operators of petting zoos to maintain hand washing or hand cleansing\nfacilities for persons attending such petting zoos; within no more than fifty\nfeet of the exit from the petting zoo area; and requires other public\nestablishments featuring animals that patrons may reasonably come in contact\nwith to provide hand washing or hand cleansing facilities.", 
     "title": "Requires operators of petting zoos and other public establishments featuring animals to maintain hand washing or hand cleansing facilities for patrons", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-15 01:11:49", 
+    "updated_at": "2012-10-16 18:10:35", 
     "versions": [
+        {
+            "doc_id": "NYD00100144", 
+            "mimetype": "text/html", 
+            "name": "A4018", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4018"
+        }, 
         {
             "doc_id": "NYD00039503", 
             "mimetype": "text/html", 

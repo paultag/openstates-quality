@@ -11,25 +11,53 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3812", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 3702", 
+            "chamber": null, 
+            "internal_id": "NYB00003897", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:04", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00089090", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3812&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011169", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=644"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3812&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3812&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3812-2011"
@@ -48,24 +79,44 @@
         {
             "leg_id": "NYL000083", 
             "name": "Camara", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000179", 
+            "name": "Reilly", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000088", 
+            "name": "Clark", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Makes it an unlawful discriminatory practice to discriminate in the terms,\nconditions or privileges, ownership, use, leasing, or occupancy of housing\naccommodations based upon the source of income.", 
     "title": "Makes it an unlawful discriminatory practice to discriminate in the terms, conditions or privileges of housing accommodations based upon source of income", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-20 20:49:53", 
+    "updated_at": "2012-10-16 18:07:47", 
     "versions": [
         {
-            "doc_id": "NYD00003496", 
+            "doc_id": "NYD00089088", 
             "mimetype": "text/html", 
             "name": "A3812", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A3812-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3812"
+        }, 
+        {
+            "doc_id": "NYD00089089", 
+            "mimetype": "text/html", 
+            "name": "A3812", 
+            "url": "http://open.nysenate.gov/legislation/bill/A3812-2011"
         }
     ], 
     "votes": []

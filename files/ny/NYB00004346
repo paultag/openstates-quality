@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-03-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,23 +26,35 @@
             "action": "AMEND AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-04-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4117"
+            ], 
             "action": "PRINT NUMBER 4117A", 
             "actor": "upper", 
             "date": "2011-04-28 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "1ST REPORT CAL.544", 
             "actor": "upper", 
             "date": "2011-05-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -45,14 +63,16 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2011-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2011-05-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -61,14 +81,28 @@
             "action": "COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2011-06-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -77,9 +111,16 @@
     "alternate_titles": [], 
     "bill_id": "S 4117", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:33", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00068096", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4117A-2011"
+        }
+    ], 
     "id": "NYB00004346", 
     "level": "state", 
     "scraped_subjects": [
@@ -88,35 +129,119 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=260"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4117&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S4117-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4117&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4117A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S4117A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000061", 
             "name": "YOUNG", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000037", 
+            "name": "MAZIARZ", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Makes provisions relating to previously deregulated housing accommodations\nwhich again became subject to rent regulation pursuant to a court of appeals\ndecision.", 
     "title": "Makes provisions relating to previously deregulated housing accommodations which again became subject to rent regulation pursuant to a court of appeals decision", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-15 06:27:36", 
+    "updated_at": "2012-10-16 18:03:50", 
     "versions": [
         {
-            "doc_id": "NYD00018685", 
+            "doc_id": "NYD00068093", 
             "mimetype": "text/html", 
             "name": "S4117", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S4117-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4117"
+        }, 
+        {
+            "doc_id": "NYD00068094", 
+            "mimetype": "text/html", 
+            "name": "S4117", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4117-2011"
+        }, 
+        {
+            "doc_id": "NYD00068095", 
+            "mimetype": "text/html", 
+            "name": "S4117A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4117A-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00004346", 
+            "chamber": "upper", 
+            "date": "2011-05-04 00:00:00", 
+            "id": "NYV00008156", 
+            "motion": "Housing, Construction and Community Development Committee Vote", 
+            "no_count": 3, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4117A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00008156", 
+            "yes_count": 5, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000021", 
+                    "name": "Grisanti"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }
+            ]
+        }
+    ]
 }

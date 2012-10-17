@@ -12,7 +12,13 @@
             "action": "REFERRED TO RULES", 
             "actor": "upper", 
             "date": "2011-10-03 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -21,7 +27,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -30,13 +42,22 @@
             "action": "AMEND AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-05-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5900"
+            ], 
             "action": "PRINT NUMBER 5900A", 
             "actor": "upper", 
             "date": "2012-05-08 00:00:00", 
@@ -49,13 +70,22 @@
             "action": "AMEND (T) AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-06-07 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5900"
+            ], 
             "action": "PRINT NUMBER 5900B", 
             "actor": "upper", 
             "date": "2012-06-07 00:00:00", 
@@ -68,13 +98,22 @@
             "action": "AMEND AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-06-11 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5900"
+            ], 
             "action": "PRINT NUMBER 5900C", 
             "actor": "upper", 
             "date": "2012-06-11 00:00:00", 
@@ -87,7 +126,13 @@
             "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2012-06-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -105,7 +150,13 @@
             "action": "RECOMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2012-06-21 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -117,7 +168,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-10-04 06:58:00", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00066602", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5900C-2011"
+        }
+    ], 
     "id": "NYB00019864", 
     "level": "state", 
     "scraped_subjects": [
@@ -126,17 +183,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=402"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5900&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S5900-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5900&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5900C&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S5900C-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000061", 
             "name": "YOUNG", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -144,12 +207,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Grants a local real property tax exemption to certain multiple dwellings, in a\ncity having a population of one million or more, for which construction\ncommenced on or after October 1, 1993; expands the property tax exemption for\nnew multiple dwellings and for certain other multiple dwellings.", 
     "title": "Grants a local real property tax exemption to certain multiple dwellings for which construction commenced on or after October 1, 1993", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 10:05:34", 
+    "updated_at": "2012-10-16 18:03:24", 
     "versions": [
+        {
+            "doc_id": "NYD00066601", 
+            "mimetype": "text/html", 
+            "name": "S5900", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5900"
+        }, 
         {
             "doc_id": "NYD00035092", 
             "mimetype": "text/html", 
@@ -175,5 +245,132 @@
             "url": "http://open.nysenate.gov/legislation/bill/S5900C-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00019864", 
+            "chamber": "upper", 
+            "date": "2012-06-21 00:00:00", 
+            "id": "NYV00007764", 
+            "motion": "Rules Committee Vote", 
+            "no_count": 2, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000023", 
+                    "name": "Hassell-Thompson"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }
+            ], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NYL000003", 
+                    "name": "Alesi"
+                }
+            ], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5900C-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00007764", 
+            "yes_count": 22, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000055", 
+                    "name": "Skelos"
+                }, 
+                {
+                    "leg_id": "NYL000014", 
+                    "name": "Farley"
+                }, 
+                {
+                    "leg_id": "NYL000016", 
+                    "name": "Fuschillo"
+                }, 
+                {
+                    "leg_id": "NYL000022", 
+                    "name": "Hannon"
+                }, 
+                {
+                    "leg_id": "NYL000025", 
+                    "name": "Johnson"
+                }, 
+                {
+                    "leg_id": "NYL000031", 
+                    "name": "Larkin"
+                }, 
+                {
+                    "leg_id": "NYL000033", 
+                    "name": "Libous"
+                }, 
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000050", 
+                    "name": "Saland"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000051", 
+                    "name": "Sampson"
+                }, 
+                {
+                    "leg_id": "NYL000007", 
+                    "name": "Breslin"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }, 
+                {
+                    "leg_id": "NYL000056", 
+                    "name": "Smith"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000011", 
+                    "name": "Dilan"
+                }, 
+                {
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
+                }, 
+                {
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
+                }
+            ]
+        }
+    ]
 }

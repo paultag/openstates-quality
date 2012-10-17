@@ -23,7 +23,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-03-08 01:13:00", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00110105", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K994&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00022747", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +38,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1289"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K994&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K994&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K994-2011"
@@ -42,7 +51,7 @@
         {
             "leg_id": "NYL000205", 
             "name": "Tobacco", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -50,12 +59,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commending Hudson River Healthcare and the Primary Care Information Project upon the occasion of its designation for special recognition", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-20 10:06:41", 
+    "updated_at": "2012-10-16 18:12:58", 
     "versions": [
+        {
+            "doc_id": "NYD00110104", 
+            "mimetype": "text/html", 
+            "name": "K994", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K994"
+        }, 
         {
             "doc_id": "NYD00028865", 
             "mimetype": "text/html", 

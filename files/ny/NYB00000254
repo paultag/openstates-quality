@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-03-12 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,8 +11,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,37 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
+            "actor": "upper", 
+            "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
+            "actor": "upper", 
+            "date": "2012-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +65,23 @@
     "alternate_titles": [], 
     "bill_id": "S 265", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 1666", 
+            "chamber": null, 
+            "internal_id": "NYB00008944", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:16", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00058700", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S265-2011"
+        }
+    ], 
     "id": "NYB00000254", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +90,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=15"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S265&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S265&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S265-2011"
@@ -49,6 +103,7 @@
         {
             "leg_id": "NYL000039", 
             "name": "MONTGOMERY", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,17 +111,24 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Establishes the New York calcium purchasing preference initiative by\ninstructing the purchasing agent of any governmental entity to give preference\nto a product containing a higher level of calcium than products of the same\ntype and quality which are equal to or lower in price than products of the same\ntype and quality.", 
     "title": "Establishes the New York calcium purchasing preference initiative", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-07 06:27:14", 
+    "updated_at": "2012-10-16 18:01:15", 
     "versions": [
         {
-            "doc_id": "NYD00016500", 
+            "doc_id": "NYD00058698", 
             "mimetype": "text/html", 
             "name": "S265", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S265-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S265"
+        }, 
+        {
+            "doc_id": "NYD00058699", 
+            "mimetype": "text/html", 
+            "name": "S265", 
+            "url": "http://open.nysenate.gov/legislation/bill/S265-2011"
         }
     ], 
     "votes": []

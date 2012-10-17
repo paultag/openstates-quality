@@ -11,86 +11,149 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to ways and means", 
             "actor": "lower", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "9055"
+            ], 
             "action": "print number 9055a", 
             "actor": "lower", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2012-02-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "9055"
+            ], 
             "action": "print number 9055b", 
             "actor": "lower", 
             "date": "2012-02-17 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "9055"
+            ], 
             "action": "print number 9055c", 
             "actor": "lower", 
             "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2012-03-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "9055"
+            ], 
             "action": "print number 9055d", 
             "actor": "lower", 
             "date": "2012-03-25 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -99,14 +162,19 @@
             "action": "rules report cal.23", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s6255"
+            ], 
             "action": "substituted by s6255d", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -115,9 +183,23 @@
     "alternate_titles": [], 
     "bill_id": "A 9055", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 6255", 
+            "chamber": null, 
+            "internal_id": "NYB00021082", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-01-18 07:00:24", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104531", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9055&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00021118", 
     "level": "state", 
     "scraped_subjects": [
@@ -126,16 +208,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=977"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9055&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A9055-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9055&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9055D&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A9055D-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": null, 
-            "name": "BUDGET BILL", 
+            "name": "Budget", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -143,17 +232,48 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Relates to DNA testing of certain offenders convicted of a crime; relates to\nthe administration of traffic infractions; relates to disaster preparedness;\nrelates to the reimbursement of medicare premium charges for employees and\nretired employees of the state, public authorities, public benefit corporations\nor other quasi-public organizations of the state; exempts centralized contracts\nfrom audit prior to finalization; relates to the ability to designate an agency\ncontract as a statewide contract and to the expansion of state contract rights\nfor local governments and non-profit organizations; alters the definition of\nbest value for procurement; expands contract use rights for local governments;\nrelates to the procurement opportunities newsletter; relates to the procurement\nof department printing and purchases by charitable organizations; renames the\noffice for technology the office of information technology services; relates to\npaying the metropolitan transportation authority the costs associated with\nreimbursements for E-ZPass tolls paid by the residents of Broad Channel and the\nRockaway Peninsula for travel over the Cross Bay Veterans Memorial Bridge;\nrelates to the collection of assessments for annual expenses; authorizes the\ntransfer of certain facility parole officers to open positions as the parole\nofficer or senior parole officer title; expands the scope of the annual report\nby the department of corrections to the legislature concerning the staffing and\nfacilities of state correctional facilities; relates to the education reform\nprogram; relates to support for the public defense backup center and additional\nstate aid tied to the salary of the district attorney of each county and the\ncalculation thereof; and relates to the public safety communications surcharge.", 
     "title": "Enacts major components of legislation necessary to implement the public protection and general government budget for fiscal year 2012-2013", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-21 01:21:49", 
+    "updated_at": "2012-10-16 18:11:52", 
     "versions": [
         {
-            "doc_id": "NYD00010253", 
+            "doc_id": "NYD00104525", 
             "mimetype": "text/html", 
             "name": "A9055", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A9055-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9055"
+        }, 
+        {
+            "doc_id": "NYD00104526", 
+            "mimetype": "text/html", 
+            "name": "A9055", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9055-2011"
+        }, 
+        {
+            "doc_id": "NYD00104527", 
+            "mimetype": "text/html", 
+            "name": "A9055A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9055A-2011"
+        }, 
+        {
+            "doc_id": "NYD00104528", 
+            "mimetype": "text/html", 
+            "name": "A9055B", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9055B-2011"
+        }, 
+        {
+            "doc_id": "NYD00104529", 
+            "mimetype": "text/html", 
+            "name": "A9055C", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9055C-2011"
+        }, 
+        {
+            "doc_id": "NYD00104530", 
+            "mimetype": "text/html", 
+            "name": "A9055D", 
+            "url": "http://open.nysenate.gov/legislation/bill/A9055D-2011"
         }
     ], 
     "votes": []

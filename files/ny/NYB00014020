@@ -11,33 +11,68 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-03-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in agriculture", 
             "actor": "lower", 
             "date": "2012-05-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 6511", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4960", 
+            "chamber": null, 
+            "internal_id": "NYB00005222", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:16", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00101592", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6511&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014020", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,7 +81,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=853"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6511&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6511&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6511-2011"
@@ -56,6 +94,7 @@
         {
             "leg_id": "NYL000134", 
             "name": "Kolb", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -63,17 +102,24 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Provides that in an agricultural district with a working family farm, any\nproducer, as defined in subdivision three of section two hundred eighty-two of\nthis chapter, shall have the authority to build a home on such family farm\nproperty.", 
     "title": "Allows any family member working on a family farm to build a home on such land", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-10 01:06:19", 
+    "updated_at": "2012-10-16 18:10:59", 
     "versions": [
         {
-            "doc_id": "NYD00006986", 
+            "doc_id": "NYD00101590", 
             "mimetype": "text/html", 
             "name": "A6511", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A6511-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6511"
+        }, 
+        {
+            "doc_id": "NYD00101591", 
+            "mimetype": "text/html", 
+            "name": "A6511", 
+            "url": "http://open.nysenate.gov/legislation/bill/A6511-2011"
         }
     ], 
     "votes": []

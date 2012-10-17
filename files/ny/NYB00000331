@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-03-12 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,8 +11,14 @@
             "action": "REFERRED TO JUDICIARY", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000025", 
+                    "name": "JUDICIARY", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,37 @@
             "action": "REFERRED TO JUDICIARY", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000025", 
+                    "name": "JUDICIARY", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
+            "actor": "upper", 
+            "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
+            "actor": "upper", 
+            "date": "2012-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +65,23 @@
     "alternate_titles": [], 
     "bill_id": "S 339", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 157", 
+            "chamber": null, 
+            "internal_id": "NYB00007363", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:16", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00052929", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S339-2011"
+        }
+    ], 
     "id": "NYB00000331", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +90,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=20"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S339&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S339&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S339-2011"
@@ -49,6 +103,7 @@
         {
             "leg_id": "NYL000039", 
             "name": "MONTGOMERY", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,17 +111,24 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Imposes additional requirements with respect to the duty of a landlord to\nprovide tenants with a written receipt for rent paid and directs the office of\ncourt administration to embark upon a campaign to inform tenants of their right\nto the same; authorizes the court to impose a twenty-five dollar rent reduction\nfor each failure to comply with this section.", 
     "title": "Imposes additional requirements with respect to the duty of a landlord to provide tenants with a written receipt for rent paid", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-19 06:45:13", 
+    "updated_at": "2012-10-16 17:59:52", 
     "versions": [
         {
-            "doc_id": "NYD00017592", 
+            "doc_id": "NYD00052927", 
             "mimetype": "text/html", 
             "name": "S339", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S339-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S339"
+        }, 
+        {
+            "doc_id": "NYD00052928", 
+            "mimetype": "text/html", 
+            "name": "S339", 
+            "url": "http://open.nysenate.gov/legislation/bill/S339-2011"
         }
     ], 
     "votes": []

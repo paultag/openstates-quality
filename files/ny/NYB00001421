@@ -11,8 +11,14 @@
             "action": "REFERRED TO AGING", 
             "actor": "upper", 
             "date": "2011-01-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000001", 
+                    "name": "AGING", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO AGING", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000001", 
+                    "name": "AGING", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,23 @@
     "alternate_titles": [], 
     "bill_id": "S 1372", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 9070", 
+            "chamber": null, 
+            "internal_id": "NYB00021364", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:20", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00064634", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1372-2011"
+        }
+    ], 
     "id": "NYB00001421", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=85"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1372&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1372&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S1372-2011"
@@ -49,24 +79,80 @@
         {
             "leg_id": "NYL000045", 
             "name": "PERKINS", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000010", 
+            "name": "DIAZ", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000011", 
+            "name": "DILAN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000012", 
+            "name": "DUANE", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000023", 
+            "name": "HASSELL-THOMPSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000028", 
+            "name": "KRUEGER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000039", 
+            "name": "MONTGOMERY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000043", 
+            "name": "PARKER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000058", 
+            "name": "STAVISKY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
-    "title": "Provides for annual adjustment of the maximum income threshold for eligibility for the senior citizens&apos; rent increase exemption by any increase in the consumer price", 
+    "summary": "Provides for annual adjustment by the commissioner of housing and community\nrenewal of the maximum income threshold for eligibility for the senior\ncitizens' rent increase exemption (SCRIE) and for the municipal property tax\nabatement for rent-controlled and rent regulated property occupied by senior\ncitizens by any increase in the consumer price index (CPI).", 
+    "title": "Provides for annual adjustment of the maximum income threshold for eligibility for the senior citizens' rent increase exemption by any increase in the consumer price", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-20 20:47:42", 
+    "updated_at": "2012-10-16 18:02:54", 
     "versions": [
         {
-            "doc_id": "NYD00014824", 
+            "doc_id": "NYD00064632", 
             "mimetype": "text/html", 
             "name": "S1372", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S1372-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S1372"
+        }, 
+        {
+            "doc_id": "NYD00064633", 
+            "mimetype": "text/html", 
+            "name": "S1372", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1372-2011"
         }
     ], 
     "votes": []

@@ -14,8 +14,14 @@
             "action": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2012-04-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -23,9 +29,23 @@
     "alternate_titles": [], 
     "bill_id": "S 6902", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 9899", 
+            "chamber": null, 
+            "internal_id": "NYB00025128", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-05-01 01:06:23", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00049919", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6902-2011"
+        }
+    ], 
     "id": "NYB00024630", 
     "level": "state", 
     "scraped_subjects": [
@@ -34,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=461"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6902&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6902&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S6902-2011"
@@ -44,6 +67,7 @@
         {
             "leg_id": "NYL000061", 
             "name": "YOUNG", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -51,12 +75,19 @@
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Provides that there is no exemption from the requirement of nondiscrimination\nin advertisements and inquiries for the rental of certain apartment dwellings;\nfurther provides that engaging in discriminatory advertising or inquiries will\ncause the property to no longer be exempt from full coverage by the\nnondiscrimination provisions of the human rights law.", 
     "title": "Provides that there is no exemption from the requirement of nondiscrimination in advertisements and inquiries for the rental of certain apartment dwellings", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-16 01:15:34", 
+    "updated_at": "2012-10-16 17:59:05", 
     "versions": [
+        {
+            "doc_id": "NYD00049918", 
+            "mimetype": "text/html", 
+            "name": "S6902", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6902"
+        }, 
         {
             "doc_id": "NYD00039884", 
             "mimetype": "text/html", 

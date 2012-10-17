@@ -1,18 +1,24 @@
 {
     "action_dates": {
         "first": "2011-02-18 00:00:00", 
-        "last": "2011-05-09 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
-        "signed": null
+        "last": "2011-06-01 00:00:00", 
+        "passed_lower": "2011-05-09 00:00:00", 
+        "passed_upper": "2011-05-09 00:00:00", 
+        "signed": "2011-06-01 00:00:00"
     }, 
     "actions": [
         {
             "action": "REFERRED TO ENERGY AND TELECOMMUNICATIONS", 
             "actor": "upper", 
             "date": "2011-02-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000016", 
+                    "name": "ENERGY AND TELECOMMUNICATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,7 @@
             "action": "1ST REPORT CAL.143", 
             "actor": "upper", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,41 +35,228 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2011-03-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "3407A"
+            ], 
             "action": "AMENDED ON THIRD READING 3407A", 
             "actor": "upper", 
             "date": "2011-05-02 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
         }, 
         {
+            "+bill_id": [
+                "A6270"
+            ], 
             "action": "SUBSTITUTED BY A6270B", 
             "actor": "upper", 
             "date": "2011-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
+            ]
+        }, 
+        {
+            "action": "referred to energy", 
+            "actor": "lower", 
+            "date": "2011-03-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000053", 
+                    "name": "energy", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to energy", 
+            "actor": "lower", 
+            "date": "2011-04-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000053", 
+                    "name": "energy", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "6270"
+            ], 
+            "action": "print number 6270a", 
+            "actor": "lower", 
+            "date": "2011-04-07 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "reported ", 
+            "actor": "lower", 
+            "date": "2011-04-13 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "advanced to third reading cal.221", 
+            "actor": "lower", 
+            "date": "2011-04-28 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "6270b"
+            ], 
+            "action": "amended on third reading 6270b", 
+            "actor": "lower", 
+            "date": "2011-05-02 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "passed assembly", 
+            "actor": "lower", 
+            "date": "2011-05-09 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "delivered to senate", 
+            "actor": "lower", 
+            "date": "2011-05-09 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "REFERRED TO ENERGY AND TELECOMMUNICATIONS", 
+            "actor": "upper", 
+            "date": "2011-05-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000016", 
+                    "name": "ENERGY AND TELECOMMUNICATIONS", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "SUBSTITUTED FOR S3407A", 
+            "actor": "upper", 
+            "date": "2011-05-09 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "3RD READING CAL.143", 
+            "actor": "upper", 
+            "date": "2011-05-09 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "PASSED SENATE", 
+            "actor": "upper", 
+            "date": "2011-05-09 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "RETURNED TO ASSEMBLY", 
+            "actor": "upper", 
+            "date": "2011-05-09 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "delivered to governor", 
+            "actor": "lower", 
+            "date": "2011-05-20 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:received"
+            ]
+        }, 
+        {
+            "+session_laws": [
+                "35"
+            ], 
+            "action": "signed chap.35", 
+            "actor": "lower", 
+            "date": "2011-06-01 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:signed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 3407", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 6270", 
+            "chamber": null, 
+            "internal_id": "NYB00013754", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:29", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00063735", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3407A-2011"
+        }
+    ], 
     "id": "NYB00003585", 
     "level": "state", 
     "scraped_subjects": [
@@ -71,35 +265,206 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=211"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3407&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S3407-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3407&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3407A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S3407A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000037", 
             "name": "MAZIARZ", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000021", 
+            "name": "GRISANTI", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000038", 
+            "name": "MCDONALD", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000005", 
+            "name": "BALL", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000009", 
+            "name": "DEFRANCISCO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000012", 
+            "name": "DUANE", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000017", 
+            "name": "GALLIVAN", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000025", 
+            "name": "JOHNSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000034", 
+            "name": "LITTLE", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000035", 
+            "name": "MARCELLINO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000039", 
+            "name": "MONTGOMERY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000043", 
+            "name": "PARKER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000046", 
+            "name": "RANZENHOFER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000050", 
+            "name": "SALAND", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Relates to remote net metering by farm and non-residential customer-generators.", 
     "title": "Relates to remote net metering by farm and non-residential customer-generators", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-14 06:28:11", 
+    "updated_at": "2012-10-16 18:02:44", 
     "versions": [
         {
-            "doc_id": "NYD00017615", 
+            "doc_id": "NYD00063732", 
             "mimetype": "text/html", 
             "name": "S3407", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S3407-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3407"
+        }, 
+        {
+            "doc_id": "NYD00063733", 
+            "mimetype": "text/html", 
+            "name": "S3407", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3407-2011"
+        }, 
+        {
+            "doc_id": "NYD00063734", 
+            "mimetype": "text/html", 
+            "name": "S3407A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3407A-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00003585", 
+            "chamber": "upper", 
+            "date": "2011-03-01 00:00:00", 
+            "id": "NYV00007037", 
+            "motion": "Energy and Telecommunications Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S3407A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00007037", 
+            "yes_count": 12, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000003", 
+                    "name": "Alesi"
+                }, 
+                {
+                    "leg_id": "NYL000016", 
+                    "name": "Fuschillo"
+                }, 
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000049", 
+                    "name": "Robach"
+                }, 
+                {
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
+                }, 
+                {
+                    "leg_id": "NYL000018", 
+                    "name": "Gianaris"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000001", 
+                    "name": "Adams"
+                }, 
+                {
+                    "leg_id": "NYL000029", 
+                    "name": "Kruger"
+                }
+            ]
+        }
+    ]
 }

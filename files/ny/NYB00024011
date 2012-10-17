@@ -11,8 +11,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-04-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -20,9 +26,23 @@
     "alternate_titles": [], 
     "bill_id": "S 6931", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 561", 
+            "chamber": null, 
+            "internal_id": "NYB00007794", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-04-14 01:02:41", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00063097", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6931-2011"
+        }
+    ], 
     "id": "NYB00024011", 
     "level": "state", 
     "scraped_subjects": [
@@ -31,7 +51,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=442"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6931&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6931&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S6931-2011"
@@ -41,6 +64,7 @@
         {
             "leg_id": "NYL000026", 
             "name": "KENNEDY", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -48,17 +72,24 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides for establishment of the urban open space program in the office of\nparks, recreation and historic preservation; establishes the urban open space\nprogram fund; makes an appropriation of 10 million dollars; purpose of the\nprogram is to provide for the acquisition, creation, establishment, expansion,\nimprovement, conservation and protection of open space areas in cities for the\npurpose of enhancing the urban environment, and thereby promoting the health,\nsafety and welfare of the people of the state in a variety of ways, such as\nreduction of air and noise pollution, modification of extremes of temperature\n(resulting in the reduction of energy expended to heat/cool buildings/homes),\nassisting watershed management, providing habitats for desirable urban\nvegetation and wildlife, provision of shade, preservation of natural resources,\nenhancement of real estate values and beautification of urban areas throughout\nthe state.", 
     "title": "Provides for establishment of the urban open space program in the office of parks, recreation and historic preservation; establishes fund; appropriation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-25 01:14:44", 
+    "updated_at": "2012-10-16 18:02:27", 
     "versions": [
         {
-            "doc_id": "NYD00024011", 
+            "doc_id": "NYD00063095", 
             "mimetype": "text/html", 
             "name": "S6931", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S6931-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6931"
+        }, 
+        {
+            "doc_id": "NYD00063096", 
+            "mimetype": "text/html", 
+            "name": "S6931", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6931-2011"
         }
     ], 
     "votes": []

@@ -11,8 +11,14 @@
             "action": "REFERRED TO JUDICIARY", 
             "actor": "upper", 
             "date": "2011-01-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000025", 
+                    "name": "JUDICIARY", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO JUDICIARY", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000025", 
+                    "name": "JUDICIARY", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,23 @@
     "alternate_titles": [], 
     "bill_id": "S 1291", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 506", 
+            "chamber": null, 
+            "internal_id": "NYB00007739", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:20", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00068794", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1291-2011"
+        }
+    ], 
     "id": "NYB00001336", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=79"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1291&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1291&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S1291-2011"
@@ -49,6 +79,7 @@
         {
             "leg_id": "NYL000012", 
             "name": "DUANE", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,17 +87,24 @@
     "subjects": [
         "Judiciary"
     ], 
+    "summary": "Requires tenants in housing court proceedings be given information pertaining\nto their rights including that only a judge may issue a warrant to evict them;\nthey should assert any defense or counterclaim in their answer, that they have\na right to have the premises inspected to confirm any claim of dangerous or\nunhealthy conditions, that they may have a right to withhold rent for failure\nto make repairs and that OCA sells information to residential tenant screening\ncompanies.", 
     "title": "Requires tenants in housing court to be given certain information in bold print at the end of any petition for eviction", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-04 06:26:34", 
+    "updated_at": "2012-10-16 18:04:01", 
     "versions": [
         {
-            "doc_id": "NYD00014719", 
+            "doc_id": "NYD00068792", 
             "mimetype": "text/html", 
             "name": "S1291", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S1291-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S1291"
+        }, 
+        {
+            "doc_id": "NYD00068793", 
+            "mimetype": "text/html", 
+            "name": "S1291", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1291-2011"
         }
     ], 
     "votes": []

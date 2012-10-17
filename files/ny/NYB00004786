@@ -12,7 +12,13 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-04-11 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -21,7 +27,13 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -36,6 +48,9 @@
             ]
         }, 
         {
+            "+bill_id": [
+                "4533"
+            ], 
             "action": "AMENDED 4533A", 
             "actor": "upper", 
             "date": "2012-06-06 00:00:00", 
@@ -54,7 +69,7 @@
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2012-06-11 00:00:00", 
             "related_entities": [], 
@@ -67,6 +82,9 @@
             "actor": "upper", 
             "date": "2012-06-19 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NYV00002220"
+            ], 
             "type": [
                 "bill:passed"
             ]
@@ -84,7 +102,13 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-06-19 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -93,10 +117,23 @@
     "alternate_titles": [], 
     "bill_id": "S 4533", 
     "chamber": "upper", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "A 7971", 
+            "chamber": null, 
+            "internal_id": "NYB00017066", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:35", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00062045", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4533A-2011"
+        }
+    ], 
     "id": "NYB00004786", 
     "level": "state", 
     "scraped_subjects": [
@@ -105,41 +142,47 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=303"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4533&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S4533-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4533&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4533A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S4533A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000008", 
             "name": "CARLUCCI", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000047", 
             "name": "RITCHIE", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000027", 
             "name": "KLEIN", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000052", 
             "name": "SAVINO", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000060", 
             "name": "VALESKY", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -147,12 +190,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Authorizes the operation of home wine makers centers as food processing\nestablishments under the jurisdiction of the department of agriculture and\nmarkets; defines such centers as places where individuals pay a fee to use\nspace and equipment for the purpose of making wine for personal household use\nand not for resale; authorizes wineries and farm wineries to operate such a\nbusiness.", 
     "title": "Provides that food processing establishments shall include the operation of home wine makers centers", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:24", 
+    "updated_at": "2012-10-16 18:02:14", 
     "versions": [
+        {
+            "doc_id": "NYD00062044", 
+            "mimetype": "text/html", 
+            "name": "S4533", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4533"
+        }, 
         {
             "doc_id": "NYD00032447", 
             "mimetype": "text/html", 
@@ -168,6 +218,81 @@
     ], 
     "votes": [
         {
+            "bill_id": "NYB00004786", 
+            "chamber": "upper", 
+            "date": "2012-06-05 00:00:00", 
+            "id": "NYV00006592", 
+            "motion": "Agriculture Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4533A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00006592", 
+            "yes_count": 10, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }, 
+                {
+                    "leg_id": "NYL000060", 
+                    "name": "Valesky"
+                }, 
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }
+            ]
+        }, 
+        {
+            "+actual_vote": {
+                "Alesi": [
+                    "Alesi"
+                ], 
+                "Espaillat": [
+                    "Espaillat"
+                ], 
+                "Huntley": [
+                    "Huntley"
+                ]
+            }, 
             "bill_id": "NYB00004786", 
             "chamber": "upper", 
             "date": "2012-06-19 00:00:00", 
@@ -201,7 +326,11 @@
             ], 
             "passed": true, 
             "session": "2011-2012", 
-            "sources": [], 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4533A-2011"
+                }
+            ], 
             "state": "ny", 
             "type": "other", 
             "vote_id": "NYV00002220", 
@@ -280,7 +409,7 @@
                     "name": "Hannon"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000023", 
                     "name": "Hassell-Thomps"
                 }, 
                 {
@@ -416,277 +545,7 @@
                     "name": "Stavisky"
                 }, 
                 {
-                    "leg_id": null, 
-                    "name": "Stewart-Cousin"
-                }, 
-                {
-                    "leg_id": "NYL000224", 
-                    "name": "Storobin"
-                }, 
-                {
-                    "leg_id": "NYL000060", 
-                    "name": "Valesky"
-                }, 
-                {
-                    "leg_id": "NYL000061", 
-                    "name": "Young"
-                }, 
-                {
-                    "leg_id": "NYL000062", 
-                    "name": "Zeldin"
-                }
-            ]
-        }, 
-        {
-            "bill_id": "NYB00004786", 
-            "chamber": "upper", 
-            "date": "2012-06-19 00:00:00", 
-            "id": "NYV00002221", 
-            "motion": "Floor Vote", 
-            "no_count": 2, 
-            "no_votes": [
-                {
-                    "leg_id": "NYL000010", 
-                    "name": "Diaz"
-                }, 
-                {
-                    "leg_id": "NYL000016", 
-                    "name": "Fuschillo"
-                }
-            ], 
-            "other_count": 3, 
-            "other_votes": [
-                {
-                    "leg_id": "NYL000003", 
-                    "name": "Alesi"
-                }, 
-                {
-                    "leg_id": "NYL000013", 
-                    "name": "Espaillat"
-                }, 
-                {
-                    "leg_id": "NYL000024", 
-                    "name": "Huntley"
-                }
-            ], 
-            "passed": true, 
-            "session": "2011-2012", 
-            "sources": [], 
-            "state": "ny", 
-            "type": "other", 
-            "vote_id": "NYV00002221", 
-            "yes_count": 57, 
-            "yes_votes": [
-                {
-                    "leg_id": "NYL000001", 
-                    "name": "Adams"
-                }, 
-                {
-                    "leg_id": "NYL000002", 
-                    "name": "Addabbo"
-                }, 
-                {
-                    "leg_id": "NYL000004", 
-                    "name": "Avella"
-                }, 
-                {
-                    "leg_id": "NYL000005", 
-                    "name": "Ball"
-                }, 
-                {
-                    "leg_id": "NYL000006", 
-                    "name": "Bonacic"
-                }, 
-                {
-                    "leg_id": "NYL000007", 
-                    "name": "Breslin"
-                }, 
-                {
-                    "leg_id": "NYL000008", 
-                    "name": "Carlucci"
-                }, 
-                {
-                    "leg_id": "NYL000009", 
-                    "name": "DeFrancisco"
-                }, 
-                {
-                    "leg_id": "NYL000011", 
-                    "name": "Dilan"
-                }, 
-                {
-                    "leg_id": "NYL000012", 
-                    "name": "Duane"
-                }, 
-                {
-                    "leg_id": "NYL000014", 
-                    "name": "Farley"
-                }, 
-                {
-                    "leg_id": "NYL000015", 
-                    "name": "Flanagan"
-                }, 
-                {
-                    "leg_id": "NYL000017", 
-                    "name": "Gallivan"
-                }, 
-                {
-                    "leg_id": "NYL000018", 
-                    "name": "Gianaris"
-                }, 
-                {
-                    "leg_id": "NYL000019", 
-                    "name": "Golden"
-                }, 
-                {
-                    "leg_id": "NYL000020", 
-                    "name": "Griffo"
-                }, 
-                {
-                    "leg_id": "NYL000021", 
-                    "name": "Grisanti"
-                }, 
-                {
-                    "leg_id": "NYL000022", 
-                    "name": "Hannon"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Hassell-Thomps"
-                }, 
-                {
-                    "leg_id": "NYL000025", 
-                    "name": "Johnson"
-                }, 
-                {
-                    "leg_id": "NYL000026", 
-                    "name": "Kennedy"
-                }, 
-                {
-                    "leg_id": "NYL000027", 
-                    "name": "Klein"
-                }, 
-                {
-                    "leg_id": "NYL000028", 
-                    "name": "Krueger"
-                }, 
-                {
-                    "leg_id": "NYL000030", 
-                    "name": "Lanza"
-                }, 
-                {
-                    "leg_id": "NYL000031", 
-                    "name": "Larkin"
-                }, 
-                {
-                    "leg_id": "NYL000032", 
-                    "name": "LaValle"
-                }, 
-                {
-                    "leg_id": "NYL000033", 
-                    "name": "Libous"
-                }, 
-                {
-                    "leg_id": "NYL000034", 
-                    "name": "Little"
-                }, 
-                {
-                    "leg_id": "NYL000035", 
-                    "name": "Marcellino"
-                }, 
-                {
-                    "leg_id": "NYL000036", 
-                    "name": "Martins"
-                }, 
-                {
-                    "leg_id": "NYL000037", 
-                    "name": "Maziarz"
-                }, 
-                {
-                    "leg_id": "NYL000038", 
-                    "name": "McDonald"
-                }, 
-                {
-                    "leg_id": "NYL000039", 
-                    "name": "Montgomery"
-                }, 
-                {
-                    "leg_id": "NYL000040", 
-                    "name": "Nozzolio"
-                }, 
-                {
-                    "leg_id": "NYL000041", 
-                    "name": "O'Mara"
-                }, 
-                {
-                    "leg_id": "NYL000042", 
-                    "name": "Oppenheimer"
-                }, 
-                {
-                    "leg_id": "NYL000043", 
-                    "name": "Parker"
-                }, 
-                {
-                    "leg_id": "NYL000044", 
-                    "name": "Peralta"
-                }, 
-                {
-                    "leg_id": "NYL000045", 
-                    "name": "Perkins"
-                }, 
-                {
-                    "leg_id": "NYL000046", 
-                    "name": "Ranzenhofer"
-                }, 
-                {
-                    "leg_id": "NYL000047", 
-                    "name": "Ritchie"
-                }, 
-                {
-                    "leg_id": "NYL000048", 
-                    "name": "Rivera"
-                }, 
-                {
-                    "leg_id": "NYL000049", 
-                    "name": "Robach"
-                }, 
-                {
-                    "leg_id": "NYL000050", 
-                    "name": "Saland"
-                }, 
-                {
-                    "leg_id": "NYL000051", 
-                    "name": "Sampson"
-                }, 
-                {
-                    "leg_id": "NYL000052", 
-                    "name": "Savino"
-                }, 
-                {
-                    "leg_id": "NYL000053", 
-                    "name": "Serrano"
-                }, 
-                {
-                    "leg_id": "NYL000054", 
-                    "name": "Seward"
-                }, 
-                {
-                    "leg_id": "NYL000055", 
-                    "name": "Skelos"
-                }, 
-                {
-                    "leg_id": "NYL000056", 
-                    "name": "Smith"
-                }, 
-                {
-                    "leg_id": "NYL000057", 
-                    "name": "Squadron"
-                }, 
-                {
-                    "leg_id": "NYL000058", 
-                    "name": "Stavisky"
-                }, 
-                {
-                    "leg_id": null, 
+                    "leg_id": "NYL000059", 
                     "name": "Stewart-Cousin"
                 }, 
                 {

@@ -32,7 +32,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-06-25 08:21:23", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00081726", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/B2696-2011"
+        }
+    ], 
     "id": "NYB00019621", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +47,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1406"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=B2696&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=B2696&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/B2696-2011"
@@ -51,7 +60,7 @@
         {
             "leg_id": "NYL000055", 
             "name": "SKELOS", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +68,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Establishes a plan setting forth an itemized list of grantees for grants for civil or criminal domestic violence legal services and related programs", 
     "type": [
         "concurrent resolution"
     ], 
-    "updated_at": "2012-09-25 10:05:53", 
+    "updated_at": "2012-10-16 18:05:55", 
     "versions": [
+        {
+            "doc_id": "NYD00081725", 
+            "mimetype": "text/html", 
+            "name": "B2696", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=B2696"
+        }, 
         {
             "doc_id": "NYD00047508", 
             "mimetype": "text/html", 

@@ -14,8 +14,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -23,9 +29,16 @@
     "alternate_titles": [], 
     "bill_id": "S 4322", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:34", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00068283", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4322-2011"
+        }
+    ], 
     "id": "NYB00004565", 
     "level": "state", 
     "scraped_subjects": [
@@ -34,7 +47,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=286"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4322&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4322&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S4322-2011"
@@ -44,6 +60,7 @@
         {
             "leg_id": "NYL000029", 
             "name": "KRUGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -51,12 +68,19 @@
     "subjects": [
         "Legislative Affairs"
     ], 
+    "summary": "Consolidates and reduces the frequency of reporting requirements by various\ndepartments, agencies and public authorities; also provides for copies of\npublic documents to be sent to the legislative library; eliminates certain\nreports by departments from being done.", 
     "title": "Consolidates and reduces the frequency of reporting requirements by various departments, agencies and public authorities; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-13 01:11:24", 
+    "updated_at": "2012-10-16 18:03:56", 
     "versions": [
+        {
+            "doc_id": "NYD00068282", 
+            "mimetype": "text/html", 
+            "name": "S4322", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4322"
+        }, 
         {
             "doc_id": "NYD00037872", 
             "mimetype": "text/html", 

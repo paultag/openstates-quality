@@ -11,33 +11,59 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to agriculture", 
             "actor": "lower", 
             "date": "2012-05-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "10150"
+            ], 
             "action": "print number 10150a", 
             "actor": "lower", 
             "date": "2012-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 10150", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-06-01 01:07:41", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00098144", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10150&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00026423", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,29 +72,49 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1118"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10150&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A10150-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10150&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10150A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A10150A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Relates to the care of animals by pet dealers; establishes care and breeding\nstandards for pet dealers when dealing with dogs.", 
     "title": "Relates to the care of animals by pet dealers", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-11 15:59:58", 
+    "updated_at": "2012-10-16 18:10:05", 
     "versions": [
+        {
+            "doc_id": "NYD00098143", 
+            "mimetype": "text/html", 
+            "name": "A10150", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10150"
+        }, 
         {
             "doc_id": "NYD00034972", 
             "mimetype": "text/html", 

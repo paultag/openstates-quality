@@ -11,8 +11,14 @@
             "action": "REFERRED TO TRANSPORTATION", 
             "actor": "upper", 
             "date": "2012-02-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000032", 
+                    "name": "TRANSPORTATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -20,9 +26,16 @@
     "alternate_titles": [], 
     "bill_id": "S 6560", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-04-04 00:59:45", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00063320", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6560-2011"
+        }
+    ], 
     "id": "NYB00023695", 
     "level": "state", 
     "scraped_subjects": [
@@ -31,7 +44,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=420"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6560&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6560&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S6560-2011"
@@ -41,6 +57,7 @@
         {
             "leg_id": "NYL000040", 
             "name": "NOZZOLIO", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -48,17 +65,24 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Authorizes the metropolitan transportation authority to permit correction\nofficers employed by the department of corrections and community supervision\nand the department of correction of the city of New York to ride the Long\nIsland railroad at no charge.", 
     "title": "Authorizes no fare program for correction officers employed by the state and New York city department of corrections and community supervision", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-04 00:59:45", 
+    "updated_at": "2012-10-16 18:02:30", 
     "versions": [
         {
-            "doc_id": "NYD00023695", 
+            "doc_id": "NYD00063318", 
             "mimetype": "text/html", 
             "name": "S6560", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S6560-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6560"
+        }, 
+        {
+            "doc_id": "NYD00063319", 
+            "mimetype": "text/html", 
+            "name": "S6560", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6560-2011"
         }
     ], 
     "votes": []

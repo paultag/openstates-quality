@@ -11,30 +11,50 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to agriculture", 
             "actor": "lower", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "369"
+            ], 
             "action": "print number 369a", 
             "actor": "lower", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2011-07-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -43,9 +63,23 @@
     "alternate_titles": [], 
     "bill_id": "A 369", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2409", 
+            "chamber": null, 
+            "internal_id": "NYB00002487", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00101532", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A369&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007591", 
     "level": "state", 
     "scraped_subjects": [
@@ -54,34 +88,96 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=427"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A369&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A369-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A369&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A369A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A369A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000124", 
             "name": "Hoyt", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000069", 
+            "name": "Barron", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000220", 
+            "name": "Mayersohn", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000127", 
+            "name": "Jeffries", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000191", 
+            "name": "Schimel", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Provides for the training, examination and certification of dog control\nofficers.", 
     "title": "Provides for the training, examination and certification of dog control officers", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-16 06:30:49", 
+    "updated_at": "2012-10-16 18:10:59", 
     "versions": [
         {
-            "doc_id": "NYD00003336", 
+            "doc_id": "NYD00101529", 
             "mimetype": "text/html", 
             "name": "A369", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A369-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A369"
+        }, 
+        {
+            "doc_id": "NYD00101530", 
+            "mimetype": "text/html", 
+            "name": "A369", 
+            "url": "http://open.nysenate.gov/legislation/bill/A369-2011"
+        }, 
+        {
+            "doc_id": "NYD00101531", 
+            "mimetype": "text/html", 
+            "name": "A369A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A369A-2011"
         }
     ], 
     "votes": []

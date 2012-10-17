@@ -11,25 +11,46 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-01-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3814", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:04", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00089108", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3814&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011171", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=644"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3814&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3814&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3814-2011"
@@ -48,24 +72,44 @@
         {
             "leg_id": "NYL000102", 
             "name": "Englebright", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000081", 
+            "name": "Cahill", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Establishes corporate and personal income tax credits for the purchase of wind\nenergy system equipment; customer-generators will be allowed a tax credit of\n25% of qualified expenditures on wind energy system equipment, not to exceed\n$7500.", 
     "title": "Establishes corporate and personal income tax credits for the purchase of wind energy system equipment", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-20 20:49:53", 
+    "updated_at": "2012-10-16 18:07:47", 
     "versions": [
         {
-            "doc_id": "NYD00003498", 
+            "doc_id": "NYD00089106", 
             "mimetype": "text/html", 
             "name": "A3814", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A3814-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3814"
+        }, 
+        {
+            "doc_id": "NYD00089107", 
+            "mimetype": "text/html", 
+            "name": "A3814", 
+            "url": "http://open.nysenate.gov/legislation/bill/A3814-2011"
         }
     ], 
     "votes": []

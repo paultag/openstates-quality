@@ -1,18 +1,24 @@
 {
     "action_dates": {
         "first": "2012-01-17 00:00:00", 
-        "last": "2012-03-27 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
-        "signed": null
+        "last": "2012-03-30 00:00:00", 
+        "passed_lower": "2012-03-30 00:00:00", 
+        "passed_upper": "2012-03-30 00:00:00", 
+        "signed": "2012-03-30 00:00:00"
     }, 
     "actions": [
         {
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-01-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,77 +26,442 @@
             "action": "AMEND AND RECOMMIT TO FINANCE", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6256"
+            ], 
             "action": "PRINT NUMBER 6256A", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "AMEND (T) AND RECOMMIT TO FINANCE", 
             "actor": "upper", 
             "date": "2012-02-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6256"
+            ], 
             "action": "PRINT NUMBER 6256B", 
             "actor": "upper", 
             "date": "2012-02-17 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "AMEND (T) AND RECOMMIT TO FINANCE", 
             "actor": "upper", 
             "date": "2012-03-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6256"
+            ], 
             "action": "PRINT NUMBER 6256C", 
             "actor": "upper", 
             "date": "2012-03-11 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "AMEND (T) AND RECOMMIT TO FINANCE", 
             "actor": "upper", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6256"
+            ], 
             "action": "PRINT NUMBER 6256D", 
             "actor": "upper", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "ORDERED TO THIRD READING CAL.484", 
+            "actor": "upper", 
+            "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
+            ]
+        }, 
+        {
+            "action": "MOTION TO AMEND LOST - ROLL CALL VOTE", 
+            "actor": "upper", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "A9056"
+            ], 
+            "action": "SUBSTITUTED BY A9056D", 
+            "actor": "upper", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "referred to ways and means", 
+            "actor": "lower", 
+            "date": "2012-01-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to ways and means", 
+            "actor": "lower", 
+            "date": "2012-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "9056"
+            ], 
+            "action": "print number 9056a", 
+            "actor": "lower", 
+            "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "amend (t) and recommit to ways and means", 
+            "actor": "lower", 
+            "date": "2012-02-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "9056"
+            ], 
+            "action": "print number 9056b", 
+            "actor": "lower", 
+            "date": "2012-02-17 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "amend (t) and recommit to ways and means", 
+            "actor": "lower", 
+            "date": "2012-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "9056"
+            ], 
+            "action": "print number 9056c", 
+            "actor": "lower", 
+            "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "amend (t) and recommit to ways and means", 
+            "actor": "lower", 
+            "date": "2012-03-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "9056"
+            ], 
+            "action": "print number 9056d", 
+            "actor": "lower", 
+            "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "reported referred to rules", 
+            "actor": "lower", 
+            "date": "2012-03-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported ", 
+            "actor": "lower", 
+            "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "rules report cal.31", 
+            "actor": "lower", 
+            "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "ordered to third reading rules cal.31", 
+            "actor": "lower", 
+            "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "motion to amend lost", 
+            "actor": "lower", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "motion to amend lost", 
+            "actor": "lower", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "passed assembly", 
+            "actor": "lower", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "delivered to senate", 
+            "actor": "lower", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "REFERRED TO FINANCE", 
+            "actor": "upper", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "SUBSTITUTED FOR S6256D", 
+            "actor": "upper", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "3RD READING CAL.484", 
+            "actor": "upper", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "PASSED SENATE", 
+            "actor": "upper", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "RETURNED TO ASSEMBLY", 
+            "actor": "upper", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "delivered to governor", 
+            "actor": "lower", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:received"
+            ]
+        }, 
+        {
+            "+session_laws": [
+                "56"
+            ], 
+            "action": "signed chap.56", 
+            "actor": "lower", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:signed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 6256", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 9056", 
+            "chamber": null, 
+            "internal_id": "NYB00021119", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-01-18 06:58:49", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00050686", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6256D-2011"
+        }
+    ], 
     "id": "NYB00021083", 
     "level": "state", 
     "scraped_subjects": [
@@ -99,16 +470,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=400"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6256&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S6256-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6256&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6256D&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S6256D-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": null, 
-            "name": "BUDGET BILL", 
+            "name": "BUDGET", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -116,18 +494,216 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Relates to evaluations or services under the early intervention program for\ninfants and toddlers with disabilities and their families, state aid\nreimbursement to municipalities for respite services, and service coordination;\nrepeals subdivision 7 of section 2551 and subdivision 4 of section 2557 of the\npublic health law, relating to administering early intervention services;\nrequires that each municipality be responsible for providing early intervention\nservices; requires health maintenance organizations to include coverage for\notherwise covered services that are part of an early intervention program;\nrelates to payment for early intervention services; repeals subsection (e) of\nsection 3235-a of the insurance law relating to claims for early intervention\nprogram services; relates to special education services and programs for\npreschool children with handicapping conditions; and repeals subdivision 18 of\nsection 4403 of the education law, relating to the power of the education\ndepartment to approve the provision of early intervention services (Part A);\nrelates to funding and operations of the Roswell Park Cancer Institute (Part\nB); establishes the supportive housing development reinvestment program;\nrelates to applicability of the assisted living program; includes podiatry\nservices and lactation services under the term medical assistance; relates to\ncomprehensive HIV special needs plan, in relation to HEAL-NY, and in relation\nto the EQUAL program; relates to education, outreach services and facilitated\nenrollment activities for certain aged, blind and disabled persons; expands\nprenatal care programs, establishes the primary care service corps practitioner\nloan repayment program, authorizes moneys in the medical indemnity fund to be\ninvested in obligations of the United States or the state or obligations where\nthe principal and interest are guaranteed by the United States or the state and\nmoneys distributed as non-Medicaid grants to non-major public academic medical\ncenters; relates to the powers of the dormitory authority; directs a workgroup\non medically fragile children; relates to notice requirement for preferred drug\nprogram, payment to the commissioner of health by third-party payors, audit of\npayments to the commissioner of health, electronic submission of reports by\nhospitals, and changing the definition of eligible applicant; relates to\nmedical assistance where relative is absent or refuses or fails to provide\nnecessary care; relates to third-party payor's election to make payments;\nrelates to reserved bed days; relates to the personal care services worker\nrecruitment and retention program; relates to the tobacco control and insurance\ninitiatives pool distributions; relates to certain public school districts and\nstate operated/state supported schools; relates to the licensure of home care\nservices agencies; relates to managed care programs; relates to the\ndistribution of the professional education pools; relates to the powers and\nduties of the dormitory authority of the state of New York relative to the\nestablishment of subsidiaries for certain purposes, in relation to the\neffectiveness thereof; relates to costs incurred in excess of revenues by\ngeneral hospitals in providing services in eligible programs to uninsured\npatients and patients eligible for Medicaid assistance; relates to the\neffectiveness of known and projected department of health state funds Medicaid\nexpenditures; relates to certain payments with regard to local governments;\nrelates to Medicaid reimbursement; and repeals certain provisions of the public\nhealth law relating thereto (Part D); relates to an administrative cap on\nreimbursements for expenditures made by or on behalf of social services\ndistricts for medical assistance for needy persons and the administration\nthereof; relates to general hospital reimbursement for annual rates, in\nrelation to the cap on local Medicaid expenditures; relates to the department\nassumption of program administration for medical assistance; and provides for\nthe repeal of certain provisions of the social services law upon expiration\nthereof (Part F); relates to the regulations for computing hospital inpatient\nrates and to the effectiveness of the preferred drug program (Part G);\nestablishes a cost of living adjustment for designated human services programs,\nin relation to foregoing such adjustment during the 2012-2013 state fiscal year\n(Part H); relates to the office for people with developmental disabilities and\nthe creation of developmental disabilities regional offices and state\noperations offices; and provides for the repeal of certain provisions upon\nexpiration thereof (Part J); extends certain provisions relating to\ncomprehensive psychiatric emergency programs (Part K); permits the\ncommissioners of the department of health, the office of mental health, the\noffice of alcoholism and substance abuse services and the office for people\nwith developmental disabilities the regulatory flexibility to more efficiently\nand effectively integrate health and behavioral health services (Part L);\nauthorizes contracts for the provision of special education and related\nservices for certain patients hospitalized in hospitals operated by the office\nof mental health and provides for the repeal of such provisions upon expiration\nthereof (Part M); relates to the statewide comprehensive services plan for\npeople with mental disabilities and in relation to the local planning process;\nand repeals certain provisions of the mental hygiene law relating thereto (Part\nN); relates to the closure and the reduction in size of certain facilities\nserving persons with mental illness; and provides for the repeal of such\nprovisions upon expiration thereof (Part O); amends procedures under the sex\noffender management and treatment act (Part P); provides for outpatient\ncapacity restoration of felony defendants at article 28 hospitals (Part Q);\nrelates to the effectiveness of provisions related to the recovery of exempt\nincome by the office of mental health for community residences and family-based\ntreatment programs (Part R); relates to the excess medical malpractice\nliability coverage pool (Part S); and relates to the program for elderly\npharmaceutical insurance coverage; and repeals certain provisions of such law\nrelating thereto (Part T).", 
     "title": "Enacts into law major components of legislation necessary to implement the health and mental hygiene budget for the 2012-2013 state fiscal plan", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-28 00:53:24", 
+    "updated_at": "2012-10-16 17:59:14", 
     "versions": [
         {
-            "doc_id": "NYD00021644", 
+            "doc_id": "NYD00050680", 
             "mimetype": "text/html", 
             "name": "S6256", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S6256-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6256"
+        }, 
+        {
+            "doc_id": "NYD00050681", 
+            "mimetype": "text/html", 
+            "name": "S6256", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6256-2011"
+        }, 
+        {
+            "doc_id": "NYD00050682", 
+            "mimetype": "text/html", 
+            "name": "S6256A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6256A-2011"
+        }, 
+        {
+            "doc_id": "NYD00050683", 
+            "mimetype": "text/html", 
+            "name": "S6256B", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6256B-2011"
+        }, 
+        {
+            "doc_id": "NYD00050684", 
+            "mimetype": "text/html", 
+            "name": "S6256C", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6256C-2011"
+        }, 
+        {
+            "doc_id": "NYD00050685", 
+            "mimetype": "text/html", 
+            "name": "S6256D", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6256D-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00021083", 
+            "chamber": "upper", 
+            "date": "2012-03-29 00:00:00", 
+            "id": "NYV00003633", 
+            "motion": "Finance Committee Vote", 
+            "no_count": 2, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }, 
+                {
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
+                }
+            ], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NYL000042", 
+                    "name": "Oppenheimer"
+                }
+            ], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S6256D-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00003633", 
+            "yes_count": 32, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000009", 
+                    "name": "DeFrancisco"
+                }, 
+                {
+                    "leg_id": "NYL000025", 
+                    "name": "Johnson"
+                }, 
+                {
+                    "leg_id": "NYL000003", 
+                    "name": "Alesi"
+                }, 
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000014", 
+                    "name": "Farley"
+                }, 
+                {
+                    "leg_id": "NYL000015", 
+                    "name": "Flanagan"
+                }, 
+                {
+                    "leg_id": "NYL000016", 
+                    "name": "Fuschillo"
+                }, 
+                {
+                    "leg_id": "NYL000019", 
+                    "name": "Golden"
+                }, 
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000022", 
+                    "name": "Hannon"
+                }, 
+                {
+                    "leg_id": "NYL000030", 
+                    "name": "Lanza"
+                }, 
+                {
+                    "leg_id": "NYL000031", 
+                    "name": "Larkin"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }, 
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000049", 
+                    "name": "Robach"
+                }, 
+                {
+                    "leg_id": "NYL000050", 
+                    "name": "Saland"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000007", 
+                    "name": "Breslin"
+                }, 
+                {
+                    "leg_id": "NYL000011", 
+                    "name": "Dilan"
+                }, 
+                {
+                    "leg_id": "NYL000018", 
+                    "name": "Gianaris"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }, 
+                {
+                    "leg_id": "NYL000044", 
+                    "name": "Peralta"
+                }, 
+                {
+                    "leg_id": "NYL000058", 
+                    "name": "Stavisky"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
+                }, 
+                {
+                    "leg_id": "NYL000057", 
+                    "name": "Squadron"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }, 
+                {
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }, 
+                {
+                    "leg_id": "NYL000048", 
+                    "name": "Rivera"
+                }
+            ]
+        }
+    ]
 }

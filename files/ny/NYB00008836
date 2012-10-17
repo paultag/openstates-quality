@@ -12,7 +12,13 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-10 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -21,7 +27,13 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -35,9 +47,9 @@
     "created_at": "2011-05-05 01:29:55", 
     "documents": [
         {
-            "doc_id": "NYD00046274", 
+            "doc_id": "NYD00095553", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1559&term=&Memo=Y"
         }
     ], 
     "id": "NYB00008836", 
@@ -48,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=617"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1559&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1559&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1559-2011"
@@ -58,31 +73,31 @@
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000123", 
             "name": "Hooper", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000152", 
             "name": "McEneny", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000184", 
             "name": "Robinson", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000091", 
-            "name": "Cook", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -90,12 +105,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Requires persons who sell or distribute genetically engineered plants, planting\nstock or seeds to provide written instructions to purchasers or growers of such\nstock.", 
     "title": "Requires manufacturers of genetically engineered plants to be liable for damages due to cross-contamination", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:31", 
+    "updated_at": "2012-10-16 18:09:23", 
     "versions": [
+        {
+            "doc_id": "NYD00095552", 
+            "mimetype": "text/html", 
+            "name": "A1559", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1559"
+        }, 
         {
             "doc_id": "NYD00026702", 
             "mimetype": "text/html", 

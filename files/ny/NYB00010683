@@ -11,14 +11,22 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2011-07-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,9 +35,16 @@
     "alternate_titles": [], 
     "bill_id": "A 3343", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:02", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096111", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3343&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010683", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +53,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=707"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3343&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3343&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3343-2011"
@@ -48,6 +66,7 @@
         {
             "leg_id": "NYL000124", 
             "name": "Hoyt", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,12 +74,19 @@
     "subjects": [
         "Judiciary"
     ], 
+    "summary": "Authorizes an additional part-time housing court judge for the city of Buffalo.", 
     "title": "Authorizes an additional housing court judge for the city of Buffalo", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-15 01:11:48", 
+    "updated_at": "2012-10-16 18:09:28", 
     "versions": [
+        {
+            "doc_id": "NYD00096110", 
+            "mimetype": "text/html", 
+            "name": "A3343", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3343"
+        }, 
         {
             "doc_id": "NYD00039463", 
             "mimetype": "text/html", 

@@ -11,25 +11,46 @@
             "action": "referred to children and families", 
             "actor": "lower", 
             "date": "2011-04-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000044", 
+                    "name": "children and families", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to children and families", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000044", 
+                    "name": "children and families", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7032", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:19", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00102694", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7032&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014560", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=936"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7032&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7032&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7032-2011"
@@ -48,19 +72,45 @@
         {
             "leg_id": "NYL000190", 
             "name": "Scarborough", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000083", 
+            "name": "Camara", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000172", 
+            "name": "Pheffer", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Relates to state reimbursement for alternative to detention and alternative to\nplacement programs for juveniles; creates a per diem account and requires\ncomprehensive plans and outcome reporting.", 
     "title": "Relates to funding for alternative-to-detention and alternative-to-placement programs for juveniles; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:34", 
+    "updated_at": "2012-10-16 18:11:18", 
     "versions": [
+        {
+            "doc_id": "NYD00102693", 
+            "mimetype": "text/html", 
+            "name": "A7032", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7032"
+        }, 
         {
             "doc_id": "NYD00034049", 
             "mimetype": "text/html", 

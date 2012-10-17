@@ -11,25 +11,46 @@
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2011-02-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4712", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:09", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00093282", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4712&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012128", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=743"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4712&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4712&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4712-2011"
@@ -48,6 +72,7 @@
         {
             "leg_id": "NYL000177", 
             "name": "Ramos", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,17 +80,24 @@
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Directs the department of state to establish and maintain a statewide registry\nof mental hygiene and child supervision residential facilities which shall\ninclude residential facilities for juvenile delinquents and persons in need of\nsupervision subject to the supervision of the office of children and family\nservices, for the mentally ill subject to the supervision of the office of\nmental health, for the mentally retarded and developmentally disabled subject\nto the supervision of the office of mental retardation and developmental\ndisabilities, and for the chemically dependent subject to the supervision of\nthe office of alcoholism and substance abuse services.", 
     "title": "Directs the department of state to establish a statewide registry of mental hygiene and child supervision residential facilities", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-09 01:16:59", 
+    "updated_at": "2012-10-16 18:08:56", 
     "versions": [
         {
-            "doc_id": "NYD00004645", 
+            "doc_id": "NYD00093280", 
             "mimetype": "text/html", 
             "name": "A4712", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4712-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4712"
+        }, 
+        {
+            "doc_id": "NYD00093281", 
+            "mimetype": "text/html", 
+            "name": "A4712", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4712-2011"
         }
     ], 
     "votes": []

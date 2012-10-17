@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-05 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-03-12 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,8 +11,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,37 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
+            "actor": "upper", 
+            "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
+            "actor": "upper", 
+            "date": "2012-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +65,23 @@
     "alternate_titles": [], 
     "bill_id": "S 427", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 4615", 
+            "chamber": null, 
+            "internal_id": "NYB00012030", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:16", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00065406", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S427-2011"
+        }
+    ], 
     "id": "NYB00000421", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +90,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=25"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S427&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S427&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S427-2011"
@@ -49,24 +103,56 @@
         {
             "leg_id": "NYL000028", 
             "name": "KRUEGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000001", 
+            "name": "ADAMS", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000002", 
+            "name": "ADDABBO", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000012", 
+            "name": "DUANE", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000058", 
+            "name": "STAVISKY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Prohibits any person from transporting, holding, buying, selling, giving,\nreceiving or marketing a nonambulatory animal unless such animal is first\nhumanely euthanized without undue delay from the time that such animal becomes\nnonambulatory; makes certain exceptions; provides violation provisions; and\ndefines relevant terms.", 
     "title": "Prohibits any person from transporting or selling a nonambulatory animal unless such animal is humanely euthanized", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-14 06:41:01", 
+    "updated_at": "2012-10-16 18:03:05", 
     "versions": [
         {
-            "doc_id": "NYD00018931", 
+            "doc_id": "NYD00065404", 
             "mimetype": "text/html", 
             "name": "S427", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S427-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S427"
+        }, 
+        {
+            "doc_id": "NYD00065405", 
+            "mimetype": "text/html", 
+            "name": "S427", 
+            "url": "http://open.nysenate.gov/legislation/bill/S427-2011"
         }
     ], 
     "votes": []

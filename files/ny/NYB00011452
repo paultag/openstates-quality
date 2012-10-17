@@ -11,41 +11,76 @@
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2011-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4050", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:05", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00098434", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4050&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011452", 
     "level": "state", 
     "scraped_subjects": [
@@ -54,7 +89,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=635"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4050&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4050&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4050-2011"
@@ -64,24 +102,74 @@
         {
             "leg_id": "NYL000102", 
             "name": "Englebright", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000167", 
+            "name": "Ortiz", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000191", 
+            "name": "Schimel", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000171", 
+            "name": "Perry", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Health"
     ], 
+    "summary": "Establishes standards for farm worker protection at any agricultural site where\npesticides have been or will be applied; requires mandatory testing for\npesticides; requires personal protective equipment to be provided to workers;\nprovides education to workers and their families about the hazards of\npesticides; requires additional on-site protective measures; requires the\ndepartment of health to issue an annual report of all farm inspections on or\nbefore March first to the governor and legislature.", 
     "title": "Makes provisions for farm worker protections from pesticides", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-16 06:31:28", 
+    "updated_at": "2012-10-16 18:10:07", 
     "versions": [
         {
-            "doc_id": "NYD00003830", 
+            "doc_id": "NYD00098432", 
             "mimetype": "text/html", 
             "name": "A4050", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4050-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4050"
+        }, 
+        {
+            "doc_id": "NYD00098433", 
+            "mimetype": "text/html", 
+            "name": "A4050", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4050-2011"
         }
     ], 
     "votes": []

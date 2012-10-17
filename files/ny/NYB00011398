@@ -12,86 +12,149 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-02-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4009"
+            ], 
             "action": "print number 4009a", 
             "actor": "lower", 
             "date": "2011-02-25 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-03-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4009"
+            ], 
             "action": "print number 4009b", 
             "actor": "lower", 
             "date": "2011-03-04 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4009"
+            ], 
             "action": "print number 4009c", 
             "actor": "lower", 
             "date": "2011-03-12 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4009"
+            ], 
             "action": "print number 4009d", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -100,14 +163,19 @@
             "action": "rules report cal.17", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s2809"
+            ], 
             "action": "substituted by s2809d", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -116,9 +184,23 @@
     "alternate_titles": [], 
     "bill_id": "A 4009", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2809", 
+            "chamber": null, 
+            "internal_id": "NYB00002934", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:05", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00086922", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4009&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011398", 
     "level": "state", 
     "scraped_subjects": [
@@ -127,16 +209,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=759"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4009&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A4009-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4009&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4009D&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A4009D-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": null, 
             "name": "Budget", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -144,12 +233,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Relates to Medicare part D; relates to early intervention services; relates to\ntobacco control and insurance initiatives pool distributions; relates to\nclinical laboratories; relates to the distribution of HEAL NY capital grants;\nextends numerous provisions of law; repeals provisions of law relating to\nelderly pharmaceutical insurance; relates to rates of payment and medical\nassistance; relates to the distribution of pool allocations and graduate\nmedical education; relates to health care initiative pool distributions;\nextends payment provisions for general hospitals; extends access to community\nhealth care services in rural areas; continues the priority restoration\nadjustment; relates to medical and professional malpractice insurance; relates\nto the liquidation of domestic insurers; relates to rates of payment for\npersonal care service providers, residential health care facilities and\ndiagnostic and treatment centers; relates to payments to residential health\ncare facilities and other reimbursements; authorizes bad debt and charity care\nallowances for certified home health agencies; relates to capital related\ninpatient expenses; relates to rates of payment for long term home health care\nprograms; relates to the effectiveness of the child health insurance plan;\nrelates to the suspension of eligibility for medical assistance; foregoes\ncertain adjustments during the 2011-2012 state fiscal year; relates to the\nclosure and the reduction in size of certain facilities serving persons with\nmental illness; relates to general hospital inpatient reimbursement for annual\nrates; establishes ceiling limitations for certain rates of payment; repeals\ncertain provisions of the social services law relating to prescription drug\npayments; initiates a study to determine costs incurred by public school\ndistricts for certain medical care, services and supplies; relates to the\ncalculation of capital costs; relates to the HIV special needs plan; relates to\nthe pharmacy and therapeutics committee and the preferred drug program; relates\nto covered part D drugs, limited coverage for formula therapy, prescription\nfootwear, speech therapy, physical therapy and occupational therapy, payment\nfor home health care nursing services, and coverage for smoking cessation\ncounseling services, the furnishing of medical assistance to applicants with\nresponsible relatives, and mail order prescriptions; relates to the\ncommissioner of health's authority to negotiate agreements resolving multiple\npending rate appeals; relates to diagnostic care centers; relates to temporary\noperator certificates for general hospitals or diagnostic and treatment\ncenters; relates to health home services; relates to managed long term care\nplans and residential health care facilities; relates to insurance co-payments;\nprovides palliative care support for patients with advanced life limiting\nconditions and illnesses; relates to the provision of home health care\nservices; establishes a workgroup to develop a plan and draft legislation for\nthe purpose of operating and managing public nursing homes; encourages\ncooperative, collaborative and integrative arrangements between health care\nproviders, payers, and others; relates to the definition of estate; relates to\nthe New York state medical indemnity fund and the New York state hospital\nquality initiative; requires compliance with operational standards by hospitals\nand providers of services in hospitals; creates an accountable care\norganization demonstration program; limits the reporting of death by the\noperator of an adult home or residence; requires preclaim review for\nparticipating providers of medical assistance program items and services;\nrelates to seeking federal approvals to establish payment methodologies with\naccountable care organizations; relates to medical assistance for needy\npersons; relates to the character and adequacy of assistance; relates to\nresidential health care facility supplemental payments, non-capital components\nof rates, and temporary nursing home stability contributions; authorizes the\ncommissioner of health to enter into contracts for purposes of the Early\nInnovator federal grant award; and relates to applications for orders of\nrehabilitation or liquidation.", 
     "title": "Enacts into law major components of legislation necessary to implement the health and mental hygiene budget for the 2011-2012 state fiscal plan", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-27 21:39:43", 
+    "updated_at": "2012-10-16 18:07:10", 
     "versions": [
+        {
+            "doc_id": "NYD00086921", 
+            "mimetype": "text/html", 
+            "name": "A4009", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4009"
+        }, 
         {
             "doc_id": "NYD00026841", 
             "mimetype": "text/html", 

@@ -14,8 +14,14 @@
             "action": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,40 +29,69 @@
             "action": "AMEND AND RECOMMIT TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5410"
+            ], 
             "action": "PRINT NUMBER 5410A", 
             "actor": "upper", 
             "date": "2011-05-25 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "AMEND AND RECOMMIT TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2011-06-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5410"
+            ], 
             "action": "PRINT NUMBER 5410B", 
             "actor": "upper", 
             "date": "2011-06-01 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -65,9 +100,23 @@
     "alternate_titles": [], 
     "bill_id": "S 5410", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 7861", 
+            "chamber": null, 
+            "internal_id": "NYB00016615", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-19 06:39:14", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00051911", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5410B-2011"
+        }
+    ], 
     "id": "NYB00016480", 
     "level": "state", 
     "scraped_subjects": [
@@ -76,29 +125,49 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=367"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5410&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S5410-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5410&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5410B&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S5410B-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000017", 
             "name": "GALLIVAN", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000061", 
+            "name": "YOUNG", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Imposes a real estate transfer tax in the county of Livingston equivalent to\none dollar for every five hundred dollars or fractional part thereof.", 
     "title": "Relates to a real estate transfer tax in the county of Livingston", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-27 21:39:36", 
+    "updated_at": "2012-10-16 17:59:38", 
     "versions": [
+        {
+            "doc_id": "NYD00051910", 
+            "mimetype": "text/html", 
+            "name": "S5410", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5410"
+        }, 
         {
             "doc_id": "NYD00041525", 
             "mimetype": "text/html", 

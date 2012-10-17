@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-08 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-05-16 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,25 +11,61 @@
             "action": "referred to tourism, parks, arts and sports development", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000073", 
+                    "name": "tourism, parks, arts and sports development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to tourism, parks, arts and sports development", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000073", 
+                    "name": "tourism, parks, arts and sports development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "held for consideration in tourism, parks, arts and sports development", 
+            "actor": "lower", 
+            "date": "2012-05-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000073", 
+                    "name": "tourism, parks, arts and sports development", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4792", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:09", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00097055", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4792&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012211", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=748"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4792&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4792&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4792-2011"
@@ -48,24 +87,56 @@
         {
             "leg_id": "NYL000068", 
             "name": "Barclay", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000134", 
+            "name": "Kolb", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000201", 
+            "name": "Tenney", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000094", 
+            "name": "Crouch", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000188", 
+            "name": "Saladino", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Commerce"
     ], 
+    "summary": "Creates a temporary state commission on tourism in central New York to study\nand prepare a sound business plan to develop a state-of-the-art transportation\nsystem to link community assets, and makes an appropriation therefor; the study\nshall include examination of the feasibility of developing a light rail system\nto connect Syracuse Hancock International Airport, the William F. Walsh\nTransportation Center, Syracuse University, DestiNY USA, ONCenter, and downtown\nSyracuse.", 
     "title": "Creates a temporary state commission on tourism in central New York; appropriation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-10 01:06:17", 
+    "updated_at": "2012-10-16 18:09:49", 
     "versions": [
         {
-            "doc_id": "NYD00004750", 
+            "doc_id": "NYD00097053", 
             "mimetype": "text/html", 
             "name": "A4792", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4792-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4792"
+        }, 
+        {
+            "doc_id": "NYD00097054", 
+            "mimetype": "text/html", 
+            "name": "A4792", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4792-2011"
         }
     ], 
     "votes": []

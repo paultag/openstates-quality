@@ -11,25 +11,46 @@
             "action": "referred to codes", 
             "actor": "lower", 
             "date": "2011-01-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to codes", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1836", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:56", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00089650", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1836&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009116", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=576"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1836&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1836&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1836-2011"
@@ -48,6 +72,7 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,17 +80,24 @@
     "subjects": [
         "Crime"
     ], 
+    "summary": "Recodifies the animal cruelty laws from the agriculture and markets law to the\npenal law and reclassifies certain penalties within.", 
     "title": "Recodifies the animal cruelty laws from the agriculture and markets law to the penal law and reclassifies certain penalties within; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-04 01:11:57", 
+    "updated_at": "2012-10-16 18:07:54", 
     "versions": [
         {
-            "doc_id": "NYD00001031", 
+            "doc_id": "NYD00089648", 
             "mimetype": "text/html", 
             "name": "A1836", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1836-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1836"
+        }, 
+        {
+            "doc_id": "NYD00089649", 
+            "mimetype": "text/html", 
+            "name": "A1836", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1836-2011"
         }
     ], 
     "votes": []

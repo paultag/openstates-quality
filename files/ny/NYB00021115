@@ -11,22 +11,34 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-17 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2012-03-20 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2012-03-20 00:00:00", 
             "related_entities": [], 
@@ -44,6 +56,9 @@
             ]
         }, 
         {
+            "+bill_id": [
+                "s6252"
+            ], 
             "action": "substituted by s6252", 
             "actor": "lower", 
             "date": "2012-03-20 00:00:00", 
@@ -66,7 +81,13 @@
     ], 
     "country": "us", 
     "created_at": "2012-01-18 07:00:24", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104509", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9052&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00021115", 
     "level": "state", 
     "scraped_subjects": [
@@ -75,7 +96,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1078"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9052&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9052&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9052-2011"
@@ -85,7 +109,7 @@
         {
             "leg_id": null, 
             "name": "Budget", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -93,12 +117,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Makes appropriations for the support of government - State Debt Service Budget.", 
     "title": "DEBT SERVICE FUND", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-28 09:56:16", 
+    "updated_at": "2012-10-16 18:11:52", 
     "versions": [
+        {
+            "doc_id": "NYD00104508", 
+            "mimetype": "text/html", 
+            "name": "A9052", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9052"
+        }, 
         {
             "doc_id": "NYD00045062", 
             "mimetype": "text/html", 

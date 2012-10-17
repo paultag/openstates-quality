@@ -4,7 +4,7 @@
     ], 
     "action_dates": {
         "first": "2011-05-19 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-06-19 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -14,41 +14,96 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-06-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "7861"
+            ], 
             "action": "print number 7861a", 
             "actor": "lower", 
             "date": "2011-06-06 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "held for consideration in ways and means", 
+            "actor": "lower", 
+            "date": "2012-06-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7861", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 5410", 
+            "chamber": null, 
+            "internal_id": "NYB00016480", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-20 06:39:12", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00087884", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7861&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00016615", 
     "level": "state", 
     "scraped_subjects": [
@@ -57,16 +112,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=994"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7861&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A7861-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7861&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7861A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A7861A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000079", 
             "name": "Burling", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -74,12 +136,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
-    "title": "Imposes a real estate transfer tax in the county of Livingston", 
+    "summary": "Imposes a real estate transfer tax in the county of Livingston equivalent to\none dollar for every five hundred dollars or fractional part thereof.", 
+    "title": "Relates to a real estate transfer tax in the county of Livingston", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:35", 
+    "updated_at": "2012-10-16 18:07:22", 
     "versions": [
+        {
+            "doc_id": "NYD00087883", 
+            "mimetype": "text/html", 
+            "name": "A7861", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7861"
+        }, 
         {
             "doc_id": "NYD00037005", 
             "mimetype": "text/html", 

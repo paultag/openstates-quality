@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-05-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,16 @@
     "alternate_titles": [], 
     "bill_id": "S 5147", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:39", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00058481", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5147-2011"
+        }
+    ], 
     "id": "NYB00005409", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=345"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5147&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5147&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S5147-2011"
@@ -49,6 +72,7 @@
         {
             "leg_id": "NYL000061", 
             "name": "YOUNG", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -57,12 +81,19 @@
         "Housing and Property", 
         "Legal Issues"
     ], 
+    "summary": "Provides for the decontrol of housing accommodations upon vaccancy when the\nlegal regulated rent is $1,500 or more.", 
     "title": "Provides for the decontrol of housing accommodations upon vaccancy when the legal regulated rent is $1,500 or more", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:17", 
+    "updated_at": "2012-10-16 18:01:11", 
     "versions": [
+        {
+            "doc_id": "NYD00058480", 
+            "mimetype": "text/html", 
+            "name": "S5147", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5147"
+        }, 
         {
             "doc_id": "NYD00026142", 
             "mimetype": "text/html", 

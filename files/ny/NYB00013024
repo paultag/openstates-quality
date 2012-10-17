@@ -14,41 +14,81 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-02-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to housing", 
             "actor": "lower", 
             "date": "2012-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5567"
+            ], 
             "action": "print number 5567a", 
             "actor": "lower", 
             "date": "2012-02-01 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5567", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 5057", 
+            "chamber": null, 
+            "internal_id": "NYB00005319", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:12", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00098755", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5567&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013024", 
     "level": "state", 
     "scraped_subjects": [
@@ -57,29 +97,85 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=843"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5567&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A5567-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5567&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5567A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A5567A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000136", 
             "name": "Latimer", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000186", 
+            "name": "Rosenthal", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000126", 
+            "name": "Jaffee", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000132", 
+            "name": "Kellner", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000171", 
+            "name": "Perry", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Establishes the rent board reform act of 2012; establishes rent adjustments,\nand removes certain provisions relating to vacancy leases.", 
     "title": "Establishes rent adjustments; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:33", 
+    "updated_at": "2012-10-16 18:10:11", 
     "versions": [
+        {
+            "doc_id": "NYD00098754", 
+            "mimetype": "text/html", 
+            "name": "A5567", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5567"
+        }, 
         {
             "doc_id": "NYD00034801", 
             "mimetype": "text/html", 

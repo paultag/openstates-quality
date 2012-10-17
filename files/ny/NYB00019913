@@ -11,18 +11,30 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-10-14 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -32,7 +44,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-10-15 06:47:49", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104707", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8659&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00019913", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1059"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8659&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8659&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8659-2011"
@@ -51,7 +72,7 @@
         {
             "leg_id": "NYL000157", 
             "name": "Miller M", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +80,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Requires the owners of multiple dwellings with at least seven units, to\nprovide, install and maintain screens for every window in a residential unit of\nsuch dwelling.", 
     "title": "Requires the owners of certain multiple dwellings to provide, install and maintain screens for every window in a residential unit of such dwelling", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 20:29:19", 
+    "updated_at": "2012-10-16 18:11:54", 
     "versions": [
+        {
+            "doc_id": "NYD00104706", 
+            "mimetype": "text/html", 
+            "name": "A8659", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8659"
+        }, 
         {
             "doc_id": "NYD00044860", 
             "mimetype": "text/html", 

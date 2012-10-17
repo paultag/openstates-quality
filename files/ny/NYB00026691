@@ -11,17 +11,31 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 10482", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-06-11 15:59:59", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00105076", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10482&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00026691", 
     "level": "state", 
     "scraped_subjects": [
@@ -30,7 +44,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1144"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10482&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10482&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A10482-2011"
@@ -40,6 +57,7 @@
         {
             "leg_id": "NYL000181", 
             "name": "Rivera N", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -47,12 +65,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Relates to posting sanitary inspections on the doors of retail food stores.", 
     "title": "Relates to posting sanitary inspections on the doors of retail food stores", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-13 01:12:00", 
+    "updated_at": "2012-10-16 18:11:59", 
     "versions": [
+        {
+            "doc_id": "NYD00105075", 
+            "mimetype": "text/html", 
+            "name": "A10482", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10482"
+        }, 
         {
             "doc_id": "NYD00037138", 
             "mimetype": "text/html", 

@@ -14,8 +14,14 @@
             "action": "REFERRED TO RULES", 
             "actor": "upper", 
             "date": "2011-06-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,13 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -31,6 +44,7 @@
             "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
             "actor": "upper", 
             "date": "2012-03-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -39,17 +53,31 @@
             "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2012-03-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 5842", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-06-24 07:47:43", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00049338", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5842-2011"
+        }
+    ], 
     "id": "NYB00019573", 
     "level": "state", 
     "scraped_subjects": [
@@ -58,7 +86,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=388"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5842&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5842&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S5842-2011"
@@ -68,6 +99,7 @@
         {
             "leg_id": "NYL000013", 
             "name": "ESPAILLAT", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -75,12 +107,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Relates to fees collected for animal licenses; makes technical corrections\nrelating thereto.", 
     "title": "Relates to fees collected for animal licenses", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-25 01:13:02", 
+    "updated_at": "2012-10-16 17:58:58", 
     "versions": [
+        {
+            "doc_id": "NYD00049337", 
+            "mimetype": "text/html", 
+            "name": "S5842", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5842"
+        }, 
         {
             "doc_id": "NYD00030496", 
             "mimetype": "text/html", 

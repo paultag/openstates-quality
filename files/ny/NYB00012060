@@ -11,25 +11,46 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-02-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4645", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:08", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00106729", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4645&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012060", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=737"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4645&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4645&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4645-2011"
@@ -48,24 +72,68 @@
         {
             "leg_id": "NYL000083", 
             "name": "Camara", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000086", 
+            "name": "Castro", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000127", 
+            "name": "Jeffries", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Provides that civil penalties may be levied against an owner who intentionally\nwithholds a housing accommodation from the market, including for the purpose of\nfuture co-operative conversion.", 
     "title": "Prohibits warehousing of housing accommodations and harassment of tenants; provides penalties therefor", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-05 01:07:18", 
+    "updated_at": "2012-10-16 18:12:17", 
     "versions": [
         {
-            "doc_id": "NYD00004564", 
+            "doc_id": "NYD00106727", 
             "mimetype": "text/html", 
             "name": "A4645", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4645-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4645"
+        }, 
+        {
+            "doc_id": "NYD00106728", 
+            "mimetype": "text/html", 
+            "name": "A4645", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4645-2011"
         }
     ], 
     "votes": []

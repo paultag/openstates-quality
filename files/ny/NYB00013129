@@ -12,45 +12,74 @@
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2011-02-25 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to environmental conservation", 
             "actor": "lower", 
             "date": "2012-03-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5670"
+            ], 
             "action": "print number 5670a", 
             "actor": "lower", 
             "date": "2012-03-02 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5670", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:12", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00083362", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5670&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013129", 
     "level": "state", 
     "scraped_subjects": [
@@ -59,17 +88,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=859"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5670&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A5670-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5670&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5670A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A5670A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000202", 
             "name": "Thiele", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -77,12 +112,19 @@
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Prohibits the application of lawn fertilizers that are labeled as containing\nmore than zero percent phosphorous to any watersheds and drainage basins in\ncertain counties where the county legislature has passed a local law relating\nthereto.", 
     "title": "Prohibits the application of certain lawn fertilizers to any watersheds and drainage basins in certain counties", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-28 02:50:03", 
+    "updated_at": "2012-10-16 18:06:13", 
     "versions": [
+        {
+            "doc_id": "NYD00083361", 
+            "mimetype": "text/html", 
+            "name": "A5670", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5670"
+        }, 
         {
             "doc_id": "NYD00028476", 
             "mimetype": "text/html", 

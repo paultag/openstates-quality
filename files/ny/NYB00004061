@@ -12,9 +12,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-03-07 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -22,7 +27,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -31,9 +42,16 @@
     "alternate_titles": [], 
     "bill_id": "S 3855", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:31", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00056566", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3855-2011"
+        }
+    ], 
     "id": "NYB00004061", 
     "level": "state", 
     "scraped_subjects": [
@@ -42,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=252"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3855&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3855&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S3855-2011"
@@ -52,19 +73,19 @@
         {
             "leg_id": "NYL000042", 
             "name": "OPPENHEIMER", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000010", 
             "name": "DIAZ", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000028", 
             "name": "KRUEGER", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -72,12 +93,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Provides that an owner of housing units in NYC, Westchester, Nassau and\nRockland counties who fails to register a rent stabilized housing accommodation\nas otherwise required by the Emergency Tenant Protection Act or the Rent\nStabilization Law shall be prohibited from collecting any rent therefor during\nthe time when it is unregistered with the state division of housing and\ncommunity renewal.", 
     "title": "Prohibits collection of rent by unit owner for period such unit is unregistered pursuant to ETPA or Rent Stabilization Law; repeals inconsistent provision", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-28 02:49:47", 
+    "updated_at": "2012-10-16 18:00:48", 
     "versions": [
+        {
+            "doc_id": "NYD00056565", 
+            "mimetype": "text/html", 
+            "name": "S3855", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3855"
+        }, 
         {
             "doc_id": "NYD00042105", 
             "mimetype": "text/html", 

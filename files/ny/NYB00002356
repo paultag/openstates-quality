@@ -11,8 +11,14 @@
             "action": "REFERRED TO BANKS", 
             "actor": "upper", 
             "date": "2011-01-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000004", 
+                    "name": "BANKS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -20,9 +26,16 @@
     "alternate_titles": [], 
     "bill_id": "S 2290", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:24", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00052116", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2290-2011"
+        }
+    ], 
     "id": "NYB00002356", 
     "level": "state", 
     "scraped_subjects": [
@@ -31,7 +44,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=138"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2290&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2290&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S2290-2011"
@@ -41,6 +57,7 @@
         {
             "leg_id": "NYL000029", 
             "name": "KRUGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -49,17 +66,24 @@
         "Commerce", 
         "Legal Issues"
     ], 
+    "summary": "Directs the superintendent of banks to consider a banking institution's\norigination history for certain reverse mortgage loans to a mortgagor or\nmortgagors whose income does not exceed 80% of the median income of the county\nof residence when assessing its performance records in meeting credit needs of\nlocal communities.", 
     "title": "Makes provision regarding credit needs of local communities", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-14 06:27:56", 
+    "updated_at": "2012-10-16 17:59:44", 
     "versions": [
         {
-            "doc_id": "NYD00016018", 
+            "doc_id": "NYD00052114", 
             "mimetype": "text/html", 
             "name": "S2290", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S2290-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2290"
+        }, 
+        {
+            "doc_id": "NYD00052115", 
+            "mimetype": "text/html", 
+            "name": "S2290", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2290-2011"
         }
     ], 
     "votes": []

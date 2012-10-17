@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-01-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -20,9 +26,16 @@
     "alternate_titles": [], 
     "bill_id": "S 2091", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:23", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00055938", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2091-2011"
+        }
+    ], 
     "id": "NYB00002154", 
     "level": "state", 
     "scraped_subjects": [
@@ -31,7 +44,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=131"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2091&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2091&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S2091-2011"
@@ -41,6 +57,7 @@
         {
             "leg_id": "NYL000029", 
             "name": "KRUGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -48,12 +65,19 @@
     "subjects": [
         "Business and Consumers"
     ], 
+    "summary": "Provides that a non-eviction plan submitted for conversion of dwelling units to\ncooperative or condominium ownership shall not be declared effective until at\nleast 25% of the tenants shall have executed and delivered written agreement to\npurchase under such plan; requires a sponsor of a conversion to cooperative or\ncondominium ownership to provide a reserve fund of at least 5% of the total\noffering price to be used exclusively for capital repairs, replacements or\nimprovements; requires building to be certified in writing by municipality that\nsuch building is free of building or housing code violations prior to approval\nor acceptance for filing of plan; defines \"vacancies\" to mean dwelling units\nnot occupied on a date that is 110 days after the date the offering was first\nsubmitted to the attorney general; defines \"excessive\" to mean a vacancy rate\nin excess of 5% of the total number of dwelling units in the building; makes\nother related changes; requires that the board of directors or board of\nmanagers of a converted cooperative or condominium shall be comprised of a\nmajority of members elected by shareholders or owners in occupancy; requires\npurchasers of occupied units to sign affidavit of rent regulatory compliance.", 
     "title": "Provides omnibus co-op or condominium conversion requirements, including existing tenants right to purchase and capital replacement reserve fund", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-06 01:16:55", 
+    "updated_at": "2012-10-16 18:00:31", 
     "versions": [
+        {
+            "doc_id": "NYD00055937", 
+            "mimetype": "text/html", 
+            "name": "S2091", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2091"
+        }, 
         {
             "doc_id": "NYD00035634", 
             "mimetype": "text/html", 

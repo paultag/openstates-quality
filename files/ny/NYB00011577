@@ -11,7 +11,13 @@
             "action": "referred to insurance", 
             "actor": "lower", 
             "date": "2011-02-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000061", 
+                    "name": "insurance", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "referred to insurance", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000061", 
+                    "name": "insurance", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -34,9 +46,9 @@
     "created_at": "2011-05-05 01:30:06", 
     "documents": [
         {
-            "doc_id": "NYD00047063", 
+            "doc_id": "NYD00102510", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4173&term=&Memo=Y"
         }
     ], 
     "id": "NYB00011577", 
@@ -47,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=770"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4173&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4173&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4173-2011"
@@ -57,13 +72,13 @@
         {
             "leg_id": "NYL000068", 
             "name": "Barclay", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000201", 
             "name": "Tenney", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -71,12 +86,19 @@
     "subjects": [
         "Insurance"
     ], 
+    "summary": "Creates the health care plan and facility restructuring and security program to\nprovide assistance to health insurers, health care facilities and health\nmaintenance organizations at risk of insolvency; financing for such program\nshall be provided by the dormitory authority, and administered by the\ncommissioner of health, superintendent of insurance, dormitory authority and\nstate housing finance agency.", 
     "title": "Creates health care plan and facility restructuring and security program to provide assistance to health insurers at risk of insolvency", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 10:05:43", 
+    "updated_at": "2012-10-16 18:11:17", 
     "versions": [
+        {
+            "doc_id": "NYD00102509", 
+            "mimetype": "text/html", 
+            "name": "A4173", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4173"
+        }, 
         {
             "doc_id": "NYD00035296", 
             "mimetype": "text/html", 

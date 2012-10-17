@@ -11,7 +11,13 @@
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2012-06-13 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -25,9 +31,9 @@
     "created_at": "2012-06-17 01:12:38", 
     "documents": [
         {
-            "doc_id": "NYD00046764", 
+            "doc_id": "NYD00087261", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10660&term=&Memo=Y"
         }
     ], 
     "id": "NYB00027208", 
@@ -38,7 +44,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1181"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10660&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10660&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A10660-2011"
@@ -46,9 +55,16 @@
     ], 
     "sponsors": [
         {
+            "chamber": "lower", 
+            "committee_id": "NYC000070", 
             "leg_id": null, 
-            "name": "RULES COM Brennan", 
-            "official_type": "primary", 
+            "name": "Rules Committee", 
+            "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000076", 
+            "name": "Brennan", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,12 +72,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Exempts certain low income housing accommodations from local real property\ntaxation in a city with a population of one million or more.", 
     "title": "Exempts certain low income housing accommodations from local real property taxation in N.Y. city", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:39", 
+    "updated_at": "2012-10-16 18:07:14", 
     "versions": [
+        {
+            "doc_id": "NYD00087260", 
+            "mimetype": "text/html", 
+            "name": "A10660", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10660"
+        }, 
         {
             "doc_id": "NYD00041034", 
             "mimetype": "text/html", 

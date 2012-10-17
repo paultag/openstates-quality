@@ -12,8 +12,14 @@
             "action": "REFERRED TO CORPORATIONS, AUTHORITIES AND COMMISSIONS", 
             "actor": "upper", 
             "date": "2011-04-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000011", 
+                    "name": "CORPORATIONS, AUTHORITIES AND COMMISSIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -21,6 +27,13 @@
             "action": "REFERRED TO CORPORATIONS, AUTHORITIES AND COMMISSIONS", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000011", 
+                    "name": "CORPORATIONS, AUTHORITIES AND COMMISSIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -29,26 +42,44 @@
             "action": "AMEND AND RECOMMIT TO CORPORATIONS, AUTHORITIES AND COMMISSIONS", 
             "actor": "upper", 
             "date": "2012-01-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000011", 
+                    "name": "CORPORATIONS, AUTHORITIES AND COMMISSIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4405"
+            ], 
             "action": "PRINT NUMBER 4405A", 
             "actor": "upper", 
             "date": "2012-01-25 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 4405", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:34", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00060961", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4405A-2011"
+        }
+    ], 
     "id": "NYB00004650", 
     "level": "state", 
     "scraped_subjects": [
@@ -57,16 +88,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=294"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4405&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S4405-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4405&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4405A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S4405A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000053", 
             "name": "SERRANO", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -74,12 +112,19 @@
     "subjects": [
         "Business and Consumers"
     ], 
+    "summary": "Reconstitutes the Roosevelt Island operating corporation board of directors;\nprovides that the corporation shall be governed by an elected rather than\nappointed board; makes numerous related provisions, including provisions for\nadditional duties.", 
     "title": "Reconstitutes the Roosevelt Island operating corporation to be the Roosevelt Island community", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-27 21:39:35", 
+    "updated_at": "2012-10-16 18:02:02", 
     "versions": [
+        {
+            "doc_id": "NYD00060960", 
+            "mimetype": "text/html", 
+            "name": "S4405", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4405"
+        }, 
         {
             "doc_id": "NYD00039758", 
             "mimetype": "text/html", 

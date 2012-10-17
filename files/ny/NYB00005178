@@ -12,8 +12,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-04-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -21,6 +27,13 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -29,6 +42,7 @@
             "action": "1ST REPORT CAL.453", 
             "actor": "upper", 
             "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -37,14 +51,16 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -53,17 +69,31 @@
             "action": "COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2012-06-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 4916", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:38", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00068503", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4916-2011"
+        }
+    ], 
     "id": "NYB00005178", 
     "level": "state", 
     "scraped_subjects": [
@@ -72,7 +102,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=330"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4916&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4916&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S4916-2011"
@@ -82,6 +115,7 @@
         {
             "leg_id": "NYL000040", 
             "name": "NOZZOLIO", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -89,12 +123,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Provides that in an agricultural district with a working family farm, any\nproducer, as defined in subdivision three of section two hundred eighty-two of\nthis chapter, shall have the authority to build a home on such family farm\nproperty not to supersede existing municipal law.", 
     "title": "Allows any family member working on a family farm to build a home on such land", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-27 21:39:35", 
+    "updated_at": "2012-10-16 18:03:58", 
     "versions": [
+        {
+            "doc_id": "NYD00068502", 
+            "mimetype": "text/html", 
+            "name": "S4916", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4916"
+        }, 
         {
             "doc_id": "NYD00041501", 
             "mimetype": "text/html", 
@@ -102,5 +143,70 @@
             "url": "http://open.nysenate.gov/legislation/bill/S4916-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00005178", 
+            "chamber": "upper", 
+            "date": "2012-03-27 00:00:00", 
+            "id": "NYV00008281", 
+            "motion": "Agriculture Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4916-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00008281", 
+            "yes_count": 10, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }, 
+                {
+                    "leg_id": "NYL000060", 
+                    "name": "Valesky"
+                }
+            ]
+        }
+    ]
 }

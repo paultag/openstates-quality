@@ -12,46 +12,81 @@
             "action": "referred to energy", 
             "actor": "lower", 
             "date": "2011-04-13 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000053", 
+                    "name": "energy", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend (t) and recommit to energy", 
             "actor": "lower", 
             "date": "2011-05-18 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000053", 
+                    "name": "energy", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "7122"
+            ], 
             "action": "print number 7122a", 
             "actor": "lower", 
             "date": "2011-05-18 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "referred to energy", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000053", 
+                    "name": "energy", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7122", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 191", 
+            "chamber": null, 
+            "internal_id": "NYB00000180", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:20", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00086356", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7122&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014650", 
     "level": "state", 
     "scraped_subjects": [
@@ -60,30 +95,55 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=953"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7122&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A7122-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7122&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7122A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A7122A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000065", 
             "name": "Amedore", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000168", 
+            "name": "Palmesano", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000106", 
+            "name": "Friend", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Establishes a process for the siting of electric generating facilities;\nestablishes the intervenor account.", 
     "title": "Establishes a process for the siting of major electric generating facilities", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-13 09:56:05", 
+    "updated_at": "2012-10-16 18:07:03", 
     "versions": [
+        {
+            "doc_id": "NYD00086355", 
+            "mimetype": "text/html", 
+            "name": "A7122", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7122"
+        }, 
         {
             "doc_id": "NYD00030056", 
             "mimetype": "text/html", 

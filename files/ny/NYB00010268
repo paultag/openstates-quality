@@ -11,22 +11,37 @@
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2011-01-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -35,6 +50,7 @@
             "action": "advanced to third reading cal.86", 
             "actor": "lower", 
             "date": "2011-03-03 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -43,14 +59,22 @@
             "action": "recommitted to codes", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -59,9 +83,16 @@
     "alternate_titles": [], 
     "bill_id": "A 2943", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:00", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091195", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2943&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010268", 
     "level": "state", 
     "scraped_subjects": [
@@ -70,7 +101,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=650"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2943&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2943&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2943-2011"
@@ -80,19 +114,57 @@
         {
             "leg_id": "NYL000099", 
             "name": "Destito", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000142", 
+            "name": "Lopez V", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000171", 
+            "name": "Perry", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": null, 
+            "name": "Towns", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Prohibits discrimination based upon the occupation of a person under certain\ncircumstances, such as seeking a house exclusively for residential purposes;\ndefines the term \"occupation\".", 
     "title": "Prohibits discrimination based upon the occupation of a person under certain circumstances", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-22 01:08:52", 
+    "updated_at": "2012-10-16 18:08:24", 
     "versions": [
+        {
+            "doc_id": "NYD00091194", 
+            "mimetype": "text/html", 
+            "name": "A2943", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2943"
+        }, 
         {
             "doc_id": "NYD00026781", 
             "mimetype": "text/html", 

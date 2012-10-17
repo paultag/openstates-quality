@@ -14,46 +14,80 @@
             "action": "referred to cities", 
             "actor": "lower", 
             "date": "2011-06-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000045", 
+                    "name": "cities", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to cities", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000045", 
+                    "name": "cities", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "8305"
+            ], 
             "action": "print number 8305a", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,14 +96,19 @@
             "action": "rules report cal.451", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s5706"
+            ], 
             "action": "substituted by s5706a", 
             "actor": "lower", 
             "date": "2011-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,9 +117,23 @@
     "alternate_titles": [], 
     "bill_id": "A 8305", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 5706", 
+            "chamber": null, 
+            "internal_id": "NYB00018397", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-12 07:26:23", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00100640", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8305&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00018565", 
     "level": "state", 
     "scraped_subjects": [
@@ -89,27 +142,49 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1024"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8305&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A8305-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8305&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8305A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A8305A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000071", 
+            "name": "Bing", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
-    "subjects": [], 
+    "subjects": [
+        "Government Reform"
+    ], 
+    "summary": "Relates to an additional reuse and consolidation project for the United\nNations; authorizes the city of New York to discontinue certain land as\nparkland and alienate such land for the purposes of such consolidation project\nand in accordance with and subject to a memorandum of understanding.", 
     "title": "Relates to an additional reuse and consolidation project for the United Nations", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-18 01:16:04", 
+    "updated_at": "2012-10-16 18:10:49", 
     "versions": [
+        {
+            "doc_id": "NYD00100639", 
+            "mimetype": "text/html", 
+            "name": "A8305", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8305"
+        }, 
         {
             "doc_id": "NYD00034897", 
             "mimetype": "text/html", 

@@ -11,33 +11,61 @@
             "action": "referred to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2011-02-02 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2012-05-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4218", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:06", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00085650", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4218&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011622", 
     "level": "state", 
     "scraped_subjects": [
@@ -46,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=753"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4218&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4218&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4218-2011"
@@ -56,6 +87,7 @@
         {
             "leg_id": "NYL000207", 
             "name": "Weisenberg", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -63,12 +95,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Implements a program authorizing the metropolitan transportation authority, in\nconsultation with the Long Island Rail Road, to permit police officers and New\nYork city fire marshals to ride the Long Island Rail Road without paying a\nfare; provides for a reporting requirement prior to implementation of such\nno-fare program.", 
     "title": "Authorizes the metropolitan transportation authority to offer a no fare program to certain police officers and New York city fire marshals", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-13 01:11:48", 
+    "updated_at": "2012-10-16 18:06:54", 
     "versions": [
+        {
+            "doc_id": "NYD00085649", 
+            "mimetype": "text/html", 
+            "name": "A4218", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4218"
+        }, 
         {
             "doc_id": "NYD00038186", 
             "mimetype": "text/html", 

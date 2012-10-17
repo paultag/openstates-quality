@@ -11,18 +11,30 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-02-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
@@ -32,7 +44,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:06", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096429", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4186&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011590", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=771"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4186&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4186&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4186-2011"
@@ -51,7 +72,7 @@
         {
             "leg_id": "NYL000102", 
             "name": "Englebright", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -59,12 +80,19 @@
     "subjects": [
         "Education"
     ], 
+    "summary": "Authorizes and directs the department of education to undertake a study with\nthe department of taxation and finance on the fiscal impact and implication of\ngranting local school districts the authority to implement an income tax\nsurcharge as a means of reducing local real property taxes and funding\neducation.", 
     "title": "Authorizes a study of the fiscal impact of granting local school districts the authority to implement an income tax surcharge", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 19:58:14", 
+    "updated_at": "2012-10-16 18:09:32", 
     "versions": [
+        {
+            "doc_id": "NYD00096428", 
+            "mimetype": "text/html", 
+            "name": "A4186", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4186"
+        }, 
         {
             "doc_id": "NYD00035309", 
             "mimetype": "text/html", 

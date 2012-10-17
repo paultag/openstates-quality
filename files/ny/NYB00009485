@@ -11,7 +11,13 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2011-01-14 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -34,9 +46,9 @@
     "created_at": "2011-05-05 01:29:57", 
     "documents": [
         {
-            "doc_id": "NYD00048466", 
+            "doc_id": "NYD00087468", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2193&term=&Memo=Y"
         }
     ], 
     "id": "NYB00009485", 
@@ -47,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=654"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2193&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2193&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2193-2011"
@@ -57,43 +72,43 @@
         {
             "leg_id": "NYL000209", 
             "name": "Wright", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000084", 
-            "name": "Canestrari", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000136", 
-            "name": "Latimer", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000176", 
-            "name": "Raia", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000210", 
-            "name": "Zebrowski", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000184", 
             "name": "Robinson", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000089", 
             "name": "Colton", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000084", 
+            "name": "Canestrari", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000136", 
+            "name": "Latimer", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000210", 
+            "name": "Zebrowski", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -102,12 +117,19 @@
         "Housing and Property", 
         "Legal Issues"
     ], 
+    "summary": "Implements requirements for seizure of private property for public use under a\nplan of urban redevelopment or urban renewal in areas of the state which are\nnot blighted including profit sharing and provisions for displaced tenants.", 
     "title": "Relates to requirements for seizure of private property for public use under a plan or urban redevelopment or urban renewal", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-26 10:06:01", 
+    "updated_at": "2012-10-16 18:07:16", 
     "versions": [
+        {
+            "doc_id": "NYD00087467", 
+            "mimetype": "text/html", 
+            "name": "A2193", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2193"
+        }, 
         {
             "doc_id": "NYD00029755", 
             "mimetype": "text/html", 

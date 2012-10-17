@@ -11,25 +11,46 @@
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 219", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:49", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00084413", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A219&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007429", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=495"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A219&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A219&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A219-2011"
@@ -48,19 +72,33 @@
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Health"
     ], 
+    "summary": "Prohibits certain restaurants and food establishments from serving foods\ncontaining artificial trans fat; repeals certain provisions.", 
     "title": "Prohibits certain restaurants and food establishments from serving foods containing artificial trans fat", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-25 01:13:10", 
+    "updated_at": "2012-10-16 18:06:34", 
     "versions": [
+        {
+            "doc_id": "NYD00084412", 
+            "mimetype": "text/html", 
+            "name": "A219", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A219"
+        }, 
         {
             "doc_id": "NYD00030895", 
             "mimetype": "text/html", 

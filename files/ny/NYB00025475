@@ -24,7 +24,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-05-16 01:08:05", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00109608", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1250&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00025475", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +39,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1315"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1250&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1250&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K1250-2011"
@@ -43,7 +52,7 @@
         {
             "leg_id": "NYL000129", 
             "name": "Jordan", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -51,12 +60,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commemorating the 250th Anniversary of the Town of Kingsbury, New York, to be celebrated May 4-12, 2012", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-25 10:06:07", 
+    "updated_at": "2012-10-16 18:12:55", 
     "versions": [
+        {
+            "doc_id": "NYD00109607", 
+            "mimetype": "text/html", 
+            "name": "K1250", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K1250"
+        }, 
         {
             "doc_id": "NYD00041986", 
             "mimetype": "text/html", 

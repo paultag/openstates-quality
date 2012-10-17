@@ -11,25 +11,46 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3738", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:04", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00092359", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3738&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011093", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=663"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3738&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3738&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3738-2011"
@@ -48,24 +72,44 @@
         {
             "leg_id": "NYL000083", 
             "name": "Camara", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000086", 
+            "name": "Castro", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Authorizes the investment of public retirement or pension funds in bonds issued\nby the New York state housing finance agency for the purpose of providing\npermanent affordable housing consisting of rehabilitated and newly constructed\ndwellings; provides for participation by minority and women-owned business\nenterprises in such construction; establishes the permanent affordable housing\nadvisory board to administer the program.", 
     "title": "Authorizes the use of public retirement or pension funds to provide permanent affordable housing", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-26 01:11:00", 
+    "updated_at": "2012-10-16 18:08:40", 
     "versions": [
         {
-            "doc_id": "NYD00003397", 
+            "doc_id": "NYD00092357", 
             "mimetype": "text/html", 
             "name": "A3738", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A3738-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3738"
+        }, 
+        {
+            "doc_id": "NYD00092358", 
+            "mimetype": "text/html", 
+            "name": "A3738", 
+            "url": "http://open.nysenate.gov/legislation/bill/A3738-2011"
         }
     ], 
     "votes": []

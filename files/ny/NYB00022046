@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-02-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -20,9 +26,16 @@
     "alternate_titles": [], 
     "bill_id": "S 6408", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-02-07 06:30:24", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00060739", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6408-2011"
+        }
+    ], 
     "id": "NYB00022046", 
     "level": "state", 
     "scraped_subjects": [
@@ -31,7 +44,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=424"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6408&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6408&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S6408-2011"
@@ -41,6 +57,7 @@
         {
             "leg_id": "NYL000048", 
             "name": "RIVERA", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -48,12 +65,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Relates to the definition of income.", 
     "title": "Relates to the definition of income", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-06 01:17:06", 
+    "updated_at": "2012-10-16 18:01:56", 
     "versions": [
+        {
+            "doc_id": "NYD00060738", 
+            "mimetype": "text/html", 
+            "name": "S6408", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6408"
+        }, 
         {
             "doc_id": "NYD00031538", 
             "mimetype": "text/html", 

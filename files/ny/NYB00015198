@@ -23,7 +23,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:22", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00108869", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K197&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00015198", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +38,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1209"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K197&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K197&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K197-2011"
@@ -42,7 +51,7 @@
         {
             "leg_id": "NYL000166", 
             "name": "Oaks", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -50,12 +59,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commending Lagoner Farms on its designation by the New York State Agricultural Society as the recipient of a 2011 Century Farm Award", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-22 10:05:49", 
+    "updated_at": "2012-10-16 18:12:50", 
     "versions": [
+        {
+            "doc_id": "NYD00108868", 
+            "mimetype": "text/html", 
+            "name": "K197", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K197"
+        }, 
         {
             "doc_id": "NYD00047404", 
             "mimetype": "text/html", 

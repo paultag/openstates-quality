@@ -14,8 +14,14 @@
             "action": "REFERRED TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2011-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -23,9 +29,23 @@
     "alternate_titles": [], 
     "bill_id": "S 3160", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 803", 
+            "chamber": null, 
+            "internal_id": "NYB00008045", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:28", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00068971", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3160-2011"
+        }
+    ], 
     "id": "NYB00003320", 
     "level": "state", 
     "scraped_subjects": [
@@ -34,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=203"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3160&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3160&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S3160-2011"
@@ -44,6 +67,7 @@
         {
             "leg_id": "NYL000029", 
             "name": "KRUGER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -51,12 +75,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Enacts the NYS housing opportunity zones act; provides for the creation of\nhousing opportunity zones within which certain incentives are available for new\nconstruction or substantial rehabilitation of residential units.", 
     "title": "Provides designation of housing opportunity zones for housing incentives", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:14", 
+    "updated_at": "2012-10-16 18:04:03", 
     "versions": [
+        {
+            "doc_id": "NYD00068970", 
+            "mimetype": "text/html", 
+            "name": "S3160", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3160"
+        }, 
         {
             "doc_id": "NYD00025980", 
             "mimetype": "text/html", 

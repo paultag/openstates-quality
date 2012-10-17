@@ -12,25 +12,46 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7876", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-21 06:41:32", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00100258", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7876&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00016731", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1005"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7876&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7876&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7876-2011"
@@ -49,6 +73,7 @@
         {
             "leg_id": "NYL000202", 
             "name": "Thiele", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,12 +81,19 @@
     "subjects": [
         "Judiciary"
     ], 
+    "summary": "Relates to the method and place of service of summons; provides that where the\ncause of action arises from a failure to comply with a state or local housing\ncode violation and the owner resides within the state, a defendant may also be\nserved anywhere within the state.", 
     "title": "Relates to the method and place of service of summons", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-27 21:39:45", 
+    "updated_at": "2012-10-16 18:10:36", 
     "versions": [
+        {
+            "doc_id": "NYD00100257", 
+            "mimetype": "text/html", 
+            "name": "A7876", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7876"
+        }, 
         {
             "doc_id": "NYD00027103", 
             "mimetype": "text/html", 

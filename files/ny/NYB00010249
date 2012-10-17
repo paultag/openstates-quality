@@ -11,7 +11,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-21 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "reference changed to ways and means", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -29,7 +41,13 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -43,9 +61,9 @@
     "created_at": "2011-05-05 01:30:00", 
     "documents": [
         {
-            "doc_id": "NYD00048511", 
+            "doc_id": "NYD00093904", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2927&term=&Memo=Y"
         }
     ], 
     "id": "NYB00010249", 
@@ -56,7 +74,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=696"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2927&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2927&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2927-2011"
@@ -66,31 +87,31 @@
         {
             "leg_id": "NYL000209", 
             "name": "Wright", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000073", 
             "name": "Boyland", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000076", 
             "name": "Brennan", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000089", 
             "name": "Colton", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000207", 
             "name": "Weisenberg", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -98,12 +119,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Creates the office of the taxpayer advocate; directs such office be in the\ncontrol of the department of taxation and finance; outlines functions and\nduties of such office; creates mandatory reporting to the governor and\nlegislative leaders.", 
     "title": "Creates the office of the taxpayer advocate", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-26 10:06:02", 
+    "updated_at": "2012-10-16 18:09:04", 
     "versions": [
+        {
+            "doc_id": "NYD00093903", 
+            "mimetype": "text/html", 
+            "name": "A2927", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2927"
+        }, 
         {
             "doc_id": "NYD00028320", 
             "mimetype": "text/html", 

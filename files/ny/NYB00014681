@@ -14,33 +14,68 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "held for consideration in judiciary", 
             "actor": "lower", 
             "date": "2012-05-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "bill:failed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7153", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4645", 
+            "chamber": null, 
+            "internal_id": "NYB00004901", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:20", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096843", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7153&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014681", 
     "level": "state", 
     "scraped_subjects": [
@@ -49,7 +84,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=904"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7153&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7153&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7153-2011"
@@ -59,6 +97,7 @@
         {
             "leg_id": "NYL000106", 
             "name": "Friend", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -66,12 +105,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Provides that the owner, lessee or occupant of premises owes no duty to keep\nthe premises safe for entry or use by others engaged generally in recreational\nactivities.", 
     "title": "Provides for certain uses of premises for which no duty is owed to keep premises safe", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-23 01:12:49", 
+    "updated_at": "2012-10-16 18:09:39", 
     "versions": [
+        {
+            "doc_id": "NYD00096842", 
+            "mimetype": "text/html", 
+            "name": "A7153", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7153"
+        }, 
         {
             "doc_id": "NYD00028569", 
             "mimetype": "text/html", 

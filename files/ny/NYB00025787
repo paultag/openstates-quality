@@ -12,9 +12,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-03-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }
@@ -25,7 +30,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-05-22 01:08:43", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00073582", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J3490-2011"
+        }
+    ], 
     "id": "NYB00025787", 
     "level": "state", 
     "scraped_subjects": [
@@ -34,7 +45,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1446"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J3490&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J3490&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J3490-2011"
@@ -44,85 +58,85 @@
         {
             "leg_id": "NYL000028", 
             "name": "KRUEGER", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000004", 
             "name": "AVELLA", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000007", 
             "name": "BRESLIN", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000010", 
             "name": "DIAZ", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000021", 
             "name": "GRISANTI", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000026", 
             "name": "KENNEDY", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000036", 
             "name": "MARTINS", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000039", 
             "name": "MONTGOMERY", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000043", 
             "name": "PARKER", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000045", 
             "name": "PERKINS", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000048", 
             "name": "RIVERA", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000051", 
             "name": "SAMPSON", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000052", 
             "name": "SAVINO", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000058", 
             "name": "STAVISKY", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -130,12 +144,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Urging the New York State Congressional delegation to reauthorize the Violence Against Women Act (VAWA", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-14 09:55:52", 
+    "updated_at": "2012-10-16 18:04:50", 
     "versions": [
+        {
+            "doc_id": "NYD00073581", 
+            "mimetype": "text/html", 
+            "name": "J3490", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J3490"
+        }, 
         {
             "doc_id": "NYD00026529", 
             "mimetype": "text/html", 

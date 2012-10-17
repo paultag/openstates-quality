@@ -11,37 +11,68 @@
             "action": "referred to racing and wagering", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000068", 
+                    "name": "racing and wagering", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to racing and wagering", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000068", 
+                    "name": "racing and wagering", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7900", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 3759", 
+            "chamber": null, 
+            "internal_id": "NYB00003960", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-21 06:41:32", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00084871", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7900&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00016755", 
     "level": "state", 
     "scraped_subjects": [
@@ -50,7 +81,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1008"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7900&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7900&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7900-2011"
@@ -60,13 +94,13 @@
         {
             "leg_id": "NYL000173", 
             "name": "Pretlow", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000175", 
             "name": "Rabbitt", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -74,12 +108,19 @@
     "subjects": [
         "Gambling and Gaming"
     ], 
+    "summary": "Relates to creating a racing fan advisory board to provide advice to the state\nracing and wagering board on issues related to horse racing and wagering;\nestablishes an I Love NY Racing promotion and the New York State Horse Racing\nFarm of the Year Award.", 
     "title": "Relates to creating a racing fan advisory board, establishing an I Love NY Racing promotion and awarding the New York State Horse Racing Farm of the Year Award", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-13 09:56:05", 
+    "updated_at": "2012-10-16 18:06:39", 
     "versions": [
+        {
+            "doc_id": "NYD00084870", 
+            "mimetype": "text/html", 
+            "name": "A7900", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7900"
+        }, 
         {
             "doc_id": "NYD00045622", 
             "mimetype": "text/html", 

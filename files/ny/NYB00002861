@@ -12,8 +12,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -21,6 +27,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -29,6 +42,7 @@
             "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
             "actor": "upper", 
             "date": "2012-03-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -37,17 +51,31 @@
             "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2012-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 2763", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:26", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00051385", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2763-2011"
+        }
+    ], 
     "id": "NYB00002861", 
     "level": "state", 
     "scraped_subjects": [
@@ -56,7 +84,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=175"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2763&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2763&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S2763-2011"
@@ -66,6 +97,7 @@
         {
             "leg_id": "NYL000023", 
             "name": "HASSELL-THOMPSON", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -73,12 +105,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Requires landlords to check state sex offender registry when leasing to a new\ntenant, subtenant or adult occupant, and to notify tenants with children under\nage sixteen of any listing of such tenant, subtenant or adult occupant as a\nlevel three sex offender; exempts landlord from any civil or criminal liability\nfor damages for any discretionary decision to release relevant information\npursuant to this section or for failing to release such information, unless it\nis shown the landlord acted with gross negligence or in bad faith.", 
     "title": "Requires landlords to check state sex offender registry when leasing to a new tenant or on notice of sublet, and to notify tenants with children of certain listings", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-27 21:39:33", 
+    "updated_at": "2012-10-16 17:59:22", 
     "versions": [
+        {
+            "doc_id": "NYD00051384", 
+            "mimetype": "text/html", 
+            "name": "S2763", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2763"
+        }, 
         {
             "doc_id": "NYD00029013", 
             "mimetype": "text/html", 

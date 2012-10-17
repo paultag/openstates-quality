@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-15 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-03-12 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,37 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
+            "actor": "upper", 
+            "date": "2012-03-12 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
+            "actor": "upper", 
+            "date": "2012-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +65,16 @@
     "alternate_titles": [], 
     "bill_id": "S 3278", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:29", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00066322", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3278-2011"
+        }
+    ], 
     "id": "NYB00003449", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +83,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=203"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3278&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3278&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S3278-2011"
@@ -49,6 +96,7 @@
         {
             "leg_id": "NYL000023", 
             "name": "HASSELL-THOMPSON", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -57,17 +105,24 @@
         "Housing and Property", 
         "Legal Issues"
     ], 
+    "summary": "Provides for the appointment of three alternates on rent guideline boards; one\nalternate shall represent tenants, one shall represent owners of property and\none shall be a public representative; alternates shall be permitted to\nparticipate in all proceedings of the board as non-voting members; an alternate\nshall only participate as a voting member of the board and be paid when a\nmember, representing the same interest as the alternate, is unable to fulfill\nhis or her duties on the board; applies to the city of New York, counties\noutside the city, towns and villages.", 
     "title": "Authorizes appointment of alternate rent guidelines board members in the city of New York, counties outside the city, towns, and villages", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-11 06:26:26", 
+    "updated_at": "2012-10-16 18:03:21", 
     "versions": [
         {
-            "doc_id": "NYD00017443", 
+            "doc_id": "NYD00066320", 
             "mimetype": "text/html", 
             "name": "S3278", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S3278-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3278"
+        }, 
+        {
+            "doc_id": "NYD00066321", 
+            "mimetype": "text/html", 
+            "name": "S3278", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3278-2011"
         }
     ], 
     "votes": []

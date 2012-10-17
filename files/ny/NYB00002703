@@ -11,8 +11,14 @@
             "action": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2011-01-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000024", 
+                    "name": "INVESTIGATIONS AND GOVERNMENT OPERATIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,23 @@
     "alternate_titles": [], 
     "bill_id": "S 2614", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 5965", 
+            "chamber": null, 
+            "internal_id": "NYB00013433", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:25", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00056687", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2614-2011"
+        }
+    ], 
     "id": "NYB00002703", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=158"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2614&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2614&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S2614-2011"
@@ -49,6 +79,7 @@
         {
             "leg_id": "NYL000058", 
             "name": "STAVISKY", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,17 +87,24 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Exempts pet food from sales and compensating use taxes.", 
     "title": "Exempts pet food from sales and compensating use taxes", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-15 06:27:18", 
+    "updated_at": "2012-10-16 18:00:50", 
     "versions": [
         {
-            "doc_id": "NYD00016455", 
+            "doc_id": "NYD00056685", 
             "mimetype": "text/html", 
             "name": "S2614", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S2614-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2614"
+        }, 
+        {
+            "doc_id": "NYD00056686", 
+            "mimetype": "text/html", 
+            "name": "S2614", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2614-2011"
         }
     ], 
     "votes": []

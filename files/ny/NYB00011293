@@ -12,7 +12,13 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-31 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -21,7 +27,13 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -35,9 +47,9 @@
     "created_at": "2011-05-05 01:30:05", 
     "documents": [
         {
-            "doc_id": "NYD00048558", 
+            "doc_id": "NYD00085175", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3930&term=&Memo=Y"
         }
     ], 
     "id": "NYB00011293", 
@@ -48,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=755"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3930&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3930&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3930-2011"
@@ -58,37 +73,37 @@
         {
             "leg_id": "NYL000094", 
             "name": "Crouch", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000104", 
             "name": "Finch", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000118", 
             "name": "Hawley", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000176", 
             "name": "Raia", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000168", 
             "name": "Palmesano", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000129", 
             "name": "Jordan", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -96,12 +111,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Establishes the \"equine industry assistance act of 2011\", including the New\nYork horse grazing program; requires the creation of the equine industry\nwebpage; requires the implementation of horse trails; appropriates $250,000\ntherefor.", 
     "title": "Relates to establishing the equine industry assistance act of 2011; appropriation", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-26 10:06:03", 
+    "updated_at": "2012-10-16 18:06:49", 
     "versions": [
+        {
+            "doc_id": "NYD00085174", 
+            "mimetype": "text/html", 
+            "name": "A3930", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3930"
+        }, 
         {
             "doc_id": "NYD00029859", 
             "mimetype": "text/html", 

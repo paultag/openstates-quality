@@ -24,7 +24,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-06-16 07:59:05", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00109697", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K716&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00019181", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +39,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1261"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K716&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K716&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K716-2011"
@@ -43,7 +52,7 @@
         {
             "leg_id": "NYL000142", 
             "name": "Lopez V", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -51,12 +60,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Honoring James P. Slattery, recipient of the Brooklyn Bar Association Volunteer Lawyers Project's 2011 Building Bridges Leadership Award on June 21, 2011", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-09-25 10:06:07", 
+    "updated_at": "2012-10-16 18:12:55", 
     "versions": [
+        {
+            "doc_id": "NYD00109696", 
+            "mimetype": "text/html", 
+            "name": "K716", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K716"
+        }, 
         {
             "doc_id": "NYD00036417", 
             "mimetype": "text/html", 

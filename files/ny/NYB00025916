@@ -11,9 +11,15 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-05-10 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
@@ -23,7 +29,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-05-23 01:12:53", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00082774", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10180&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00025916", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +44,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1153"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10180&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10180&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A10180-2011"
@@ -42,7 +57,7 @@
         {
             "leg_id": "NYL000138", 
             "name": "Lentol", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -50,12 +65,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Prohibits gas stations from advertising only cash discounted prices.", 
     "title": "Prohibits gas stations from advertising only cash discounted prices", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 20:29:20", 
+    "updated_at": "2012-10-16 18:06:07", 
     "versions": [
+        {
+            "doc_id": "NYD00082773", 
+            "mimetype": "text/html", 
+            "name": "A10180", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10180"
+        }, 
         {
             "doc_id": "NYD00028778", 
             "mimetype": "text/html", 

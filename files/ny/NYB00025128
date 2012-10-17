@@ -14,17 +14,38 @@
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2012-04-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 9899", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 6902", 
+            "chamber": null, 
+            "internal_id": "NYB00024630", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-05-08 01:05:46", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00099749", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9899&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00025128", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +54,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1133"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9899&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9899&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9899-2011"
@@ -43,16 +67,19 @@
         {
             "leg_id": "NYL000170", 
             "name": "Peoples-Stokes", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000198", 
             "name": "Stevenson", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000102", 
             "name": "Englebright", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -60,12 +87,19 @@
     "subjects": [
         "Executive Branch"
     ], 
+    "summary": "Provides that there is no exemption from the requirement of nondiscrimination\nin advertisements and inquiries for the rental of certain apartment dwellings;\nfurther provides that engaging in discriminatory advertising or inquiries will\ncause the property to no longer be exempt from full coverage by the\nnondiscrimination provisions of the human rights law.", 
     "title": "Provides that there is no exemption from the requirement of nondiscrimination in advertisements and inquiries for the rental of certain apartment dwellings", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-10 02:28:33", 
+    "updated_at": "2012-10-16 18:10:25", 
     "versions": [
+        {
+            "doc_id": "NYD00099748", 
+            "mimetype": "text/html", 
+            "name": "A9899", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9899"
+        }, 
         {
             "doc_id": "NYD00031298", 
             "mimetype": "text/html", 

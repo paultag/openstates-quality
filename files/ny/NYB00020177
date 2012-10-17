@@ -12,46 +12,81 @@
             "action": "referred to education", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend (t) and recommit to education", 
             "actor": "lower", 
             "date": "2012-06-07 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "8864"
+            ], 
             "action": "print number 8864a", 
             "actor": "lower", 
             "date": "2012-06-07 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2012-06-13 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 8864", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 7698", 
+            "chamber": null, 
+            "internal_id": "NYB00028324", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-12-15 07:45:44", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00083205", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8864&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00020177", 
     "level": "state", 
     "scraped_subjects": [
@@ -60,17 +95,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1066"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8864&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A8864-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8864&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8864A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A8864A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000202", 
             "name": "Thiele", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -78,12 +119,19 @@
     "subjects": [
         "Education"
     ], 
+    "summary": "Authorizes the alteration of two or more school district boundaries by consent;\nprovides that such alteration may be initiated by a petition in writing filed\nwith the trustee, trustees or board of education of each school district;\nrequires a joint feasibility study and joint public hearing on such alteration.", 
     "title": "Authorizes the alteration of school district boundaries; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 19:58:17", 
+    "updated_at": "2012-10-16 18:06:12", 
     "versions": [
+        {
+            "doc_id": "NYD00083204", 
+            "mimetype": "text/html", 
+            "name": "A8864", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8864"
+        }, 
         {
             "doc_id": "NYD00036320", 
             "mimetype": "text/html", 

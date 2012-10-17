@@ -11,7 +11,13 @@
             "action": "referred to local governments", 
             "actor": "lower", 
             "date": "2011-03-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000065", 
+                    "name": "local governments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "referred to local governments", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000065", 
+                    "name": "local governments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -29,13 +41,22 @@
             "action": "amend and recommit to local governments", 
             "actor": "lower", 
             "date": "2012-06-12 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000065", 
+                    "name": "local governments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5823"
+            ], 
             "action": "print number 5823a", 
             "actor": "lower", 
             "date": "2012-06-12 00:00:00", 
@@ -48,13 +69,19 @@
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2012-06-18 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2012-06-20 00:00:00", 
             "related_entities": [], 
@@ -72,6 +99,9 @@
             ]
         }, 
         {
+            "+bill_id": [
+                "s4359"
+            ], 
             "action": "substituted by s4359a", 
             "actor": "lower", 
             "date": "2012-06-20 00:00:00", 
@@ -84,14 +114,21 @@
     "alternate_titles": [], 
     "bill_id": "A 5823", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 4359", 
+            "chamber": null, 
+            "internal_id": "NYB00004602", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:13", 
     "documents": [
         {
-            "doc_id": "NYD00047151", 
+            "doc_id": "NYD00084742", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5823&term=&Memo=Y"
         }
     ], 
     "id": "NYB00013286", 
@@ -102,29 +139,41 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=870"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5823&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A5823-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5823&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5823A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A5823A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000116", 
             "name": "Gunther", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000168", 
             "name": "Palmesano", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000079", 
             "name": "Burling", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000139", 
+            "name": "Lifton", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -132,12 +181,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Authorizes the governing boards of two or more municipalities which have\nmutually agreed to study the annexation of territory to, by joint resolution,\npropose the annexation of such territory, as an alternative to annexation\nsolely by petition.", 
     "title": "Authorizes 2 or more municipalities to agree to annex territory", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 10:05:44", 
+    "updated_at": "2012-10-16 18:06:38", 
     "versions": [
+        {
+            "doc_id": "NYD00084741", 
+            "mimetype": "text/html", 
+            "name": "A5823", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5823"
+        }, 
         {
             "doc_id": "NYD00045880", 
             "mimetype": "text/html", 

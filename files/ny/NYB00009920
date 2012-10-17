@@ -12,25 +12,46 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2011-01-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 2605", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:59", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00103444", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2605&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009920", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=677"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2605&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2605&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2605-2011"
@@ -49,19 +73,19 @@
         {
             "leg_id": "NYL000184", 
             "name": "Robinson", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
-            "leg_id": null, 
+            "leg_id": "NYL000220", 
             "name": "Mayersohn", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": null, 
             "name": "Towns", 
-            "official_type": "multisponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -69,12 +93,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Provides that all residential leases shall contain a detailed description of\ntenant's statutory rights including among others, warranty of habitability,\nwillful violation of lease, right to participate in tenants' associations, no\neviction for good faith complaint, utility payment offset and sublet rights;\ngrants tenant the right to install extra locks; sets out landlord obligations\nwith respect to heating and oil delivery.", 
     "title": "Requires all residential leases to disclose tenants' rights", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 02:27:34", 
+    "updated_at": "2012-10-16 18:11:30", 
     "versions": [
+        {
+            "doc_id": "NYD00103443", 
+            "mimetype": "text/html", 
+            "name": "A2605", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2605"
+        }, 
         {
             "doc_id": "NYD00028313", 
             "mimetype": "text/html", 

@@ -11,7 +11,13 @@
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2012-02-01 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,13 +26,22 @@
             "action": "amend and recommit to health", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "9170"
+            ], 
             "action": "print number 9170a", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
@@ -44,9 +59,9 @@
     "created_at": "2012-02-02 06:24:33", 
     "documents": [
         {
-            "doc_id": "NYD00046685", 
+            "doc_id": "NYD00084005", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9170&term=&Memo=Y"
         }
     ], 
     "id": "NYB00021935", 
@@ -57,71 +72,77 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1087"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9170&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A9170-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9170&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9170A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A9170A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000115", 
             "name": "Graf", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000082", 
-            "name": "Calhoun", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000094", 
-            "name": "Crouch", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000143", 
             "name": "Losquadro", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000176", 
             "name": "Raia", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000079", 
             "name": "Burling", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000104", 
             "name": "Finch", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000198", 
             "name": "Stevenson", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000160", 
             "name": "Montesano", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000188", 
             "name": "Saladino", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000082", 
+            "name": "Calhoun", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000094", 
+            "name": "Crouch", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -129,12 +150,19 @@
     "subjects": [
         "Health"
     ], 
+    "summary": "Provides state aid and reimbursement to municipalities for certain services.", 
     "title": "Provides state aid and reimbursement to municipalities for certain services", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:37", 
+    "updated_at": "2012-10-16 18:06:30", 
     "versions": [
+        {
+            "doc_id": "NYD00084004", 
+            "mimetype": "text/html", 
+            "name": "A9170", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9170"
+        }, 
         {
             "doc_id": "NYD00041340", 
             "mimetype": "text/html", 

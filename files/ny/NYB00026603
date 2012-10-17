@@ -12,41 +12,74 @@
             "action": "referred to health", 
             "actor": "lower", 
             "date": "2012-05-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to health", 
             "actor": "lower", 
             "date": "2012-06-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000058", 
+                    "name": "health", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "10498"
+            ], 
             "action": "print number 10498a", 
             "actor": "lower", 
             "date": "2012-06-04 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2012-06-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 10498", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-06-06 01:17:32", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091551", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10498&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00026603", 
     "level": "state", 
     "scraped_subjects": [
@@ -55,107 +88,113 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1170"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10498&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A10498-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10498&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10498A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A10498A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000169", 
             "name": "Paulin", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000223", 
-            "name": "Barrett", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000100", 
             "name": "Dinowitz", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000108", 
             "name": "Galef", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000086", 
             "name": "Castro", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000205", 
             "name": "Tobacco", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000064", 
             "name": "Abinanti", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000082", 
             "name": "Calhoun", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000088", 
             "name": "Clark", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000093", 
             "name": "Crespo", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000102", 
             "name": "Englebright", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000126", 
             "name": "Jaffee", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000183", 
             "name": "Roberts", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000204", 
             "name": "Titus", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000208", 
             "name": "Weprin", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000223", 
+            "name": "Barrett", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -163,12 +202,19 @@
     "subjects": [
         "Health"
     ], 
-    "title": "Requires owners of class A multiple dwelling properties to develop, implement and distribute smoking policies", 
+    "summary": "Requires owners of multiple dwelling properties to develop, implement and\ndistribute smoking policies to current and prospective tenants; requires a\nposted copy of the smoking policy; requires such policy be incorporated into\nall written and oral leases and contracts for sale; allows the enforcement\nofficer the power to impose a civil penalty for violations.", 
+    "title": "Requires owners of multiple dwelling properties to develop, implement and distribute smoking policies", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 02:27:38", 
+    "updated_at": "2012-10-16 18:08:27", 
     "versions": [
+        {
+            "doc_id": "NYD00091550", 
+            "mimetype": "text/html", 
+            "name": "A10498", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10498"
+        }, 
         {
             "doc_id": "NYD00036381", 
             "mimetype": "text/html", 

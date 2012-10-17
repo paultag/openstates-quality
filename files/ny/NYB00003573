@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-02-18 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,23 @@
     "alternate_titles": [], 
     "bill_id": "S 3396", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 7746", 
+            "chamber": null, 
+            "internal_id": "NYB00016200", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:29", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00058678", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3396-2011"
+        }
+    ], 
     "id": "NYB00003573", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=211"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3396&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3396&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S3396-2011"
@@ -49,24 +79,38 @@
         {
             "leg_id": "NYL000043", 
             "name": "PARKER", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000028", 
+            "name": "KRUEGER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Authorizes commissioner of housing and community renewal to maintain housing\nregistry of accessible or adaptable housing for disabled called \"Access-New\nYork\"; provides that certain owners shall provide certain information in\nrelation to \"Access-New York\"; establishes a special advisory panel to assist\ncommissioner in performance of duties of \"Access-New York\".", 
     "title": "Authorizes commissioner of housing and community renewal to maintain housing registry called \"Access-New York\"", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-01 00:47:46", 
+    "updated_at": "2012-10-16 18:01:15", 
     "versions": [
         {
-            "doc_id": "NYD00017600", 
+            "doc_id": "NYD00058676", 
             "mimetype": "text/html", 
             "name": "S3396", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S3396-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3396"
+        }, 
+        {
+            "doc_id": "NYD00058677", 
+            "mimetype": "text/html", 
+            "name": "S3396", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3396-2011"
         }
     ], 
     "votes": []

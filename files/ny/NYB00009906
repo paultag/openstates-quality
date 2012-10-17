@@ -14,14 +14,22 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-19 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -30,6 +38,7 @@
             "action": "advanced to third reading cal.53", 
             "actor": "lower", 
             "date": "2011-02-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -38,22 +47,37 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2012-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2012-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -62,6 +86,7 @@
             "action": "rules report cal.9", 
             "actor": "lower", 
             "date": "2012-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -70,6 +95,7 @@
             "action": "ordered to third reading rules cal.9", 
             "actor": "lower", 
             "date": "2012-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -78,9 +104,23 @@
     "alternate_titles": [], 
     "bill_id": "A 2592", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1513", 
+            "chamber": null, 
+            "internal_id": "NYB00001569", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:59", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00104366", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2592&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009906", 
     "level": "state", 
     "scraped_subjects": [
@@ -89,7 +129,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=637"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2592&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2592&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A2592-2011"
@@ -99,19 +142,87 @@
         {
             "leg_id": "NYL000142", 
             "name": "Lopez V", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000131", 
+            "name": "Kavanagh", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000078", 
+            "name": "Brook-Krasny", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000209", 
+            "name": "Wright", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000181", 
+            "name": "Rivera N", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000158", 
+            "name": "Millman", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000186", 
+            "name": "Rosenthal", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Requires companies aided by loans under Mitchell-Lama to notify tenants of such\nhousing of the possibility of buyout from mortgages held which would\npotentially result in rent increases not later than twelve months prior to\nproposed dissolution; provides such notice shall inform tenants of the nature\nof the action, the date intended, the applicable laws and a summary of the\npotential consequences including expenses and rent increases which may be\ncharged; requires the commissioner or supervising agency to prepare a report to\nbe made available to the tenants of the project.", 
     "title": "Requires companies aided by loans under Mitchell-Lama to notify tenants of buy out from mortgage options and a report by the commissioner or supervising agency", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:39", 
+    "updated_at": "2012-10-16 18:11:50", 
     "versions": [
+        {
+            "doc_id": "NYD00104365", 
+            "mimetype": "text/html", 
+            "name": "A2592", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2592"
+        }, 
         {
             "doc_id": "NYD00031984", 
             "mimetype": "text/html", 

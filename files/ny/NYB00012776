@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-15 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-09-04 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,14 +11,37 @@
             "action": "referred to local governments", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000065", 
+                    "name": "local governments", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to local governments", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000065", 
+                    "name": "local governments", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "enacting clause stricken", 
+            "actor": "lower", 
+            "date": "2012-09-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -27,9 +50,16 @@
     "alternate_titles": [], 
     "bill_id": "A 5332", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:11", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00093919", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5332&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012776", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +68,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=735"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5332&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5332&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5332-2011"
@@ -48,6 +81,7 @@
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,17 +89,24 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Prohibits the placement and operation of wireless communication facilities on\npublic housing, senior citizen housing and nursing home property.", 
     "title": "Prohibits the placement and operation of wireless communication facilities on public housing, senior citizen housing and nursing home property", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-24 01:21:30", 
+    "updated_at": "2012-10-16 18:09:04", 
     "versions": [
         {
-            "doc_id": "NYD00005429", 
+            "doc_id": "NYD00093917", 
             "mimetype": "text/html", 
             "name": "A5332", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A5332-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5332"
+        }, 
+        {
+            "doc_id": "NYD00093918", 
+            "mimetype": "text/html", 
+            "name": "A5332", 
+            "url": "http://open.nysenate.gov/legislation/bill/A5332-2011"
         }
     ], 
     "votes": []

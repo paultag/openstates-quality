@@ -11,7 +11,13 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-04-07 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -29,14 +41,21 @@
     "alternate_titles": [], 
     "bill_id": "A 6980", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 1891", 
+            "chamber": null, 
+            "internal_id": "NYB00001954", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:18", 
     "documents": [
         {
-            "doc_id": "NYD00046561", 
+            "doc_id": "NYD00089378", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6980&term=&Memo=Y"
         }
     ], 
     "id": "NYB00014508", 
@@ -47,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=944"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6980&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6980&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A6980-2011"
@@ -57,13 +79,13 @@
         {
             "leg_id": "NYL000192", 
             "name": "Schimminger", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000174", 
             "name": "Ra", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -71,12 +93,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Creates the New York jobs tax credit (part A); relates to personal income tax\nrates and benefit recapture (part B); relates to entire net income base (part\nC); creates a commission on regulatory reform and economic competitiveness\n(part D).", 
     "title": "Creates the New York jobs tax credit; personal income tax rates and benefit recapture; entire net income base", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:35", 
+    "updated_at": "2012-10-16 18:07:51", 
     "versions": [
+        {
+            "doc_id": "NYD00089377", 
+            "mimetype": "text/html", 
+            "name": "A6980", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6980"
+        }, 
         {
             "doc_id": "NYD00046118", 
             "mimetype": "text/html", 

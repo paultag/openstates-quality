@@ -12,7 +12,13 @@
             "action": "referred to cities", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000045", 
+                    "name": "cities", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -21,7 +27,13 @@
             "action": "referred to cities", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000045", 
+                    "name": "cities", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -30,14 +42,21 @@
     "alternate_titles": [], 
     "bill_id": "A 7748", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 5013", 
+            "chamber": null, 
+            "internal_id": "NYB00005275", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-16 21:06:12", 
     "documents": [
         {
-            "doc_id": "NYD00046603", 
+            "doc_id": "NYD00097419", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7748&term=&Memo=Y"
         }
     ], 
     "id": "NYB00016202", 
@@ -48,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=997"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7748&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7748&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7748-2011"
@@ -58,49 +80,49 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000112", 
-            "name": "Glick", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000152", 
-            "name": "McEneny", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000100", 
             "name": "Dinowitz", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000207", 
             "name": "Weisenberg", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000078", 
             "name": "Brook-Krasny", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000114", 
             "name": "Gottfried", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -108,12 +130,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Prohibits the operation of horse drawn cabs in the city of New York; defines\nthe circumstances under which sale or disposal of a horse shall be deemed\nhumane.", 
     "title": "Prohibits the operation of horse drawn cabs in the city of New York; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:36", 
+    "updated_at": "2012-10-16 18:09:57", 
     "versions": [
+        {
+            "doc_id": "NYD00097418", 
+            "mimetype": "text/html", 
+            "name": "A7748", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7748"
+        }, 
         {
             "doc_id": "NYD00031161", 
             "mimetype": "text/html", 

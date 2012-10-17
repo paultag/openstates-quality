@@ -11,38 +11,65 @@
             "action": "referred to environmental conservation", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to environmental conservation", 
             "actor": "lower", 
             "date": "2011-04-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000054", 
+                    "name": "environmental conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5270"
+            ], 
             "action": "print number 5270a", 
             "actor": "lower", 
             "date": "2011-04-01 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -51,14 +78,19 @@
             "action": "rules report cal.328", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s2877"
+            ], 
             "action": "substituted by s2877a", 
             "actor": "lower", 
             "date": "2011-06-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -67,9 +99,23 @@
     "alternate_titles": [], 
     "bill_id": "A 5270", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2877", 
+            "chamber": null, 
+            "internal_id": "NYB00003017", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:11", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00088704", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5270&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012710", 
     "level": "state", 
     "scraped_subjects": [
@@ -78,34 +124,66 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=772"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5270&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A5270-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5270&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5270A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A5270A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000084", 
             "name": "Canestrari", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000181", 
+            "name": "Rivera N", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Environmental"
     ], 
+    "summary": "Relates to the number of reverse vending machines required for mandatory\nacceptance of empty beverage containers.", 
     "title": "Relates to the number of reverse vending machines required for mandatory acceptance of empty beverage containers", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-03 01:08:52", 
+    "updated_at": "2012-10-16 18:07:43", 
     "versions": [
         {
-            "doc_id": "NYD00005351", 
+            "doc_id": "NYD00088701", 
             "mimetype": "text/html", 
             "name": "A5270", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A5270-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5270"
+        }, 
+        {
+            "doc_id": "NYD00088702", 
+            "mimetype": "text/html", 
+            "name": "A5270", 
+            "url": "http://open.nysenate.gov/legislation/bill/A5270-2011"
+        }, 
+        {
+            "doc_id": "NYD00088703", 
+            "mimetype": "text/html", 
+            "name": "A5270A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A5270A-2011"
         }
     ], 
     "votes": []

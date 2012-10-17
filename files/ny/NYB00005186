@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-04-29 00:00:00", 
-        "last": "2012-02-21 00:00:00", 
+        "last": "2012-03-12 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,8 +11,14 @@
             "action": "REFERRED TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2011-04-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,23 +26,41 @@
             "action": "AMEND AND RECOMMIT TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2011-12-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4924"
+            ], 
             "action": "PRINT NUMBER 4924A", 
             "actor": "upper", 
             "date": "2011-12-21 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "REFERRED TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -45,17 +69,47 @@
             "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
             "actor": "upper", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
+            ]
+        }, 
+        {
+            "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
+            "actor": "upper", 
+            "date": "2012-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 4924", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 7488", 
+            "chamber": null, 
+            "internal_id": "NYB00015940", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:38", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00062113", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4924A-2011"
+        }
+    ], 
     "id": "NYB00005186", 
     "level": "state", 
     "scraped_subjects": [
@@ -64,34 +118,60 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=316"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4924&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S4924-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4924&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4924A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S4924A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000039", 
             "name": "MONTGOMERY", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000042", 
+            "name": "OPPENHEIMER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Requires school districts to purchase food products that are grown, produced,\nharvested or processed in New York state; allows waiver if price of such local\nfood products is not reasonably competitive; allows waiver if such food\nproducts are not available in sufficient quantity.", 
     "title": "Requires school districts to purchase food products that are grown, produced, harvested or processed in New York state", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-03-06 01:15:45", 
+    "updated_at": "2012-10-16 18:02:14", 
     "versions": [
         {
-            "doc_id": "NYD00019873", 
+            "doc_id": "NYD00062110", 
             "mimetype": "text/html", 
             "name": "S4924", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S4924-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4924"
+        }, 
+        {
+            "doc_id": "NYD00062111", 
+            "mimetype": "text/html", 
+            "name": "S4924", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4924-2011"
+        }, 
+        {
+            "doc_id": "NYD00062112", 
+            "mimetype": "text/html", 
+            "name": "S4924A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4924A-2011"
         }
     ], 
     "votes": []

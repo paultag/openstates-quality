@@ -11,8 +11,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,9 +41,16 @@
     "alternate_titles": [], 
     "bill_id": "S 3088", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:28", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00064770", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3088-2011"
+        }
+    ], 
     "id": "NYB00003241", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=190"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3088&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3088&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S3088-2011"
@@ -49,6 +72,7 @@
         {
             "leg_id": "NYL000058", 
             "name": "STAVISKY", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,17 +80,24 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Relates to charges for the installation or use of certain appliances in housing\naccommodations subject to rent control and rent stabilization; requires\nlandlords to remove extra charges for appliances after the full cost has been\nrecouped through rent payments.", 
     "title": "Relates to charges for the installation or use of certain appliances in housing accommodations subject to rent control and rent stabilization", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-11 06:26:24", 
+    "updated_at": "2012-10-16 18:02:58", 
     "versions": [
         {
-            "doc_id": "NYD00017160", 
+            "doc_id": "NYD00064768", 
             "mimetype": "text/html", 
             "name": "S3088", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S3088-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3088"
+        }, 
+        {
+            "doc_id": "NYD00064769", 
+            "mimetype": "text/html", 
+            "name": "S3088", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3088-2011"
         }
     ], 
     "votes": []

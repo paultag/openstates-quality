@@ -14,8 +14,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-02-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,7 @@
             "action": "1ST REPORT CAL.735", 
             "actor": "upper", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -31,14 +38,16 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2011-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -47,14 +56,28 @@
             "action": "COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2011-06-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -63,6 +86,7 @@
             "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
             "actor": "upper", 
             "date": "2012-03-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -71,17 +95,38 @@
             "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2012-03-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 3117", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 7873", 
+            "chamber": null, 
+            "internal_id": "NYB00016728", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:28", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00056873", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3117-2011"
+        }
+    ], 
     "id": "NYB00003271", 
     "level": "state", 
     "scraped_subjects": [
@@ -90,7 +135,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=198"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3117&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3117&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S3117-2011"
@@ -100,6 +148,7 @@
         {
             "leg_id": "NYL000013", 
             "name": "ESPAILLAT", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -107,12 +156,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Allows persons 62 years or older to keep and care for common household pets in\nmunicipal housing; prevents eviction of such persons based on the ownership of\npets; provides that any pet who poses a nuisance to the community may be\nremoved; does not remove any pet owner from liability for the reasonable costs\ndirectly attributable to any damage caused by the pet.", 
     "title": "Allows persons 62 years or older in any housing project to keep common household pets", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-30 01:14:20", 
+    "updated_at": "2012-10-16 18:00:52", 
     "versions": [
+        {
+            "doc_id": "NYD00056872", 
+            "mimetype": "text/html", 
+            "name": "S3117", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3117"
+        }, 
         {
             "doc_id": "NYD00032351", 
             "mimetype": "text/html", 
@@ -120,5 +176,62 @@
             "url": "http://open.nysenate.gov/legislation/bill/S3117-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00003271", 
+            "chamber": "upper", 
+            "date": "2011-05-18 00:00:00", 
+            "id": "NYV00005227", 
+            "motion": "Housing, Construction and Community Development Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S3117-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00005227", 
+            "yes_count": 8, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000021", 
+                    "name": "Grisanti"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }
+            ]
+        }
+    ]
 }

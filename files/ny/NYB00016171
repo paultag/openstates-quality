@@ -11,25 +11,53 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7716", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 5102", 
+            "chamber": null, 
+            "internal_id": "NYB00005364", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-16 21:06:12", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00086878", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7716&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00016171", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=934"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7716&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7716&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A7716-2011"
@@ -48,24 +79,50 @@
         {
             "leg_id": "NYL000142", 
             "name": "Lopez V", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000108", 
+            "name": "Galef", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000186", 
+            "name": "Rosenthal", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000116", 
+            "name": "Gunther", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Business and Consumers"
     ], 
+    "summary": "Enacts a bill of rights for owners of residential condominium units to provide\nfair and equitable treatment of all unit owners; directs the attorney general\nto promulgate a handbook summary of the rights of unit owners vis-a-vis\ncondominium associations and the procedures and processes available to unit\nowners to enforce such rights.", 
     "title": "Establishes a residential condominium owner's bill of rights", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-16 01:07:59", 
+    "updated_at": "2012-10-16 18:07:09", 
     "versions": [
         {
-            "doc_id": "NYD00008627", 
+            "doc_id": "NYD00086876", 
             "mimetype": "text/html", 
             "name": "A7716", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A7716-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7716"
+        }, 
+        {
+            "doc_id": "NYD00086877", 
+            "mimetype": "text/html", 
+            "name": "A7716", 
+            "url": "http://open.nysenate.gov/legislation/bill/A7716-2011"
         }
     ], 
     "votes": []

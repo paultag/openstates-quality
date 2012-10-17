@@ -14,8 +14,14 @@
             "action": "REFERRED TO HIGHER EDUCATION", 
             "actor": "upper", 
             "date": "2011-04-28 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000021", 
+                    "name": "HIGHER EDUCATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,14 +29,22 @@
             "action": "COMMITTEE DISCHARGED AND COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2011-06-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "ORDERED TO THIRD READING CAL.1529", 
             "actor": "upper", 
             "date": "2011-06-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -39,6 +53,7 @@
             "action": "PASSED SENATE", 
             "actor": "upper", 
             "date": "2011-06-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -47,30 +62,40 @@
             "action": "DELIVERED TO ASSEMBLY", 
             "actor": "upper", 
             "date": "2011-06-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
             "action": "referred to higher education", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2011-06-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000059", 
+                    "name": "higher education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "died in assembly", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
             "action": "returned to senate", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -79,6 +104,13 @@
             "action": "REFERRED TO HIGHER EDUCATION", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000021", 
+                    "name": "HIGHER EDUCATION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -87,6 +119,7 @@
             "action": "1ST REPORT CAL.714", 
             "actor": "upper", 
             "date": "2012-05-08 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -95,14 +128,16 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2012-05-09 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2012-05-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -111,6 +146,10 @@
             "action": "PASSED SENATE", 
             "actor": "upper", 
             "date": "2012-06-06 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NYV00001856"
+            ], 
             "type": [
                 "bill:passed"
             ]
@@ -119,25 +158,47 @@
             "action": "DELIVERED TO ASSEMBLY", 
             "actor": "upper", 
             "date": "2012-06-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
             "action": "referred to higher education", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2012-06-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000059", 
+                    "name": "higher education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 4879", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 8345", 
+            "chamber": null, 
+            "internal_id": "NYB00018946", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:38", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00063770", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4879-2011"
+        }
+    ], 
     "id": "NYB00005141", 
     "level": "state", 
     "scraped_subjects": [
@@ -146,7 +207,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=324"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4879&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4879&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S4879-2011"
@@ -156,6 +220,7 @@
         {
             "leg_id": "NYL000006", 
             "name": "BONACIC", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -163,12 +228,19 @@
     "subjects": [
         "Education"
     ], 
+    "summary": "Provides that housing allowances under the World trade center memorial\nscholarships shall not be decreased for off campus housing unless a student\nresides with a relative.", 
     "title": "Relates to housing allowances under the World trade center memorial scholarships", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-11 15:59:37", 
+    "updated_at": "2012-10-16 18:02:45", 
     "versions": [
+        {
+            "doc_id": "NYD00063769", 
+            "mimetype": "text/html", 
+            "name": "S4879", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4879"
+        }, 
         {
             "doc_id": "NYD00035031", 
             "mimetype": "text/html", 
@@ -178,79 +250,27 @@
     ], 
     "votes": [
         {
+            "+actual_vote": {}, 
             "bill_id": "NYB00005141", 
             "chamber": "upper", 
-            "date": "2011-05-24 00:00:00", 
-            "id": "NYV00001815", 
+            "date": "2011-06-23 00:00:00", 
+            "id": "NYV00007057", 
             "motion": "Floor Vote", 
-            "no_count": 14, 
-            "no_votes": [
-                {
-                    "leg_id": "NYL000012", 
-                    "name": "Duane"
-                }, 
-                {
-                    "leg_id": "NYL000018", 
-                    "name": "Gianaris"
-                }, 
-                {
-                    "leg_id": "NYL000023", 
-                    "name": "Hassell-Thompson"
-                }, 
-                {
-                    "leg_id": "NYL000024", 
-                    "name": "Huntley"
-                }, 
-                {
-                    "leg_id": "NYL000028", 
-                    "name": "Krueger"
-                }, 
-                {
-                    "leg_id": "NYL000039", 
-                    "name": "Montgomery"
-                }, 
-                {
-                    "leg_id": "NYL000043", 
-                    "name": "Parker"
-                }, 
-                {
-                    "leg_id": "NYL000045", 
-                    "name": "Perkins"
-                }, 
-                {
-                    "leg_id": "NYL000048", 
-                    "name": "Rivera"
-                }, 
-                {
-                    "leg_id": "NYL000051", 
-                    "name": "Sampson"
-                }, 
-                {
-                    "leg_id": "NYL000052", 
-                    "name": "Savino"
-                }, 
-                {
-                    "leg_id": "NYL000053", 
-                    "name": "Serrano"
-                }, 
-                {
-                    "leg_id": "NYL000057", 
-                    "name": "Squadron"
-                }, 
-                {
-                    "leg_id": "NYL000058", 
-                    "name": "Stavisky"
-                }
-            ], 
+            "no_count": 0, 
+            "no_votes": [], 
             "other_count": 0, 
             "other_votes": [], 
             "passed": true, 
             "session": "2011-2012", 
-            "sources": [], 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4879-2011"
+                }
+            ], 
             "state": "ny", 
             "type": "other", 
-            "vote_id": "NYV00001815", 
-            "yes_count": 48, 
+            "vote_id": "NYV00007057", 
+            "yes_count": 62, 
             "yes_votes": [
                 {
                     "leg_id": "NYL000001", 
@@ -297,6 +317,10 @@
                     "name": "Dilan"
                 }, 
                 {
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
+                }, 
+                {
                     "leg_id": "NYL000013", 
                     "name": "Espaillat"
                 }, 
@@ -317,6 +341,10 @@
                     "name": "Gallivan"
                 }, 
                 {
+                    "leg_id": "NYL000018", 
+                    "name": "Gianaris"
+                }, 
+                {
                     "leg_id": "NYL000019", 
                     "name": "Golden"
                 }, 
@@ -333,6 +361,14 @@
                     "name": "Hannon"
                 }, 
                 {
+                    "leg_id": "NYL000023", 
+                    "name": "Hassell-Thomps"
+                }, 
+                {
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
+                }, 
+                {
                     "leg_id": "NYL000025", 
                     "name": "Johnson"
                 }, 
@@ -343,6 +379,10 @@
                 {
                     "leg_id": "NYL000027", 
                     "name": "Klein"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
                 }, 
                 {
                     "leg_id": "NYL000029", 
@@ -385,6 +425,10 @@
                     "name": "McDonald"
                 }, 
                 {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }, 
+                {
                     "leg_id": "NYL000040", 
                     "name": "Nozzolio"
                 }, 
@@ -397,8 +441,16 @@
                     "name": "Oppenheimer"
                 }, 
                 {
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
+                }, 
+                {
                     "leg_id": "NYL000044", 
                     "name": "Peralta"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
                 }, 
                 {
                     "leg_id": "NYL000046", 
@@ -409,12 +461,28 @@
                     "name": "Ritchie"
                 }, 
                 {
+                    "leg_id": "NYL000048", 
+                    "name": "Rivera"
+                }, 
+                {
                     "leg_id": "NYL000049", 
                     "name": "Robach"
                 }, 
                 {
                     "leg_id": "NYL000050", 
                     "name": "Saland"
+                }, 
+                {
+                    "leg_id": "NYL000051", 
+                    "name": "Sampson"
+                }, 
+                {
+                    "leg_id": "NYL000052", 
+                    "name": "Savino"
+                }, 
+                {
+                    "leg_id": "NYL000053", 
+                    "name": "Serrano"
                 }, 
                 {
                     "leg_id": "NYL000054", 
@@ -429,8 +497,16 @@
                     "name": "Smith"
                 }, 
                 {
+                    "leg_id": "NYL000057", 
+                    "name": "Squadron"
+                }, 
+                {
+                    "leg_id": "NYL000058", 
+                    "name": "Stavisky"
+                }, 
+                {
                     "leg_id": "NYL000059", 
-                    "name": "Stewart-Cousins"
+                    "name": "Stewart-Cousin"
                 }, 
                 {
                     "leg_id": "NYL000060", 
@@ -447,6 +523,23 @@
             ]
         }, 
         {
+            "+actual_vote": {
+                "Espaillat": [
+                    "Espaillat"
+                ], 
+                "Farley": [
+                    "Farley"
+                ], 
+                "Huntley": [
+                    "Huntley"
+                ], 
+                "Smith": [
+                    "Smith"
+                ], 
+                "Young": [
+                    "Young"
+                ]
+            }, 
             "bill_id": "NYB00005141", 
             "chamber": "upper", 
             "date": "2012-06-06 00:00:00", 
@@ -479,7 +572,11 @@
             ], 
             "passed": true, 
             "session": "2011-2012", 
-            "sources": [], 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4879-2011"
+                }
+            ], 
             "state": "ny", 
             "type": "other", 
             "vote_id": "NYV00001856", 
@@ -567,7 +664,7 @@
                 }, 
                 {
                     "leg_id": "NYL000023", 
-                    "name": "Hassell-Thompson"
+                    "name": "Hassell-Thomps"
                 }, 
                 {
                     "leg_id": "NYL000025", 
@@ -699,7 +796,7 @@
                 }, 
                 {
                     "leg_id": "NYL000059", 
-                    "name": "Stewart-Cousins"
+                    "name": "Stewart-Cousin"
                 }, 
                 {
                     "leg_id": "NYL000224", 
@@ -712,6 +809,222 @@
                 {
                     "leg_id": "NYL000062", 
                     "name": "Zeldin"
+                }
+            ]
+        }, 
+        {
+            "bill_id": "NYB00005141", 
+            "chamber": "upper", 
+            "date": "2012-05-08 00:00:00", 
+            "id": "NYV00007059", 
+            "motion": "Higher Education Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4879-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00007059", 
+            "yes_count": 18, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000003", 
+                    "name": "Alesi"
+                }, 
+                {
+                    "leg_id": "NYL000015", 
+                    "name": "Flanagan"
+                }, 
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000021", 
+                    "name": "Grisanti"
+                }, 
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000049", 
+                    "name": "Robach"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000062", 
+                    "name": "Zeldin"
+                }, 
+                {
+                    "leg_id": "NYL000058", 
+                    "name": "Stavisky"
+                }, 
+                {
+                    "leg_id": "NYL000026", 
+                    "name": "Kennedy"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }, 
+                {
+                    "leg_id": "NYL000042", 
+                    "name": "Oppenheimer"
+                }, 
+                {
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
+                }, 
+                {
+                    "leg_id": "NYL000048", 
+                    "name": "Rivera"
+                }, 
+                {
+                    "leg_id": "NYL000053", 
+                    "name": "Serrano"
+                }, 
+                {
+                    "leg_id": "NYL000008", 
+                    "name": "Carlucci"
+                }
+            ]
+        }, 
+        {
+            "bill_id": "NYB00005141", 
+            "chamber": "upper", 
+            "date": "2011-06-23 00:00:00", 
+            "id": "NYV00007058", 
+            "motion": "Rules Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4879-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00007058", 
+            "yes_count": 24, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000055", 
+                    "name": "Skelos"
+                }, 
+                {
+                    "leg_id": "NYL000003", 
+                    "name": "Alesi"
+                }, 
+                {
+                    "leg_id": "NYL000014", 
+                    "name": "Farley"
+                }, 
+                {
+                    "leg_id": "NYL000022", 
+                    "name": "Hannon"
+                }, 
+                {
+                    "leg_id": "NYL000025", 
+                    "name": "Johnson"
+                }, 
+                {
+                    "leg_id": "NYL000031", 
+                    "name": "Larkin"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000033", 
+                    "name": "Libous"
+                }, 
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000050", 
+                    "name": "Saland"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000051", 
+                    "name": "Sampson"
+                }, 
+                {
+                    "leg_id": "NYL000007", 
+                    "name": "Breslin"
+                }, 
+                {
+                    "leg_id": "NYL000011", 
+                    "name": "Dilan"
+                }, 
+                {
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
+                }, 
+                {
+                    "leg_id": "NYL000023", 
+                    "name": "Hassell-Thompson"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }, 
+                {
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }, 
+                {
+                    "leg_id": "NYL000056", 
+                    "name": "Smith"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
                 }
             ]
         }

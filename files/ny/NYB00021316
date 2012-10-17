@@ -3,7 +3,7 @@
     "action_dates": {
         "first": "2012-01-19 00:00:00", 
         "last": "2012-01-19 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2012-01-19 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -14,7 +14,7 @@
             "date": "2012-01-19 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "bill:passed"
             ]
         }
     ], 
@@ -24,7 +24,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-01-20 06:42:27", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00108450", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K833&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00021316", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +39,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1272"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K833&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K833&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K833-2011"
@@ -43,7 +52,7 @@
         {
             "leg_id": "NYL000118", 
             "name": "Hawley", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -51,12 +60,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Honoring My-T Acres upon the occasion of its designation as recipient of the Business of the Year Award", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-08-24 20:29:21", 
+    "updated_at": "2012-10-16 18:12:48", 
     "versions": [
+        {
+            "doc_id": "NYD00108449", 
+            "mimetype": "text/html", 
+            "name": "K833", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K833"
+        }, 
         {
             "doc_id": "NYD00040133", 
             "mimetype": "text/html", 

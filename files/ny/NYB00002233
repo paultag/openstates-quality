@@ -12,9 +12,14 @@
             "action": "REFERRED TO CODES", 
             "actor": "upper", 
             "date": "2011-01-18 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000008", 
+                    "name": "CODES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -22,7 +27,13 @@
             "action": "REFERRED TO CODES", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000008", 
+                    "name": "CODES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -31,19 +42,28 @@
             "action": "AMEND AND RECOMMIT TO CODES", 
             "actor": "upper", 
             "date": "2012-02-09 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000008", 
+                    "name": "CODES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "2169"
+            ], 
             "action": "PRINT NUMBER 2169A", 
             "actor": "upper", 
             "date": "2012-02-09 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
@@ -65,7 +85,7 @@
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2012-03-06 00:00:00", 
             "related_entities": [], 
@@ -78,6 +98,9 @@
             "actor": "upper", 
             "date": "2012-03-21 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NYV00002387"
+            ], 
             "type": [
                 "bill:passed"
             ]
@@ -93,21 +116,40 @@
         }, 
         {
             "action": "referred to codes", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2012-03-21 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 2169", 
     "chamber": "upper", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "A 5897", 
+            "chamber": null, 
+            "internal_id": "NYB00013364", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:23", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00067078", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S2169A-2011"
+        }
+    ], 
     "id": "NYB00002233", 
     "level": "state", 
     "scraped_subjects": [
@@ -116,95 +158,113 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=137"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2169&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S2169-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2169&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S2169A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S2169A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000019", 
             "name": "GOLDEN", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000009", 
             "name": "DEFRANCISCO", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000016", 
             "name": "FUSCHILLO", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000017", 
+            "name": "GALLIVAN", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000020", 
             "name": "GRIFFO", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000022", 
             "name": "HANNON", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000025", 
             "name": "JOHNSON", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000030", 
+            "name": "LANZA", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000031", 
             "name": "LARKIN", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000032", 
             "name": "LAVALLE", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000034", 
             "name": "LITTLE", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000037", 
             "name": "MAZIARZ", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000041", 
             "name": "O'MARA", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000046", 
             "name": "RANZENHOFER", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000050", 
             "name": "SALAND", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000061", 
             "name": "YOUNG", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -212,12 +272,19 @@
     "subjects": [
         "Crime"
     ], 
+    "summary": "Provides enhanced sentencing for the offenses of criminal possession of a\nweapon and criminal sale of a firearm where such offenses occur at the\nresidence of a child under age of fourteen.", 
     "title": "Provides enhanced sentencing for the offenses of criminal possession of a weapon and criminal sale of a firearm", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-08 09:54:46", 
+    "updated_at": "2012-10-16 18:03:31", 
     "versions": [
+        {
+            "doc_id": "NYD00067077", 
+            "mimetype": "text/html", 
+            "name": "S2169", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S2169"
+        }, 
         {
             "doc_id": "NYD00030283", 
             "mimetype": "text/html", 
@@ -233,6 +300,11 @@
     ], 
     "votes": [
         {
+            "+actual_vote": {
+                "Oppenheimer": [
+                    "Oppenheimer"
+                ]
+            }, 
             "bill_id": "NYB00002233", 
             "chamber": "upper", 
             "date": "2012-03-21 00:00:00", 
@@ -249,7 +321,11 @@
             ], 
             "passed": true, 
             "session": "2011-2012", 
-            "sources": [], 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S2169A-2011"
+                }
+            ], 
             "state": "ny", 
             "type": "other", 
             "vote_id": "NYV00002387", 
@@ -344,7 +420,7 @@
                     "name": "Hannon"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000023", 
                     "name": "Hassell-Thomps"
                 }, 
                 {
@@ -480,7 +556,7 @@
                     "name": "Stavisky"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "NYL000059", 
                     "name": "Stewart-Cousin"
                 }, 
                 {
@@ -500,81 +576,37 @@
         {
             "bill_id": "NYB00002233", 
             "chamber": "upper", 
-            "date": "2012-03-21 00:00:00", 
-            "id": "NYV00002590", 
-            "motion": "Floor Vote", 
-            "no_count": 0, 
-            "no_votes": [], 
-            "other_count": 1, 
-            "other_votes": [
+            "date": "2012-03-01 00:00:00", 
+            "id": "NYV00007904", 
+            "motion": "Codes Committee Vote", 
+            "no_count": 1, 
+            "no_votes": [
                 {
-                    "leg_id": "NYL000042", 
-                    "name": "Oppenheimer"
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
                 }
             ], 
+            "other_count": 0, 
+            "other_votes": [], 
             "passed": true, 
             "session": "2011-2012", 
-            "sources": [], 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S2169A-2011"
+                }
+            ], 
             "state": "ny", 
             "type": "other", 
-            "vote_id": "NYV00002590", 
-            "yes_count": 60, 
+            "vote_id": "NYV00007904", 
+            "yes_count": 15, 
             "yes_votes": [
                 {
-                    "leg_id": "NYL000001", 
-                    "name": "Adams"
-                }, 
-                {
-                    "leg_id": "NYL000002", 
-                    "name": "Addabbo"
-                }, 
-                {
-                    "leg_id": "NYL000003", 
-                    "name": "Alesi"
-                }, 
-                {
-                    "leg_id": "NYL000004", 
-                    "name": "Avella"
-                }, 
-                {
-                    "leg_id": "NYL000005", 
-                    "name": "Ball"
-                }, 
-                {
-                    "leg_id": "NYL000006", 
-                    "name": "Bonacic"
-                }, 
-                {
-                    "leg_id": "NYL000007", 
-                    "name": "Breslin"
-                }, 
-                {
-                    "leg_id": "NYL000008", 
-                    "name": "Carlucci"
+                    "leg_id": "NYL000050", 
+                    "name": "Saland"
                 }, 
                 {
                     "leg_id": "NYL000009", 
                     "name": "DeFrancisco"
-                }, 
-                {
-                    "leg_id": "NYL000010", 
-                    "name": "Diaz"
-                }, 
-                {
-                    "leg_id": "NYL000011", 
-                    "name": "Dilan"
-                }, 
-                {
-                    "leg_id": "NYL000012", 
-                    "name": "Duane"
-                }, 
-                {
-                    "leg_id": "NYL000013", 
-                    "name": "Espaillat"
-                }, 
-                {
-                    "leg_id": "NYL000014", 
-                    "name": "Farley"
                 }, 
                 {
                     "leg_id": "NYL000015", 
@@ -589,88 +621,12 @@
                     "name": "Gallivan"
                 }, 
                 {
-                    "leg_id": "NYL000018", 
-                    "name": "Gianaris"
-                }, 
-                {
                     "leg_id": "NYL000019", 
                     "name": "Golden"
                 }, 
                 {
-                    "leg_id": "NYL000020", 
-                    "name": "Griffo"
-                }, 
-                {
-                    "leg_id": "NYL000021", 
-                    "name": "Grisanti"
-                }, 
-                {
-                    "leg_id": "NYL000022", 
-                    "name": "Hannon"
-                }, 
-                {
-                    "leg_id": null, 
-                    "name": "Hassell-Thomps"
-                }, 
-                {
-                    "leg_id": "NYL000024", 
-                    "name": "Huntley"
-                }, 
-                {
-                    "leg_id": "NYL000025", 
-                    "name": "Johnson"
-                }, 
-                {
-                    "leg_id": "NYL000026", 
-                    "name": "Kennedy"
-                }, 
-                {
-                    "leg_id": "NYL000027", 
-                    "name": "Klein"
-                }, 
-                {
-                    "leg_id": "NYL000028", 
-                    "name": "Krueger"
-                }, 
-                {
                     "leg_id": "NYL000030", 
                     "name": "Lanza"
-                }, 
-                {
-                    "leg_id": "NYL000031", 
-                    "name": "Larkin"
-                }, 
-                {
-                    "leg_id": "NYL000032", 
-                    "name": "LaValle"
-                }, 
-                {
-                    "leg_id": "NYL000033", 
-                    "name": "Libous"
-                }, 
-                {
-                    "leg_id": "NYL000034", 
-                    "name": "Little"
-                }, 
-                {
-                    "leg_id": "NYL000035", 
-                    "name": "Marcellino"
-                }, 
-                {
-                    "leg_id": "NYL000036", 
-                    "name": "Martins"
-                }, 
-                {
-                    "leg_id": "NYL000037", 
-                    "name": "Maziarz"
-                }, 
-                {
-                    "leg_id": "NYL000038", 
-                    "name": "McDonald"
-                }, 
-                {
-                    "leg_id": "NYL000039", 
-                    "name": "Montgomery"
                 }, 
                 {
                     "leg_id": "NYL000040", 
@@ -681,84 +637,28 @@
                     "name": "O'Mara"
                 }, 
                 {
-                    "leg_id": "NYL000043", 
-                    "name": "Parker"
+                    "leg_id": "NYL000018", 
+                    "name": "Gianaris"
                 }, 
                 {
-                    "leg_id": "NYL000044", 
-                    "name": "Peralta"
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
                 }, 
                 {
-                    "leg_id": "NYL000045", 
-                    "name": "Perkins"
-                }, 
-                {
-                    "leg_id": "NYL000046", 
-                    "name": "Ranzenhofer"
-                }, 
-                {
-                    "leg_id": "NYL000047", 
-                    "name": "Ritchie"
-                }, 
-                {
-                    "leg_id": "NYL000048", 
-                    "name": "Rivera"
-                }, 
-                {
-                    "leg_id": "NYL000049", 
-                    "name": "Robach"
-                }, 
-                {
-                    "leg_id": "NYL000050", 
-                    "name": "Saland"
-                }, 
-                {
-                    "leg_id": "NYL000051", 
-                    "name": "Sampson"
-                }, 
-                {
-                    "leg_id": "NYL000052", 
-                    "name": "Savino"
-                }, 
-                {
-                    "leg_id": "NYL000053", 
-                    "name": "Serrano"
-                }, 
-                {
-                    "leg_id": "NYL000054", 
-                    "name": "Seward"
-                }, 
-                {
-                    "leg_id": "NYL000055", 
-                    "name": "Skelos"
-                }, 
-                {
-                    "leg_id": "NYL000056", 
-                    "name": "Smith"
+                    "leg_id": "NYL000024", 
+                    "name": "Huntley"
                 }, 
                 {
                     "leg_id": "NYL000057", 
                     "name": "Squadron"
                 }, 
                 {
-                    "leg_id": "NYL000058", 
-                    "name": "Stavisky"
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
                 }, 
                 {
-                    "leg_id": null, 
-                    "name": "Stewart-Cousin"
-                }, 
-                {
-                    "leg_id": "NYL000060", 
-                    "name": "Valesky"
-                }, 
-                {
-                    "leg_id": "NYL000061", 
-                    "name": "Young"
-                }, 
-                {
-                    "leg_id": "NYL000062", 
-                    "name": "Zeldin"
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
                 }
             ]
         }

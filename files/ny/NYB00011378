@@ -14,102 +14,177 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-02-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4003"
+            ], 
             "action": "print number 4003a", 
             "actor": "lower", 
             "date": "2011-02-25 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-03-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4003"
+            ], 
             "action": "print number 4003b", 
             "actor": "lower", 
             "date": "2011-03-04 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4003"
+            ], 
             "action": "print number 4003c", 
             "actor": "lower", 
             "date": "2011-03-12 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4003"
+            ], 
             "action": "print number 4003d", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4003"
+            ], 
             "action": "print number 4003e", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,14 +193,19 @@
             "action": "rules report cal.18", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s2803"
+            ], 
             "action": "substituted by s2803e", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -134,9 +214,23 @@
     "alternate_titles": [], 
     "bill_id": "A 4003", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2803", 
+            "chamber": null, 
+            "internal_id": "NYB00002911", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:05", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00086932", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4003&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011378", 
     "level": "state", 
     "scraped_subjects": [
@@ -145,16 +239,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=749"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4003&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A4003-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4003&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4003E&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A4003E-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": null, 
-            "name": "BUDGET BILL", 
+            "name": "Budget", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -162,12 +263,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Makes appropriations for the support of government - Aid To Localities Budget.", 
     "title": "AID TO LOCALITIES BUDGET", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:32", 
+    "updated_at": "2012-10-16 18:07:10", 
     "versions": [
+        {
+            "doc_id": "NYD00086931", 
+            "mimetype": "text/html", 
+            "name": "A4003", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4003"
+        }, 
         {
             "doc_id": "NYD00040805", 
             "mimetype": "text/html", 

@@ -12,18 +12,31 @@
             "action": "referred to judiciary", 
             "actor": "lower", 
             "date": "2012-04-26 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000062", 
+                    "name": "judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 9952", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-05-01 01:06:32", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096590", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9952&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00024687", 
     "level": "state", 
     "scraped_subjects": [
@@ -32,7 +45,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1138"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9952&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A9952&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A9952-2011"
@@ -42,7 +58,7 @@
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -50,12 +66,19 @@
     "subjects": [
         "Civil Liberties and Civil Rights"
     ], 
+    "summary": "Provides for the exemption of a lease valued at $150,000 or less, held and\noccupied by the judgment debtor or family for a rent stabilized regulated unit\nfrom the satisfaction of a money judgment for bankruptcy proceedings.", 
     "title": "Provides for the exemption of rent regulated apartment leases from the satisfaction of a money judgment", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-19 02:11:09", 
+    "updated_at": "2012-10-16 18:09:34", 
     "versions": [
+        {
+            "doc_id": "NYD00096589", 
+            "mimetype": "text/html", 
+            "name": "A9952", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A9952"
+        }, 
         {
             "doc_id": "NYD00039679", 
             "mimetype": "text/html", 

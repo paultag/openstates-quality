@@ -14,8 +14,14 @@
             "action": "REFERRED TO BANKS", 
             "actor": "upper", 
             "date": "2011-04-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000004", 
+                    "name": "BANKS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,13 @@
             "action": "REFERRED TO BANKS", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000004", 
+                    "name": "BANKS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -31,68 +44,122 @@
             "action": "AMEND (T) AND RECOMMIT TO BANKS", 
             "actor": "upper", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000004", 
+                    "name": "BANKS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4567"
+            ], 
             "action": "PRINT NUMBER 4567A", 
             "actor": "upper", 
             "date": "2012-02-21 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "AMEND (T) AND RECOMMIT TO BANKS", 
             "actor": "upper", 
             "date": "2012-04-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000004", 
+                    "name": "BANKS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4567"
+            ], 
             "action": "PRINT NUMBER 4567B", 
             "actor": "upper", 
             "date": "2012-04-27 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "AMEND AND RECOMMIT TO BANKS", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000004", 
+                    "name": "BANKS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4567"
+            ], 
             "action": "PRINT NUMBER 4567C", 
             "actor": "upper", 
             "date": "2012-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "REPORTED AND COMMITTED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 4567", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 8145", 
+            "chamber": null, 
+            "internal_id": "NYB00017616", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:35", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00066650", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4567C-2011"
+        }
+    ], 
     "id": "NYB00004822", 
     "level": "state", 
     "scraped_subjects": [
@@ -101,17 +168,36 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=301"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4567&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S4567-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4567&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4567C&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S4567C-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000020", 
             "name": "GRIFFO", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000004", 
+            "name": "AVELLA", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000024", 
+            "name": "HUNTLEY", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -119,12 +205,19 @@
         "Commerce", 
         "Legal Issues"
     ], 
+    "summary": "Relates to credit union memberships and membership powers; sets forth the\nqualifications for membership in a credit union; and amends the powers of\ncredit unions in relation to business loans, investment activities and other\npowers.", 
     "title": "Relates to credit union memberships and membership powers", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-25 01:12:59", 
+    "updated_at": "2012-10-16 18:03:24", 
     "versions": [
+        {
+            "doc_id": "NYD00066649", 
+            "mimetype": "text/html", 
+            "name": "S4567", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4567"
+        }, 
         {
             "doc_id": "NYD00030394", 
             "mimetype": "text/html", 
@@ -150,5 +243,107 @@
             "url": "http://open.nysenate.gov/legislation/bill/S4567C-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00004822", 
+            "chamber": "upper", 
+            "date": "2012-05-23 00:00:00", 
+            "id": "NYV00007778", 
+            "motion": "Banks Committee Vote", 
+            "no_count": 1, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000009", 
+                    "name": "DeFrancisco"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4567C-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00007778", 
+            "yes_count": 18, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000014", 
+                    "name": "Farley"
+                }, 
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000046", 
+                    "name": "Ranzenhofer"
+                }, 
+                {
+                    "leg_id": "NYL000056", 
+                    "name": "Smith"
+                }, 
+                {
+                    "leg_id": "NYL000007", 
+                    "name": "Breslin"
+                }, 
+                {
+                    "leg_id": "NYL000008", 
+                    "name": "Carlucci"
+                }, 
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }, 
+                {
+                    "leg_id": "NYL000048", 
+                    "name": "Rivera"
+                }, 
+                {
+                    "leg_id": "NYL000052", 
+                    "name": "Savino"
+                }, 
+                {
+                    "leg_id": "NYL000060", 
+                    "name": "Valesky"
+                }, 
+                {
+                    "leg_id": "NYL000004", 
+                    "name": "Avella"
+                }, 
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000019", 
+                    "name": "Golden"
+                }, 
+                {
+                    "leg_id": "NYL000025", 
+                    "name": "Johnson"
+                }, 
+                {
+                    "leg_id": "NYL000041", 
+                    "name": "O'Mara"
+                }
+            ]
+        }
+    ]
 }

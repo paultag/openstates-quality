@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-06-14 00:00:00", 
-        "last": "2012-02-06 00:00:00", 
+        "last": "2012-06-21 00:00:00", 
         "passed_lower": null, 
         "passed_upper": "2011-06-22 00:00:00", 
         "signed": null
@@ -11,8 +11,14 @@
             "action": "REFERRED TO RULES", 
             "actor": "upper", 
             "date": "2011-06-14 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,7 @@
             "action": "ORDERED TO THIRD READING CAL.1506", 
             "actor": "upper", 
             "date": "2011-06-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +35,7 @@
             "action": "PASSED SENATE", 
             "actor": "upper", 
             "date": "2011-06-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -36,30 +44,40 @@
             "action": "DELIVERED TO ASSEMBLY", 
             "actor": "upper", 
             "date": "2011-06-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
             "action": "referred to housing", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2011-06-22 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "died in assembly", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
             "action": "returned to senate", 
-            "actor": "upper", 
+            "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -68,6 +86,13 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -76,40 +101,63 @@
             "action": "AMEND AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5763"
+            ], 
             "action": "PRINT NUMBER 5763A", 
             "actor": "upper", 
             "date": "2012-01-24 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "AMEND (T) AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "5763"
+            ], 
             "action": "PRINT NUMBER 5763B", 
             "actor": "upper", 
             "date": "2012-01-25 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "1ST REPORT CAL.130", 
             "actor": "upper", 
             "date": "2012-01-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -118,25 +166,49 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2012-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2012-02-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
+            ]
+        }, 
+        {
+            "action": "COMMITTED TO RULES", 
+            "actor": "upper", 
+            "date": "2012-06-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 5763", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-06-15 07:55:37", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00057589", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5763B-2011"
+        }
+    ], 
     "id": "NYB00018834", 
     "level": "state", 
     "scraped_subjects": [
@@ -145,16 +217,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=391"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5763&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S5763-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5763&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5763B&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S5763B-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000061", 
             "name": "YOUNG", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -162,12 +241,19 @@
     "subjects": [
         "Municipal and County Issues"
     ], 
-    "title": "Provides for the implementation of the Roberts v. Tishman Speyer Properties. L.P. decision with regard to rent regulated housing accommodations", 
+    "summary": "Provides for the implementation of the Roberts v. Tishman Speyer Properties,\nL.P. decision with regard to rent regulated housing accommodations; and extends\nuntil June 1, 2015, the deadline for local legislative action providing tax\nincentives for the rehabilitation or improvement of multiple dwellings.", 
+    "title": "Provides for the implementation of the Roberts v. Tishman Speyer Properties, L.P. decision with regard to rent regulated housing accommodations", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-16 01:15:32", 
+    "updated_at": "2012-10-16 18:01:00", 
     "versions": [
+        {
+            "doc_id": "NYD00057588", 
+            "mimetype": "text/html", 
+            "name": "S5763", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5763"
+        }, 
         {
             "doc_id": "NYD00039812", 
             "mimetype": "text/html", 
@@ -189,6 +275,128 @@
     ], 
     "votes": [
         {
+            "bill_id": "NYB00018834", 
+            "chamber": "upper", 
+            "date": "2011-06-22 00:00:00", 
+            "id": "NYV00005439", 
+            "motion": "Rules Committee Vote", 
+            "no_count": 11, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000051", 
+                    "name": "Sampson"
+                }, 
+                {
+                    "leg_id": "NYL000007", 
+                    "name": "Breslin"
+                }, 
+                {
+                    "leg_id": "NYL000011", 
+                    "name": "Dilan"
+                }, 
+                {
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
+                }, 
+                {
+                    "leg_id": "NYL000023", 
+                    "name": "Hassell-Thompson"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }, 
+                {
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }, 
+                {
+                    "leg_id": "NYL000056", 
+                    "name": "Smith"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5763B-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00005439", 
+            "yes_count": 13, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000055", 
+                    "name": "Skelos"
+                }, 
+                {
+                    "leg_id": "NYL000003", 
+                    "name": "Alesi"
+                }, 
+                {
+                    "leg_id": "NYL000014", 
+                    "name": "Farley"
+                }, 
+                {
+                    "leg_id": "NYL000022", 
+                    "name": "Hannon"
+                }, 
+                {
+                    "leg_id": "NYL000025", 
+                    "name": "Johnson"
+                }, 
+                {
+                    "leg_id": "NYL000031", 
+                    "name": "Larkin"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000033", 
+                    "name": "Libous"
+                }, 
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000037", 
+                    "name": "Maziarz"
+                }, 
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000050", 
+                    "name": "Saland"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }
+            ]
+        }, 
+        {
+            "+actual_vote": {}, 
             "bill_id": "NYB00018834", 
             "chamber": "upper", 
             "date": "2011-06-22 00:00:00", 
@@ -234,7 +442,7 @@
                 }, 
                 {
                     "leg_id": "NYL000023", 
-                    "name": "Hassell-Thompson"
+                    "name": "Hassell-Thomps"
                 }, 
                 {
                     "leg_id": "NYL000024", 
@@ -306,14 +514,18 @@
                 }, 
                 {
                     "leg_id": "NYL000059", 
-                    "name": "Stewart-Cousins"
+                    "name": "Stewart-Cousin"
                 }
             ], 
             "other_count": 0, 
             "other_votes": [], 
             "passed": true, 
             "session": "2011-2012", 
-            "sources": [], 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5763B-2011"
+                }
+            ], 
             "state": "ny", 
             "type": "other", 
             "vote_id": "NYV00001283", 
@@ -454,6 +666,63 @@
                 {
                     "leg_id": "NYL000062", 
                     "name": "Zeldin"
+                }
+            ]
+        }, 
+        {
+            "bill_id": "NYB00018834", 
+            "chamber": "upper", 
+            "date": "2012-01-30 00:00:00", 
+            "id": "NYV00005440", 
+            "motion": "Housing, Construction and Community Development Committee Vote", 
+            "no_count": 3, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }
+            ], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S5763B-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00005440", 
+            "yes_count": 5, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000021", 
+                    "name": "Grisanti"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
                 }
             ]
         }

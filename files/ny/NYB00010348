@@ -14,25 +14,53 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-01-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3021", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1305", 
+            "chamber": null, 
+            "internal_id": "NYB00001350", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:01", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00083334", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3021&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010348", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=691"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3021&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3021&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3021-2011"
@@ -51,19 +82,39 @@
         {
             "leg_id": "NYL000209", 
             "name": "Wright", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000103", 
+            "name": "Farrell", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Provides that a child (regardless of age) who has lived with a tenant parent\nfor two years or more in rent-regulated housing accommodations shall be deemed\na tenant of such housing accommodations for the purposes of the rent-regulating\nlaws.", 
     "title": "Provides that a child regardless of age who has lived with a tenant parent for two years or more in a rent-regulated apartment shall be deemed a tenant", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:31", 
+    "updated_at": "2012-10-16 18:06:13", 
     "versions": [
+        {
+            "doc_id": "NYD00083333", 
+            "mimetype": "text/html", 
+            "name": "A3021", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3021"
+        }, 
         {
             "doc_id": "NYD00040768", 
             "mimetype": "text/html", 

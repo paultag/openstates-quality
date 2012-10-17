@@ -5,18 +5,23 @@
     "action_dates": {
         "first": "2012-01-17 00:00:00", 
         "last": "2012-03-30 00:00:00", 
-        "passed_lower": null, 
-        "passed_upper": null, 
-        "signed": null
+        "passed_lower": "2012-03-30 00:00:00", 
+        "passed_upper": "2012-03-30 00:00:00", 
+        "signed": "2012-03-30 00:00:00"
     }, 
     "actions": [
         {
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2012-01-17 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -24,76 +29,112 @@
             "action": "AMEND AND RECOMMIT TO FINANCE", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6259"
+            ], 
             "action": "PRINT NUMBER 6259A", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "AMEND (T) AND RECOMMIT TO FINANCE", 
             "actor": "upper", 
             "date": "2012-02-17 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6259"
+            ], 
             "action": "PRINT NUMBER 6259B", 
             "actor": "upper", 
             "date": "2012-02-17 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "AMEND (T) AND RECOMMIT TO FINANCE", 
             "actor": "upper", 
             "date": "2012-03-11 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6259"
+            ], 
             "action": "PRINT NUMBER 6259C", 
             "actor": "upper", 
             "date": "2012-03-11 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "AMEND (T) AND RECOMMIT TO FINANCE", 
             "actor": "upper", 
             "date": "2012-03-27 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6259"
+            ], 
             "action": "PRINT NUMBER 6259D", 
             "actor": "upper", 
             "date": "2012-03-27 00:00:00", 
             "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
@@ -106,6 +147,9 @@
             ]
         }, 
         {
+            "+bill_id": [
+                "A9059"
+            ], 
             "action": "SUBSTITUTED BY A9059D", 
             "actor": "upper", 
             "date": "2012-03-30 00:00:00", 
@@ -113,14 +157,341 @@
             "type": [
                 "other"
             ]
+        }, 
+        {
+            "action": "referred to ways and means", 
+            "actor": "lower", 
+            "date": "2012-01-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to ways and means", 
+            "actor": "lower", 
+            "date": "2012-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "9059"
+            ], 
+            "action": "print number 9059a", 
+            "actor": "lower", 
+            "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "amend (t) and recommit to ways and means", 
+            "actor": "lower", 
+            "date": "2012-02-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "9059"
+            ], 
+            "action": "print number 9059b", 
+            "actor": "lower", 
+            "date": "2012-02-17 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "amend (t) and recommit to ways and means", 
+            "actor": "lower", 
+            "date": "2012-03-09 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "9059"
+            ], 
+            "action": "print number 9059c", 
+            "actor": "lower", 
+            "date": "2012-03-09 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "amend (t) and recommit to ways and means", 
+            "actor": "lower", 
+            "date": "2012-03-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "9059"
+            ], 
+            "action": "print number 9059d", 
+            "actor": "lower", 
+            "date": "2012-03-27 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "reported referred to rules", 
+            "actor": "lower", 
+            "date": "2012-03-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported ", 
+            "actor": "lower", 
+            "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "rules report cal.33", 
+            "actor": "lower", 
+            "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "ordered to third reading rules cal.33", 
+            "actor": "lower", 
+            "date": "2012-03-29 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "motion to amend lost", 
+            "actor": "lower", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "motion to amend lost", 
+            "actor": "lower", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "motion to amend lost", 
+            "actor": "lower", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "motion to amend lost", 
+            "actor": "lower", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "motion to amend lost", 
+            "actor": "lower", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "motion to amend lost", 
+            "actor": "lower", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "passed assembly", 
+            "actor": "lower", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "delivered to senate", 
+            "actor": "lower", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "REFERRED TO FINANCE", 
+            "actor": "upper", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "SUBSTITUTED FOR S6259D", 
+            "actor": "upper", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "3RD READING CAL.486", 
+            "actor": "upper", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "PASSED SENATE", 
+            "actor": "upper", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "RETURNED TO ASSEMBLY", 
+            "actor": "upper", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "delivered to governor", 
+            "actor": "lower", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:received"
+            ]
+        }, 
+        {
+            "+session_laws": [
+                "59"
+            ], 
+            "action": "signed chap.59", 
+            "actor": "lower", 
+            "date": "2012-03-30 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "governor:signed"
+            ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 6259", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 9059", 
+            "chamber": null, 
+            "internal_id": "NYB00021122", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2012-01-18 06:58:49", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00050667", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S6259D-2011"
+        }
+    ], 
     "id": "NYB00021086", 
     "level": "state", 
     "scraped_subjects": [
@@ -129,17 +500,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=421"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6259&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S6259-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6259&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S6259D&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S6259D-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": null, 
             "name": "BUDGET", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -147,12 +524,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Enacts into law major components of legislation which are necessary to\nimplement the state fiscal plan for the 2012-2013 state fiscal year; relates to\nthe effectiveness of provisions of law relating to oil and gas charges (Part\nA); relates to the suspension of STAR exemptions and related benefits of\npersons who are delinquent in the payment of outstanding state tax liabilities\n(Part B); relates to providing exemptions, reimbursements and credits from\nvarious taxes for certain alternative fuels, in relation to extending the\nalternative fuels tax exemptions (Part D); relates to making technical\namendments to the tax treatment of diesel fuel to reflect industry practice\n(Part E); relates to establishing standards for electronic real property tax\nadministration, allowing the department of taxation and finance to use\nelectronic communication means to furnish tax notices and other documents,\nmandatory electronic filing of tax documents, debit cards issued for tax\nrefunds, improving sales tax compliance and repealing certain provisions of the\ntax law and the administrative code of the city of New York relating thereto,\nin relation to the expiration thereof (Part G); relates to extending the empire\nstate commercial production tax credit (Part I); relates to the credit against\nincome tax for persons or entities investing in low-income housing (Part J);\nrelates to extending the biofuel production tax credit; and to amend part X of\nchapter 62 of the laws of 2006, amending the tax law relating to providing tax\ncredits for biofuel production plants, relating to the effectiveness thereof\n(Part K); relates to providing an enhanced earned income tax credit, relating\nto the effectiveness thereof (Part L); relates to tax rates and exclusions\nunder the metropolitan commuter transportation mobility tax for professional\nemployer organizations and to amend part B of chapter 56 of the laws of 2011\namending the tax law relating to the tax rates and exclusions under the\nmetropolitan commuter transportation mobility tax, relating to the\neffectiveness thereof (Part N); relates to licenses for simulcast facilities,\nsums relating to track simulcast, simulcast of out-of-state thoroughbred races,\nsimulcasting of races run by out-of-state harness tracks and distributions of\nwagers; relates to simulcasting and the imposition of certain taxes, in\nrelation to extending certain provisions thereof (Part O); relates to the\ndistribution of revenue collected from the corporate and utilities taxes\nimposed under sections 183 and 184 of the tax law; and providing for the repeal\nof such provisions upon expiration thereof (Part P); relates to facilitating\nthe compliance of room remarketers with their obligation to collect sales tax\non their sales of occupancy (Part Q); relates to transitional provisions\nrelating to the enactment and implementation of the federal Gramm-Leach-Bliley\nact (Part R); relates to video lottery gaming (Part S); relates to the deadline\nfor employer applications to the New York youth tax credit program (Part T);\nprovides for the administration of certain funds and accounts related to the\n2012-13 budget; authorizes certain payments and transfers; relates to school\ntax relief fund; relates to issuance of certifications of participation,\nvariable rate bonds, payments, transfers and deposits of funds and investment\nof general funds, bond proceeds, and other funds not immediately required;\nrelates to state environmental infrastructure projects; relates to providing\nfor the administration of certain funds and accounts related to the 2005-2006\nbudget, in relation to the Division of Military and Naval Affairs Capital\nProjects; relates to the financing of the correctional facilities improvement\nfund and the youth facility improvement fund, in relation to the issuance of\nbonds; relates to housing program bonds and notes; relates to the establishment\nof the dedicated highway and bridge trust fund, in relation to the issuance of\nbonds; relates to courthouse improvements and training facilities, metropolitan\ntransportation authority facilities, peace bridge projects and issuance of\nbonds by the dormitory authority; relates to funding project costs for the\nstate university of New York college for nanoscale and science engineering and\nthe NY-SUNY 2020 challenge grant program; relates to providing for the\nadministration of certain funds and accounts related to the 2008-2009 budget,\nin relation to the effectiveness thereof; relates to providing for the\nadministration of certain funds and accounts related to the 2009-10 budget, in\nrelation to the effectiveness thereof; relates to providing for the\nadministration of certain funds and accounts related to the 2009-10 budget, in\nrelation to the effectiveness thereof; relates to the metropolitan\ntransportation authority, the New York city transit authority, and the\nTriborough bridge and tunnel authority, in relation to authorizations to issue\nbonds and notes; repeals provisions relating to the reserve funds of private\nnot-for-profit schools established with the dormitory authority; repeals\nprovisions relating to the rural housing assistance fund; repeals provisions\nrelating to penalties for violations of the lobbying act (Part U).", 
     "title": "Enacts into law major components of legislation which are necessary to implement the state fiscal plan for the 2012-2013 state fiscal year", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-28 02:49:52", 
+    "updated_at": "2012-10-16 17:59:14", 
     "versions": [
+        {
+            "doc_id": "NYD00050666", 
+            "mimetype": "text/html", 
+            "name": "S6259", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6259"
+        }, 
         {
             "doc_id": "NYD00029286", 
             "mimetype": "text/html", 
@@ -184,5 +568,172 @@
             "url": "http://open.nysenate.gov/legislation/bill/S6259D-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00021086", 
+            "chamber": "upper", 
+            "date": "2012-03-29 00:00:00", 
+            "id": "NYV00003621", 
+            "motion": "Finance Committee Vote", 
+            "no_count": 2, 
+            "no_votes": [
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }, 
+                {
+                    "leg_id": "NYL000012", 
+                    "name": "Duane"
+                }
+            ], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NYL000042", 
+                    "name": "Oppenheimer"
+                }
+            ], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S6259D-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00003621", 
+            "yes_count": 32, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000009", 
+                    "name": "DeFrancisco"
+                }, 
+                {
+                    "leg_id": "NYL000025", 
+                    "name": "Johnson"
+                }, 
+                {
+                    "leg_id": "NYL000003", 
+                    "name": "Alesi"
+                }, 
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000014", 
+                    "name": "Farley"
+                }, 
+                {
+                    "leg_id": "NYL000015", 
+                    "name": "Flanagan"
+                }, 
+                {
+                    "leg_id": "NYL000016", 
+                    "name": "Fuschillo"
+                }, 
+                {
+                    "leg_id": "NYL000019", 
+                    "name": "Golden"
+                }, 
+                {
+                    "leg_id": "NYL000020", 
+                    "name": "Griffo"
+                }, 
+                {
+                    "leg_id": "NYL000022", 
+                    "name": "Hannon"
+                }, 
+                {
+                    "leg_id": "NYL000030", 
+                    "name": "Lanza"
+                }, 
+                {
+                    "leg_id": "NYL000031", 
+                    "name": "Larkin"
+                }, 
+                {
+                    "leg_id": "NYL000032", 
+                    "name": "LaValle"
+                }, 
+                {
+                    "leg_id": "NYL000034", 
+                    "name": "Little"
+                }, 
+                {
+                    "leg_id": "NYL000035", 
+                    "name": "Marcellino"
+                }, 
+                {
+                    "leg_id": "NYL000040", 
+                    "name": "Nozzolio"
+                }, 
+                {
+                    "leg_id": "NYL000049", 
+                    "name": "Robach"
+                }, 
+                {
+                    "leg_id": "NYL000050", 
+                    "name": "Saland"
+                }, 
+                {
+                    "leg_id": "NYL000054", 
+                    "name": "Seward"
+                }, 
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000007", 
+                    "name": "Breslin"
+                }, 
+                {
+                    "leg_id": "NYL000011", 
+                    "name": "Dilan"
+                }, 
+                {
+                    "leg_id": "NYL000018", 
+                    "name": "Gianaris"
+                }, 
+                {
+                    "leg_id": "NYL000039", 
+                    "name": "Montgomery"
+                }, 
+                {
+                    "leg_id": "NYL000044", 
+                    "name": "Peralta"
+                }, 
+                {
+                    "leg_id": "NYL000058", 
+                    "name": "Stavisky"
+                }, 
+                {
+                    "leg_id": "NYL000059", 
+                    "name": "Stewart-Cousins"
+                }, 
+                {
+                    "leg_id": "NYL000057", 
+                    "name": "Squadron"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }, 
+                {
+                    "leg_id": "NYL000043", 
+                    "name": "Parker"
+                }, 
+                {
+                    "leg_id": "NYL000045", 
+                    "name": "Perkins"
+                }, 
+                {
+                    "leg_id": "NYL000048", 
+                    "name": "Rivera"
+                }
+            ]
+        }
+    ]
 }

@@ -2,7 +2,7 @@
     "+companion_bill_ids": [], 
     "action_dates": {
         "first": "2011-02-07 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-09-04 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -12,14 +12,37 @@
             "action": "referred to higher education", 
             "actor": "lower", 
             "date": "2011-02-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000059", 
+                    "name": "higher education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to higher education", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000059", 
+                    "name": "higher education", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "enacting clause stricken", 
+            "actor": "lower", 
+            "date": "2012-09-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,9 +51,23 @@
     "alternate_titles": [], 
     "bill_id": "A 4726", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1849", 
+            "chamber": null, 
+            "internal_id": "NYB00001910", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:09", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00084695", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4726&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012142", 
     "level": "state", 
     "scraped_subjects": [
@@ -39,7 +76,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=801"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4726&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4726&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4726-2011"
@@ -49,25 +89,25 @@
         {
             "leg_id": "NYL000182", 
             "name": "Rivera P", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000085", 
-            "name": "Castelli", 
-            "official_type": "multisponsor", 
-            "type": "cosponsor"
+            "official_type": "SPONSOR", 
+            "type": "primary"
         }, 
         {
             "leg_id": "NYL000198", 
             "name": "Stevenson", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000181", 
             "name": "Rivera N", 
-            "official_type": "multisponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000085", 
+            "name": "Castelli", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -75,12 +115,19 @@
     "subjects": [
         "Education"
     ], 
+    "summary": "Amends provisions regarding prescriptions for and supervision over student\nhousing and safety by councils of SUNY state-operated institutions: provides\nthat councils shall (in prescribing for and exercising supervision over student\nhousing and safety) explicitly provide for training for campus security and\nother institutional personnel, including campus disciplinary or judicial\nboards, that addresses issues of rape, sexual harassment and other\ngender-motivated offenses; the development of support services and programs,\nincluding medical or psychological counseling, specifically targeted to assist\nvictims of rape or other gender-related offenses; the creation, dissemination\nand provision of assistance and information about options available to such\nvictims regarding the bringing of disciplinary or other legal action; and\nimplementation of rape education and prevention programs; defines\ngender-motivated offense.", 
     "title": "Amends provisions regarding prescriptions for and supervision over student housing and safety by councils of SUNY state-operated institutions", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 02:27:35", 
+    "updated_at": "2012-10-16 18:06:37", 
     "versions": [
+        {
+            "doc_id": "NYD00084694", 
+            "mimetype": "text/html", 
+            "name": "A4726", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4726"
+        }, 
         {
             "doc_id": "NYD00041806", 
             "mimetype": "text/html", 

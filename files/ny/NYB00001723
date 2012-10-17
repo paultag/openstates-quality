@@ -11,8 +11,14 @@
             "action": "REFERRED TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2011-01-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,13 @@
             "action": "REFERRED TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -28,26 +41,44 @@
             "action": "AMEND AND RECOMMIT TO LOCAL GOVERNMENT", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000027", 
+                    "name": "LOCAL GOVERNMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "1665"
+            ], 
             "action": "PRINT NUMBER 1665A", 
             "actor": "upper", 
             "date": "2012-02-10 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 1665", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:21", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00052701", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1665A-2011"
+        }
+    ], 
     "id": "NYB00001723", 
     "level": "state", 
     "scraped_subjects": [
@@ -56,34 +87,60 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=102"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1665&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S1665-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1665&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S1665A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S1665A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000051", 
             "name": "SAMPSON", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000043", 
+            "name": "PARKER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides tax abatement related to the removal of lead paint; defines terms.", 
     "title": "Provides tax abatement related to the removal of lead paint", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-14 06:27:48", 
+    "updated_at": "2012-10-16 17:59:50", 
     "versions": [
         {
-            "doc_id": "NYD00015221", 
+            "doc_id": "NYD00052698", 
             "mimetype": "text/html", 
             "name": "S1665", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S1665-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S1665"
+        }, 
+        {
+            "doc_id": "NYD00052699", 
+            "mimetype": "text/html", 
+            "name": "S1665", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1665-2011"
+        }, 
+        {
+            "doc_id": "NYD00052700", 
+            "mimetype": "text/html", 
+            "name": "S1665A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S1665A-2011"
         }
     ], 
     "votes": []

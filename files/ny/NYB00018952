@@ -12,27 +12,53 @@
             "action": "referred to transportation", 
             "actor": "lower", 
             "date": "2011-06-14 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000074", 
+                    "name": "transportation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to transportation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000074", 
+                    "name": "transportation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 8351", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 5262", 
+            "chamber": null, 
+            "internal_id": "NYB00005524", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-15 07:56:27", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00086098", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8351&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00018952", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +67,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1037"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8351&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8351&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8351-2011"
@@ -51,25 +80,25 @@
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000146", 
             "name": "Magnarelli", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000144", 
             "name": "Lupardo", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000116", 
             "name": "Gunther", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -77,12 +106,19 @@
     "subjects": [
         "Transportation"
     ], 
+    "summary": "Relates to the registration of certain farm vehicles.", 
     "title": "Relates to the registration of certain farm vehicles", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-28 02:50:06", 
+    "updated_at": "2012-10-16 18:07:00", 
     "versions": [
+        {
+            "doc_id": "NYD00086097", 
+            "mimetype": "text/html", 
+            "name": "A8351", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8351"
+        }, 
         {
             "doc_id": "NYD00040919", 
             "mimetype": "text/html", 

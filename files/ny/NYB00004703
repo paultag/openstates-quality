@@ -14,8 +14,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-04-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,6 +29,7 @@
             "action": "1ST REPORT CAL.622", 
             "actor": "upper", 
             "date": "2011-05-11 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -31,22 +38,28 @@
             "action": "2ND REPORT CAL.", 
             "actor": "upper", 
             "date": "2011-05-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
-            "action": "ADVANCED TO THIRD READING", 
+            "action": "ADVANCED TO THIRD READING ", 
             "actor": "upper", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "4455A"
+            ], 
             "action": "AMENDED ON THIRD READING 4455A", 
             "actor": "upper", 
             "date": "2011-05-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -55,14 +68,28 @@
             "action": "COMMITTED TO RULES", 
             "actor": "upper", 
             "date": "2011-06-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000030", 
+                    "name": "RULES", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -71,9 +98,23 @@
     "alternate_titles": [], 
     "bill_id": "S 4455", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 3420", 
+            "chamber": null, 
+            "internal_id": "NYB00010768", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:34", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00052585", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S4455A-2011"
+        }
+    ], 
     "id": "NYB00004703", 
     "level": "state", 
     "scraped_subjects": [
@@ -82,29 +123,49 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=293"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4455&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S4455-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4455&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S4455A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S4455A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000056", 
             "name": "SMITH", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000043", 
+            "name": "PARKER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Directs New York city housing authority to first offer vacant apartments to\nmobility impaired tenants living on a higher floor.", 
     "title": "Directs New York city housing authority to first offer vacant apartments to mobility impaired tenants living on a higher floor", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-24 01:10:20", 
+    "updated_at": "2012-10-16 17:59:49", 
     "versions": [
+        {
+            "doc_id": "NYD00052584", 
+            "mimetype": "text/html", 
+            "name": "S4455", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S4455"
+        }, 
         {
             "doc_id": "NYD00029140", 
             "mimetype": "text/html", 
@@ -118,5 +179,62 @@
             "url": "http://open.nysenate.gov/legislation/bill/S4455A-2011"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "bill_id": "NYB00004703", 
+            "chamber": "upper", 
+            "date": "2011-05-11 00:00:00", 
+            "id": "NYV00004114", 
+            "motion": "Housing, Construction and Community Development Committee Vote", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "2011-2012", 
+            "sources": [
+                {
+                    "url": "http://open.nysenate.gov/legislation/bill/S4455A-2011"
+                }
+            ], 
+            "state": "ny", 
+            "type": "other", 
+            "vote_id": "NYV00004114", 
+            "yes_count": 8, 
+            "yes_votes": [
+                {
+                    "leg_id": "NYL000061", 
+                    "name": "Young"
+                }, 
+                {
+                    "leg_id": "NYL000006", 
+                    "name": "Bonacic"
+                }, 
+                {
+                    "leg_id": "NYL000017", 
+                    "name": "Gallivan"
+                }, 
+                {
+                    "leg_id": "NYL000021", 
+                    "name": "Grisanti"
+                }, 
+                {
+                    "leg_id": "NYL000047", 
+                    "name": "Ritchie"
+                }, 
+                {
+                    "leg_id": "NYL000013", 
+                    "name": "Espaillat"
+                }, 
+                {
+                    "leg_id": "NYL000010", 
+                    "name": "Diaz"
+                }, 
+                {
+                    "leg_id": "NYL000028", 
+                    "name": "Krueger"
+                }
+            ]
+        }
+    ]
 }

@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-04-29 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-05-08 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,49 +11,104 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-04-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2011-05-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to codes", 
             "actor": "lower", 
             "date": "2011-06-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "7322"
+            ], 
             "action": "print number 7322a", 
             "actor": "lower", 
             "date": "2011-06-06 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "reported referred to codes", 
+            "actor": "lower", 
+            "date": "2012-05-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7322", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:21", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00088496", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7322&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00014855", 
     "level": "state", 
     "scraped_subjects": [
@@ -62,34 +117,60 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=873"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7322&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A7322-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7322&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7322A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A7322A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000179", 
             "name": "Reilly", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000149", 
+            "name": "Markey", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Prohibits landlords from including additional services in a tenant's base rent;\nprovides that additional services include cable television, internet services,\ngarage usage and utilities.", 
     "title": "Prohibits landlords from including additional services in a tenant's base rent", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-20 06:02:27", 
+    "updated_at": "2012-10-16 18:07:36", 
     "versions": [
         {
-            "doc_id": "NYD00008081", 
+            "doc_id": "NYD00088493", 
             "mimetype": "text/html", 
             "name": "A7322", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A7322-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7322"
+        }, 
+        {
+            "doc_id": "NYD00088494", 
+            "mimetype": "text/html", 
+            "name": "A7322", 
+            "url": "http://open.nysenate.gov/legislation/bill/A7322-2011"
+        }, 
+        {
+            "doc_id": "NYD00088495", 
+            "mimetype": "text/html", 
+            "name": "A7322A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A7322A-2011"
         }
     ], 
     "votes": []

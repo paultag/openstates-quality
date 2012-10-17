@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-26 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-05-21 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -11,25 +11,74 @@
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2011-01-26 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to real property taxation", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "amend and recommit to real property taxation", 
+            "actor": "lower", 
+            "date": "2012-05-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000069", 
+                    "name": "real property taxation", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "3615"
+            ], 
+            "action": "print number 3615a", 
+            "actor": "lower", 
+            "date": "2012-05-21 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3615", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:03", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00098455", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3615&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010967", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,34 +87,66 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=660"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3615&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A3615-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3615&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3615A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A3615A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000076", 
             "name": "Brennan", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000089", 
+            "name": "Colton", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000096", 
+            "name": "Cusick", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Relates to real property tax exemptions for certain private homes from local\ntaxation in cities with a population of one million or more.", 
     "title": "Relates to real property tax exemptions for certain private homes from local taxation in N.Y. city", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-28 01:10:30", 
+    "updated_at": "2012-10-16 18:10:08", 
     "versions": [
         {
-            "doc_id": "NYD00003247", 
+            "doc_id": "NYD00098452", 
             "mimetype": "text/html", 
             "name": "A3615", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A3615-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3615"
+        }, 
+        {
+            "doc_id": "NYD00098453", 
+            "mimetype": "text/html", 
+            "name": "A3615", 
+            "url": "http://open.nysenate.gov/legislation/bill/A3615-2011"
+        }, 
+        {
+            "doc_id": "NYD00098454", 
+            "mimetype": "text/html", 
+            "name": "A3615A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A3615A-2011"
         }
     ], 
     "votes": []

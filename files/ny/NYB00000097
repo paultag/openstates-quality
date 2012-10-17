@@ -11,8 +11,14 @@
             "action": "REFERRED TO AGRICULTURE", 
             "actor": "upper", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000002", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,6 +26,7 @@
             "action": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED", 
             "actor": "upper", 
             "date": "2011-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,14 +35,28 @@
             "action": "COMMITTEE DISCHARGED AND COMMITTED TO CONSUMER PROTECTION", 
             "actor": "upper", 
             "date": "2011-03-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000010", 
+                    "name": "CONSUMER PROTECTION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "REFERRED TO CONSUMER PROTECTION", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000010", 
+                    "name": "CONSUMER PROTECTION", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -44,9 +65,16 @@
     "alternate_titles": [], 
     "bill_id": "S 115", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:15", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00069207", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S115-2011"
+        }
+    ], 
     "id": "NYB00000097", 
     "level": "state", 
     "scraped_subjects": [
@@ -55,7 +83,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=6"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S115&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S115&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/S115-2011"
@@ -65,24 +96,44 @@
         {
             "leg_id": "NYL000010", 
             "name": "DIAZ", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000028", 
+            "name": "KRUEGER", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000051", 
+            "name": "SAMPSON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Prohibits price gouging on kosher for Passover products; authorizes the\ndepartment of agriculture and markets to investigate instances of price gouging\non such products and to conduct an annual Passover price survey to determine\ninstances of price gouging; authorizes the attorney general to bring an action\nto stop the alleged price gouging and provides for a civil penalty of $10,000\nfor an instance of price gouging; establishes a defense to the charge.", 
     "title": "Relates to kosher for Passover product price gouging", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-01-07 06:27:12", 
+    "updated_at": "2012-10-16 18:04:08", 
     "versions": [
         {
-            "doc_id": "NYD00014531", 
+            "doc_id": "NYD00069205", 
             "mimetype": "text/html", 
             "name": "S115", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S115-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S115"
+        }, 
+        {
+            "doc_id": "NYD00069206", 
+            "mimetype": "text/html", 
+            "name": "S115", 
+            "url": "http://open.nysenate.gov/legislation/bill/S115-2011"
         }
     ], 
     "votes": []

@@ -3,7 +3,7 @@
     "action_dates": {
         "first": "2011-05-10 00:00:00", 
         "last": "2011-05-10 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2011-05-10 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -14,7 +14,7 @@
             "date": "2011-05-10 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "bill:passed"
             ]
         }
     ], 
@@ -24,7 +24,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2011-05-16 21:06:14", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00108857", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K480&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00016250", 
     "level": "state", 
     "scraped_subjects": [
@@ -33,7 +39,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1237"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K480&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K480&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K480-2011"
@@ -43,7 +52,7 @@
         {
             "leg_id": "NYL000087", 
             "name": "Ceretto", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -51,12 +60,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Commemorating the 100th Anniversary of the Wilson Free Library, May 21, 2011", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-08-24 19:58:20", 
+    "updated_at": "2012-10-16 18:12:50", 
     "versions": [
+        {
+            "doc_id": "NYD00108856", 
+            "mimetype": "text/html", 
+            "name": "K480", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K480"
+        }, 
         {
             "doc_id": "NYD00044308", 
             "mimetype": "text/html", 

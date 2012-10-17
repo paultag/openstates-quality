@@ -14,9 +14,14 @@
             "action": "REFERRED TO FINANCE", 
             "actor": "upper", 
             "date": "2011-01-27 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000019", 
+                    "name": "FINANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -52,7 +57,13 @@
     ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:41", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00072241", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/J356-2011"
+        }
+    ], 
     "id": "NYB00005930", 
     "level": "state", 
     "scraped_subjects": [
@@ -61,7 +72,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1225"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J356&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=J356&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/J356-2011"
@@ -71,7 +85,7 @@
         {
             "leg_id": "NYL000013", 
             "name": "ESPAILLAT", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -79,12 +93,19 @@
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Mourning the death of Apolinar Trinidad, legendary Dominican political activist and civil rights leader", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-08-24 20:29:16", 
+    "updated_at": "2012-10-16 18:04:36", 
     "versions": [
+        {
+            "doc_id": "NYD00072240", 
+            "mimetype": "text/html", 
+            "name": "J356", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J356"
+        }, 
         {
             "doc_id": "NYD00031600", 
             "mimetype": "text/html", 

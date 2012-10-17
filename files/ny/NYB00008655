@@ -11,46 +11,80 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to agriculture", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "1389"
+            ], 
             "action": "print number 1389a", 
             "actor": "lower", 
             "date": "2011-04-08 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to ways and means", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-06-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -59,14 +93,19 @@
             "action": "rules report cal.38", 
             "actor": "lower", 
             "date": "2011-06-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s614"
+            ], 
             "action": "substituted by s614b", 
             "actor": "lower", 
             "date": "2011-06-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -75,9 +114,23 @@
     "alternate_titles": [], 
     "bill_id": "A 1389", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 614", 
+            "chamber": null, 
+            "internal_id": "NYB00000628", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:54", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00093830", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1389&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00008655", 
     "level": "state", 
     "scraped_subjects": [
@@ -86,17 +139,90 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=534"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1389&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A1389-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1389&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1389A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A1389A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000167", 
             "name": "Ortiz", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000078", 
+            "name": "Brook-Krasny", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000108", 
+            "name": "Galef", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000073", 
+            "name": "Boyland", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000070", 
+            "name": "Benedetto", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000093", 
+            "name": "Crespo", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000139", 
+            "name": "Lifton", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000145", 
+            "name": "Magee", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -104,17 +230,30 @@
         "Legal Issues", 
         "Municipal and County Issues"
     ], 
+    "summary": "Finances the transportation and distribution of New York state farm grown\nproducts to food service markets, including restaurants, schools, colleges, and\nothers, especially in underserved urban and other communities.", 
     "title": "Finances the transportation and distribution of New York state farm grown products to food service markets especially in underserved communities", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-28 01:10:28", 
+    "updated_at": "2012-10-16 18:09:04", 
     "versions": [
         {
-            "doc_id": "NYD00000478", 
+            "doc_id": "NYD00093827", 
             "mimetype": "text/html", 
             "name": "A1389", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1389-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1389"
+        }, 
+        {
+            "doc_id": "NYD00093828", 
+            "mimetype": "text/html", 
+            "name": "A1389", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1389-2011"
+        }, 
+        {
+            "doc_id": "NYD00093829", 
+            "mimetype": "text/html", 
+            "name": "A1389A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1389A-2011"
         }
     ], 
     "votes": []

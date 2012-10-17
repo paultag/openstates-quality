@@ -11,7 +11,13 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -20,7 +26,13 @@
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2012-05-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -34,9 +46,9 @@
     "created_at": "2012-06-01 19:01:34", 
     "documents": [
         {
-            "doc_id": "NYD00046723", 
+            "doc_id": "NYD00095941", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10053&term=&Memo=Y"
         }
     ], 
     "id": "NYB00026477", 
@@ -47,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1145"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10053&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A10053&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A10053-2011"
@@ -57,7 +72,7 @@
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -65,12 +80,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Prohibits the tethering of dogs to stationary objects or mobile devices and\nestablishes fines.", 
     "title": "Prohibits the tethering of dogs to stationary objects or mobile devices and establishes fines", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:37", 
+    "updated_at": "2012-10-16 18:09:27", 
     "versions": [
+        {
+            "doc_id": "NYD00095940", 
+            "mimetype": "text/html", 
+            "name": "A10053", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10053"
+        }, 
         {
             "doc_id": "NYD00035536", 
             "mimetype": "text/html", 

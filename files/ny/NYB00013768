@@ -11,41 +11,81 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-03-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to agriculture", 
             "actor": "lower", 
             "date": "2012-03-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6282"
+            ], 
             "action": "print number 6282a", 
             "actor": "lower", 
             "date": "2012-03-05 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 6282", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 793", 
+            "chamber": null, 
+            "internal_id": "NYB00000814", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:15", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00098020", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6282&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013768", 
     "level": "state", 
     "scraped_subjects": [
@@ -54,34 +94,120 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=800"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6282&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A6282-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6282&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6282A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A6282A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000145", 
             "name": "Magee", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000202", 
+            "name": "Thiele", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000116", 
+            "name": "Gunther", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000079", 
+            "name": "Burling", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000143", 
+            "name": "Losquadro", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000063", 
+            "name": "Abbate", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000087", 
+            "name": "Ceretto", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000094", 
+            "name": "Crouch", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000139", 
+            "name": "Lifton", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000141", 
+            "name": "Lopez P", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000168", 
+            "name": "Palmesano", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Makes provisions relating to retail farm operations; defines retail farm\noperations as a seasonal or annual enterprise operated for the purpose of\nselling predominantly farm and food products which are in support of\nagricultural production; includes retail farm operations under the definition\nof farm operations and the provisions of sound agricultural practices necessary\nfor on-farm production, preparation and marketing.", 
     "title": "Makes provisions relating to retail farm operations", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-05 01:34:13", 
+    "updated_at": "2012-10-16 18:10:03", 
     "versions": [
         {
-            "doc_id": "NYD00006665", 
+            "doc_id": "NYD00098017", 
             "mimetype": "text/html", 
             "name": "A6282", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A6282-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6282"
+        }, 
+        {
+            "doc_id": "NYD00098018", 
+            "mimetype": "text/html", 
+            "name": "A6282", 
+            "url": "http://open.nysenate.gov/legislation/bill/A6282-2011"
+        }, 
+        {
+            "doc_id": "NYD00098019", 
+            "mimetype": "text/html", 
+            "name": "A6282A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A6282A-2011"
         }
     ], 
     "votes": []

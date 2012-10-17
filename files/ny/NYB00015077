@@ -2,7 +2,7 @@
     "action_dates": {
         "first": "2011-01-31 00:00:00", 
         "last": "2011-01-31 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2011-01-31 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -11,25 +11,40 @@
             "action": "referred to calendar", 
             "actor": "lower", 
             "date": "2011-01-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "calendar", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "adopted", 
             "actor": "lower", 
             "date": "2011-01-31 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "bill:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "K 76", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:22", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00109243", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K76&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00015077", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +53,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1167"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K76&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K76&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K76-2011"
@@ -48,19 +66,93 @@
         {
             "leg_id": "NYL000084", 
             "name": "Canestrari", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000065", 
+            "name": "Amedore", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000080", 
+            "name": "Butler", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000099", 
+            "name": "Destito", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000129", 
+            "name": "Jordan", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000141", 
+            "name": "Lopez P", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000153", 
+            "name": "McLaughlin", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000159", 
+            "name": "Molinaro", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000179", 
+            "name": "Reilly", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000189", 
+            "name": "Sayward", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000200", 
+            "name": "Tedisco", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Memorializing Governor Andrew M. Cuomo to proclaim February 2011 as United Way 2-1-1 Northeast Region Month", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-06-14 01:13:57", 
+    "updated_at": "2012-10-16 18:12:53", 
     "versions": [
+        {
+            "doc_id": "NYD00109242", 
+            "mimetype": "text/html", 
+            "name": "K76", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K76"
+        }, 
         {
             "doc_id": "NYD00038866", 
             "mimetype": "text/html", 

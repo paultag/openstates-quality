@@ -14,14 +14,22 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "enacting clause stricken", 
             "actor": "lower", 
             "date": "2011-12-06 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -30,9 +38,23 @@
     "alternate_titles": [], 
     "bill_id": "A 8038", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2468", 
+            "chamber": null, 
+            "internal_id": "NYB00002549", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-28 06:37:15", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00082823", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8038&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00017235", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +63,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1006"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8038&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8038&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8038-2011"
@@ -51,6 +76,7 @@
         {
             "leg_id": "NYL000197", 
             "name": "Spano", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -58,12 +84,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Enacts the \"buy from the backyard act\"; requires the office of general services\nand other state agencies to buy 20% of all their food products from producers\nand/or processors in New York state; provides that the commissioner of\nagriculture and markets shall determine the New York food products that are\navailable during the various times during the year; directs such commissioner\nto report to the governor and the legislature on the implementation of such\nprovisions.", 
     "title": "Enacts the \"buy from the backyard act\"", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-18 01:16:04", 
+    "updated_at": "2012-10-16 18:06:07", 
     "versions": [
+        {
+            "doc_id": "NYD00082822", 
+            "mimetype": "text/html", 
+            "name": "A8038", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8038"
+        }, 
         {
             "doc_id": "NYD00031184", 
             "mimetype": "text/html", 

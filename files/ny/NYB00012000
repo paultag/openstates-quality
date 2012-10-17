@@ -12,27 +12,46 @@
             "action": "referred to correction", 
             "actor": "lower", 
             "date": "2011-02-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000049", 
+                    "name": "correction", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to correction", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000049", 
+                    "name": "correction", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4587", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:08", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00098968", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4587&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00012000", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=794"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4587&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4587&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4587-2011"
@@ -51,37 +73,37 @@
         {
             "leg_id": "NYL000086", 
             "name": "Castro", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000160", 
+            "name": "Montesano", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000069", 
             "name": "Barron", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000073", 
             "name": "Boyland", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000091", 
             "name": "Cook", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000122", 
             "name": "Hikind", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000160", 
-            "name": "Montesano", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -89,12 +111,19 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Prohibits sex offender treatment programs from requiring that inmates or\napplicants for such program admit guilt to any crime as a prerequisite for\nadmission into such program.", 
     "title": "Prohibits sex offender treatment programs from requiring that inmates or applicants for such program admit guilt to any crime as a prerequisite for admission into such program", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-16 02:11:15", 
+    "updated_at": "2012-10-16 18:10:15", 
     "versions": [
+        {
+            "doc_id": "NYD00098967", 
+            "mimetype": "text/html", 
+            "name": "A4587", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4587"
+        }, 
         {
             "doc_id": "NYD00037419", 
             "mimetype": "text/html", 

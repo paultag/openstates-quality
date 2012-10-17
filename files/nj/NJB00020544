@@ -22,6 +22,9 @@
             "actor": "upper", 
             "date": "2012-10-15 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NJV00009141"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -42,7 +45,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-02-10 00:24:33", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NJD00036617", 
+            "name": "Statement SCU 10-15-12", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/S2000/1594_S1.HTM"
+        }
+    ], 
     "id": "NJB00020544", 
     "level": "state", 
     "scraped_subjects": [
@@ -81,7 +90,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-10-16 00:42:01", 
+    "updated_at": "2012-10-17 01:31:08", 
     "versions": [
         {
             "doc_id": "NJD00032761", 
@@ -90,5 +99,50 @@
             "url": "http://www.njleg.state.nj.us/2012/Bills/S2000/1594_I1.HTM"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+bill_id": "S1594", 
+            "bill_id": "NJB00020544", 
+            "chamber": "upper", 
+            "committee": "Senate Community and Urban Affairs Committee", 
+            "committee_id": "NJC000062", 
+            "date": "2012-10-15 00:00:00", 
+            "id": "NJV00009141", 
+            "motion": "Reported favorably out of committee", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 2, 
+            "other_votes": [
+                {
+                    "leg_id": "NJL000026", 
+                    "name": "Connors, Christopher J."
+                }, 
+                {
+                    "leg_id": "NJL000039", 
+                    "name": "Thompson, Samuel D."
+                }
+            ], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00009141", 
+            "yes_count": 3, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000084", 
+                    "name": "Rice, Ronald L."
+                }, 
+                {
+                    "leg_id": "NJL000001", 
+                    "name": "Van Drew, Jeff"
+                }, 
+                {
+                    "leg_id": "NJL000100", 
+                    "name": "Stack, Brian P."
+                }
+            ]
+        }
+    ]
 }

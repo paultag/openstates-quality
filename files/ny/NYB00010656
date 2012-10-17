@@ -12,41 +12,81 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-24 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to agriculture", 
             "actor": "lower", 
             "date": "2012-06-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "3317"
+            ], 
             "action": "print number 3317a", 
             "actor": "lower", 
             "date": "2012-06-07 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3317", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4342", 
+            "chamber": null, 
+            "internal_id": "NYB00004585", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:02", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00084242", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3317&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00010656", 
     "level": "state", 
     "scraped_subjects": [
@@ -55,21 +95,29 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=717"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3317&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A3317-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3317&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3317A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A3317A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000096", 
             "name": "Cusick", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000205", 
             "name": "Tobacco", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -77,12 +125,19 @@
     "subjects": [
         "Agriculture and Food"
     ], 
-    "title": "Directs the department of agriculture and markets to inspect the condition of certain horse stalls in N.Y. city", 
+    "summary": "Directs the department of agriculture and markets to inspect the condition of\ncertain horse stalls in cities with a population of one million or more.", 
+    "title": "Directs the department of agriculture and markets to inspect the condition of certain horse stalls in the city of New York", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 02:27:34", 
+    "updated_at": "2012-10-16 18:06:32", 
     "versions": [
+        {
+            "doc_id": "NYD00084241", 
+            "mimetype": "text/html", 
+            "name": "A3317", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3317"
+        }, 
         {
             "doc_id": "NYD00026805", 
             "mimetype": "text/html", 

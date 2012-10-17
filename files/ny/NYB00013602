@@ -14,7 +14,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2011-03-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -23,7 +29,13 @@
             "action": "referred to housing", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -32,13 +44,22 @@
             "action": "amend and recommit to housing", 
             "actor": "lower", 
             "date": "2012-01-18 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000060", 
+                    "name": "housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "6131"
+            ], 
             "action": "print number 6131a", 
             "actor": "lower", 
             "date": "2012-01-18 00:00:00", 
@@ -51,14 +72,21 @@
     "alternate_titles": [], 
     "bill_id": "A 6131", 
     "chamber": "lower", 
-    "companions": [], 
+    "companions": [
+        {
+            "bill_id": "S 449", 
+            "chamber": null, 
+            "internal_id": "NYB00000443", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:14", 
     "documents": [
         {
-            "doc_id": "NYD00046528", 
+            "doc_id": "NYD00099765", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6131&term=&Memo=Y"
         }
     ], 
     "id": "NYB00013602", 
@@ -69,23 +97,29 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=889"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6131&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A6131-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6131&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A6131A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A6131A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000131", 
             "name": "Kavanagh", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000103", 
             "name": "Farrell", 
-            "official_type": "cosponsor", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -93,12 +127,19 @@
     "subjects": [
         "Housing and Property"
     ], 
+    "summary": "Requires hearing by the division of housing and community renewal prior to\norder of decontrol for a tenant's failure to respond to income certification\nmaterial relating to high income rent decontrol; provides that failure to\nappear at the hearing will result in an order of decontrol; excludes certain\ntenants from inclusion for annual income determination.", 
     "title": "Requires hearing by the DHCR prior to order of decontrol for failure to respond to income certification material relating to high income rent decontrol", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-22 10:05:44", 
+    "updated_at": "2012-10-16 18:10:25", 
     "versions": [
+        {
+            "doc_id": "NYD00099764", 
+            "mimetype": "text/html", 
+            "name": "A6131", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6131"
+        }, 
         {
             "doc_id": "NYD00037449", 
             "mimetype": "text/html", 

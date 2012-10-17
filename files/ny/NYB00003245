@@ -11,8 +11,14 @@
             "action": "REFERRED TO INSURANCE", 
             "actor": "upper", 
             "date": "2011-02-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000023", 
+                    "name": "INSURANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -20,23 +26,41 @@
             "action": "AMEND AND RECOMMIT TO INSURANCE", 
             "actor": "upper", 
             "date": "2011-05-23 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000023", 
+                    "name": "INSURANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "3092"
+            ], 
             "action": "PRINT NUMBER 3092A", 
             "actor": "upper", 
             "date": "2011-05-23 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "REFERRED TO INSURANCE", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000023", 
+                    "name": "INSURANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -45,26 +69,51 @@
             "action": "AMEND AND RECOMMIT TO INSURANCE", 
             "actor": "upper", 
             "date": "2012-01-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000023", 
+                    "name": "INSURANCE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "amendment:passed", 
                 "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "3092"
+            ], 
             "action": "PRINT NUMBER 3092B", 
             "actor": "upper", 
             "date": "2012-01-30 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 3092", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 3507", 
+            "chamber": null, 
+            "internal_id": "NYB00010858", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:28", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00060503", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3092B-2011"
+        }
+    ], 
     "id": "NYB00003245", 
     "level": "state", 
     "scraped_subjects": [
@@ -73,16 +122,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=190"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3092&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S3092-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3092&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S3092B&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S3092B-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000049", 
             "name": "ROBACH", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -90,17 +146,36 @@
     "subjects": [
         "Insurance"
     ], 
-    "title": "Prohibits insurers from refusing to issue or renew, cancel, or charge or impose an increased premium for certain policies based on the breed of a dog owned", 
+    "summary": "Prohibits insurers from refusing to issue or renew, cancel, or charge or impose\nan increased premium for homeowners' insurance policies based solely on the\nbreed of dog owned.", 
+    "title": "Prohibits insurers from refusing to issue or renew, cancel, or charge or impose an increased premium for certain policies based solely on the breed of dog owned", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-10 06:25:57", 
+    "updated_at": "2012-10-16 18:01:52", 
     "versions": [
         {
-            "doc_id": "NYD00017165", 
+            "doc_id": "NYD00060499", 
             "mimetype": "text/html", 
             "name": "S3092", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/S3092-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3092"
+        }, 
+        {
+            "doc_id": "NYD00060500", 
+            "mimetype": "text/html", 
+            "name": "S3092", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3092-2011"
+        }, 
+        {
+            "doc_id": "NYD00060501", 
+            "mimetype": "text/html", 
+            "name": "S3092A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3092A-2011"
+        }, 
+        {
+            "doc_id": "NYD00060502", 
+            "mimetype": "text/html", 
+            "name": "S3092B", 
+            "url": "http://open.nysenate.gov/legislation/bill/S3092B-2011"
         }
     ], 
     "votes": []

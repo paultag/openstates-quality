@@ -11,25 +11,53 @@
             "action": "referred to social services", 
             "actor": "lower", 
             "date": "2011-01-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000072", 
+                    "name": "social services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to social services", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000072", 
+                    "name": "social services", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1967", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1391", 
+            "chamber": null, 
+            "internal_id": "NYB00001440", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:56", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00102474", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1967&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009251", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=518"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1967&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1967&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1967-2011"
@@ -48,6 +79,7 @@
         {
             "leg_id": "NYL000127", 
             "name": "Jeffries", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,17 +87,24 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Relates to protecting homeless children from lead paint poisoning; bars\ndiscrimination in the leasing of rental property against families receiving\npublic assistance or governmental housing subsidies.", 
     "title": "Relates to protecting homeless children from lead paint poisoning", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-17 06:32:05", 
+    "updated_at": "2012-10-16 18:11:16", 
     "versions": [
         {
-            "doc_id": "NYD00001188", 
+            "doc_id": "NYD00102472", 
             "mimetype": "text/html", 
             "name": "A1967", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1967-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1967"
+        }, 
+        {
+            "doc_id": "NYD00102473", 
+            "mimetype": "text/html", 
+            "name": "A1967", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1967-2011"
         }
     ], 
     "votes": []

@@ -11,70 +11,121 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-02-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4012"
+            ], 
             "action": "print number 4012a", 
             "actor": "lower", 
             "date": "2011-02-25 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4012"
+            ], 
             "action": "print number 4012b", 
             "actor": "lower", 
             "date": "2011-03-12 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4012"
+            ], 
             "action": "print number 4012c", 
             "actor": "lower", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -83,14 +134,19 @@
             "action": "rules report cal.11", 
             "actor": "lower", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s2812"
+            ], 
             "action": "substituted by s2812c", 
             "actor": "lower", 
             "date": "2011-03-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -99,9 +155,16 @@
     "alternate_titles": [], 
     "bill_id": "A 4012", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:05", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00100149", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4012&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011414", 
     "level": "state", 
     "scraped_subjects": [
@@ -110,16 +173,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=748"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4012&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A4012-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4012&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4012C&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A4012C-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": null, 
-            "name": "BUDGET BILL", 
+            "name": "Budget", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -127,12 +197,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Enacts the financial services act as a new consolidated chapter; repeals\ncertain provisions of the banking, executive and general business law; amends\nthe correction law and the executive law to merge the department of\ncorrectional services and division of parole into the department of corrections\nand community supervision; eliminates the New York state foundation for\nscience, technology and innovation and transfers the functions thereof to the\nNYS urban development corporation; amends the executive law relating to\ngubernatorial reorganization of governmental agencies and functions; amends the\nlegislative law relating to formulation of a concurrent resolution.", 
     "title": "Enacts into law major components of legislation necessary to implement the state fiscal plan for the 2011-2012 state fiscal year", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-15 01:11:49", 
+    "updated_at": "2012-10-16 18:10:35", 
     "versions": [
+        {
+            "doc_id": "NYD00100148", 
+            "mimetype": "text/html", 
+            "name": "A4012", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4012"
+        }, 
         {
             "doc_id": "NYD00039494", 
             "mimetype": "text/html", 

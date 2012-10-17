@@ -14,25 +14,53 @@
             "action": "referred to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2011-02-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to corporations, authorities and commissions", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000048", 
+                    "name": "corporations, authorities and commissions", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 5727", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4611", 
+            "chamber": null, 
+            "internal_id": "NYB00004867", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:12", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00090422", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5727&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00013189", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +69,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=853"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5727&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A5727&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A5727-2011"
@@ -51,7 +82,14 @@
         {
             "leg_id": "NYL000076", 
             "name": "Brennan", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000064", 
+            "name": "Abinanti", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
@@ -59,12 +97,19 @@
         "Federal, State, and Local Relations", 
         "Legislative Affairs"
     ], 
+    "summary": "Relates to the overall operation of non-profit entities in the state of New\nYork.", 
     "title": "Relates to the overall operation of non-profit entities in the state of New York; repealer", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-18 01:16:01", 
+    "updated_at": "2012-10-16 18:08:09", 
     "versions": [
+        {
+            "doc_id": "NYD00090421", 
+            "mimetype": "text/html", 
+            "name": "A5727", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5727"
+        }, 
         {
             "doc_id": "NYD00036938", 
             "mimetype": "text/html", 

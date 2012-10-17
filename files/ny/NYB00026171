@@ -2,7 +2,7 @@
     "action_dates": {
         "first": "2012-03-28 00:00:00", 
         "last": "2012-03-28 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2012-03-28 00:00:00", 
         "passed_upper": null, 
         "signed": null
     }, 
@@ -11,17 +11,25 @@
             "action": "adopted", 
             "actor": "lower", 
             "date": "2012-03-28 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "bill:introduced"
+                "bill:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "K 1112", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-05-26 01:09:33", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00108808", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1112&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00026171", 
     "level": "state", 
     "scraped_subjects": [
@@ -30,7 +38,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1233"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1112&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=K1112&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/K1112-2011"
@@ -40,19 +51,135 @@
         {
             "leg_id": "NYL000090", 
             "name": "Conte", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000199", 
+            "name": "Sweeney", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000074", 
+            "name": "Boyle", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000102", 
+            "name": "Englebright", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000105", 
+            "name": "Fitzpatrick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000115", 
+            "name": "Graf", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000137", 
+            "name": "Lavine", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000143", 
+            "name": "Losquadro", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000151", 
+            "name": "McDonough", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000150", 
+            "name": "McKevitt", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000160", 
+            "name": "Montesano", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000163", 
+            "name": "Murray", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000174", 
+            "name": "Ra", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000176", 
+            "name": "Raia", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000188", 
+            "name": "Saladino", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000191", 
+            "name": "Schimel", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000202", 
+            "name": "Thiele", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000207", 
+            "name": "Weisenberg", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Resolutions"
     ], 
+    "summary": "", 
     "title": "Celebrating the 100th Anniversary of Farmingdale State College on Thursday, April 12, 2012", 
     "type": [
         "legislative resolution"
     ], 
-    "updated_at": "2012-06-01 19:01:36", 
+    "updated_at": "2012-10-16 18:12:50", 
     "versions": [
+        {
+            "doc_id": "NYD00108807", 
+            "mimetype": "text/html", 
+            "name": "K1112", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K1112"
+        }, 
         {
             "doc_id": "NYD00032229", 
             "mimetype": "text/html", 

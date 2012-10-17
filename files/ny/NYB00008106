@@ -11,7 +11,13 @@
             "action": "referred to aging", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000040", 
+                    "name": "aging", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -34,9 +40,9 @@
     "created_at": "2011-05-05 01:29:51", 
     "documents": [
         {
-            "doc_id": "NYD00046237", 
+            "doc_id": "NYD00098087", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A860&term=&Memo=Y"
         }
     ], 
     "id": "NYB00008106", 
@@ -47,7 +53,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=576"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A860&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A860&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A860-2011"
@@ -57,37 +66,37 @@
         {
             "leg_id": "NYL000172", 
             "name": "Pheffer", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
-        }, 
-        {
-            "leg_id": "NYL000071", 
-            "name": "Bing", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
-        }, 
-        {
-            "leg_id": "NYL000206", 
-            "name": "Weinstein", 
-            "official_type": "cosponsor", 
-            "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000103", 
             "name": "Farrell", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000100", 
             "name": "Dinowitz", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000186", 
             "name": "Rosenthal", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000071", 
+            "name": "Bing", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000206", 
+            "name": "Weinstein", 
+            "official_type": "MLTSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -95,12 +104,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Provides for annual adjustment by the commissioner of housing and community\nrenewal of the maximum income threshold for eligibility for the senior\ncitizens' rent increase exemption (SCRIE) and for the municipal property tax\nabatement for rent-controlled and rent regulated property occupied by senior\ncitizens by any increase in the consumer price index (CPI); raises eligibility\nof income level from $24,000 to $30,000; excludes from the definition of\n\"income\" the out of pocket expenses for all medical and prescription drugs not\nreimbursed or paid for by insurance in determining eligibility for the real\nproperty tax exemption relating to the senior citizen rent increase exemption;\nthe additional exclusions from income and the indexing are at local option.", 
     "title": "Raises senior citizen rent increase exemption (SCRIE) threshold and provides for increase per changes in the consumer price index; excludes certain expenses", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-20 10:06:30", 
+    "updated_at": "2012-10-16 18:10:04", 
     "versions": [
+        {
+            "doc_id": "NYD00098086", 
+            "mimetype": "text/html", 
+            "name": "A860", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A860"
+        }, 
         {
             "doc_id": "NYD00026658", 
             "mimetype": "text/html", 

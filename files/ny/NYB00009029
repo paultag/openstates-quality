@@ -11,25 +11,53 @@
             "action": "referred to children and families", 
             "actor": "lower", 
             "date": "2011-01-11 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000044", 
+                    "name": "children and families", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to children and families", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000044", 
+                    "name": "children and families", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 1750", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4438", 
+            "chamber": null, 
+            "internal_id": "NYB00004686", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:55", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00094538", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1750&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009029", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +66,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=572"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1750&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A1750&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A1750-2011"
@@ -48,6 +79,7 @@
         {
             "leg_id": "NYL000116", 
             "name": "Gunther", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -55,17 +87,24 @@
     "subjects": [
         "Legal Issues"
     ], 
+    "summary": "Requires nursery school operators providing service to more than three\npreschool children of 5 years of age or less for three hours or less per day\nper child for 3 or more days per week to file with the office of children and\nfamily services; requires nursery schools to fingerprint applicants for the\npurpose of a search of criminal history records of the division of criminal\njustice services.", 
     "title": "Requires certain nursery school operators to file with the office of children and family services and to fingerprint applicants for purpose of conducting searches", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-08 01:05:36", 
+    "updated_at": "2012-10-16 18:09:11", 
     "versions": [
         {
-            "doc_id": "NYD00000928", 
+            "doc_id": "NYD00094536", 
             "mimetype": "text/html", 
             "name": "A1750", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A1750-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1750"
+        }, 
+        {
+            "doc_id": "NYD00094537", 
+            "mimetype": "text/html", 
+            "name": "A1750", 
+            "url": "http://open.nysenate.gov/legislation/bill/A1750-2011"
         }
     ], 
     "votes": []

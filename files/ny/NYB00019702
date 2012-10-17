@@ -12,27 +12,46 @@
             "action": "referred to codes", 
             "actor": "lower", 
             "date": "2011-07-20 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to codes", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 8546", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-08-13 08:39:57", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096864", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8546&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00019702", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=1051"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8546&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A8546&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A8546-2011"
@@ -51,7 +73,7 @@
         {
             "leg_id": "NYL000138", 
             "name": "Lentol", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -60,12 +82,19 @@
         "Judiciary", 
         "Crime"
     ], 
+    "summary": "Enacts the uniform collateral consequences of conviction act requiring the\ndivision of criminal justice services to collect and publish laws regarding\ncollateral consequences of conviction and requiring notification to convicts of\ncollateral consequences of such convictions.", 
     "title": "Enacts the uniform collateral consequences of conviction act", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-19 02:11:07", 
+    "updated_at": "2012-10-16 18:09:39", 
     "versions": [
+        {
+            "doc_id": "NYD00096863", 
+            "mimetype": "text/html", 
+            "name": "A8546", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8546"
+        }, 
         {
             "doc_id": "NYD00034903", 
             "mimetype": "text/html", 

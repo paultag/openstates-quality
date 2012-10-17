@@ -11,25 +11,46 @@
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to governmental operations", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000057", 
+                    "name": "governmental operations", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 620", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:50", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00081973", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A620&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00007854", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=442"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A620&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A620&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A620-2011"
@@ -48,6 +72,7 @@
         {
             "leg_id": "NYL000209", 
             "name": "Wright", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -56,17 +81,24 @@
         "Public Services", 
         "Legal Issues"
     ], 
+    "summary": "Authorizes the enactment of local laws requiring residency in cities with a\npopulation of one million or more for members of the police force, the\ndepartment of sanitation, probation officers, members of the uniformed force of\nthe fire department, employees of the department of correction in the\ncorrectional service classification of the classified civil service, and\nofficers and inspectors of the department of health.", 
     "title": "Authorizes the local enactment of a residency requirement upon certain employees in New York city", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-16 06:30:52", 
+    "updated_at": "2012-10-16 18:05:58", 
     "versions": [
         {
-            "doc_id": "NYD00006555", 
+            "doc_id": "NYD00081971", 
             "mimetype": "text/html", 
             "name": "A620", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A620-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A620"
+        }, 
+        {
+            "doc_id": "NYD00081972", 
+            "mimetype": "text/html", 
+            "name": "A620", 
+            "url": "http://open.nysenate.gov/legislation/bill/A620-2011"
         }
     ], 
     "votes": []

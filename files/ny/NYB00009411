@@ -11,62 +11,108 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2011-01-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to codes", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "2122"
+            ], 
             "action": "print number 2122a", 
             "actor": "lower", 
             "date": "2011-05-17 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend and recommit to codes", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "2122"
+            ], 
             "action": "print number 2122b", 
             "actor": "lower", 
             "date": "2011-05-31 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-06-07 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -75,6 +121,7 @@
             "action": "rules report cal.97", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -83,6 +130,7 @@
             "action": "ordered to third reading rules cal.97", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -91,22 +139,37 @@
             "action": "referred to agriculture", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000041", 
+                    "name": "agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "reported referred to codes", 
             "actor": "lower", 
             "date": "2012-02-15 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000046", 
+                    "name": "codes", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -115,6 +178,7 @@
             "action": "advanced to third reading cal.373", 
             "actor": "lower", 
             "date": "2012-03-01 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -123,9 +187,16 @@
     "alternate_titles": [], 
     "bill_id": "A 2122", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:29:57", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00105873", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2122&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00009411", 
     "level": "state", 
     "scraped_subjects": [
@@ -134,34 +205,150 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=576"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2122&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A2122-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2122&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A2122B&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A2122B-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000158", 
             "name": "Millman", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000181", 
+            "name": "Rivera N", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000162", 
+            "name": "Moya", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000091", 
+            "name": "Cook", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000112", 
+            "name": "Glick", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000114", 
+            "name": "Gottfried", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000123", 
+            "name": "Hooper", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000132", 
+            "name": "Kellner", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000134", 
+            "name": "Kolb", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000144", 
+            "name": "Lupardo", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000149", 
+            "name": "Markey", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000152", 
+            "name": "McEneny", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000184", 
+            "name": "Robinson", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000191", 
+            "name": "Schimel", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000203", 
+            "name": "Titone", 
+            "official_type": "MLTSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Agriculture and Food"
     ], 
+    "summary": "Specifies what constitutes appropriate shelter for dogs restrained outdoors and\nprovides a dog shall not be left outdoors in weather that places the dog in\nimminent danger due to exposure to heat and cold.", 
     "title": "Specifies what constitutes appropriate shelter for dogs restrained outdoors and maximum and minimum temperature range for exposure", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-04-28 01:10:29", 
+    "updated_at": "2012-10-16 18:12:08", 
     "versions": [
         {
-            "doc_id": "NYD00001390", 
+            "doc_id": "NYD00105869", 
             "mimetype": "text/html", 
             "name": "A2122", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A2122-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2122"
+        }, 
+        {
+            "doc_id": "NYD00105870", 
+            "mimetype": "text/html", 
+            "name": "A2122", 
+            "url": "http://open.nysenate.gov/legislation/bill/A2122-2011"
+        }, 
+        {
+            "doc_id": "NYD00105871", 
+            "mimetype": "text/html", 
+            "name": "A2122A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A2122A-2011"
+        }, 
+        {
+            "doc_id": "NYD00105872", 
+            "mimetype": "text/html", 
+            "name": "A2122B", 
+            "url": "http://open.nysenate.gov/legislation/bill/A2122B-2011"
         }
     ], 
     "votes": []

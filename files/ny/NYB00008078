@@ -11,7 +11,13 @@
             "action": "referred to transportation", 
             "actor": "lower", 
             "date": "2011-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000074", 
+                    "name": "transportation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -34,9 +40,9 @@
     "created_at": "2011-05-05 01:29:51", 
     "documents": [
         {
-            "doc_id": "NYD00048401", 
+            "doc_id": "NYD00096623", 
             "name": "Sponsor's Memorandum", 
-            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A09044&term=&Memo=Y"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A836&term=&Memo=Y"
         }
     ], 
     "id": "NYB00008078", 
@@ -47,7 +53,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=574"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A836&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A836&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A836-2011"
@@ -57,19 +66,19 @@
         {
             "leg_id": "NYL000099", 
             "name": "Destito", 
-            "official_type": "primary", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }, 
         {
             "leg_id": "NYL000139", 
             "name": "Lifton", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }, 
         {
             "leg_id": "NYL000079", 
             "name": "Burling", 
-            "official_type": "cosponsor", 
+            "official_type": "COSPNSR", 
             "type": "cosponsor"
         }
     ], 
@@ -77,12 +86,19 @@
     "subjects": [
         "Transportation"
     ], 
+    "summary": "Permits the designation of low volume roads and minimum maintenance roads by\ntown boards and enacts provisions relating to the maintenance, improvement and\nrepair of such roads.", 
     "title": "Relates to the maintenance, improvement and repair of certain town highways", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-26 10:06:00", 
+    "updated_at": "2012-10-16 18:09:35", 
     "versions": [
+        {
+            "doc_id": "NYD00096622", 
+            "mimetype": "text/html", 
+            "name": "A836", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A836"
+        }, 
         {
             "doc_id": "NYD00029679", 
             "mimetype": "text/html", 

@@ -4,7 +4,7 @@
     ], 
     "action_dates": {
         "first": "2011-06-06 00:00:00", 
-        "last": "2012-01-04 00:00:00", 
+        "last": "2012-06-01 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -14,8 +14,14 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2011-06-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,53 +29,129 @@
             "action": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
             "actor": "upper", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
+            ]
+        }, 
+        {
+            "action": "AMEND (T) AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+            "actor": "upper", 
+            "date": "2012-06-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000118", 
+                    "name": "HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "amendment:passed", 
+                "committee:referred"
+            ]
+        }, 
+        {
+            "+bill_id": [
+                "5603"
+            ], 
+            "action": "PRINT NUMBER 5603A", 
+            "actor": "upper", 
+            "date": "2012-06-01 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "S 5603", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 7234", 
+            "chamber": null, 
+            "internal_id": "NYB00014763", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-07 07:14:24", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00060148", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5603A-2011"
+        }
+    ], 
     "id": "NYB00017814", 
     "level": "state", 
     "scraped_subjects": [
-        "New York City Administrative Code"
+        "Emergency Tenant Protection Act of 1974"
     ], 
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=375"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5603&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/S5603-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5603&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=S5603A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/S5603A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000013", 
             "name": "ESPAILLAT", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000057", 
+            "name": "SQUADRON", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
-        "Municipal and County Issues"
+        "Housing and Property", 
+        "Legal Issues"
     ], 
-    "title": "Authorizes rent adjustments for class A dwelling units based on the length of the lease", 
+    "summary": "Prohibits a county rent guidelines board from establishing rent adjustments for\nclass A dwelling units based on the current rental cost of a unit or on the\namount of time that has elapsed since another rent increase authorized was\nauthorized.", 
+    "title": "Prohibits a county rent guidelines board from establishing rent adjustments for class A dwelling units based on certain considerations", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-01 19:01:20", 
+    "updated_at": "2012-10-16 18:01:47", 
     "versions": [
+        {
+            "doc_id": "NYD00060146", 
+            "mimetype": "text/html", 
+            "name": "S5603", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5603"
+        }, 
         {
             "doc_id": "NYD00035067", 
             "mimetype": "text/html", 
             "name": "S5603", 
             "url": "http://open.nysenate.gov/legislation/bill/S5603-2011"
+        }, 
+        {
+            "doc_id": "NYD00060147", 
+            "mimetype": "text/html", 
+            "name": "S5603A", 
+            "url": "http://open.nysenate.gov/legislation/bill/S5603A-2011"
         }
     ], 
     "votes": []

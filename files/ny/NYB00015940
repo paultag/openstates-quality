@@ -11,41 +11,81 @@
             "action": "referred to education", 
             "actor": "lower", 
             "date": "2011-05-06 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to education", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend and recommit to education", 
             "actor": "lower", 
             "date": "2012-01-13 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000051", 
+                    "name": "education", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "7488"
+            ], 
             "action": "print number 7488a", 
             "actor": "lower", 
             "date": "2012-01-13 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 7488", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 4924", 
+            "chamber": null, 
+            "internal_id": "NYB00005186", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-16 21:06:11", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00096920", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7488&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00015940", 
     "level": "state", 
     "scraped_subjects": [
@@ -54,34 +94,78 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=837"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7488&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A7488-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7488&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A7488A&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A7488A-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": "NYL000139", 
             "name": "Lifton", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000182", 
+            "name": "Rivera P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000094", 
+            "name": "Crouch", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000141", 
+            "name": "Lopez P", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000223", 
+            "name": "Barrett", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Municipal and County Issues"
     ], 
+    "summary": "Requires school districts to purchase food products that are grown, produced,\nharvested or processed in New York state; allows waiver if price of such local\nfood products is not reasonably competitive; allows waiver if such food\nproducts are not available in sufficient quantity.", 
     "title": "Requires school districts to purchase food products that are grown, produced, harvested or processed in New York state", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-02-17 06:33:01", 
+    "updated_at": "2012-10-16 18:09:48", 
     "versions": [
         {
-            "doc_id": "NYD00008312", 
+            "doc_id": "NYD00096917", 
             "mimetype": "text/html", 
             "name": "A7488", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A7488-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A7488"
+        }, 
+        {
+            "doc_id": "NYD00096918", 
+            "mimetype": "text/html", 
+            "name": "A7488", 
+            "url": "http://open.nysenate.gov/legislation/bill/A7488-2011"
+        }, 
+        {
+            "doc_id": "NYD00096919", 
+            "mimetype": "text/html", 
+            "name": "A7488A", 
+            "url": "http://open.nysenate.gov/legislation/bill/A7488A-2011"
         }
     ], 
     "votes": []

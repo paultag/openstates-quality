@@ -11,70 +11,121 @@
             "action": "referred to ways and means", 
             "actor": "lower", 
             "date": "2011-02-01 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-02-25 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4007"
+            ], 
             "action": "print number 4007a", 
             "actor": "lower", 
             "date": "2011-02-25 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-03-12 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4007"
+            ], 
             "action": "print number 4007b", 
             "actor": "lower", 
             "date": "2011-03-12 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "amend (t) and recommit to ways and means", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000076", 
+                    "name": "ways and means", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "amendment:passed", 
+                "committee:referred"
             ]
         }, 
         {
+            "+bill_id": [
+                "4007"
+            ], 
             "action": "print number 4007c", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
-                "other"
+                "amendment:passed"
             ]
         }, 
         {
             "action": "reported referred to rules", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000070", 
+                    "name": "rules", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }, 
         {
-            "action": "reported", 
+            "action": "reported ", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -83,14 +134,19 @@
             "action": "rules report cal.14", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
         }, 
         {
+            "+bill_id": [
+                "s2807"
+            ], 
             "action": "substituted by s2807c", 
             "actor": "lower", 
             "date": "2011-03-30 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -99,9 +155,23 @@
     "alternate_titles": [], 
     "bill_id": "A 4007", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2807", 
+            "chamber": null, 
+            "internal_id": "NYB00002922", 
+            "session": "2011-2012"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:05", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00086940", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4007&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011391", 
     "level": "state", 
     "scraped_subjects": [
@@ -110,16 +180,23 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=749"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4007&Summary=Y&Actions=Y"
         }, 
         {
-            "url": "http://open.nysenate.gov/legislation/bill/A4007-2011"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4007&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4007C&Summary=Y&Actions=Y"
+        }, 
+        {
+            "url": "http://open.nysenate.gov/legislation/bill/A4007C-2011"
         }
     ], 
     "sponsors": [
         {
             "leg_id": null, 
-            "name": "BUDGET BILL", 
+            "name": "Budget", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -127,12 +204,19 @@
     "subjects": [
         "Budget, Spending, and Taxes"
     ], 
+    "summary": "Extends numerous provisions of law that were set to expire and be repealed, but\nthat were otherwise necessary for the fiscal stability of the state and the\nhealth and safety of its citizens; authorizes the governor to close\ncorrectional facilities; relates to the public safety communications surcharge;\nrelates to annual reports of costs related to the statewide wireless network;\nremoves the salary provision of state liquor authority commissioners, other\nthan the chairman; relates to self-insurers for workers' compensation purposes;\nrelates to removing the salary provision for civil service commissioners other\nthan the president; provides aid and incentives for municipalities; relates to\naid to municipalities in which a video lottery terminal facility is located;\ncreates citizens empowerment tax credits, local government citizens\nre-organization empowerment grants and the local government performance and\nefficiency program; streamlines the local government efficiency grant program;\nclarifies the state's obligation to make payments with respect to certain\nlands; allows the State University Downstate Medical Center to create a\nnot-for-profit corporation; relates to New York state district attorney and\nindigent legal services attorney loan forgiveness program eligibility; and\nrelates to the acquisition of the assets of Community-General Hospital of\nGreater Syracuse of SUNY Upstate Medical University.", 
     "title": "Enacts into law major components of legislation necessary to implement the public protection and general government budget for the 2011-2012 state fiscal year", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-06-17 01:12:32", 
+    "updated_at": "2012-10-16 18:07:10", 
     "versions": [
+        {
+            "doc_id": "NYD00086939", 
+            "mimetype": "text/html", 
+            "name": "A4007", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4007"
+        }, 
         {
             "doc_id": "NYD00026832", 
             "mimetype": "text/html", 

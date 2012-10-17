@@ -12,27 +12,46 @@
             "action": "referred to racing and wagering", 
             "actor": "lower", 
             "date": "2011-01-26 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000068", 
+                    "name": "racing and wagering", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to racing and wagering", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "NYC000068", 
+                    "name": "racing and wagering", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 3649", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:03", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00084435", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3649&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011002", 
     "level": "state", 
     "scraped_subjects": [
@@ -41,7 +60,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=737"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3649&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A3649&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A3649-2011"
@@ -51,6 +73,7 @@
         {
             "leg_id": "NYL000173", 
             "name": "Pretlow", 
+            "official_type": "SPONSOR", 
             "type": "primary"
         }
     ], 
@@ -58,12 +81,19 @@
     "subjects": [
         "Gambling and Gaming"
     ], 
+    "summary": "Relates to resources of agriculture and New York state horse breeding\ndevelopment fund designated to educate, promote, advertise and protect the\nstandardbred breeding industry.", 
     "title": "Relates to resources of agriculture and New York state horse breeding development fund designated to educate, promote, advertise and protect the standardbred breeding industry", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-13 02:25:52", 
+    "updated_at": "2012-10-16 18:06:35", 
     "versions": [
+        {
+            "doc_id": "NYD00084434", 
+            "mimetype": "text/html", 
+            "name": "A3649", 
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3649"
+        }, 
         {
             "doc_id": "NYD00042599", 
             "mimetype": "text/html", 

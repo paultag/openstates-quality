@@ -11,25 +11,46 @@
             "action": "referred to labor", 
             "actor": "lower", 
             "date": "2011-02-03 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000063", 
+                    "name": "labor", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:introduced"
+                "committee:referred"
             ]
         }, 
         {
             "action": "referred to labor", 
             "actor": "lower", 
             "date": "2012-01-04 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "NYC000063", 
+                    "name": "labor", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "other"
+                "committee:referred"
             ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 4312", 
     "chamber": "lower", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2011-05-05 01:30:07", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NYD00091240", 
+            "name": "Sponsor's Memorandum", 
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4312&term=&Memo=Y"
+        }
+    ], 
     "id": "NYB00011718", 
     "level": "state", 
     "scraped_subjects": [
@@ -38,7 +59,10 @@
     "session": "2011-2012", 
     "sources": [
         {
-            "url": "http://open.nysenate.gov/legislation/search/?search=otype:bill&searchType=&format=xml&pageIdx=719"
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4312&term=&Votes=Y"
+        }, 
+        {
+            "url": "http://assembly.state.ny.us/leg/?default_fld=&bn=A4312&Summary=Y&Actions=Y"
         }, 
         {
             "url": "http://open.nysenate.gov/legislation/bill/A4312-2011"
@@ -48,24 +72,44 @@
         {
             "leg_id": "NYL000093", 
             "name": "Crespo", 
+            "official_type": "SPONSOR", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NYL000181", 
+            "name": "Rivera N", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NYL000174", 
+            "name": "Ra", 
+            "official_type": "COSPNSR", 
+            "type": "cosponsor"
         }
     ], 
     "state": "ny", 
     "subjects": [
         "Labor and Employment"
     ], 
+    "summary": "Establishes the \"minimum standards for subsidized jobs act\"; defines terms;\nrestricts persons, associations, corporations or other entities from being\neligible to receive any economic development subsidies unless such entities pay\nall of their employees a minimum wage that is at least one dollar per hour\nhigher than the state's minimum wage; employs twenty percent of its workers who\nwill participate in the state worker training program, and have not been\nadjudicated to be in violation of any federal, state or local laws for at least\nthe previous five years.", 
     "title": "Establishes the \"minimum standards for subsidized jobs act\"", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-05-08 01:05:39", 
+    "updated_at": "2012-10-16 18:08:24", 
     "versions": [
         {
-            "doc_id": "NYD00004155", 
+            "doc_id": "NYD00091238", 
             "mimetype": "text/html", 
             "name": "A4312", 
-            "url": "http://open.nysenate.gov/legislation/api/1.0/lrs-print/bill/A4312-2011"
+            "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4312"
+        }, 
+        {
+            "doc_id": "NYD00091239", 
+            "mimetype": "text/html", 
+            "name": "A4312", 
+            "url": "http://open.nysenate.gov/legislation/bill/A4312-2011"
         }
     ], 
     "votes": []
