@@ -22,6 +22,9 @@
             "actor": "lower", 
             "date": "2012-10-15 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NJV00009146"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -79,7 +82,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-10-17 01:30:37", 
+    "updated_at": "2012-10-18 00:14:32", 
     "versions": [
         {
             "doc_id": "NJD00029090", 
@@ -88,5 +91,49 @@
             "url": "http://www.njleg.state.nj.us/2012/Bills/A2500/2100_I1.HTM"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+bill_id": "A2100", 
+            "bill_id": "NJB00017077", 
+            "chamber": "lower", 
+            "committee": "Assembly Agriculture and Natural Resources Committee", 
+            "committee_id": null, 
+            "date": "2012-10-15 00:00:00", 
+            "id": "NJV00009146", 
+            "motion": "Reported favorably out of committee", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00009146", 
+            "yes_count": 5, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000002", 
+                    "name": "Albano, Nelson T."
+                }, 
+                {
+                    "leg_id": "NJL000014", 
+                    "name": "Wilson, Gilbert L."
+                }, 
+                {
+                    "leg_id": "NJL000157", 
+                    "name": "Clifton, Robert D."
+                }, 
+                {
+                    "leg_id": "NJL000166", 
+                    "name": "Caride, Marlene"
+                }, 
+                {
+                    "leg_id": "NJL000092", 
+                    "name": "Dancer, Ronald S."
+                }
+            ]
+        }
+    ]
 }
