@@ -4,7 +4,7 @@
     "action_dates": {
         "first": "2011-06-22 00:00:00", 
         "last": "2011-11-01 00:00:00", 
-        "passed_lower": "2011-06-30 00:00:00", 
+        "passed_lower": null, 
         "passed_upper": "2011-07-01 00:00:00", 
         "signed": "2011-11-01 00:00:00"
     }, 
@@ -13,7 +13,13 @@
             "action": "Introduced and Assigned to Corrections Committee in House", 
             "actor": "lower", 
             "date": "2011-06-22 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000043", 
+                    "name": "Corrections", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -23,18 +29,40 @@
             "action": "Reported Out of Committee (CORRECTIONS) in House with 6 Favorable", 
             "actor": "lower", 
             "date": "2011-06-28 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000043", 
+                    "name": "CORRECTIONS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "committee:passed"
+                "committee:passed", 
+                "committee:passed:favorable"
             ]
         }, 
         {
+            "+absent": [
+                "0"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "41"
+            ], 
             "action": "Passed by House of Representatives. Votes: Passed   41 YES     0 NO     0 NOT VOTING     0 ABSENT     0 VACANT", 
             "actor": "lower", 
             "date": "2011-06-30 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:passed"
+                "other"
             ]
         }, 
         {
@@ -47,6 +75,21 @@
             ]
         }, 
         {
+            "+absent": [
+                "0"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "21"
+            ], 
             "action": "Passed by Senate. Votes: Passed   21 YES     0 NO     0 NOT VOTING     0 ABSENT     0 VACANT", 
             "actor": "upper", 
             "date": "2011-07-01 00:00:00", 
@@ -272,7 +315,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 02:59:01", 
+    "updated_at": "2012-10-26 02:08:07", 
     "versions": [
         {
             "+source": "http://legis.delaware.gov/LIS/lis146.nsf/2bede841c6272c888025698400433a04/7d879fb7082a3c5a852578b1006fb8ca?OpenDocument", 

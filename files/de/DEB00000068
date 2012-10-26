@@ -4,7 +4,7 @@
         "first": "2011-06-02 00:00:00", 
         "last": "2011-06-22 00:00:00", 
         "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_upper": "2011-06-22 00:00:00", 
         "signed": null
     }, 
     "actions": [
@@ -12,8 +12,15 @@
             "action": "Assigned to Small Business Committee in Senate", 
             "actor": "upper", 
             "date": "2011-06-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000022", 
+                    "name": "Small Business", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
+                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -21,12 +28,23 @@
             "action": "Reported Out of Committee (SMALL BUSINESS) in Senate with 2 Favorable, 2 On Its Merits, 1 Unfavorable", 
             "actor": "upper", 
             "date": "2011-06-16 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000022", 
+                    "name": "SMALL BUSINESS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "committee:passed"
+                "committee:passed:unfavorable", 
+                "committee:passed", 
+                "committee:passed:favorable"
             ]
         }, 
         {
+            "+bills": [
+                "SA 1"
+            ], 
             "action": "Amendment SA 1 -   Introduced in Senate", 
             "actor": "upper", 
             "date": "2011-06-22 00:00:00", 
@@ -36,23 +54,58 @@
             ]
         }, 
         {
+            "+absent": [
+                "1"
+            ], 
+            "+bills": [
+                "SA 1"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "20"
+            ], 
             "action": "Amendment SA 1 -  Passed by Senate. Votes: Passed   20 YES     0 NO     0 NOT VOTING     1 ABSENT     0 VACANT", 
             "actor": "upper", 
             "date": "2011-06-22 00:00:00", 
             "related_entities": [], 
-            "related_votes": [], 
+            "related_votes": [
+                "DEV00000090"
+            ], 
             "type": [
+                "bill:passed", 
                 "amendment:passed"
             ]
         }, 
         {
+            "+absent": [
+                "1"
+            ], 
+            "+no_votes": [
+                "9"
+            ], 
+            "+not_voting": [
+                "2"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "9"
+            ], 
             "action": "Defeated by Senate. Votes: Defeated   9 YES     9 NO     2 NOT VOTING     1 ABSENT     0 VACANT", 
             "actor": "upper", 
             "date": "2011-06-22 00:00:00", 
             "related_entities": [], 
-            "related_votes": [], 
             "type": [
-                "bill:failed"
+                "other"
             ]
         }
     ], 
@@ -125,7 +178,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 02:58:45", 
+    "updated_at": "2012-10-26 02:08:03", 
     "versions": [
         {
             "+source": "http://legis.delaware.gov/LIS/lis146.nsf/2bede841c6272c888025698400433a04/4a96f19bb4eaea458525788700714adf?OpenDocument", 

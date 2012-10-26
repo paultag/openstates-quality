@@ -4,7 +4,7 @@
     "action_dates": {
         "first": "2011-06-08 00:00:00", 
         "last": "2011-07-28 00:00:00", 
-        "passed_lower": "2011-06-28 00:00:00", 
+        "passed_lower": null, 
         "passed_upper": "2011-06-16 00:00:00", 
         "signed": "2011-07-28 00:00:00"
     }, 
@@ -13,8 +13,15 @@
             "action": "Assigned to Agriculture Committee in Senate", 
             "actor": "upper", 
             "date": "2011-06-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000024", 
+                    "name": "Agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
+                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -22,12 +29,34 @@
             "action": "Reported Out of Committee (AGRICULTURE) in Senate with 5 Favorable", 
             "actor": "upper", 
             "date": "2011-06-15 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000024", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "committee:passed"
+                "committee:passed", 
+                "committee:passed:favorable"
             ]
         }, 
         {
+            "+absent": [
+                "2"
+            ], 
+            "+no_votes": [
+                "1"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "18"
+            ], 
             "action": "Passed by Senate. Votes: Passed   18 YES     1 NO     0 NOT VOTING     2 ABSENT     0 VACANT", 
             "actor": "upper", 
             "date": "2011-06-16 00:00:00", 
@@ -43,7 +72,13 @@
             "action": "Introduced and Assigned to Agriculture Committee in House", 
             "actor": "lower", 
             "date": "2011-06-21 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000049", 
+                    "name": "Agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -53,21 +88,40 @@
             "action": "Reported Out of Committee (AGRICULTURE) in House with 7 Favorable", 
             "actor": "lower", 
             "date": "2011-06-22 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000049", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "committee:passed"
+                "committee:passed", 
+                "committee:passed:favorable"
             ]
         }, 
         {
+            "+absent": [
+                "0"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "41"
+            ], 
             "action": "Passed by House of Representatives. Votes: Passed   41 YES     0 NO     0 NOT VOTING     0 ABSENT     0 VACANT", 
             "actor": "lower", 
             "date": "2011-06-28 00:00:00", 
             "related_entities": [], 
-            "related_votes": [
-                "DEV00000062"
-            ], 
             "type": [
-                "bill:passed"
+                "other"
             ]
         }, 
         {
@@ -188,7 +242,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 02:58:44", 
+    "updated_at": "2012-10-26 02:08:02", 
     "versions": [
         {
             "+source": "http://legis.delaware.gov/LIS/lis146.nsf/2bede841c6272c888025698400433a04/371357440defbadc852578a30055550c?OpenDocument", 

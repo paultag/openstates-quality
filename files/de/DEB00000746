@@ -4,7 +4,7 @@
     "action_dates": {
         "first": "2012-06-05 00:00:00", 
         "last": "2012-07-12 00:00:00", 
-        "passed_lower": "2012-06-30 00:00:00", 
+        "passed_lower": null, 
         "passed_upper": "2012-06-12 00:00:00", 
         "signed": "2012-07-12 00:00:00"
     }, 
@@ -13,8 +13,15 @@
             "action": "Assigned to Natural Resources & Environmental Control Committee in Senate", 
             "actor": "upper", 
             "date": "2012-06-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000003", 
+                    "name": "Natural Resources & Environmental Control", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
+                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -22,12 +29,33 @@
             "action": "Reported Out of Committee (NATURAL RESOURCES & ENVIRONMENTAL CONTROL) in Senate with 4 On Its Merits", 
             "actor": "upper", 
             "date": "2012-06-06 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000003", 
+                    "name": "NATURAL RESOURCES & ENVIRONMENTAL CONTROL", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:passed"
             ]
         }, 
         {
+            "+absent": [
+                "0"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "21"
+            ], 
             "action": "Passed by Senate. Votes: Passed   21 YES     0 NO     0 NOT VOTING     0 ABSENT     0 VACANT", 
             "actor": "upper", 
             "date": "2012-06-12 00:00:00", 
@@ -43,7 +71,13 @@
             "action": "Introduced and Assigned to Agriculture Committee in House", 
             "actor": "lower", 
             "date": "2012-06-13 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000049", 
+                    "name": "Agriculture", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -53,18 +87,39 @@
             "action": "Reported Out of Committee (AGRICULTURE) in House with 5 On Its Merits", 
             "actor": "lower", 
             "date": "2012-06-27 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000049", 
+                    "name": "AGRICULTURE", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:passed"
             ]
         }, 
         {
+            "+absent": [
+                "0"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "41"
+            ], 
             "action": "Passed by House of Representatives. Votes: Passed   41 YES     0 NO     0 NOT VOTING     0 ABSENT     0 VACANT", 
             "actor": "lower", 
             "date": "2012-06-30 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:passed"
+                "other"
             ]
         }, 
         {
@@ -125,7 +180,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 02:58:40", 
+    "updated_at": "2012-10-26 02:08:00", 
     "versions": [
         {
             "+source": "http://legis.delaware.gov/LIS/lis146.nsf/2bede841c6272c888025698400433a04/4f8dcf7d769f0e9c85257a14005ce957?OpenDocument", 

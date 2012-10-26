@@ -4,7 +4,7 @@
     "action_dates": {
         "first": "2012-04-24 00:00:00", 
         "last": "2012-07-27 00:00:00", 
-        "passed_lower": "2012-05-17 00:00:00", 
+        "passed_lower": null, 
         "passed_upper": "2012-06-20 00:00:00", 
         "signed": "2012-07-27 00:00:00"
     }, 
@@ -13,9 +13,15 @@
             "action": "Adopted in lieu of the original bill HB 227, and assigned to Housing & Community Affairs Committee in House", 
             "actor": "lower", 
             "date": "2012-04-24 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000036", 
+                    "name": "Housing & Community Affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "bill:substituted", 
+                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,29 +29,55 @@
             "action": "Reported Out of Committee (HOUSING & COMMUNITY AFFAIRS) in House with 1 Favorable, 6 On Its Merits", 
             "actor": "lower", 
             "date": "2012-05-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000036", 
+                    "name": "HOUSING & COMMUNITY AFFAIRS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "committee:passed"
+                "committee:passed", 
+                "committee:passed:favorable"
             ]
         }, 
         {
+            "+absent": [
+                "5"
+            ], 
+            "+no_votes": [
+                "1"
+            ], 
+            "+not_voting": [
+                "7"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "28"
+            ], 
             "action": "Passed by House of Representatives. Votes: Passed   28 YES     1 NO     7 NOT VOTING     5 ABSENT     0 VACANT", 
             "actor": "lower", 
             "date": "2012-05-17 00:00:00", 
             "related_entities": [], 
-            "related_votes": [
-                "DEV00000889"
-            ], 
             "type": [
-                "bill:passed"
+                "other"
             ]
         }, 
         {
             "action": "Assigned to Community/County Affairs Committee in Senate", 
             "actor": "upper", 
             "date": "2012-05-23 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000001", 
+                    "name": "Community/County Affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
+                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -53,12 +85,35 @@
             "action": "Reported Out of Committee (COMMUNITY/COUNTY AFFAIRS) in Senate with 3 On Its Merits, 1 Unfavorable", 
             "actor": "upper", 
             "date": "2012-06-13 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000001", 
+                    "name": "COMMUNITY/COUNTY AFFAIRS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "committee:passed"
+                "committee:passed:unfavorable", 
+                "committee:passed", 
+                "committee:passed:favorable"
             ]
         }, 
         {
+            "+absent": [
+                "2"
+            ], 
+            "+no_votes": [
+                "4"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "15"
+            ], 
             "action": "Passed by Senate. Votes: Passed   15 YES     4 NO     0 NOT VOTING     2 ABSENT     0 VACANT", 
             "actor": "upper", 
             "date": "2012-06-20 00:00:00", 
@@ -110,7 +165,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 02:59:00", 
+    "updated_at": "2012-10-26 02:08:07", 
     "versions": [
         {
             "+source": "http://legis.delaware.gov/LIS/lis146.nsf/2bede841c6272c888025698400433a04/75980dabc72f538c852579d7006bc1de?OpenDocument", 

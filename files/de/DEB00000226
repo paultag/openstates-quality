@@ -4,7 +4,7 @@
     "action_dates": {
         "first": "2012-01-05 00:00:00", 
         "last": "2012-07-05 00:00:00", 
-        "passed_lower": "2012-01-12 00:00:00", 
+        "passed_lower": null, 
         "passed_upper": "2012-06-28 00:00:00", 
         "signed": "2012-07-05 00:00:00"
     }, 
@@ -13,7 +13,13 @@
             "action": "Introduced and Assigned to Judiciary Committee in House", 
             "actor": "lower", 
             "date": "2012-01-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000035", 
+                    "name": "Judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -23,29 +29,54 @@
             "action": "Reported Out of Committee (JUDICIARY) in House with 7 On Its Merits", 
             "actor": "lower", 
             "date": "2012-01-11 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000035", 
+                    "name": "JUDICIARY", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:passed"
             ]
         }, 
         {
+            "+absent": [
+                "1"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "40"
+            ], 
             "action": "Passed by House of Representatives. Votes: Passed   40 YES     0 NO     0 NOT VOTING     1 ABSENT     0 VACANT", 
             "actor": "lower", 
             "date": "2012-01-12 00:00:00", 
             "related_entities": [], 
-            "related_votes": [
-                "DEV00000301"
-            ], 
             "type": [
-                "bill:passed"
+                "other"
             ]
         }, 
         {
             "action": "Assigned to Judiciary Committee in Senate", 
             "actor": "upper", 
             "date": "2012-01-17 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000006", 
+                    "name": "Judiciary", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
+                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -53,12 +84,33 @@
             "action": "Reported Out of Committee (JUDICIARY) in Senate with 5 On Its Merits", 
             "actor": "upper", 
             "date": "2012-01-25 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000006", 
+                    "name": "JUDICIARY", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:passed"
             ]
         }, 
         {
+            "+absent": [
+                "2"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "19"
+            ], 
             "action": "Passed by Senate. Votes: Passed   19 YES     0 NO     0 NOT VOTING     2 ABSENT     0 VACANT", 
             "actor": "upper", 
             "date": "2012-06-28 00:00:00", 
@@ -170,7 +222,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 02:59:00", 
+    "updated_at": "2012-10-26 02:08:07", 
     "versions": [
         {
             "+source": "http://legis.delaware.gov/LIS/lis146.nsf/2bede841c6272c888025698400433a04/76de794fb2ce99f48525797a004f7233?OpenDocument", 

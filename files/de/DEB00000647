@@ -12,8 +12,15 @@
             "action": "Assigned to Small Business Committee in Senate", 
             "actor": "upper", 
             "date": "2012-04-25 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000022", 
+                    "name": "Small Business", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
+                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -21,12 +28,23 @@
             "action": "Reported Out of Committee (SMALL BUSINESS) in Senate with 2 Favorable, 1 On Its Merits, 1 Unfavorable", 
             "actor": "upper", 
             "date": "2012-05-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000022", 
+                    "name": "SMALL BUSINESS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "committee:passed"
+                "committee:passed:unfavorable", 
+                "committee:passed", 
+                "committee:passed:favorable"
             ]
         }, 
         {
+            "+bills": [
+                "SA 1"
+            ], 
             "action": "Amendment SA 1 -  Introduced and Placed With the Bill in Senate", 
             "actor": "upper", 
             "date": "2012-05-09 00:00:00", 
@@ -36,12 +54,31 @@
             ]
         }, 
         {
+            "+absent": [
+                "0"
+            ], 
+            "+bills": [
+                "SA 1"
+            ], 
+            "+no_votes": [
+                "3"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "18"
+            ], 
             "action": "Amendment SA 1 -  Passed by Senate. Votes: Passed   18 YES     3 NO     0 NOT VOTING     0 ABSENT     0 VACANT", 
             "actor": "upper", 
             "date": "2012-05-10 00:00:00", 
             "related_entities": [], 
             "related_votes": [], 
             "type": [
+                "bill:passed", 
                 "amendment:passed"
             ]
         }, 
@@ -64,6 +101,9 @@
             ]
         }, 
         {
+            "+bills": [
+                "SA 2"
+            ], 
             "action": "Amendment SA 2 -   Introduced in Senate", 
             "actor": "upper", 
             "date": "2012-05-10 00:00:00", 
@@ -73,16 +113,50 @@
             ]
         }, 
         {
+            "+absent": [
+                "3"
+            ], 
+            "+bills": [
+                "SA 2"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "18"
+            ], 
             "action": "Amendment SA 2 -  Passed by Senate. Votes: Passed   18 YES     0 NO     0 NOT VOTING     3 ABSENT     0 VACANT", 
             "actor": "upper", 
             "date": "2012-05-10 00:00:00", 
             "related_entities": [], 
             "related_votes": [], 
             "type": [
+                "bill:passed", 
                 "amendment:passed"
             ]
         }, 
         {
+            "+absent": [
+                "1"
+            ], 
+            "+no_votes": [
+                "9"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "11"
+            ], 
             "action": "Passed by Senate. Votes: Passed   11 YES     9 NO     0 NOT VOTING     1 ABSENT     0 VACANT", 
             "actor": "upper", 
             "date": "2012-05-10 00:00:00", 
@@ -96,7 +170,13 @@
             "action": "Introduced and Assigned to Manufactured Housing Committee in House", 
             "actor": "lower", 
             "date": "2012-05-16 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000027", 
+                    "name": "Manufactured Housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -106,21 +186,40 @@
             "action": "Reported Out of Committee (MANUFACTURED HOUSING) in House with 4 Favorable", 
             "actor": "lower", 
             "date": "2012-06-06 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000027", 
+                    "name": "MANUFACTURED HOUSING", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "committee:passed"
+                "committee:passed", 
+                "committee:passed:favorable"
             ]
         }, 
         {
+            "+absent": [
+                "0"
+            ], 
+            "+no_votes": [
+                "22"
+            ], 
+            "+not_voting": [
+                "5"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "14"
+            ], 
             "action": "Defeated by House of Representatives. Votes: Defeated   14 YES     22 NO     5 NOT VOTING     0 ABSENT     0 VACANT", 
             "actor": "lower", 
             "date": "2012-06-19 00:00:00", 
             "related_entities": [], 
-            "related_votes": [
-                "DEV00000989"
-            ], 
             "type": [
-                "bill:failed"
+                "other"
             ]
         }
     ], 
@@ -225,7 +324,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 02:58:41", 
+    "updated_at": "2012-10-26 02:08:01", 
     "versions": [
         {
             "+source": "http://legis.delaware.gov/LIS/lis146.nsf/2bede841c6272c888025698400433a04/010d04020b065cc2852579c900730afe?OpenDocument", 

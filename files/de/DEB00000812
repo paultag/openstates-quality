@@ -12,8 +12,15 @@
             "action": "Assigned to Health & Human Development Committee in House", 
             "actor": "lower", 
             "date": "2012-06-12 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000033", 
+                    "name": "Health & Human Development", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
+                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -23,8 +30,7 @@
             "date": "2012-06-12 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:introduced", 
-                "committee:referred"
+                "bill:introduced"
             ]
         }, 
         {
@@ -67,7 +73,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 02:46:43", 
+    "updated_at": "2012-10-26 02:08:05", 
     "versions": [
         {
             "+source": "http://legis.delaware.gov/LIS/lis146.nsf/2bede841c6272c888025698400433a04/4383956d6834f0ee85257a1b0075fbc4?OpenDocument", 

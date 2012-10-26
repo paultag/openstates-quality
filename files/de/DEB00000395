@@ -4,7 +4,7 @@
     "action_dates": {
         "first": "2011-03-24 00:00:00", 
         "last": "2011-07-13 00:00:00", 
-        "passed_lower": "2011-03-31 00:00:00", 
+        "passed_lower": null, 
         "passed_upper": "2011-06-02 00:00:00", 
         "signed": "2011-07-13 00:00:00"
     }, 
@@ -13,8 +13,15 @@
             "action": "Assigned to Manufactured Housing Committee in House", 
             "actor": "lower", 
             "date": "2011-03-24 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000027", 
+                    "name": "Manufactured Housing", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
+                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -24,20 +31,29 @@
             "date": "2011-03-24 00:00:00", 
             "related_entities": [], 
             "type": [
-                "bill:introduced", 
-                "committee:referred"
+                "bill:introduced"
             ]
         }, 
         {
             "action": "Reported Out of Committee (MANUFACTURED HOUSING) in House with 1 Favorable, 5 On Its Merits", 
             "actor": "lower", 
             "date": "2011-03-29 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000027", 
+                    "name": "MANUFACTURED HOUSING", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
-                "committee:passed"
+                "committee:passed", 
+                "committee:passed:favorable"
             ]
         }, 
         {
+            "+bills": [
+                "HA 1"
+            ], 
             "action": "Amendment HA 1 -  Introduced and Placed With Bill", 
             "actor": "lower", 
             "date": "2011-03-31 00:00:00", 
@@ -47,31 +63,57 @@
             ]
         }, 
         {
+            "+bills": [
+                "HA 1"
+            ], 
             "action": "Amendment HA 1 -  Passed in House by Voice Vote", 
             "actor": "lower", 
             "date": "2011-03-31 00:00:00", 
             "related_entities": [], 
-            "related_votes": [], 
+            "related_votes": [
+                "DEV00000483"
+            ], 
             "type": [
                 "amendment:passed"
             ]
         }, 
         {
+            "+absent": [
+                "3"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "1"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "37"
+            ], 
             "action": "Passed by House of Representatives. Votes: Passed   37 YES     0 NO     1 NOT VOTING     3 ABSENT     0 VACANT", 
             "actor": "lower", 
             "date": "2011-03-31 00:00:00", 
             "related_entities": [], 
-            "related_votes": [], 
             "type": [
-                "bill:passed"
+                "other"
             ]
         }, 
         {
             "action": "Assigned to Community/County Affairs Committee in Senate", 
             "actor": "upper", 
             "date": "2011-04-05 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000001", 
+                    "name": "Community/County Affairs", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
+                "bill:introduced", 
                 "committee:referred"
             ]
         }, 
@@ -79,7 +121,13 @@
             "action": "Reported Out of Committee (COMMUNITY/COUNTY AFFAIRS) in Senate with 4 On Its Merits", 
             "actor": "upper", 
             "date": "2011-05-11 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000001", 
+                    "name": "COMMUNITY/COUNTY AFFAIRS", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -94,6 +142,9 @@
             ]
         }, 
         {
+            "+bills": [
+                "SA 2"
+            ], 
             "action": "Amendment SA 2 -   Introduced in Senate", 
             "actor": "upper", 
             "date": "2011-06-02 00:00:00", 
@@ -103,6 +154,9 @@
             ]
         }, 
         {
+            "+bills": [
+                "SA 1"
+            ], 
             "action": "Amendment SA 1 -   Introduced in Senate", 
             "actor": "upper", 
             "date": "2011-06-02 00:00:00", 
@@ -121,12 +175,31 @@
             ]
         }, 
         {
+            "+absent": [
+                "2"
+            ], 
+            "+bills": [
+                "SA 2"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "19"
+            ], 
             "action": "Amendment SA 2 -  Passed by Senate. Votes: Passed   19 YES     0 NO     0 NOT VOTING     2 ABSENT     0 VACANT", 
             "actor": "upper", 
             "date": "2011-06-02 00:00:00", 
             "related_entities": [], 
             "related_votes": [], 
             "type": [
+                "bill:passed", 
                 "amendment:passed"
             ]
         }, 
@@ -140,6 +213,21 @@
             ]
         }, 
         {
+            "+absent": [
+                "2"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "19"
+            ], 
             "action": "Passed by Senate. Votes: Passed   19 YES     0 NO     0 NOT VOTING     2 ABSENT     0 VACANT", 
             "actor": "upper", 
             "date": "2011-06-02 00:00:00", 
@@ -150,15 +238,27 @@
             ]
         }, 
         {
+            "+absent": [
+                "3"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "1"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "37"
+            ], 
             "action": "Passed by House of Representatives. Votes: Passed   37 YES     0 NO     1 NOT VOTING     3 ABSENT     0 VACANT", 
             "actor": "lower", 
             "date": "2011-06-02 00:00:00", 
             "related_entities": [], 
-            "related_votes": [
-                "DEV00000485"
-            ], 
             "type": [
-                "bill:passed"
+                "other"
             ]
         }, 
         {
@@ -274,7 +374,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 02:59:07", 
+    "updated_at": "2012-10-26 02:08:09", 
     "versions": [
         {
             "+source": "http://legis.delaware.gov/LIS/lis146.nsf/2bede841c6272c888025698400433a04/b3b94a8f44e3e63b8525781d006b1983?OpenDocument", 

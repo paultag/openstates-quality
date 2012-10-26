@@ -4,7 +4,7 @@
     "action_dates": {
         "first": "2011-06-23 00:00:00", 
         "last": "2011-08-17 00:00:00", 
-        "passed_lower": "2011-06-29 00:00:00", 
+        "passed_lower": null, 
         "passed_upper": "2011-06-30 00:00:00", 
         "signed": "2011-08-17 00:00:00"
     }, 
@@ -13,7 +13,13 @@
             "action": "Introduced and Assigned to House Administration Committee in House", 
             "actor": "lower", 
             "date": "2011-06-23 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000050", 
+                    "name": "House Administration", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -23,13 +29,22 @@
             "action": "Reported Out of Committee (HOUSE ADMINISTRATION) in House with 5 On Its Merits", 
             "actor": "lower", 
             "date": "2011-06-29 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "DEC000050", 
+                    "name": "HOUSE ADMINISTRATION", 
+                    "type": "committee"
+                }
+            ], 
             "related_votes": [], 
             "type": [
                 "committee:passed"
             ]
         }, 
         {
+            "+bills": [
+                "HA 1"
+            ], 
             "action": "Amendment HA 1 -  Introduced and Placed With Bill", 
             "actor": "lower", 
             "date": "2011-06-29 00:00:00", 
@@ -48,6 +63,9 @@
             ]
         }, 
         {
+            "+bills": [
+                "HA 1"
+            ], 
             "action": "Amendment HA 1 -  Passed in House by Voice Vote", 
             "actor": "lower", 
             "date": "2011-06-29 00:00:00", 
@@ -58,13 +76,27 @@
             ]
         }, 
         {
+            "+absent": [
+                "9"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "32"
+            ], 
             "action": "Passed by House of Representatives. Votes: Passed   32 YES     0 NO     0 NOT VOTING     9 ABSENT     0 VACANT", 
             "actor": "lower", 
             "date": "2011-06-29 00:00:00", 
             "related_entities": [], 
-            "related_votes": [], 
             "type": [
-                "bill:passed"
+                "other"
             ]
         }, 
         {
@@ -77,6 +109,9 @@
             ]
         }, 
         {
+            "+bills": [
+                "SA 1"
+            ], 
             "action": "Amendment SA 1 -   Introduced in Senate", 
             "actor": "upper", 
             "date": "2011-06-30 00:00:00", 
@@ -86,16 +121,50 @@
             ]
         }, 
         {
+            "+absent": [
+                "0"
+            ], 
+            "+bills": [
+                "SA 1"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "21"
+            ], 
             "action": "Amendment SA 1 -  Passed by Senate. Votes: Passed   21 YES     0 NO     0 NOT VOTING     0 ABSENT     0 VACANT", 
             "actor": "upper", 
             "date": "2011-06-30 00:00:00", 
             "related_entities": [], 
             "related_votes": [], 
             "type": [
+                "bill:passed", 
                 "amendment:passed"
             ]
         }, 
         {
+            "+absent": [
+                "1"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "20"
+            ], 
             "action": "Passed by Senate. Votes: Passed   20 YES     0 NO     0 NOT VOTING     1 ABSENT     0 VACANT", 
             "actor": "upper", 
             "date": "2011-06-30 00:00:00", 
@@ -106,13 +175,27 @@
             ]
         }, 
         {
+            "+absent": [
+                "0"
+            ], 
+            "+no_votes": [
+                "0"
+            ], 
+            "+not_voting": [
+                "0"
+            ], 
+            "+vacant": [
+                "0"
+            ], 
+            "+yes_votes": [
+                "41"
+            ], 
             "action": "Passed by House of Representatives. Votes: Passed   41 YES     0 NO     0 NOT VOTING     0 ABSENT     0 VACANT", 
             "actor": "lower", 
             "date": "2011-06-30 00:00:00", 
             "related_entities": [], 
-            "related_votes": [], 
             "type": [
-                "bill:passed"
+                "other"
             ]
         }, 
         {
@@ -278,7 +361,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 02:59:00", 
+    "updated_at": "2012-10-26 02:08:07", 
     "versions": [
         {
             "+source": "http://legis.delaware.gov/LIS/lis146.nsf/2bede841c6272c888025698400433a04/d1aa71f6e1ed51a2852578a1006c7734?OpenDocument", 
