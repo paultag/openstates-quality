@@ -4,7 +4,7 @@
     "action_dates": {
         "first": "2011-03-17 00:00:00", 
         "last": "2011-06-03 00:00:00", 
-        "passed_lower": null, 
+        "passed_lower": "2011-05-12 00:00:00", 
         "passed_upper": "2011-05-03 00:00:00", 
         "signed": "2011-06-03 00:00:00"
     }, 
@@ -78,7 +78,6 @@
             "related_entities": [], 
             "related_votes": [], 
             "type": [
-                "bill:passed", 
                 "amendment:passed"
             ]
         }, 
@@ -134,9 +133,7 @@
                     "type": "committee"
                 }
             ], 
-            "related_votes": [
-                "DEV00000201"
-            ], 
+            "related_votes": [], 
             "type": [
                 "committee:passed"
             ]
@@ -170,8 +167,9 @@
             "actor": "lower", 
             "date": "2011-05-12 00:00:00", 
             "related_entities": [], 
+            "related_votes": [], 
             "type": [
-                "other"
+                "bill:passed"
             ]
         }, 
         {
@@ -307,7 +305,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-10-26 02:08:04", 
+    "updated_at": "2012-10-30 02:06:40", 
     "versions": [
         {
             "+source": "http://legis.delaware.gov/LIS/lis146.nsf/2bede841c6272c888025698400433a04/afc66c2878b6531085257853005bc218?OpenDocument", 
