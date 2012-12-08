@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2012-01-10 00:00:00", 
-        "last": "2012-01-10 00:00:00", 
+        "last": "2012-11-19 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -16,6 +16,18 @@
                 "bill:introduced", 
                 "committee:referred"
             ]
+        }, 
+        {
+            "action": "Reported out of Senate Committee with Amendments, 2nd Reading", 
+            "actor": "upper", 
+            "date": "2012-11-19 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NJV00009287"
+            ], 
+            "type": [
+                "committee:passed"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -24,7 +36,13 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-01-12 22:01:36", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NJD00036910", 
+            "name": "Statement SEN 11/19/12", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/SCR/38_S1.HTM"
+        }
+    ], 
     "id": "NJB00016464", 
     "level": "state", 
     "scraped_subjects": [
@@ -73,14 +91,65 @@
     "type": [
         "concurrent resolution"
     ], 
-    "updated_at": "2012-08-22 01:11:48", 
+    "updated_at": "2012-12-07 18:54:39", 
     "versions": [
         {
             "doc_id": "NJD00028042", 
             "mimetype": "text/html", 
             "name": "Introduced Version", 
             "url": "http://www.njleg.state.nj.us/2012/Bills/SCR/38_I1.HTM"
+        }, 
+        {
+            "doc_id": "NJD00036909", 
+            "mimetype": "text/html", 
+            "name": "Reprint", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/SCR/38_R1.HTM"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+bill_id": "SCR38", 
+            "bill_id": "NJB00016464", 
+            "chamber": "upper", 
+            "committee": "Senate Environment and Energy Committee", 
+            "committee_id": "NJC000064", 
+            "date": "2012-11-19 00:00:00", 
+            "id": "NJV00009287", 
+            "motion": "Reported out of Senate committee with amendments", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NJL000048", 
+                    "name": "Bateman, Christopher"
+                }
+            ], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00009287", 
+            "yes_count": 4, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000051", 
+                    "name": "Smith, Bob"
+                }, 
+                {
+                    "leg_id": "NJL000004", 
+                    "name": "Whelan, Jim"
+                }, 
+                {
+                    "leg_id": "NJL000043", 
+                    "name": "Greenstein, Linda R."
+                }, 
+                {
+                    "leg_id": "NJL000035", 
+                    "name": "Beck, Jennifer"
+                }
+            ]
+        }
+    ]
 }

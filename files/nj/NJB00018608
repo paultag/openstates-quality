@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2012-01-10 00:00:00", 
-        "last": "2012-01-10 00:00:00", 
+        "last": "2012-11-19 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -16,19 +16,21 @@
                 "bill:introduced", 
                 "committee:referred"
             ]
+        }, 
+        {
+            "action": "Combined with A2164", 
+            "actor": "lower", 
+            "date": "2012-11-19 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
         }
     ], 
     "alternate_titles": [], 
     "bill_id": "A 634", 
     "chamber": "lower", 
-    "companions": [
-        {
-            "bill_id": "S 1051", 
-            "chamber": null, 
-            "internal_id": "NJB00019596", 
-            "session": "215"
-        }
-    ], 
+    "companions": [], 
     "country": "us", 
     "created_at": "2012-01-12 22:01:59", 
     "documents": [], 
@@ -77,7 +79,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-22 01:11:41", 
+    "updated_at": "2012-12-07 18:54:47", 
     "versions": [
         {
             "doc_id": "NJD00031558", 
@@ -86,5 +88,57 @@
             "url": "http://www.njleg.state.nj.us/2012/Bills/A1000/634_I1.HTM"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+bill_id": "A634", 
+            "bill_id": "NJB00018608", 
+            "chamber": "lower", 
+            "committee": "Assembly Judiciary Committee", 
+            "committee_id": null, 
+            "date": "2012-11-19 00:00:00", 
+            "id": "NJV00009319", 
+            "motion": "Reported out of Assembly committee as a substitute", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00009319", 
+            "yes_count": 7, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000114", 
+                    "name": "Johnson, Gordon M."
+                }, 
+                {
+                    "leg_id": "NJL000056", 
+                    "name": "Barnes, Peter J."
+                }, 
+                {
+                    "leg_id": "NJL000086", 
+                    "name": "Caputo, Ralph R."
+                }, 
+                {
+                    "leg_id": "NJL000062", 
+                    "name": "Quijano, Annette"
+                }, 
+                {
+                    "leg_id": "NJL000168", 
+                    "name": "Schepisi, Holly"
+                }, 
+                {
+                    "leg_id": "NJL000076", 
+                    "name": "Carroll, Michael Patrick"
+                }, 
+                {
+                    "leg_id": "NJL000082", 
+                    "name": "McKeon, John F."
+                }
+            ]
+        }
+    ]
 }

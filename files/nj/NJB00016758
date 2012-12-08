@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2012-01-10 00:00:00", 
-        "last": "2012-01-10 00:00:00", 
+        "last": "2012-12-06 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -15,6 +15,18 @@
             "type": [
                 "bill:introduced", 
                 "committee:referred"
+            ]
+        }, 
+        {
+            "action": "Reported out of Assembly Committee with Amendments, 2nd Reading", 
+            "actor": "lower", 
+            "date": "2012-12-06 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NJV00009290"
+            ], 
+            "type": [
+                "committee:passed"
             ]
         }
     ], 
@@ -31,7 +43,13 @@
     ], 
     "country": "us", 
     "created_at": "2012-01-12 22:01:39", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NJD00036929", 
+            "name": "Statement AHO 12/6/12", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/A2000/1570_S1.HTM"
+        }
+    ], 
     "id": "NJB00016758", 
     "level": "state", 
     "scraped_subjects": [
@@ -102,14 +120,69 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-10-06 00:14:35", 
+    "updated_at": "2012-12-07 18:54:40", 
     "versions": [
         {
             "doc_id": "NJD00028576", 
             "mimetype": "text/html", 
             "name": "Introduced Version", 
             "url": "http://www.njleg.state.nj.us/2012/Bills/A2000/1570_I1.HTM"
+        }, 
+        {
+            "doc_id": "NJD00036928", 
+            "mimetype": "text/html", 
+            "name": "Reprint", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/A2000/1570_R1.HTM"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+bill_id": "A1570", 
+            "bill_id": "NJB00016758", 
+            "chamber": "lower", 
+            "committee": "Assembly Housing and Local Government Committee", 
+            "committee_id": null, 
+            "date": "2012-12-06 00:00:00", 
+            "id": "NJV00009290", 
+            "motion": "Reported out of Assembly committee with amendments", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 2, 
+            "other_votes": [
+                {
+                    "leg_id": "NJL000076", 
+                    "name": "Carroll, Michael Patrick"
+                }, 
+                {
+                    "leg_id": "NJL000062", 
+                    "name": "Quijano, Annette"
+                }
+            ], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00009290", 
+            "yes_count": 4, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000068", 
+                    "name": "Green, Jerry"
+                }, 
+                {
+                    "leg_id": "NJL000083", 
+                    "name": "Jasey, Mila M."
+                }, 
+                {
+                    "leg_id": "NJL000157", 
+                    "name": "Clifton, Robert D."
+                }, 
+                {
+                    "leg_id": "NJL000161", 
+                    "name": "Jimenez, Angelica M."
+                }
+            ]
+        }
+    ]
 }

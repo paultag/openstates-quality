@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2012-01-30 00:00:00", 
-        "last": "2012-01-30 00:00:00", 
+        "last": "2012-12-03 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -16,6 +16,24 @@
                 "bill:introduced", 
                 "committee:referred"
             ]
+        }, 
+        {
+            "action": "Reported from Assembly Committee as a Substitute, 2nd Reading", 
+            "actor": "lower", 
+            "date": "2012-11-19 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "Substituted by S1051 (SCS)", 
+            "actor": "lower", 
+            "date": "2012-12-03 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -23,15 +41,21 @@
     "chamber": "lower", 
     "companions": [
         {
-            "bill_id": "S 366", 
+            "bill_id": "S 1051", 
             "chamber": null, 
-            "internal_id": "NJB00018091", 
+            "internal_id": "NJB00019596", 
             "session": "215"
         }
     ], 
     "country": "us", 
     "created_at": "2012-01-18 00:54:33", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NJD00037214", 
+            "name": "Statement AJU 11/19/12 ACS A634", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/A2500/2164_S1.HTM"
+        }
+    ], 
     "id": "NJB00019691", 
     "level": "state", 
     "scraped_subjects": [
@@ -63,13 +87,38 @@
             "type": "primary"
         }, 
         {
+            "leg_id": "NJL000028", 
+            "name": "Gove, DiAnne C.", 
+            "type": "primary"
+        }, 
+        {
             "leg_id": "NJL000129", 
             "name": "Singleton, Troy", 
             "type": "primary"
         }, 
         {
+            "leg_id": "NJL000027", 
+            "name": "Rumpf, Brian E.", 
+            "type": "primary"
+        }, 
+        {
             "leg_id": "NJL000044", 
             "name": "DeAngelo, Wayne P.", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NJL000018", 
+            "name": "Lampitt, Pamela R.", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NJL000171", 
+            "name": "Mosquera, Gabriela M.", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NJL000046", 
+            "name": "Watson Coleman, Bonnie", 
             "type": "cosponsor"
         }
     ], 
@@ -78,18 +127,76 @@
         "Military", 
         "Family and Children Issues"
     ], 
-    "title": "Concerns custody and parenting time issues for military parents.", 
+    "title": "Concerns child custody and parenting time arrangements related to certain military service absences.*", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-22 01:12:31", 
+    "updated_at": "2012-12-07 18:55:00", 
     "versions": [
         {
             "doc_id": "NJD00032062", 
             "mimetype": "text/html", 
             "name": "Introduced Version", 
             "url": "http://www.njleg.state.nj.us/2012/Bills/A2500/2164_I1.HTM"
+        }, 
+        {
+            "doc_id": "NJD00037213", 
+            "mimetype": "text/html", 
+            "name": "Assembly Committee Substitute A634", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/A2500/2164_U1.HTM"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+bill_id": "A2164", 
+            "bill_id": "NJB00019691", 
+            "chamber": "lower", 
+            "committee": "Assembly Judiciary Committee", 
+            "committee_id": null, 
+            "date": "2012-11-19 00:00:00", 
+            "id": "NJV00009387", 
+            "motion": "Reported out of Assembly committee as a substitute", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00009387", 
+            "yes_count": 7, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000076", 
+                    "name": "Carroll, Michael Patrick"
+                }, 
+                {
+                    "leg_id": "NJL000082", 
+                    "name": "McKeon, John F."
+                }, 
+                {
+                    "leg_id": "NJL000114", 
+                    "name": "Johnson, Gordon M."
+                }, 
+                {
+                    "leg_id": "NJL000056", 
+                    "name": "Barnes, Peter J."
+                }, 
+                {
+                    "leg_id": "NJL000086", 
+                    "name": "Caputo, Ralph R."
+                }, 
+                {
+                    "leg_id": "NJL000062", 
+                    "name": "Quijano, Annette"
+                }, 
+                {
+                    "leg_id": "NJL000168", 
+                    "name": "Schepisi, Holly"
+                }
+            ]
+        }
+    ]
 }
