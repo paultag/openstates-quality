@@ -94,6 +94,9 @@
             "actor": "lower", 
             "date": "2013-02-07 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NJV00009877"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -192,7 +195,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2013-02-09 00:37:30", 
+    "updated_at": "2013-02-10 00:31:31", 
     "versions": [
         {
             "doc_id": "NJD00029391", 
@@ -226,6 +229,82 @@
         }
     ], 
     "votes": [
+        {
+            "+bill_id": "S589", 
+            "bill_id": "NJB00017240", 
+            "chamber": "upper", 
+            "committee": "Senate Budget and Appropriations Committee", 
+            "committee_id": "NJC000060", 
+            "date": "2012-06-18 00:00:00", 
+            "id": "NJV00008439", 
+            "motion": "Reported out of Senate committee with amendments", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NJL000001", 
+                    "name": "Van Drew, Jeff"
+                }
+            ], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00008439", 
+            "yes_count": 12, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000078", 
+                    "name": "Pennacchio, Joseph"
+                }, 
+                {
+                    "leg_id": "NJL000100", 
+                    "name": "Stack, Brian P."
+                }, 
+                {
+                    "leg_id": "NJL000121", 
+                    "name": "O'Toole, Kevin J."
+                }, 
+                {
+                    "leg_id": "NJL000043", 
+                    "name": "Greenstein, Linda R."
+                }, 
+                {
+                    "leg_id": "NJL000107", 
+                    "name": "Pou, Nellie"
+                }, 
+                {
+                    "leg_id": "NJL000174", 
+                    "name": "Bucco, Anthony R."
+                }, 
+                {
+                    "leg_id": "NJL000109", 
+                    "name": "Sarlo, Paul A."
+                }, 
+                {
+                    "leg_id": "NJL000112", 
+                    "name": "Weinberg, Loretta"
+                }, 
+                {
+                    "leg_id": "NJL000072", 
+                    "name": "Oroho, Steven V."
+                }, 
+                {
+                    "leg_id": "NJL000087", 
+                    "name": "Ruiz, M. Teresa"
+                }, 
+                {
+                    "leg_id": "NJL000093", 
+                    "name": "Cunningham, Sandra B."
+                }, 
+                {
+                    "leg_id": "NJL000035", 
+                    "name": "Beck, Jennifer"
+                }
+            ]
+        }, 
         {
             "+bill_id": "S589", 
             "bill_id": "NJB00017240", 
@@ -498,19 +577,23 @@
         {
             "+bill_id": "S589", 
             "bill_id": "NJB00017240", 
-            "chamber": "upper", 
-            "committee": "Senate Budget and Appropriations Committee", 
-            "committee_id": "NJC000060", 
-            "date": "2012-06-18 00:00:00", 
-            "id": "NJV00008439", 
-            "motion": "Reported out of Senate committee with amendments", 
+            "chamber": "lower", 
+            "committee": "Assembly Appropriations Committee", 
+            "committee_id": null, 
+            "date": "2013-02-07 00:00:00", 
+            "id": "NJV00009877", 
+            "motion": "Reported favorably out of committee", 
             "no_count": 0, 
             "no_votes": [], 
-            "other_count": 1, 
+            "other_count": 2, 
             "other_votes": [
                 {
-                    "leg_id": "NJL000001", 
-                    "name": "Van Drew, Jeff"
+                    "leg_id": "NJL000070", 
+                    "name": "DiMaio, John"
+                }, 
+                {
+                    "leg_id": "NJL000074", 
+                    "name": "McHose, Alison Littell"
                 }
             ], 
             "passed": true, 
@@ -518,56 +601,36 @@
             "sources": [], 
             "state": "nj", 
             "type": "other", 
-            "vote_id": "NJV00008439", 
-            "yes_count": 12, 
+            "vote_id": "NJV00009877", 
+            "yes_count": 7, 
             "yes_votes": [
                 {
-                    "leg_id": "NJL000078", 
-                    "name": "Pennacchio, Joseph"
+                    "leg_id": "NJL000022", 
+                    "name": "Conaway, Herb"
                 }, 
                 {
-                    "leg_id": "NJL000100", 
-                    "name": "Stack, Brian P."
+                    "leg_id": "NJL000088", 
+                    "name": "Spencer, L. Grace"
                 }, 
                 {
-                    "leg_id": "NJL000121", 
-                    "name": "O'Toole, Kevin J."
+                    "leg_id": "NJL000008", 
+                    "name": "Burzichelli, John J."
                 }, 
                 {
-                    "leg_id": "NJL000043", 
-                    "name": "Greenstein, Linda R."
+                    "leg_id": "NJL000099", 
+                    "name": "Prieto, Vincent"
                 }, 
                 {
-                    "leg_id": "NJL000107", 
-                    "name": "Pou, Nellie"
+                    "leg_id": "NJL000018", 
+                    "name": "Lampitt, Pamela R."
                 }, 
                 {
-                    "leg_id": "NJL000174", 
-                    "name": "Bucco, Anthony R."
+                    "leg_id": "NJL000056", 
+                    "name": "Barnes, Peter J."
                 }, 
                 {
-                    "leg_id": "NJL000109", 
-                    "name": "Sarlo, Paul A."
-                }, 
-                {
-                    "leg_id": "NJL000112", 
-                    "name": "Weinberg, Loretta"
-                }, 
-                {
-                    "leg_id": "NJL000072", 
-                    "name": "Oroho, Steven V."
-                }, 
-                {
-                    "leg_id": "NJL000087", 
-                    "name": "Ruiz, M. Teresa"
-                }, 
-                {
-                    "leg_id": "NJL000093", 
-                    "name": "Cunningham, Sandra B."
-                }, 
-                {
-                    "leg_id": "NJL000035", 
-                    "name": "Beck, Jennifer"
+                    "leg_id": "NJL000037", 
+                    "name": "Casagrande, Caroline"
                 }
             ]
         }, 
