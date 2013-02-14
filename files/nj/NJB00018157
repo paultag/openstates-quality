@@ -22,6 +22,9 @@
             "actor": "lower", 
             "date": "2013-02-11 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NJV00009973"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -83,7 +86,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2013-02-13 00:45:34", 
+    "updated_at": "2013-02-14 00:49:59", 
     "versions": [
         {
             "doc_id": "NJD00030821", 
@@ -98,5 +101,58 @@
             "url": "http://www.njleg.state.nj.us/2012/Bills/A1500/1447_R1.HTM"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+bill_id": "A1447", 
+            "bill_id": "NJB00018157", 
+            "chamber": "lower", 
+            "committee": "Assembly Environment and Solid Waste Committee", 
+            "committee_id": null, 
+            "date": "2013-02-11 00:00:00", 
+            "id": "NJV00009973", 
+            "motion": "Reported out of Assembly committee with amendments", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NJL000047", 
+                    "name": "Gusciora, Reed"
+                }
+            ], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00009973", 
+            "yes_count": 6, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000056", 
+                    "name": "Barnes, Peter J."
+                }, 
+                {
+                    "leg_id": "NJL000025", 
+                    "name": "Rudder, Scott"
+                }, 
+                {
+                    "leg_id": "NJL000088", 
+                    "name": "Spencer, L. Grace"
+                }, 
+                {
+                    "leg_id": "NJL000101", 
+                    "name": "Ramos, Ruben J."
+                }, 
+                {
+                    "leg_id": "NJL000009", 
+                    "name": "Riley, Celeste M."
+                }, 
+                {
+                    "leg_id": "NJL000168", 
+                    "name": "Schepisi, Holly"
+                }
+            ]
+        }
+    ]
 }
