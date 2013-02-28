@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2012-02-10 00:00:00", 
-        "last": "2012-05-31 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": null, 
         "passed_upper": "2012-03-29 00:00:00", 
         "signed": null
@@ -46,7 +46,7 @@
             "date": "2012-02-22 00:00:00", 
             "related_entities": [
                 {
-                    "id": "ILC000152", 
+                    "id": "ILC000117", 
                     "name": "Revenue", 
                     "type": "committee"
                 }
@@ -255,7 +255,13 @@
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
             "date": "2012-04-16 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000155", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -334,6 +340,132 @@
             "type": [
                 "amendment:failed"
             ]
+        }, 
+        {
+            "action": "Final Action Deadline Extended-9(b) January 8, 2013", 
+            "actor": "lower", 
+            "date": "2012-12-21 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "Assigned to Revenue & Finance Committee", 
+            "actor": "lower", 
+            "date": "2012-12-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": "ILC000155", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "House Committee Amendment No. 2 Filed with Clerk by Rep. Michael J. Zalewski", 
+            "actor": "lower", 
+            "date": "2012-12-21 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:introduced"
+            ]
+        }, 
+        {
+            "action": "House Committee Amendment No. 2 Referred to Rules Committee", 
+            "actor": "lower", 
+            "date": "2012-12-21 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Committee Amendment No. 2  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "House Committee Amendment No. 2 Rules Refers to Revenue & Finance Committee", 
+            "actor": "lower", 
+            "date": "2012-12-21 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "House Committee Amendment No. 2 Adopted in Revenue & Finance Committee;  by Voice Vote", 
+            "actor": "lower", 
+            "date": "2013-01-06 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:passed"
+            ]
+        }, 
+        {
+            "action": "Do Pass as Amended / Short Debate Revenue & Finance Committee;  009-000-000", 
+            "actor": "lower", 
+            "date": "2013-01-06 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "committee:passed"
+            ]
+        }, 
+        {
+            "action": "Placed on Calendar 2nd Reading - Short Debate", 
+            "actor": "lower", 
+            "date": "2013-01-06 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "Second Reading - Short Debate", 
+            "actor": "lower", 
+            "date": "2013-01-06 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:reading:2"
+            ]
+        }, 
+        {
+            "action": "Held on Calendar Order of Second Reading - Short Debate", 
+            "actor": "lower", 
+            "date": "2013-01-06 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:reading:2"
+            ]
+        }, 
+        {
+            "action": "Rule 19(a) / Re-referred to Rules Committee", 
+            "actor": "lower", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "upper", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -352,6 +484,11 @@
             "doc_id": "ILD00055255", 
             "name": "House Amendment 001", 
             "url": "http://ilga.gov/legislation/fulltext.asp?DocName=09700SB3676ham001&GA=97&SessionId=84&DocTypeId=SB&LegID=65729&DocNum=3676&GAID=11&Session="
+        }, 
+        {
+            "doc_id": "ILD00128352", 
+            "name": "House Amendment 002", 
+            "url": "http://ilga.gov/legislation/fulltext.asp?DocName=09700SB3676ham002&GA=97&SessionId=84&DocTypeId=SB&LegID=65729&DocNum=3676&GAID=11&Session="
         }
     ], 
     "id": "ILB00023762", 
@@ -416,7 +553,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:05:40", 
+    "updated_at": "2013-02-28 03:06:39", 
     "versions": [
         {
             "doc_id": "ILD00045165", 

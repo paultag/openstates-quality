@@ -46,7 +46,7 @@
             "date": "2011-03-08 00:00:00", 
             "related_entities": [
                 {
-                    "id": "ILC000103", 
+                    "id": "ILC000102", 
                     "name": "Criminal Law", 
                     "type": "committee"
                 }
@@ -219,7 +219,13 @@
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
             "date": "2011-04-14 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000137", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -357,7 +363,13 @@
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
             "date": "2012-05-07 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000137", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -1113,7 +1125,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:04:11", 
+    "updated_at": "2013-02-28 02:59:05", 
     "versions": [
         {
             "doc_id": "ILD00041764", 
@@ -1408,7 +1420,7 @@
             "bill_id": "ILB00001331", 
             "chamber": "upper", 
             "date": "2012-05-31 00:00:00", 
-            "id": "ILV00011509", 
+            "id": "ILV00011510", 
             "motion": "Concurrence", 
             "no_count": 0, 
             "no_votes": [], 
@@ -1418,12 +1430,12 @@
             "session": "97th", 
             "sources": [
                 {
-                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB1034_05312012_020000C.pdf"
+                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB1034_05312012_020001C.pdf"
                 }
             ], 
             "state": "il", 
             "type": "other", 
-            "vote_id": "ILV00011509", 
+            "vote_id": "ILV00011510", 
             "yes_count": 59, 
             "yes_votes": [
                 {
@@ -1669,7 +1681,7 @@
             "bill_id": "ILB00001331", 
             "chamber": "upper", 
             "date": "2012-05-31 00:00:00", 
-            "id": "ILV00011510", 
+            "id": "ILV00011509", 
             "motion": "Concurrence", 
             "no_count": 0, 
             "no_votes": [], 
@@ -1679,12 +1691,12 @@
             "session": "97th", 
             "sources": [
                 {
-                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB1034_05312012_020001C.pdf"
+                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB1034_05312012_020000C.pdf"
                 }
             ], 
             "state": "il", 
             "type": "other", 
-            "vote_id": "ILV00011510", 
+            "vote_id": "ILV00011509", 
             "yes_count": 59, 
             "yes_votes": [
                 {
@@ -2029,7 +2041,7 @@
                     "name": "Thapedi"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {

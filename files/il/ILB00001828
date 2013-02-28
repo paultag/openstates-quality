@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-09 00:00:00", 
-        "last": "2012-05-31 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": null, 
         "passed_upper": "2011-04-08 00:00:00", 
         "signed": null
@@ -55,7 +55,7 @@
             "date": "2011-02-23 00:00:00", 
             "related_entities": [
                 {
-                    "id": "ILC000152", 
+                    "id": "ILC000117", 
                     "name": "Revenue", 
                     "type": "committee"
                 }
@@ -177,7 +177,13 @@
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
             "date": "2011-04-12 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000137", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -468,7 +474,13 @@
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
             "date": "2012-05-14 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000137", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -604,6 +616,99 @@
             "type": [
                 "committee:referred"
             ]
+        }, 
+        {
+            "action": "Approved for Consideration Rules Committee;  004-001-000", 
+            "actor": "lower", 
+            "date": "2012-11-26 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "Placed on Calendar 2nd Reading - Short Debate", 
+            "actor": "lower", 
+            "date": "2012-11-26 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "Final Action Deadline Extended-9(b) January 8, 2013", 
+            "actor": "lower", 
+            "date": "2012-11-26 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "House Floor Amendment No. 6 Filed with Clerk by Rep. Elaine Nekritz", 
+            "actor": "lower", 
+            "date": "2012-12-20 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "amendment:introduced"
+            ]
+        }, 
+        {
+            "action": "House Floor Amendment No. 6 Referred to Rules Committee", 
+            "actor": "lower", 
+            "date": "2012-12-20 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "House Floor Amendment No. 6  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "House Floor Amendment No. 6 Rules Refers to Revenue & Finance Committee", 
+            "actor": "lower", 
+            "date": "2012-12-21 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "House Floor Amendment No. 6 Recommends Be Adopted Revenue & Finance Committee;  008-001-000", 
+            "actor": "lower", 
+            "date": "2013-01-06 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "committee:passed:favorable"
+            ]
+        }, 
+        {
+            "action": "Rule 19(a) / Re-referred to Rules Committee", 
+            "actor": "lower", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Rule 19(a) /  Rules Committee", 
+                    "type": "committee"
+                }
+            ], 
+            "type": [
+                "committee:referred"
+            ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "upper", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -637,6 +742,11 @@
             "doc_id": "ILD00055334", 
             "name": "House Amendment 005", 
             "url": "http://ilga.gov/legislation/fulltext.asp?DocName=09700SB1531ham005&GA=97&SessionId=84&DocTypeId=SB&LegID=57514&DocNum=1531&GAID=11&Session="
+        }, 
+        {
+            "doc_id": "ILD00128280", 
+            "name": "House Amendment 006", 
+            "url": "http://ilga.gov/legislation/fulltext.asp?DocName=09700SB1531ham006&GA=97&SessionId=84&DocTypeId=SB&LegID=57514&DocNum=1531&GAID=11&Session="
         }
     ], 
     "id": "ILB00001828", 
@@ -680,7 +790,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:04:31", 
+    "updated_at": "2013-02-28 03:00:31", 
     "versions": [
         {
             "doc_id": "ILD00042400", 

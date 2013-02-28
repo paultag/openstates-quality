@@ -46,7 +46,7 @@
             "date": "2011-03-02 00:00:00", 
             "related_entities": [
                 {
-                    "id": "ILC000135", 
+                    "id": null, 
                     "name": "Licensed Activities", 
                     "type": "committee"
                 }
@@ -201,7 +201,13 @@
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
             "date": "2011-04-12 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000137", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -921,7 +927,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:04:55", 
+    "updated_at": "2013-02-28 03:02:21", 
     "versions": [
         {
             "doc_id": "ILD00043201", 
@@ -985,7 +991,7 @@
                     "name": "Thapedi"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {
@@ -1245,7 +1251,7 @@
                     "name": "Lyons"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "ILL000535", 
                     "name": "Evans"
                 }, 
                 {
@@ -1731,7 +1737,7 @@
             "bill_id": "ILB00002359", 
             "chamber": "upper", 
             "date": "2011-05-31 00:00:00", 
-            "id": "ILV00008843", 
+            "id": "ILV00008845", 
             "motion": "Concurrence", 
             "no_count": 1, 
             "no_votes": [
@@ -1767,12 +1773,12 @@
             "session": "97th", 
             "sources": [
                 {
-                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB2062_05312011_029000C.pdf"
+                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB2062_05312011_029002C.pdf"
                 }
             ], 
             "state": "il", 
             "type": "other", 
-            "vote_id": "ILV00008843", 
+            "vote_id": "ILV00008845", 
             "yes_count": 53, 
             "yes_votes": [
                 {
@@ -2277,7 +2283,7 @@
             "bill_id": "ILB00002359", 
             "chamber": "upper", 
             "date": "2011-05-31 00:00:00", 
-            "id": "ILV00008845", 
+            "id": "ILV00008843", 
             "motion": "Concurrence", 
             "no_count": 1, 
             "no_votes": [
@@ -2313,12 +2319,12 @@
             "session": "97th", 
             "sources": [
                 {
-                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB2062_05312011_029002C.pdf"
+                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB2062_05312011_029000C.pdf"
                 }
             ], 
             "state": "il", 
             "type": "other", 
-            "vote_id": "ILV00008845", 
+            "vote_id": "ILV00008843", 
             "yes_count": 53, 
             "yes_votes": [
                 {
@@ -2576,7 +2582,7 @@
                     "name": "Thapedi"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {

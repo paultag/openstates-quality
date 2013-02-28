@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-14 00:00:00", 
-        "last": "2011-05-13 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": "2011-03-31 00:00:00", 
         "passed_upper": null, 
         "signed": null
@@ -44,7 +44,13 @@
             "action": "Assigned to Agriculture & Conservation Committee", 
             "actor": "lower", 
             "date": "2011-02-22 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000122", 
+                    "name": "Agriculture & Conservation Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -308,7 +314,7 @@
             "date": "2011-04-27 00:00:00", 
             "related_entities": [
                 {
-                    "id": "ILC000147", 
+                    "id": "ILC000116", 
                     "name": "Public Health", 
                     "type": "committee"
                 }
@@ -330,6 +336,15 @@
             ], 
             "type": [
                 "committee:referred"
+            ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "lower", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
             ]
         }
     ], 
@@ -493,7 +508,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-09-27 21:39:27", 
+    "updated_at": "2013-02-28 03:15:11", 
     "versions": [
         {
             "doc_id": "ILD00048455", 
@@ -757,7 +772,7 @@
                     "name": "Schmitz"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {

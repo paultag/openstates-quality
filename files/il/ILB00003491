@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-13 00:00:00", 
-        "last": "2012-07-30 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": "2011-04-12 00:00:00", 
         "passed_upper": null, 
         "signed": null
@@ -53,7 +53,13 @@
             "action": "Assigned to Human Services Committee", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000144", 
+                    "name": "Human Services Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -656,7 +662,7 @@
             "date": "2011-04-27 00:00:00", 
             "related_entities": [
                 {
-                    "id": "ILC000147", 
+                    "id": "ILC000116", 
                     "name": "Public Health", 
                     "type": "committee"
                 }
@@ -714,6 +720,15 @@
             "related_entities": [], 
             "type": [
                 "other"
+            ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "lower", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
             ]
         }
     ], 
@@ -988,7 +1003,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:05:58", 
+    "updated_at": "2013-02-28 03:11:38", 
     "versions": [
         {
             "doc_id": "ILD00046698", 
@@ -1236,7 +1251,7 @@
                     "name": "Mulligan"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {

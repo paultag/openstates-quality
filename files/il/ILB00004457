@@ -44,7 +44,13 @@
             "action": "Assigned to Counties & Townships Committee", 
             "actor": "lower", 
             "date": "2011-02-14 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000132", 
+                    "name": "Counties & Townships Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -155,7 +161,7 @@
             "date": "2011-04-27 00:00:00", 
             "related_entities": [
                 {
-                    "id": "ILC000138", 
+                    "id": "ILC000115", 
                     "name": "Local Government", 
                     "type": "committee"
                 }
@@ -322,7 +328,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:06:19", 
+    "updated_at": "2013-02-28 03:13:55", 
     "versions": [
         {
             "doc_id": "ILD00047857", 
@@ -665,7 +671,7 @@
                     "name": "Thapedi"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {
@@ -901,7 +907,7 @@
                     "name": "Jefferson"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "ILL000006", 
                     "name": "Collins"
                 }, 
                 {

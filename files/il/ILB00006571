@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-24 00:00:00", 
-        "last": "2011-07-23 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": "2011-04-06 00:00:00", 
         "passed_upper": null, 
         "signed": null
@@ -62,7 +62,13 @@
             "action": "Assigned to State Government Administration Committee", 
             "actor": "lower", 
             "date": "2011-02-28 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000157", 
+                    "name": "State Government Administration Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -242,7 +248,7 @@
             "date": "2011-05-10 00:00:00", 
             "related_entities": [
                 {
-                    "id": "ILC000111", 
+                    "id": "ILC000106", 
                     "name": "Executive", 
                     "type": "committee"
                 }
@@ -282,6 +288,15 @@
             ], 
             "type": [
                 "committee:referred"
+            ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "lower", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
             ]
         }
     ], 
@@ -353,7 +368,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:07:13", 
+    "updated_at": "2013-02-28 03:19:25", 
     "versions": [
         {
             "doc_id": "ILD00050649", 
@@ -518,7 +533,7 @@
                     "name": "Thapedi"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {

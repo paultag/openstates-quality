@@ -44,7 +44,13 @@
             "action": "Assigned to Aging Committee", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Aging Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -290,7 +296,7 @@
             "date": "2011-04-27 00:00:00", 
             "related_entities": [
                 {
-                    "id": "ILC000122", 
+                    "id": "ILC000110", 
                     "name": "Human Services", 
                     "type": "committee"
                 }
@@ -479,7 +485,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:06:32", 
+    "updated_at": "2013-02-28 03:14:57", 
     "versions": [
         {
             "doc_id": "ILD00048319", 
@@ -917,7 +923,7 @@
                     "name": "Thapedi"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {

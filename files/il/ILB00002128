@@ -46,7 +46,7 @@
             "date": "2011-03-02 00:00:00", 
             "related_entities": [
                 {
-                    "id": "ILC000143", 
+                    "id": null, 
                     "name": "Pensions and Investments", 
                     "type": "committee"
                 }
@@ -159,7 +159,13 @@
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
             "date": "2011-04-21 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000137", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -953,7 +959,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:04:48", 
+    "updated_at": "2013-02-28 03:01:35", 
     "versions": [
         {
             "doc_id": "ILD00042876", 
@@ -987,7 +993,7 @@
             "bill_id": "ILB00002128", 
             "chamber": "upper", 
             "date": "2011-05-31 00:00:00", 
-            "id": "ILV00008718", 
+            "id": "ILV00008719", 
             "motion": "Concurrence", 
             "no_count": 0, 
             "no_votes": [], 
@@ -1014,12 +1020,12 @@
             "session": "97th", 
             "sources": [
                 {
-                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB1831_05312011_026000C.pdf"
+                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB1831_05312011_026001C.pdf"
                 }
             ], 
             "state": "il", 
             "type": "other", 
-            "vote_id": "ILV00008718", 
+            "vote_id": "ILV00008719", 
             "yes_count": 55, 
             "yes_votes": [
                 {
@@ -1256,7 +1262,7 @@
             "bill_id": "ILB00002128", 
             "chamber": "upper", 
             "date": "2011-05-31 00:00:00", 
-            "id": "ILV00008719", 
+            "id": "ILV00008718", 
             "motion": "Concurrence", 
             "no_count": 0, 
             "no_votes": [], 
@@ -1283,12 +1289,12 @@
             "session": "97th", 
             "sources": [
                 {
-                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB1831_05312011_026001C.pdf"
+                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB1831_05312011_026000C.pdf"
                 }
             ], 
             "state": "il", 
             "type": "other", 
-            "vote_id": "ILV00008719", 
+            "vote_id": "ILV00008718", 
             "yes_count": 55, 
             "yes_votes": [
                 {
@@ -1630,7 +1636,7 @@
                     "name": "Thapedi"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {

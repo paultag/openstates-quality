@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-10 00:00:00", 
-        "last": "2011-05-31 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": null, 
         "passed_upper": "2011-04-14 00:00:00", 
         "signed": null
@@ -44,7 +44,13 @@
             "action": "Assigned to Agriculture and Conservation", 
             "actor": "upper", 
             "date": "2011-03-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000098", 
+                    "name": "Agriculture and Conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -345,7 +351,13 @@
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
             "date": "2011-04-25 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000137", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -541,6 +553,15 @@
             "type": [
                 "amendment:failed"
             ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "upper", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -733,7 +754,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:04:53", 
+    "updated_at": "2013-02-28 03:02:08", 
     "versions": [
         {
             "doc_id": "ILD00043129", 

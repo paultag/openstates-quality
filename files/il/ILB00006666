@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-24 00:00:00", 
-        "last": "2011-04-15 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -44,7 +44,13 @@
             "action": "Assigned to Personnel and Pensions Committee", 
             "actor": "lower", 
             "date": "2011-02-28 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000151", 
+                    "name": "Personnel and Pensions Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -153,6 +159,15 @@
             "type": [
                 "committee:referred"
             ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "lower", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -214,7 +229,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 08:59:45", 
+    "updated_at": "2013-02-28 03:19:47", 
     "versions": [
         {
             "doc_id": "ILD00050793", 

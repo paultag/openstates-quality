@@ -64,7 +64,7 @@
             "date": "2011-02-23 00:00:00", 
             "related_entities": [
                 {
-                    "id": "ILC000111", 
+                    "id": "ILC000106", 
                     "name": "Executive", 
                     "type": "committee"
                 }
@@ -477,7 +477,13 @@
             "action": "Assigned to Environment & Energy Committee", 
             "actor": "lower", 
             "date": "2011-04-25 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Environment & Energy Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -939,7 +945,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:04:48", 
+    "updated_at": "2013-02-28 03:01:33", 
     "versions": [
         {
             "doc_id": "ILD00042857", 
@@ -972,7 +978,7 @@
             "bill_id": "ILB00002118", 
             "chamber": "upper", 
             "date": "2011-05-27 00:00:00", 
-            "id": "ILV00008703", 
+            "id": "ILV00008704", 
             "motion": "Concurrence", 
             "no_count": 0, 
             "no_votes": [], 
@@ -995,12 +1001,12 @@
             "session": "97th", 
             "sources": [
                 {
-                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB1821_05272011_021000C.pdf"
+                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB1821_05272011_021001C.pdf"
                 }
             ], 
             "state": "il", 
             "type": "other", 
-            "vote_id": "ILV00008703", 
+            "vote_id": "ILV00008704", 
             "yes_count": 56, 
             "yes_votes": [
                 {
@@ -1240,7 +1246,7 @@
             "bill_id": "ILB00002118", 
             "chamber": "upper", 
             "date": "2011-05-27 00:00:00", 
-            "id": "ILV00008704", 
+            "id": "ILV00008703", 
             "motion": "Concurrence", 
             "no_count": 0, 
             "no_votes": [], 
@@ -1263,12 +1269,12 @@
             "session": "97th", 
             "sources": [
                 {
-                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB1821_05272011_021001C.pdf"
+                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB1821_05272011_021000C.pdf"
                 }
             ], 
             "state": "il", 
             "type": "other", 
-            "vote_id": "ILV00008704", 
+            "vote_id": "ILV00008703", 
             "yes_count": 56, 
             "yes_votes": [
                 {
@@ -1545,7 +1551,7 @@
                     "name": "Thapedi"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {

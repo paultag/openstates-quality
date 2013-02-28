@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-13 00:00:00", 
-        "last": "2012-06-29 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -134,7 +134,13 @@
             "action": "Assigned to Agriculture & Conservation Committee", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000122", 
+                    "name": "Agriculture & Conservation Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -1023,6 +1029,24 @@
             "type": [
                 "other"
             ]
+        }, 
+        {
+            "action": "Added Co-Sponsor Rep. C.D. Davidsmeyer", 
+            "actor": "lower", 
+            "date": "2012-12-14 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "lower", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -1413,6 +1437,14 @@
             "name": "Scott E. Penny", 
             "official_type": "Co-Sponsor", 
             "type": "cosponsor"
+        }, 
+        {
+            "chamber": "lower", 
+            "committee_id": null, 
+            "leg_id": null, 
+            "name": "C.D. Davidsmeyer", 
+            "official_type": "Co-Sponsor", 
+            "type": "cosponsor"
         }
     ], 
     "state": "il", 
@@ -1422,7 +1454,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 08:58:31", 
+    "updated_at": "2013-02-28 03:11:35", 
     "versions": [
         {
             "doc_id": "ILD00046679", 

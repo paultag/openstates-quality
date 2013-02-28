@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-23 00:00:00", 
-        "last": "2012-01-14 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": "2011-11-08 00:00:00", 
         "passed_upper": "2011-05-13 00:00:00", 
         "signed": null
@@ -62,7 +62,13 @@
             "action": "Assigned to Appropriations II", 
             "actor": "upper", 
             "date": "2011-03-03 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000100", 
+                    "name": "Appropriations II", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -712,6 +718,15 @@
             "type": [
                 "committee:referred"
             ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "upper", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -800,7 +815,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:05:08", 
+    "updated_at": "2013-02-28 03:03:07", 
     "versions": [
         {
             "doc_id": "ILD00043637", 
@@ -940,7 +955,7 @@
                     "name": "Thapedi"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {
@@ -1092,7 +1107,7 @@
                     "name": "Lyons"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "ILL000535", 
                     "name": "Evans"
                 }, 
                 {

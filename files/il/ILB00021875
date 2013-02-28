@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2012-01-31 00:00:00", 
-        "last": "2012-04-16 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -44,7 +44,13 @@
             "action": "Assigned to Counties & Townships Committee", 
             "actor": "lower", 
             "date": "2012-02-06 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000132", 
+                    "name": "Counties & Townships Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -90,6 +96,15 @@
             "type": [
                 "other"
             ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "lower", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -130,7 +145,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 09:00:09", 
+    "updated_at": "2013-02-28 03:22:45", 
     "versions": [
         {
             "doc_id": "ILD00052168", 

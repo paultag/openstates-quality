@@ -46,7 +46,7 @@
             "date": "2011-03-09 00:00:00", 
             "related_entities": [
                 {
-                    "id": "ILC000111", 
+                    "id": "ILC000106", 
                     "name": "Executive", 
                     "type": "committee"
                 }
@@ -338,7 +338,13 @@
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
             "date": "2011-05-20 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000155", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -395,7 +401,13 @@
             "action": "Re-assigned to Executive Committee", 
             "actor": "lower", 
             "date": "2011-05-27 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000137", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -837,7 +849,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:03:50", 
+    "updated_at": "2013-02-28 02:57:10", 
     "versions": [
         {
             "doc_id": "ILD00040921", 
@@ -872,7 +884,7 @@
             "bill_id": "ILB00000567", 
             "chamber": "upper", 
             "date": "2011-05-31 00:00:00", 
-            "id": "ILV00008195", 
+            "id": "ILV00008196", 
             "motion": "Concurrence", 
             "no_count": 9, 
             "no_votes": [
@@ -945,7 +957,7 @@
             ], 
             "state": "il", 
             "type": "other", 
-            "vote_id": "ILV00008195", 
+            "vote_id": "ILV00008196", 
             "yes_count": 45, 
             "yes_votes": [
                 {
@@ -1143,7 +1155,7 @@
             "bill_id": "ILB00000567", 
             "chamber": "upper", 
             "date": "2011-05-31 00:00:00", 
-            "id": "ILV00008196", 
+            "id": "ILV00008195", 
             "motion": "Concurrence", 
             "no_count": 9, 
             "no_votes": [
@@ -1216,7 +1228,7 @@
             ], 
             "state": "il", 
             "type": "other", 
-            "vote_id": "ILV00008196", 
+            "vote_id": "ILV00008195", 
             "yes_count": 45, 
             "yes_votes": [
                 {
@@ -1685,7 +1697,7 @@
                     "name": "Thapedi"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {

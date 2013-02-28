@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2012-01-31 00:00:00", 
-        "last": "2012-04-17 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": "2012-03-30 00:00:00", 
         "passed_upper": null, 
         "signed": null
@@ -44,7 +44,13 @@
             "action": "Assigned to Human Services Committee", 
             "actor": "lower", 
             "date": "2012-02-27 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000144", 
+                    "name": "Human Services Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -404,6 +410,15 @@
             "type": [
                 "committee:referred"
             ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "lower", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -473,7 +488,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:07:48", 
+    "updated_at": "2013-02-28 03:22:54", 
     "versions": [
         {
             "doc_id": "ILD00052213", 
@@ -641,7 +656,7 @@
                     "name": "Smith"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {
@@ -822,7 +837,7 @@
                     "name": "Lyons"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "ILL000535", 
                     "name": "Evans"
                 }, 
                 {

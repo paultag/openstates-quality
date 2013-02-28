@@ -44,7 +44,13 @@
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000155", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -164,7 +170,7 @@
             "date": "2011-04-27 00:00:00", 
             "related_entities": [
                 {
-                    "id": "ILC000152", 
+                    "id": "ILC000117", 
                     "name": "Revenue", 
                     "type": "committee"
                 }
@@ -338,7 +344,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:06:33", 
+    "updated_at": "2013-02-28 03:15:06", 
     "versions": [
         {
             "doc_id": "ILD00048408", 
@@ -699,7 +705,7 @@
                     "name": "Mell"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {

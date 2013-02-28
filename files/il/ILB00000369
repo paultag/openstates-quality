@@ -46,7 +46,7 @@
             "date": "2011-01-27 00:00:00", 
             "related_entities": [
                 {
-                    "id": "ILC000125", 
+                    "id": "ILC000111", 
                     "name": "Insurance", 
                     "type": "committee"
                 }
@@ -270,7 +270,13 @@
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
             "date": "2011-04-25 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000137", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -405,7 +411,13 @@
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
             "date": "2011-10-06 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000137", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -1152,7 +1164,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:03:36", 
+    "updated_at": "2013-02-28 02:56:35", 
     "versions": [
         {
             "doc_id": "ILD00040653", 
@@ -1187,7 +1199,7 @@
             "bill_id": "ILB00000369", 
             "chamber": "upper", 
             "date": "2011-11-10 00:00:00", 
-            "id": "ILV00008101", 
+            "id": "ILV00008102", 
             "motion": "Concurrence", 
             "no_count": 1, 
             "no_votes": [
@@ -1223,12 +1235,12 @@
             "session": "97th", 
             "sources": [
                 {
-                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB0072_11102011_003000C.pdf"
+                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB0072_11102011_003001C.pdf"
                 }
             ], 
             "state": "il", 
             "type": "other", 
-            "vote_id": "ILV00008101", 
+            "vote_id": "ILV00008102", 
             "yes_count": 53, 
             "yes_votes": [
                 {
@@ -1458,7 +1470,7 @@
             "bill_id": "ILB00000369", 
             "chamber": "upper", 
             "date": "2011-11-10 00:00:00", 
-            "id": "ILV00008102", 
+            "id": "ILV00008101", 
             "motion": "Concurrence", 
             "no_count": 1, 
             "no_votes": [
@@ -1494,12 +1506,12 @@
             "session": "97th", 
             "sources": [
                 {
-                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB0072_11102011_003001C.pdf"
+                    "url": "http://ilga.gov/legislation/votehistory/97/senate/09700SB0072_11102011_003000C.pdf"
                 }
             ], 
             "state": "il", 
             "type": "other", 
-            "vote_id": "ILV00008102", 
+            "vote_id": "ILV00008101", 
             "yes_count": 53, 
             "yes_votes": [
                 {
@@ -1835,7 +1847,7 @@
                     "name": "Thapedi"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {
@@ -1991,7 +2003,7 @@
                     "name": "Lyons"
                 }, 
                 {
-                    "leg_id": null, 
+                    "leg_id": "ILL000535", 
                     "name": "Evans"
                 }, 
                 {

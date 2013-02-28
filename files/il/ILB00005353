@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-17 00:00:00", 
-        "last": "2011-07-23 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": "2011-04-05 00:00:00", 
         "passed_upper": "2011-05-25 00:00:00", 
         "signed": null
@@ -44,7 +44,13 @@
             "action": "Assigned to Business & Occupational Licenses Committee", 
             "actor": "lower", 
             "date": "2011-02-23 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000129", 
+                    "name": "Business & Occupational Licenses Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -182,7 +188,7 @@
             "date": "2011-04-27 00:00:00", 
             "related_entities": [
                 {
-                    "id": "ILC000135", 
+                    "id": null, 
                     "name": "Licensed Activities", 
                     "type": "committee"
                 }
@@ -373,6 +379,15 @@
             "type": [
                 "committee:referred"
             ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "lower", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -436,7 +451,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:06:51", 
+    "updated_at": "2013-02-28 03:16:44", 
     "versions": [
         {
             "doc_id": "ILD00049182", 
@@ -767,7 +782,7 @@
                     "name": "Jones"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {

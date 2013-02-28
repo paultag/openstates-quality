@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2012-02-01 00:00:00", 
-        "last": "2012-07-27 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -35,7 +35,13 @@
             "action": "Assigned to Judiciary II - Criminal Law Committee", 
             "actor": "lower", 
             "date": "2012-02-15 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": null, 
+                    "name": "Judiciary II - Criminal Law Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -53,6 +59,15 @@
             ], 
             "type": [
                 "committee:referred"
+            ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "lower", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
             ]
         }
     ], 
@@ -87,7 +102,7 @@
     "type": [
         "resolution"
     ], 
-    "updated_at": "2012-08-24 08:58:22", 
+    "updated_at": "2013-02-28 03:10:00", 
     "versions": [
         {
             "doc_id": "ILD00046302", 

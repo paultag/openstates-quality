@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-01-31 00:00:00", 
-        "last": "2011-05-31 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -44,7 +44,13 @@
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
             "date": "2011-02-08 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000137", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -741,6 +747,15 @@
             "type": [
                 "committee:referred"
             ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "lower", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -837,7 +852,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 08:58:49", 
+    "updated_at": "2013-02-28 03:13:42", 
     "versions": [
         {
             "doc_id": "ILD00047731", 
@@ -861,25 +876,26 @@
                     "Beaubien", 
                     "Mulligan"
                 ], 
-                "NV": [
-                    "Ford"
-                ], 
                 "P": [
+                    "Thapedi", 
                     "Connelly", 
-                    "Lang", 
-                    "Turner"
+                    "Lang"
                 ]
             }, 
             "bill_id": "ILB00004362", 
             "chamber": "lower", 
             "date": "2011-04-07 00:00:00", 
-            "id": "ILV00009600", 
+            "id": "ILV00009603", 
             "motion": "Motion", 
-            "no_count": 55, 
+            "no_count": 54, 
             "no_votes": [
                 {
                     "leg_id": "ILL000126", 
                     "name": "Mathias"
+                }, 
+                {
+                    "leg_id": "ILL000162", 
+                    "name": "Smith"
                 }, 
                 {
                     "leg_id": "ILL000148", 
@@ -888,10 +904,6 @@
                 {
                     "leg_id": "ILL000108", 
                     "name": "Harris,David"
-                }, 
-                {
-                    "leg_id": "ILL000090", 
-                    "name": "DeLuca"
                 }, 
                 {
                     "leg_id": "ILL000071", 
@@ -958,10 +970,6 @@
                     "name": "Morrison"
                 }, 
                 {
-                    "leg_id": "ILL000073", 
-                    "name": "Burke,Kelly"
-                }, 
-                {
                     "leg_id": "ILL000164", 
                     "name": "Sosnowski"
                 }, 
@@ -1020,507 +1028,12 @@
                 {
                     "leg_id": "ILL000149", 
                     "name": "Ramey"
-                }, 
-                {
-                    "leg_id": "ILL000136", 
-                    "name": "Mitchell,Jerry"
-                }, 
-                {
-                    "leg_id": "ILL000157", 
-                    "name": "Sacia"
-                }, 
-                {
-                    "leg_id": "ILL000070", 
-                    "name": "Brauer"
-                }, 
-                {
-                    "leg_id": "ILL000169", 
-                    "name": "Tryon"
-                }, 
-                {
-                    "leg_id": "ILL000137", 
-                    "name": "Moffitt"
-                }, 
-                {
-                    "leg_id": "ILL000079", 
-                    "name": "Cole"
-                }, 
-                {
-                    "leg_id": "ILL000084", 
-                    "name": "Cross"
-                }, 
-                {
-                    "leg_id": "ILL000158", 
-                    "name": "Saviano"
-                }, 
-                {
-                    "leg_id": "ILL000062", 
-                    "name": "Barickman"
-                }, 
-                {
-                    "leg_id": "ILL000101", 
-                    "name": "Fortner"
-                }, 
-                {
-                    "leg_id": "ILL000174", 
-                    "name": "Williams"
-                }, 
-                {
-                    "leg_id": "ILL000128", 
-                    "name": "May"
-                }, 
-                {
-                    "leg_id": "ILL000173", 
-                    "name": "Watson"
-                }, 
-                {
-                    "leg_id": "ILL000168", 
-                    "name": "Tracy"
-                }, 
-                {
-                    "leg_id": "ILL000151", 
-                    "name": "Reis"
-                }, 
-                {
-                    "leg_id": "ILL000110", 
-                    "name": "Hatcher"
-                }, 
-                {
-                    "leg_id": "ILL000094", 
-                    "name": "Durkin"
-                }, 
-                {
-                    "leg_id": "ILL000143", 
-                    "name": "Nybo"
-                }, 
-                {
-                    "leg_id": "ILL000147", 
-                    "name": "Poe"
-                }
-            ], 
-            "other_count": 8, 
-            "other_votes": [
-                {
-                    "leg_id": "ILL000081", 
-                    "name": "Connelly"
-                }, 
-                {
-                    "leg_id": "ILL000121", 
-                    "name": "Lang"
-                }, 
-                {
-                    "leg_id": "ILL000170", 
-                    "name": "Turner"
-                }, 
-                {
-                    "leg_id": "ILL000135", 
-                    "name": "Mitchell,Bill"
-                }, 
-                {
-                    "leg_id": "ILL000165", 
-                    "name": "Soto"
-                }, 
-                {
-                    "leg_id": "ILL000242", 
-                    "name": "Beaubien"
-                }, 
-                {
-                    "leg_id": "ILL000140", 
-                    "name": "Mulligan"
-                }, 
-                {
-                    "leg_id": "ILL000100", 
-                    "name": "Ford"
-                }
-            ], 
-            "passed": false, 
-            "session": "97th", 
-            "sources": [
-                {
-                    "url": "http://ilga.gov/legislation/votehistory/97/house/09700HB1032_04072011_006000M.pdf"
-                }
-            ], 
-            "state": "il", 
-            "type": "other", 
-            "vote_id": "ILV00009600", 
-            "yes_count": 55, 
-            "yes_votes": [
-                {
-                    "leg_id": "ILL000162", 
-                    "name": "Smith"
-                }, 
-                {
-                    "leg_id": "ILL000134", 
-                    "name": "Mell"
-                }, 
-                {
-                    "leg_id": "ILL000080", 
-                    "name": "Colvin"
-                }, 
-                {
-                    "leg_id": "ILL000177", 
-                    "name": "Zalewski"
-                }, 
-                {
-                    "leg_id": "ILL000161", 
-                    "name": "Sente"
-                }, 
-                {
-                    "leg_id": "ILL000332", 
-                    "name": "Reitz"
-                }, 
-                {
-                    "leg_id": "ILL000130", 
-                    "name": "McAsey"
-                }, 
-                {
-                    "leg_id": "ILL000065", 
-                    "name": "Berrios"
-                }, 
-                {
-                    "leg_id": "ILL000792", 
-                    "name": "Burns"
-                }, 
-                {
-                    "leg_id": "ILL000061", 
-                    "name": "Arroyo"
-                }, 
-                {
-                    "leg_id": "ILL000066", 
-                    "name": "Biss"
-                }, 
-                {
-                    "leg_id": "ILL000167", 
-                    "name": "Thapedi"
-                }, 
-                {
-                    "leg_id": "ILL000106", 
-                    "name": "Gordon"
-                }, 
-                {
-                    "leg_id": "ILL000092", 
-                    "name": "Dugan"
-                }, 
-                {
-                    "leg_id": "ILL000113", 
-                    "name": "Holbrook"
-                }, 
-                {
-                    "leg_id": "ILL000132", 
-                    "name": "McCarthy"
-                }, 
-                {
-                    "leg_id": "ILL000142", 
-                    "name": "Nekritz"
-                }, 
-                {
-                    "leg_id": "ILL000115", 
-                    "name": "Jackson"
-                }, 
-                {
-                    "leg_id": "ILL000114", 
-                    "name": "Howard"
-                }, 
-                {
-                    "leg_id": "ILL000172", 
-                    "name": "Verschoore"
-                }, 
-                {
-                    "leg_id": "ILL000117", 
-                    "name": "Jefferson"
-                }, 
-                {
-                    "leg_id": "ILL000141", 
-                    "name": "Mussman"
-                }, 
-                {
-                    "leg_id": "ILL000116", 
-                    "name": "Jakobsson"
-                }, 
-                {
-                    "leg_id": "ILL000098", 
-                    "name": "Feigenholtz"
-                }, 
-                {
-                    "leg_id": "ILL000103", 
-                    "name": "Gabel"
-                }, 
-                {
-                    "leg_id": "ILL000152", 
-                    "name": "Riley"
-                }, 
-                {
-                    "leg_id": "ILL000060", 
-                    "name": "Acevedo"
-                }, 
-                {
-                    "leg_id": "ILL000085", 
-                    "name": "Cunningham"
-                }, 
-                {
-                    "leg_id": "ILL000124", 
-                    "name": "Lyons"
-                }, 
-                {
-                    "leg_id": "ILL000086", 
-                    "name": "Currie"
-                }, 
-                {
-                    "leg_id": "ILL000083", 
-                    "name": "Crespo"
-                }, 
-                {
-                    "leg_id": "ILL000312", 
-                    "name": "Mendoza"
-                }, 
-                {
-                    "leg_id": "ILL000153", 
-                    "name": "Rita"
-                }, 
-                {
-                    "leg_id": "ILL000112", 
-                    "name": "Hernandez"
-                }, 
-                {
-                    "leg_id": "ILL000125", 
-                    "name": "Madigan"
-                }, 
-                {
-                    "leg_id": "ILL000099", 
-                    "name": "Flowers"
-                }, 
-                {
-                    "leg_id": "ILL000089", 
-                    "name": "Davis,William"
-                }, 
-                {
-                    "leg_id": "ILL000129", 
-                    "name": "Mayfield"
                 }, 
                 {
                     "leg_id": "ILL000326", 
                     "name": "Osterman"
                 }, 
                 {
-                    "leg_id": "ILL000109", 
-                    "name": "Harris,Greg"
-                }, 
-                {
-                    "leg_id": "ILL000102", 
-                    "name": "Franks"
-                }, 
-                {
-                    "leg_id": "ILL000087", 
-                    "name": "D'Amico"
-                }, 
-                {
-                    "leg_id": "ILL000097", 
-                    "name": "Farnham"
-                }, 
-                {
-                    "leg_id": "ILL000063", 
-                    "name": "Beiser"
-                }, 
-                {
-                    "leg_id": "ILL000105", 
-                    "name": "Golar"
-                }, 
-                {
-                    "leg_id": "ILL000127", 
-                    "name": "Mautino"
-                }, 
-                {
-                    "leg_id": "ILL000145", 
-                    "name": "Phelps"
-                }, 
-                {
-                    "leg_id": "ILL000176", 
-                    "name": "Yarbrough"
-                }, 
-                {
-                    "leg_id": "ILL000077", 
-                    "name": "Chapa LaVia"
-                }, 
-                {
-                    "leg_id": "ILL000118", 
-                    "name": "Jones"
-                }, 
-                {
-                    "leg_id": "ILL000133", 
-                    "name": "McGuire"
-                }, 
-                {
-                    "leg_id": "ILL000123", 
-                    "name": "Lilly"
-                }, 
-                {
-                    "leg_id": "ILL000068", 
-                    "name": "Bradley"
-                }, 
-                {
-                    "leg_id": "ILL000072", 
-                    "name": "Burke,Daniel"
-                }, 
-                {
-                    "leg_id": "ILL000088", 
-                    "name": "Davis,Monique"
-                }
-            ]
-        }, 
-        {
-            "+other_vote_detail": {
-                "E": [
-                    "Mitchell,Bill", 
-                    "Soto", 
-                    "Beaubien", 
-                    "Mulligan"
-                ], 
-                "P": [
-                    "Harris,David", 
-                    "Connelly", 
-                    "Lang"
-                ]
-            }, 
-            "bill_id": "ILB00004362", 
-            "chamber": "lower", 
-            "date": "2011-04-07 00:00:00", 
-            "id": "ILV00009601", 
-            "motion": "Motion", 
-            "no_count": 50, 
-            "no_votes": [
-                {
-                    "leg_id": "ILL000126", 
-                    "name": "Mathias"
-                }, 
-                {
-                    "leg_id": "ILL000162", 
-                    "name": "Smith"
-                }, 
-                {
-                    "leg_id": "ILL000148", 
-                    "name": "Pritchard"
-                }, 
-                {
-                    "leg_id": "ILL000071", 
-                    "name": "Brown"
-                }, 
-                {
-                    "leg_id": "ILL000067", 
-                    "name": "Bost"
-                }, 
-                {
-                    "leg_id": "ILL000139", 
-                    "name": "Morthland"
-                }, 
-                {
-                    "leg_id": "ILL000159", 
-                    "name": "Schmitz"
-                }, 
-                {
-                    "leg_id": "ILL000146", 
-                    "name": "Pihos"
-                }, 
-                {
-                    "leg_id": "ILL000119", 
-                    "name": "Kay"
-                }, 
-                {
-                    "leg_id": "ILL000344", 
-                    "name": "Stephens"
-                }, 
-                {
-                    "leg_id": "ILL000166", 
-                    "name": "Sullivan"
-                }, 
-                {
-                    "leg_id": "ILL000144", 
-                    "name": "Osmond"
-                }, 
-                {
-                    "leg_id": "ILL000171", 
-                    "name": "Unes"
-                }, 
-                {
-                    "leg_id": "ILL000122", 
-                    "name": "Leitch"
-                }, 
-                {
-                    "leg_id": "ILL000150", 
-                    "name": "Reboletti"
-                }, 
-                {
-                    "leg_id": "ILL000154", 
-                    "name": "Rose"
-                }, 
-                {
-                    "leg_id": "ILL000095", 
-                    "name": "Eddy"
-                }, 
-                {
-                    "leg_id": "ILL000138", 
-                    "name": "Morrison"
-                }, 
-                {
-                    "leg_id": "ILL000164", 
-                    "name": "Sosnowski"
-                }, 
-                {
-                    "leg_id": "ILL000131", 
-                    "name": "McAuliffe"
-                }, 
-                {
-                    "leg_id": "ILL000107", 
-                    "name": "Hammond"
-                }, 
-                {
-                    "leg_id": "ILL000078", 
-                    "name": "Coladipietro"
-                }, 
-                {
-                    "leg_id": "ILL000175", 
-                    "name": "Winters"
-                }, 
-                {
-                    "leg_id": "ILL000111", 
-                    "name": "Hays"
-                }, 
-                {
-                    "leg_id": "ILL000069", 
-                    "name": "Brady"
-                }, 
-                {
-                    "leg_id": "ILL000160", 
-                    "name": "Senger"
-                }, 
-                {
-                    "leg_id": "ILL000156", 
-                    "name": "Roth"
-                }, 
-                {
-                    "leg_id": "ILL000163", 
-                    "name": "Sommer"
-                }, 
-                {
-                    "leg_id": "ILL000064", 
-                    "name": "Bellock"
-                }, 
-                {
-                    "leg_id": "ILL000076", 
-                    "name": "Cavaletto"
-                }, 
-                {
-                    "leg_id": "ILL000155", 
-                    "name": "Rosenthal"
-                }, 
-                {
-                    "leg_id": "ILL000120", 
-                    "name": "Kosel"
-                }, 
-                {
-                    "leg_id": "ILL000149", 
-                    "name": "Ramey"
-                }, 
-                {
                     "leg_id": "ILL000136", 
                     "name": "Mitchell,Jerry"
                 }, 
@@ -1559,6 +1072,10 @@
                 {
                     "leg_id": "ILL000101", 
                     "name": "Fortner"
+                }, 
+                {
+                    "leg_id": "ILL000128", 
+                    "name": "May"
                 }, 
                 {
                     "leg_id": "ILL000173", 
@@ -1592,8 +1109,8 @@
             "other_count": 7, 
             "other_votes": [
                 {
-                    "leg_id": "ILL000108", 
-                    "name": "Harris,David"
+                    "leg_id": "ILL000167", 
+                    "name": "Thapedi"
                 }, 
                 {
                     "leg_id": "ILL000081", 
@@ -1624,13 +1141,13 @@
             "session": "97th", 
             "sources": [
                 {
-                    "url": "http://ilga.gov/legislation/votehistory/97/house/09700HB1032_04072011_004000M.pdf"
+                    "url": "http://ilga.gov/legislation/votehistory/97/house/09700HB1032_04072011_003000M.pdf"
                 }
             ], 
             "state": "il", 
             "type": "other", 
-            "vote_id": "ILV00009601", 
-            "yes_count": 61, 
+            "vote_id": "ILV00009603", 
+            "yes_count": 57, 
             "yes_votes": [
                 {
                     "leg_id": "ILL000134", 
@@ -1647,10 +1164,6 @@
                 {
                     "leg_id": "ILL000090", 
                     "name": "DeLuca"
-                }, 
-                {
-                    "leg_id": "ILL000093", 
-                    "name": "Dunkin"
                 }, 
                 {
                     "leg_id": "ILL000161", 
@@ -1681,11 +1194,7 @@
                     "name": "Biss"
                 }, 
                 {
-                    "leg_id": "ILL000167", 
-                    "name": "Thapedi"
-                }, 
-                {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {
@@ -1797,10 +1306,6 @@
                     "name": "Mayfield"
                 }, 
                 {
-                    "leg_id": "ILL000326", 
-                    "name": "Osterman"
-                }, 
-                {
                     "leg_id": "ILL000109", 
                     "name": "Harris,Greg"
                 }, 
@@ -1835,10 +1340,6 @@
                 {
                     "leg_id": "ILL000145", 
                     "name": "Phelps"
-                }, 
-                {
-                    "leg_id": "ILL000128", 
-                    "name": "May"
                 }, 
                 {
                     "leg_id": "ILL000176", 
@@ -2196,7 +1697,7 @@
                     "name": "Thapedi"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {
@@ -2398,7 +1899,7 @@
                     "Mulligan"
                 ], 
                 "P": [
-                    "Thapedi", 
+                    "Harris,David", 
                     "Connelly", 
                     "Lang"
                 ]
@@ -2406,9 +1907,9 @@
             "bill_id": "ILB00004362", 
             "chamber": "lower", 
             "date": "2011-04-07 00:00:00", 
-            "id": "ILV00009603", 
+            "id": "ILV00009601", 
             "motion": "Motion", 
-            "no_count": 54, 
+            "no_count": 50, 
             "no_votes": [
                 {
                     "leg_id": "ILL000126", 
@@ -2423,16 +1924,8 @@
                     "name": "Pritchard"
                 }, 
                 {
-                    "leg_id": "ILL000108", 
-                    "name": "Harris,David"
-                }, 
-                {
                     "leg_id": "ILL000071", 
                     "name": "Brown"
-                }, 
-                {
-                    "leg_id": "ILL000093", 
-                    "name": "Dunkin"
                 }, 
                 {
                     "leg_id": "ILL000067", 
@@ -2551,10 +2044,6 @@
                     "name": "Ramey"
                 }, 
                 {
-                    "leg_id": "ILL000326", 
-                    "name": "Osterman"
-                }, 
-                {
                     "leg_id": "ILL000136", 
                     "name": "Mitchell,Jerry"
                 }, 
@@ -2595,10 +2084,6 @@
                     "name": "Fortner"
                 }, 
                 {
-                    "leg_id": "ILL000128", 
-                    "name": "May"
-                }, 
-                {
                     "leg_id": "ILL000173", 
                     "name": "Watson"
                 }, 
@@ -2630,8 +2115,8 @@
             "other_count": 7, 
             "other_votes": [
                 {
-                    "leg_id": "ILL000167", 
-                    "name": "Thapedi"
+                    "leg_id": "ILL000108", 
+                    "name": "Harris,David"
                 }, 
                 {
                     "leg_id": "ILL000081", 
@@ -2662,13 +2147,13 @@
             "session": "97th", 
             "sources": [
                 {
-                    "url": "http://ilga.gov/legislation/votehistory/97/house/09700HB1032_04072011_003000M.pdf"
+                    "url": "http://ilga.gov/legislation/votehistory/97/house/09700HB1032_04072011_004000M.pdf"
                 }
             ], 
             "state": "il", 
             "type": "other", 
-            "vote_id": "ILV00009603", 
-            "yes_count": 57, 
+            "vote_id": "ILV00009601", 
+            "yes_count": 61, 
             "yes_votes": [
                 {
                     "leg_id": "ILL000134", 
@@ -2685,6 +2170,10 @@
                 {
                     "leg_id": "ILL000090", 
                     "name": "DeLuca"
+                }, 
+                {
+                    "leg_id": "ILL000093", 
+                    "name": "Dunkin"
                 }, 
                 {
                     "leg_id": "ILL000161", 
@@ -2715,7 +2204,11 @@
                     "name": "Biss"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": "ILL000167", 
+                    "name": "Thapedi"
+                }, 
+                {
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {
@@ -2827,6 +2320,10 @@
                     "name": "Mayfield"
                 }, 
                 {
+                    "leg_id": "ILL000326", 
+                    "name": "Osterman"
+                }, 
+                {
                     "leg_id": "ILL000109", 
                     "name": "Harris,Greg"
                 }, 
@@ -2863,6 +2360,10 @@
                     "name": "Phelps"
                 }, 
                 {
+                    "leg_id": "ILL000128", 
+                    "name": "May"
+                }, 
+                {
                     "leg_id": "ILL000176", 
                     "name": "Yarbrough"
                 }, 
@@ -2893,6 +2394,520 @@
                 {
                     "leg_id": "ILL000170", 
                     "name": "Turner"
+                }, 
+                {
+                    "leg_id": "ILL000088", 
+                    "name": "Davis,Monique"
+                }
+            ]
+        }, 
+        {
+            "+other_vote_detail": {
+                "E": [
+                    "Mitchell,Bill", 
+                    "Soto", 
+                    "Beaubien", 
+                    "Mulligan"
+                ], 
+                "NV": [
+                    "Ford"
+                ], 
+                "P": [
+                    "Connelly", 
+                    "Lang", 
+                    "Turner"
+                ]
+            }, 
+            "bill_id": "ILB00004362", 
+            "chamber": "lower", 
+            "date": "2011-04-07 00:00:00", 
+            "id": "ILV00009600", 
+            "motion": "Motion", 
+            "no_count": 55, 
+            "no_votes": [
+                {
+                    "leg_id": "ILL000126", 
+                    "name": "Mathias"
+                }, 
+                {
+                    "leg_id": "ILL000148", 
+                    "name": "Pritchard"
+                }, 
+                {
+                    "leg_id": "ILL000108", 
+                    "name": "Harris,David"
+                }, 
+                {
+                    "leg_id": "ILL000090", 
+                    "name": "DeLuca"
+                }, 
+                {
+                    "leg_id": "ILL000071", 
+                    "name": "Brown"
+                }, 
+                {
+                    "leg_id": "ILL000093", 
+                    "name": "Dunkin"
+                }, 
+                {
+                    "leg_id": "ILL000067", 
+                    "name": "Bost"
+                }, 
+                {
+                    "leg_id": "ILL000139", 
+                    "name": "Morthland"
+                }, 
+                {
+                    "leg_id": "ILL000159", 
+                    "name": "Schmitz"
+                }, 
+                {
+                    "leg_id": "ILL000146", 
+                    "name": "Pihos"
+                }, 
+                {
+                    "leg_id": "ILL000119", 
+                    "name": "Kay"
+                }, 
+                {
+                    "leg_id": "ILL000344", 
+                    "name": "Stephens"
+                }, 
+                {
+                    "leg_id": "ILL000166", 
+                    "name": "Sullivan"
+                }, 
+                {
+                    "leg_id": "ILL000144", 
+                    "name": "Osmond"
+                }, 
+                {
+                    "leg_id": "ILL000171", 
+                    "name": "Unes"
+                }, 
+                {
+                    "leg_id": "ILL000122", 
+                    "name": "Leitch"
+                }, 
+                {
+                    "leg_id": "ILL000150", 
+                    "name": "Reboletti"
+                }, 
+                {
+                    "leg_id": "ILL000154", 
+                    "name": "Rose"
+                }, 
+                {
+                    "leg_id": "ILL000095", 
+                    "name": "Eddy"
+                }, 
+                {
+                    "leg_id": "ILL000138", 
+                    "name": "Morrison"
+                }, 
+                {
+                    "leg_id": "ILL000073", 
+                    "name": "Burke,Kelly"
+                }, 
+                {
+                    "leg_id": "ILL000164", 
+                    "name": "Sosnowski"
+                }, 
+                {
+                    "leg_id": "ILL000131", 
+                    "name": "McAuliffe"
+                }, 
+                {
+                    "leg_id": "ILL000107", 
+                    "name": "Hammond"
+                }, 
+                {
+                    "leg_id": "ILL000078", 
+                    "name": "Coladipietro"
+                }, 
+                {
+                    "leg_id": "ILL000175", 
+                    "name": "Winters"
+                }, 
+                {
+                    "leg_id": "ILL000111", 
+                    "name": "Hays"
+                }, 
+                {
+                    "leg_id": "ILL000069", 
+                    "name": "Brady"
+                }, 
+                {
+                    "leg_id": "ILL000160", 
+                    "name": "Senger"
+                }, 
+                {
+                    "leg_id": "ILL000156", 
+                    "name": "Roth"
+                }, 
+                {
+                    "leg_id": "ILL000163", 
+                    "name": "Sommer"
+                }, 
+                {
+                    "leg_id": "ILL000064", 
+                    "name": "Bellock"
+                }, 
+                {
+                    "leg_id": "ILL000076", 
+                    "name": "Cavaletto"
+                }, 
+                {
+                    "leg_id": "ILL000155", 
+                    "name": "Rosenthal"
+                }, 
+                {
+                    "leg_id": "ILL000120", 
+                    "name": "Kosel"
+                }, 
+                {
+                    "leg_id": "ILL000149", 
+                    "name": "Ramey"
+                }, 
+                {
+                    "leg_id": "ILL000136", 
+                    "name": "Mitchell,Jerry"
+                }, 
+                {
+                    "leg_id": "ILL000157", 
+                    "name": "Sacia"
+                }, 
+                {
+                    "leg_id": "ILL000070", 
+                    "name": "Brauer"
+                }, 
+                {
+                    "leg_id": "ILL000169", 
+                    "name": "Tryon"
+                }, 
+                {
+                    "leg_id": "ILL000137", 
+                    "name": "Moffitt"
+                }, 
+                {
+                    "leg_id": "ILL000079", 
+                    "name": "Cole"
+                }, 
+                {
+                    "leg_id": "ILL000084", 
+                    "name": "Cross"
+                }, 
+                {
+                    "leg_id": "ILL000158", 
+                    "name": "Saviano"
+                }, 
+                {
+                    "leg_id": "ILL000062", 
+                    "name": "Barickman"
+                }, 
+                {
+                    "leg_id": "ILL000101", 
+                    "name": "Fortner"
+                }, 
+                {
+                    "leg_id": "ILL000174", 
+                    "name": "Williams"
+                }, 
+                {
+                    "leg_id": "ILL000128", 
+                    "name": "May"
+                }, 
+                {
+                    "leg_id": "ILL000173", 
+                    "name": "Watson"
+                }, 
+                {
+                    "leg_id": "ILL000168", 
+                    "name": "Tracy"
+                }, 
+                {
+                    "leg_id": "ILL000151", 
+                    "name": "Reis"
+                }, 
+                {
+                    "leg_id": "ILL000110", 
+                    "name": "Hatcher"
+                }, 
+                {
+                    "leg_id": "ILL000094", 
+                    "name": "Durkin"
+                }, 
+                {
+                    "leg_id": "ILL000143", 
+                    "name": "Nybo"
+                }, 
+                {
+                    "leg_id": "ILL000147", 
+                    "name": "Poe"
+                }
+            ], 
+            "other_count": 8, 
+            "other_votes": [
+                {
+                    "leg_id": "ILL000081", 
+                    "name": "Connelly"
+                }, 
+                {
+                    "leg_id": "ILL000121", 
+                    "name": "Lang"
+                }, 
+                {
+                    "leg_id": "ILL000170", 
+                    "name": "Turner"
+                }, 
+                {
+                    "leg_id": "ILL000135", 
+                    "name": "Mitchell,Bill"
+                }, 
+                {
+                    "leg_id": "ILL000165", 
+                    "name": "Soto"
+                }, 
+                {
+                    "leg_id": "ILL000242", 
+                    "name": "Beaubien"
+                }, 
+                {
+                    "leg_id": "ILL000140", 
+                    "name": "Mulligan"
+                }, 
+                {
+                    "leg_id": "ILL000100", 
+                    "name": "Ford"
+                }
+            ], 
+            "passed": false, 
+            "session": "97th", 
+            "sources": [
+                {
+                    "url": "http://ilga.gov/legislation/votehistory/97/house/09700HB1032_04072011_006000M.pdf"
+                }
+            ], 
+            "state": "il", 
+            "type": "other", 
+            "vote_id": "ILV00009600", 
+            "yes_count": 55, 
+            "yes_votes": [
+                {
+                    "leg_id": "ILL000162", 
+                    "name": "Smith"
+                }, 
+                {
+                    "leg_id": "ILL000134", 
+                    "name": "Mell"
+                }, 
+                {
+                    "leg_id": "ILL000080", 
+                    "name": "Colvin"
+                }, 
+                {
+                    "leg_id": "ILL000177", 
+                    "name": "Zalewski"
+                }, 
+                {
+                    "leg_id": "ILL000161", 
+                    "name": "Sente"
+                }, 
+                {
+                    "leg_id": "ILL000332", 
+                    "name": "Reitz"
+                }, 
+                {
+                    "leg_id": "ILL000130", 
+                    "name": "McAsey"
+                }, 
+                {
+                    "leg_id": "ILL000065", 
+                    "name": "Berrios"
+                }, 
+                {
+                    "leg_id": "ILL000792", 
+                    "name": "Burns"
+                }, 
+                {
+                    "leg_id": "ILL000061", 
+                    "name": "Arroyo"
+                }, 
+                {
+                    "leg_id": "ILL000066", 
+                    "name": "Biss"
+                }, 
+                {
+                    "leg_id": "ILL000167", 
+                    "name": "Thapedi"
+                }, 
+                {
+                    "leg_id": null, 
+                    "name": "Gordon"
+                }, 
+                {
+                    "leg_id": "ILL000092", 
+                    "name": "Dugan"
+                }, 
+                {
+                    "leg_id": "ILL000113", 
+                    "name": "Holbrook"
+                }, 
+                {
+                    "leg_id": "ILL000132", 
+                    "name": "McCarthy"
+                }, 
+                {
+                    "leg_id": "ILL000142", 
+                    "name": "Nekritz"
+                }, 
+                {
+                    "leg_id": "ILL000115", 
+                    "name": "Jackson"
+                }, 
+                {
+                    "leg_id": "ILL000114", 
+                    "name": "Howard"
+                }, 
+                {
+                    "leg_id": "ILL000172", 
+                    "name": "Verschoore"
+                }, 
+                {
+                    "leg_id": "ILL000117", 
+                    "name": "Jefferson"
+                }, 
+                {
+                    "leg_id": "ILL000141", 
+                    "name": "Mussman"
+                }, 
+                {
+                    "leg_id": "ILL000116", 
+                    "name": "Jakobsson"
+                }, 
+                {
+                    "leg_id": "ILL000098", 
+                    "name": "Feigenholtz"
+                }, 
+                {
+                    "leg_id": "ILL000103", 
+                    "name": "Gabel"
+                }, 
+                {
+                    "leg_id": "ILL000152", 
+                    "name": "Riley"
+                }, 
+                {
+                    "leg_id": "ILL000060", 
+                    "name": "Acevedo"
+                }, 
+                {
+                    "leg_id": "ILL000085", 
+                    "name": "Cunningham"
+                }, 
+                {
+                    "leg_id": "ILL000124", 
+                    "name": "Lyons"
+                }, 
+                {
+                    "leg_id": "ILL000086", 
+                    "name": "Currie"
+                }, 
+                {
+                    "leg_id": "ILL000083", 
+                    "name": "Crespo"
+                }, 
+                {
+                    "leg_id": "ILL000312", 
+                    "name": "Mendoza"
+                }, 
+                {
+                    "leg_id": "ILL000153", 
+                    "name": "Rita"
+                }, 
+                {
+                    "leg_id": "ILL000112", 
+                    "name": "Hernandez"
+                }, 
+                {
+                    "leg_id": "ILL000125", 
+                    "name": "Madigan"
+                }, 
+                {
+                    "leg_id": "ILL000099", 
+                    "name": "Flowers"
+                }, 
+                {
+                    "leg_id": "ILL000089", 
+                    "name": "Davis,William"
+                }, 
+                {
+                    "leg_id": "ILL000129", 
+                    "name": "Mayfield"
+                }, 
+                {
+                    "leg_id": "ILL000326", 
+                    "name": "Osterman"
+                }, 
+                {
+                    "leg_id": "ILL000109", 
+                    "name": "Harris,Greg"
+                }, 
+                {
+                    "leg_id": "ILL000102", 
+                    "name": "Franks"
+                }, 
+                {
+                    "leg_id": "ILL000087", 
+                    "name": "D'Amico"
+                }, 
+                {
+                    "leg_id": "ILL000097", 
+                    "name": "Farnham"
+                }, 
+                {
+                    "leg_id": "ILL000063", 
+                    "name": "Beiser"
+                }, 
+                {
+                    "leg_id": "ILL000105", 
+                    "name": "Golar"
+                }, 
+                {
+                    "leg_id": "ILL000127", 
+                    "name": "Mautino"
+                }, 
+                {
+                    "leg_id": "ILL000145", 
+                    "name": "Phelps"
+                }, 
+                {
+                    "leg_id": "ILL000176", 
+                    "name": "Yarbrough"
+                }, 
+                {
+                    "leg_id": "ILL000077", 
+                    "name": "Chapa LaVia"
+                }, 
+                {
+                    "leg_id": "ILL000118", 
+                    "name": "Jones"
+                }, 
+                {
+                    "leg_id": "ILL000133", 
+                    "name": "McGuire"
+                }, 
+                {
+                    "leg_id": "ILL000123", 
+                    "name": "Lilly"
+                }, 
+                {
+                    "leg_id": "ILL000068", 
+                    "name": "Bradley"
+                }, 
+                {
+                    "leg_id": "ILL000072", 
+                    "name": "Burke,Daniel"
                 }, 
                 {
                     "leg_id": "ILL000088", 

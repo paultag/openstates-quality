@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-09 00:00:00", 
-        "last": "2011-03-17 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -62,7 +62,13 @@
             "action": "Assigned to Agriculture & Conservation Committee", 
             "actor": "lower", 
             "date": "2011-02-15 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000122", 
+                    "name": "Agriculture & Conservation Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -89,6 +95,15 @@
             ], 
             "type": [
                 "committee:referred"
+            ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "lower", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
             ]
         }
     ], 
@@ -144,7 +159,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 08:59:02", 
+    "updated_at": "2013-02-28 03:14:54", 
     "versions": [
         {
             "doc_id": "ILD00048291", 

@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-09 00:00:00", 
-        "last": "2012-05-31 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": null, 
         "passed_upper": "2011-04-14 00:00:00", 
         "signed": null
@@ -46,7 +46,7 @@
             "date": "2011-02-23 00:00:00", 
             "related_entities": [
                 {
-                    "id": "ILC000110", 
+                    "id": "ILC000105", 
                     "name": "Environment", 
                     "type": "committee"
                 }
@@ -297,7 +297,13 @@
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
             "date": "2011-04-21 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000137", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -408,7 +414,13 @@
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
             "date": "2011-11-02 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000137", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -450,7 +462,13 @@
             "action": "Assigned to Executive Committee", 
             "actor": "lower", 
             "date": "2012-05-16 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000137", 
+                    "name": "Executive Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -565,6 +583,15 @@
             "type": [
                 "committee:referred"
             ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "upper", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -643,7 +670,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:04:34", 
+    "updated_at": "2013-02-28 03:00:40", 
     "versions": [
         {
             "doc_id": "ILD00042458", 

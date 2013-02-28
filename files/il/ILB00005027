@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-16 00:00:00", 
-        "last": "2012-03-30 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -44,7 +44,13 @@
             "action": "Assigned to Agriculture & Conservation Committee", 
             "actor": "lower", 
             "date": "2011-02-22 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000122", 
+                    "name": "Agriculture & Conservation Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -110,7 +116,13 @@
             "action": "Assigned to Business & Occupational Licenses Committee", 
             "actor": "lower", 
             "date": "2011-03-28 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000129", 
+                    "name": "Business & Occupational Licenses Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -702,6 +714,15 @@
             "type": [
                 "committee:referred"
             ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "lower", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -751,7 +772,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 08:59:12", 
+    "updated_at": "2013-02-28 03:15:47", 
     "versions": [
         {
             "doc_id": "ILD00048733", 

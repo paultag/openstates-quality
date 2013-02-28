@@ -1,7 +1,7 @@
 {
     "action_dates": {
         "first": "2011-02-04 00:00:00", 
-        "last": "2011-03-17 00:00:00", 
+        "last": "2013-01-08 00:00:00", 
         "passed_lower": null, 
         "passed_upper": null, 
         "signed": null
@@ -53,7 +53,13 @@
             "action": "Assigned to Revenue & Finance Committee", 
             "actor": "lower", 
             "date": "2011-02-28 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000155", 
+                    "name": "Revenue & Finance Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -105,6 +111,15 @@
             "type": [
                 "committee:referred"
             ]
+        }, 
+        {
+            "action": "Session Sine Die", 
+            "actor": "lower", 
+            "date": "2013-01-08 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:failed"
+            ]
         }
     ], 
     "alternate_titles": [], 
@@ -151,7 +166,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-24 08:58:52", 
+    "updated_at": "2013-02-28 03:13:52", 
     "versions": [
         {
             "doc_id": "ILD00047829", 

@@ -44,7 +44,13 @@
             "action": "Assigned to Agriculture and Conservation", 
             "actor": "upper", 
             "date": "2011-03-09 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000098", 
+                    "name": "Agriculture and Conservation", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -392,7 +398,13 @@
             "action": "Assigned to Human Services Committee", 
             "actor": "lower", 
             "date": "2011-05-11 00:00:00", 
-            "related_entities": [], 
+            "related_entities": [
+                {
+                    "id": "ILC000144", 
+                    "name": "Human Services Committee", 
+                    "type": "committee"
+                }
+            ], 
             "type": [
                 "committee:referred"
             ]
@@ -857,7 +869,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-08-30 09:04:06", 
+    "updated_at": "2013-02-28 02:58:32", 
     "versions": [
         {
             "doc_id": "ILD00041559", 
@@ -1186,7 +1198,7 @@
                     "name": "Thapedi"
                 }, 
                 {
-                    "leg_id": "ILL000106", 
+                    "leg_id": null, 
                     "name": "Gordon"
                 }, 
                 {
