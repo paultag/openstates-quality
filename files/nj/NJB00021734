@@ -22,6 +22,9 @@
             "actor": "lower", 
             "date": "2013-05-13 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NJV00010541"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -40,7 +43,13 @@
     ], 
     "country": "us", 
     "created_at": "2012-05-25 00:18:42", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NJD00040049", 
+            "name": "Statement AAN 5/13/13", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/AJR/71_S1.HTM"
+        }
+    ], 
     "id": "NJB00021734", 
     "level": "state", 
     "scraped_subjects": [
@@ -79,14 +88,64 @@
     "type": [
         "joint resolution"
     ], 
-    "updated_at": "2013-05-14 02:13:05", 
+    "updated_at": "2013-05-15 02:49:04", 
     "versions": [
         {
             "doc_id": "NJD00034242", 
             "mimetype": "text/html", 
             "name": "Introduced Version", 
             "url": "http://www.njleg.state.nj.us/2012/Bills/AJR/71_I1.HTM"
+        }, 
+        {
+            "doc_id": "NJD00040048", 
+            "mimetype": "text/html", 
+            "name": "Reprint", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/AJR/71_R1.HTM"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+bill_id": "AJR71", 
+            "bill_id": "NJB00021734", 
+            "chamber": "lower", 
+            "committee": "Assembly Agriculture and Natural Resources Committee", 
+            "committee_id": null, 
+            "date": "2013-05-13 00:00:00", 
+            "id": "NJV00010541", 
+            "motion": "Reported out of Assembly committee with amendments", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00010541", 
+            "yes_count": 5, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000002", 
+                    "name": "Albano, Nelson T."
+                }, 
+                {
+                    "leg_id": "NJL000014", 
+                    "name": "Wilson, Gilbert L."
+                }, 
+                {
+                    "leg_id": "NJL000166", 
+                    "name": "Caride, Marlene"
+                }, 
+                {
+                    "leg_id": "NJL000092", 
+                    "name": "Dancer, Ronald S."
+                }, 
+                {
+                    "leg_id": "NJL000176", 
+                    "name": "Space, Parker"
+                }
+            ]
+        }
+    ]
 }
