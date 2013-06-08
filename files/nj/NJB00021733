@@ -64,6 +64,9 @@
             "actor": "upper", 
             "date": "2013-06-06 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NJV00010808"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -87,6 +90,11 @@
             "doc_id": "NJD00037296", 
             "name": "Statement AAN 12/10/12", 
             "url": "http://www.njleg.state.nj.us/2012/Bills/A3500/3019_S1.HTM"
+        }, 
+        {
+            "doc_id": "NJD00040560", 
+            "name": "Statement SED 6/6/13 1R", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/A3500/3019_S2.HTM"
         }
     ], 
     "id": "NJB00021733", 
@@ -152,7 +160,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2013-06-07 01:50:38", 
+    "updated_at": "2013-06-08 02:09:40", 
     "versions": [
         {
             "doc_id": "NJD00034241", 
@@ -550,6 +558,49 @@
                 {
                     "leg_id": "NJL000092", 
                     "name": "Dancer, Ronald S."
+                }
+            ]
+        }, 
+        {
+            "+bill_id": "A3019", 
+            "bill_id": "NJB00021733", 
+            "chamber": "upper", 
+            "committee": "Senate Education Committee", 
+            "committee_id": "NJC000034", 
+            "date": "2013-06-06 00:00:00", 
+            "id": "NJV00010808", 
+            "motion": "Reported favorably out of committee", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00010808", 
+            "yes_count": 5, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000045", 
+                    "name": "Turner, Shirley K."
+                }, 
+                {
+                    "leg_id": "NJL000020", 
+                    "name": "Allen, Diane B."
+                }, 
+                {
+                    "leg_id": "NJL000069", 
+                    "name": "Doherty, Michael J."
+                }, 
+                {
+                    "leg_id": "NJL000087", 
+                    "name": "Ruiz, M. Teresa"
+                }, 
+                {
+                    "leg_id": "NJL000017", 
+                    "name": "Beach, James"
                 }
             ]
         }
