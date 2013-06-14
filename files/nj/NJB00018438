@@ -22,6 +22,9 @@
             "actor": "upper", 
             "date": "2013-06-06 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NJV00010930"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -115,7 +118,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2013-06-08 02:06:38", 
+    "updated_at": "2013-06-14 02:17:59", 
     "versions": [
         {
             "doc_id": "NJD00030825", 
@@ -130,5 +133,49 @@
             "url": "http://www.njleg.state.nj.us/2012/Bills/S1000/570_R1.HTM"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+bill_id": "S570", 
+            "bill_id": "NJB00018438", 
+            "chamber": "upper", 
+            "committee": "Senate Law and Public Safety Committee", 
+            "committee_id": "NJC000037", 
+            "date": "2013-06-06 00:00:00", 
+            "id": "NJV00010930", 
+            "motion": "Reported out of Senate committee with amendments", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00010930", 
+            "yes_count": 5, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000097", 
+                    "name": "Sacco, Nicholas J."
+                }, 
+                {
+                    "leg_id": "NJL000048", 
+                    "name": "Bateman, Christopher"
+                }, 
+                {
+                    "leg_id": "NJL000013", 
+                    "name": "Norcross, Donald"
+                }, 
+                {
+                    "leg_id": "NJL000043", 
+                    "name": "Greenstein, Linda R."
+                }, 
+                {
+                    "leg_id": "NJL000031", 
+                    "name": "Holzapfel, James W."
+                }
+            ]
+        }
+    ]
 }
