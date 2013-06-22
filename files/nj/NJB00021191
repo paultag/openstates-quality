@@ -40,6 +40,9 @@
             "actor": "lower", 
             "date": "2013-06-17 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NJV00011091"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -63,6 +66,11 @@
             "doc_id": "NJD00040730", 
             "name": "Statement AAN 6/10/13 ACS", 
             "url": "http://www.njleg.state.nj.us/2012/Bills/A3000/2837_S1.HTM"
+        }, 
+        {
+            "doc_id": "NJD00041117", 
+            "name": "Statement 6/17/13 ACS ABU ", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/A3000/2837_S2.HTM"
         }
     ], 
     "id": "NJB00021191", 
@@ -93,7 +101,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2013-06-19 02:11:21", 
+    "updated_at": "2013-06-22 02:03:24", 
     "versions": [
         {
             "doc_id": "NJD00033449", 
@@ -149,6 +157,79 @@
                 {
                     "leg_id": "NJL000176", 
                     "name": "Space, Parker"
+                }
+            ]
+        }, 
+        {
+            "+bill_id": "A2837", 
+            "bill_id": "NJB00021191", 
+            "chamber": "lower", 
+            "committee": "Assembly Budget Committee", 
+            "committee_id": null, 
+            "date": "2013-06-17 00:00:00", 
+            "id": "NJV00011091", 
+            "motion": "Reported favorably out of committee", 
+            "no_count": 1, 
+            "no_votes": [
+                {
+                    "leg_id": "NJL000080", 
+                    "name": "Webber, Jay"
+                }
+            ], 
+            "other_count": 2, 
+            "other_votes": [
+                {
+                    "leg_id": "NJL000046", 
+                    "name": "Watson Coleman, Bonnie"
+                }, 
+                {
+                    "leg_id": "NJL000075", 
+                    "name": "Bucco, Anthony M."
+                }
+            ], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00011091", 
+            "yes_count": 9, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000016", 
+                    "name": "Fuentes, Angel"
+                }, 
+                {
+                    "leg_id": "NJL000150", 
+                    "name": "Brown, Christopher J."
+                }, 
+                {
+                    "leg_id": "NJL000165", 
+                    "name": "Wimberly, Benjie E."
+                }, 
+                {
+                    "leg_id": "NJL000036", 
+                    "name": "O'Scanlon, Declan J."
+                }, 
+                {
+                    "leg_id": "NJL000008", 
+                    "name": "Burzichelli, John J."
+                }, 
+                {
+                    "leg_id": "NJL000114", 
+                    "name": "Johnson, Gordon M."
+                }, 
+                {
+                    "leg_id": "NJL000099", 
+                    "name": "Prieto, Vincent"
+                }, 
+                {
+                    "leg_id": "NJL000111", 
+                    "name": "Schaer, Gary S."
+                }, 
+                {
+                    "leg_id": "NJL000089", 
+                    "name": "Coutinho, Albert"
                 }
             ]
         }
