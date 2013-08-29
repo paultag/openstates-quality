@@ -11,6 +11,7 @@
             "action": "Introduced in the Assembly, Referred to Assembly Environment and Solid Waste Committee", 
             "actor": "lower", 
             "date": "2010-02-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -20,6 +21,7 @@
             "action": "Transferred to Assembly Telecommunications and Utilities Committee", 
             "actor": "lower", 
             "date": "2010-03-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -28,6 +30,10 @@
             "action": "Reported out of Assembly Committee, 2nd Reading", 
             "actor": "lower", 
             "date": "2010-03-18 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NJV00000291"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -36,6 +42,7 @@
             "action": "Substituted by S921 (SCS)", 
             "actor": "lower", 
             "date": "2010-03-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -44,6 +51,14 @@
     "alternate_titles": [], 
     "bill_id": "A 2289", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 921", 
+            "chamber": null, 
+            "internal_id": "NJB00004563", 
+            "session": "214"
+        }
+    ], 
     "country": "us", 
     "created_at": "2010-11-29 19:07:09", 
     "documents": [
@@ -61,19 +76,7 @@
     "session": "214", 
     "sources": [
         {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/MAINBILL.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSPON.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLWP.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLHIST.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSUBJ.DBF"
+            "url": "http://www.njleg.state.nj.us/downloads.asp"
         }
     ], 
     "sponsors": [
@@ -121,7 +124,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 21:50:25", 
+    "updated_at": "2013-08-28 15:40:35", 
     "versions": [
         {
             "doc_id": "NJD00016203", 
@@ -153,7 +156,7 @@
             "yes_count": 7, 
             "yes_votes": [
                 {
-                    "leg_id": "NJL000077", 
+                    "leg_id": null, 
                     "name": "Bucco, Anthony M."
                 }, 
                 {

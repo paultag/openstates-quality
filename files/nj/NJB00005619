@@ -11,6 +11,7 @@
             "action": "Introduced in the Senate, Referred to Senate Health, Human Services and Senior Citizens Committee", 
             "actor": "upper", 
             "date": "2010-05-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -20,6 +21,8 @@
             "action": "Reported out of Senate Committee with Amendments, 2nd Reading", 
             "actor": "upper", 
             "date": "2010-06-10 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [], 
             "type": [
                 "committee:passed"
             ]
@@ -28,6 +31,8 @@
             "action": "Passed Senate (38-0)", 
             "actor": "upper", 
             "date": "2010-06-10 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [], 
             "type": [
                 "bill:passed"
             ]
@@ -36,6 +41,7 @@
             "action": "Received in the Assembly, Referred to Assembly Human Services Committee", 
             "actor": "lower", 
             "date": "2010-06-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -44,6 +50,10 @@
             "action": "Reported out of Assembly Committee, 2nd Reading", 
             "actor": "lower", 
             "date": "2010-06-14 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NJV00001565"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -52,6 +62,7 @@
             "action": "Substituted for A2812 (1R)", 
             "actor": "lower", 
             "date": "2010-06-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -60,6 +71,10 @@
             "action": "Passed Assembly (Passed Both Houses) (80-0-0)", 
             "actor": "lower", 
             "date": "2010-06-21 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NJV00001563"
+            ], 
             "type": [
                 "bill:passed"
             ]
@@ -68,6 +83,7 @@
             "action": "Approved P.L.2010, c.50.", 
             "actor": "executive", 
             "date": "2010-08-16 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -76,6 +92,14 @@
     "alternate_titles": [], 
     "bill_id": "S 1982", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 2812", 
+            "chamber": null, 
+            "internal_id": "NJB00002693", 
+            "session": "214"
+        }
+    ], 
     "country": "us", 
     "created_at": "2010-11-29 19:07:18", 
     "documents": [
@@ -90,14 +114,14 @@
             "url": "http://www.njleg.state.nj.us/2010/Bills/PL10/50_.HTM"
         }, 
         {
-            "doc_id": "NJD00023458", 
-            "name": "Statement SHH 6/10/10", 
-            "url": "http://www.njleg.state.nj.us/2010/Bills/S2000/1982_S1.HTM"
-        }, 
-        {
             "doc_id": "NJD00023459", 
             "name": "Statement AHU 6/14/10 1R", 
             "url": "http://www.njleg.state.nj.us/2010/Bills/S2000/1982_S2.HTM"
+        }, 
+        {
+            "doc_id": "NJD00041591", 
+            "name": "Statement SHH 6/7/10", 
+            "url": "http://www.njleg.state.nj.us/2010/Bills/S2000/1982_S3.HTM"
         }
     ], 
     "id": "NJB00005619", 
@@ -110,19 +134,7 @@
     "session": "214", 
     "sources": [
         {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/MAINBILL.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSPON.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLWP.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLHIST.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSUBJ.DBF"
+            "url": "http://www.njleg.state.nj.us/downloads.asp"
         }
     ], 
     "sponsors": [
@@ -232,7 +244,7 @@
             "type": "cosponsor"
         }, 
         {
-            "leg_id": null, 
+            "leg_id": "NJL000125", 
             "name": "Greenstein, Linda R.", 
             "type": "cosponsor"
         }, 
@@ -261,7 +273,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 21:50:01", 
+    "updated_at": "2013-08-28 15:34:44", 
     "versions": [
         {
             "doc_id": "NJD00023454", 
@@ -325,7 +337,7 @@
                     "name": "Bramnick, Jon M."
                 }, 
                 {
-                    "leg_id": "NJL000077", 
+                    "leg_id": null, 
                     "name": "Bucco, Anthony M."
                 }, 
                 {
@@ -659,7 +671,7 @@
                     "name": "Beck, Jennifer"
                 }, 
                 {
-                    "leg_id": "NJL000075", 
+                    "leg_id": null, 
                     "name": "Bucco, Anthony R."
                 }, 
                 {

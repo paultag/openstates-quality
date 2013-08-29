@@ -11,6 +11,7 @@
             "action": "Introduced in the Senate, Referred to Senate State Government, Wagering, Tourism & Historic Preservation Committee", 
             "actor": "upper", 
             "date": "2011-01-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -20,6 +21,10 @@
             "action": "Reported out of Senate Committee with Amendments, 2nd Reading", 
             "actor": "upper", 
             "date": "2011-06-20 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NJV00003076"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -28,6 +33,7 @@
             "action": "Substituted by A3710 (2R)", 
             "actor": "upper", 
             "date": "2011-06-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,6 +42,14 @@
     "alternate_titles": [], 
     "bill_id": "S 2640", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 3710", 
+            "chamber": null, 
+            "internal_id": "NJB00006756", 
+            "session": "214"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-01-12 16:48:51", 
     "documents": [
@@ -54,19 +68,7 @@
     "session": "214", 
     "sources": [
         {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/MAINBILL.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSPON.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLWP.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLHIST.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSUBJ.DBF"
+            "url": "http://www.njleg.state.nj.us/downloads.asp"
         }
     ], 
     "sponsors": [
@@ -101,7 +103,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 21:50:26", 
+    "updated_at": "2013-08-28 15:40:52", 
     "versions": [
         {
             "doc_id": "NJD00024957", 
@@ -151,7 +153,7 @@
                     "name": "Turner, Shirley K."
                 }, 
                 {
-                    "leg_id": "NJL000075", 
+                    "leg_id": null, 
                     "name": "Bucco, Anthony R."
                 }, 
                 {

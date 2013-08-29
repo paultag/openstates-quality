@@ -11,6 +11,7 @@
             "action": "Introduced in the Assembly, Referred to Assembly Housing and Local Government Committee", 
             "actor": "lower", 
             "date": "2011-03-14 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -20,6 +21,7 @@
             "action": "Reported from Assembly Committee as a Substitute, 2nd Reading", 
             "actor": "lower", 
             "date": "2011-06-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -28,6 +30,7 @@
             "action": "Assembly Floor Amendment Passed (DeAngelo)", 
             "actor": "lower", 
             "date": "2011-06-23 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -36,6 +39,7 @@
             "action": "Passed Assembly (77-1-0)", 
             "actor": "lower", 
             "date": "2011-06-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -44,6 +48,7 @@
             "action": "Received in the Senate without Reference, 2nd Reading", 
             "actor": "upper", 
             "date": "2011-06-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -52,6 +57,7 @@
             "action": "Substituted for S2765 (2R)", 
             "actor": "upper", 
             "date": "2011-12-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -60,6 +66,7 @@
             "action": "Passed Senate (Passed Both Houses) (39-0)", 
             "actor": "upper", 
             "date": "2011-12-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -68,6 +75,7 @@
             "action": "Approved P.L.2011, c.167.", 
             "actor": "executive", 
             "date": "2012-01-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -76,6 +84,14 @@
     "alternate_titles": [], 
     "bill_id": "A 3908", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2765", 
+            "chamber": null, 
+            "internal_id": "NJB00007109", 
+            "session": "214"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-03-08 05:03:34", 
     "documents": [
@@ -120,19 +136,7 @@
     "session": "214", 
     "sources": [
         {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/MAINBILL.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSPON.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLWP.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLHIST.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSUBJ.DBF"
+            "url": "http://www.njleg.state.nj.us/downloads.asp"
         }
     ], 
     "sponsors": [
@@ -192,7 +196,7 @@
             "type": "cosponsor"
         }, 
         {
-            "leg_id": null, 
+            "leg_id": "NJL000043", 
             "name": "Greenstein, Linda R.", 
             "type": "cosponsor"
         }, 
@@ -216,7 +220,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 21:50:06", 
+    "updated_at": "2013-08-28 15:36:11", 
     "versions": [
         {
             "doc_id": "NJD00019357", 
@@ -287,527 +291,6 @@
                 {
                     "leg_id": "NJL000128", 
                     "name": "Benson, Daniel R."
-                }
-            ]
-        }, 
-        {
-            "+bill_id": "A3908", 
-            "bill_id": "NJB00007167", 
-            "chamber": "lower", 
-            "date": "2011-06-29 00:00:00", 
-            "id": "NJV00003285", 
-            "motion": "3RDG FINAL PASSAGE", 
-            "no_count": 1, 
-            "no_votes": [
-                {
-                    "leg_id": "NJL000076", 
-                    "name": "Carroll, Michael Patrick"
-                }
-            ], 
-            "other_count": 1, 
-            "other_votes": [
-                {
-                    "leg_id": "NJL000049", 
-                    "name": "Biondi, Peter J."
-                }
-            ], 
-            "passed": true, 
-            "session": "214", 
-            "sources": [], 
-            "state": "nj", 
-            "type": "other", 
-            "vote_id": "NJV00003285", 
-            "yes_count": 77, 
-            "yes_votes": [
-                {
-                    "leg_id": "NJL000002", 
-                    "name": "Albano, Nelson T."
-                }, 
-                {
-                    "leg_id": "NJL000005", 
-                    "name": "Amodeo, John F."
-                }, 
-                {
-                    "leg_id": "NJL000034", 
-                    "name": "Angelini, Mary Pat"
-                }, 
-                {
-                    "leg_id": "NJL000056", 
-                    "name": "Barnes, Peter J."
-                }, 
-                {
-                    "leg_id": "NJL000128", 
-                    "name": "Benson, Daniel R."
-                }, 
-                {
-                    "leg_id": "NJL000064", 
-                    "name": "Bramnick, Jon M."
-                }, 
-                {
-                    "leg_id": "NJL000077", 
-                    "name": "Bucco, Anthony M."
-                }, 
-                {
-                    "leg_id": "NJL000008", 
-                    "name": "Burzichelli, John J."
-                }, 
-                {
-                    "leg_id": "NJL000086", 
-                    "name": "Caputo, Ralph R."
-                }, 
-                {
-                    "leg_id": "NJL000037", 
-                    "name": "Casagrande, Caroline"
-                }, 
-                {
-                    "leg_id": "NJL000073", 
-                    "name": "Chiusano, Gary R."
-                }, 
-                {
-                    "leg_id": "NJL000053", 
-                    "name": "Chivukula, Upendra J."
-                }, 
-                {
-                    "leg_id": "NJL000022", 
-                    "name": "Conaway, Herb"
-                }, 
-                {
-                    "leg_id": "NJL000021", 
-                    "name": "Conners, Jack"
-                }, 
-                {
-                    "leg_id": "NJL000059", 
-                    "name": "Coughlin, Craig J."
-                }, 
-                {
-                    "leg_id": "NJL000089", 
-                    "name": "Coutinho, Albert"
-                }, 
-                {
-                    "leg_id": "NJL000050", 
-                    "name": "Coyle, Denise M."
-                }, 
-                {
-                    "leg_id": "NJL000061", 
-                    "name": "Cryan, Joseph"
-                }, 
-                {
-                    "leg_id": "NJL000092", 
-                    "name": "Dancer, Ronald S."
-                }, 
-                {
-                    "leg_id": "NJL000044", 
-                    "name": "DeAngelo, Wayne P."
-                }, 
-                {
-                    "leg_id": "NJL000079", 
-                    "name": "DeCroce, Alex"
-                }, 
-                {
-                    "leg_id": "NJL000126", 
-                    "name": "Delany, Patrick"
-                }, 
-                {
-                    "leg_id": "NJL000012", 
-                    "name": "DiCicco, Domenick"
-                }, 
-                {
-                    "leg_id": "NJL000055", 
-                    "name": "Diegnan, Patrick J."
-                }, 
-                {
-                    "leg_id": "NJL000070", 
-                    "name": "DiMaio, John"
-                }, 
-                {
-                    "leg_id": "NJL000052", 
-                    "name": "Egan, Joseph V."
-                }, 
-                {
-                    "leg_id": "NJL000108", 
-                    "name": "Evans, Elease"
-                }, 
-                {
-                    "leg_id": "NJL000016", 
-                    "name": "Fuentes, Angel"
-                }, 
-                {
-                    "leg_id": "NJL000105", 
-                    "name": "Giblin, Thomas P."
-                }, 
-                {
-                    "leg_id": "NJL000028", 
-                    "name": "Gove, DiAnne C."
-                }, 
-                {
-                    "leg_id": "NJL000068", 
-                    "name": "Green, Jerry"
-                }, 
-                {
-                    "leg_id": "NJL000019", 
-                    "name": "Greenwald, Louis D."
-                }, 
-                {
-                    "leg_id": "NJL000047", 
-                    "name": "Gusciora, Reed"
-                }, 
-                {
-                    "leg_id": "NJL000040", 
-                    "name": "Handlin, Amy H."
-                }, 
-                {
-                    "leg_id": "NJL000031", 
-                    "name": "Holzapfel, James W."
-                }, 
-                {
-                    "leg_id": "NJL000083", 
-                    "name": "Jasey, Mila M."
-                }, 
-                {
-                    "leg_id": "NJL000114", 
-                    "name": "Johnson, Gordon M."
-                }, 
-                {
-                    "leg_id": "NJL000018", 
-                    "name": "Lampitt, Pamela R."
-                }, 
-                {
-                    "leg_id": "NJL000095", 
-                    "name": "Mainor, Charles"
-                }, 
-                {
-                    "leg_id": "NJL000091", 
-                    "name": "Malone, Joseph R."
-                }, 
-                {
-                    "leg_id": "NJL000074", 
-                    "name": "McHose, Alison Littell"
-                }, 
-                {
-                    "leg_id": "NJL000082", 
-                    "name": "McKeon, John F."
-                }, 
-                {
-                    "leg_id": "NJL000003", 
-                    "name": "Milam, Matthew W."
-                }, 
-                {
-                    "leg_id": "NJL000011", 
-                    "name": "Moriarty, Paul D."
-                }, 
-                {
-                    "leg_id": "NJL000065", 
-                    "name": "Munoz, Nancy F."
-                }, 
-                {
-                    "leg_id": "NJL000096", 
-                    "name": "O'Donnell, Jason"
-                }, 
-                {
-                    "leg_id": "NJL000104", 
-                    "name": "Oliver, Sheila Y."
-                }, 
-                {
-                    "leg_id": "NJL000036", 
-                    "name": "O'Scanlon, Declan J."
-                }, 
-                {
-                    "leg_id": "NJL000071", 
-                    "name": "Peterson, Erik"
-                }, 
-                {
-                    "leg_id": "NJL000006", 
-                    "name": "Polistina, Vincent J."
-                }, 
-                {
-                    "leg_id": "NJL000107", 
-                    "name": "Pou, Nellie"
-                }, 
-                {
-                    "leg_id": "NJL000099", 
-                    "name": "Prieto, Vincent"
-                }, 
-                {
-                    "leg_id": "NJL000098", 
-                    "name": "Quigley, Joan M."
-                }, 
-                {
-                    "leg_id": "NJL000062", 
-                    "name": "Quijano, Annette"
-                }, 
-                {
-                    "leg_id": "NJL000101", 
-                    "name": "Ramos, Ruben J."
-                }, 
-                {
-                    "leg_id": "NJL000033", 
-                    "name": "Rible, David P."
-                }, 
-                {
-                    "leg_id": "NJL000009", 
-                    "name": "Riley, Celeste M."
-                }, 
-                {
-                    "leg_id": "NJL000025", 
-                    "name": "Rudder, Scott"
-                }, 
-                {
-                    "leg_id": "NJL000123", 
-                    "name": "Rumana, Scott T."
-                }, 
-                {
-                    "leg_id": "NJL000027", 
-                    "name": "Rumpf, Brian E."
-                }, 
-                {
-                    "leg_id": "NJL000122", 
-                    "name": "Russo, David C."
-                }, 
-                {
-                    "leg_id": "NJL000127", 
-                    "name": "Ryan, Kevin J."
-                }, 
-                {
-                    "leg_id": "NJL000111", 
-                    "name": "Schaer, Gary S."
-                }, 
-                {
-                    "leg_id": "NJL000120", 
-                    "name": "Schroeder, Robert"
-                }, 
-                {
-                    "leg_id": "NJL000088", 
-                    "name": "Spencer, L. Grace"
-                }, 
-                {
-                    "leg_id": "NJL000067", 
-                    "name": "Stender, Linda"
-                }, 
-                {
-                    "leg_id": "NJL000039", 
-                    "name": "Thompson, Samuel D."
-                }, 
-                {
-                    "leg_id": "NJL000085", 
-                    "name": "Tucker, Cleopatra G."
-                }, 
-                {
-                    "leg_id": "NJL000113", 
-                    "name": "Vainieri Huttle, Valerie"
-                }, 
-                {
-                    "leg_id": "NJL000119", 
-                    "name": "Vandervalk, Charlotte"
-                }, 
-                {
-                    "leg_id": "NJL000116", 
-                    "name": "Voss, Joan M."
-                }, 
-                {
-                    "leg_id": "NJL000117", 
-                    "name": "Wagner, Connie"
-                }, 
-                {
-                    "leg_id": "NJL000046", 
-                    "name": "Watson Coleman, Bonnie"
-                }, 
-                {
-                    "leg_id": "NJL000080", 
-                    "name": "Webber, Jay"
-                }, 
-                {
-                    "leg_id": "NJL000014", 
-                    "name": "Wilson, Gilbert L."
-                }, 
-                {
-                    "leg_id": "NJL000058", 
-                    "name": "Wisniewski, John S."
-                }, 
-                {
-                    "leg_id": "NJL000030", 
-                    "name": "Wolfe, David W."
-                }
-            ]
-        }, 
-        {
-            "+bill_id": "A3908", 
-            "bill_id": "NJB00007167", 
-            "chamber": "upper", 
-            "date": "2011-12-15 00:00:00", 
-            "id": "NJV00003890", 
-            "motion": "3RDG FINAL PASSAGE", 
-            "no_count": 0, 
-            "no_votes": [], 
-            "other_count": 1, 
-            "other_votes": [
-                {
-                    "leg_id": "NJL000029", 
-                    "name": "Ciesla, Andrew R."
-                }
-            ], 
-            "passed": true, 
-            "session": "214", 
-            "sources": [], 
-            "state": "nj", 
-            "type": "other", 
-            "vote_id": "NJV00003890", 
-            "yes_count": 39, 
-            "yes_votes": [
-                {
-                    "leg_id": "NJL000124", 
-                    "name": "Addiego, Dawn Marie"
-                }, 
-                {
-                    "leg_id": "NJL000020", 
-                    "name": "Allen, Diane B."
-                }, 
-                {
-                    "leg_id": "NJL000048", 
-                    "name": "Bateman, Christopher"
-                }, 
-                {
-                    "leg_id": "NJL000017", 
-                    "name": "Beach, James"
-                }, 
-                {
-                    "leg_id": "NJL000035", 
-                    "name": "Beck, Jennifer"
-                }, 
-                {
-                    "leg_id": "NJL000075", 
-                    "name": "Bucco, Anthony R."
-                }, 
-                {
-                    "leg_id": "NJL000054", 
-                    "name": "Buono, Barbara"
-                }, 
-                {
-                    "leg_id": "NJL000118", 
-                    "name": "Cardinale, Gerald"
-                }, 
-                {
-                    "leg_id": "NJL000081", 
-                    "name": "Codey, Richard J."
-                }, 
-                {
-                    "leg_id": "NJL000026", 
-                    "name": "Connors, Christopher J."
-                }, 
-                {
-                    "leg_id": "NJL000093", 
-                    "name": "Cunningham, Sandra B."
-                }, 
-                {
-                    "leg_id": "NJL000069", 
-                    "name": "Doherty, Michael J."
-                }, 
-                {
-                    "leg_id": "NJL000103", 
-                    "name": "Gill, Nia H."
-                }, 
-                {
-                    "leg_id": "NJL000106", 
-                    "name": "Girgenti, John A."
-                }, 
-                {
-                    "leg_id": "NJL000115", 
-                    "name": "Gordon, Robert M."
-                }, 
-                {
-                    "leg_id": "NJL000125", 
-                    "name": "Greenstein, Linda R."
-                }, 
-                {
-                    "leg_id": "NJL000032", 
-                    "name": "Kean, Sean T."
-                }, 
-                {
-                    "leg_id": "NJL000063", 
-                    "name": "Kean, Thomas H."
-                }, 
-                {
-                    "leg_id": "NJL000038", 
-                    "name": "Kyrillos, Joseph M."
-                }, 
-                {
-                    "leg_id": "NJL000060", 
-                    "name": "Lesniak, Raymond J."
-                }, 
-                {
-                    "leg_id": "NJL000010", 
-                    "name": "Madden, Fred H."
-                }, 
-                {
-                    "leg_id": "NJL000013", 
-                    "name": "Norcross, Donald"
-                }, 
-                {
-                    "leg_id": "NJL000072", 
-                    "name": "Oroho, Steven V."
-                }, 
-                {
-                    "leg_id": "NJL000121", 
-                    "name": "O'Toole, Kevin J."
-                }, 
-                {
-                    "leg_id": "NJL000078", 
-                    "name": "Pennacchio, Joseph"
-                }, 
-                {
-                    "leg_id": "NJL000084", 
-                    "name": "Rice, Ronald L."
-                }, 
-                {
-                    "leg_id": "NJL000087", 
-                    "name": "Ruiz, M. Teresa"
-                }, 
-                {
-                    "leg_id": "NJL000097", 
-                    "name": "Sacco, Nicholas J."
-                }, 
-                {
-                    "leg_id": "NJL000109", 
-                    "name": "Sarlo, Paul A."
-                }, 
-                {
-                    "leg_id": "NJL000066", 
-                    "name": "Scutari, Nicholas P."
-                }, 
-                {
-                    "leg_id": "NJL000090", 
-                    "name": "Singer, Robert W."
-                }, 
-                {
-                    "leg_id": "NJL000051", 
-                    "name": "Smith, Bob"
-                }, 
-                {
-                    "leg_id": "NJL000100", 
-                    "name": "Stack, Brian P."
-                }, 
-                {
-                    "leg_id": "NJL000007", 
-                    "name": "Sweeney, Stephen M."
-                }, 
-                {
-                    "leg_id": "NJL000045", 
-                    "name": "Turner, Shirley K."
-                }, 
-                {
-                    "leg_id": "NJL000001", 
-                    "name": "Van Drew, Jeff"
-                }, 
-                {
-                    "leg_id": "NJL000057", 
-                    "name": "Vitale, Joseph F."
-                }, 
-                {
-                    "leg_id": "NJL000112", 
-                    "name": "Weinberg, Loretta"
-                }, 
-                {
-                    "leg_id": "NJL000004", 
-                    "name": "Whelan, Jim"
                 }
             ]
         }

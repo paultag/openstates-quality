@@ -11,6 +11,7 @@
             "action": "Introduced in the Senate, Referred to Senate Budget and Appropriations Committee", 
             "actor": "upper", 
             "date": "2011-11-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -20,6 +21,7 @@
             "action": "Reported out of Senate Committee with Amendments, 2nd Reading", 
             "actor": "upper", 
             "date": "2011-11-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -28,6 +30,7 @@
             "action": "Combined with S3077 (SS)", 
             "actor": "upper", 
             "date": "2011-12-15 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,6 +39,14 @@
     "alternate_titles": [], 
     "bill_id": "S 3100", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 4421", 
+            "chamber": null, 
+            "internal_id": "NJB00008206", 
+            "session": "214"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-09-27 00:46:19", 
     "documents": [
@@ -59,19 +70,7 @@
     "session": "214", 
     "sources": [
         {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/MAINBILL.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSPON.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLWP.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLHIST.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSUBJ.DBF"
+            "url": "http://www.njleg.state.nj.us/downloads.asp"
         }
     ], 
     "sponsors": [
@@ -90,7 +89,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 21:50:02", 
+    "updated_at": "2013-08-28 15:35:08", 
     "versions": [
         {
             "doc_id": "NJD00025919", 
@@ -141,7 +140,7 @@
                     "name": "Buono, Barbara"
                 }, 
                 {
-                    "leg_id": "NJL000075", 
+                    "leg_id": null, 
                     "name": "Bucco, Anthony R."
                 }
             ], 

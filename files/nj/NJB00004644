@@ -11,6 +11,7 @@
             "action": "Introduced in the Senate, Referred to Senate Law and Public Safety Committee", 
             "actor": "upper", 
             "date": "2010-02-04 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -20,6 +21,10 @@
             "action": "Reported out of Senate Committee, 2nd Reading", 
             "actor": "upper", 
             "date": "2010-05-27 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NJV00001150"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -28,6 +33,10 @@
             "action": "Passed Senate (38-0)", 
             "actor": "upper", 
             "date": "2010-06-21 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NJV00001149"
+            ], 
             "type": [
                 "bill:passed"
             ]
@@ -36,6 +45,7 @@
             "action": "Received in the Assembly, Referred to Assembly Homeland Security and State Preparedness Committee", 
             "actor": "lower", 
             "date": "2010-06-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -44,6 +54,7 @@
     "alternate_titles": [], 
     "bill_id": "S 1002", 
     "chamber": "upper", 
+    "companions": [], 
     "country": "us", 
     "created_at": "2010-11-29 19:07:15", 
     "documents": [
@@ -61,19 +72,7 @@
     "session": "214", 
     "sources": [
         {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/MAINBILL.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSPON.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLWP.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLHIST.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSUBJ.DBF"
+            "url": "http://www.njleg.state.nj.us/downloads.asp"
         }
     ], 
     "sponsors": [
@@ -88,7 +87,7 @@
             "type": "primary"
         }, 
         {
-            "leg_id": null, 
+            "leg_id": "NJL000013", 
             "name": "Norcross, Donald", 
             "type": "cosponsor"
         }
@@ -101,7 +100,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 21:49:56", 
+    "updated_at": "2013-08-28 15:33:23", 
     "versions": [
         {
             "doc_id": "NJD00021653", 
@@ -115,6 +114,50 @@
             "+bill_id": "S1002", 
             "bill_id": "NJB00004644", 
             "chamber": "upper", 
+            "committee": "Senate Law and Public Safety Committee", 
+            "committee_id": "NJC000037", 
+            "date": "2010-05-27 00:00:00", 
+            "id": "NJV00001150", 
+            "motion": "Reported favorably out of committee", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 1, 
+            "other_votes": [
+                {
+                    "leg_id": "NJL000023", 
+                    "name": "Haines, Philip E."
+                }
+            ], 
+            "passed": true, 
+            "session": "214", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00001150", 
+            "yes_count": 4, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000013", 
+                    "name": "Norcross, Donald"
+                }, 
+                {
+                    "leg_id": "NJL000029", 
+                    "name": "Ciesla, Andrew R."
+                }, 
+                {
+                    "leg_id": "NJL000106", 
+                    "name": "Girgenti, John A."
+                }, 
+                {
+                    "leg_id": "NJL000097", 
+                    "name": "Sacco, Nicholas J."
+                }
+            ]
+        }, 
+        {
+            "+bill_id": "S1002", 
+            "bill_id": "NJB00004644", 
+            "chamber": "upper", 
             "date": "2010-06-21 00:00:00", 
             "id": "NJV00001149", 
             "motion": "3RDG FINAL PASSAGE", 
@@ -123,7 +166,7 @@
             "other_count": 2, 
             "other_votes": [
                 {
-                    "leg_id": "NJL000075", 
+                    "leg_id": null, 
                     "name": "Bucco, Anthony R."
                 }, 
                 {
@@ -290,50 +333,6 @@
                 {
                     "leg_id": "NJL000004", 
                     "name": "Whelan, Jim"
-                }
-            ]
-        }, 
-        {
-            "+bill_id": "S1002", 
-            "bill_id": "NJB00004644", 
-            "chamber": "upper", 
-            "committee": "Senate Law and Public Safety Committee", 
-            "committee_id": "NJC000037", 
-            "date": "2010-05-27 00:00:00", 
-            "id": "NJV00001150", 
-            "motion": "Reported favorably out of committee", 
-            "no_count": 0, 
-            "no_votes": [], 
-            "other_count": 1, 
-            "other_votes": [
-                {
-                    "leg_id": "NJL000023", 
-                    "name": "Haines, Philip E."
-                }
-            ], 
-            "passed": true, 
-            "session": "214", 
-            "sources": [], 
-            "state": "nj", 
-            "type": "other", 
-            "vote_id": "NJV00001150", 
-            "yes_count": 4, 
-            "yes_votes": [
-                {
-                    "leg_id": "NJL000013", 
-                    "name": "Norcross, Donald"
-                }, 
-                {
-                    "leg_id": "NJL000029", 
-                    "name": "Ciesla, Andrew R."
-                }, 
-                {
-                    "leg_id": "NJL000106", 
-                    "name": "Girgenti, John A."
-                }, 
-                {
-                    "leg_id": "NJL000097", 
-                    "name": "Sacco, Nicholas J."
                 }
             ]
         }

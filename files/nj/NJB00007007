@@ -11,6 +11,7 @@
             "action": "Introduced in the Senate, Referred to Senate Economic Growth Committee", 
             "actor": "upper", 
             "date": "2011-02-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -20,6 +21,10 @@
             "action": "Reported out of Senate Committee with Amendments, 2nd Reading", 
             "actor": "upper", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NJV00002828"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -28,6 +33,7 @@
             "action": "Referred to Senate Budget and Appropriations Committee", 
             "actor": "upper", 
             "date": "2011-05-19 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -36,6 +42,10 @@
             "action": "Reported out of Senate Committee, 2nd Reading", 
             "actor": "upper", 
             "date": "2011-08-25 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NJV00003369"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -44,6 +54,7 @@
             "action": "Substituted by A3688 (2R)", 
             "actor": "upper", 
             "date": "2011-09-26 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -52,6 +63,14 @@
     "alternate_titles": [], 
     "bill_id": "S 2728", 
     "chamber": "upper", 
+    "companions": [
+        {
+            "bill_id": "A 3688", 
+            "chamber": null, 
+            "internal_id": "NJB00006706", 
+            "session": "214"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-02-17 22:26:26", 
     "documents": [
@@ -80,24 +99,12 @@
     "session": "214", 
     "sources": [
         {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/MAINBILL.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSPON.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLWP.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLHIST.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSUBJ.DBF"
+            "url": "http://www.njleg.state.nj.us/downloads.asp"
         }
     ], 
     "sponsors": [
         {
-            "leg_id": null, 
+            "leg_id": "NJL000013", 
             "name": "Norcross, Donald", 
             "type": "primary"
         }, 
@@ -117,7 +124,8 @@
             "type": "cosponsor"
         }, 
         {
-            "leg_id": "NJL000075", 
+            "committee_id": null, 
+            "leg_id": null, 
             "name": "Bucco, Anthony R.", 
             "type": "cosponsor"
         }, 
@@ -136,11 +144,11 @@
     "subjects": [
         "Agriculture and Food"
     ], 
-    "title": "Authorizes Department of Agriculture to implement mobile fresh produce markets for residents of urban \"food desert\" communities.", 
+    "title": "Authorizes Department of Agriculture to implement mobile fresh produce markets for residents of urban \"food desert\" communities. ", 
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 21:49:35", 
+    "updated_at": "2013-08-28 15:28:46", 
     "versions": [
         {
             "doc_id": "NJD00025108", 
@@ -270,7 +278,7 @@
                     "name": "Buono, Barbara"
                 }, 
                 {
-                    "leg_id": "NJL000075", 
+                    "leg_id": null, 
                     "name": "Bucco, Anthony R."
                 }, 
                 {

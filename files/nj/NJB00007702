@@ -11,6 +11,7 @@
             "action": "Introduced in the Assembly, Referred to Assembly Budget Committee", 
             "actor": "lower", 
             "date": "2011-06-27 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -20,6 +21,10 @@
             "action": "Reported out of Assembly Committee, 2nd Reading", 
             "actor": "lower", 
             "date": "2011-06-27 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NJV00003141"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -28,6 +33,7 @@
             "action": "Substituted by S2974", 
             "actor": "lower", 
             "date": "2011-06-29 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -36,6 +42,14 @@
     "alternate_titles": [], 
     "bill_id": "A 4221", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2974", 
+            "chamber": null, 
+            "internal_id": "NJB00007717", 
+            "session": "214"
+        }
+    ], 
     "country": "us", 
     "created_at": "2011-06-24 05:04:20", 
     "documents": [
@@ -58,19 +72,7 @@
     "session": "214", 
     "sources": [
         {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/MAINBILL.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSPON.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLWP.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLHIST.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSUBJ.DBF"
+            "url": "http://www.njleg.state.nj.us/downloads.asp"
         }
     ], 
     "sponsors": [
@@ -80,7 +82,7 @@
             "type": "primary"
         }, 
         {
-            "leg_id": "NJL000077", 
+            "leg_id": "NJL000075", 
             "name": "Bucco, Anthony M.", 
             "type": "primary"
         }, 
@@ -103,7 +105,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 21:49:30", 
+    "updated_at": "2013-08-28 15:27:42", 
     "versions": [
         {
             "doc_id": "NJD00019906", 
@@ -143,7 +145,7 @@
                     "name": "Coutinho, Albert"
                 }, 
                 {
-                    "leg_id": "NJL000077", 
+                    "leg_id": null, 
                     "name": "Bucco, Anthony M."
                 }, 
                 {

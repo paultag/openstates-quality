@@ -11,6 +11,7 @@
             "action": "Introduced in the Assembly, Referred to Assembly Environment and Solid Waste Committee", 
             "actor": "lower", 
             "date": "2010-02-18 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -20,6 +21,7 @@
             "action": "Reported out of Assembly Committee with Amendments, 2nd Reading", 
             "actor": "lower", 
             "date": "2010-09-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -28,6 +30,7 @@
             "action": "Assembly Floor Amendment Passed (McKeon)", 
             "actor": "lower", 
             "date": "2010-11-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -36,6 +39,7 @@
             "action": "Passed Assembly (66-7-1)", 
             "actor": "lower", 
             "date": "2010-12-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -44,6 +48,7 @@
             "action": "Received in the Senate without Reference, 2nd Reading", 
             "actor": "upper", 
             "date": "2010-12-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -52,6 +57,7 @@
             "action": "Senate Amendment (33-2) (Smith)", 
             "actor": "upper", 
             "date": "2010-12-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "amendment:passed"
             ]
@@ -60,6 +66,7 @@
             "action": "Substituted for S2554", 
             "actor": "upper", 
             "date": "2010-12-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -68,6 +75,7 @@
             "action": "Passed Senate (36-3)", 
             "actor": "upper", 
             "date": "2010-12-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -76,6 +84,7 @@
             "action": "Received in the Assembly, 2nd Reading on Concurrence", 
             "actor": "lower", 
             "date": "2010-12-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -84,6 +93,7 @@
             "action": "Passed Assembly (Passed Both Houses) (67-6-0)", 
             "actor": "lower", 
             "date": "2010-12-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -92,6 +102,7 @@
             "action": "Approved P.L.2010, c.112.", 
             "actor": "executive", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -100,6 +111,14 @@
     "alternate_titles": [], 
     "bill_id": "A 2290", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2554", 
+            "chamber": null, 
+            "internal_id": "NJB00006504", 
+            "session": "214"
+        }
+    ], 
     "country": "us", 
     "created_at": "2010-11-29 19:07:09", 
     "documents": [
@@ -149,19 +168,7 @@
     "session": "214", 
     "sources": [
         {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/MAINBILL.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSPON.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLWP.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLHIST.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSUBJ.DBF"
+            "url": "http://www.njleg.state.nj.us/downloads.asp"
         }
     ], 
     "sponsors": [
@@ -286,7 +293,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 21:49:54", 
+    "updated_at": "2013-08-28 15:32:52", 
     "versions": [
         {
             "doc_id": "NJD00016206", 
@@ -396,7 +403,7 @@
                     "name": "Bramnick, Jon M."
                 }, 
                 {
-                    "leg_id": "NJL000077", 
+                    "leg_id": null, 
                     "name": "Bucco, Anthony M."
                 }, 
                 {
@@ -735,7 +742,7 @@
                     "name": "Bramnick, Jon M."
                 }, 
                 {
-                    "leg_id": "NJL000077", 
+                    "leg_id": null, 
                     "name": "Bucco, Anthony M."
                 }, 
                 {
@@ -989,28 +996,40 @@
             "bill_id": "NJB00002180", 
             "chamber": "upper", 
             "date": "2010-12-13 00:00:00", 
-            "id": "NJV00000294", 
-            "motion": "3RDG FINAL PASSAGE", 
-            "no_count": 3, 
+            "id": "NJV00000295", 
+            "motion": "AMEND", 
+            "no_count": 2, 
             "no_votes": [
                 {
                     "leg_id": "NJL000017", 
                     "name": "Beach, James"
                 }, 
                 {
-                    "leg_id": "NJL000072", 
-                    "name": "Oroho, Steven V."
-                }, 
-                {
                     "leg_id": "NJL000109", 
                     "name": "Sarlo, Paul A."
                 }
             ], 
-            "other_count": 1, 
+            "other_count": 5, 
             "other_votes": [
+                {
+                    "leg_id": "NJL000020", 
+                    "name": "Allen, Diane B."
+                }, 
                 {
                     "leg_id": "NJL000013", 
                     "name": "Norcross, Donald"
+                }, 
+                {
+                    "leg_id": "NJL000072", 
+                    "name": "Oroho, Steven V."
+                }, 
+                {
+                    "leg_id": "NJL000121", 
+                    "name": "O'Toole, Kevin J."
+                }, 
+                {
+                    "leg_id": "NJL000078", 
+                    "name": "Pennacchio, Joseph"
                 }
             ], 
             "passed": true, 
@@ -1018,16 +1037,12 @@
             "sources": [], 
             "state": "nj", 
             "type": "other", 
-            "vote_id": "NJV00000294", 
-            "yes_count": 35, 
+            "vote_id": "NJV00000295", 
+            "yes_count": 32, 
             "yes_votes": [
                 {
                     "leg_id": "NJL000124", 
                     "name": "Addiego, Dawn Marie"
-                }, 
-                {
-                    "leg_id": "NJL000020", 
-                    "name": "Allen, Diane B."
                 }, 
                 {
                     "leg_id": "NJL000048", 
@@ -1038,7 +1053,7 @@
                     "name": "Beck, Jennifer"
                 }, 
                 {
-                    "leg_id": "NJL000075", 
+                    "leg_id": null, 
                     "name": "Bucco, Anthony R."
                 }, 
                 {
@@ -1100,14 +1115,6 @@
                 {
                     "leg_id": "NJL000010", 
                     "name": "Madden, Fred H."
-                }, 
-                {
-                    "leg_id": "NJL000121", 
-                    "name": "O'Toole, Kevin J."
-                }, 
-                {
-                    "leg_id": "NJL000078", 
-                    "name": "Pennacchio, Joseph"
                 }, 
                 {
                     "leg_id": "NJL000084", 
@@ -1168,40 +1175,28 @@
             "bill_id": "NJB00002180", 
             "chamber": "upper", 
             "date": "2010-12-13 00:00:00", 
-            "id": "NJV00000295", 
-            "motion": "AMEND", 
-            "no_count": 2, 
+            "id": "NJV00000294", 
+            "motion": "3RDG FINAL PASSAGE", 
+            "no_count": 3, 
             "no_votes": [
                 {
                     "leg_id": "NJL000017", 
                     "name": "Beach, James"
                 }, 
                 {
-                    "leg_id": "NJL000109", 
-                    "name": "Sarlo, Paul A."
-                }
-            ], 
-            "other_count": 5, 
-            "other_votes": [
-                {
-                    "leg_id": "NJL000020", 
-                    "name": "Allen, Diane B."
-                }, 
-                {
-                    "leg_id": "NJL000013", 
-                    "name": "Norcross, Donald"
-                }, 
-                {
                     "leg_id": "NJL000072", 
                     "name": "Oroho, Steven V."
                 }, 
                 {
-                    "leg_id": "NJL000121", 
-                    "name": "O'Toole, Kevin J."
-                }, 
+                    "leg_id": "NJL000109", 
+                    "name": "Sarlo, Paul A."
+                }
+            ], 
+            "other_count": 1, 
+            "other_votes": [
                 {
-                    "leg_id": "NJL000078", 
-                    "name": "Pennacchio, Joseph"
+                    "leg_id": "NJL000013", 
+                    "name": "Norcross, Donald"
                 }
             ], 
             "passed": true, 
@@ -1209,12 +1204,16 @@
             "sources": [], 
             "state": "nj", 
             "type": "other", 
-            "vote_id": "NJV00000295", 
-            "yes_count": 32, 
+            "vote_id": "NJV00000294", 
+            "yes_count": 35, 
             "yes_votes": [
                 {
                     "leg_id": "NJL000124", 
                     "name": "Addiego, Dawn Marie"
+                }, 
+                {
+                    "leg_id": "NJL000020", 
+                    "name": "Allen, Diane B."
                 }, 
                 {
                     "leg_id": "NJL000048", 
@@ -1225,7 +1224,7 @@
                     "name": "Beck, Jennifer"
                 }, 
                 {
-                    "leg_id": "NJL000075", 
+                    "leg_id": null, 
                     "name": "Bucco, Anthony R."
                 }, 
                 {
@@ -1287,6 +1286,14 @@
                 {
                     "leg_id": "NJL000010", 
                     "name": "Madden, Fred H."
+                }, 
+                {
+                    "leg_id": "NJL000121", 
+                    "name": "O'Toole, Kevin J."
+                }, 
+                {
+                    "leg_id": "NJL000078", 
+                    "name": "Pennacchio, Joseph"
                 }, 
                 {
                     "leg_id": "NJL000084", 

@@ -11,6 +11,7 @@
             "action": "Introduced in the Assembly, Referred to Assembly Financial Institutions and Insurance Committee", 
             "actor": "lower", 
             "date": "2010-01-12 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -20,6 +21,7 @@
             "action": "Reported out of Assembly Committee with Amendments, 2nd Reading", 
             "actor": "lower", 
             "date": "2010-06-10 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:passed"
             ]
@@ -28,6 +30,10 @@
             "action": "Passed Assembly (80-0-0)", 
             "actor": "lower", 
             "date": "2010-06-21 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NJV00000912"
+            ], 
             "type": [
                 "bill:passed"
             ]
@@ -36,6 +42,7 @@
             "action": "Received in the Senate, Referred to Senate Commerce Committee", 
             "actor": "upper", 
             "date": "2010-06-21 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -44,6 +51,10 @@
             "action": "Reported out of Senate Committee, 2nd Reading", 
             "actor": "upper", 
             "date": "2010-11-08 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NJV00000914"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -52,6 +63,7 @@
             "action": "Substituted for S1846 (1R)", 
             "actor": "upper", 
             "date": "2010-11-22 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -60,6 +72,10 @@
             "action": "Passed Senate (Passed Both Houses) (36-0)", 
             "actor": "upper", 
             "date": "2010-11-22 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NJV00000913"
+            ], 
             "type": [
                 "bill:passed"
             ]
@@ -68,6 +84,7 @@
             "action": "Approved P.L.2010, c.119.", 
             "actor": "executive", 
             "date": "2011-01-05 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:signed"
             ]
@@ -76,6 +93,14 @@
     "alternate_titles": [], 
     "bill_id": "A 410", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 1846", 
+            "chamber": null, 
+            "internal_id": "NJB00005484", 
+            "session": "214"
+        }
+    ], 
     "country": "us", 
     "created_at": "2010-11-29 19:07:03", 
     "documents": [
@@ -108,19 +133,7 @@
     "session": "214", 
     "sources": [
         {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/MAINBILL.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSPON.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLWP.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLHIST.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSUBJ.DBF"
+            "url": "http://www.njleg.state.nj.us/downloads.asp"
         }
     ], 
     "sponsors": [
@@ -163,7 +176,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 21:49:39", 
+    "updated_at": "2013-08-28 15:30:01", 
     "versions": [
         {
             "doc_id": "NJD00019715", 
@@ -179,6 +192,227 @@
         }
     ], 
     "votes": [
+        {
+            "+bill_id": "A410", 
+            "bill_id": "NJB00000309", 
+            "chamber": "upper", 
+            "date": "2010-11-22 00:00:00", 
+            "id": "NJV00000913", 
+            "motion": "3RDG FINAL PASSAGE", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 3, 
+            "other_votes": [
+                {
+                    "leg_id": "NJL000035", 
+                    "name": "Beck, Jennifer"
+                }, 
+                {
+                    "leg_id": "NJL000042", 
+                    "name": "Goodwin, Thomas"
+                }, 
+                {
+                    "leg_id": "NJL000112", 
+                    "name": "Weinberg, Loretta"
+                }
+            ], 
+            "passed": true, 
+            "session": "214", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00000913", 
+            "yes_count": 36, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000020", 
+                    "name": "Allen, Diane B."
+                }, 
+                {
+                    "leg_id": "NJL000048", 
+                    "name": "Bateman, Christopher"
+                }, 
+                {
+                    "leg_id": "NJL000017", 
+                    "name": "Beach, James"
+                }, 
+                {
+                    "leg_id": null, 
+                    "name": "Bucco, Anthony R."
+                }, 
+                {
+                    "leg_id": "NJL000054", 
+                    "name": "Buono, Barbara"
+                }, 
+                {
+                    "leg_id": "NJL000118", 
+                    "name": "Cardinale, Gerald"
+                }, 
+                {
+                    "leg_id": "NJL000029", 
+                    "name": "Ciesla, Andrew R."
+                }, 
+                {
+                    "leg_id": "NJL000081", 
+                    "name": "Codey, Richard J."
+                }, 
+                {
+                    "leg_id": "NJL000026", 
+                    "name": "Connors, Christopher J."
+                }, 
+                {
+                    "leg_id": "NJL000093", 
+                    "name": "Cunningham, Sandra B."
+                }, 
+                {
+                    "leg_id": "NJL000069", 
+                    "name": "Doherty, Michael J."
+                }, 
+                {
+                    "leg_id": "NJL000103", 
+                    "name": "Gill, Nia H."
+                }, 
+                {
+                    "leg_id": "NJL000106", 
+                    "name": "Girgenti, John A."
+                }, 
+                {
+                    "leg_id": "NJL000115", 
+                    "name": "Gordon, Robert M."
+                }, 
+                {
+                    "leg_id": "NJL000032", 
+                    "name": "Kean, Sean T."
+                }, 
+                {
+                    "leg_id": "NJL000063", 
+                    "name": "Kean, Thomas H."
+                }, 
+                {
+                    "leg_id": "NJL000038", 
+                    "name": "Kyrillos, Joseph M."
+                }, 
+                {
+                    "leg_id": "NJL000060", 
+                    "name": "Lesniak, Raymond J."
+                }, 
+                {
+                    "leg_id": "NJL000010", 
+                    "name": "Madden, Fred H."
+                }, 
+                {
+                    "leg_id": "NJL000013", 
+                    "name": "Norcross, Donald"
+                }, 
+                {
+                    "leg_id": "NJL000072", 
+                    "name": "Oroho, Steven V."
+                }, 
+                {
+                    "leg_id": "NJL000121", 
+                    "name": "O'Toole, Kevin J."
+                }, 
+                {
+                    "leg_id": "NJL000078", 
+                    "name": "Pennacchio, Joseph"
+                }, 
+                {
+                    "leg_id": "NJL000084", 
+                    "name": "Rice, Ronald L."
+                }, 
+                {
+                    "leg_id": "NJL000087", 
+                    "name": "Ruiz, M. Teresa"
+                }, 
+                {
+                    "leg_id": "NJL000097", 
+                    "name": "Sacco, Nicholas J."
+                }, 
+                {
+                    "leg_id": "NJL000109", 
+                    "name": "Sarlo, Paul A."
+                }, 
+                {
+                    "leg_id": "NJL000066", 
+                    "name": "Scutari, Nicholas P."
+                }, 
+                {
+                    "leg_id": "NJL000090", 
+                    "name": "Singer, Robert W."
+                }, 
+                {
+                    "leg_id": "NJL000051", 
+                    "name": "Smith, Bob"
+                }, 
+                {
+                    "leg_id": "NJL000100", 
+                    "name": "Stack, Brian P."
+                }, 
+                {
+                    "leg_id": "NJL000007", 
+                    "name": "Sweeney, Stephen M."
+                }, 
+                {
+                    "leg_id": "NJL000045", 
+                    "name": "Turner, Shirley K."
+                }, 
+                {
+                    "leg_id": "NJL000001", 
+                    "name": "Van Drew, Jeff"
+                }, 
+                {
+                    "leg_id": "NJL000057", 
+                    "name": "Vitale, Joseph F."
+                }, 
+                {
+                    "leg_id": "NJL000004", 
+                    "name": "Whelan, Jim"
+                }
+            ]
+        }, 
+        {
+            "+bill_id": "A410", 
+            "bill_id": "NJB00000309", 
+            "chamber": "upper", 
+            "committee": "Senate Commerce Committee", 
+            "committee_id": "NJC000061", 
+            "date": "2010-11-08 00:00:00", 
+            "id": "NJV00000914", 
+            "motion": "Reported favorably out of committee", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "214", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00000914", 
+            "yes_count": 5, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000063", 
+                    "name": "Kean, Thomas H."
+                }, 
+                {
+                    "leg_id": "NJL000066", 
+                    "name": "Scutari, Nicholas P."
+                }, 
+                {
+                    "leg_id": "NJL000060", 
+                    "name": "Lesniak, Raymond J."
+                }, 
+                {
+                    "leg_id": "NJL000118", 
+                    "name": "Cardinale, Gerald"
+                }, 
+                {
+                    "leg_id": "NJL000103", 
+                    "name": "Gill, Nia H."
+                }
+            ]
+        }, 
         {
             "+bill_id": "A410", 
             "bill_id": "NJB00000309", 
@@ -227,7 +461,7 @@
                     "name": "Bramnick, Jon M."
                 }, 
                 {
-                    "leg_id": "NJL000077", 
+                    "leg_id": null, 
                     "name": "Bucco, Anthony M."
                 }, 
                 {
@@ -517,227 +751,6 @@
                 {
                     "leg_id": "NJL000030", 
                     "name": "Wolfe, David W."
-                }
-            ]
-        }, 
-        {
-            "+bill_id": "A410", 
-            "bill_id": "NJB00000309", 
-            "chamber": "upper", 
-            "date": "2010-11-22 00:00:00", 
-            "id": "NJV00000913", 
-            "motion": "3RDG FINAL PASSAGE", 
-            "no_count": 0, 
-            "no_votes": [], 
-            "other_count": 3, 
-            "other_votes": [
-                {
-                    "leg_id": "NJL000035", 
-                    "name": "Beck, Jennifer"
-                }, 
-                {
-                    "leg_id": "NJL000042", 
-                    "name": "Goodwin, Thomas"
-                }, 
-                {
-                    "leg_id": "NJL000112", 
-                    "name": "Weinberg, Loretta"
-                }
-            ], 
-            "passed": true, 
-            "session": "214", 
-            "sources": [], 
-            "state": "nj", 
-            "type": "other", 
-            "vote_id": "NJV00000913", 
-            "yes_count": 36, 
-            "yes_votes": [
-                {
-                    "leg_id": "NJL000020", 
-                    "name": "Allen, Diane B."
-                }, 
-                {
-                    "leg_id": "NJL000048", 
-                    "name": "Bateman, Christopher"
-                }, 
-                {
-                    "leg_id": "NJL000017", 
-                    "name": "Beach, James"
-                }, 
-                {
-                    "leg_id": "NJL000075", 
-                    "name": "Bucco, Anthony R."
-                }, 
-                {
-                    "leg_id": "NJL000054", 
-                    "name": "Buono, Barbara"
-                }, 
-                {
-                    "leg_id": "NJL000118", 
-                    "name": "Cardinale, Gerald"
-                }, 
-                {
-                    "leg_id": "NJL000029", 
-                    "name": "Ciesla, Andrew R."
-                }, 
-                {
-                    "leg_id": "NJL000081", 
-                    "name": "Codey, Richard J."
-                }, 
-                {
-                    "leg_id": "NJL000026", 
-                    "name": "Connors, Christopher J."
-                }, 
-                {
-                    "leg_id": "NJL000093", 
-                    "name": "Cunningham, Sandra B."
-                }, 
-                {
-                    "leg_id": "NJL000069", 
-                    "name": "Doherty, Michael J."
-                }, 
-                {
-                    "leg_id": "NJL000103", 
-                    "name": "Gill, Nia H."
-                }, 
-                {
-                    "leg_id": "NJL000106", 
-                    "name": "Girgenti, John A."
-                }, 
-                {
-                    "leg_id": "NJL000115", 
-                    "name": "Gordon, Robert M."
-                }, 
-                {
-                    "leg_id": "NJL000032", 
-                    "name": "Kean, Sean T."
-                }, 
-                {
-                    "leg_id": "NJL000063", 
-                    "name": "Kean, Thomas H."
-                }, 
-                {
-                    "leg_id": "NJL000038", 
-                    "name": "Kyrillos, Joseph M."
-                }, 
-                {
-                    "leg_id": "NJL000060", 
-                    "name": "Lesniak, Raymond J."
-                }, 
-                {
-                    "leg_id": "NJL000010", 
-                    "name": "Madden, Fred H."
-                }, 
-                {
-                    "leg_id": "NJL000013", 
-                    "name": "Norcross, Donald"
-                }, 
-                {
-                    "leg_id": "NJL000072", 
-                    "name": "Oroho, Steven V."
-                }, 
-                {
-                    "leg_id": "NJL000121", 
-                    "name": "O'Toole, Kevin J."
-                }, 
-                {
-                    "leg_id": "NJL000078", 
-                    "name": "Pennacchio, Joseph"
-                }, 
-                {
-                    "leg_id": "NJL000084", 
-                    "name": "Rice, Ronald L."
-                }, 
-                {
-                    "leg_id": "NJL000087", 
-                    "name": "Ruiz, M. Teresa"
-                }, 
-                {
-                    "leg_id": "NJL000097", 
-                    "name": "Sacco, Nicholas J."
-                }, 
-                {
-                    "leg_id": "NJL000109", 
-                    "name": "Sarlo, Paul A."
-                }, 
-                {
-                    "leg_id": "NJL000066", 
-                    "name": "Scutari, Nicholas P."
-                }, 
-                {
-                    "leg_id": "NJL000090", 
-                    "name": "Singer, Robert W."
-                }, 
-                {
-                    "leg_id": "NJL000051", 
-                    "name": "Smith, Bob"
-                }, 
-                {
-                    "leg_id": "NJL000100", 
-                    "name": "Stack, Brian P."
-                }, 
-                {
-                    "leg_id": "NJL000007", 
-                    "name": "Sweeney, Stephen M."
-                }, 
-                {
-                    "leg_id": "NJL000045", 
-                    "name": "Turner, Shirley K."
-                }, 
-                {
-                    "leg_id": "NJL000001", 
-                    "name": "Van Drew, Jeff"
-                }, 
-                {
-                    "leg_id": "NJL000057", 
-                    "name": "Vitale, Joseph F."
-                }, 
-                {
-                    "leg_id": "NJL000004", 
-                    "name": "Whelan, Jim"
-                }
-            ]
-        }, 
-        {
-            "+bill_id": "A410", 
-            "bill_id": "NJB00000309", 
-            "chamber": "upper", 
-            "committee": "Senate Commerce Committee", 
-            "committee_id": "NJC000061", 
-            "date": "2010-11-08 00:00:00", 
-            "id": "NJV00000914", 
-            "motion": "Reported favorably out of committee", 
-            "no_count": 0, 
-            "no_votes": [], 
-            "other_count": 0, 
-            "other_votes": [], 
-            "passed": true, 
-            "session": "214", 
-            "sources": [], 
-            "state": "nj", 
-            "type": "other", 
-            "vote_id": "NJV00000914", 
-            "yes_count": 5, 
-            "yes_votes": [
-                {
-                    "leg_id": "NJL000063", 
-                    "name": "Kean, Thomas H."
-                }, 
-                {
-                    "leg_id": "NJL000066", 
-                    "name": "Scutari, Nicholas P."
-                }, 
-                {
-                    "leg_id": "NJL000060", 
-                    "name": "Lesniak, Raymond J."
-                }, 
-                {
-                    "leg_id": "NJL000118", 
-                    "name": "Cardinale, Gerald"
-                }, 
-                {
-                    "leg_id": "NJL000103", 
-                    "name": "Gill, Nia H."
                 }
             ]
         }

@@ -11,6 +11,7 @@
             "action": "Introduced in the Assembly, Referred to Assembly State Government Committee", 
             "actor": "lower", 
             "date": "2010-05-20 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:introduced", 
                 "committee:referred"
@@ -20,6 +21,7 @@
             "action": "Transferred to Assembly Regulatory Oversight and Gaming Committee", 
             "actor": "lower", 
             "date": "2010-06-17 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "committee:referred"
             ]
@@ -28,6 +30,10 @@
             "action": "Reported out of Assembly Committee, 2nd Reading", 
             "actor": "lower", 
             "date": "2010-06-17 00:00:00", 
+            "related_entities": [], 
+            "related_votes": [
+                "NJV00000476"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -36,6 +42,7 @@
             "action": "Passed Assembly (78-0-0)", 
             "actor": "lower", 
             "date": "2010-06-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -44,6 +51,7 @@
             "action": "Received in the Senate without Reference, 2nd Reading", 
             "actor": "upper", 
             "date": "2010-06-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -52,6 +60,7 @@
             "action": "Substituted for S2074", 
             "actor": "upper", 
             "date": "2010-06-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "other"
             ]
@@ -60,6 +69,7 @@
             "action": "Passed Senate (Passed Both Houses) (39-0)", 
             "actor": "upper", 
             "date": "2010-06-28 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "bill:passed"
             ]
@@ -68,6 +78,7 @@
             "action": "Conditional Veto, Received in the Assembly", 
             "actor": "lower", 
             "date": "2010-09-13 00:00:00", 
+            "related_entities": [], 
             "type": [
                 "governor:vetoed"
             ]
@@ -76,6 +87,14 @@
     "alternate_titles": [], 
     "bill_id": "A 2768", 
     "chamber": "lower", 
+    "companions": [
+        {
+            "bill_id": "S 2074", 
+            "chamber": null, 
+            "internal_id": "NJB00005710", 
+            "session": "214"
+        }
+    ], 
     "country": "us", 
     "created_at": "2010-11-29 19:07:10", 
     "documents": [
@@ -98,19 +117,7 @@
     "session": "214", 
     "sources": [
         {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/MAINBILL.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSPON.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLWP.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLHIST.DBF"
-        }, 
-        {
-            "url": "ftp://www.njleg.state.nj.us/ag/2010data/BILLSUBJ.DBF"
+            "url": "http://www.njleg.state.nj.us/downloads.asp"
         }
     ], 
     "sponsors": [
@@ -143,7 +150,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2012-07-06 21:50:21", 
+    "updated_at": "2013-08-28 15:39:36", 
     "versions": [
         {
             "doc_id": "NJD00017121", 
@@ -206,7 +213,7 @@
                     "name": "Bramnick, Jon M."
                 }, 
                 {
-                    "leg_id": "NJL000077", 
+                    "leg_id": null, 
                     "name": "Bucco, Anthony M."
                 }, 
                 {
@@ -532,7 +539,7 @@
                     "name": "Beck, Jennifer"
                 }, 
                 {
-                    "leg_id": "NJL000075", 
+                    "leg_id": null, 
                     "name": "Bucco, Anthony R."
                 }, 
                 {
