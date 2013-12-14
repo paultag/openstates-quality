@@ -64,6 +64,9 @@
             "actor": "upper", 
             "date": "2013-12-12 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NJV00011910"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -106,6 +109,11 @@
             "doc_id": "NJD00037507", 
             "name": "Statement Assembly 12/17/12 1R", 
             "url": "http://www.njleg.state.nj.us/2012/Bills/A2000/1570_S2.HTM"
+        }, 
+        {
+            "doc_id": "NJD00042594", 
+            "name": "Statement SCU 12/12/13 2R", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/A2000/1570_S3.HTM"
         }
     ], 
     "id": "NJB00016758", 
@@ -181,7 +189,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2013-12-13 08:17:02", 
+    "updated_at": "2013-12-14 08:17:31", 
     "versions": [
         {
             "doc_id": "NJD00028576", 
@@ -591,6 +599,50 @@
                 {
                     "leg_id": "NJL000157", 
                     "name": "Clifton, Robert D."
+                }
+            ]
+        }, 
+        {
+            "+bill_id": "A1570", 
+            "bill_id": "NJB00016758", 
+            "chamber": "upper", 
+            "committee": "Senate Community and Urban Affairs Committee", 
+            "committee_id": "NJC000062", 
+            "date": "2013-12-12 00:00:00", 
+            "id": "NJV00011910", 
+            "motion": "Reported favorably out of committee", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 2, 
+            "other_votes": [
+                {
+                    "leg_id": "NJL000026", 
+                    "name": "Connors, Christopher J."
+                }, 
+                {
+                    "leg_id": "NJL000039", 
+                    "name": "Thompson, Samuel D."
+                }
+            ], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00011910", 
+            "yes_count": 3, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000093", 
+                    "name": "Cunningham, Sandra B."
+                }, 
+                {
+                    "leg_id": "NJL000001", 
+                    "name": "Van Drew, Jeff"
+                }, 
+                {
+                    "leg_id": "NJL000100", 
+                    "name": "Stack, Brian P."
                 }
             ]
         }

@@ -22,6 +22,9 @@
             "actor": "lower", 
             "date": "2013-12-12 00:00:00", 
             "related_entities": [], 
+            "related_votes": [
+                "NJV00011931"
+            ], 
             "type": [
                 "committee:passed"
             ]
@@ -33,7 +36,18 @@
     "companions": [], 
     "country": "us", 
     "created_at": "2012-01-12 22:02:05", 
-    "documents": [], 
+    "documents": [
+        {
+            "doc_id": "NJD00042701", 
+            "name": "Statement AHO 12/12/13", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/A2000/1712_S1.HTM"
+        }, 
+        {
+            "doc_id": "NJD00042702", 
+            "name": "Technical Report", 
+            "url": "http://www.njleg.state.nj.us/2012/Bills/A2000/1712_T1.HTM"
+        }
+    ], 
     "id": "NJB00019106", 
     "level": "state", 
     "scraped_subjects": [
@@ -67,7 +81,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2013-12-13 08:21:46", 
+    "updated_at": "2013-12-14 08:22:16", 
     "versions": [
         {
             "doc_id": "NJD00032391", 
@@ -76,5 +90,53 @@
             "url": "http://www.njleg.state.nj.us/2012/Bills/A2000/1712_I1.HTM"
         }
     ], 
-    "votes": []
+    "votes": [
+        {
+            "+bill_id": "A1712", 
+            "bill_id": "NJB00019106", 
+            "chamber": "lower", 
+            "committee": "Assembly Housing and Local Government Committee", 
+            "committee_id": null, 
+            "date": "2013-12-12 00:00:00", 
+            "id": "NJV00011931", 
+            "motion": "Reported favorably out of committee", 
+            "no_count": 0, 
+            "no_votes": [], 
+            "other_count": 0, 
+            "other_votes": [], 
+            "passed": true, 
+            "session": "215", 
+            "sources": [], 
+            "state": "nj", 
+            "type": "other", 
+            "vote_id": "NJV00011931", 
+            "yes_count": 6, 
+            "yes_votes": [
+                {
+                    "leg_id": "NJL000101", 
+                    "name": "Ramos, Ruben J."
+                }, 
+                {
+                    "leg_id": "NJL000157", 
+                    "name": "Clifton, Robert D."
+                }, 
+                {
+                    "leg_id": "NJL000161", 
+                    "name": "Jimenez, Angelica M."
+                }, 
+                {
+                    "leg_id": "NJL000068", 
+                    "name": "Green, Jerry"
+                }, 
+                {
+                    "leg_id": "NJL000076", 
+                    "name": "Carroll, Michael Patrick"
+                }, 
+                {
+                    "leg_id": "NJL000083", 
+                    "name": "Jasey, Mila M."
+                }
+            ]
+        }
+    ]
 }
