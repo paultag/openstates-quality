@@ -1,9 +1,9 @@
 {
     "action_dates": {
         "first": "2012-05-03 00:00:00", 
-        "last": "2013-11-07 00:00:00", 
+        "last": "2013-12-19 00:00:00", 
         "passed_lower": null, 
-        "passed_upper": null, 
+        "passed_upper": "2013-12-19 00:00:00", 
         "signed": null
     }, 
     "actions": [
@@ -27,6 +27,24 @@
             ], 
             "type": [
                 "committee:passed"
+            ]
+        }, 
+        {
+            "action": "Passed Senate (36-0)", 
+            "actor": "upper", 
+            "date": "2013-12-19 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
+            ]
+        }, 
+        {
+            "action": "Received in the Assembly, Referred to Assembly Housing and Local Government Committee", 
+            "actor": "lower", 
+            "date": "2013-12-19 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "committee:referred"
             ]
         }
     ], 
@@ -67,6 +85,21 @@
             "leg_id": "NJL000174", 
             "name": "Bucco, Anthony R.", 
             "type": "primary"
+        }, 
+        {
+            "leg_id": "NJL000118", 
+            "name": "Cardinale, Gerald", 
+            "type": "primary"
+        }, 
+        {
+            "leg_id": "NJL000020", 
+            "name": "Allen, Diane B.", 
+            "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NJL000090", 
+            "name": "Singer, Robert W.", 
+            "type": "cosponsor"
         }
     ], 
     "state": "nj", 
@@ -78,7 +111,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2013-12-18 03:51:57", 
+    "updated_at": "2013-12-20 00:35:43", 
     "versions": [
         {
             "doc_id": "NJD00033402", 
