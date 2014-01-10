@@ -1,9 +1,9 @@
 {
     "action_dates": {
         "first": "2012-01-10 00:00:00", 
-        "last": "2014-01-06 00:00:00", 
+        "last": "2014-01-09 00:00:00", 
         "passed_lower": "2013-01-28 00:00:00", 
-        "passed_upper": null, 
+        "passed_upper": "2014-01-09 00:00:00", 
         "signed": null
     }, 
     "actions": [
@@ -65,7 +65,7 @@
             "date": "2013-12-12 00:00:00", 
             "related_entities": [], 
             "related_votes": [
-                "NJV00011910"
+                "NJV00012209"
             ], 
             "type": [
                 "committee:passed"
@@ -87,6 +87,24 @@
             "related_entities": [], 
             "type": [
                 "committee:passed"
+            ]
+        }, 
+        {
+            "action": "Substituted for S2273", 
+            "actor": "upper", 
+            "date": "2014-01-09 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "other"
+            ]
+        }, 
+        {
+            "action": "Passed Senate (Passed Both Houses) (25-13)", 
+            "actor": "upper", 
+            "date": "2014-01-09 00:00:00", 
+            "related_entities": [], 
+            "type": [
+                "bill:passed"
             ]
         }
     ], 
@@ -192,6 +210,11 @@
             "leg_id": "NJL000117", 
             "name": "Wagner, Connie", 
             "type": "cosponsor"
+        }, 
+        {
+            "leg_id": "NJL000013", 
+            "name": "Norcross, Donald", 
+            "type": "cosponsor"
         }
     ], 
     "state": "nj", 
@@ -203,7 +226,7 @@
     "type": [
         "bill"
     ], 
-    "updated_at": "2014-01-08 00:31:03", 
+    "updated_at": "2014-01-10 00:30:46", 
     "versions": [
         {
             "doc_id": "NJD00028576", 
@@ -620,22 +643,35 @@
             "+bill_id": "A1570", 
             "bill_id": "NJB00016758", 
             "chamber": "upper", 
-            "committee": "Senate Community and Urban Affairs Committee", 
-            "committee_id": "NJC000062", 
+            "committee": "Senate Budget and Appropriations Committee", 
+            "committee_id": "NJC000060", 
             "date": "2013-12-12 00:00:00", 
-            "id": "NJV00011910", 
+            "id": "NJV00012209", 
             "motion": "Reported favorably out of committee", 
-            "no_count": 0, 
-            "no_votes": [], 
+            "no_count": 3, 
+            "no_votes": [
+                {
+                    "leg_id": "NJL000174", 
+                    "name": "Bucco, Anthony R."
+                }, 
+                {
+                    "leg_id": "NJL000078", 
+                    "name": "Pennacchio, Joseph"
+                }, 
+                {
+                    "leg_id": "NJL000121", 
+                    "name": "O'Toole, Kevin J."
+                }
+            ], 
             "other_count": 2, 
             "other_votes": [
                 {
-                    "leg_id": "NJL000039", 
-                    "name": "Thompson, Samuel D."
-                }, 
-                {
                     "leg_id": "NJL000026", 
                     "name": "Connors, Christopher J."
+                }, 
+                {
+                    "leg_id": "NJL000039", 
+                    "name": "Thompson, Samuel D."
                 }
             ], 
             "passed": true, 
@@ -643,8 +679,8 @@
             "sources": [], 
             "state": "nj", 
             "type": "other", 
-            "vote_id": "NJV00011910", 
-            "yes_count": 3, 
+            "vote_id": "NJV00012209", 
+            "yes_count": 13, 
             "yes_votes": [
                 {
                     "leg_id": "NJL000093", 
@@ -657,6 +693,46 @@
                 {
                     "leg_id": "NJL000100", 
                     "name": "Stack, Brian P."
+                }, 
+                {
+                    "leg_id": "NJL000109", 
+                    "name": "Sarlo, Paul A."
+                }, 
+                {
+                    "leg_id": "NJL000112", 
+                    "name": "Weinberg, Loretta"
+                }, 
+                {
+                    "leg_id": "NJL000072", 
+                    "name": "Oroho, Steven V."
+                }, 
+                {
+                    "leg_id": "NJL000087", 
+                    "name": "Ruiz, M. Teresa"
+                }, 
+                {
+                    "leg_id": "NJL000093", 
+                    "name": "Cunningham, Sandra B."
+                }, 
+                {
+                    "leg_id": "NJL000001", 
+                    "name": "Van Drew, Jeff"
+                }, 
+                {
+                    "leg_id": "NJL000100", 
+                    "name": "Stack, Brian P."
+                }, 
+                {
+                    "leg_id": "NJL000043", 
+                    "name": "Greenstein, Linda R."
+                }, 
+                {
+                    "leg_id": "NJL000107", 
+                    "name": "Pou, Nellie"
+                }, 
+                {
+                    "leg_id": "NJL000035", 
+                    "name": "Beck, Jennifer"
                 }
             ]
         }
